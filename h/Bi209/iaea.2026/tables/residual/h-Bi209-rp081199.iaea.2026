@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi209(h,x)Tl199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 199
+#     nuclide: Tl199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.834095E-10
+   6.000000E+01   1.051796E-07
+   6.500000E+01   9.647475E-06
+   7.000000E+01   1.960428E-04
+   7.500000E+01   1.380272E-03
+   8.000000E+01   4.251338E-03
+   9.000000E+01   1.676974E-02
+   1.000000E+02   1.094235E-01
+   1.100000E+02   3.548568E-01
+   1.200000E+02   5.343047E-01
+   1.300000E+02   6.374199E-01
+   1.400000E+02   5.419407E-01
+   1.500000E+02   5.210373E-01
+   1.600000E+02   4.879033E-01
+   1.800000E+02   4.715538E-01
+   2.000000E+02   6.989424E-01

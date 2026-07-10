@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta181(h,x)Ta170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 170
+#     nuclide: Ta170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.187967E-07
+   1.000000E+02   2.459184E-03
+   1.100000E+02   1.104999E-01
+   1.200000E+02   8.731374E-01
+   1.300000E+02   5.170603E+00
+   1.400000E+02   2.301606E+01
+   1.500000E+02   4.975207E+01
+   1.600000E+02   7.568562E+01
+   1.800000E+02   7.641995E+01
+   2.000000E+02   7.958932E+01

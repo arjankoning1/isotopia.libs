@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn116(h,x)Cd104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 104
+#     nuclide: Cd104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.681303E-10
+   9.000000E+01   1.522952E-05
+   1.000000E+02   4.233974E-03
+   1.100000E+02   6.922382E-02
+   1.200000E+02   5.854629E-01
+   1.300000E+02   4.209831E+00
+   1.400000E+02   1.587541E+01
+   1.500000E+02   2.958408E+01
+   1.600000E+02   4.344868E+01
+   1.800000E+02   7.184315E+01
+   2.000000E+02   7.697845E+01

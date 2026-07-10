@@ -1,0 +1,39 @@
+# header: 
+#   title: Tc95m(h,x)Kr77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.868386E-12
+   1.000000E+02   1.108476E-07
+   1.100000E+02   3.551523E-05
+   1.200000E+02   6.554119E-04
+   1.300000E+02   3.540589E-03
+   1.400000E+02   1.390841E-02
+   1.500000E+02   1.145286E-01
+   1.600000E+02   5.312186E-01
+   1.800000E+02   2.695434E+00
+   2.000000E+02   9.783052E+00

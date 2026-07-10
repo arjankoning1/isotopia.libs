@@ -1,0 +1,40 @@
+# header: 
+#   title: Rb83(h,x)As69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 83
+#   nuclide: Rb83
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 69
+#     nuclide: As69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.734382E-11
+   9.000000E+01   1.489556E-06
+   1.000000E+02   2.401217E-04
+   1.100000E+02   2.475717E-03
+   1.200000E+02   1.790259E-02
+   1.300000E+02   1.397496E-01
+   1.400000E+02   5.650985E-01
+   1.500000E+02   1.074396E+00
+   1.600000E+02   2.101229E+00
+   1.800000E+02   7.506010E+00
+   2.000000E+02   2.218897E+01

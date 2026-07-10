@@ -1,0 +1,44 @@
+# header: 
+#   title: Es257(h,x)Cf248 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 257
+#   nuclide: Es257
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 248
+#     nuclide: Cf248
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.050330E-11
+   6.500000E+01   4.140490E-10
+   7.000000E+01   3.490156E-09
+   7.500000E+01   1.145278E-08
+   8.000000E+01   2.074693E-08
+   9.000000E+01   8.576868E-08
+   1.000000E+02   1.556509E-07
+   1.100000E+02   1.740349E-07
+   1.200000E+02   1.289385E-07
+   1.300000E+02   5.381500E-07
+   1.400000E+02   8.650487E-07
+   1.500000E+02   9.992960E-07
+   1.600000E+02   3.722604E-07
+   1.800000E+02   5.782519E-07
+   2.000000E+02   1.030357E-06

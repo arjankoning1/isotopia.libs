@@ -1,0 +1,48 @@
+# header: 
+#   title: Cr51(h,x)Fe50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 50
+#     nuclide: Fe50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   8.909169E-07
+   4.500000E+01   2.646230E-05
+   5.000000E+01   8.223179E-05
+   5.500000E+01   1.321839E-04
+   6.000000E+01   1.604620E-04
+   6.500000E+01   1.664324E-04
+   7.000000E+01   1.583443E-04
+   7.500000E+01   1.442688E-04
+   8.000000E+01   1.281114E-04
+   9.000000E+01   9.957236E-05
+   1.000000E+02   7.843279E-05
+   1.100000E+02   6.369666E-05
+   1.200000E+02   5.311094E-05
+   1.300000E+02   4.457528E-05
+   1.400000E+02   3.863489E-05
+   1.500000E+02   3.386464E-05
+   1.600000E+02   2.978511E-05
+   1.800000E+02   2.402083E-05
+   2.000000E+02   1.971076E-05

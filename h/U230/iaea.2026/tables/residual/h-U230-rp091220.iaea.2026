@@ -1,0 +1,43 @@
+# header: 
+#   title: U230(h,x)Pa220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 220
+#     nuclide: Pa220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.837154E-12
+   7.000000E+01   1.087211E-08
+   7.500000E+01   6.396401E-07
+   8.000000E+01   2.722608E-05
+   9.000000E+01   1.246320E-02
+   1.000000E+02   2.622423E-01
+   1.100000E+02   1.053163E+00
+   1.200000E+02   2.013870E+00
+   1.300000E+02   3.538693E+00
+   1.400000E+02   4.338038E+00
+   1.500000E+02   4.455835E+00
+   1.600000E+02   6.430113E+00
+   1.800000E+02   9.027846E+00
+   2.000000E+02   5.357771E+00

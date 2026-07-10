@@ -1,0 +1,36 @@
+# header: 
+#   title: Sr83(h,x)Ge64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 83
+#   nuclide: Sr83
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 64
+#     nuclide: Ge64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.207136E-11
+   1.300000E+02   1.033319E-08
+   1.400000E+02   2.425822E-07
+   1.500000E+02   2.650663E-06
+   1.600000E+02   2.413961E-05
+   1.800000E+02   4.419158E-04
+   2.000000E+02   5.171833E-03

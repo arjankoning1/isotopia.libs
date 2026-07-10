@@ -1,0 +1,43 @@
+# header: 
+#   title: Te128(h,x)In115m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.502853E-12
+   8.000000E+01   6.566965E-09
+   9.000000E+01   1.007934E-04
+   1.000000E+02   7.782053E-03
+   1.100000E+02   5.229259E-02
+   1.200000E+02   1.022559E-01
+   1.300000E+02   1.567824E-01
+   1.400000E+02   1.843858E-01
+   1.500000E+02   2.940760E-01
+   1.600000E+02   3.060191E-01
+   1.800000E+02   4.057632E-01
+   2.000000E+02   2.496114E-01

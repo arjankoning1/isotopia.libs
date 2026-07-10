@@ -1,0 +1,39 @@
+# header: 
+#   title: Te119m(h,x)In104m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 119
+#   nuclide: Te119m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 104
+#     nuclide: In104m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.671459E-11
+   1.200000E+02   5.037296E-07
+   1.300000E+02   5.058069E-05
+   1.400000E+02   5.782616E-04
+   1.500000E+02   2.289249E-03
+   1.600000E+02   7.039847E-03
+   1.800000E+02   5.431237E-02
+   2.000000E+02   2.734094E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd100(h,x)Tc98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.163525E-11
+   4.500000E+01   1.474468E-08
+   5.000000E+01   2.736406E-06
+   5.500000E+01   9.186090E-05
+   6.000000E+01   8.873265E-04
+   6.500000E+01   3.802621E-03
+   7.000000E+01   8.995233E-03
+   7.500000E+01   1.430992E-02
+   8.000000E+01   1.773017E-02
+   9.000000E+01   1.900524E-02
+   1.000000E+02   1.501340E-02
+   1.100000E+02   1.227347E-02
+   1.200000E+02   9.283119E-03
+   1.300000E+02   6.719572E-03
+   1.400000E+02   6.025739E-03
+   1.500000E+02   4.522535E-03
+   1.600000E+02   4.013305E-03
+   1.800000E+02   3.047538E-03
+   2.000000E+02   2.020932E-03

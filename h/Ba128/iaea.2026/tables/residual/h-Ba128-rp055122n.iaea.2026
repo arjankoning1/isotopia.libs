@@ -1,0 +1,50 @@
+# header: 
+#   title: Ba128(h,x)Cs122n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.466274E-10
+   4.500000E+01   2.679060E-05
+   5.000000E+01   1.832581E-02
+   5.500000E+01   5.615364E-01
+   6.000000E+01   3.283064E+00
+   6.500000E+01   8.865353E+00
+   7.000000E+01   1.614762E+01
+   7.500000E+01   2.232139E+01
+   8.000000E+01   2.602419E+01
+   9.000000E+01   3.306250E+01
+   1.000000E+02   5.781380E+01
+   1.100000E+02   8.701141E+01
+   1.200000E+02   1.053183E+02
+   1.300000E+02   1.079345E+02
+   1.400000E+02   9.474548E+01
+   1.500000E+02   8.825153E+01
+   1.600000E+02   7.357115E+01
+   1.800000E+02   5.280276E+01
+   2.000000E+02   3.791515E+01

@@ -1,0 +1,43 @@
+# header: 
+#   title: I127(h,x)Cs122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.240044E-09
+   7.000000E+01   6.300568E-05
+   7.500000E+01   3.165268E-03
+   8.000000E+01   2.493592E-02
+   9.000000E+01   1.646273E-01
+   1.000000E+02   3.280333E-01
+   1.100000E+02   4.215011E-01
+   1.200000E+02   4.439699E-01
+   1.300000E+02   4.578940E-01
+   1.400000E+02   4.414420E-01
+   1.500000E+02   4.200734E-01
+   1.600000E+02   3.636847E-01
+   1.800000E+02   3.251036E-01
+   2.000000E+02   2.674129E-01

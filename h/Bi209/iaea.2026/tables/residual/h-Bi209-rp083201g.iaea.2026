@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi209(h,x)Bi201g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 201
+#     nuclide: Bi201g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.774000E-09
+   6.000000E+01   6.513769E-06
+   6.500000E+01   1.454732E-04
+   7.000000E+01   1.594938E-03
+   7.500000E+01   1.490389E-02
+   8.000000E+01   6.861008E-02
+   9.000000E+01   3.154435E-01
+   1.000000E+02   1.744489E+00
+   1.100000E+02   6.918430E+00
+   1.200000E+02   1.323751E+01
+   1.300000E+02   1.604666E+01
+   1.400000E+02   1.651008E+01
+   1.500000E+02   1.494344E+01
+   1.600000E+02   1.515314E+01
+   1.800000E+02   1.319731E+01
+   2.000000E+02   1.020375E+01

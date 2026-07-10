@@ -1,0 +1,44 @@
+# header: 
+#   title: Th232(h,x)Pa225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 225
+#     nuclide: Pa225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.862625E-08
+   6.500000E+01   4.541330E-05
+   7.000000E+01   2.726197E-03
+   7.500000E+01   3.303502E-02
+   8.000000E+01   1.627716E-01
+   9.000000E+01   8.658234E-01
+   1.000000E+02   2.315819E+00
+   1.100000E+02   3.070324E+00
+   1.200000E+02   4.712340E+00
+   1.300000E+02   3.957554E+00
+   1.400000E+02   7.372292E+00
+   1.500000E+02   5.417665E+00
+   1.600000E+02   5.747624E+00
+   1.800000E+02   9.490241E+00
+   2.000000E+02   4.319148E+00

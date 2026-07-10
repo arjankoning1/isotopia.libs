@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn115(h,x)Te112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 112
+#     nuclide: Te112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.302768E-07
+   5.500000E+01   7.188043E-04
+   6.000000E+01   8.090503E-03
+   6.500000E+01   2.788702E-02
+   7.000000E+01   6.494690E-02
+   7.500000E+01   1.071426E-01
+   8.000000E+01   1.349617E-01
+   9.000000E+01   1.403023E-01
+   1.000000E+02   1.163724E-01
+   1.100000E+02   9.034175E-02
+   1.200000E+02   7.214689E-02
+   1.300000E+02   5.744279E-02
+   1.400000E+02   4.758766E-02
+   1.500000E+02   4.152150E-02
+   1.600000E+02   3.762808E-02
+   1.800000E+02   3.052061E-02
+   2.000000E+02   2.520093E-02

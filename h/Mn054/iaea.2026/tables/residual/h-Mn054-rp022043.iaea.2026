@@ -1,0 +1,41 @@
+# header: 
+#   title: Mn54(h,x)Ti43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 43
+#     nuclide: Ti43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.188960E-12
+   8.000000E+01   1.134534E-07
+   9.000000E+01   4.501373E-04
+   1.000000E+02   9.290030E-03
+   1.100000E+02   3.139205E-02
+   1.200000E+02   5.366281E-02
+   1.300000E+02   7.502892E-02
+   1.400000E+02   1.175294E-01
+   1.500000E+02   1.738067E-01
+   1.600000E+02   2.440966E-01
+   1.800000E+02   3.335353E-01
+   2.000000E+02   4.795037E-01

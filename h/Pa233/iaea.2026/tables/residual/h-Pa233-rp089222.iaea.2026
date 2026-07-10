@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa233(h,x)Ac222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 233
+#   nuclide: Pa233
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.635875E-11
+   6.000000E+01   2.162816E-08
+   6.500000E+01   6.252845E-06
+   7.000000E+01   3.053423E-04
+   7.500000E+01   2.063857E-03
+   8.000000E+01   1.412265E-02
+   9.000000E+01   2.539108E-01
+   1.000000E+02   1.989686E+00
+   1.100000E+02   5.610503E+00
+   1.200000E+02   1.010757E+01
+   1.300000E+02   1.525089E+01
+   1.400000E+02   1.500529E+01
+   1.500000E+02   1.542629E+01
+   1.600000E+02   1.001950E+01
+   1.800000E+02   1.131594E+01
+   2.000000E+02   7.799261E+00

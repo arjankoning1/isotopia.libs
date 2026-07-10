@@ -1,0 +1,37 @@
+# header: 
+#   title: Nd148(h,x)Pr131g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 148
+#   nuclide: Nd148
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 131
+#     nuclide: Pr131g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.814050E-12
+   1.400000E+02   3.916972E-07
+   1.500000E+02   1.730833E-04
+   1.600000E+02   8.509137E-03
+   1.800000E+02   9.218261E-01
+   2.000000E+02   5.867408E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Sb123(h,x)Cd111m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.315161E-12
+   7.000000E+01   1.952383E-08
+   7.500000E+01   1.079020E-05
+   8.000000E+01   5.470128E-04
+   9.000000E+01   2.817325E-02
+   1.000000E+02   1.408414E-01
+   1.100000E+02   2.491966E-01
+   1.200000E+02   3.277425E-01
+   1.300000E+02   5.578121E-01
+   1.400000E+02   1.105352E+00
+   1.500000E+02   1.318235E+00
+   1.600000E+02   1.682522E+00
+   1.800000E+02   1.882932E+00
+   2.000000E+02   1.146950E+00

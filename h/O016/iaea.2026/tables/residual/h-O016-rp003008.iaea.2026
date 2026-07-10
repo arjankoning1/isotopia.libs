@@ -1,0 +1,45 @@
+# header: 
+#   title: O16(h,x)Li8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.215392E-08
+   6.000000E+01   8.840110E-06
+   6.500000E+01   2.292696E-04
+   7.000000E+01   1.458593E-03
+   7.500000E+01   4.341641E-03
+   8.000000E+01   8.218949E-03
+   9.000000E+01   1.764620E-02
+   1.000000E+02   4.034210E-02
+   1.100000E+02   1.301335E-01
+   1.200000E+02   3.198946E-01
+   1.300000E+02   5.598398E-01
+   1.400000E+02   7.973318E-01
+   1.500000E+02   1.010024E+00
+   1.600000E+02   1.199338E+00
+   1.800000E+02   1.515715E+00
+   2.000000E+02   1.720026E+00

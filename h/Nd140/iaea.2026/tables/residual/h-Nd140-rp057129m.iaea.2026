@@ -1,0 +1,46 @@
+# header: 
+#   title: Nd140(h,x)La129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 129
+#     nuclide: La129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.008840E-13
+   6.500000E+01   5.730981E-09
+   7.000000E+01   5.265954E-06
+   7.500000E+01   5.586849E-04
+   8.000000E+01   1.156902E-02
+   9.000000E+01   2.544817E-01
+   1.000000E+02   8.690190E-01
+   1.100000E+02   1.298856E+00
+   1.200000E+02   2.270270E+00
+   1.300000E+02   4.615369E+00
+   1.400000E+02   7.547389E+00
+   1.500000E+02   9.541682E+00
+   1.600000E+02   9.958406E+00
+   1.800000E+02   1.042145E+01
+   2.000000E+02   8.778714E+00

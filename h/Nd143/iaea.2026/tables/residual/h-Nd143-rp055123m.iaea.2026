@@ -1,0 +1,37 @@
+# header: 
+#   title: Nd143(h,x)Cs123m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 123
+#     nuclide: Cs123m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   8.862771E-10
+   1.400000E+02   7.792017E-06
+   1.500000E+02   1.098364E-03
+   1.600000E+02   1.646166E-02
+   1.800000E+02   1.932220E-01
+   2.000000E+02   8.342585E-01

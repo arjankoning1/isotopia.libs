@@ -1,0 +1,40 @@
+# header: 
+#   title: Mo100(h,x)Sr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.511993E-12
+   9.000000E+01   2.383948E-07
+   1.000000E+02   4.260672E-05
+   1.100000E+02   6.783194E-04
+   1.200000E+02   9.816410E-03
+   1.300000E+02   1.056402E-01
+   1.400000E+02   3.456317E-01
+   1.500000E+02   8.081371E-01
+   1.600000E+02   1.203808E+00
+   1.800000E+02   3.379450E+00
+   2.000000E+02   5.784591E+00

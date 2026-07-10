@@ -1,0 +1,39 @@
+# header: 
+#   title: Y90(h,x)Br74m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.585920E-09
+   1.200000E+02   7.938171E-06
+   1.300000E+02   4.243732E-04
+   1.400000E+02   7.081246E-03
+   1.500000E+02   9.318376E-02
+   1.600000E+02   5.066352E-01
+   1.800000E+02   3.393330E+00
+   2.000000E+02   7.448050E+00

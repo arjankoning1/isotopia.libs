@@ -1,0 +1,44 @@
+# header: 
+#   title: Si30(h,x)O15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.518896E-10
+   6.500000E+01   2.787979E-06
+   7.000000E+01   1.456962E-04
+   7.500000E+01   1.201089E-03
+   8.000000E+01   4.101522E-03
+   9.000000E+01   1.848281E-02
+   1.000000E+02   9.191605E-02
+   1.100000E+02   3.981615E-01
+   1.200000E+02   9.727902E-01
+   1.300000E+02   1.674131E+00
+   1.400000E+02   2.452591E+00
+   1.500000E+02   3.592724E+00
+   1.600000E+02   5.110633E+00
+   1.800000E+02   8.871539E+00
+   2.000000E+02   1.275885E+01

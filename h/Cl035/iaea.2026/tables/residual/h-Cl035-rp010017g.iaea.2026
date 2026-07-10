@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl35(h,x)Ne17g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.318175E-11
+   1.200000E+02   5.726969E-08
+   1.300000E+02   1.283569E-06
+   1.400000E+02   6.492136E-06
+   1.500000E+02   1.752659E-05
+   1.600000E+02   4.944233E-05
+   1.800000E+02   3.835229E-04
+   2.000000E+02   1.878654E-03

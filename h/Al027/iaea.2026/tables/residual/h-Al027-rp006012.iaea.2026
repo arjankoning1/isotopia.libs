@@ -1,0 +1,46 @@
+# header: 
+#   title: Al27(h,x)C12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.231236E-09
+   5.500000E+01   1.427394E-06
+   6.000000E+01   1.300317E-04
+   6.500000E+01   2.120122E-03
+   7.000000E+01   1.186345E-02
+   7.500000E+01   3.496867E-02
+   8.000000E+01   7.168071E-02
+   9.000000E+01   2.200522E-01
+   1.000000E+02   8.103912E-01
+   1.100000E+02   2.081797E+00
+   1.200000E+02   3.675204E+00
+   1.300000E+02   5.404825E+00
+   1.400000E+02   7.532504E+00
+   1.500000E+02   1.047106E+01
+   1.600000E+02   1.400917E+01
+   1.800000E+02   2.251328E+01
+   2.000000E+02   3.288523E+01

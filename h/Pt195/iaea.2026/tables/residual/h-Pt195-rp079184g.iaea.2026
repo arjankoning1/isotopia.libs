@@ -1,0 +1,39 @@
+# header: 
+#   title: Pt195(h,x)Au184g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 195
+#   nuclide: Pt195
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 184
+#     nuclide: Au184g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.263186E-06
+   1.200000E+02   2.529358E-02
+   1.300000E+02   2.119468E+00
+   1.400000E+02   1.848002E+01
+   1.500000E+02   5.529335E+01
+   1.600000E+02   9.127645E+01
+   1.800000E+02   1.249098E+02
+   2.000000E+02   1.149800E+02

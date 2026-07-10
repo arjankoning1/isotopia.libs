@@ -1,0 +1,43 @@
+# header: 
+#   title: Fe55(h,x)Sc49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 49
+#     nuclide: Sc49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.385181E-10
+   7.000000E+01   5.115307E-08
+   7.500000E+01   6.352295E-07
+   8.000000E+01   3.248892E-06
+   9.000000E+01   2.487740E-05
+   1.000000E+02   6.749976E-05
+   1.100000E+02   1.208745E-04
+   1.200000E+02   1.642481E-04
+   1.300000E+02   3.259653E-04
+   1.400000E+02   4.848250E-04
+   1.500000E+02   7.808953E-04
+   1.600000E+02   1.057857E-03
+   1.800000E+02   1.301633E-03
+   2.000000E+02   8.864507E-04

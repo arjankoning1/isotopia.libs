@@ -1,0 +1,43 @@
+# header: 
+#   title: Po206(h,x)Pb195 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 206
+#   nuclide: Po206
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 195
+#     nuclide: Pb195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.225359E-10
+   7.000000E+01   1.880952E-08
+   7.500000E+01   7.170249E-07
+   8.000000E+01   2.381447E-05
+   9.000000E+01   2.029472E-03
+   1.000000E+02   1.622812E-02
+   1.100000E+02   2.103818E-01
+   1.200000E+02   1.399887E+00
+   1.300000E+02   3.102119E+00
+   1.400000E+02   4.194684E+00
+   1.500000E+02   3.924357E+00
+   1.600000E+02   3.515392E+00
+   1.800000E+02   4.011576E+00
+   2.000000E+02   2.240144E+00

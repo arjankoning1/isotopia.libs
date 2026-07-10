@@ -1,0 +1,45 @@
+# header: 
+#   title: Al26(h,x)Al22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 22
+#     nuclide: Al22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.691361E-08
+   6.000000E+01   6.688053E-07
+   6.500000E+01   4.431553E-06
+   7.000000E+01   1.318785E-05
+   7.500000E+01   2.959001E-05
+   8.000000E+01   5.678598E-05
+   9.000000E+01   1.498908E-04
+   1.000000E+02   3.342973E-04
+   1.100000E+02   5.377838E-04
+   1.200000E+02   6.701736E-04
+   1.300000E+02   7.185810E-04
+   1.400000E+02   7.044580E-04
+   1.500000E+02   6.599341E-04
+   1.600000E+02   5.966201E-04
+   1.800000E+02   4.755464E-04
+   2.000000E+02   3.672272E-04

@@ -1,0 +1,46 @@
+# header: 
+#   title: Cs135(h,x)Ba129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.386023E-06
+   6.500000E+01   1.915770E-02
+   7.000000E+01   1.221114E+00
+   7.500000E+01   1.043778E+01
+   8.000000E+01   3.539742E+01
+   9.000000E+01   1.102915E+02
+   1.000000E+02   1.573484E+02
+   1.100000E+02   1.610480E+02
+   1.200000E+02   1.492838E+02
+   1.300000E+02   1.330556E+02
+   1.400000E+02   1.129062E+02
+   1.500000E+02   9.253630E+01
+   1.600000E+02   8.163815E+01
+   1.800000E+02   5.550984E+01
+   2.000000E+02   3.966810E+01

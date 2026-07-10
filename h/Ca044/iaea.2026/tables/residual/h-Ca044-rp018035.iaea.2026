@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca44(h,x)Ar35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 35
+#     nuclide: Ar35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.956796E-11
+   6.000000E+01   6.897409E-07
+   6.500000E+01   5.391915E-05
+   7.000000E+01   5.597001E-04
+   7.500000E+01   2.188571E-03
+   8.000000E+01   5.372982E-03
+   9.000000E+01   2.763673E-02
+   1.000000E+02   1.594125E-01
+   1.100000E+02   4.202831E-01
+   1.200000E+02   6.670344E-01
+   1.300000E+02   8.685491E-01
+   1.400000E+02   1.092933E+00
+   1.500000E+02   1.419516E+00
+   1.600000E+02   1.770647E+00
+   1.800000E+02   1.990237E+00
+   2.000000E+02   1.996947E+00

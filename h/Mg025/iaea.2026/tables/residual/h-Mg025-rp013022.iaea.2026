@@ -1,0 +1,43 @@
+# header: 
+#   title: Mg25(h,x)Al22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 22
+#     nuclide: Al22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.229940E-11
+   7.000000E+01   2.198423E-07
+   7.500000E+01   4.180331E-06
+   8.000000E+01   2.092711E-05
+   9.000000E+01   9.344834E-05
+   1.000000E+02   1.669004E-04
+   1.100000E+02   2.038034E-04
+   1.200000E+02   2.110616E-04
+   1.300000E+02   1.996452E-04
+   1.400000E+02   1.798289E-04
+   1.500000E+02   1.578991E-04
+   1.600000E+02   1.365693E-04
+   1.800000E+02   1.002110E-04
+   2.000000E+02   7.369810E-05

@@ -1,0 +1,43 @@
+# header: 
+#   title: Nb95m(h,x)Br79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.480418E-12
+   8.000000E+01   1.421594E-09
+   9.000000E+01   4.022030E-07
+   1.000000E+02   5.048887E-06
+   1.100000E+02   3.200112E-05
+   1.200000E+02   3.504543E-04
+   1.300000E+02   1.905537E-03
+   1.400000E+02   4.096034E-03
+   1.500000E+02   7.679040E-03
+   1.600000E+02   1.385611E-02
+   1.800000E+02   4.877486E-02
+   2.000000E+02   9.298105E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: I129(h,x)I120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.254182E-08
+   8.000000E+01   7.348739E-06
+   9.000000E+01   3.449471E-03
+   1.000000E+02   5.372141E-02
+   1.100000E+02   5.467502E-01
+   1.200000E+02   5.172908E+00
+   1.300000E+02   1.889501E+01
+   1.400000E+02   3.725843E+01
+   1.500000E+02   4.625992E+01
+   1.600000E+02   5.042654E+01
+   1.800000E+02   3.831349E+01
+   2.000000E+02   3.297421E+01

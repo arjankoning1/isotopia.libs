@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca46(h,x)S32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 32
+#     nuclide: S32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.312152E-12
+   7.500000E+01   5.897591E-09
+   8.000000E+01   7.576339E-07
+   9.000000E+01   1.192663E-04
+   1.000000E+02   3.777840E-03
+   1.100000E+02   5.273193E-02
+   1.200000E+02   3.207247E-01
+   1.300000E+02   1.060243E+00
+   1.400000E+02   2.281178E+00
+   1.500000E+02   4.217074E+00
+   1.600000E+02   7.449939E+00
+   1.800000E+02   1.956710E+01
+   2.000000E+02   3.335863E+01

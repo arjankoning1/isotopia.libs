@@ -1,0 +1,46 @@
+# header: 
+#   title: B10(h,x)N10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 5
+#   A: 10
+#   nuclide: B10
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 10
+#     nuclide: N10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.276309E-06
+   5.500000E+01   3.047537E-05
+   6.000000E+01   1.194145E-04
+   6.500000E+01   2.555550E-04
+   7.000000E+01   4.380268E-04
+   7.500000E+01   6.390228E-04
+   8.000000E+01   8.258794E-04
+   9.000000E+01   1.100797E-03
+   1.000000E+02   1.159967E-03
+   1.100000E+02   1.016870E-03
+   1.200000E+02   8.143589E-04
+   1.300000E+02   6.079256E-04
+   1.400000E+02   4.377922E-04
+   1.500000E+02   3.049338E-04
+   1.600000E+02   2.088171E-04
+   1.800000E+02   9.321122E-05
+   2.000000E+02   4.274489E-05

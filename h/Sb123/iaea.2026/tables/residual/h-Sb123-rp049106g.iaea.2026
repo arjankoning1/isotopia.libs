@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb123(h,x)In106g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 106
+#     nuclide: In106g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   9.106762E-12
+   1.400000E+02   2.502550E-08
+   1.500000E+02   4.086234E-06
+   1.600000E+02   1.892015E-04
+   1.800000E+02   3.381139E-02
+   2.000000E+02   7.426376E-01

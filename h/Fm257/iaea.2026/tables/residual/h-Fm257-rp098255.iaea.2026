@@ -1,0 +1,44 @@
+# header: 
+#   title: Fm257(h,x)Cf255 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 257
+#   nuclide: Fm257
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 255
+#     nuclide: Cf255
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.771904E-13
+   6.500000E+01   3.734537E-10
+   7.000000E+01   2.258015E-08
+   7.500000E+01   2.589252E-07
+   8.000000E+01   1.471282E-06
+   9.000000E+01   2.073155E-05
+   1.000000E+02   9.403897E-05
+   1.100000E+02   1.140654E-04
+   1.200000E+02   1.871603E-04
+   1.300000E+02   3.680880E-04
+   1.400000E+02   6.404543E-04
+   1.500000E+02   1.025021E-03
+   1.600000E+02   1.515599E-03
+   1.800000E+02   2.879669E-03
+   2.000000E+02   2.027876E-03

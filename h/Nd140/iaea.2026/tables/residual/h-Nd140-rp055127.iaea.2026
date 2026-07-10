@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd140(h,x)Cs127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 127
+#     nuclide: Cs127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.667564E-11
+   6.500000E+01   1.646755E-08
+   7.000000E+01   7.556548E-07
+   7.500000E+01   1.413070E-05
+   8.000000E+01   1.034780E-04
+   9.000000E+01   1.035269E-03
+   1.000000E+02   2.407294E-03
+   1.100000E+02   4.400685E-03
+   1.200000E+02   2.068853E-02
+   1.300000E+02   5.280186E-02
+   1.400000E+02   7.387102E-02
+   1.500000E+02   9.904552E-02
+   1.600000E+02   1.431878E-01
+   1.800000E+02   1.268099E-01
+   2.000000E+02   1.313522E-01

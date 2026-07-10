@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni64(h,x)Mn53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.751442E-10
+   6.500000E+01   1.928906E-06
+   7.000000E+01   4.556328E-04
+   7.500000E+01   9.159456E-03
+   8.000000E+01   5.815496E-02
+   9.000000E+01   4.204062E-01
+   1.000000E+02   1.120797E+00
+   1.100000E+02   2.629066E+00
+   1.200000E+02   8.425140E+00
+   1.300000E+02   2.318566E+01
+   1.400000E+02   3.783993E+01
+   1.500000E+02   4.980109E+01
+   1.600000E+02   6.704095E+01
+   1.800000E+02   8.331793E+01
+   2.000000E+02   8.482122E+01

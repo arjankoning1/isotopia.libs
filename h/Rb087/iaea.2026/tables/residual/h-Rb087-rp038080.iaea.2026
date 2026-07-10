@@ -1,0 +1,40 @@
+# header: 
+#   title: Rb87(h,x)Sr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 80
+#     nuclide: Sr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.960732E-08
+   9.000000E+01   1.578797E-02
+   1.000000E+02   6.516733E-01
+   1.100000E+02   2.870682E+00
+   1.200000E+02   5.535997E+00
+   1.300000E+02   7.653329E+00
+   1.400000E+02   8.822308E+00
+   1.500000E+02   9.676439E+00
+   1.600000E+02   9.095173E+00
+   1.800000E+02   8.930208E+00
+   2.000000E+02   7.442058E+00

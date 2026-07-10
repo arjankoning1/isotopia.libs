@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn65(h,x)Cu58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 58
+#     nuclide: Cu58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.085118E-09
+   6.000000E+01   4.108480E-06
+   6.500000E+01   2.887591E-04
+   7.000000E+01   2.592062E-03
+   7.500000E+01   8.301511E-03
+   8.000000E+01   1.580028E-02
+   9.000000E+01   2.892271E-02
+   1.000000E+02   3.768362E-02
+   1.100000E+02   6.069604E-02
+   1.200000E+02   1.161130E-01
+   1.300000E+02   1.872025E-01
+   1.400000E+02   2.370987E-01
+   1.500000E+02   2.591678E-01
+   1.600000E+02   2.570516E-01
+   1.800000E+02   2.637878E-01
+   2.000000E+02   2.072956E-01

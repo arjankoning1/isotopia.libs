@@ -1,0 +1,47 @@
+# header: 
+#   title: Ge68(h,x)Co60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.205390E-09
+   5.000000E+01   5.777421E-07
+   5.500000E+01   2.770036E-05
+   6.000000E+01   2.938967E-04
+   6.500000E+01   1.252723E-03
+   7.000000E+01   3.057392E-03
+   7.500000E+01   5.022357E-03
+   8.000000E+01   9.754177E-03
+   9.000000E+01   1.041794E-01
+   1.000000E+02   3.895202E-01
+   1.100000E+02   7.932265E-01
+   1.200000E+02   1.193231E+00
+   1.300000E+02   1.609497E+00
+   1.400000E+02   2.403746E+00
+   1.500000E+02   3.290198E+00
+   1.600000E+02   3.710998E+00
+   1.800000E+02   2.588135E+00
+   2.000000E+02   1.822155E+00

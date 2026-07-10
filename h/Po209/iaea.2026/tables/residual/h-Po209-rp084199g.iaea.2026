@@ -1,0 +1,42 @@
+# header: 
+#   title: Po209(h,x)Po199g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 209
+#   nuclide: Po209
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 199
+#     nuclide: Po199g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.302896E-10
+   9.000000E+01   2.611264E-06
+   1.000000E+02   3.760143E-04
+   1.100000E+02   5.983077E-03
+   1.200000E+02   3.433694E-02
+   1.300000E+02   1.928341E-01
+   1.400000E+02   6.249794E-01
+   1.500000E+02   1.172921E+00
+   1.600000E+02   1.257248E+00
+   1.800000E+02   1.506733E+00
+   2.000000E+02   1.427947E+00

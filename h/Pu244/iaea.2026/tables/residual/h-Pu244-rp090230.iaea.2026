@@ -1,0 +1,42 @@
+# header: 
+#   title: Pu244(h,x)Th230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 230
+#     nuclide: Th230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.672338E-11
+   7.500000E+01   3.406103E-09
+   8.000000E+01   5.916974E-08
+   9.000000E+01   2.205693E-06
+   1.000000E+02   2.323837E-05
+   1.100000E+02   8.513516E-05
+   1.200000E+02   3.787706E-04
+   1.300000E+02   1.380147E-03
+   1.400000E+02   3.025106E-03
+   1.500000E+02   3.312108E-03
+   1.600000E+02   1.312536E-03
+   1.800000E+02   1.404489E-03
+   2.000000E+02   2.059858E-03

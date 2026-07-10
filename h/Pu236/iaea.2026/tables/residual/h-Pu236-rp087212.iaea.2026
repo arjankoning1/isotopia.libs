@@ -1,0 +1,36 @@
+# header: 
+#   title: Pu236(h,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.301133E-12
+   1.300000E+02   1.690353E-09
+   1.400000E+02   1.657907E-06
+   1.500000E+02   6.718976E-05
+   1.600000E+02   1.118342E-03
+   1.800000E+02   1.721652E-02
+   2.000000E+02   7.059493E-02

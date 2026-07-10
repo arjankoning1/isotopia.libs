@@ -1,0 +1,38 @@
+# header: 
+#   title: Ta180m(h,x)Lu165 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 180
+#   nuclide: Ta180m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 165
+#     nuclide: Lu165
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.653979E-09
+   1.100000E+02   2.357742E-05
+   1.200000E+02   3.592131E-03
+   1.300000E+02   5.796845E-02
+   1.400000E+02   6.424835E-01
+   1.500000E+02   3.316557E+00
+   1.600000E+02   1.408372E+01
+   1.800000E+02   3.407033E+01
+   2.000000E+02   4.880923E+01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Lu177(h,x)Hf171 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 177
+#   nuclide: Lu177
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.222976E-05
+   6.000000E+01   8.177620E-02
+   6.500000E+01   4.166329E+00
+   7.000000E+01   3.130512E+01
+   7.500000E+01   1.012266E+02
+   8.000000E+01   1.943953E+02
+   9.000000E+01   3.545552E+02
+   1.000000E+02   3.990785E+02
+   1.100000E+02   3.669579E+02
+   1.200000E+02   3.298543E+02
+   1.300000E+02   2.735815E+02
+   1.400000E+02   2.043582E+02
+   1.500000E+02   1.847970E+02
+   1.600000E+02   1.345829E+02
+   1.800000E+02   1.005904E+02
+   2.000000E+02   5.144566E+01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe59(h,x)Sc46g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.924237E-11
+   6.500000E+01   7.124966E-08
+   7.000000E+01   7.252151E-06
+   7.500000E+01   9.161574E-05
+   8.000000E+01   4.315054E-04
+   9.000000E+01   2.509149E-03
+   1.000000E+02   7.445011E-03
+   1.100000E+02   3.040984E-02
+   1.200000E+02   1.884257E-01
+   1.300000E+02   6.078567E-01
+   1.400000E+02   1.165488E+00
+   1.500000E+02   1.784533E+00
+   1.600000E+02   2.593690E+00
+   1.800000E+02   6.018206E+00
+   2.000000E+02   8.965544E+00

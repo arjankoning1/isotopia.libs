@@ -1,0 +1,45 @@
+# header: 
+#   title: Cs132(h,x)Te121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 121
+#     nuclide: Te121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.584796E-12
+   6.000000E+01   2.479975E-08
+   6.500000E+01   1.618672E-05
+   7.000000E+01   1.078154E-03
+   7.500000E+01   1.540559E-02
+   8.000000E+01   8.083151E-02
+   9.000000E+01   4.240870E-01
+   1.000000E+02   7.086759E-01
+   1.100000E+02   8.415267E-01
+   1.200000E+02   1.192149E+00
+   1.300000E+02   1.465220E+00
+   1.400000E+02   1.794509E+00
+   1.500000E+02   1.643120E+00
+   1.600000E+02   1.704060E+00
+   1.800000E+02   1.555996E+00
+   2.000000E+02   9.125879E-01

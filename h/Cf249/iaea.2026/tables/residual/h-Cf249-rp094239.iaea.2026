@@ -1,0 +1,45 @@
+# header: 
+#   title: Cf249(h,x)Pu239 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 249
+#   nuclide: Cf249
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 239
+#     nuclide: Pu239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.985089E-12
+   6.000000E+01   1.225130E-11
+   6.500000E+01   2.237831E-11
+   7.000000E+01   2.986182E-11
+   7.500000E+01   7.265555E-11
+   8.000000E+01   7.275222E-10
+   9.000000E+01   2.552773E-08
+   1.000000E+02   1.601909E-07
+   1.100000E+02   3.969185E-07
+   1.200000E+02   4.870263E-07
+   1.300000E+02   9.134207E-07
+   1.400000E+02   3.689599E-06
+   1.500000E+02   1.942497E-05
+   1.600000E+02   4.121547E-05
+   1.800000E+02   9.333546E-05
+   2.000000E+02   3.602163E-06

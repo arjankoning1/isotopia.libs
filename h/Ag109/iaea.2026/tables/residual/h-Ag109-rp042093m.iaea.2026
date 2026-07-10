@@ -1,0 +1,42 @@
+# header: 
+#   title: Ag109(h,x)Mo93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.205820E-13
+   9.000000E+01   1.850231E-07
+   1.000000E+02   2.320602E-04
+   1.100000E+02   7.863694E-03
+   1.200000E+02   4.100272E-02
+   1.300000E+02   8.509997E-02
+   1.400000E+02   1.943310E-01
+   1.500000E+02   4.650322E-01
+   1.600000E+02   1.115243E+00
+   1.800000E+02   2.343729E+00
+   2.000000E+02   5.758567E+00

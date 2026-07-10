@@ -1,0 +1,46 @@
+# header: 
+#   title: U238(h,x)U230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 230
+#     nuclide: U230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.064781E-11
+   5.500000E+01   1.202499E-08
+   6.000000E+01   6.800263E-07
+   6.500000E+01   8.239488E-06
+   7.000000E+01   6.209318E-05
+   7.500000E+01   4.382859E-04
+   8.000000E+01   2.181738E-03
+   9.000000E+01   1.572384E-02
+   1.000000E+02   4.539762E-02
+   1.100000E+02   8.581488E-02
+   1.200000E+02   7.608043E-02
+   1.300000E+02   6.048709E-02
+   1.400000E+02   3.400133E-02
+   1.500000E+02   2.143997E-02
+   1.600000E+02   2.243345E-02
+   1.800000E+02   3.157874E-02
+   2.000000E+02   1.509918E-02

@@ -1,0 +1,46 @@
+# header: 
+#   title: Cm246(h,x)Pu244m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 246
+#   nuclide: Cm246
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 244
+#     nuclide: Pu244m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.561717E-13
+   6.500000E+01   2.861524E-11
+   7.000000E+01   1.108544E-09
+   7.500000E+01   1.604715E-08
+   8.000000E+01   1.230536E-07
+   9.000000E+01   1.633825E-06
+   1.000000E+02   7.667446E-06
+   1.100000E+02   2.420278E-05
+   1.200000E+02   5.748710E-05
+   1.300000E+02   6.734829E-05
+   1.400000E+02   9.474141E-05
+   1.500000E+02   1.372689E-04
+   1.600000E+02   1.893947E-04
+   1.800000E+02   3.714340E-04
+   2.000000E+02   6.577630E-04

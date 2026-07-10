@@ -1,0 +1,39 @@
+# header: 
+#   title: Ho165(h,x)Ho151m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 67
+#   A: 165
+#   nuclide: Ho165
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 151
+#     nuclide: Ho151m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.863756E-13
+   1.200000E+02   1.881793E-07
+   1.300000E+02   3.819366E-05
+   1.400000E+02   7.404997E-04
+   1.500000E+02   5.314851E-03
+   1.600000E+02   3.176469E-02
+   1.800000E+02   3.516919E-01
+   2.000000E+02   8.281971E-01

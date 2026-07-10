@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba130(h,x)Te117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 117
+#     nuclide: Te117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.234184E-12
+   7.000000E+01   1.978753E-09
+   7.500000E+01   1.972553E-07
+   8.000000E+01   4.749433E-06
+   9.000000E+01   1.883358E-04
+   1.000000E+02   2.210460E-03
+   1.100000E+02   4.924824E-02
+   1.200000E+02   2.788540E-01
+   1.300000E+02   6.292502E-01
+   1.400000E+02   8.666347E-01
+   1.500000E+02   1.217669E+00
+   1.600000E+02   1.968371E+00
+   1.800000E+02   3.403357E+00
+   2.000000E+02   4.058208E+00

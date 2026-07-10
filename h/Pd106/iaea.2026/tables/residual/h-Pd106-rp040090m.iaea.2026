@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd106(h,x)Zr90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.442439E-12
+   7.500000E+01   3.214332E-10
+   8.000000E+01   1.030878E-08
+   9.000000E+01   6.555093E-07
+   1.000000E+02   5.393855E-05
+   1.100000E+02   3.332949E-03
+   1.200000E+02   2.900104E-02
+   1.300000E+02   8.064491E-02
+   1.400000E+02   1.313512E-01
+   1.500000E+02   2.451868E-01
+   1.600000E+02   4.744235E-01
+   1.800000E+02   1.107643E+00
+   2.000000E+02   1.486678E+00

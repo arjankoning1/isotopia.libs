@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc96(h,x)Sr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 96
+#   nuclide: Tc96
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.119660E-11
+   6.500000E+01   7.314173E-08
+   7.000000E+01   6.516804E-06
+   7.500000E+01   1.313855E-04
+   8.000000E+01   9.109962E-04
+   9.000000E+01   8.892726E-03
+   1.000000E+02   2.920803E-02
+   1.100000E+02   1.845807E-01
+   1.200000E+02   1.201582E+00
+   1.300000E+02   3.301131E+00
+   1.400000E+02   5.493289E+00
+   1.500000E+02   8.193718E+00
+   1.600000E+02   1.086934E+01
+   1.800000E+02   2.132758E+01
+   2.000000E+02   1.999705E+01

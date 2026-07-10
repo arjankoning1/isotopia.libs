@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd115(h,x)Tc99g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 115
+#   nuclide: Cd115
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.436892E-07
+   1.000000E+02   4.190194E-04
+   1.100000E+02   8.507846E-03
+   1.200000E+02   3.581733E-02
+   1.300000E+02   6.088980E-02
+   1.400000E+02   9.295998E-02
+   1.500000E+02   1.565443E-01
+   1.600000E+02   2.389403E-01
+   1.800000E+02   3.687559E-01
+   2.000000E+02   3.410649E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Na22(h,x)Li7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.329193E-09
+   6.000000E+01   4.620838E-07
+   6.500000E+01   1.445250E-05
+   7.000000E+01   1.085622E-04
+   7.500000E+01   3.356007E-04
+   8.000000E+01   6.437473E-04
+   9.000000E+01   1.463211E-03
+   1.000000E+02   3.963434E-03
+   1.100000E+02   1.303788E-02
+   1.200000E+02   3.257879E-02
+   1.300000E+02   7.368717E-02
+   1.400000E+02   1.587599E-01
+   1.500000E+02   3.512142E-01
+   1.600000E+02   7.167023E-01
+   1.800000E+02   1.953140E+00
+   2.000000E+02   3.815392E+00

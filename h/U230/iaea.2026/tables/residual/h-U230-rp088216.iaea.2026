@@ -1,0 +1,44 @@
+# header: 
+#   title: U230(h,x)Ra216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 216
+#     nuclide: Ra216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.753484E-11
+   6.500000E+01   3.353169E-09
+   7.000000E+01   5.948295E-08
+   7.500000E+01   2.245095E-05
+   8.000000E+01   6.802441E-05
+   9.000000E+01   1.723606E-04
+   1.000000E+02   1.962484E-03
+   1.100000E+02   1.821279E-02
+   1.200000E+02   1.954270E-01
+   1.300000E+02   1.129749E+00
+   1.400000E+02   2.225065E+00
+   1.500000E+02   1.982583E+00
+   1.600000E+02   6.760541E-01
+   1.800000E+02   2.969976E-01
+   2.000000E+02   1.398634E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Th227(h,x)Pa220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 227
+#   nuclide: Th227
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 220
+#     nuclide: Pa220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.150335E-09
+   7.000000E+01   6.150955E-06
+   7.500000E+01   6.140826E-04
+   8.000000E+01   1.065451E-02
+   9.000000E+01   2.491410E-01
+   1.000000E+02   1.178374E+00
+   1.100000E+02   2.646998E+00
+   1.200000E+02   3.380847E+00
+   1.300000E+02   4.803258E+00
+   1.400000E+02   4.957244E+00
+   1.500000E+02   7.131633E+00
+   1.600000E+02   4.642349E+00
+   1.800000E+02   1.013033E+01
+   2.000000E+02   6.344011E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Sc45(h,x)Cl32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 32
+#     nuclide: Cl32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.034738E-11
+   9.000000E+01   7.603321E-08
+   1.000000E+02   3.159487E-06
+   1.100000E+02   8.064517E-05
+   1.200000E+02   9.770398E-04
+   1.300000E+02   4.907147E-03
+   1.400000E+02   1.243225E-02
+   1.500000E+02   2.163948E-02
+   1.600000E+02   3.462314E-02
+   1.800000E+02   7.534160E-02
+   2.000000E+02   1.229675E-01

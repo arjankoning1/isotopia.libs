@@ -1,0 +1,43 @@
+# header: 
+#   title: S35(h,x)O17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 17
+#     nuclide: O17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.567218E-10
+   7.000000E+01   1.700518E-08
+   7.500000E+01   2.688595E-07
+   8.000000E+01   1.398731E-06
+   9.000000E+01   7.251240E-06
+   1.000000E+02   7.554919E-05
+   1.100000E+02   6.030274E-04
+   1.200000E+02   2.171323E-03
+   1.300000E+02   7.871033E-03
+   1.400000E+02   2.895370E-02
+   1.500000E+02   7.801385E-02
+   1.600000E+02   1.727689E-01
+   1.800000E+02   7.503940E-01
+   2.000000E+02   2.246901E+00

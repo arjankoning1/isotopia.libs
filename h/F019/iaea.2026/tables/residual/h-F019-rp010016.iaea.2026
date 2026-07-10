@@ -1,0 +1,44 @@
+# header: 
+#   title: F19(h,x)Ne16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 16
+#     nuclide: Ne16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.669563E-10
+   6.500000E+01   7.218519E-06
+   7.000000E+01   1.326060E-04
+   7.500000E+01   5.627698E-04
+   8.000000E+01   1.302551E-03
+   9.000000E+01   3.132904E-03
+   1.000000E+02   4.677669E-03
+   1.100000E+02   5.431537E-03
+   1.200000E+02   5.575367E-03
+   1.300000E+02   5.297657E-03
+   1.400000E+02   4.822514E-03
+   1.500000E+02   4.279074E-03
+   1.600000E+02   3.709583E-03
+   1.800000E+02   2.706693E-03
+   2.000000E+02   1.964544E-03

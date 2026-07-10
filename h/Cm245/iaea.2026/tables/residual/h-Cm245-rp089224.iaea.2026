@@ -1,0 +1,37 @@
+# header: 
+#   title: Cm245(h,x)Ac224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 224
+#     nuclide: Ac224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.547753E-10
+   1.200000E+02   1.515814E-07
+   1.300000E+02   7.570436E-06
+   1.400000E+02   8.796162E-05
+   1.500000E+02   3.349675E-04
+   1.600000E+02   6.800499E-04
+   1.800000E+02   9.122251E-04
+   2.000000E+02   2.147048E-03

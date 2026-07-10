@@ -1,0 +1,48 @@
+# header: 
+#   title: Rh103(h,x)Nb92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.355910E-11
+   4.500000E+01   1.116517E-08
+   5.000000E+01   1.081700E-06
+   5.500000E+01   1.740467E-05
+   6.000000E+01   9.875037E-05
+   6.500000E+01   2.614573E-04
+   7.000000E+01   5.473233E-04
+   7.500000E+01   2.708446E-03
+   8.000000E+01   1.876618E-02
+   9.000000E+01   1.509098E-01
+   1.000000E+02   3.412204E-01
+   1.100000E+02   5.434637E-01
+   1.200000E+02   1.137224E+00
+   1.300000E+02   2.754644E+00
+   1.400000E+02   4.901560E+00
+   1.500000E+02   6.376644E+00
+   1.600000E+02   6.787615E+00
+   1.800000E+02   6.324172E+00
+   2.000000E+02   6.598414E+00

@@ -1,0 +1,37 @@
+# header: 
+#   title: Ar39(h,x)S28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 28
+#     nuclide: S28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.078549E-09
+   1.200000E+02   6.800912E-08
+   1.300000E+02   1.816802E-06
+   1.400000E+02   1.351591E-05
+   1.500000E+02   4.648023E-05
+   1.600000E+02   1.008545E-04
+   1.800000E+02   2.228992E-04
+   2.000000E+02   3.114895E-04

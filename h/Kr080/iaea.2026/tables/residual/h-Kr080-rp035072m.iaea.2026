@@ -1,0 +1,44 @@
+# header: 
+#   title: Kr80(h,x)Br72m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 80
+#   nuclide: Kr80
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 72
+#     nuclide: Br72m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.246056E-09
+   7.500000E+01   1.822501E-05
+   8.000000E+01   1.421813E-03
+   9.000000E+01   6.291089E-02
+   1.000000E+02   2.319984E-01
+   1.100000E+02   3.751106E-01
+   1.200000E+02   4.768998E-01
+   1.300000E+02   6.529015E-01
+   1.400000E+02   1.024460E+00
+   1.500000E+02   1.175445E+00
+   1.600000E+02   1.709183E+00
+   1.800000E+02   1.622934E+00
+   2.000000E+02   2.373834E+00

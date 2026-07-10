@@ -1,0 +1,44 @@
+# header: 
+#   title: Te130(h,x)Xe124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 124
+#     nuclide: Xe124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.499493E-12
+   6.500000E+01   7.102149E-06
+   7.000000E+01   2.809072E-03
+   7.500000E+01   7.081596E-02
+   8.000000E+01   4.835036E-01
+   9.000000E+01   3.281013E+00
+   1.000000E+02   6.535640E+00
+   1.100000E+02   7.679061E+00
+   1.200000E+02   7.049252E+00
+   1.300000E+02   5.899659E+00
+   1.400000E+02   4.881565E+00
+   1.500000E+02   4.144739E+00
+   1.600000E+02   3.183743E+00
+   1.800000E+02   2.209172E+00
+   2.000000E+02   1.946865E+00

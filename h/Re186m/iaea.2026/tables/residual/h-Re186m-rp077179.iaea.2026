@@ -1,0 +1,41 @@
+# header: 
+#   title: Re186m(h,x)Ir179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 179
+#     nuclide: Ir179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.577930E-08
+   8.000000E+01   7.180102E-05
+   9.000000E+01   6.241784E-02
+   1.000000E+02   1.044748E+00
+   1.100000E+02   3.469628E+00
+   1.200000E+02   5.414679E+00
+   1.300000E+02   5.593856E+00
+   1.400000E+02   5.351760E+00
+   1.500000E+02   4.402366E+00
+   1.600000E+02   4.029170E+00
+   1.800000E+02   2.710788E+00
+   2.000000E+02   2.085687E+00

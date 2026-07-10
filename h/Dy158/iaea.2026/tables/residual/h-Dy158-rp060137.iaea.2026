@@ -1,0 +1,36 @@
+# header: 
+#   title: Dy158(h,x)Nd137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 158
+#   nuclide: Dy158
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.570194E-10
+   1.300000E+02   2.655330E-07
+   1.400000E+02   1.992056E-05
+   1.500000E+02   5.099204E-03
+   1.600000E+02   8.183115E-02
+   1.800000E+02   1.295648E+00
+   2.000000E+02   4.402697E+00

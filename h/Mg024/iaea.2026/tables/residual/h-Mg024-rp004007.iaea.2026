@@ -1,0 +1,45 @@
+# header: 
+#   title: Mg24(h,x)Be7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.754653E-09
+   6.000000E+01   3.931411E-07
+   6.500000E+01   7.809093E-06
+   7.000000E+01   3.983398E-05
+   7.500000E+01   1.000004E-04
+   8.000000E+01   1.712268E-04
+   9.000000E+01   4.340011E-04
+   1.000000E+02   4.238416E-03
+   1.100000E+02   1.760863E-02
+   1.200000E+02   3.899297E-02
+   1.300000E+02   6.809956E-02
+   1.400000E+02   1.137857E-01
+   1.500000E+02   1.984761E-01
+   1.600000E+02   3.350182E-01
+   1.800000E+02   9.010350E-01
+   2.000000E+02   2.145959E+00

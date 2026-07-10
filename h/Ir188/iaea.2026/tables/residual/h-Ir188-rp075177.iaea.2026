@@ -1,0 +1,44 @@
+# header: 
+#   title: Ir188(h,x)Re177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 188
+#   nuclide: Ir188
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 177
+#     nuclide: Re177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.516183E-11
+   6.500000E+01   8.275133E-09
+   7.000000E+01   1.187260E-06
+   7.500000E+01   5.283210E-05
+   8.000000E+01   7.823809E-04
+   9.000000E+01   1.493984E-02
+   1.000000E+02   1.059777E-01
+   1.100000E+02   9.692585E-01
+   1.200000E+02   4.163888E+00
+   1.300000E+02   7.598737E+00
+   1.400000E+02   1.017240E+01
+   1.500000E+02   1.171630E+01
+   1.600000E+02   1.003455E+01
+   1.800000E+02   1.142575E+01
+   2.000000E+02   9.907236E+00

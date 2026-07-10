@@ -1,0 +1,43 @@
+# header: 
+#   title: Mn55(h,x)Sc42m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.259125E-13
+   8.000000E+01   1.891032E-09
+   9.000000E+01   2.661616E-06
+   1.000000E+02   1.334438E-04
+   1.100000E+02   3.330888E-03
+   1.200000E+02   4.755178E-02
+   1.300000E+02   2.146644E-01
+   1.400000E+02   5.473100E-01
+   1.500000E+02   9.056840E-01
+   1.600000E+02   1.661768E+00
+   1.800000E+02   3.556237E+00
+   2.000000E+02   5.183084E+00

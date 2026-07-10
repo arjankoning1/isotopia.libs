@@ -1,0 +1,46 @@
+# header: 
+#   title: Ca40(h,x)Si30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 30
+#     nuclide: Si30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.068225E-11
+   5.500000E+01   4.588010E-07
+   6.000000E+01   1.329608E-04
+   6.500000E+01   2.659059E-03
+   7.000000E+01   1.410471E-02
+   7.500000E+01   4.268362E-02
+   8.000000E+01   1.030758E-01
+   9.000000E+01   3.800015E-01
+   1.000000E+02   9.455534E-01
+   1.100000E+02   2.575237E+00
+   1.200000E+02   6.392253E+00
+   1.300000E+02   1.212563E+01
+   1.400000E+02   1.806308E+01
+   1.500000E+02   2.333117E+01
+   1.600000E+02   2.948209E+01
+   1.800000E+02   4.389079E+01
+   2.000000E+02   4.860066E+01

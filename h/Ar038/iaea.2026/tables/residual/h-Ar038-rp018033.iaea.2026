@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar38(h,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.333326E-11
+   6.000000E+01   1.636186E-07
+   6.500000E+01   4.931198E-06
+   7.000000E+01   2.948923E-05
+   7.500000E+01   8.102084E-05
+   8.000000E+01   1.567264E-04
+   9.000000E+01   4.058768E-04
+   1.000000E+02   9.860534E-04
+   1.100000E+02   1.759941E-03
+   1.200000E+02   2.302981E-03
+   1.300000E+02   2.526980E-03
+   1.400000E+02   2.532259E-03
+   1.500000E+02   2.355613E-03
+   1.600000E+02   2.172167E-03
+   1.800000E+02   1.745163E-03
+   2.000000E+02   1.404177E-03

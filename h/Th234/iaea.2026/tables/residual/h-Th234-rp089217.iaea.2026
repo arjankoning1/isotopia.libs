@@ -1,0 +1,36 @@
+# header: 
+#   title: Th234(h,x)Ac217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 217
+#     nuclide: Ac217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.925726E-08
+   1.300000E+02   6.920366E-05
+   1.400000E+02   6.835092E-03
+   1.500000E+02   1.259012E-01
+   1.600000E+02   5.209125E-01
+   1.800000E+02   4.853218E+00
+   2.000000E+02   1.294050E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni63(h,x)Sc46m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.593976E-13
+   9.000000E+01   1.842368E-08
+   1.000000E+02   1.213987E-06
+   1.100000E+02   8.413680E-06
+   1.200000E+02   2.978100E-05
+   1.300000E+02   4.023771E-04
+   1.400000E+02   4.987335E-03
+   1.500000E+02   2.362141E-02
+   1.600000E+02   5.595426E-02
+   1.800000E+02   1.415205E-01
+   2.000000E+02   4.090104E-01

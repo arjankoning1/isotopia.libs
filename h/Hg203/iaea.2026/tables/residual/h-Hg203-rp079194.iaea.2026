@@ -1,0 +1,44 @@
+# header: 
+#   title: Hg203(h,x)Au194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 203
+#   nuclide: Hg203
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.482557E-09
+   6.500000E+01   5.547416E-06
+   7.000000E+01   1.135590E-03
+   7.500000E+01   2.815195E-02
+   8.000000E+01   2.076200E-01
+   9.000000E+01   1.370247E+00
+   1.000000E+02   2.483537E+00
+   1.100000E+02   2.645977E+00
+   1.200000E+02   2.388783E+00
+   1.300000E+02   2.295077E+00
+   1.400000E+02   2.160518E+00
+   1.500000E+02   1.623319E+00
+   1.600000E+02   1.713871E+00
+   1.800000E+02   2.279406E+00
+   2.000000E+02   1.830054E+00

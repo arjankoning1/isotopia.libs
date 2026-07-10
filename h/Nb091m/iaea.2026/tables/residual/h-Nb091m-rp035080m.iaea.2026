@@ -1,0 +1,46 @@
+# header: 
+#   title: Nb91m(h,x)Br80m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.463796E-12
+   6.500000E+01   9.836052E-10
+   7.000000E+01   2.520481E-08
+   7.500000E+01   2.064201E-07
+   8.000000E+01   8.464258E-07
+   9.000000E+01   3.880250E-06
+   1.000000E+02   3.140184E-05
+   1.100000E+02   1.552449E-04
+   1.200000E+02   3.649937E-04
+   1.300000E+02   5.214778E-04
+   1.400000E+02   9.530405E-04
+   1.500000E+02   1.766921E-03
+   1.600000E+02   2.430154E-03
+   1.800000E+02   2.919593E-03
+   2.000000E+02   4.946628E-03

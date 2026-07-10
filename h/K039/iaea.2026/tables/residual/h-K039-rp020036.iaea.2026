@@ -1,0 +1,44 @@
+# header: 
+#   title: K39(h,x)Ca36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 36
+#     nuclide: Ca36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.211860E-09
+   6.500000E+01   6.473874E-07
+   7.000000E+01   7.118430E-06
+   7.500000E+01   2.781982E-05
+   8.000000E+01   6.418956E-05
+   9.000000E+01   1.398004E-04
+   1.000000E+02   1.795904E-04
+   1.100000E+02   1.839146E-04
+   1.200000E+02   1.715128E-04
+   1.300000E+02   1.525645E-04
+   1.400000E+02   1.323913E-04
+   1.500000E+02   1.141212E-04
+   1.600000E+02   9.836890E-05
+   1.800000E+02   7.163111E-05
+   2.000000E+02   5.317203E-05

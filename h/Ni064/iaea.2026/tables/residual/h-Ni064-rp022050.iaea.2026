@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni64(h,x)Ti50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.326677E-11
+   5.500000E+01   8.751539E-09
+   6.000000E+01   4.905435E-07
+   6.500000E+01   6.022960E-06
+   7.000000E+01   3.030529E-05
+   7.500000E+01   8.523736E-05
+   8.000000E+01   1.700924E-04
+   9.000000E+01   5.714908E-04
+   1.000000E+02   2.756977E-03
+   1.100000E+02   8.758022E-03
+   1.200000E+02   2.464495E-02
+   1.300000E+02   8.183310E-02
+   1.400000E+02   2.783002E-01
+   1.500000E+02   5.022783E-01
+   1.600000E+02   7.426427E-01
+   1.800000E+02   8.789636E-01
+   2.000000E+02   1.282973E+00

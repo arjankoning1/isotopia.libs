@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe58(h,x)Ar42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 42
+#     nuclide: Ar42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.915589E-11
+   1.000000E+02   3.127211E-09
+   1.100000E+02   8.368377E-08
+   1.200000E+02   6.250152E-07
+   1.300000E+02   2.456228E-06
+   1.400000E+02   1.241705E-05
+   1.500000E+02   4.126473E-05
+   1.600000E+02   9.515903E-05
+   1.800000E+02   4.340292E-04
+   2.000000E+02   1.323085E-03

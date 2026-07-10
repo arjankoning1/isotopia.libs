@@ -1,0 +1,42 @@
+# header: 
+#   title: Md260(h,x)Md252 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 101
+#   A: 260
+#   nuclide: Md260
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 101
+#     A: 252
+#     nuclide: Md252
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.391605E-12
+   7.500000E+01   9.892218E-12
+   8.000000E+01   4.106497E-11
+   9.000000E+01   3.126617E-10
+   1.000000E+02   9.347205E-10
+   1.100000E+02   1.867554E-09
+   1.200000E+02   5.716720E-09
+   1.300000E+02   4.047850E-09
+   1.400000E+02   5.225273E-09
+   1.500000E+02   2.590505E-08
+   1.600000E+02   4.812274E-08
+   1.800000E+02   6.847061E-08
+   2.000000E+02   1.273159E-06

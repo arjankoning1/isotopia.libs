@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti49(h,x)Cl40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 40
+#     nuclide: Cl40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.889915E-10
+   6.500000E+01   1.390382E-08
+   7.000000E+01   1.765459E-07
+   7.500000E+01   1.450599E-06
+   8.000000E+01   1.088608E-05
+   9.000000E+01   1.362670E-04
+   1.000000E+02   4.424340E-04
+   1.100000E+02   1.351151E-03
+   1.200000E+02   5.832507E-03
+   1.300000E+02   9.142122E-03
+   1.400000E+02   1.106562E-02
+   1.500000E+02   1.341319E-02
+   1.600000E+02   1.285632E-02
+   1.800000E+02   1.473726E-02
+   2.000000E+02   1.040260E-02

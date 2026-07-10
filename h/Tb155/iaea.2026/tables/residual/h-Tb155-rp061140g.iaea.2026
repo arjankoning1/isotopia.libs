@@ -1,0 +1,42 @@
+# header: 
+#   title: Tb155(h,x)Pm140g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 155
+#   nuclide: Tb155
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 140
+#     nuclide: Pm140g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.936358E-11
+   9.000000E+01   3.492621E-07
+   1.000000E+02   3.752497E-05
+   1.100000E+02   6.009116E-04
+   1.200000E+02   1.735581E-02
+   1.300000E+02   1.237450E-01
+   1.400000E+02   4.408728E-01
+   1.500000E+02   7.081205E-01
+   1.600000E+02   1.175120E+00
+   1.800000E+02   2.590762E+00
+   2.000000E+02   2.560748E+00

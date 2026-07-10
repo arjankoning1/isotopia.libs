@@ -1,0 +1,43 @@
+# header: 
+#   title: S32(h,x)Mg29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 29
+#     nuclide: Mg29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.992761E-09
+   7.000000E+01   8.774999E-07
+   7.500000E+01   1.618242E-05
+   8.000000E+01   8.987285E-05
+   9.000000E+01   5.076230E-04
+   1.000000E+02   9.882947E-04
+   1.100000E+02   1.213006E-03
+   1.200000E+02   1.194488E-03
+   1.300000E+02   1.047459E-03
+   1.400000E+02   8.650771E-04
+   1.500000E+02   6.974611E-04
+   1.600000E+02   5.538896E-04
+   1.800000E+02   3.583723E-04
+   2.000000E+02   2.424630E-04

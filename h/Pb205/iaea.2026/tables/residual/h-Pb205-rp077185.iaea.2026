@@ -1,0 +1,36 @@
+# header: 
+#   title: Pb205(h,x)Ir185 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 185
+#     nuclide: Ir185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.615500E-11
+   1.300000E+02   2.547977E-07
+   1.400000E+02   1.148107E-04
+   1.500000E+02   2.129364E-03
+   1.600000E+02   1.427511E-02
+   1.800000E+02   4.355941E-02
+   2.000000E+02   3.158013E-01

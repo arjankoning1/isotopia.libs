@@ -1,0 +1,45 @@
+# header: 
+#   title: Gd146(h,x)Ce131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 131
+#     nuclide: Ce131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.195989E-12
+   7.000000E+01   1.216238E-10
+   7.500000E+01   3.539449E-09
+   8.000000E+01   4.674609E-08
+   9.000000E+01   1.093388E-06
+   1.000000E+02   1.234041E-04
+   1.100000E+02   3.235850E-03
+   1.200000E+02   1.773672E-02
+   1.300000E+02   3.408527E-02
+   1.400000E+02   2.358037E-01
+   1.500000E+02   5.780032E-01
+   1.600000E+02   9.083202E-01
+   1.800000E+02   1.441743E+00
+   2.000000E+02   1.049737E+00

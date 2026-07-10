@@ -1,0 +1,44 @@
+# header: 
+#   title: Eu155(h,x)Sm145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 145
+#     nuclide: Sm145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.908088E-09
+   6.500000E+01   1.460880E-05
+   7.000000E+01   8.420701E-03
+   7.500000E+01   4.992781E-01
+   8.000000E+01   5.364221E+00
+   9.000000E+01   5.745665E+01
+   1.000000E+02   1.297774E+02
+   1.100000E+02   1.649423E+02
+   1.200000E+02   1.617774E+02
+   1.300000E+02   1.578494E+02
+   1.400000E+02   1.496123E+02
+   1.500000E+02   1.166115E+02
+   1.600000E+02   1.125749E+02
+   1.800000E+02   6.628489E+01
+   2.000000E+02   4.925483E+01

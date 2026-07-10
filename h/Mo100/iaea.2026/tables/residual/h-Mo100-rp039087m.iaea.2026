@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo100(h,x)Y87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.675994E-11
+   8.000000E+01   4.281793E-07
+   9.000000E+01   2.557221E-03
+   1.000000E+02   9.079752E-02
+   1.100000E+02   5.065401E-01
+   1.200000E+02   1.098752E+00
+   1.300000E+02   1.882170E+00
+   1.400000E+02   3.231169E+00
+   1.500000E+02   6.921956E+00
+   1.600000E+02   1.062201E+01
+   1.800000E+02   1.599468E+01
+   2.000000E+02   1.933223E+01

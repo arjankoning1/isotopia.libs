@@ -1,0 +1,51 @@
+# header: 
+#   title: Pb203(h,x)Po201m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 201
+#     nuclide: Po201m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.216047E-08
+   4.000000E+01   2.676914E-02
+   4.500000E+01   1.057495E+00
+   5.000000E+01   6.487489E+00
+   5.500000E+01   1.400229E+01
+   6.000000E+01   1.823595E+01
+   6.500000E+01   1.822176E+01
+   7.000000E+01   1.610460E+01
+   7.500000E+01   1.346264E+01
+   8.000000E+01   1.104804E+01
+   9.000000E+01   7.478988E+00
+   1.000000E+02   5.273527E+00
+   1.100000E+02   3.893022E+00
+   1.200000E+02   3.008648E+00
+   1.300000E+02   2.340649E+00
+   1.400000E+02   1.874851E+00
+   1.500000E+02   1.602628E+00
+   1.600000E+02   1.254282E+00
+   1.800000E+02   9.107631E-01
+   2.000000E+02   7.452742E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn64(h,x)Ge63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 63
+#     nuclide: Ge63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.260890E-07
+   4.500000E+01   1.104081E-03
+   5.000000E+01   8.045579E-03
+   5.500000E+01   1.559624E-02
+   6.000000E+01   1.948080E-02
+   6.500000E+01   2.040078E-02
+   7.000000E+01   1.941750E-02
+   7.500000E+01   1.762743E-02
+   8.000000E+01   1.568102E-02
+   9.000000E+01   1.243113E-02
+   1.000000E+02   1.014690E-02
+   1.100000E+02   8.476429E-03
+   1.200000E+02   7.254048E-03
+   1.300000E+02   6.286440E-03
+   1.400000E+02   5.634659E-03
+   1.500000E+02   5.098891E-03
+   1.600000E+02   4.535558E-03
+   1.800000E+02   3.787605E-03
+   2.000000E+02   3.198273E-03

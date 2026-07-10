@@ -1,0 +1,44 @@
+# header: 
+#   title: Te132(h,x)Xe125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 132
+#   nuclide: Te132
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.037553E-08
+   7.500000E+01   5.386908E-05
+   8.000000E+01   3.505328E-03
+   9.000000E+01   2.019142E-01
+   1.000000E+02   1.039474E+00
+   1.100000E+02   1.946854E+00
+   1.200000E+02   2.233547E+00
+   1.300000E+02   2.075548E+00
+   1.400000E+02   1.797552E+00
+   1.500000E+02   1.536112E+00
+   1.600000E+02   1.225017E+00
+   1.800000E+02   9.308233E-01
+   2.000000E+02   6.244578E-01

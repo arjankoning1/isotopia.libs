@@ -1,0 +1,39 @@
+# header: 
+#   title: Te121m(h,x)Sn108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 108
+#     nuclide: Sn108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.722227E-10
+   1.000000E+02   5.723788E-06
+   1.100000E+02   7.211033E-04
+   1.200000E+02   1.271686E-02
+   1.300000E+02   1.471658E-01
+   1.400000E+02   1.345880E+00
+   1.500000E+02   6.408488E+00
+   1.600000E+02   1.424483E+01
+   1.800000E+02   3.746804E+01
+   2.000000E+02   6.370814E+01

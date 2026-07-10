@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd153(h,x)Sm139m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 153
+#   nuclide: Gd153
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 139
+#     nuclide: Sm139m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.403619E-08
+   1.100000E+02   1.636311E-04
+   1.200000E+02   7.942889E-03
+   1.300000E+02   1.089242E-01
+   1.400000E+02   1.590239E+00
+   1.500000E+02   8.873075E+00
+   1.600000E+02   2.557520E+01
+   1.800000E+02   5.150503E+01
+   2.000000E+02   6.417000E+01

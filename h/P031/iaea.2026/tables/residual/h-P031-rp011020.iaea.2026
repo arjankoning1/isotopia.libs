@@ -1,0 +1,44 @@
+# header: 
+#   title: P31(h,x)Na20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 20
+#     nuclide: Na20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.494836E-09
+   6.500000E+01   1.595542E-06
+   7.000000E+01   3.533817E-05
+   7.500000E+01   1.937270E-04
+   8.000000E+01   5.871675E-04
+   9.000000E+01   6.170698E-03
+   1.000000E+02   8.083629E-02
+   1.100000E+02   3.105161E-01
+   1.200000E+02   5.907667E-01
+   1.300000E+02   8.172641E-01
+   1.400000E+02   1.017165E+00
+   1.500000E+02   1.254653E+00
+   1.600000E+02   1.551084E+00
+   1.800000E+02   1.846469E+00
+   2.000000E+02   1.918819E+00

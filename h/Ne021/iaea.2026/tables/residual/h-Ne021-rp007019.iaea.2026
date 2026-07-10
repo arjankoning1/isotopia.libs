@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne21(h,x)N19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 19
+#     nuclide: N19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.511722E-11
+   6.500000E+01   1.512730E-08
+   7.000000E+01   3.874029E-07
+   7.500000E+01   2.610494E-06
+   8.000000E+01   8.613494E-06
+   9.000000E+01   3.156203E-05
+   1.000000E+02   5.761819E-05
+   1.100000E+02   7.769834E-05
+   1.200000E+02   8.989433E-05
+   1.300000E+02   9.558709E-05
+   1.400000E+02   9.861148E-05
+   1.500000E+02   9.811104E-05
+   1.600000E+02   9.749189E-05
+   1.800000E+02   9.349448E-05
+   2.000000E+02   8.790898E-05

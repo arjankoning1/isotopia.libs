@@ -1,0 +1,38 @@
+# header: 
+#   title: Pd102(h,x)Tc88m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 88
+#     nuclide: Tc88m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.775235E-09
+   1.300000E+02   7.873049E-07
+   1.400000E+02   1.682829E-05
+   1.500000E+02   8.249738E-05
+   1.600000E+02   2.081288E-04
+   1.800000E+02   6.451321E-04
+   2.000000E+02   2.269160E-03

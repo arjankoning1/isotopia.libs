@@ -1,0 +1,46 @@
+# header: 
+#   title: Co57(h,x)Sc45m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.417188E-11
+   6.500000E+01   2.303887E-08
+   7.000000E+01   2.816407E-06
+   7.500000E+01   6.383344E-05
+   8.000000E+01   4.575979E-04
+   9.000000E+01   3.858544E-03
+   1.000000E+02   1.255114E-02
+   1.100000E+02   7.167864E-02
+   1.200000E+02   2.707867E-01
+   1.300000E+02   5.561805E-01
+   1.400000E+02   8.598928E-01
+   1.500000E+02   1.397971E+00
+   1.600000E+02   2.350897E+00
+   1.800000E+02   4.473312E+00
+   2.000000E+02   6.885357E+00

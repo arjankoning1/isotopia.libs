@@ -1,0 +1,40 @@
+# header: 
+#   title: Br82(h,x)Kr75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 75
+#     nuclide: Kr75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.148534E-09
+   9.000000E+01   8.665234E-04
+   1.000000E+02   4.162280E-02
+   1.100000E+02   2.259126E-01
+   1.200000E+02   4.748584E-01
+   1.300000E+02   7.010385E-01
+   1.400000E+02   9.022200E-01
+   1.500000E+02   9.630062E-01
+   1.600000E+02   1.013856E+00
+   1.800000E+02   9.876683E-01
+   2.000000E+02   1.254324E+00

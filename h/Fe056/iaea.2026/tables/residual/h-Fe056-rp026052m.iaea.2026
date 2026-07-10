@@ -1,0 +1,50 @@
+# header: 
+#   title: Fe56(h,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.249248E-08
+   4.500000E+01   5.832592E-05
+   5.000000E+01   5.205860E-04
+   5.500000E+01   1.171175E-03
+   6.000000E+01   1.547753E-03
+   6.500000E+01   1.718979E-03
+   7.000000E+01   4.116200E-03
+   7.500000E+01   1.360880E-02
+   8.000000E+01   2.713979E-02
+   9.000000E+01   5.315300E-02
+   1.000000E+02   6.315389E-02
+   1.100000E+02   6.055902E-02
+   1.200000E+02   5.398068E-02
+   1.300000E+02   4.711848E-02
+   1.400000E+02   4.049031E-02
+   1.500000E+02   3.204994E-02
+   1.600000E+02   2.806979E-02
+   1.800000E+02   1.914198E-02
+   2.000000E+02   1.443347E-02

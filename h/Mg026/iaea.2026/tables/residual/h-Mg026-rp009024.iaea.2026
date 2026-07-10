@@ -1,0 +1,44 @@
+# header: 
+#   title: Mg26(h,x)F24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 24
+#     nuclide: F24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.802361E-12
+   6.500000E+01   6.482124E-09
+   7.000000E+01   2.776595E-07
+   7.500000E+01   2.173868E-06
+   8.000000E+01   7.453666E-06
+   9.000000E+01   2.615452E-05
+   1.000000E+02   4.311513E-05
+   1.100000E+02   5.111151E-05
+   1.200000E+02   5.116432E-05
+   1.300000E+02   4.731274E-05
+   1.400000E+02   4.119128E-05
+   1.500000E+02   3.603594E-05
+   1.600000E+02   3.086797E-05
+   1.800000E+02   2.418390E-05
+   2.000000E+02   2.052786E-05

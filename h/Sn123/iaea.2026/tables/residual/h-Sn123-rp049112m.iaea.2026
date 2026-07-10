@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn123(h,x)In112m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 123
+#   nuclide: Sn123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.702529E-13
+   8.000000E+01   1.273850E-07
+   9.000000E+01   1.885525E-02
+   1.000000E+02   2.410262E+00
+   1.100000E+02   2.031144E+01
+   1.200000E+02   5.232582E+01
+   1.300000E+02   7.665055E+01
+   1.400000E+02   8.366128E+01
+   1.500000E+02   8.875184E+01
+   1.600000E+02   8.122076E+01
+   1.800000E+02   5.858497E+01
+   2.000000E+02   5.221424E+01

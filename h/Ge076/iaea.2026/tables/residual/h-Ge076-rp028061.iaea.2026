@@ -1,0 +1,40 @@
+# header: 
+#   title: Ge76(h,x)Ni61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.856669E-09
+   9.000000E+01   2.707655E-05
+   1.000000E+02   2.695140E-03
+   1.100000E+02   4.221657E-02
+   1.200000E+02   3.090399E-01
+   1.300000E+02   1.123847E+00
+   1.400000E+02   2.803211E+00
+   1.500000E+02   5.039500E+00
+   1.600000E+02   8.571679E+00
+   1.800000E+02   2.371517E+01
+   2.000000E+02   3.939679E+01

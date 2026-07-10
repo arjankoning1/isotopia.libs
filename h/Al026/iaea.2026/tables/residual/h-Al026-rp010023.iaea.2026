@@ -1,0 +1,48 @@
+# header: 
+#   title: Al26(h,x)Ne23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.445582E-10
+   4.500000E+01   2.215352E-05
+   5.000000E+01   2.321528E-03
+   5.500000E+01   1.739881E-02
+   6.000000E+01   4.747105E-02
+   6.500000E+01   8.428688E-02
+   7.000000E+01   1.296453E-01
+   7.500000E+01   1.845131E-01
+   8.000000E+01   2.444475E-01
+   9.000000E+01   3.461412E-01
+   1.000000E+02   3.910156E-01
+   1.100000E+02   3.888480E-01
+   1.200000E+02   3.603280E-01
+   1.300000E+02   3.255442E-01
+   1.400000E+02   2.924741E-01
+   1.500000E+02   2.638939E-01
+   1.600000E+02   2.424378E-01
+   1.800000E+02   2.128139E-01
+   2.000000E+02   1.943253E-01

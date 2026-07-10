@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn125(h,x)Sb118m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.227880E-13
+   6.500000E+01   9.073259E-06
+   7.000000E+01   1.335085E-02
+   7.500000E+01   5.942487E-01
+   8.000000E+01   5.163923E+00
+   9.000000E+01   4.296560E+01
+   1.000000E+02   9.879379E+01
+   1.100000E+02   1.272641E+02
+   1.200000E+02   1.307771E+02
+   1.300000E+02   1.171439E+02
+   1.400000E+02   1.054535E+02
+   1.500000E+02   8.310256E+01
+   1.600000E+02   7.753349E+01
+   1.800000E+02   4.475394E+01
+   2.000000E+02   4.139353E+01

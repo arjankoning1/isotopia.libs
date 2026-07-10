@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra223(h,x)Po207m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.012763E-12
+   8.000000E+01   4.682869E-10
+   9.000000E+01   5.366643E-07
+   1.000000E+02   4.482841E-05
+   1.100000E+02   8.352923E-04
+   1.200000E+02   6.822264E-03
+   1.300000E+02   3.959018E-02
+   1.400000E+02   1.059023E-01
+   1.500000E+02   1.568802E-01
+   1.600000E+02   1.701391E-01
+   1.800000E+02   2.206895E-01
+   2.000000E+02   2.704936E-01

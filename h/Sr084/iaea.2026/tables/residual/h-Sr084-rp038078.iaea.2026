@@ -1,0 +1,45 @@
+# header: 
+#   title: Sr84(h,x)Sr78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 78
+#     nuclide: Sr78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.011800E-12
+   6.000000E+01   7.038442E-07
+   6.500000E+01   1.476999E-04
+   7.000000E+01   1.584021E-03
+   7.500000E+01   5.152832E-03
+   8.000000E+01   1.034909E-02
+   9.000000E+01   3.100275E-02
+   1.000000E+02   1.276868E-01
+   1.100000E+02   2.820564E-01
+   1.200000E+02   3.894977E-01
+   1.300000E+02   4.517742E-01
+   1.400000E+02   5.008880E-01
+   1.500000E+02   5.124779E-01
+   1.600000E+02   5.288054E-01
+   1.800000E+02   5.240856E-01
+   2.000000E+02   4.845870E-01

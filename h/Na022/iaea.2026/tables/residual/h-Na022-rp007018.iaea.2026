@@ -1,0 +1,42 @@
+# header: 
+#   title: Na22(h,x)N18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 18
+#     nuclide: N18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.205399E-09
+   7.500000E+01   1.368182E-07
+   8.000000E+01   1.364976E-06
+   9.000000E+01   1.722170E-05
+   1.000000E+02   5.477060E-05
+   1.100000E+02   1.040251E-04
+   1.200000E+02   1.535341E-04
+   1.300000E+02   2.184661E-04
+   1.400000E+02   2.350765E-04
+   1.500000E+02   2.741712E-04
+   1.600000E+02   2.776919E-04
+   1.800000E+02   2.852975E-04
+   2.000000E+02   2.604398E-04

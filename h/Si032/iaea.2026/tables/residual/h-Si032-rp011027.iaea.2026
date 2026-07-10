@@ -1,0 +1,48 @@
+# header: 
+#   title: Si32(h,x)Na27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 27
+#     nuclide: Na27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   8.812602E-10
+   4.500000E+01   4.354893E-06
+   5.000000E+01   7.779567E-05
+   5.500000E+01   2.676297E-04
+   6.000000E+01   5.856692E-04
+   6.500000E+01   1.266462E-03
+   7.000000E+01   2.538418E-03
+   7.500000E+01   4.266747E-03
+   8.000000E+01   6.260597E-03
+   9.000000E+01   1.374710E-02
+   1.000000E+02   3.485135E-02
+   1.100000E+02   6.440855E-02
+   1.200000E+02   8.790558E-02
+   1.300000E+02   9.891187E-02
+   1.400000E+02   9.970827E-02
+   1.500000E+02   9.549744E-02
+   1.600000E+02   8.657887E-02
+   1.800000E+02   7.121135E-02
+   2.000000E+02   5.531237E-02

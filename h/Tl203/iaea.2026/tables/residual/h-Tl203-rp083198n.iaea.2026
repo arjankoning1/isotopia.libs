@@ -1,0 +1,46 @@
+# header: 
+#   title: Tl203(h,x)Bi198n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 203
+#   nuclide: Tl203
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 198
+#     nuclide: Bi198n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.279493E-08
+   6.500000E+01   3.485422E-04
+   7.000000E+01   2.738028E-02
+   7.500000E+01   2.618712E-01
+   8.000000E+01   9.002026E-01
+   9.000000E+01   2.569893E+00
+   1.000000E+02   3.102672E+00
+   1.100000E+02   2.777907E+00
+   1.200000E+02   2.230694E+00
+   1.300000E+02   1.723269E+00
+   1.400000E+02   1.422432E+00
+   1.500000E+02   1.142058E+00
+   1.600000E+02   9.106994E-01
+   1.800000E+02   6.898893E-01
+   2.000000E+02   4.783108E-01

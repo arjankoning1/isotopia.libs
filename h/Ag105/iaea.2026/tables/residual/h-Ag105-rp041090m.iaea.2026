@@ -1,0 +1,46 @@
+# header: 
+#   title: Ag105(h,x)Nb90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 105
+#   nuclide: Ag105
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.579544E-13
+   6.500000E+01   1.387324E-10
+   7.000000E+01   2.175334E-08
+   7.500000E+01   4.011800E-07
+   8.000000E+01   3.502509E-06
+   9.000000E+01   3.373916E-05
+   1.000000E+02   7.595972E-04
+   1.100000E+02   1.077009E-02
+   1.200000E+02   3.661827E-02
+   1.300000E+02   7.452589E-02
+   1.400000E+02   2.065798E-01
+   1.500000E+02   6.818196E-01
+   1.600000E+02   1.518969E+00
+   1.800000E+02   2.989187E+00
+   2.000000E+02   5.551530E+00

@@ -1,0 +1,36 @@
+# header: 
+#   title: Ac227(h,x)Po205 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 205
+#     nuclide: Po205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   9.443218E-11
+   1.300000E+02   2.152915E-07
+   1.400000E+02   1.074397E-04
+   1.500000E+02   2.823649E-03
+   1.600000E+02   2.158775E-02
+   1.800000E+02   2.908229E-01
+   2.000000E+02   6.534178E-01

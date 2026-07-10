@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi205(h,x)At200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 200
+#     nuclide: At200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.178727E-10
+   7.000000E+01   2.059089E-05
+   7.500000E+01   2.335027E-03
+   8.000000E+01   2.818875E-02
+   9.000000E+01   2.669543E-01
+   1.000000E+02   5.237585E-01
+   1.100000E+02   6.043558E-01
+   1.200000E+02   5.452446E-01
+   1.300000E+02   4.983892E-01
+   1.400000E+02   4.553813E-01
+   1.500000E+02   4.317814E-01
+   1.600000E+02   4.090612E-01
+   1.800000E+02   3.622384E-01
+   2.000000E+02   2.765720E-01

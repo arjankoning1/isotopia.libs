@@ -1,0 +1,38 @@
+# header: 
+#   title: Nd142(h,x)Pm134 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 134
+#     nuclide: Pm134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.057628E-06
+   1.100000E+02   1.226379E-02
+   1.200000E+02   2.329303E-01
+   1.300000E+02   8.423220E-01
+   1.400000E+02   1.558808E+00
+   1.500000E+02   2.221068E+00
+   1.600000E+02   2.511083E+00
+   1.800000E+02   3.257770E+00
+   2.000000E+02   4.034426E+00

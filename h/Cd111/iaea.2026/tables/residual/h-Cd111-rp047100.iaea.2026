@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd111(h,x)Ag100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 100
+#     nuclide: Ag100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.457771E-09
+   1.000000E+02   3.022727E-04
+   1.100000E+02   4.264491E-02
+   1.200000E+02   3.743564E-01
+   1.300000E+02   9.936785E-01
+   1.400000E+02   1.829479E+00
+   1.500000E+02   2.853148E+00
+   1.600000E+02   4.229826E+00
+   1.800000E+02   7.988576E+00
+   2.000000E+02   1.027377E+01

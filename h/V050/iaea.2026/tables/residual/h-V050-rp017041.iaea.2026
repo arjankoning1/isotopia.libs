@@ -1,0 +1,41 @@
+# header: 
+#   title: V50(h,x)Cl41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 41
+#     nuclide: Cl41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.958997E-11
+   8.000000E+01   5.572521E-09
+   9.000000E+01   6.687388E-07
+   1.000000E+02   6.516409E-06
+   1.100000E+02   1.687437E-05
+   1.200000E+02   3.796881E-05
+   1.300000E+02   1.069049E-04
+   1.400000E+02   2.173646E-04
+   1.500000E+02   3.843632E-04
+   1.600000E+02   3.401711E-04
+   1.800000E+02   3.505170E-04
+   2.000000E+02   4.469847E-04

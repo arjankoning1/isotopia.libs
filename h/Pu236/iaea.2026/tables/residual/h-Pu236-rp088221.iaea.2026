@@ -1,0 +1,43 @@
+# header: 
+#   title: Pu236(h,x)Ra221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 221
+#     nuclide: Ra221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.459889E-09
+   7.000000E+01   5.128486E-09
+   7.500000E+01   8.085991E-10
+   8.000000E+01   1.302515E-09
+   9.000000E+01   2.824813E-08
+   1.000000E+02   5.909362E-07
+   1.100000E+02   1.135575E-05
+   1.200000E+02   8.649975E-05
+   1.300000E+02   2.904391E-04
+   1.400000E+02   8.937153E-04
+   1.500000E+02   5.118275E-04
+   1.600000E+02   4.800742E-04
+   1.800000E+02   8.702205E-04
+   2.000000E+02   1.688447E-03

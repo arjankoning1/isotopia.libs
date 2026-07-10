@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba130(h,x)Sb114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 114
+#     nuclide: Sb114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.587545E-10
+   1.000000E+02   1.379669E-05
+   1.100000E+02   2.473232E-03
+   1.200000E+02   2.937920E-02
+   1.300000E+02   9.756989E-02
+   1.400000E+02   1.619053E-01
+   1.500000E+02   4.662484E-01
+   1.600000E+02   2.091831E+00
+   1.800000E+02   6.283132E+00
+   2.000000E+02   7.979864E+00

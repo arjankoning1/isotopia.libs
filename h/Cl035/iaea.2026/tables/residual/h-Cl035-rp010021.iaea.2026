@@ -1,0 +1,46 @@
+# header: 
+#   title: Cl35(h,x)Ne21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.992953E-11
+   5.500000E+01   3.651759E-08
+   6.000000E+01   1.594087E-06
+   6.500000E+01   1.296203E-05
+   7.000000E+01   4.542653E-05
+   7.500000E+01   9.583254E-05
+   8.000000E+01   2.146659E-04
+   9.000000E+01   6.447388E-03
+   1.000000E+02   4.462966E-02
+   1.100000E+02   1.150926E-01
+   1.200000E+02   2.340465E-01
+   1.300000E+02   5.542623E-01
+   1.400000E+02   1.173020E+00
+   1.500000E+02   2.158610E+00
+   1.600000E+02   3.628693E+00
+   1.800000E+02   9.944252E+00
+   2.000000E+02   1.963968E+01

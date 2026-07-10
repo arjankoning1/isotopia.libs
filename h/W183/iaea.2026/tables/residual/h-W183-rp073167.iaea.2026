@@ -1,0 +1,35 @@
+# header: 
+#   title: W183(h,x)Ta167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 183
+#   nuclide: W183
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 167
+#     nuclide: Ta167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.283044E-08
+   1.400000E+02   3.415887E-04
+   1.500000E+02   4.415716E-02
+   1.600000E+02   8.018861E-01
+   1.800000E+02   1.058053E+01
+   2.000000E+02   2.962301E+01

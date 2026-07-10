@@ -1,0 +1,41 @@
+# header: 
+#   title: Co57(h,x)K38m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.640217E-13
+   1.000000E+02   2.719306E-10
+   1.100000E+02   7.451110E-09
+   1.200000E+02   1.132272E-07
+   1.300000E+02   4.973451E-06
+   1.400000E+02   4.369113E-05
+   1.500000E+02   1.645114E-04
+   1.600000E+02   5.016707E-04
+   1.800000E+02   9.813365E-03
+   2.000000E+02   6.981659E-02

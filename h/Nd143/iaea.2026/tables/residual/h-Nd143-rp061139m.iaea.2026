@@ -1,0 +1,49 @@
+# header: 
+#   title: Nd143(h,x)Pm139m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.458335E-08
+   5.000000E+01   2.348828E-02
+   5.500000E+01   3.394720E+00
+   6.000000E+01   2.787974E+01
+   6.500000E+01   7.983520E+01
+   7.000000E+01   1.400292E+02
+   7.500000E+01   1.865525E+02
+   8.000000E+01   2.141299E+02
+   9.000000E+01   2.223772E+02
+   1.000000E+02   2.021326E+02
+   1.100000E+02   1.697377E+02
+   1.200000E+02   1.402879E+02
+   1.300000E+02   1.144151E+02
+   1.400000E+02   9.663784E+01
+   1.500000E+02   7.392194E+01
+   1.600000E+02   6.343689E+01
+   1.800000E+02   4.567532E+01
+   2.000000E+02   3.048043E+01

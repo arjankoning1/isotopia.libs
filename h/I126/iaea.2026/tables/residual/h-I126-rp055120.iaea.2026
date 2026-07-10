@@ -1,0 +1,40 @@
+# header: 
+#   title: I126(h,x)Cs120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 120
+#     nuclide: Cs120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.912656E-08
+   9.000000E+01   3.875453E-04
+   1.000000E+02   1.046798E-02
+   1.100000E+02   4.280826E-02
+   1.200000E+02   8.220531E-02
+   1.300000E+02   1.136908E-01
+   1.400000E+02   1.335455E-01
+   1.500000E+02   1.383502E-01
+   1.600000E+02   1.525826E-01
+   1.800000E+02   1.631894E-01
+   2.000000E+02   1.697601E-01

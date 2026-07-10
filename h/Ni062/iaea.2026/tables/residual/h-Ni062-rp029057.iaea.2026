@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni62(h,x)Cu57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 57
+#     nuclide: Cu57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.807964E-08
+   7.500000E+01   7.607604E-06
+   8.000000E+01   1.338853E-04
+   9.000000E+01   1.723881E-03
+   1.000000E+02   4.333148E-03
+   1.100000E+02   5.895728E-03
+   1.200000E+02   6.446734E-03
+   1.300000E+02   6.257737E-03
+   1.400000E+02   5.790525E-03
+   1.500000E+02   5.215470E-03
+   1.600000E+02   4.712005E-03
+   1.800000E+02   3.611616E-03
+   2.000000E+02   2.940255E-03

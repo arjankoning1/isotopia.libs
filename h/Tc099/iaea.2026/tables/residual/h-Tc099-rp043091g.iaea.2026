@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc99(h,x)Tc91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.445812E-09
+   7.500000E+01   5.632253E-06
+   8.000000E+01   2.150138E-04
+   9.000000E+01   6.486214E-03
+   1.000000E+02   3.059785E-02
+   1.100000E+02   1.738882E-01
+   1.200000E+02   8.312590E-01
+   1.300000E+02   1.950393E+00
+   1.400000E+02   3.033071E+00
+   1.500000E+02   3.988877E+00
+   1.600000E+02   4.153653E+00
+   1.800000E+02   4.348170E+00
+   2.000000E+02   5.439179E+00

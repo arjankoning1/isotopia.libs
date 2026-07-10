@@ -1,0 +1,40 @@
+# header: 
+#   title: Sm154(h,x)Pm142 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 154
+#   nuclide: Sm154
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 142
+#     nuclide: Pm142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.453366E-09
+   9.000000E+01   3.446139E-03
+   1.000000E+02   8.037952E-01
+   1.100000E+02   8.523259E+00
+   1.200000E+02   2.188690E+01
+   1.300000E+02   3.316680E+01
+   1.400000E+02   4.642016E+01
+   1.500000E+02   6.447282E+01
+   1.600000E+02   6.747122E+01
+   1.800000E+02   8.152842E+01
+   2.000000E+02   6.077623E+01

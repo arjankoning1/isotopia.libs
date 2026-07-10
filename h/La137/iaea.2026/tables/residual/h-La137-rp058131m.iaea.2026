@@ -1,0 +1,45 @@
+# header: 
+#   title: La137(h,x)Ce131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 137
+#   nuclide: La137
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 131
+#     nuclide: Ce131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.309235E-07
+   7.000000E+01   2.711671E-03
+   7.500000E+01   2.309744E-01
+   8.000000E+01   2.641334E+00
+   9.000000E+01   2.832959E+01
+   1.000000E+02   6.905954E+01
+   1.100000E+02   9.523850E+01
+   1.200000E+02   9.726942E+01
+   1.300000E+02   9.463552E+01
+   1.400000E+02   8.626046E+01
+   1.500000E+02   7.512025E+01
+   1.600000E+02   6.055506E+01
+   1.800000E+02   4.293840E+01
+   2.000000E+02   3.568615E+01

@@ -1,0 +1,39 @@
+# header: 
+#   title: I129(h,x)Cd111m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.985559E-08
+   1.200000E+02   8.316180E-05
+   1.300000E+02   2.104775E-03
+   1.400000E+02   1.032769E-02
+   1.500000E+02   2.306088E-02
+   1.600000E+02   4.747922E-02
+   1.800000E+02   2.208392E-01
+   2.000000E+02   4.148565E-01

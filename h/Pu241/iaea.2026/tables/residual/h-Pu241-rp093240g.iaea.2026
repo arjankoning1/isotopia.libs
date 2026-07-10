@@ -1,0 +1,51 @@
+# header: 
+#   title: Pu241(h,x)Np240g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 240
+#     nuclide: Np240g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.293724E-12
+   4.000000E+01   5.514334E-10
+   4.500000E+01   8.254491E-08
+   5.000000E+01   6.196422E-06
+   5.500000E+01   1.130174E-04
+   6.000000E+01   8.488770E-04
+   6.500000E+01   3.495566E-03
+   7.000000E+01   1.000865E-02
+   7.500000E+01   2.174976E-02
+   8.000000E+01   4.120423E-02
+   9.000000E+01   1.056675E-01
+   1.000000E+02   1.931469E-01
+   1.100000E+02   3.017709E-01
+   1.200000E+02   4.372057E-01
+   1.300000E+02   6.164960E-01
+   1.400000E+02   7.168090E-01
+   1.500000E+02   8.542851E-01
+   1.600000E+02   1.057150E+00
+   1.800000E+02   1.314284E+00
+   2.000000E+02   1.430261E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Cu65(h,x)Co55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.627224E-12
+   6.500000E+01   1.100628E-07
+   7.000000E+01   2.449104E-05
+   7.500000E+01   4.222547E-04
+   8.000000E+01   2.603130E-03
+   9.000000E+01   1.787732E-02
+   1.000000E+02   1.514848E-01
+   1.100000E+02   1.250724E+00
+   1.200000E+02   4.322738E+00
+   1.300000E+02   7.004113E+00
+   1.400000E+02   1.080516E+01
+   1.500000E+02   1.258154E+01
+   1.600000E+02   1.338376E+01
+   1.800000E+02   1.921570E+01
+   2.000000E+02   2.092060E+01

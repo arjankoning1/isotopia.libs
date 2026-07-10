@@ -1,0 +1,42 @@
+# header: 
+#   title: Zr96(h,x)Zr87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 87
+#     nuclide: Zr87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.170166E-11
+   7.500000E+01   8.049350E-07
+   8.000000E+01   1.825514E-04
+   9.000000E+01   2.560383E-02
+   1.000000E+02   2.403123E-01
+   1.100000E+02   1.819211E+00
+   1.200000E+02   1.228126E+01
+   1.300000E+02   3.683450E+01
+   1.400000E+02   7.013815E+01
+   1.500000E+02   9.635553E+01
+   1.600000E+02   1.027022E+02
+   1.800000E+02   1.089624E+02
+   2.000000E+02   8.753273E+01

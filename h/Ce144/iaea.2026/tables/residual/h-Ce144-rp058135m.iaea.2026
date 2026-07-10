@@ -1,0 +1,45 @@
+# header: 
+#   title: Ce144(h,x)Ce135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.875836E-08
+   7.000000E+01   4.755790E-05
+   7.500000E+01   3.188994E-03
+   8.000000E+01   3.952466E-02
+   9.000000E+01   5.723844E-01
+   1.000000E+02   3.485924E+00
+   1.100000E+02   2.754268E+01
+   1.200000E+02   8.747252E+01
+   1.300000E+02   1.353426E+02
+   1.400000E+02   1.517919E+02
+   1.500000E+02   1.461638E+02
+   1.600000E+02   1.321972E+02
+   1.800000E+02   8.719424E+01
+   2.000000E+02   7.048006E+01

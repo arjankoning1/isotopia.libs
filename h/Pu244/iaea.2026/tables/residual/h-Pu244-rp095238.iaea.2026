@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu244(h,x)Am238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 238
+#     nuclide: Am238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.032436E-09
+   6.000000E+01   2.216958E-07
+   6.500000E+01   1.918452E-06
+   7.000000E+01   6.054031E-06
+   7.500000E+01   1.121273E-05
+   8.000000E+01   2.009756E-05
+   9.000000E+01   3.242888E-05
+   1.000000E+02   4.096000E-05
+   1.100000E+02   3.956697E-05
+   1.200000E+02   8.791955E-05
+   1.300000E+02   7.815106E-05
+   1.400000E+02   7.857539E-05
+   1.500000E+02   1.410441E-04
+   1.600000E+02   1.765756E-04
+   1.800000E+02   2.432848E-04
+   2.000000E+02   1.446276E-03

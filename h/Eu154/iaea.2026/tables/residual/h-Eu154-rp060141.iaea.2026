@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu154(h,x)Nd141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.074608E-11
+   7.000000E+01   3.258788E-08
+   7.500000E+01   7.132728E-06
+   8.000000E+01   3.791380E-04
+   9.000000E+01   3.833301E-02
+   1.000000E+02   3.107704E-01
+   1.100000E+02   7.577031E-01
+   1.200000E+02   1.021712E+00
+   1.300000E+02   1.086872E+00
+   1.400000E+02   1.282060E+00
+   1.500000E+02   1.232518E+00
+   1.600000E+02   1.349382E+00
+   1.800000E+02   1.375895E+00
+   2.000000E+02   7.567031E-01

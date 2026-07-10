@@ -1,0 +1,39 @@
+# header: 
+#   title: Ag109(h,x)Zr90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.972235E-11
+   1.000000E+02   2.665747E-07
+   1.100000E+02   3.527220E-05
+   1.200000E+02   4.508367E-04
+   1.300000E+02   1.821449E-03
+   1.400000E+02   4.505906E-03
+   1.500000E+02   1.278794E-02
+   1.600000E+02   3.737629E-02
+   1.800000E+02   1.234968E-01
+   2.000000E+02   3.849861E-01

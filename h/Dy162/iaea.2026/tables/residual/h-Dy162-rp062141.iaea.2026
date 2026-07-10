@@ -1,0 +1,35 @@
+# header: 
+#   title: Dy162(h,x)Sm141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 162
+#   nuclide: Dy162
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 141
+#     nuclide: Sm141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   2.223816E-12
+   1.400000E+02   5.825054E-08
+   1.500000E+02   3.390953E-05
+   1.600000E+02   5.515989E-03
+   1.800000E+02   1.292371E+00
+   2.000000E+02   8.725075E+00

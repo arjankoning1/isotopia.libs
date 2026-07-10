@@ -1,0 +1,40 @@
+# header: 
+#   title: Am241(h,x)Ac225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 225
+#     nuclide: Ac225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.324575E-11
+   9.000000E+01   6.380092E-09
+   1.000000E+02   1.002791E-07
+   1.100000E+02   6.074189E-06
+   1.200000E+02   8.475281E-05
+   1.300000E+02   2.397248E-04
+   1.400000E+02   4.597977E-04
+   1.500000E+02   1.355742E-04
+   1.600000E+02   1.650009E-04
+   1.800000E+02   3.493442E-04
+   2.000000E+02   7.317496E-04

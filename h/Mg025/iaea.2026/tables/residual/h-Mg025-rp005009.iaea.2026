@@ -1,0 +1,44 @@
+# header: 
+#   title: Mg25(h,x)B9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 9
+#     nuclide: B9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.621911E-12
+   6.500000E+01   4.632869E-08
+   7.000000E+01   1.232412E-05
+   7.500000E+01   2.006698E-04
+   8.000000E+01   9.614791E-04
+   9.000000E+01   4.847099E-03
+   1.000000E+02   1.126528E-02
+   1.100000E+02   2.416452E-02
+   1.200000E+02   7.622163E-02
+   1.300000E+02   2.496332E-01
+   1.400000E+02   6.125635E-01
+   1.500000E+02   1.210330E+00
+   1.600000E+02   1.995319E+00
+   1.800000E+02   4.674628E+00
+   2.000000E+02   8.963685E+00

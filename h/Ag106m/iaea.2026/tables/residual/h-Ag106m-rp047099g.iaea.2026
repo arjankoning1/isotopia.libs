@@ -1,0 +1,46 @@
+# header: 
+#   title: Ag106m(h,x)Ag99g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 106
+#   nuclide: Ag106m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 99
+#     nuclide: Ag99g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.257571E-09
+   6.500000E+01   2.477776E-06
+   7.000000E+01   1.152579E-04
+   7.500000E+01   8.476297E-04
+   8.000000E+01   2.611429E-03
+   9.000000E+01   1.292617E-02
+   1.000000E+02   1.655321E-01
+   1.100000E+02   6.547557E-01
+   1.200000E+02   1.211939E+00
+   1.300000E+02   1.619348E+00
+   1.400000E+02   1.963376E+00
+   1.500000E+02   1.855437E+00
+   1.600000E+02   1.991885E+00
+   1.800000E+02   1.828985E+00
+   2.000000E+02   2.076321E+00

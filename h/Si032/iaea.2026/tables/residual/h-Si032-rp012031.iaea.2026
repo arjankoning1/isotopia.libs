@@ -1,0 +1,46 @@
+# header: 
+#   title: Si32(h,x)Mg31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 31
+#     nuclide: Mg31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.100837E-08
+   5.500000E+01   9.402085E-07
+   6.000000E+01   5.654375E-06
+   6.500000E+01   1.467973E-05
+   7.000000E+01   2.545047E-05
+   7.500000E+01   3.475610E-05
+   8.000000E+01   4.083165E-05
+   9.000000E+01   4.548141E-05
+   1.000000E+02   4.326255E-05
+   1.100000E+02   3.945821E-05
+   1.200000E+02   3.575546E-05
+   1.300000E+02   3.229141E-05
+   1.400000E+02   3.010823E-05
+   1.500000E+02   2.828838E-05
+   1.600000E+02   2.603837E-05
+   1.800000E+02   2.588697E-05
+   2.000000E+02   2.088728E-05

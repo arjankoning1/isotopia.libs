@@ -1,0 +1,48 @@
+# header: 
+#   title: Mn52(h,x)Mn48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 52
+#   nuclide: Mn52
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 48
+#     nuclide: Mn48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.337202E-12
+   4.500000E+01   5.046767E-06
+   5.000000E+01   4.094887E-04
+   5.500000E+01   1.414105E-03
+   6.000000E+01   2.294108E-03
+   6.500000E+01   2.762247E-03
+   7.000000E+01   2.889980E-03
+   7.500000E+01   3.236052E-03
+   8.000000E+01   4.420417E-03
+   9.000000E+01   7.816001E-03
+   1.000000E+02   9.865468E-03
+   1.100000E+02   1.025789E-02
+   1.200000E+02   9.612821E-03
+   1.300000E+02   8.909325E-03
+   1.400000E+02   7.911893E-03
+   1.500000E+02   7.048578E-03
+   1.600000E+02   6.209061E-03
+   1.800000E+02   5.030876E-03
+   2.000000E+02   4.148858E-03

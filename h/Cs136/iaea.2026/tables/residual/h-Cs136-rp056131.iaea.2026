@@ -1,0 +1,47 @@
+# header: 
+#   title: Cs136(h,x)Ba131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.275263E-11
+   5.000000E+01   1.130509E-03
+   5.500000E+01   8.706537E-01
+   6.000000E+01   1.608402E+01
+   6.500000E+01   7.098711E+01
+   7.000000E+01   1.613793E+02
+   7.500000E+01   2.535223E+02
+   8.000000E+01   3.240736E+02
+   9.000000E+01   3.753491E+02
+   1.000000E+02   3.496667E+02
+   1.100000E+02   3.049180E+02
+   1.200000E+02   2.527394E+02
+   1.300000E+02   2.145972E+02
+   1.400000E+02   1.656288E+02
+   1.500000E+02   1.436199E+02
+   1.600000E+02   1.074320E+02
+   1.800000E+02   7.170374E+01
+   2.000000E+02   5.300311E+01

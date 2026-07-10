@@ -1,0 +1,44 @@
+# header: 
+#   title: Co60(h,x)V48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.913116E-08
+   6.500000E+01   6.127172E-06
+   7.000000E+01   1.712273E-04
+   7.500000E+01   1.125191E-03
+   8.000000E+01   3.582451E-03
+   9.000000E+01   4.610077E-02
+   1.000000E+02   1.461539E+00
+   1.100000E+02   7.804566E+00
+   1.200000E+02   1.660198E+01
+   1.300000E+02   2.651471E+01
+   1.400000E+02   3.440268E+01
+   1.500000E+02   5.079725E+01
+   1.600000E+02   6.514742E+01
+   1.800000E+02   7.859693E+01
+   2.000000E+02   9.306802E+01

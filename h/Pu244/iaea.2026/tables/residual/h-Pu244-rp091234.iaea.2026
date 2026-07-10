@@ -1,0 +1,46 @@
+# header: 
+#   title: Pu244(h,x)Pa234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 234
+#     nuclide: Pa234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.073095E-11
+   5.500000E+01   2.321213E-08
+   6.000000E+01   1.352704E-06
+   6.500000E+01   1.884860E-05
+   7.000000E+01   1.173777E-04
+   7.500000E+01   2.718095E-04
+   8.000000E+01   5.130312E-04
+   9.000000E+01   9.624704E-04
+   1.000000E+02   7.143868E-04
+   1.100000E+02   7.446946E-04
+   1.200000E+02   1.044231E-03
+   1.300000E+02   1.668680E-03
+   1.400000E+02   2.584203E-03
+   1.500000E+02   2.507990E-03
+   1.600000E+02   3.377295E-03
+   1.800000E+02   5.597673E-03
+   2.000000E+02   8.630985E-03

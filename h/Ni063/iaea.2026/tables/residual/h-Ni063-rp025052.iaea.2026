@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni63(h,x)Mn52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.550241E-09
+   7.000000E+01   1.909633E-05
+   7.500000E+01   1.301091E-03
+   8.000000E+01   1.532901E-02
+   9.000000E+01   1.727847E-01
+   1.000000E+02   4.620643E-01
+   1.100000E+02   7.857737E-01
+   1.200000E+02   2.036836E+00
+   1.300000E+02   6.791519E+00
+   1.400000E+02   1.397875E+01
+   1.500000E+02   1.996279E+01
+   1.600000E+02   2.914299E+01
+   1.800000E+02   3.929346E+01
+   2.000000E+02   4.852353E+01

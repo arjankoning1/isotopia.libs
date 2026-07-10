@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn122(h,x)In109n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.070200E-12
+   1.100000E+02   9.571620E-06
+   1.200000E+02   8.972398E-03
+   1.300000E+02   2.747536E-01
+   1.400000E+02   1.502243E+00
+   1.500000E+02   3.797894E+00
+   1.600000E+02   6.417551E+00
+   1.800000E+02   9.502282E+00
+   2.000000E+02   1.177889E+01

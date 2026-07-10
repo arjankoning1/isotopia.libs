@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn65(h,x)Zn60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 60
+#     nuclide: Zn60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   7.798961E-12
+   4.500000E+01   7.648229E-07
+   5.000000E+01   7.648323E-05
+   5.500000E+01   8.611907E-04
+   6.000000E+01   3.034776E-03
+   6.500000E+01   5.602607E-03
+   7.000000E+01   7.447669E-03
+   7.500000E+01   9.314457E-03
+   8.000000E+01   1.427845E-02
+   9.000000E+01   4.052841E-02
+   1.000000E+02   7.066605E-02
+   1.100000E+02   8.596490E-02
+   1.200000E+02   8.689742E-02
+   1.300000E+02   8.267014E-02
+   1.400000E+02   7.607727E-02
+   1.500000E+02   6.902727E-02
+   1.600000E+02   6.128310E-02
+   1.800000E+02   5.042037E-02
+   2.000000E+02   3.941523E-02

@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe128(h,x)Te117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 128
+#   nuclide: Xe128
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 117
+#     nuclide: Te117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.030923E-10
+   7.500000E+01   1.518219E-07
+   8.000000E+01   1.587072E-05
+   9.000000E+01   2.186389E-03
+   1.000000E+02   2.029512E-02
+   1.100000E+02   2.254676E-01
+   1.200000E+02   2.098614E+00
+   1.300000E+02   6.469162E+00
+   1.400000E+02   9.779269E+00
+   1.500000E+02   1.435403E+01
+   1.600000E+02   1.855495E+01
+   1.800000E+02   2.538450E+01
+   2.000000E+02   2.928398E+01

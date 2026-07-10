@@ -1,0 +1,43 @@
+# header: 
+#   title: Cu63(h,x)Co53m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.255421E-15
+   8.000000E+01   1.990680E-11
+   9.000000E+01   3.384456E-08
+   1.000000E+02   6.786487E-07
+   1.100000E+02   1.028628E-05
+   1.200000E+02   1.417339E-04
+   1.300000E+02   5.952677E-04
+   1.400000E+02   1.185599E-03
+   1.500000E+02   1.715672E-03
+   1.600000E+02   2.180304E-03
+   1.800000E+02   2.815025E-03
+   2.000000E+02   3.435983E-03

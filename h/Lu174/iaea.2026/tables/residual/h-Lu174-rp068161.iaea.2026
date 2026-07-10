@@ -1,0 +1,42 @@
+# header: 
+#   title: Lu174(h,x)Er161 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 161
+#     nuclide: Er161
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.732955E-12
+   7.500000E+01   5.782195E-09
+   8.000000E+01   1.571493E-06
+   9.000000E+01   1.531051E-03
+   1.000000E+02   3.579246E-02
+   1.100000E+02   1.239995E-01
+   1.200000E+02   3.471181E-01
+   1.300000E+02   8.169947E-01
+   1.400000E+02   1.792820E+00
+   1.500000E+02   1.977231E+00
+   1.600000E+02   2.328318E+00
+   1.800000E+02   2.383468E+00
+   2.000000E+02   1.821616E+00

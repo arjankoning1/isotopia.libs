@@ -1,0 +1,39 @@
+# header: 
+#   title: Th230(h,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.049898E-12
+   1.000000E+02   1.931348E-09
+   1.100000E+02   2.844974E-07
+   1.200000E+02   1.484730E-05
+   1.300000E+02   9.129198E-04
+   1.400000E+02   1.155976E-02
+   1.500000E+02   6.075763E-02
+   1.600000E+02   3.320151E-01
+   1.800000E+02   1.516920E+00
+   2.000000E+02   2.617624E+00

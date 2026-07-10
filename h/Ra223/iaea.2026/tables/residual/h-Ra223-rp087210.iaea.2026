@@ -1,0 +1,40 @@
+# header: 
+#   title: Ra223(h,x)Fr210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 210
+#     nuclide: Fr210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.544809E-11
+   9.000000E+01   1.663326E-07
+   1.000000E+02   8.273940E-04
+   1.100000E+02   9.152658E-02
+   1.200000E+02   1.592714E+00
+   1.300000E+02   7.400046E+00
+   1.400000E+02   1.833017E+01
+   1.500000E+02   3.288489E+01
+   1.600000E+02   3.736317E+01
+   1.800000E+02   4.990578E+01
+   2.000000E+02   6.035731E+01

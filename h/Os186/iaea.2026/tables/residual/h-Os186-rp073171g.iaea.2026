@@ -1,0 +1,41 @@
+# header: 
+#   title: Os186(h,x)Ta171g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 171
+#     nuclide: Ta171g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.826354E-12
+   1.000000E+02   1.145668E-06
+   1.100000E+02   3.614078E-03
+   1.200000E+02   1.966359E-01
+   1.300000E+02   1.712758E+00
+   1.400000E+02   4.193168E+00
+   1.500000E+02   7.059927E+00
+   1.600000E+02   7.822556E+00
+   1.800000E+02   8.068111E+00
+   2.000000E+02   9.323259E+00

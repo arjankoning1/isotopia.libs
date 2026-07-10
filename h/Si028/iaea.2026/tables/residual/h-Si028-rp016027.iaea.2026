@@ -1,0 +1,43 @@
+# header: 
+#   title: Si28(h,x)S27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 27
+#     nuclide: S27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.033088E-10
+   7.000000E+01   3.345798E-08
+   7.500000E+01   2.790829E-07
+   8.000000E+01   9.339270E-07
+   9.000000E+01   2.859837E-06
+   1.000000E+02   4.180715E-06
+   1.100000E+02   4.548081E-06
+   1.200000E+02   4.341018E-06
+   1.300000E+02   3.864084E-06
+   1.400000E+02   3.358980E-06
+   1.500000E+02   2.920651E-06
+   1.600000E+02   2.531940E-06
+   1.800000E+02   1.997659E-06
+   2.000000E+02   1.667054E-06

@@ -1,0 +1,51 @@
+# header: 
+#   title: Co57(h,x)Co53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   5.465416E-12
+   4.000000E+01   3.573249E-06
+   4.500000E+01   2.376942E-04
+   5.000000E+01   1.317853E-03
+   5.500000E+01   2.863967E-03
+   6.000000E+01   3.945061E-03
+   6.500000E+01   5.079496E-03
+   7.000000E+01   1.272497E-02
+   7.500000E+01   3.605156E-02
+   8.000000E+01   7.083055E-02
+   9.000000E+01   1.324184E-01
+   1.000000E+02   1.586638E-01
+   1.100000E+02   1.567104E-01
+   1.200000E+02   1.437906E-01
+   1.300000E+02   1.258377E-01
+   1.400000E+02   1.104199E-01
+   1.500000E+02   9.543131E-02
+   1.600000E+02   8.156839E-02
+   1.800000E+02   6.311850E-02
+   2.000000E+02   4.926183E-02

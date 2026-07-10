@@ -1,0 +1,37 @@
+# header: 
+#   title: Ce141(h,x)Ce127m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 141
+#   nuclide: Ce141
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 127
+#     nuclide: Ce127m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   4.738830E-10
+   1.400000E+02   2.516457E-06
+   1.500000E+02   3.405234E-04
+   1.600000E+02   1.015141E-02
+   1.800000E+02   1.209209E+00
+   2.000000E+02   1.231323E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu153(h,x)Tb146 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 146
+#     nuclide: Tb146
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.765186E-11
+   8.000000E+01   2.586609E-06
+   9.000000E+01   6.801633E-03
+   1.000000E+02   9.354192E-02
+   1.100000E+02   2.631083E-01
+   1.200000E+02   3.964396E-01
+   1.300000E+02   4.748375E-01
+   1.400000E+02   4.956689E-01
+   1.500000E+02   5.001515E-01
+   1.600000E+02   4.752467E-01
+   1.800000E+02   4.404611E-01
+   2.000000E+02   3.071204E-01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Ar39(h,x)Ca37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 37
+#     nuclide: Ca37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.789810E-12
+   5.500000E+01   1.315081E-07
+   6.000000E+01   3.247089E-06
+   6.500000E+01   1.854851E-05
+   7.000000E+01   4.841189E-05
+   7.500000E+01   8.053563E-05
+   8.000000E+01   1.039645E-04
+   9.000000E+01   1.169170E-04
+   1.000000E+02   1.007801E-04
+   1.100000E+02   7.776012E-05
+   1.200000E+02   5.781084E-05
+   1.300000E+02   4.273631E-05
+   1.400000E+02   3.229854E-05
+   1.500000E+02   2.524869E-05
+   1.600000E+02   2.036105E-05
+   1.800000E+02   1.440321E-05
+   2.000000E+02   1.096264E-05

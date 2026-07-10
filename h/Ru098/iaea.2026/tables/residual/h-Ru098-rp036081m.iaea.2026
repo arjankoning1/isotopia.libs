@@ -1,0 +1,42 @@
+# header: 
+#   title: Ru98(h,x)Kr81m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 98
+#   nuclide: Ru98
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.565280E-12
+   9.000000E+01   3.365226E-11
+   1.000000E+02   2.730020E-10
+   1.100000E+02   1.754963E-08
+   1.200000E+02   3.337194E-07
+   1.300000E+02   2.044447E-06
+   1.400000E+02   2.086893E-05
+   1.500000E+02   1.477613E-04
+   1.600000E+02   5.167015E-04
+   1.800000E+02   1.528534E-03
+   2.000000E+02   2.051302E-03

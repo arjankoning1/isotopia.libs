@@ -1,0 +1,45 @@
+# header: 
+#   title: B11(h,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 5
+#   A: 11
+#   nuclide: B11
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.553056E-07
+   6.000000E+01   2.761108E-05
+   6.500000E+01   1.839275E-04
+   7.000000E+01   5.299974E-04
+   7.500000E+01   1.026454E-03
+   8.000000E+01   1.614555E-03
+   9.000000E+01   2.873094E-03
+   1.000000E+02   3.799169E-03
+   1.100000E+02   4.208284E-03
+   1.200000E+02   4.122424E-03
+   1.300000E+02   3.666469E-03
+   1.400000E+02   3.099658E-03
+   1.500000E+02   2.514603E-03
+   1.600000E+02   1.949469E-03
+   1.800000E+02   1.204212E-03
+   2.000000E+02   7.749782E-04

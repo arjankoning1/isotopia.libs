@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe58(h,x)Co53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.731112E-08
+   7.500000E+01   5.003847E-06
+   8.000000E+01   7.415762E-05
+   9.000000E+01   8.404723E-04
+   1.000000E+02   1.991902E-03
+   1.100000E+02   2.664248E-03
+   1.200000E+02   2.868940E-03
+   1.300000E+02   2.804207E-03
+   1.400000E+02   2.651740E-03
+   1.500000E+02   2.298410E-03
+   1.600000E+02   2.125126E-03
+   1.800000E+02   1.635074E-03
+   2.000000E+02   1.307587E-03

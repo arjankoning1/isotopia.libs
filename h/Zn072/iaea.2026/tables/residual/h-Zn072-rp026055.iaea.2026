@@ -1,0 +1,38 @@
+# header: 
+#   title: Zn72(h,x)Fe55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.591182E-11
+   1.100000E+02   1.002053E-06
+   1.200000E+02   1.887524E-04
+   1.300000E+02   5.576281E-03
+   1.400000E+02   6.728354E-02
+   1.500000E+02   3.594519E-01
+   1.600000E+02   1.241286E+00
+   1.800000E+02   5.252612E+00
+   2.000000E+02   1.668244E+01

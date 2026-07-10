@@ -1,0 +1,44 @@
+# header: 
+#   title: Pt193m(h,x)Hg187m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 193
+#   nuclide: Pt193m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 187
+#     nuclide: Hg187m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.053617E-07
+   7.500000E+01   2.068208E-04
+   8.000000E+01   8.404786E-03
+   9.000000E+01   3.334998E-01
+   1.000000E+02   1.341004E+00
+   1.100000E+02   2.103862E+00
+   1.200000E+02   2.212122E+00
+   1.300000E+02   2.075944E+00
+   1.400000E+02   1.881091E+00
+   1.500000E+02   1.709839E+00
+   1.600000E+02   1.528784E+00
+   1.800000E+02   1.201947E+00
+   2.000000E+02   1.052460E+00

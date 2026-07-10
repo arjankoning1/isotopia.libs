@@ -1,0 +1,37 @@
+# header: 
+#   title: Se79(h,x)Fe57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 79
+#   nuclide: Se79
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.659326E-10
+   1.200000E+02   5.212412E-07
+   1.300000E+02   2.832662E-05
+   1.400000E+02   2.970857E-04
+   1.500000E+02   2.157527E-03
+   1.600000E+02   1.284058E-02
+   1.800000E+02   8.784882E-02
+   2.000000E+02   3.773070E-01

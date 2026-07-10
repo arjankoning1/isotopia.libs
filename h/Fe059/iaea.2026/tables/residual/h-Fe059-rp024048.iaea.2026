@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe59(h,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.141450E-11
+   8.000000E+01   1.011174E-07
+   9.000000E+01   1.106725E-04
+   1.000000E+02   2.346058E-03
+   1.100000E+02   2.395942E-02
+   1.200000E+02   1.489337E-01
+   1.300000E+02   5.417315E-01
+   1.400000E+02   1.119983E+00
+   1.500000E+02   1.988353E+00
+   1.600000E+02   2.689584E+00
+   1.800000E+02   4.775041E+00
+   2.000000E+02   5.281654E+00

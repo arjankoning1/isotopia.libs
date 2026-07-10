@@ -1,0 +1,41 @@
+# header: 
+#   title: Po206(h,x)Tl193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 206
+#   nuclide: Po206
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 193
+#     nuclide: Tl193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.023387E-12
+   8.000000E+01   2.163106E-09
+   9.000000E+01   4.099660E-05
+   1.000000E+02   1.354635E-02
+   1.100000E+02   2.280488E-01
+   1.200000E+02   6.505547E-01
+   1.300000E+02   9.691384E-01
+   1.400000E+02   1.107204E+00
+   1.500000E+02   1.281925E+00
+   1.600000E+02   1.798597E+00
+   1.800000E+02   1.363240E+00
+   2.000000E+02   1.522746E+00

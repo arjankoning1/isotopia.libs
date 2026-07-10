@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn118(h,x)Rh102m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.494004E-09
+   1.000000E+02   2.156003E-04
+   1.100000E+02   2.194611E-02
+   1.200000E+02   1.623635E-01
+   1.300000E+02   4.507692E-01
+   1.400000E+02   6.224728E-01
+   1.500000E+02   8.880008E-01
+   1.600000E+02   1.168089E+00
+   1.800000E+02   2.003665E+00
+   2.000000E+02   1.633454E+00

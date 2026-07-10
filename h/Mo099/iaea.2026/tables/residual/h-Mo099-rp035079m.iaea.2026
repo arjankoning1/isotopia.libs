@@ -1,0 +1,39 @@
+# header: 
+#   title: Mo99(h,x)Br79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.170847E-09
+   1.200000E+02   4.898961E-06
+   1.300000E+02   1.729873E-04
+   1.400000E+02   9.411716E-04
+   1.500000E+02   2.430401E-03
+   1.600000E+02   5.045851E-03
+   1.800000E+02   2.961314E-02
+   2.000000E+02   8.486778E-02

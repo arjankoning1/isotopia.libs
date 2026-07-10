@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe60(h,x)Mn51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 51
+#     nuclide: Mn51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.327576E-09
+   7.500000E+01   1.045400E-05
+   8.000000E+01   9.759016E-04
+   9.000000E+01   6.382759E-02
+   1.000000E+02   3.624436E-01
+   1.100000E+02   7.812430E-01
+   1.200000E+02   1.283899E+00
+   1.300000E+02   2.237206E+00
+   1.400000E+02   4.187584E+00
+   1.500000E+02   6.024272E+00
+   1.600000E+02   8.294869E+00
+   1.800000E+02   9.726495E+00
+   2.000000E+02   1.021723E+01

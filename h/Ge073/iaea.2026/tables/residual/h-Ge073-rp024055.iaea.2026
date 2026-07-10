@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge73(h,x)Cr55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 55
+#     nuclide: Cr55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.114115E-11
+   8.000000E+01   2.173259E-10
+   9.000000E+01   5.184512E-09
+   1.000000E+02   2.629529E-08
+   1.100000E+02   5.059628E-07
+   1.200000E+02   6.566489E-06
+   1.300000E+02   5.273206E-05
+   1.400000E+02   2.709274E-04
+   1.500000E+02   1.351008E-03
+   1.600000E+02   4.018141E-03
+   1.800000E+02   1.400874E-02
+   2.000000E+02   2.359167E-02

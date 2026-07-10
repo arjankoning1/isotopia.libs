@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm250(h,x)Pu239 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 239
+#     nuclide: Pu239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.868179E-12
+   6.500000E+01   1.893801E-10
+   7.000000E+01   2.449327E-09
+   7.500000E+01   7.410409E-08
+   8.000000E+01   7.711895E-07
+   9.000000E+01   3.238746E-05
+   1.000000E+02   1.713623E-04
+   1.100000E+02   2.641222E-04
+   1.200000E+02   1.521760E-03
+   1.300000E+02   1.931068E-03
+   1.400000E+02   1.962571E-03
+   1.500000E+02   1.795386E-03
+   1.600000E+02   2.062263E-03
+   1.800000E+02   8.520706E-03
+   2.000000E+02   1.379724E-02

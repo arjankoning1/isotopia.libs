@@ -1,0 +1,39 @@
+# header: 
+#   title: Nb93(h,x)Sr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 80
+#     nuclide: Sr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.246823E-10
+   1.000000E+02   1.122664E-04
+   1.100000E+02   1.790085E-02
+   1.200000E+02   1.854778E-01
+   1.300000E+02   6.043925E-01
+   1.400000E+02   1.222501E+00
+   1.500000E+02   2.544704E+00
+   1.600000E+02   7.265972E+00
+   1.800000E+02   2.351977E+01
+   2.000000E+02   3.804790E+01

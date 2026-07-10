@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl35(h,x)Al24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.463495E-09
+   6.500000E+01   6.314765E-07
+   7.000000E+01   8.571895E-06
+   7.500000E+01   3.700864E-05
+   8.000000E+01   1.008252E-04
+   9.000000E+01   7.247250E-04
+   1.000000E+02   7.121556E-03
+   1.100000E+02   2.616893E-02
+   1.200000E+02   5.600980E-02
+   1.300000E+02   1.087046E-01
+   1.400000E+02   2.128862E-01
+   1.500000E+02   3.604564E-01
+   1.600000E+02   5.321029E-01
+   1.800000E+02   9.041589E-01
+   2.000000E+02   1.200428E+00

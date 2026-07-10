@@ -1,0 +1,51 @@
+# header: 
+#   title: Am241(h,x)Am236m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.444858E-11
+   4.000000E+01   9.914643E-09
+   4.500000E+01   2.242146E-07
+   5.000000E+01   8.486199E-07
+   5.500000E+01   1.695476E-06
+   6.000000E+01   2.200726E-06
+   6.500000E+01   4.668123E-06
+   7.000000E+01   1.033932E-05
+   7.500000E+01   1.719965E-05
+   8.000000E+01   2.284771E-05
+   9.000000E+01   3.652557E-05
+   1.000000E+02   6.754958E-05
+   1.100000E+02   6.045111E-05
+   1.200000E+02   1.019433E-04
+   1.300000E+02   1.268692E-04
+   1.400000E+02   1.825264E-04
+   1.500000E+02   5.700339E-04
+   1.600000E+02   1.077431E-03
+   1.800000E+02   1.438980E-03
+   2.000000E+02   3.130807E-05

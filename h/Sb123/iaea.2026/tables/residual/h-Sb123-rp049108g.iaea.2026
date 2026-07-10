@@ -1,0 +1,39 @@
+# header: 
+#   title: Sb123(h,x)In108g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 108
+#     nuclide: In108g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.461237E-09
+   1.200000E+02   9.839422E-06
+   1.300000E+02   7.037134E-04
+   1.400000E+02   1.482490E-02
+   1.500000E+02   1.698360E-01
+   1.600000E+02   1.025506E+00
+   1.800000E+02   6.347156E+00
+   2.000000E+02   1.351036E+01

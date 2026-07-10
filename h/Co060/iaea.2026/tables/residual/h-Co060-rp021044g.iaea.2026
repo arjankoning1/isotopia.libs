@@ -1,0 +1,42 @@
+# header: 
+#   title: Co60(h,x)Sc44g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.507708E-10
+   9.000000E+01   1.282681E-06
+   1.000000E+02   4.039568E-05
+   1.100000E+02   1.762460E-03
+   1.200000E+02   6.342852E-02
+   1.300000E+02   4.097801E-01
+   1.400000E+02   1.262894E+00
+   1.500000E+02   2.256879E+00
+   1.600000E+02   3.563155E+00
+   1.800000E+02   9.190791E+00
+   2.000000E+02   1.526825E+01

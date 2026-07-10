@@ -1,0 +1,35 @@
+# header: 
+#   title: Se82(h,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   8.323521E-08
+   1.400000E+02   5.612527E-05
+   1.500000E+02   2.090313E-03
+   1.600000E+02   1.788272E-02
+   1.800000E+02   2.736662E-01
+   2.000000E+02   2.434980E+00

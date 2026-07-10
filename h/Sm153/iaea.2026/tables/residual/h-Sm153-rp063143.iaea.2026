@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm153(h,x)Eu143 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 153
+#   nuclide: Sm153
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 143
+#     nuclide: Eu143
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.971963E-08
+   1.000000E+02   1.479753E-02
+   1.100000E+02   2.456863E+00
+   1.200000E+02   2.575467E+01
+   1.300000E+02   7.685421E+01
+   1.400000E+02   1.265040E+02
+   1.500000E+02   1.512381E+02
+   1.600000E+02   1.591678E+02
+   1.800000E+02   1.474569E+02
+   2.000000E+02   1.201509E+02

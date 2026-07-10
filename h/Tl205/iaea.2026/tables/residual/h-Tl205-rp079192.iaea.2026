@@ -1,0 +1,40 @@
+# header: 
+#   title: Tl205(h,x)Au192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 192
+#     nuclide: Au192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.728027E-12
+   9.000000E+01   9.379485E-07
+   1.000000E+02   7.350433E-04
+   1.100000E+02   2.719686E-02
+   1.200000E+02   3.275442E-01
+   1.300000E+02   1.323709E+00
+   1.400000E+02   2.344602E+00
+   1.500000E+02   3.579690E+00
+   1.600000E+02   3.071678E+00
+   1.800000E+02   2.714893E+00
+   2.000000E+02   2.260333E+00

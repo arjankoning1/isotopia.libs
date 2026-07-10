@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn112(h,x)Sn106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 106
+#     nuclide: Sn106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.367709E-11
+   5.500000E+01   2.112326E-06
+   6.000000E+01   2.191261E-04
+   6.500000E+01   2.905848E-03
+   7.000000E+01   1.076120E-02
+   7.500000E+01   2.114625E-02
+   8.000000E+01   3.327730E-02
+   9.000000E+01   3.278483E-01
+   1.000000E+02   1.533934E+00
+   1.100000E+02   2.963619E+00
+   1.200000E+02   3.896298E+00
+   1.300000E+02   4.206243E+00
+   1.400000E+02   4.416885E+00
+   1.500000E+02   4.486091E+00
+   1.600000E+02   3.880109E+00
+   1.800000E+02   4.422227E+00
+   2.000000E+02   3.722445E+00

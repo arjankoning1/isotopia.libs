@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni60(h,x)Sc44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.489088E-09
+   8.000000E+01   4.472684E-07
+   9.000000E+01   1.359904E-04
+   1.000000E+02   1.349475E-03
+   1.100000E+02   3.497864E-03
+   1.200000E+02   1.460295E-02
+   1.300000E+02   1.798386E-01
+   1.400000E+02   9.285862E-01
+   1.500000E+02   2.103408E+00
+   1.600000E+02   3.750292E+00
+   1.800000E+02   9.951714E+00
+   2.000000E+02   1.901743E+01

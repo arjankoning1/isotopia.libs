@@ -1,0 +1,39 @@
+# header: 
+#   title: Zn65(h,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.841483E-11
+   1.000000E+02   2.774329E-07
+   1.100000E+02   1.430228E-05
+   1.200000E+02   1.081160E-04
+   1.300000E+02   7.989476E-04
+   1.400000E+02   6.893869E-03
+   1.500000E+02   2.583059E-02
+   1.600000E+02   5.738475E-02
+   1.800000E+02   4.003817E-01
+   2.000000E+02   1.677977E+00

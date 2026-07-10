@@ -1,0 +1,42 @@
+# header: 
+#   title: Ac226(h,x)Ac215 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 226
+#   nuclide: Ac226
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 215
+#     nuclide: Ac215
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.991572E-12
+   7.500000E+01   1.129232E-09
+   8.000000E+01   1.666984E-07
+   9.000000E+01   2.410501E-04
+   1.000000E+02   2.429544E-02
+   1.100000E+02   5.307564E-01
+   1.200000E+02   3.449722E+00
+   1.300000E+02   1.101728E+01
+   1.400000E+02   2.326062E+01
+   1.500000E+02   3.723878E+01
+   1.600000E+02   4.321210E+01
+   1.800000E+02   5.660228E+01
+   2.000000E+02   4.023959E+01

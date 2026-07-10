@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu145(h,x)Ce130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 130
+#     nuclide: Ce130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.866444E-12
+   8.000000E+01   2.386089E-09
+   9.000000E+01   3.893753E-05
+   1.000000E+02   1.005081E-02
+   1.100000E+02   1.500748E-01
+   1.200000E+02   4.563851E-01
+   1.300000E+02   9.299757E-01
+   1.400000E+02   2.634641E+00
+   1.500000E+02   6.146168E+00
+   1.600000E+02   1.084150E+01
+   1.800000E+02   1.273923E+01
+   2.000000E+02   1.833704E+01

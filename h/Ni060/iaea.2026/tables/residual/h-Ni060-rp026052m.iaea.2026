@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni60(h,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.282830E-15
+   5.500000E+01   1.596760E-09
+   6.000000E+01   1.482388E-06
+   6.500000E+01   3.238519E-05
+   7.000000E+01   1.437911E-04
+   7.500000E+01   3.003990E-04
+   8.000000E+01   4.425393E-04
+   9.000000E+01   4.068322E-03
+   1.000000E+02   2.486401E-02
+   1.100000E+02   5.037032E-02
+   1.200000E+02   6.471507E-02
+   1.300000E+02   7.628147E-02
+   1.400000E+02   9.601122E-02
+   1.500000E+02   1.104079E-01
+   1.600000E+02   1.321346E-01
+   1.800000E+02   1.361302E-01
+   2.000000E+02   1.216473E-01

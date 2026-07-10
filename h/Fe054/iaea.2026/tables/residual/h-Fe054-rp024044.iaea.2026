@@ -1,0 +1,37 @@
+# header: 
+#   title: Fe54(h,x)Cr44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 44
+#     nuclide: Cr44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.951872E-10
+   1.200000E+02   9.708337E-09
+   1.300000E+02   8.143663E-08
+   1.400000E+02   4.207933E-07
+   1.500000E+02   1.400164E-06
+   1.600000E+02   2.966812E-06
+   1.800000E+02   6.165702E-06
+   2.000000E+02   9.452954E-06

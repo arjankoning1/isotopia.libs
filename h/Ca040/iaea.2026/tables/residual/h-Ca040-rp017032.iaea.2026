@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca40(h,x)Cl32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 32
+#     nuclide: Cl32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.116387E-10
+   4.500000E+01   5.439365E-05
+   5.000000E+01   5.624861E-03
+   5.500000E+01   3.416912E-02
+   6.000000E+01   7.463129E-02
+   6.500000E+01   1.042511E-01
+   7.000000E+01   1.214314E-01
+   7.500000E+01   1.286287E-01
+   8.000000E+01   1.296485E-01
+   9.000000E+01   1.394097E-01
+   1.000000E+02   2.225109E-01
+   1.100000E+02   3.546029E-01
+   1.200000E+02   4.524461E-01
+   1.300000E+02   5.075831E-01
+   1.400000E+02   5.601130E-01
+   1.500000E+02   6.239014E-01
+   1.600000E+02   6.597569E-01
+   1.800000E+02   6.312749E-01
+   2.000000E+02   5.492619E-01

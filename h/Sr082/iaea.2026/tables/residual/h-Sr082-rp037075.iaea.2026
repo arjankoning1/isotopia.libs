@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr82(h,x)Rb75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 75
+#     nuclide: Rb75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.198765E-11
+   6.500000E+01   4.939575E-07
+   7.000000E+01   5.867305E-05
+   7.500000E+01   5.172531E-04
+   8.000000E+01   1.432792E-03
+   9.000000E+01   3.254121E-03
+   1.000000E+02   4.481263E-03
+   1.100000E+02   7.229899E-03
+   1.200000E+02   1.809547E-02
+   1.300000E+02   3.801737E-02
+   1.400000E+02   4.886601E-02
+   1.500000E+02   5.867599E-02
+   1.600000E+02   6.111735E-02
+   1.800000E+02   5.560954E-02
+   2.000000E+02   4.729006E-02

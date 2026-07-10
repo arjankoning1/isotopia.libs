@@ -1,0 +1,42 @@
+# header: 
+#   title: In113(h,x)Ag101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.884619E-12
+   9.000000E+01   5.353075E-07
+   1.000000E+02   1.229120E-04
+   1.100000E+02   2.047414E-03
+   1.200000E+02   5.108541E-02
+   1.300000E+02   6.422448E-01
+   1.400000E+02   1.951082E+00
+   1.500000E+02   4.376434E+00
+   1.600000E+02   5.378880E+00
+   1.800000E+02   7.984850E+00
+   2.000000E+02   7.596394E+00

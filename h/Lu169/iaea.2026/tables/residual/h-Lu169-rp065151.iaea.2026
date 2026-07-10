@@ -1,0 +1,39 @@
+# header: 
+#   title: Lu169(h,x)Tb151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 169
+#   nuclide: Lu169
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 151
+#     nuclide: Tb151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.505805E-10
+   1.000000E+02   1.624749E-07
+   1.100000E+02   1.162991E-05
+   1.200000E+02   3.494446E-04
+   1.300000E+02   1.058022E-02
+   1.400000E+02   6.175895E-02
+   1.500000E+02   1.752910E-01
+   1.600000E+02   5.118630E-01
+   1.800000E+02   5.181705E-01
+   2.000000E+02   7.298844E-01

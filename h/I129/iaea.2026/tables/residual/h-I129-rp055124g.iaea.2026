@@ -1,0 +1,46 @@
+# header: 
+#   title: I129(h,x)Cs124g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 124
+#     nuclide: Cs124g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.360728E-09
+   6.500000E+01   1.444236E-04
+   7.000000E+01   1.244791E-02
+   7.500000E+01   1.247268E-01
+   8.000000E+01   4.528873E-01
+   9.000000E+01   1.400284E+00
+   1.000000E+02   1.847126E+00
+   1.100000E+02   1.720338E+00
+   1.200000E+02   1.457663E+00
+   1.300000E+02   1.178628E+00
+   1.400000E+02   9.775319E-01
+   1.500000E+02   8.037877E-01
+   1.600000E+02   6.713799E-01
+   1.800000E+02   5.276484E-01
+   2.000000E+02   4.659400E-01

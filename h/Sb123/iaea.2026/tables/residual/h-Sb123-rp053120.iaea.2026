@@ -1,0 +1,47 @@
+# header: 
+#   title: Sb123(h,x)I120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.542605E-03
+   5.000000E+01   2.968020E-01
+   5.500000E+01   2.479861E+00
+   6.000000E+01   7.105273E+00
+   6.500000E+01   1.184983E+01
+   7.000000E+01   1.448394E+01
+   7.500000E+01   1.486810E+01
+   8.000000E+01   1.379615E+01
+   9.000000E+01   1.022181E+01
+   1.000000E+02   7.171155E+00
+   1.100000E+02   5.062945E+00
+   1.200000E+02   3.763227E+00
+   1.300000E+02   2.909545E+00
+   1.400000E+02   2.358275E+00
+   1.500000E+02   1.892745E+00
+   1.600000E+02   1.625306E+00
+   1.800000E+02   1.136339E+00
+   2.000000E+02   9.190180E-01

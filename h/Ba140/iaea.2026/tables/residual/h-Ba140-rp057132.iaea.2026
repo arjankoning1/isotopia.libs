@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba140(h,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 140
+#   nuclide: Ba140
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.548800E-07
+   8.000000E+01   2.393487E-03
+   9.000000E+01   2.343915E+00
+   1.000000E+02   3.009058E+01
+   1.100000E+02   7.772099E+01
+   1.200000E+02   1.114310E+02
+   1.300000E+02   1.247364E+02
+   1.400000E+02   1.214835E+02
+   1.500000E+02   1.048123E+02
+   1.600000E+02   1.030722E+02
+   1.800000E+02   8.392775E+01
+   2.000000E+02   5.338005E+01

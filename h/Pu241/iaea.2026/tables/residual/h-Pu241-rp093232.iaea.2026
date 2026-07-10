@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu241(h,x)Np232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 232
+#     nuclide: Np232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.504625E-09
+   6.500000E+01   1.134899E-06
+   7.000000E+01   6.810154E-05
+   7.500000E+01   5.693965E-04
+   8.000000E+01   3.303450E-03
+   9.000000E+01   1.317722E-02
+   1.000000E+02   2.127944E-02
+   1.100000E+02   5.764756E-02
+   1.200000E+02   5.913417E-02
+   1.300000E+02   4.348152E-02
+   1.400000E+02   5.915232E-02
+   1.500000E+02   7.068387E-02
+   1.600000E+02   7.652536E-02
+   1.800000E+02   7.713194E-02
+   2.000000E+02   6.195634E-03

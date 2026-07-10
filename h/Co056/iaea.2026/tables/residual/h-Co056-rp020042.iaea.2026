@@ -1,0 +1,45 @@
+# header: 
+#   title: Co56(h,x)Ca42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 42
+#     nuclide: Ca42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.090977E-10
+   6.000000E+01   5.899266E-08
+   6.500000E+01   1.312082E-06
+   7.000000E+01   9.194032E-06
+   7.500000E+01   3.156850E-05
+   8.000000E+01   7.095188E-05
+   9.000000E+01   1.291582E-03
+   1.000000E+02   1.821259E-02
+   1.100000E+02   6.529588E-02
+   1.200000E+02   1.204017E-01
+   1.300000E+02   3.298120E-01
+   1.400000E+02   1.402728E+00
+   1.500000E+02   3.758185E+00
+   1.600000E+02   7.132835E+00
+   1.800000E+02   1.746409E+01
+   2.000000E+02   3.169263E+01

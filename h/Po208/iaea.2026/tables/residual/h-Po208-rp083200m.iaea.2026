@@ -1,0 +1,48 @@
+# header: 
+#   title: Po208(h,x)Bi200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 208
+#   nuclide: Po208
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 200
+#     nuclide: Bi200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.965775E-10
+   5.500000E+01   1.876596E-06
+   6.000000E+01   5.675244E-05
+   6.500000E+01   1.260048E-03
+   7.000000E+01   2.010877E-02
+   7.500000E+01   1.051231E-01
+   8.000000E+01   2.550764E-01
+   9.000000E+01   6.901555E-01
+   1.000000E+02   1.084830E+00
+   1.100000E+02   1.104830E+00
+   1.200000E+02   8.290675E-01
+   1.300000E+02   7.396130E-01
+   1.400000E+02   6.716729E-01
+   1.500000E+02   6.887723E-01
+   1.600000E+02   7.193407E-01
+   1.800000E+02   9.120101E-01
+   2.000000E+02   9.167626E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Zr88(h,x)Sr78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 88
+#   nuclide: Zr88
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 78
+#     nuclide: Sr78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.110843E-09
+   8.000000E+01   1.589976E-06
+   9.000000E+01   3.353111E-04
+   1.000000E+02   5.234868E-03
+   1.100000E+02   4.408605E-02
+   1.200000E+02   1.522885E-01
+   1.300000E+02   3.291583E-01
+   1.400000E+02   4.991479E-01
+   1.500000E+02   7.731532E-01
+   1.600000E+02   8.942260E-01
+   1.800000E+02   1.174654E+00
+   2.000000E+02   1.925498E+00

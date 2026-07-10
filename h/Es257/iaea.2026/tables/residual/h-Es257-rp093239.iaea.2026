@@ -1,0 +1,38 @@
+# header: 
+#   title: Es257(h,x)Np239 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 257
+#   nuclide: Es257
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 239
+#     nuclide: Np239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.333080E-11
+   1.100000E+02   1.256002E-09
+   1.200000E+02   2.337871E-08
+   1.300000E+02   2.985668E-07
+   1.400000E+02   1.357116E-06
+   1.500000E+02   1.868988E-06
+   1.600000E+02   2.145532E-06
+   1.800000E+02   2.687575E-06
+   2.000000E+02   5.196647E-06

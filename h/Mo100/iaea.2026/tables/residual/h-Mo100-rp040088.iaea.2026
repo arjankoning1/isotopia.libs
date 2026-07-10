@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo100(h,x)Zr88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.164162E-09
+   8.000000E+01   2.118081E-06
+   9.000000E+01   1.451836E-03
+   1.000000E+02   2.894121E-02
+   1.100000E+02   2.350360E-01
+   1.200000E+02   1.977004E+00
+   1.300000E+02   7.790149E+00
+   1.400000E+02   1.711189E+01
+   1.500000E+02   2.718345E+01
+   1.600000E+02   4.286715E+01
+   1.800000E+02   9.322333E+01
+   2.000000E+02   1.213662E+02

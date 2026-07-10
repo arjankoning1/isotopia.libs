@@ -1,0 +1,37 @@
+# header: 
+#   title: Er164(h,x)Er151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 164
+#   nuclide: Er164
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 151
+#     nuclide: Er151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.212559E-10
+   1.200000E+02   3.482951E-06
+   1.300000E+02   2.417113E-04
+   1.400000E+02   5.515455E-03
+   1.500000E+02   1.117100E-01
+   1.600000E+02   1.152770E+00
+   1.800000E+02   1.287666E+01
+   2.000000E+02   2.941540E+01

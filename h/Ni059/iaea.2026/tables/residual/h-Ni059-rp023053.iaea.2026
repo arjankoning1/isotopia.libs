@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni59(h,x)V53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 53
+#     nuclide: V53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.882896E-11
+   6.500000E+01   1.624301E-08
+   7.000000E+01   9.890035E-07
+   7.500000E+01   1.246654E-05
+   8.000000E+01   6.562786E-05
+   9.000000E+01   4.291140E-04
+   1.000000E+02   8.878183E-04
+   1.100000E+02   1.019305E-03
+   1.200000E+02   1.370851E-03
+   1.300000E+02   1.639461E-03
+   1.400000E+02   2.373341E-03
+   1.500000E+02   3.266745E-03
+   1.600000E+02   4.017795E-03
+   1.800000E+02   3.020817E-03
+   2.000000E+02   2.648759E-03

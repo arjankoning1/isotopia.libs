@@ -1,0 +1,40 @@
+# header: 
+#   title: Ru96(h,x)Kr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 96
+#   nuclide: Ru96
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 80
+#     nuclide: Kr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.931883E-12
+   9.000000E+01   2.695523E-08
+   1.000000E+02   1.935762E-06
+   1.100000E+02   2.016261E-05
+   1.200000E+02   1.091243E-04
+   1.300000E+02   7.284128E-04
+   1.400000E+02   2.893918E-03
+   1.500000E+02   6.464383E-03
+   1.600000E+02   1.227658E-02
+   1.800000E+02   5.183310E-02
+   2.000000E+02   1.498713E-01

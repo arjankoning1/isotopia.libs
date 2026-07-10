@@ -1,0 +1,41 @@
+# header: 
+#   title: Br82(h,x)Ga68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.431010E-10
+   8.000000E+01   5.485635E-08
+   9.000000E+01   2.892775E-05
+   1.000000E+02   6.701894E-04
+   1.100000E+02   3.286656E-02
+   1.200000E+02   7.072335E-01
+   1.300000E+02   3.487582E+00
+   1.400000E+02   7.995203E+00
+   1.500000E+02   1.208579E+01
+   1.600000E+02   1.519779E+01
+   1.800000E+02   1.904860E+01
+   2.000000E+02   1.971011E+01

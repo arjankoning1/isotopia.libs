@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca46(h,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.214084E-10
+   7.500000E+01   2.088158E-08
+   8.000000E+01   2.959062E-07
+   9.000000E+01   3.991380E-06
+   1.000000E+02   1.425894E-05
+   1.100000E+02   3.630397E-05
+   1.200000E+02   2.586447E-04
+   1.300000E+02   1.594858E-03
+   1.400000E+02   4.641733E-03
+   1.500000E+02   8.443959E-03
+   1.600000E+02   1.363348E-02
+   1.800000E+02   3.146539E-02
+   2.000000E+02   5.642166E-02

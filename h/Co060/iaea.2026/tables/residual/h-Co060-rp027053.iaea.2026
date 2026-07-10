@@ -1,0 +1,42 @@
+# header: 
+#   title: Co60(h,x)Co53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.345934E-09
+   7.500000E+01   1.932644E-07
+   8.000000E+01   2.863048E-06
+   9.000000E+01   4.020205E-05
+   1.000000E+02   1.460362E-04
+   1.100000E+02   5.119065E-04
+   1.200000E+02   1.402003E-03
+   1.300000E+02   2.572475E-03
+   1.400000E+02   3.349798E-03
+   1.500000E+02   3.981050E-03
+   1.600000E+02   3.927399E-03
+   1.800000E+02   3.911934E-03
+   2.000000E+02   3.807263E-03

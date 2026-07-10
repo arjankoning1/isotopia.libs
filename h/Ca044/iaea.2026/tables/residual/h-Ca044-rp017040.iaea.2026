@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca44(h,x)Cl40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 40
+#     nuclide: Cl40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.015158E-08
+   4.500000E+01   2.825811E-06
+   5.000000E+01   5.093633E-05
+   5.500000E+01   3.106659E-04
+   6.000000E+01   8.469537E-04
+   6.500000E+01   1.451917E-03
+   7.000000E+01   1.861246E-03
+   7.500000E+01   2.043636E-03
+   8.000000E+01   2.539024E-03
+   9.000000E+01   4.984839E-03
+   1.000000E+02   9.209795E-03
+   1.100000E+02   1.700396E-02
+   1.200000E+02   2.479464E-02
+   1.300000E+02   3.039323E-02
+   1.400000E+02   3.453710E-02
+   1.500000E+02   3.631742E-02
+   1.600000E+02   2.047940E-02
+   1.800000E+02   1.487416E-02
+   2.000000E+02   1.191559E-02

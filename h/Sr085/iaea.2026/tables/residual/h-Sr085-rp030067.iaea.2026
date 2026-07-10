@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr85(h,x)Zn67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 67
+#     nuclide: Zn67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.192711E-12
+   8.000000E+01   3.223015E-10
+   9.000000E+01   2.465831E-08
+   1.000000E+02   3.079080E-07
+   1.100000E+02   1.750917E-05
+   1.200000E+02   2.134798E-04
+   1.300000E+02   8.634871E-04
+   1.400000E+02   1.444021E-03
+   1.500000E+02   4.149861E-03
+   1.600000E+02   1.295443E-02
+   1.800000E+02   3.636120E-02
+   2.000000E+02   8.086732E-02

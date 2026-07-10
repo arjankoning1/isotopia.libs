@@ -1,0 +1,47 @@
+# header: 
+#   title: Bk246(h,x)Pu239 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 246
+#   nuclide: Bk246
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 239
+#     nuclide: Pu239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   7.698738E-12
+   5.000000E+01   2.277191E-10
+   5.500000E+01   1.895886E-09
+   6.000000E+01   6.202904E-09
+   6.500000E+01   1.398535E-08
+   7.000000E+01   2.188929E-08
+   7.500000E+01   2.281254E-08
+   8.000000E+01   2.281076E-08
+   9.000000E+01   1.347728E-07
+   1.000000E+02   1.871998E-06
+   1.100000E+02   4.982813E-06
+   1.200000E+02   9.967085E-06
+   1.300000E+02   1.130527E-05
+   1.400000E+02   1.136667E-05
+   1.500000E+02   2.579630E-05
+   1.600000E+02   3.107493E-05
+   1.800000E+02   6.491134E-05
+   2.000000E+02   4.111817E-05

@@ -1,0 +1,44 @@
+# header: 
+#   title: V50(h,x)K38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.420500E-10
+   6.500000E+01   3.109829E-07
+   7.000000E+01   1.070186E-05
+   7.500000E+01   7.646877E-05
+   8.000000E+01   2.584364E-04
+   9.000000E+01   2.487886E-03
+   1.000000E+02   8.507976E-02
+   1.100000E+02   5.315679E-01
+   1.200000E+02   1.372751E+00
+   1.300000E+02   2.144575E+00
+   1.400000E+02   3.636111E+00
+   1.500000E+02   6.038598E+00
+   1.600000E+02   9.527079E+00
+   1.800000E+02   2.027209E+01
+   2.000000E+02   2.803518E+01

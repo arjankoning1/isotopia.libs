@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo99(h,x)Kr84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 84
+#     nuclide: Kr84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.469220E-10
+   7.000000E+01   5.913209E-09
+   7.500000E+01   7.362538E-08
+   8.000000E+01   4.053536E-07
+   9.000000E+01   3.652870E-06
+   1.000000E+02   8.860352E-05
+   1.100000E+02   7.437046E-04
+   1.200000E+02   1.884896E-03
+   1.300000E+02   3.222678E-03
+   1.400000E+02   5.938413E-03
+   1.500000E+02   1.417603E-02
+   1.600000E+02   2.561174E-02
+   1.800000E+02   4.817699E-02
+   2.000000E+02   8.921848E-02

@@ -1,0 +1,36 @@
+# header: 
+#   title: Ho163(h,x)Eu144 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 67
+#   A: 163
+#   nuclide: Ho163
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 144
+#     nuclide: Eu144
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.537205E-08
+   1.300000E+02   7.965496E-06
+   1.400000E+02   5.954926E-04
+   1.500000E+02   3.551823E-02
+   1.600000E+02   6.350067E-01
+   1.800000E+02   1.266987E+01
+   2.000000E+02   3.126707E+01

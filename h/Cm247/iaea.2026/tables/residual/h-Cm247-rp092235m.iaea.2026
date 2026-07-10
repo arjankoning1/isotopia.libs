@@ -1,0 +1,47 @@
+# header: 
+#   title: Cm247(h,x)U235m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 247
+#   nuclide: Cm247
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.998024E-17
+   6.000000E+01   3.830402E-12
+   6.500000E+01   1.637849E-10
+   7.000000E+01   1.316747E-09
+   7.500000E+01   4.183422E-09
+   8.000000E+01   9.902330E-09
+   9.000000E+01   2.167103E-07
+   1.000000E+02   3.167362E-06
+   1.100000E+02   1.334401E-05
+   1.200000E+02   3.225445E-05
+   1.300000E+02   5.270808E-05
+   1.400000E+02   4.645945E-05
+   1.500000E+02   4.261394E-05
+   1.600000E+02   7.058421E-05
+   1.800000E+02   1.457452E-04
+   2.000000E+02   4.931838E-06

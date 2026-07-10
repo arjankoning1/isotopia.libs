@@ -1,0 +1,35 @@
+# header: 
+#   title: Ce144(h,x)La128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 128
+#     nuclide: La128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   5.655890E-09
+   1.400000E+02   3.447141E-05
+   1.500000E+02   3.852498E-03
+   1.600000E+02   5.261968E-02
+   1.800000E+02   9.062877E-01
+   2.000000E+02   1.333059E+01

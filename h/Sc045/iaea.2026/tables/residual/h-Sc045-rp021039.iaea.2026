@@ -1,0 +1,42 @@
+# header: 
+#   title: Sc45(h,x)Sc39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 39
+#     nuclide: Sc39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.181354E-10
+   7.500000E+01   1.053437E-08
+   8.000000E+01   7.030891E-08
+   9.000000E+01   6.991881E-07
+   1.000000E+02   4.254296E-06
+   1.100000E+02   2.071115E-05
+   1.200000E+02   6.222152E-05
+   1.300000E+02   1.123510E-04
+   1.400000E+02   1.542818E-04
+   1.500000E+02   1.728282E-04
+   1.600000E+02   1.815929E-04
+   1.800000E+02   1.655346E-04
+   2.000000E+02   1.361858E-04

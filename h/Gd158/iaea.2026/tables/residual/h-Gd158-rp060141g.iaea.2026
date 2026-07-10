@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd158(h,x)Nd141g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.600555E-11
+   1.000000E+02   4.187594E-07
+   1.100000E+02   5.147752E-05
+   1.200000E+02   1.175005E-03
+   1.300000E+02   1.660255E-02
+   1.400000E+02   8.726061E-02
+   1.500000E+02   2.363122E-01
+   1.600000E+02   4.020720E-01
+   1.800000E+02   6.964651E-01
+   2.000000E+02   5.585452E-01

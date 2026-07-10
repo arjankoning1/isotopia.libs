@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni56(h,x)Ti48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.823691E-11
+   7.000000E+01   1.644040E-07
+   7.500000E+01   2.631093E-05
+   8.000000E+01   5.384030E-04
+   9.000000E+01   1.271460E-02
+   1.000000E+02   1.218798E-01
+   1.100000E+02   4.512198E-01
+   1.200000E+02   1.003243E+00
+   1.300000E+02   2.310324E+00
+   1.400000E+02   4.199127E+00
+   1.500000E+02   7.140088E+00
+   1.600000E+02   7.479681E+00
+   1.800000E+02   7.682394E+00
+   2.000000E+02   6.135314E+00

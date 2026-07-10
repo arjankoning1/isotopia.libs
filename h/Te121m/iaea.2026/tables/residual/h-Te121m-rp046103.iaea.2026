@@ -1,0 +1,39 @@
+# header: 
+#   title: Te121m(h,x)Pd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.719336E-12
+   1.000000E+02   2.506528E-08
+   1.100000E+02   4.467602E-06
+   1.200000E+02   1.819167E-04
+   1.300000E+02   1.069611E-02
+   1.400000E+02   1.085464E-01
+   1.500000E+02   4.062522E-01
+   1.600000E+02   6.716201E-01
+   1.800000E+02   1.773734E+00
+   2.000000E+02   3.050720E+00

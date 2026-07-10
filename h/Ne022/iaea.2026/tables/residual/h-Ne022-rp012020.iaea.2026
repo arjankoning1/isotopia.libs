@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne22(h,x)Mg20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 20
+#     nuclide: Mg20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.477797E-10
+   6.500000E+01   2.922932E-07
+   7.000000E+01   4.348468E-06
+   7.500000E+01   1.863175E-05
+   8.000000E+01   4.617670E-05
+   9.000000E+01   1.218456E-04
+   1.000000E+02   1.741091E-04
+   1.100000E+02   1.813597E-04
+   1.200000E+02   1.610677E-04
+   1.300000E+02   1.307524E-04
+   1.400000E+02   1.012116E-04
+   1.500000E+02   7.614450E-05
+   1.600000E+02   5.668246E-05
+   1.800000E+02   3.156790E-05
+   2.000000E+02   1.863038E-05

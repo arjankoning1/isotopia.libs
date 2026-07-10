@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge68(h,x)Cr51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.350564E-12
+   6.500000E+01   6.206589E-10
+   7.000000E+01   1.394446E-08
+   7.500000E+01   1.047797E-07
+   8.000000E+01   3.854642E-07
+   9.000000E+01   6.708283E-06
+   1.000000E+02   2.530891E-04
+   1.100000E+02   1.856540E-03
+   1.200000E+02   5.509698E-03
+   1.300000E+02   2.087672E-02
+   1.400000E+02   9.183133E-02
+   1.500000E+02   3.020607E-01
+   1.600000E+02   6.614063E-01
+   1.800000E+02   2.111156E+00
+   2.000000E+02   5.186190E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn66(h,x)Mn58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 58
+#     nuclide: Mn58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.033250E-10
+   6.000000E+01   1.311728E-08
+   6.500000E+01   2.503744E-07
+   7.000000E+01   1.618302E-06
+   7.500000E+01   4.815772E-06
+   8.000000E+01   9.853122E-06
+   9.000000E+01   2.155640E-05
+   1.000000E+02   1.218628E-04
+   1.100000E+02   5.145336E-04
+   1.200000E+02   1.591902E-03
+   1.300000E+02   3.750112E-03
+   1.400000E+02   6.301504E-03
+   1.500000E+02   9.094935E-03
+   1.600000E+02   1.155673E-02
+   1.800000E+02   1.142792E-02
+   2.000000E+02   1.050720E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni59(h,x)Ca44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 44
+#     nuclide: Ca44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.125689E-12
+   7.500000E+01   1.300554E-09
+   8.000000E+01   3.442469E-08
+   9.000000E+01   1.212761E-06
+   1.000000E+02   9.750231E-06
+   1.100000E+02   8.610522E-05
+   1.200000E+02   8.133107E-04
+   1.300000E+02   2.341433E-03
+   1.400000E+02   9.347637E-03
+   1.500000E+02   2.006170E-02
+   1.600000E+02   3.607633E-02
+   1.800000E+02   1.937591E-01
+   2.000000E+02   3.268953E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn72(h,x)Ni63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.405354E-10
+   4.500000E+01   2.731563E-06
+   5.000000E+01   4.664895E-04
+   5.500000E+01   7.226751E-03
+   6.000000E+01   3.550603E-02
+   6.500000E+01   9.513881E-02
+   7.000000E+01   1.950664E-01
+   7.500000E+01   4.289763E-01
+   8.000000E+01   1.237537E+00
+   9.000000E+01   5.921741E+00
+   1.000000E+02   1.299149E+01
+   1.100000E+02   1.769177E+01
+   1.200000E+02   2.230396E+01
+   1.300000E+02   2.759665E+01
+   1.400000E+02   2.943369E+01
+   1.500000E+02   3.184041E+01
+   1.600000E+02   3.242708E+01
+   1.800000E+02   2.477876E+01
+   2.000000E+02   1.773940E+01

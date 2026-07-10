@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu236(h,x)Np228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 228
+#     nuclide: Np228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.373094E-11
+   6.000000E+01   2.600918E-08
+   6.500000E+01   4.538702E-06
+   7.000000E+01   6.119350E-05
+   7.500000E+01   2.923937E-04
+   8.000000E+01   9.224632E-04
+   9.000000E+01   2.361421E-03
+   1.000000E+02   1.488829E-03
+   1.100000E+02   2.015818E-03
+   1.200000E+02   2.754995E-03
+   1.300000E+02   6.584973E-03
+   1.400000E+02   8.259607E-03
+   1.500000E+02   1.036932E-03
+   1.600000E+02   6.112072E-05
+   1.800000E+02   2.900734E-05
+   2.000000E+02   1.759396E-05

@@ -1,0 +1,46 @@
+# header: 
+#   title: Hg197(h,x)Hg190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 197
+#   nuclide: Hg197
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 190
+#     nuclide: Hg190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.973285E-10
+   5.500000E+01   3.750097E-07
+   6.000000E+01   5.309783E-05
+   6.500000E+01   2.222607E-03
+   7.000000E+01   2.945770E-02
+   7.500000E+01   1.521521E-01
+   8.000000E+01   4.098773E-01
+   9.000000E+01   1.653829E+00
+   1.000000E+02   1.192490E+01
+   1.100000E+02   3.069114E+01
+   1.200000E+02   4.169403E+01
+   1.300000E+02   4.527237E+01
+   1.400000E+02   4.230544E+01
+   1.500000E+02   3.736988E+01
+   1.600000E+02   3.320543E+01
+   1.800000E+02   2.369394E+01
+   2.000000E+02   2.016645E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pt193m(h,x)Au185m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 193
+#   nuclide: Pt193m
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 185
+#     nuclide: Au185m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.132194E-07
+   9.000000E+01   1.228687E-02
+   1.000000E+02   9.377832E-01
+   1.100000E+02   5.615195E+00
+   1.200000E+02   1.178363E+01
+   1.300000E+02   1.534828E+01
+   1.400000E+02   1.598895E+01
+   1.500000E+02   1.530173E+01
+   1.600000E+02   1.298848E+01
+   1.800000E+02   1.026418E+01
+   2.000000E+02   8.465339E+00

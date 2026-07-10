@@ -1,0 +1,37 @@
+# header: 
+#   title: Rb87(h,x)Ga68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.073618E-10
+   1.200000E+02   1.983162E-07
+   1.300000E+02   8.912954E-06
+   1.400000E+02   3.111555E-04
+   1.500000E+02   1.032506E-02
+   1.600000E+02   9.338811E-02
+   1.800000E+02   7.444392E-01
+   2.000000E+02   1.882070E+00

@@ -1,0 +1,36 @@
+# header: 
+#   title: Ra223(h,x)Bi202 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 202
+#     nuclide: Bi202
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.915492E-08
+   1.300000E+02   1.387876E-05
+   1.400000E+02   1.337305E-03
+   1.500000E+02   1.666809E-02
+   1.600000E+02   8.968702E-02
+   1.800000E+02   5.893312E-01
+   2.000000E+02   9.542983E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ar39(h,x)Na26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.987284E-11
+   7.500000E+01   6.793537E-09
+   8.000000E+01   2.076647E-07
+   9.000000E+01   7.557923E-06
+   1.000000E+02   6.905948E-05
+   1.100000E+02   3.176694E-04
+   1.200000E+02   1.409945E-03
+   1.300000E+02   4.338821E-03
+   1.400000E+02   9.422672E-03
+   1.500000E+02   1.777017E-02
+   1.600000E+02   2.219815E-02
+   1.800000E+02   6.656620E-02
+   2.000000E+02   1.230508E-01

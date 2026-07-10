@@ -1,0 +1,47 @@
+# header: 
+#   title: Tc99(h,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.916469E-11
+   5.000000E+01   2.863405E-07
+   5.500000E+01   1.261927E-04
+   6.000000E+01   3.244919E-03
+   6.500000E+01   1.823238E-02
+   7.000000E+01   5.163638E-02
+   7.500000E+01   1.153151E-01
+   8.000000E+01   5.895790E-01
+   9.000000E+01   1.021485E+01
+   1.000000E+02   3.975035E+01
+   1.100000E+02   6.482945E+01
+   1.200000E+02   8.606197E+01
+   1.300000E+02   1.013232E+02
+   1.400000E+02   1.304145E+02
+   1.500000E+02   1.503857E+02
+   1.600000E+02   1.486793E+02
+   1.800000E+02   1.349233E+02
+   2.000000E+02   1.068020E+02

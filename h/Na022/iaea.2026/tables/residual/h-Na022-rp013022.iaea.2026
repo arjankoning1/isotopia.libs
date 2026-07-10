@@ -1,0 +1,48 @@
+# header: 
+#   title: Na22(h,x)Al22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 22
+#     nuclide: Al22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.041824E-06
+   4.500000E+01   3.450259E-05
+   5.000000E+01   1.040304E-04
+   5.500000E+01   1.828793E-04
+   6.000000E+01   2.643669E-04
+   6.500000E+01   3.183325E-04
+   7.000000E+01   3.320440E-04
+   7.500000E+01   3.148553E-04
+   8.000000E+01   2.764589E-04
+   9.000000E+01   1.809222E-04
+   1.000000E+02   1.055814E-04
+   1.100000E+02   6.013502E-05
+   1.200000E+02   3.542104E-05
+   1.300000E+02   2.148907E-05
+   1.400000E+02   1.432667E-05
+   1.500000E+02   1.009080E-05
+   1.600000E+02   7.712038E-06
+   1.800000E+02   5.205134E-06
+   2.000000E+02   3.815333E-06

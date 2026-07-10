@@ -1,0 +1,37 @@
+# header: 
+#   title: Sr84(h,x)Kr72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 72
+#     nuclide: Kr72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.570147E-09
+   1.200000E+02   3.267377E-07
+   1.300000E+02   3.727772E-06
+   1.400000E+02   2.144760E-05
+   1.500000E+02   7.865758E-05
+   1.600000E+02   1.853006E-04
+   1.800000E+02   7.068707E-04
+   2.000000E+02   2.476705E-03

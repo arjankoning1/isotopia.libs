@@ -1,0 +1,42 @@
+# header: 
+#   title: Cl35(h,x)F17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 17
+#     nuclide: F17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.551482E-10
+   7.500000E+01   1.934400E-08
+   8.000000E+01   3.436166E-07
+   9.000000E+01   6.397609E-06
+   1.000000E+02   6.202625E-05
+   1.100000E+02   1.334664E-03
+   1.200000E+02   7.955338E-03
+   1.300000E+02   2.362709E-02
+   1.400000E+02   5.687170E-02
+   1.500000E+02   1.330538E-01
+   1.600000E+02   2.821434E-01
+   1.800000E+02   9.426137E-01
+   2.000000E+02   2.273166E+00

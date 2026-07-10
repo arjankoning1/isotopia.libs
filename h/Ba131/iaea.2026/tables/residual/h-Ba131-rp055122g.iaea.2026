@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba131(h,x)Cs122g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.348747E-10
+   7.500000E+01   7.746467E-06
+   8.000000E+01   2.347613E-03
+   9.000000E+01   6.382203E-01
+   1.000000E+02   5.826388E+00
+   1.100000E+02   1.464983E+01
+   1.200000E+02   2.198208E+01
+   1.300000E+02   2.948475E+01
+   1.400000E+02   4.617477E+01
+   1.500000E+02   6.258449E+01
+   1.600000E+02   7.685906E+01
+   1.800000E+02   7.398966E+01
+   2.000000E+02   5.976508E+01

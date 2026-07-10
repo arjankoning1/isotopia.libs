@@ -1,0 +1,44 @@
+# header: 
+#   title: Md258(h,x)Es256 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 101
+#   A: 258
+#   nuclide: Md258
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 256
+#     nuclide: Es256
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.383021E-12
+   6.500000E+01   4.334514E-10
+   7.000000E+01   1.664201E-08
+   7.500000E+01   2.476308E-07
+   8.000000E+01   1.797023E-06
+   9.000000E+01   2.818014E-05
+   1.000000E+02   4.748677E-05
+   1.100000E+02   1.044101E-04
+   1.200000E+02   2.418213E-04
+   1.300000E+02   4.695108E-04
+   1.400000E+02   7.981085E-04
+   1.500000E+02   1.233638E-03
+   1.600000E+02   1.749265E-03
+   1.800000E+02   7.424842E-04
+   2.000000E+02   1.460983E-05

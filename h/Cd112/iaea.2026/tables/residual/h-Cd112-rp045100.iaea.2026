@@ -1,0 +1,42 @@
+# header: 
+#   title: Cd112(h,x)Rh100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 100
+#     nuclide: Rh100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.540971E-09
+   7.500000E+01   7.702254E-06
+   8.000000E+01   1.601747E-03
+   9.000000E+01   3.815947E-01
+   1.000000E+02   3.463658E+00
+   1.100000E+02   8.543291E+00
+   1.200000E+02   1.194542E+01
+   1.300000E+02   1.716643E+01
+   1.400000E+02   2.703869E+01
+   1.500000E+02   4.051571E+01
+   1.600000E+02   4.615507E+01
+   1.800000E+02   5.131568E+01
+   2.000000E+02   4.685720E+01

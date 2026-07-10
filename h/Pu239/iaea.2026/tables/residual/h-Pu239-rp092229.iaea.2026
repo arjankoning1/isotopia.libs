@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu239(h,x)U229 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 229
+#     nuclide: U229
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.180461E-11
+   6.000000E+01   3.084935E-09
+   6.500000E+01   2.392326E-07
+   7.000000E+01   3.015062E-06
+   7.500000E+01   2.350936E-05
+   8.000000E+01   1.595096E-04
+   9.000000E+01   1.910513E-03
+   1.000000E+02   2.008963E-02
+   1.100000E+02   6.075319E-02
+   1.200000E+02   7.633872E-02
+   1.300000E+02   5.164550E-02
+   1.400000E+02   5.586338E-02
+   1.500000E+02   1.450318E-01
+   1.600000E+02   2.251517E-01
+   1.800000E+02   2.708332E-01
+   2.000000E+02   6.979375E-03

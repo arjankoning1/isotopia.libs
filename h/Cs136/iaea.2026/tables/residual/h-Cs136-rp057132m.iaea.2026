@@ -1,0 +1,48 @@
+# header: 
+#   title: Cs136(h,x)La132m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.601427E-04
+   5.500000E+01   9.916682E-02
+   6.000000E+01   1.122998E+00
+   6.500000E+01   3.794108E+00
+   7.000000E+01   7.143680E+00
+   7.500000E+01   9.618455E+00
+   8.000000E+01   1.063923E+01
+   9.000000E+01   9.508563E+00
+   1.000000E+02   7.158515E+00
+   1.100000E+02   5.265258E+00
+   1.200000E+02   3.823631E+00
+   1.300000E+02   2.846588E+00
+   1.400000E+02   2.260422E+00
+   1.500000E+02   1.912308E+00
+   1.600000E+02   1.455690E+00
+   1.800000E+02   1.043503E+00
+   2.000000E+02   8.666737E-01

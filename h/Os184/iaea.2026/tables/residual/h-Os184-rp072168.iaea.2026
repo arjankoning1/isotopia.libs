@@ -1,0 +1,39 @@
+# header: 
+#   title: Os184(h,x)Hf168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 168
+#     nuclide: Hf168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.275384E-11
+   1.000000E+02   1.697287E-07
+   1.100000E+02   2.751007E-05
+   1.200000E+02   9.171715E-04
+   1.300000E+02   1.403712E-02
+   1.400000E+02   1.820648E-01
+   1.500000E+02   6.099380E-01
+   1.600000E+02   9.877905E-01
+   1.800000E+02   1.578952E+00
+   2.000000E+02   3.176542E+00

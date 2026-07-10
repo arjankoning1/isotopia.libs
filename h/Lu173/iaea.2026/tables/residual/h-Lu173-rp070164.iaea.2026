@@ -1,0 +1,44 @@
+# header: 
+#   title: Lu173(h,x)Yb164 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 173
+#   nuclide: Lu173
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 164
+#     nuclide: Yb164
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.587621E-08
+   6.500000E+01   2.824833E-05
+   7.000000E+01   4.662593E-03
+   7.500000E+01   1.423017E-01
+   8.000000E+01   1.145175E+00
+   9.000000E+01   9.020542E+00
+   1.000000E+02   1.914932E+01
+   1.100000E+02   2.765560E+01
+   1.200000E+02   4.009320E+01
+   1.300000E+02   7.032011E+01
+   1.400000E+02   7.901800E+01
+   1.500000E+02   9.050804E+01
+   1.600000E+02   7.135109E+01
+   1.800000E+02   6.447157E+01
+   2.000000E+02   3.819468E+01

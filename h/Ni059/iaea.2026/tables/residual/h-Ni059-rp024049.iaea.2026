@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni59(h,x)Cr49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 49
+#     nuclide: Cr49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.231193E-08
+   4.500000E+01   6.075766E-06
+   5.000000E+01   1.285547E-04
+   5.500000E+01   5.775160E-04
+   6.000000E+01   1.266205E-03
+   6.500000E+01   2.113849E-03
+   7.000000E+01   9.792903E-03
+   7.500000E+01   5.885259E-02
+   8.000000E+01   1.778941E-01
+   9.000000E+01   7.482089E-01
+   1.000000E+02   1.756230E+00
+   1.100000E+02   3.557629E+00
+   1.200000E+02   8.805610E+00
+   1.300000E+02   2.013962E+01
+   1.400000E+02   3.158728E+01
+   1.500000E+02   4.027831E+01
+   1.600000E+02   4.998550E+01
+   1.800000E+02   7.451553E+01
+   2.000000E+02   8.381361E+01

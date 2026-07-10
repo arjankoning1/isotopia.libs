@@ -1,0 +1,41 @@
+# header: 
+#   title: Ru106(h,x)Pd99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 106
+#   nuclide: Ru106
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 99
+#     nuclide: Pd99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.763369E-10
+   8.000000E+01   1.505513E-06
+   9.000000E+01   1.367239E-03
+   1.000000E+02   1.911948E-02
+   1.100000E+02   5.953987E-02
+   1.200000E+02   9.562127E-02
+   1.300000E+02   1.083123E-01
+   1.400000E+02   1.191415E-01
+   1.500000E+02   1.201182E-01
+   1.600000E+02   1.064612E-01
+   1.800000E+02   1.080646E-01
+   2.000000E+02   1.174202E-01

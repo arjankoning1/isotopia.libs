@@ -1,0 +1,44 @@
+# header: 
+#   title: Si29(h,x)Mg21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 21
+#     nuclide: Mg21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.199172E-12
+   6.500000E+01   1.995374E-07
+   7.000000E+01   1.599072E-05
+   7.500000E+01   1.495718E-04
+   8.000000E+01   5.473205E-04
+   9.000000E+01   2.224179E-03
+   1.000000E+02   8.673610E-03
+   1.100000E+02   2.799900E-02
+   1.200000E+02   5.281144E-02
+   1.300000E+02   7.368853E-02
+   1.400000E+02   8.457505E-02
+   1.500000E+02   9.815026E-02
+   1.600000E+02   1.064172E-01
+   1.800000E+02   1.057123E-01
+   2.000000E+02   9.322362E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: Sr90(h,x)Br79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.093102E-09
+   7.000000E+01   6.855360E-06
+   7.500000E+01   3.370196E-04
+   8.000000E+01   3.415982E-03
+   9.000000E+01   4.070453E-02
+   1.000000E+02   1.244812E-01
+   1.100000E+02   2.228623E-01
+   1.200000E+02   6.246976E-01
+   1.300000E+02   1.627425E+00
+   1.400000E+02   3.370576E+00
+   1.500000E+02   4.275174E+00
+   1.600000E+02   5.398480E+00
+   1.800000E+02   6.096965E+00
+   2.000000E+02   6.945535E+00

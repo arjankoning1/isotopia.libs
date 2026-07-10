@@ -1,0 +1,41 @@
+# header: 
+#   title: As74(h,x)Mn56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.006649E-11
+   8.000000E+01   3.949653E-10
+   9.000000E+01   6.755233E-09
+   1.000000E+02   4.185943E-06
+   1.100000E+02   1.424678E-04
+   1.200000E+02   1.007326E-03
+   1.300000E+02   2.895172E-03
+   1.400000E+02   8.687301E-03
+   1.500000E+02   2.346919E-02
+   1.600000E+02   4.569969E-02
+   1.800000E+02   9.265252E-02
+   2.000000E+02   2.090054E-01

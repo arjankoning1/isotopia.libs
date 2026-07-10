@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(h,x)Fe58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 58
+#     nuclide: Fe58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.012332E-11
+   6.500000E+01   2.887931E-10
+   7.000000E+01   2.619372E-09
+   7.500000E+01   1.143924E-08
+   8.000000E+01   3.048636E-08
+   9.000000E+01   7.027575E-07
+   1.000000E+02   1.548826E-05
+   1.100000E+02   8.737052E-05
+   1.200000E+02   2.305518E-04
+   1.300000E+02   5.066448E-04
+   1.400000E+02   1.629036E-03
+   1.500000E+02   5.030604E-03
+   1.600000E+02   1.120732E-02
+   1.800000E+02   3.319561E-02
+   2.000000E+02   8.895425E-02

@@ -1,0 +1,44 @@
+# header: 
+#   title: As73(h,x)Fe57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 73
+#   nuclide: As73
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.045680E-12
+   6.500000E+01   7.368188E-10
+   7.000000E+01   5.982073E-08
+   7.500000E+01   1.034556E-06
+   8.000000E+01   7.565780E-06
+   9.000000E+01   2.397658E-04
+   1.000000E+02   2.263581E-03
+   1.100000E+02   7.919552E-03
+   1.200000E+02   2.943723E-02
+   1.300000E+02   1.018338E-01
+   1.400000E+02   2.065235E-01
+   1.500000E+02   3.280635E-01
+   1.600000E+02   5.153376E-01
+   1.800000E+02   1.369366E+00
+   2.000000E+02   2.241946E+00

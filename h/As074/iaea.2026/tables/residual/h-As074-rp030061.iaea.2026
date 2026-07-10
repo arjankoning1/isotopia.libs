@@ -1,0 +1,39 @@
+# header: 
+#   title: As74(h,x)Zn61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 61
+#     nuclide: Zn61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.292588E-07
+   1.000000E+02   1.260584E-04
+   1.100000E+02   4.337201E-03
+   1.200000E+02   2.429767E-02
+   1.300000E+02   6.055434E-02
+   1.400000E+02   1.234661E-01
+   1.500000E+02   2.605122E-01
+   1.600000E+02   4.438816E-01
+   1.800000E+02   1.047261E+00
+   2.000000E+02   2.111180E+00

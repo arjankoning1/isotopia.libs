@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca46(h,x)Al26g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.716831E-11
+   1.200000E+02   5.127938E-07
+   1.300000E+02   4.303659E-05
+   1.400000E+02   4.081288E-04
+   1.500000E+02   1.814062E-03
+   1.600000E+02   5.047702E-03
+   1.800000E+02   3.917960E-02
+   2.000000E+02   2.230151E-01

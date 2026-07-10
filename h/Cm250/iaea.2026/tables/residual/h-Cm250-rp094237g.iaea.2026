@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm250(h,x)Pu237g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.520104E-12
+   7.500000E+01   2.198827E-11
+   8.000000E+01   1.079715E-10
+   9.000000E+01   9.828807E-10
+   1.000000E+02   1.167511E-07
+   1.100000E+02   3.356873E-06
+   1.200000E+02   1.186151E-05
+   1.300000E+02   1.608829E-05
+   1.400000E+02   5.958554E-05
+   1.500000E+02   8.625335E-05
+   1.600000E+02   1.185793E-04
+   1.800000E+02   1.501767E-04
+   2.000000E+02   1.577034E-05

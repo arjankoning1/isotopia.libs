@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm240(h,x)Pu230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 230
+#     nuclide: Pu230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.641163E-13
+   6.500000E+01   7.526341E-11
+   7.000000E+01   1.394169E-09
+   7.500000E+01   1.332820E-08
+   8.000000E+01   5.038838E-08
+   9.000000E+01   6.832427E-07
+   1.000000E+02   2.080512E-06
+   1.100000E+02   4.387067E-06
+   1.200000E+02   4.732425E-06
+   1.300000E+02   5.176475E-06
+   1.400000E+02   1.141127E-05
+   1.500000E+02   1.327218E-05
+   1.600000E+02   1.063701E-05
+   1.800000E+02   5.411951E-06
+   2.000000E+02   1.899874E-05

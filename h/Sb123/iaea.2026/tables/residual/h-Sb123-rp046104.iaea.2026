@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb123(h,x)Pd104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 104
+#     nuclide: Pd104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.691913E-12
+   1.200000E+02   1.055903E-07
+   1.300000E+02   5.250473E-05
+   1.400000E+02   1.688903E-03
+   1.500000E+02   1.157991E-02
+   1.600000E+02   4.273457E-02
+   1.800000E+02   6.572346E-01
+   2.000000E+02   2.951571E+00

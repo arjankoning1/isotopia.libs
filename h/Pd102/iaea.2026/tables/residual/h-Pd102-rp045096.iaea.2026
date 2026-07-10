@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd102(h,x)Rh96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.002752E-07
+   4.500000E+01   1.046567E-03
+   5.000000E+01   2.353806E-01
+   5.500000E+01   2.700608E+00
+   6.000000E+01   9.017379E+00
+   6.500000E+01   1.637955E+01
+   7.000000E+01   2.313171E+01
+   7.500000E+01   2.732502E+01
+   8.000000E+01   2.914662E+01
+   9.000000E+01   3.589728E+01
+   1.000000E+02   6.149670E+01
+   1.100000E+02   8.576176E+01
+   1.200000E+02   9.826926E+01
+   1.300000E+02   9.913161E+01
+   1.400000E+02   9.651015E+01
+   1.500000E+02   8.671056E+01
+   1.600000E+02   8.085929E+01
+   1.800000E+02   6.127369E+01
+   2.000000E+02   5.183263E+01

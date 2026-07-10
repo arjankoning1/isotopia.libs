@@ -1,0 +1,45 @@
+# header: 
+#   title: Ge71(h,x)Fe56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 71
+#   nuclide: Ge71
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.754848E-12
+   6.000000E+01   3.567644E-09
+   6.500000E+01   2.100970E-07
+   7.000000E+01   3.218089E-06
+   7.500000E+01   1.800457E-05
+   8.000000E+01   5.678422E-05
+   9.000000E+01   1.537555E-03
+   1.000000E+02   4.164791E-02
+   1.100000E+02   2.217064E-01
+   1.200000E+02   5.199881E-01
+   1.300000E+02   9.067542E-01
+   1.400000E+02   1.860736E+00
+   1.500000E+02   3.737024E+00
+   1.600000E+02   6.345553E+00
+   1.800000E+02   1.430192E+01
+   2.000000E+02   1.908751E+01

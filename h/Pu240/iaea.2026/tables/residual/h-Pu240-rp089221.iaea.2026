@@ -1,0 +1,38 @@
+# header: 
+#   title: Pu240(h,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.275915E-11
+   1.100000E+02   1.530576E-07
+   1.200000E+02   1.356044E-04
+   1.300000E+02   3.303859E-03
+   1.400000E+02   2.036951E-02
+   1.500000E+02   5.808671E-02
+   1.600000E+02   1.429853E-01
+   1.800000E+02   4.110945E-01
+   2.000000E+02   4.006039E-01

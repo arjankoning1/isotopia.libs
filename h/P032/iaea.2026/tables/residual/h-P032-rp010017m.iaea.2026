@@ -1,0 +1,40 @@
+# header: 
+#   title: P32(h,x)Ne17m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   7.421853E-12
+   1.100000E+02   1.426676E-07
+   1.200000E+02   9.473111E-06
+   1.300000E+02   7.771960E-05
+   1.400000E+02   2.597991E-04
+   1.500000E+02   6.422435E-04
+   1.600000E+02   1.395406E-03
+   1.800000E+02   4.318667E-03
+   2.000000E+02   9.343374E-03

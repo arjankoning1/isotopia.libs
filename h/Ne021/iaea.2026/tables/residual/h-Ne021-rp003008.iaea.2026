@@ -1,0 +1,43 @@
+# header: 
+#   title: Ne21(h,x)Li8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.766337E-10
+   7.000000E+01   2.385355E-07
+   7.500000E+01   5.156344E-06
+   8.000000E+01   2.809255E-05
+   9.000000E+01   1.587778E-04
+   1.000000E+02   5.267310E-04
+   1.100000E+02   1.492204E-03
+   1.200000E+02   5.722039E-03
+   1.300000E+02   2.428090E-02
+   1.400000E+02   7.175763E-02
+   1.500000E+02   1.545502E-01
+   1.600000E+02   2.474891E-01
+   1.800000E+02   5.073884E-01
+   2.000000E+02   8.304939E-01

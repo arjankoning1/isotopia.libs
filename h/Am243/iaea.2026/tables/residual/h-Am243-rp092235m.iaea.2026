@@ -1,0 +1,50 @@
+# header: 
+#   title: Am243(h,x)U235m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 243
+#   nuclide: Am243
+# reaction: 
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.245486E-13
+   4.500000E+01   3.303274E-11
+   5.000000E+01   7.572541E-10
+   5.500000E+01   1.050613E-08
+   6.000000E+01   8.679948E-08
+   6.500000E+01   3.709502E-07
+   7.000000E+01   9.779775E-07
+   7.500000E+01   1.446449E-06
+   8.000000E+01   1.959961E-06
+   9.000000E+01   2.953869E-06
+   1.000000E+02   7.817668E-06
+   1.100000E+02   2.334695E-05
+   1.200000E+02   4.820342E-05
+   1.300000E+02   6.433579E-05
+   1.400000E+02   1.086234E-04
+   1.500000E+02   9.183850E-05
+   1.600000E+02   1.358151E-04
+   1.800000E+02   2.434777E-04
+   2.000000E+02   4.697745E-06
