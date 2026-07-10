@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu65(p,n')Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chackett
+#   year: 1962
+#   subentry: B0070003
+#   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0070003
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.300000E+00   3.000000E-01   8.950000E+02   3.500000E+01   1.000000E+00
+# reference:
+#   author: K.F.Chackett, G.A.Chackett, L.Ismail
+#   title: The (p,n) reaction cross section of copper for  9.3 MeV protons
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.80, p.738 (1962

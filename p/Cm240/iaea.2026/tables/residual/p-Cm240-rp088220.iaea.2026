@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm240(p,x)Ra220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 220
+#     nuclide: Ra220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.960571E-11
+   1.000000E+02   1.899937E-08
+   1.100000E+02   1.493384E-06
+   1.200000E+02   1.843363E-05
+   1.300000E+02   3.232938E-05
+   1.400000E+02   4.904974E-05
+   1.500000E+02   8.995630E-05
+   1.600000E+02   7.674133E-05
+   1.800000E+02   1.581065E-04
+   2.000000E+02   2.793021E-04

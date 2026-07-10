@@ -1,0 +1,39 @@
+# header: 
+#   title: Dy160(p,x)Pm142 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 160
+#   nuclide: Dy160
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 142
+#     nuclide: Pm142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.069186E-08
+   1.000000E+02   1.193387E-04
+   1.100000E+02   7.487989E-03
+   1.200000E+02   2.939873E-02
+   1.300000E+02   7.918982E-02
+   1.400000E+02   3.978532E-01
+   1.500000E+02   6.623331E-01
+   1.600000E+02   7.965100E-01
+   1.800000E+02   1.194275E+00
+   2.000000E+02   1.802633E+00

@@ -1,0 +1,35 @@
+# header: 
+#   title: Co57(p,x)K36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 36
+#     nuclide: K36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.806737E-11
+   1.400000E+02   6.774985E-09
+   1.500000E+02   1.444454E-07
+   1.600000E+02   1.288559E-06
+   1.800000E+02   1.612491E-05
+   2.000000E+02   9.263487E-05

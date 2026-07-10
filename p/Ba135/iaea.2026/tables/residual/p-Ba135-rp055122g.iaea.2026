@@ -1,0 +1,40 @@
+# header: 
+#   title: Ba135(p,x)Cs122g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   7.245839E-11
+   1.100000E+02   7.125470E-05
+   1.200000E+02   1.814379E-02
+   1.300000E+02   1.465977E-01
+   1.400000E+02   2.233449E-01
+   1.500000E+02   2.283304E-01
+   1.600000E+02   3.645904E-01
+   1.800000E+02   6.531340E-01
+   2.000000E+02   9.982571E-01

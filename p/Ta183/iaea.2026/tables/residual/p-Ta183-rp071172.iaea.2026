@@ -1,0 +1,44 @@
+# header: 
+#   title: Ta183(p,x)Lu172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 183
+#   nuclide: Ta183
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.595786E-09
+   6.500000E+01   2.155938E-06
+   7.000000E+01   2.596416E-04
+   7.500000E+01   3.945322E-03
+   8.000000E+01   2.337870E-02
+   9.000000E+01   4.351141E-01
+   1.000000E+02   1.747958E+00
+   1.100000E+02   2.362055E+00
+   1.200000E+02   2.649534E+00
+   1.300000E+02   2.716724E+00
+   1.400000E+02   3.024976E+00
+   1.500000E+02   3.824308E+00
+   1.600000E+02   4.149097E+00
+   1.800000E+02   4.247561E+00
+   2.000000E+02   4.879885E+00

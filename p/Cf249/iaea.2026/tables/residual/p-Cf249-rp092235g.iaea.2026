@@ -1,0 +1,44 @@
+# header: 
+#   title: Cf249(p,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 249
+#   nuclide: Cf249
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.089445E-13
+   7.500000E+01   1.407564E-11
+   8.000000E+01   2.813486E-10
+   9.000000E+01   9.692709E-09
+   1.000000E+02   2.054357E-08
+   1.100000E+02   4.092086E-08
+   1.200000E+02   1.556054E-07
+   1.300000E+02   4.897144E-07
+   1.400000E+02   1.165016E-06
+   1.500000E+02   1.224317E-06
+   1.600000E+02   1.919296E-06
+   1.800000E+02   2.698241E-06
+   2.000000E+02   4.467396E-08

@@ -1,0 +1,49 @@
+# header: 
+#   title: Zr91(p,x)Kr81m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 91
+#   nuclide: Zr91
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.543101E-11
+   5.000000E+01   2.307672E-08
+   5.500000E+01   1.169093E-06
+   6.000000E+01   8.824623E-05
+   6.500000E+01   1.439134E-03
+   7.000000E+01   6.144623E-03
+   7.500000E+01   1.226503E-02
+   8.000000E+01   1.651523E-02
+   9.000000E+01   1.941945E-02
+   1.000000E+02   2.808799E-02
+   1.100000E+02   5.710088E-02
+   1.200000E+02   8.885509E-02
+   1.300000E+02   1.293909E-01
+   1.400000E+02   1.310682E-01
+   1.500000E+02   1.358220E-01
+   1.600000E+02   1.698096E-01
+   1.800000E+02   2.092318E-01
+   2.000000E+02   1.713672E-01

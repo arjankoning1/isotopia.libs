@@ -1,0 +1,49 @@
+# header: 
+#   title: Fe59(p,x)Sc50m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   6.096344E-13
+   5.000000E+01   1.576892E-08
+   5.500000E+01   1.365657E-06
+   6.000000E+01   1.016917E-05
+   6.500000E+01   2.899420E-05
+   7.000000E+01   3.760116E-05
+   7.500000E+01   4.736023E-05
+   8.000000E+01   6.115358E-05
+   9.000000E+01   2.761412E-04
+   1.000000E+02   1.263386E-03
+   1.100000E+02   1.485889E-03
+   1.200000E+02   1.904158E-03
+   1.300000E+02   2.077288E-03
+   1.400000E+02   2.308054E-03
+   1.500000E+02   2.046512E-03
+   1.600000E+02   2.031508E-03
+   1.800000E+02   2.285220E-03
+   2.000000E+02   1.527317E-03

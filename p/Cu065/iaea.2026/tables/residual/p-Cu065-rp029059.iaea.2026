@@ -1,0 +1,45 @@
+# header: 
+#   title: Cu65(p,x)Cu59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 59
+#     nuclide: Cu59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.185692E-11
+   6.000000E+01   7.285493E-06
+   6.500000E+01   4.175056E-04
+   7.000000E+01   2.804142E-03
+   7.500000E+01   9.798141E-03
+   8.000000E+01   2.953238E-02
+   9.000000E+01   1.207919E-01
+   1.000000E+02   2.007102E-01
+   1.100000E+02   2.230852E-01
+   1.200000E+02   2.176069E-01
+   1.300000E+02   2.044261E-01
+   1.400000E+02   1.949164E-01
+   1.500000E+02   1.938313E-01
+   1.600000E+02   1.896096E-01
+   1.800000E+02   1.866953E-01
+   2.000000E+02   1.969327E-01

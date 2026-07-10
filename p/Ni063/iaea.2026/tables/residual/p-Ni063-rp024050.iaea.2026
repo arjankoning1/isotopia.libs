@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni63(p,x)Cr50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 50
+#     nuclide: Cr50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.911159E-11
+   7.500000E+01   4.086716E-07
+   8.000000E+01   5.493180E-05
+   9.000000E+01   7.393692E-03
+   1.000000E+02   1.793223E-01
+   1.100000E+02   9.255995E-01
+   1.200000E+02   2.138608E+00
+   1.300000E+02   3.383097E+00
+   1.400000E+02   4.972627E+00
+   1.500000E+02   7.012116E+00
+   1.600000E+02   9.269494E+00
+   1.800000E+02   1.442361E+01
+   2.000000E+02   1.707119E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: O16(p,x)F14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 14
+#     nuclide: F14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.118092E-07
+   6.500000E+01   1.427046E-05
+   7.000000E+01   3.851609E-05
+   7.500000E+01   5.891671E-05
+   8.000000E+01   7.344595E-05
+   9.000000E+01   8.265812E-05
+   1.000000E+02   6.673020E-05
+   1.100000E+02   6.222331E-05
+   1.200000E+02   5.835799E-05
+   1.300000E+02   4.644895E-05
+   1.400000E+02   4.976488E-05
+   1.500000E+02   4.760117E-05
+   1.600000E+02   4.253512E-05
+   1.800000E+02   2.942756E-05
+   2.000000E+02   2.757841E-05

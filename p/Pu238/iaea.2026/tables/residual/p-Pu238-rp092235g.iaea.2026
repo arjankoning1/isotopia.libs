@@ -1,0 +1,51 @@
+# header: 
+#   title: Pu238(p,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.489120E-12
+   4.000000E+01   4.848510E-10
+   4.500000E+01   3.251417E-08
+   5.000000E+01   2.859134E-06
+   5.500000E+01   6.992208E-05
+   6.000000E+01   5.693306E-04
+   6.500000E+01   2.080875E-03
+   7.000000E+01   4.772539E-03
+   7.500000E+01   8.504178E-03
+   8.000000E+01   1.182367E-02
+   9.000000E+01   2.087004E-02
+   1.000000E+02   2.683973E-02
+   1.100000E+02   3.489927E-02
+   1.200000E+02   4.029505E-02
+   1.300000E+02   4.186199E-02
+   1.400000E+02   5.628076E-02
+   1.500000E+02   5.677148E-02
+   1.600000E+02   5.031027E-02
+   1.800000E+02   6.858746E-02
+   2.000000E+02   7.602016E-02

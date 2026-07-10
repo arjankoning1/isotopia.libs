@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo98(p,x)Y86g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.818259E-09
+   7.000000E+01   1.934481E-05
+   7.500000E+01   3.555925E-03
+   8.000000E+01   4.823187E-02
+   9.000000E+01   3.487393E-01
+   1.000000E+02   5.434830E-01
+   1.100000E+02   7.918003E-01
+   1.200000E+02   1.485862E+00
+   1.300000E+02   2.870114E+00
+   1.400000E+02   4.405195E+00
+   1.500000E+02   5.717140E+00
+   1.600000E+02   6.553230E+00
+   1.800000E+02   8.534089E+00
+   2.000000E+02   7.810065E+00

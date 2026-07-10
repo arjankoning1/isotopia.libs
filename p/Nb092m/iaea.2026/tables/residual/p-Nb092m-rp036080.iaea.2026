@@ -1,0 +1,48 @@
+# header: 
+#   title: Nb92m(p,x)Kr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 80
+#     nuclide: Kr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.214812E-11
+   4.500000E+01   4.568523E-08
+   5.000000E+01   1.350150E-05
+   5.500000E+01   4.045610E-04
+   6.000000E+01   2.379493E-03
+   6.500000E+01   5.917830E-03
+   7.000000E+01   8.054023E-03
+   7.500000E+01   6.915836E-03
+   8.000000E+01   7.511271E-03
+   9.000000E+01   3.760449E-02
+   1.000000E+02   1.454658E-01
+   1.100000E+02   3.144511E-01
+   1.200000E+02   4.531838E-01
+   1.300000E+02   6.049479E-01
+   1.400000E+02   1.017602E+00
+   1.500000E+02   1.253124E+00
+   1.600000E+02   1.453188E+00
+   1.800000E+02   1.559125E+00
+   2.000000E+02   1.534527E+00

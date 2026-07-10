@@ -1,0 +1,42 @@
+# header: 
+#   title: Gd155(p,x)Gd145m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 155
+#   nuclide: Gd155
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 145
+#     nuclide: Gd145m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.775653E-08
+   9.000000E+01   8.227591E-02
+   1.000000E+02   4.819022E+00
+   1.100000E+02   1.602365E+01
+   1.200000E+02   2.069715E+01
+   1.300000E+02   2.157563E+01
+   1.400000E+02   2.327019E+01
+   1.500000E+02   2.544537E+01
+   1.600000E+02   2.841303E+01
+   1.800000E+02   2.649281E+01
+   2.000000E+02   2.274213E+01

@@ -1,0 +1,48 @@
+# header: 
+#   title: As76(p,x)Zn72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 72
+#     nuclide: Zn72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.364563E-11
+   4.500000E+01   4.516318E-08
+   5.000000E+01   1.161217E-06
+   5.500000E+01   8.091275E-06
+   6.000000E+01   4.393710E-05
+   6.500000E+01   1.988924E-04
+   7.000000E+01   6.598692E-04
+   7.500000E+01   1.540964E-03
+   8.000000E+01   2.724477E-03
+   9.000000E+01   5.735025E-03
+   1.000000E+02   8.652031E-03
+   1.100000E+02   1.110959E-02
+   1.200000E+02   1.226679E-02
+   1.300000E+02   1.284953E-02
+   1.400000E+02   1.405805E-02
+   1.500000E+02   1.571660E-02
+   1.600000E+02   1.327490E-02
+   1.800000E+02   1.514088E-02
+   2.000000E+02   1.123834E-02

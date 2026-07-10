@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe57(p,x)V46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 46
+#     nuclide: V46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.789801E-09
+   7.500000E+01   3.870525E-06
+   8.000000E+01   1.206857E-04
+   9.000000E+01   2.265556E-03
+   1.000000E+02   6.480702E-03
+   1.100000E+02   1.585457E-02
+   1.200000E+02   5.108532E-02
+   1.300000E+02   1.339462E-01
+   1.400000E+02   2.441064E-01
+   1.500000E+02   3.789120E-01
+   1.600000E+02   5.542889E-01
+   1.800000E+02   8.101789E-01
+   2.000000E+02   9.135944E-01

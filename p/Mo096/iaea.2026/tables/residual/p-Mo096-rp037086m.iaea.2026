@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo96(p,x)Rb86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.111976E-10
+   5.500000E+01   1.503320E-08
+   6.000000E+01   9.250963E-07
+   6.500000E+01   2.745885E-05
+   7.000000E+01   1.872702E-04
+   7.500000E+01   5.032591E-04
+   8.000000E+01   7.148916E-04
+   9.000000E+01   7.797572E-04
+   1.000000E+02   1.385316E-03
+   1.100000E+02   4.029857E-03
+   1.200000E+02   9.541967E-03
+   1.300000E+02   1.686069E-02
+   1.400000E+02   1.911366E-02
+   1.500000E+02   2.499901E-02
+   1.600000E+02   2.687483E-02
+   1.800000E+02   2.362234E-02
+   2.000000E+02   2.392627E-02

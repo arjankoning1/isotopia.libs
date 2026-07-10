@@ -1,0 +1,51 @@
+# header: 
+#   title: Fe57(p,x)Fe53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.222780E-11
+   4.000000E+01   1.720239E-02
+   4.500000E+01   1.532644E-01
+   5.000000E+01   6.734698E-01
+   5.500000E+01   2.509366E+00
+   6.000000E+01   5.077367E+00
+   6.500000E+01   6.763163E+00
+   7.000000E+01   7.519534E+00
+   7.500000E+01   7.731022E+00
+   8.000000E+01   7.883627E+00
+   9.000000E+01   7.320794E+00
+   1.000000E+02   6.674940E+00
+   1.100000E+02   6.214891E+00
+   1.200000E+02   5.838951E+00
+   1.300000E+02   5.583642E+00
+   1.400000E+02   5.426518E+00
+   1.500000E+02   5.196928E+00
+   1.600000E+02   5.060484E+00
+   1.800000E+02   4.865647E+00
+   2.000000E+02   4.689631E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cu67(p,x)Fe53m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.455510E-13
+   1.000000E+02   5.619024E-07
+   1.100000E+02   1.248136E-04
+   1.200000E+02   1.401169E-03
+   1.300000E+02   4.775837E-03
+   1.400000E+02   1.038776E-02
+   1.500000E+02   1.962489E-02
+   1.600000E+02   3.303381E-02
+   1.800000E+02   6.681288E-02
+   2.000000E+02   1.182328E-01

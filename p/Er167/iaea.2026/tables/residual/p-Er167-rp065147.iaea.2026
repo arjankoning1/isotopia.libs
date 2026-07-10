@@ -1,0 +1,36 @@
+# header: 
+#   title: Er167(p,x)Tb147 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 167
+#   nuclide: Er167
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 147
+#     nuclide: Tb147
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.661009E-12
+   1.300000E+02   5.845881E-07
+   1.400000E+02   1.421798E-03
+   1.500000E+02   7.659703E-02
+   1.600000E+02   4.403483E-01
+   1.800000E+02   1.313072E+00
+   2.000000E+02   5.127879E+00

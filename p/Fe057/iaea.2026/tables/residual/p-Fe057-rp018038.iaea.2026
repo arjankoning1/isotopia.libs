@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe57(p,x)Ar38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 38
+#     nuclide: Ar38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.109586E-12
+   9.000000E+01   1.303040E-07
+   1.000000E+02   1.325013E-05
+   1.100000E+02   1.908572E-04
+   1.200000E+02   1.129413E-03
+   1.300000E+02   3.166043E-03
+   1.400000E+02   9.197559E-03
+   1.500000E+02   2.983247E-02
+   1.600000E+02   8.358537E-02
+   1.800000E+02   3.811701E-01
+   2.000000E+02   1.058924E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm248(p,x)U235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 248
+#   nuclide: Cm248
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.318853E-12
+   6.500000E+01   1.906172E-09
+   7.000000E+01   2.346642E-07
+   7.500000E+01   3.029235E-06
+   8.000000E+01   1.790889E-05
+   9.000000E+01   2.759509E-04
+   1.000000E+02   9.131178E-04
+   1.100000E+02   2.025986E-03
+   1.200000E+02   2.513525E-03
+   1.300000E+02   2.637161E-03
+   1.400000E+02   2.793788E-03
+   1.500000E+02   2.858808E-03
+   1.600000E+02   2.882009E-03
+   1.800000E+02   3.737036E-03
+   2.000000E+02   5.266493E-03

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag105(p,x)Rh95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 105
+#   nuclide: Ag105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 95
+#     nuclide: Rh95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.495895E-11
+   7.000000E+01   8.741486E-07
+   7.500000E+01   2.690714E-04
+   8.000000E+01   4.582473E-03
+   9.000000E+01   1.545990E-01
+   1.000000E+02   7.243847E-01
+   1.100000E+02   1.509614E+00
+   1.200000E+02   2.161083E+00
+   1.300000E+02   2.485736E+00
+   1.400000E+02   3.146224E+00
+   1.500000E+02   3.636604E+00
+   1.600000E+02   3.407788E+00
+   1.800000E+02   5.217603E+00
+   2.000000E+02   4.911758E+00

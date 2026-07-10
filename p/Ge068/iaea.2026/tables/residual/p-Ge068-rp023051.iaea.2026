@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge68(p,x)V51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 51
+#     nuclide: V51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.097153E-11
+   8.000000E+01   2.505758E-09
+   9.000000E+01   4.820809E-07
+   1.000000E+02   5.104102E-06
+   1.100000E+02   1.577899E-05
+   1.200000E+02   9.927653E-05
+   1.300000E+02   1.162164E-03
+   1.400000E+02   5.661752E-03
+   1.500000E+02   1.494994E-02
+   1.600000E+02   2.966498E-02
+   1.800000E+02   6.824205E-02
+   2.000000E+02   1.526633E-01

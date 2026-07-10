@@ -1,0 +1,44 @@
+# header: 
+#   title: Sb121(p,x)Cd109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 109
+#     nuclide: Cd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.182503E-10
+   6.500000E+01   1.608831E-06
+   7.000000E+01   5.474205E-04
+   7.500000E+01   1.400308E-02
+   8.000000E+01   7.556652E-02
+   9.000000E+01   3.080194E-01
+   1.000000E+02   4.894746E-01
+   1.100000E+02   1.791166E+00
+   1.200000E+02   4.767700E+00
+   1.300000E+02   8.850454E+00
+   1.400000E+02   1.186916E+01
+   1.500000E+02   1.419472E+01
+   1.600000E+02   1.301762E+01
+   1.800000E+02   1.548710E+01
+   2.000000E+02   1.105541E+01

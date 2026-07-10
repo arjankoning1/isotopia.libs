@@ -1,0 +1,38 @@
+# header: 
+#   title: Ta177(p,x)Yb160 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 177
+#   nuclide: Ta177
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 160
+#     nuclide: Yb160
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.515388E-11
+   1.100000E+02   1.506468E-06
+   1.200000E+02   1.529373E-03
+   1.300000E+02   4.868793E-02
+   1.400000E+02   2.257089E-01
+   1.500000E+02   4.023335E-01
+   1.600000E+02   1.011870E+00
+   1.800000E+02   3.579758E+00
+   2.000000E+02   8.127977E+00

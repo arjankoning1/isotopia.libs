@@ -1,0 +1,44 @@
+# header: 
+#   title: Os188(p,x)Ir181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 181
+#     nuclide: Ir181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.819462E-09
+   6.500000E+01   4.846140E-02
+   7.000000E+01   5.115958E+00
+   7.500000E+01   4.422845E+01
+   8.000000E+01   1.234585E+02
+   9.000000E+01   1.966675E+02
+   1.000000E+02   9.758339E+01
+   1.100000E+02   4.663783E+01
+   1.200000E+02   3.188209E+01
+   1.300000E+02   2.467193E+01
+   1.400000E+02   1.996159E+01
+   1.500000E+02   1.575657E+01
+   1.600000E+02   1.388751E+01
+   1.800000E+02   1.081246E+01
+   2.000000E+02   8.412727E+00

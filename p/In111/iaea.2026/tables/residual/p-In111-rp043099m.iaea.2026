@@ -1,0 +1,49 @@
+# header: 
+#   title: In111(p,x)Tc99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 111
+#   nuclide: In111
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   8.499029E-12
+   5.000000E+01   2.934947E-09
+   5.500000E+01   1.142539E-07
+   6.000000E+01   1.036207E-06
+   6.500000E+01   4.196471E-06
+   7.000000E+01   7.438528E-06
+   7.500000E+01   7.486922E-06
+   8.000000E+01   6.361250E-06
+   9.000000E+01   8.088679E-05
+   1.000000E+02   7.549352E-04
+   1.100000E+02   1.590539E-03
+   1.200000E+02   1.584282E-03
+   1.300000E+02   2.023215E-03
+   1.400000E+02   2.947588E-03
+   1.500000E+02   3.550770E-03
+   1.600000E+02   2.725264E-03
+   1.800000E+02   2.995718E-03
+   2.000000E+02   3.534662E-03

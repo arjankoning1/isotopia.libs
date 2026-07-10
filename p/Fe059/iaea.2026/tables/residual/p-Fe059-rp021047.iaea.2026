@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe59(p,x)Sc47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.058077E-12
+   4.500000E+01   4.681766E-07
+   5.000000E+01   1.472868E-04
+   5.500000E+01   1.934738E-03
+   6.000000E+01   5.924354E-03
+   6.500000E+01   9.704552E-03
+   7.000000E+01   1.226489E-02
+   7.500000E+01   1.333201E-02
+   8.000000E+01   1.495673E-02
+   9.000000E+01   3.944141E-02
+   1.000000E+02   1.282094E-01
+   1.100000E+02   2.326142E-01
+   1.200000E+02   3.805898E-01
+   1.300000E+02   5.324638E-01
+   1.400000E+02   8.697358E-01
+   1.500000E+02   1.306739E+00
+   1.600000E+02   1.826055E+00
+   1.800000E+02   1.806733E+00
+   2.000000E+02   2.158773E+00

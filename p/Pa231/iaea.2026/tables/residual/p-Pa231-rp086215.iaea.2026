@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa231(p,x)Rn215 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 215
+#     nuclide: Rn215
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.526817E-12
+   6.000000E+01   1.675431E-09
+   6.500000E+01   1.427906E-07
+   7.000000E+01   8.408831E-06
+   7.500000E+01   2.019494E-04
+   8.000000E+01   2.441736E-03
+   9.000000E+01   2.983592E-02
+   1.000000E+02   5.082383E-02
+   1.100000E+02   5.167852E-02
+   1.200000E+02   5.703436E-02
+   1.300000E+02   9.431858E-02
+   1.400000E+02   1.243111E-01
+   1.500000E+02   1.272649E-01
+   1.600000E+02   1.363275E-01
+   1.800000E+02   1.327887E-01
+   2.000000E+02   1.695408E-01

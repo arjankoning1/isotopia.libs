@@ -1,0 +1,44 @@
+# header: 
+#   title: Br82(p,x)Ga70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.558446E-09
+   6.500000E+01   1.829774E-06
+   7.000000E+01   6.229567E-05
+   7.500000E+01   7.268487E-04
+   8.000000E+01   6.628403E-03
+   9.000000E+01   8.683869E-02
+   1.000000E+02   2.757455E-01
+   1.100000E+02   4.369084E-01
+   1.200000E+02   6.288265E-01
+   1.300000E+02   9.505385E-01
+   1.400000E+02   1.411321E+00
+   1.500000E+02   1.648399E+00
+   1.600000E+02   1.656373E+00
+   1.800000E+02   2.059441E+00
+   2.000000E+02   1.688847E+00

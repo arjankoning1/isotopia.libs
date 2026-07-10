@@ -1,0 +1,40 @@
+# header: 
+#   title: S34(p,x)O19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.807175E-09
+   9.000000E+01   5.203089E-06
+   1.000000E+02   1.076403E-04
+   1.100000E+02   6.295043E-04
+   1.200000E+02   1.884081E-03
+   1.300000E+02   3.876483E-03
+   1.400000E+02   7.067213E-03
+   1.500000E+02   1.258097E-02
+   1.600000E+02   2.004972E-02
+   1.800000E+02   3.868781E-02
+   2.000000E+02   6.287529E-02

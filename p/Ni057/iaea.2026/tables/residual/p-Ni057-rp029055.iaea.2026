@@ -1,0 +1,47 @@
+# header: 
+#   title: Ni57(p,x)Cu55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 55
+#     nuclide: Cu55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.474580E-06
+   5.000000E+01   7.780172E-05
+   5.500000E+01   2.011183E-04
+   6.000000E+01   2.721705E-04
+   6.500000E+01   2.955087E-04
+   7.000000E+01   2.994536E-04
+   7.500000E+01   2.822290E-04
+   8.000000E+01   2.626182E-04
+   9.000000E+01   2.151143E-04
+   1.000000E+02   1.808989E-04
+   1.100000E+02   1.547955E-04
+   1.200000E+02   1.344143E-04
+   1.300000E+02   1.237002E-04
+   1.400000E+02   1.093231E-04
+   1.500000E+02   9.315641E-05
+   1.600000E+02   8.825486E-05
+   1.800000E+02   7.297179E-05
+   2.000000E+02   6.187224E-05

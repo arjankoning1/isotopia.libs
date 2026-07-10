@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca43(p,x)Si28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 28
+#     nuclide: Si28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.992213E-12
+   6.000000E+01   2.501856E-07
+   6.500000E+01   3.957764E-05
+   7.000000E+01   5.560626E-04
+   7.500000E+01   2.550939E-03
+   8.000000E+01   8.425692E-03
+   9.000000E+01   5.673312E-02
+   1.000000E+02   1.703333E-01
+   1.100000E+02   3.237717E-01
+   1.200000E+02   6.818869E-01
+   1.300000E+02   1.474903E+00
+   1.400000E+02   2.669899E+00
+   1.500000E+02   4.328849E+00
+   1.600000E+02   6.139939E+00
+   1.800000E+02   1.127250E+01
+   2.000000E+02   1.625570E+01

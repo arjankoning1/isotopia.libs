@@ -1,0 +1,45 @@
+# header: 
+#   title: Sc45(p,x)Ca38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 38
+#     nuclide: Ca38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.677244E-08
+   6.000000E+01   1.479131E-05
+   6.500000E+01   1.454852E-04
+   7.000000E+01   5.761997E-04
+   7.500000E+01   1.169514E-03
+   8.000000E+01   1.637867E-03
+   9.000000E+01   2.023899E-03
+   1.000000E+02   3.021252E-03
+   1.100000E+02   5.223374E-03
+   1.200000E+02   7.747280E-03
+   1.300000E+02   9.631608E-03
+   1.400000E+02   1.060857E-02
+   1.500000E+02   1.132347E-02
+   1.600000E+02   1.103531E-02
+   1.800000E+02   1.070661E-02
+   2.000000E+02   1.007915E-02

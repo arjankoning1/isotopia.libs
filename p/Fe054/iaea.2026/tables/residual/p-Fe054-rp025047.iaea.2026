@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe54(p,x)Mn47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 47
+#     nuclide: Mn47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.090019E-11
+   7.500000E+01   3.957642E-08
+   8.000000E+01   5.846171E-07
+   9.000000E+01   5.195420E-06
+   1.000000E+02   8.425157E-06
+   1.100000E+02   9.282421E-06
+   1.200000E+02   1.147565E-05
+   1.300000E+02   1.634923E-05
+   1.400000E+02   2.247614E-05
+   1.500000E+02   2.838635E-05
+   1.600000E+02   3.313643E-05
+   1.800000E+02   4.066993E-05
+   2.000000E+02   4.521394E-05

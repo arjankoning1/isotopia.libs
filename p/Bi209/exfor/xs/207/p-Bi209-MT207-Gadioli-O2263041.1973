@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi209(p,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gadioli
+#   year: 1973
+#   subentry: O2263041
+#   X4 reaction: 83-BI-209(P,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2263041
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   2.000000E-01   3.513000E+00   4.215600E-01   1.000000E+00
+   3.000000E+01   2.000000E-01   9.699000E+00   1.460000E+00   1.000000E+00
+   3.500000E+01   2.000000E-01   1.338300E+01   2.010000E+00   1.000000E+00
+   4.000000E+01   2.000000E-01   1.710400E+01   2.570000E+00   1.000000E+00
+   4.450000E+01   2.000000E-01   2.096200E+01   3.140000E+00   1.000000E+00
+# reference:
+#   author: E.Gadioli, I.Lori, N.Molho, L.Zetta
+#   title: (p,alpha) reactions on heavy nuclei
+#   journal: Rept: INFN Reports / Low Energy Physics Series, No.73/5 (1973)

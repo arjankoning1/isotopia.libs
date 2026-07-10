@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe136(p,x)Sb124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 124
+#     nuclide: Sb124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.333223E-10
+   6.500000E+01   2.047006E-06
+   7.000000E+01   1.961103E-04
+   7.500000E+01   2.845041E-03
+   8.000000E+01   1.203751E-02
+   9.000000E+01   3.474800E-02
+   1.000000E+02   4.407225E-02
+   1.100000E+02   6.303146E-02
+   1.200000E+02   9.761079E-02
+   1.300000E+02   1.303807E-01
+   1.400000E+02   1.384801E-01
+   1.500000E+02   2.007271E-01
+   1.600000E+02   2.532123E-01
+   1.800000E+02   3.467313E-01
+   2.000000E+02   6.578186E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni59(p,x)Sc42g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.027024E-11
+   9.000000E+01   2.989675E-07
+   1.000000E+02   1.685566E-05
+   1.100000E+02   7.167562E-05
+   1.200000E+02   1.478811E-04
+   1.300000E+02   7.356704E-04
+   1.400000E+02   4.189793E-03
+   1.500000E+02   1.222517E-02
+   1.600000E+02   2.780541E-02
+   1.800000E+02   1.295691E-01
+   2.000000E+02   3.419895E-01

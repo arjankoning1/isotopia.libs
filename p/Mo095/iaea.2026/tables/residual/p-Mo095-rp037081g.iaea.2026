@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo95(p,x)Rb81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.711046E-09
+   7.000000E+01   2.264373E-06
+   7.500000E+01   1.620147E-04
+   8.000000E+01   1.774925E-03
+   9.000000E+01   1.213114E-02
+   1.000000E+02   2.062053E-02
+   1.100000E+02   3.785714E-02
+   1.200000E+02   1.084612E-01
+   1.300000E+02   3.230706E-01
+   1.400000E+02   5.662924E-01
+   1.500000E+02   8.125018E-01
+   1.600000E+02   1.281474E+00
+   1.800000E+02   1.835134E+00
+   2.000000E+02   2.219478E+00

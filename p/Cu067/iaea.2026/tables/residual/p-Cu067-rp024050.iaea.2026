@@ -1,0 +1,39 @@
+# header: 
+#   title: Cu67(p,x)Cr50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 50
+#     nuclide: Cr50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.645270E-11
+   1.000000E+02   8.633808E-06
+   1.100000E+02   2.387765E-03
+   1.200000E+02   3.693127E-02
+   1.300000E+02   1.561521E-01
+   1.400000E+02   3.668204E-01
+   1.500000E+02   7.059405E-01
+   1.600000E+02   1.253313E+00
+   1.800000E+02   3.038147E+00
+   2.000000E+02   6.222661E+00

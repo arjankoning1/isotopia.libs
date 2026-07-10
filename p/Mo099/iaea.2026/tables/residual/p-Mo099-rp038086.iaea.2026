@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo99(p,x)Sr86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 86
+#     nuclide: Sr86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.026045E-09
+   7.000000E+01   1.422354E-06
+   7.500000E+01   4.937176E-05
+   8.000000E+01   5.482133E-04
+   9.000000E+01   1.850950E-02
+   1.000000E+02   8.676798E-02
+   1.100000E+02   2.083611E-01
+   1.200000E+02   3.378359E-01
+   1.300000E+02   4.973351E-01
+   1.400000E+02   7.883247E-01
+   1.500000E+02   9.894449E-01
+   1.600000E+02   1.195350E+00
+   1.800000E+02   1.327132E+00
+   2.000000E+02   1.304673E+00

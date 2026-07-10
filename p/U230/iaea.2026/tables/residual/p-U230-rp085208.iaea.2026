@@ -1,0 +1,39 @@
+# header: 
+#   title: U230(p,x)At208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 208
+#     nuclide: At208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.334818E-10
+   1.000000E+02   1.428467E-07
+   1.100000E+02   1.333669E-05
+   1.200000E+02   5.600887E-04
+   1.300000E+02   3.914005E-03
+   1.400000E+02   1.002012E-02
+   1.500000E+02   1.208857E-02
+   1.600000E+02   1.699962E-02
+   1.800000E+02   3.810499E-02
+   2.000000E+02   6.055419E-02

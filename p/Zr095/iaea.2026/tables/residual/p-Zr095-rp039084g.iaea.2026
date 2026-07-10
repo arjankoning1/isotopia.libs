@@ -1,0 +1,42 @@
+# header: 
+#   title: Zr95(p,x)Y84g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 95
+#   nuclide: Zr95
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 84
+#     nuclide: Y84g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.593054E-11
+   9.000000E+01   1.037622E-03
+   1.000000E+02   1.233483E-01
+   1.100000E+02   6.199943E-01
+   1.200000E+02   1.820413E+00
+   1.300000E+02   2.936573E+00
+   1.400000E+02   4.919299E+00
+   1.500000E+02   7.691319E+00
+   1.600000E+02   1.007038E+01
+   1.800000E+02   1.612527E+01
+   2.000000E+02   1.290848E+01

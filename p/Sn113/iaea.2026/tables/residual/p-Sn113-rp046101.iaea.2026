@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn113(p,x)Pd101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 101
+#     nuclide: Pd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.080059E-11
+   6.000000E+01   1.159280E-07
+   6.500000E+01   3.009933E-05
+   7.000000E+01   1.053738E-03
+   7.500000E+01   1.051213E-02
+   8.000000E+01   8.015557E-02
+   9.000000E+01   9.399564E-01
+   1.000000E+02   1.838533E+00
+   1.100000E+02   2.390882E+00
+   1.200000E+02   3.902959E+00
+   1.300000E+02   8.564687E+00
+   1.400000E+02   1.297548E+01
+   1.500000E+02   1.596967E+01
+   1.600000E+02   1.598458E+01
+   1.800000E+02   1.874418E+01
+   2.000000E+02   1.446470E+01

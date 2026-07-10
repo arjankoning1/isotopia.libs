@@ -1,0 +1,45 @@
+# header: 
+#   title: Te129m(p,x)In116n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 129
+#   nuclide: Te129m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 116
+#     nuclide: In116n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.019558E-12
+   7.000000E+01   3.452041E-08
+   7.500000E+01   3.224230E-05
+   8.000000E+01   1.776538E-03
+   9.000000E+01   7.096820E-02
+   1.000000E+02   1.890140E-01
+   1.100000E+02   1.965077E-01
+   1.200000E+02   3.282481E-01
+   1.300000E+02   5.675035E-01
+   1.400000E+02   8.377737E-01
+   1.500000E+02   8.437396E-01
+   1.600000E+02   1.045656E+00
+   1.800000E+02   1.080173E+00
+   2.000000E+02   9.923282E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Y91(p,x)Kr77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.093650E-10
+   1.000000E+02   7.063531E-05
+   1.100000E+02   1.133847E-02
+   1.200000E+02   9.953620E-02
+   1.300000E+02   2.990411E-01
+   1.400000E+02   6.579450E-01
+   1.500000E+02   1.582620E+00
+   1.600000E+02   3.456395E+00
+   1.800000E+02   8.438607E+00
+   2.000000E+02   1.310001E+01

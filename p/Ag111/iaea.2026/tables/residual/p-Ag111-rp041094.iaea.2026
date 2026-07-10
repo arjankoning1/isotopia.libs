@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag111(p,x)Nb94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 111
+#   nuclide: Ag111
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.221683E-11
+   9.000000E+01   6.126445E-07
+   1.000000E+02   7.647888E-05
+   1.100000E+02   1.506165E-03
+   1.200000E+02   5.540859E-03
+   1.300000E+02   1.331093E-02
+   1.400000E+02   2.387601E-02
+   1.500000E+02   4.267373E-02
+   1.600000E+02   7.358247E-02
+   1.800000E+02   9.847045E-02
+   2.000000E+02   1.180753E-01

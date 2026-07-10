@@ -1,0 +1,49 @@
+# header: 
+#   title: Te120(p,x)Te115g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.680059E-06
+   5.000000E+01   1.691030E-02
+   5.500000E+01   2.264618E-01
+   6.000000E+01   2.536929E+00
+   6.500000E+01   1.551663E+01
+   7.000000E+01   4.221235E+01
+   7.500000E+01   6.761995E+01
+   8.000000E+01   7.497090E+01
+   9.000000E+01   6.125266E+01
+   1.000000E+02   5.316319E+01
+   1.100000E+02   4.845823E+01
+   1.200000E+02   4.581758E+01
+   1.300000E+02   4.278733E+01
+   1.400000E+02   4.085156E+01
+   1.500000E+02   3.962131E+01
+   1.600000E+02   3.908573E+01
+   1.800000E+02   3.894337E+01
+   2.000000E+02   3.469068E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pd108(p,x)Mo93g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.368024E-12
+   9.000000E+01   8.294030E-06
+   1.000000E+02   4.021561E-03
+   1.100000E+02   9.677971E-02
+   1.200000E+02   3.532753E-01
+   1.300000E+02   1.191408E+00
+   1.400000E+02   2.158947E+00
+   1.500000E+02   3.330103E+00
+   1.600000E+02   4.637026E+00
+   1.800000E+02   7.842376E+00
+   2.000000E+02   9.885535E+00

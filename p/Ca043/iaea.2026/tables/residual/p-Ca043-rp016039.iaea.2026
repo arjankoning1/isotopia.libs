@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca43(p,x)S39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 39
+#     nuclide: S39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.187225E-10
+   6.500000E+01   8.623032E-08
+   7.000000E+01   1.387960E-06
+   7.500000E+01   7.006393E-06
+   8.000000E+01   1.789235E-05
+   9.000000E+01   4.671775E-05
+   1.000000E+02   7.043315E-05
+   1.100000E+02   8.115552E-05
+   1.200000E+02   8.785220E-05
+   1.300000E+02   9.032053E-05
+   1.400000E+02   8.928289E-05
+   1.500000E+02   8.796767E-05
+   1.600000E+02   8.706828E-05
+   1.800000E+02   8.182185E-05
+   2.000000E+02   7.352211E-05

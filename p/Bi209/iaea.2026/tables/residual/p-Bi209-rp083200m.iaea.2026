@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi209(p,x)Bi200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 200
+#     nuclide: Bi200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.330292E-12
+   7.500000E+01   1.991452E-06
+   8.000000E+01   1.018971E-03
+   9.000000E+01   1.204611E-01
+   1.000000E+02   1.295789E+00
+   1.100000E+02   3.734444E+00
+   1.200000E+02   6.621153E+00
+   1.300000E+02   8.110068E+00
+   1.400000E+02   9.573900E+00
+   1.500000E+02   8.857824E+00
+   1.600000E+02   9.608653E+00
+   1.800000E+02   9.423348E+00
+   2.000000E+02   1.108328E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Cu63(p,x)Ti46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 46
+#     nuclide: Ti46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.596204E-11
+   7.500000E+01   6.935207E-08
+   8.000000E+01   7.975128E-06
+   9.000000E+01   1.078006E-03
+   1.000000E+02   9.312679E-03
+   1.100000E+02   2.351209E-02
+   1.200000E+02   4.833492E-02
+   1.300000E+02   1.419256E-01
+   1.400000E+02   3.738289E-01
+   1.500000E+02   7.575371E-01
+   1.600000E+02   1.473612E+00
+   1.800000E+02   4.190711E+00
+   2.000000E+02   8.960799E+00

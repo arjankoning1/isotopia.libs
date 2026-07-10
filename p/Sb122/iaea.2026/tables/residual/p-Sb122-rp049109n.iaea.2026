@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb122(p,x)In109n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 122
+#   nuclide: Sb122
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.815215E-10
+   1.000000E+02   1.425210E-04
+   1.100000E+02   1.469581E-02
+   1.200000E+02   1.090108E-01
+   1.300000E+02   3.772090E-01
+   1.400000E+02   7.938891E-01
+   1.500000E+02   1.124011E+00
+   1.600000E+02   1.575297E+00
+   1.800000E+02   2.366286E+00
+   2.000000E+02   2.161723E+00

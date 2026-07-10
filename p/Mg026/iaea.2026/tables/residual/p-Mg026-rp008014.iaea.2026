@@ -1,0 +1,43 @@
+# header: 
+#   title: Mg26(p,x)O14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 14
+#     nuclide: O14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.687910E-09
+   7.000000E+01   7.299298E-06
+   7.500000E+01   1.523854E-04
+   8.000000E+01   8.039898E-04
+   9.000000E+01   5.694578E-03
+   1.000000E+02   1.759494E-02
+   1.100000E+02   3.447529E-02
+   1.200000E+02   5.465142E-02
+   1.300000E+02   7.970502E-02
+   1.400000E+02   1.131565E-01
+   1.500000E+02   1.487032E-01
+   1.600000E+02   1.893792E-01
+   1.800000E+02   2.677723E-01
+   2.000000E+02   3.210682E-01

@@ -1,0 +1,37 @@
+# header: 
+#   title: Os186(p,x)Re169m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 169
+#     nuclide: Re169m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.438770E-14
+   1.400000E+02   7.422853E-10
+   1.500000E+02   9.887509E-07
+   1.600000E+02   7.267633E-05
+   1.800000E+02   1.513584E-03
+   2.000000E+02   4.343416E-03

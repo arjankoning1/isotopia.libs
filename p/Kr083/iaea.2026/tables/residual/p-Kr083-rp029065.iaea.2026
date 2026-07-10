@@ -1,0 +1,41 @@
+# header: 
+#   title: Kr83(p,x)Cu65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 83
+#   nuclide: Kr83
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 65
+#     nuclide: Cu65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.150111E-12
+   8.000000E+01   1.031204E-09
+   9.000000E+01   1.359009E-06
+   1.000000E+02   2.445173E-05
+   1.100000E+02   1.506114E-04
+   1.200000E+02   1.777983E-03
+   1.300000E+02   1.500615E-02
+   1.400000E+02   5.048443E-02
+   1.500000E+02   1.115278E-01
+   1.600000E+02   1.785907E-01
+   1.800000E+02   3.388565E-01
+   2.000000E+02   4.158816E-01

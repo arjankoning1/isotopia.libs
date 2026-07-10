@@ -1,0 +1,44 @@
+# header: 
+#   title: Sc44m(p,x)Sc39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 39
+#     nuclide: Sc39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.289176E-11
+   6.500000E+01   1.318385E-07
+   7.000000E+01   1.347400E-06
+   7.500000E+01   3.706605E-06
+   8.000000E+01   7.639267E-06
+   9.000000E+01   2.604771E-05
+   1.000000E+02   4.889161E-05
+   1.100000E+02   6.073550E-05
+   1.200000E+02   6.312814E-05
+   1.300000E+02   6.139081E-05
+   1.400000E+02   5.899614E-05
+   1.500000E+02   5.611295E-05
+   1.600000E+02   5.331650E-05
+   1.800000E+02   5.069320E-05
+   2.000000E+02   4.720654E-05

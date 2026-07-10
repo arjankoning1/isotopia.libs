@@ -1,0 +1,45 @@
+# header: 
+#   title: Pd100(p,x)Tc89m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 89
+#     nuclide: Tc89m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.965537E-13
+   7.000000E+01   1.955666E-08
+   7.500000E+01   1.630023E-05
+   8.000000E+01   4.105943E-04
+   9.000000E+01   1.672588E-03
+   1.000000E+02   7.926465E-04
+   1.100000E+02   1.292664E-03
+   1.200000E+02   3.058424E-03
+   1.300000E+02   6.967489E-03
+   1.400000E+02   1.220262E-02
+   1.500000E+02   1.509243E-02
+   1.600000E+02   2.481190E-02
+   1.800000E+02   4.496124E-02
+   2.000000E+02   6.257499E-02

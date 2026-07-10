@@ -1,0 +1,40 @@
+# header: 
+#   title: Sr88(p,x)Kr77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.476600E-12
+   9.000000E+01   2.100175E-04
+   1.000000E+02   3.514276E-02
+   1.100000E+02   4.122132E-01
+   1.200000E+02   1.731419E+00
+   1.300000E+02   4.365887E+00
+   1.400000E+02   7.005884E+00
+   1.500000E+02   9.679753E+00
+   1.600000E+02   1.400981E+01
+   1.800000E+02   2.191224E+01
+   2.000000E+02   2.400680E+01

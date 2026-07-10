@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba138(p,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.493799E-09
+   8.000000E+01   1.181863E-04
+   9.000000E+01   2.049496E-01
+   1.000000E+02   3.246422E+00
+   1.100000E+02   1.535933E+01
+   1.200000E+02   2.630648E+01
+   1.300000E+02   2.996943E+01
+   1.400000E+02   3.127699E+01
+   1.500000E+02   3.237408E+01
+   1.600000E+02   3.228103E+01
+   1.800000E+02   3.339824E+01
+   2.000000E+02   2.782005E+01

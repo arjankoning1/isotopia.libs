@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr87(p,x)Y81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 81
+#     nuclide: Y81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.608207E-11
+   7.500000E+01   7.055601E-05
+   8.000000E+01   2.871426E-03
+   9.000000E+01   2.143366E-02
+   1.000000E+02   2.035848E-02
+   1.100000E+02   1.870103E-02
+   1.200000E+02   1.694750E-02
+   1.300000E+02   1.468816E-02
+   1.400000E+02   1.247310E-02
+   1.500000E+02   1.095308E-02
+   1.600000E+02   9.823423E-03
+   1.800000E+02   8.886183E-03
+   2.000000E+02   8.310227E-03

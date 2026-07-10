@@ -1,0 +1,39 @@
+# header: 
+#   title: Rh105(p,x)Tc91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.544764E-09
+   1.200000E+02   1.583103E-05
+   1.300000E+02   6.070528E-04
+   1.400000E+02   4.606714E-03
+   1.500000E+02   1.563268E-02
+   1.600000E+02   3.493866E-02
+   1.800000E+02   1.284362E-01
+   2.000000E+02   3.537341E-01

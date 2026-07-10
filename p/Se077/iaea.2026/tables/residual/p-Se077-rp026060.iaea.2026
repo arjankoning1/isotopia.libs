@@ -1,0 +1,42 @@
+# header: 
+#   title: Se77(p,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 77
+#   nuclide: Se77
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.109605E-12
+   7.500000E+01   1.268536E-09
+   8.000000E+01   5.194119E-08
+   9.000000E+01   2.509065E-06
+   1.000000E+02   2.246270E-05
+   1.100000E+02   5.040428E-05
+   1.200000E+02   1.045026E-04
+   1.300000E+02   4.043787E-04
+   1.400000E+02   1.280748E-03
+   1.500000E+02   2.676057E-03
+   1.600000E+02   3.815788E-03
+   1.800000E+02   5.590618E-03
+   2.000000E+02   7.640463E-03

@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo98(p,x)Sr86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 86
+#     nuclide: Sr86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.890293E-12
+   6.000000E+01   1.262969E-08
+   6.500000E+01   1.992014E-06
+   7.000000E+01   1.220596E-04
+   7.500000E+01   3.436903E-03
+   8.000000E+01   2.213583E-02
+   9.000000E+01   1.100214E-01
+   1.000000E+02   1.900508E-01
+   1.100000E+02   2.659981E-01
+   1.200000E+02   4.027667E-01
+   1.300000E+02   6.587853E-01
+   1.400000E+02   9.279426E-01
+   1.500000E+02   1.121852E+00
+   1.600000E+02   1.262648E+00
+   1.800000E+02   1.275249E+00
+   2.000000E+02   1.287761E+00

@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo95(p,x)Rb83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.226482E-08
+   5.000000E+01   6.511498E-06
+   5.500000E+01   2.216387E-04
+   6.000000E+01   1.275623E-03
+   6.500000E+01   3.343360E-03
+   7.000000E+01   4.787153E-03
+   7.500000E+01   4.245135E-03
+   8.000000E+01   3.646859E-03
+   9.000000E+01   1.409984E-02
+   1.000000E+02   5.553056E-02
+   1.100000E+02   1.393831E-01
+   1.200000E+02   1.798933E-01
+   1.300000E+02   2.333001E-01
+   1.400000E+02   3.455646E-01
+   1.500000E+02   4.190556E-01
+   1.600000E+02   4.532587E-01
+   1.800000E+02   6.039102E-01
+   2.000000E+02   4.693984E-01

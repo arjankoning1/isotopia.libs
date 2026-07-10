@@ -1,0 +1,43 @@
+# header: 
+#   title: As75(p,x)Cu62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.430928E-12
+   7.000000E+01   9.643846E-08
+   7.500000E+01   2.870204E-05
+   8.000000E+01   6.172064E-04
+   9.000000E+01   2.361938E-02
+   1.000000E+02   3.798328E-01
+   1.100000E+02   1.482877E+00
+   1.200000E+02   2.713225E+00
+   1.300000E+02   4.416305E+00
+   1.400000E+02   6.892432E+00
+   1.500000E+02   1.022977E+01
+   1.600000E+02   1.309179E+01
+   1.800000E+02   1.689777E+01
+   2.000000E+02   1.962903E+01

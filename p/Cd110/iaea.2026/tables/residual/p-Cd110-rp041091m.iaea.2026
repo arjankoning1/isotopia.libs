@@ -1,0 +1,42 @@
+# header: 
+#   title: Cd110(p,x)Nb91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.731515E-13
+   9.000000E+01   8.130758E-08
+   1.000000E+02   4.740682E-05
+   1.100000E+02   4.239221E-04
+   1.200000E+02   3.588708E-04
+   1.300000E+02   9.056060E-04
+   1.400000E+02   2.705571E-03
+   1.500000E+02   1.072103E-02
+   1.600000E+02   2.630233E-02
+   1.800000E+02   9.622693E-02
+   2.000000E+02   2.664916E-01

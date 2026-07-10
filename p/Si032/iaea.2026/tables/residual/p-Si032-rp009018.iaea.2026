@@ -1,0 +1,43 @@
+# header: 
+#   title: Si32(p,x)F18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.053844E-08
+   7.000000E+01   1.862543E-05
+   7.500000E+01   4.931453E-04
+   8.000000E+01   3.141146E-03
+   9.000000E+01   1.915694E-02
+   1.000000E+02   4.068121E-02
+   1.100000E+02   8.448151E-02
+   1.200000E+02   2.053226E-01
+   1.300000E+02   4.118059E-01
+   1.400000E+02   6.564966E-01
+   1.500000E+02   9.869232E-01
+   1.600000E+02   1.349114E+00
+   1.800000E+02   2.246491E+00
+   2.000000E+02   3.266705E+00

@@ -1,0 +1,37 @@
+# header: 
+#   title: Tl201(p,x)Os181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 201
+#   nuclide: Tl201
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 181
+#     nuclide: Os181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.339759E-10
+   1.200000E+02   9.279168E-06
+   1.300000E+02   9.712732E-04
+   1.400000E+02   1.140971E-02
+   1.500000E+02   2.214990E-02
+   1.600000E+02   4.167544E-02
+   1.800000E+02   1.286384E-01
+   2.000000E+02   2.315098E-01

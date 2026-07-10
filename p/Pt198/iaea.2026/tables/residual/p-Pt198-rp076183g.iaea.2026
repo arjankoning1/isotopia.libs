@@ -1,0 +1,40 @@
+# header: 
+#   title: Pt198(p,x)Os183g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 198
+#   nuclide: Pt198
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 183
+#     nuclide: Os183g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.224679E-07
+   1.100000E+02   1.792551E-03
+   1.200000E+02   8.005797E-02
+   1.300000E+02   6.490913E-01
+   1.400000E+02   1.809511E+00
+   1.500000E+02   2.938127E+00
+   1.600000E+02   3.259681E+00
+   1.800000E+02   3.473197E+00
+   2.000000E+02   4.596430E+00

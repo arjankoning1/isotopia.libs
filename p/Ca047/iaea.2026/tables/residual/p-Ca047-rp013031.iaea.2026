@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca47(p,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.500301E-12
+   6.500000E+01   3.570898E-09
+   7.000000E+01   1.132542E-07
+   7.500000E+01   4.861601E-07
+   8.000000E+01   1.201430E-06
+   9.000000E+01   3.790174E-06
+   1.000000E+02   9.229988E-06
+   1.100000E+02   6.029346E-05
+   1.200000E+02   2.679427E-04
+   1.300000E+02   6.319081E-04
+   1.400000E+02   9.785731E-04
+   1.500000E+02   1.442346E-03
+   1.600000E+02   2.144309E-03
+   1.800000E+02   3.349788E-03
+   2.000000E+02   5.117979E-03

@@ -1,0 +1,44 @@
+# header: 
+#   title: Po209(p,x)Bi199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 209
+#   nuclide: Po209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 199
+#     nuclide: Bi199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.377896E-09
+   6.500000E+01   6.770115E-06
+   7.000000E+01   1.743573E-03
+   7.500000E+01   1.242309E-01
+   8.000000E+01   1.673344E+00
+   9.000000E+01   1.240450E+01
+   1.000000E+02   9.841469E+00
+   1.100000E+02   5.612982E+00
+   1.200000E+02   7.312972E+00
+   1.300000E+02   1.102099E+01
+   1.400000E+02   1.418000E+01
+   1.500000E+02   1.515008E+01
+   1.600000E+02   1.524894E+01
+   1.800000E+02   2.000388E+01
+   2.000000E+02   2.079005E+01

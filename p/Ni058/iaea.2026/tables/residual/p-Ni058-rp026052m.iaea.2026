@@ -1,0 +1,51 @@
+# header: 
+#   title: Ni58(p,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.947226E-15
+   4.000000E+01   5.343644E-07
+   4.500000E+01   1.253350E-04
+   5.000000E+01   5.113407E-04
+   5.500000E+01   3.156808E-03
+   6.000000E+01   9.343321E-03
+   6.500000E+01   1.265070E-02
+   7.000000E+01   1.295877E-02
+   7.500000E+01   1.252410E-02
+   8.000000E+01   1.206390E-02
+   9.000000E+01   1.456776E-02
+   1.000000E+02   2.080024E-02
+   1.100000E+02   2.299946E-02
+   1.200000E+02   2.153683E-02
+   1.300000E+02   1.869441E-02
+   1.400000E+02   1.561639E-02
+   1.500000E+02   1.326772E-02
+   1.600000E+02   1.153034E-02
+   1.800000E+02   9.222874E-03
+   2.000000E+02   7.948590E-03

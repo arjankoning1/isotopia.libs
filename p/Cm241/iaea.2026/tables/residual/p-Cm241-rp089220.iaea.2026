@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm241(p,x)Ac220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 220
+#     nuclide: Ac220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.382271E-10
+   1.000000E+02   5.127415E-07
+   1.100000E+02   4.884315E-04
+   1.200000E+02   4.399689E-03
+   1.300000E+02   4.760769E-03
+   1.400000E+02   6.441248E-03
+   1.500000E+02   9.379994E-03
+   1.600000E+02   1.471408E-02
+   1.800000E+02   5.685128E-02
+   2.000000E+02   3.695435E-02

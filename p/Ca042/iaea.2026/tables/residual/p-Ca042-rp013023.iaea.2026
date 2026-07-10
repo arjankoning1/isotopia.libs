@@ -1,0 +1,36 @@
+# header: 
+#   title: Ca42(p,x)Al23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 23
+#     nuclide: Al23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.796528E-09
+   1.300000E+02   8.397060E-08
+   1.400000E+02   1.062637E-06
+   1.500000E+02   7.129813E-06
+   1.600000E+02   2.926802E-05
+   1.800000E+02   1.776394E-04
+   2.000000E+02   6.053211E-04

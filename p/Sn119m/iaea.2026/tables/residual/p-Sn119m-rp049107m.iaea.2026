@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn119m(p,x)In107m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 107
+#     nuclide: In107m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.443352E-10
+   1.000000E+02   3.034497E-05
+   1.100000E+02   1.843758E-03
+   1.200000E+02   6.935860E-03
+   1.300000E+02   7.807558E-03
+   1.400000E+02   1.164922E-02
+   1.500000E+02   1.754613E-02
+   1.600000E+02   2.940542E-02
+   1.800000E+02   5.958538E-02
+   2.000000E+02   7.487635E-02

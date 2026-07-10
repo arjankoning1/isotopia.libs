@@ -1,0 +1,42 @@
+# header: 
+#   title: Th228(p,x)Pa219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 228
+#   nuclide: Th228
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 219
+#     nuclide: Pa219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.772812E-12
+   7.500000E+01   7.517100E-08
+   8.000000E+01   1.971498E-05
+   9.000000E+01   7.364620E-03
+   1.000000E+02   1.057906E-01
+   1.100000E+02   3.031107E-01
+   1.200000E+02   3.696415E-01
+   1.300000E+02   3.102757E-01
+   1.400000E+02   2.108494E-01
+   1.500000E+02   2.489636E-01
+   1.600000E+02   2.711587E-01
+   1.800000E+02   3.757917E-01
+   2.000000E+02   4.021790E-01

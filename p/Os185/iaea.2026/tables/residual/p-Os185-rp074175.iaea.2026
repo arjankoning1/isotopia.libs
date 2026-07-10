@@ -1,0 +1,45 @@
+# header: 
+#   title: Os185(p,x)W175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 185
+#   nuclide: Os185
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 175
+#     nuclide: W175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.290768E-10
+   6.000000E+01   1.018032E-06
+   6.500000E+01   2.723254E-04
+   7.000000E+01   1.331014E-02
+   7.500000E+01   2.062184E-01
+   8.000000E+01   1.388998E+00
+   9.000000E+01   1.160017E+01
+   1.000000E+02   1.598907E+01
+   1.100000E+02   1.137750E+01
+   1.200000E+02   1.030617E+01
+   1.300000E+02   1.378655E+01
+   1.400000E+02   1.580303E+01
+   1.500000E+02   1.717379E+01
+   1.600000E+02   2.039011E+01
+   1.800000E+02   1.869229E+01
+   2.000000E+02   2.100907E+01

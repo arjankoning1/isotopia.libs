@@ -1,0 +1,44 @@
+# header: 
+#   title: Se76(p,x)Ni61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.955307E-12
+   6.500000E+01   1.040565E-08
+   7.000000E+01   1.006821E-06
+   7.500000E+01   2.346712E-05
+   8.000000E+01   3.965952E-04
+   9.000000E+01   1.467774E-02
+   1.000000E+02   1.107647E-01
+   1.100000E+02   2.433223E-01
+   1.200000E+02   3.773544E-01
+   1.300000E+02   6.600410E-01
+   1.400000E+02   1.326559E+00
+   1.500000E+02   2.161497E+00
+   1.600000E+02   2.832200E+00
+   1.800000E+02   4.341844E+00
+   2.000000E+02   5.089254E+00

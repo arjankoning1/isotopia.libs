@@ -1,0 +1,45 @@
+# header: 
+#   title: Ni61(p,x)Mn50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.357929E-12
+   7.000000E+01   7.434950E-08
+   7.500000E+01   7.243280E-06
+   8.000000E+01   1.699832E-04
+   9.000000E+01   2.701772E-03
+   1.000000E+02   6.605668E-03
+   1.100000E+02   1.089968E-02
+   1.200000E+02   2.385480E-02
+   1.300000E+02   4.797071E-02
+   1.400000E+02   7.411695E-02
+   1.500000E+02   9.200460E-02
+   1.600000E+02   1.177528E-01
+   1.800000E+02   1.577772E-01
+   2.000000E+02   2.390290E-01

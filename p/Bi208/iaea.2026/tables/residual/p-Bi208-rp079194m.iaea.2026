@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi208(p,x)Au194m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.673075E-13
+   7.500000E+01   2.984275E-09
+   8.000000E+01   7.521963E-07
+   9.000000E+01   3.831789E-04
+   1.000000E+02   6.088938E-03
+   1.100000E+02   2.912409E-02
+   1.200000E+02   4.346715E-02
+   1.300000E+02   5.391536E-02
+   1.400000E+02   4.443245E-02
+   1.500000E+02   4.624149E-02
+   1.600000E+02   5.007654E-02
+   1.800000E+02   4.540328E-02
+   2.000000E+02   1.643074E-02

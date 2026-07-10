@@ -1,0 +1,37 @@
+# header: 
+#   title: Lu170(p,x)Tm155 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 170
+#   nuclide: Lu170
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 155
+#     nuclide: Tm155
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.530725E-07
+   1.200000E+02   1.316687E-03
+   1.300000E+02   5.507337E-02
+   1.400000E+02   4.450854E-01
+   1.500000E+02   1.352893E+00
+   1.600000E+02   2.144997E+00
+   1.800000E+02   4.426390E+00
+   2.000000E+02   6.696390E+00

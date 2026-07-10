@@ -1,0 +1,43 @@
+# header: 
+#   title: I124(p,x)In110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.005504E-10
+   8.000000E+01   1.745712E-07
+   9.000000E+01   5.183913E-04
+   1.000000E+02   1.856556E-02
+   1.100000E+02   1.473026E-01
+   1.200000E+02   3.309688E-01
+   1.300000E+02   4.977518E-01
+   1.400000E+02   7.338808E-01
+   1.500000E+02   1.077502E+00
+   1.600000E+02   1.565166E+00
+   1.800000E+02   1.940022E+00
+   2.000000E+02   2.376093E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm146(p,x)Ba129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 146
+#   nuclide: Sm146
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.273933E-09
+   1.000000E+02   6.555510E-06
+   1.100000E+02   6.055835E-04
+   1.200000E+02   4.157579E-03
+   1.300000E+02   6.943778E-03
+   1.400000E+02   7.192578E-03
+   1.500000E+02   1.091696E-02
+   1.600000E+02   1.497034E-02
+   1.800000E+02   2.885885E-02
+   2.000000E+02   2.420507E-02

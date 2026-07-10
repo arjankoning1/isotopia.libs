@@ -1,0 +1,44 @@
+# header: 
+#   title: Th229(p,x)Th220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 220
+#     nuclide: Th220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.140531E-10
+   6.500000E+01   1.129324E-05
+   7.000000E+01   2.128258E-03
+   7.500000E+01   4.661247E-02
+   8.000000E+01   3.467927E-01
+   9.000000E+01   2.518807E+00
+   1.000000E+02   6.589141E+00
+   1.100000E+02   1.110741E+01
+   1.200000E+02   1.268550E+01
+   1.300000E+02   1.131362E+01
+   1.400000E+02   1.366033E+01
+   1.500000E+02   1.216698E+01
+   1.600000E+02   1.089669E+01
+   1.800000E+02   1.540816E+01
+   2.000000E+02   8.613195E+00

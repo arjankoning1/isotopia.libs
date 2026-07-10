@@ -1,0 +1,44 @@
+# header: 
+#   title: Co57(p,x)Ca41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.715842E-11
+   6.500000E+01   6.064850E-08
+   7.000000E+01   5.920289E-06
+   7.500000E+01   1.125673E-04
+   8.000000E+01   6.767829E-04
+   9.000000E+01   3.971782E-03
+   1.000000E+02   8.147481E-03
+   1.100000E+02   2.029824E-02
+   1.200000E+02   9.114894E-02
+   1.300000E+02   2.350219E-01
+   1.400000E+02   4.379945E-01
+   1.500000E+02   9.705030E-01
+   1.600000E+02   1.812883E+00
+   1.800000E+02   4.360975E+00
+   2.000000E+02   7.780210E+00

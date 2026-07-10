@@ -1,0 +1,41 @@
+# header: 
+#   title: Hg204(p,x)Au192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 192
+#     nuclide: Au192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.269322E-11
+   8.000000E+01   6.455688E-07
+   9.000000E+01   2.087705E-02
+   1.000000E+02   1.620127E+00
+   1.100000E+02   5.322416E+00
+   1.200000E+02   5.097818E+00
+   1.300000E+02   5.347569E+00
+   1.400000E+02   6.991000E+00
+   1.500000E+02   9.391214E+00
+   1.600000E+02   1.261498E+01
+   1.800000E+02   9.867888E+00
+   2.000000E+02   1.365143E+01

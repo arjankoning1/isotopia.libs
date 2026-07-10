@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn70(p,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   9.852129E-08
+   5.500000E+01   7.399073E-03
+   6.000000E+01   1.955897E-01
+   6.500000E+01   7.357091E-01
+   7.000000E+01   1.249172E+00
+   7.500000E+01   1.516385E+00
+   8.000000E+01   1.546181E+00
+   9.000000E+01   1.319355E+00
+   1.000000E+02   1.001847E+00
+   1.100000E+02   7.646964E-01
+   1.200000E+02   6.055229E-01
+   1.300000E+02   5.041386E-01
+   1.400000E+02   4.373557E-01
+   1.500000E+02   3.794992E-01
+   1.600000E+02   3.366929E-01
+   1.800000E+02   2.818971E-01
+   2.000000E+02   2.621858E-01

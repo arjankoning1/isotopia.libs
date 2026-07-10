@@ -1,0 +1,44 @@
+# header: 
+#   title: Rn222(p,x)Fr213 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 213
+#     nuclide: Fr213
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.244066E-07
+   6.500000E+01   5.179467E-04
+   7.000000E+01   3.433982E-02
+   7.500000E+01   4.516651E-01
+   8.000000E+01   2.367966E+00
+   9.000000E+01   1.474182E+01
+   1.000000E+02   2.720000E+01
+   1.100000E+02   2.714653E+01
+   1.200000E+02   1.756061E+01
+   1.300000E+02   1.076276E+01
+   1.400000E+02   8.650342E+00
+   1.500000E+02   6.626700E+00
+   1.600000E+02   5.375482E+00
+   1.800000E+02   4.527548E+00
+   2.000000E+02   2.947572E+00

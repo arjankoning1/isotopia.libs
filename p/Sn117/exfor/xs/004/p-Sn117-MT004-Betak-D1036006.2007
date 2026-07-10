@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn117(p,n')Sb117 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Betak
+#   year: 2007
+#   subentry: D1036006
+#   X4 reaction: 50-SN-117(P,N)51-SB-117,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D1036006
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 51
+#     A: 117
+#     nuclide: Sb117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.360000E+01   8.000000E-01   1.500000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: E.Betak, E.Rurarz, S.Mikolajewski, J.Wojtkowska
+#   title: A new method of pure 111In production by  proton-induced nuclear reactions with enriched 112Sn
+#   journal: Jour: Nukleonika, Vol.52, p.17 (2007)

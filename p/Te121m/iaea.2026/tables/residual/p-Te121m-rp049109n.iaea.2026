@@ -1,0 +1,46 @@
+# header: 
+#   title: Te121m(p,x)In109n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.176330E-13
+   6.500000E+01   3.322522E-08
+   7.000000E+01   7.372569E-05
+   7.500000E+01   5.991651E-03
+   8.000000E+01   6.961270E-02
+   9.000000E+01   3.461147E-01
+   1.000000E+02   3.175531E-01
+   1.100000E+02   3.008398E-01
+   1.200000E+02   6.051748E-01
+   1.300000E+02   1.046783E+00
+   1.400000E+02   1.406951E+00
+   1.500000E+02   1.837236E+00
+   1.600000E+02   2.154660E+00
+   1.800000E+02   2.140591E+00
+   2.000000E+02   2.462189E+00

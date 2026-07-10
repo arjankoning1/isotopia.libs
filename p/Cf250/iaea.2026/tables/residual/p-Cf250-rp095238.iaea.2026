@@ -1,0 +1,44 @@
+# header: 
+#   title: Cf250(p,x)Am238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 250
+#   nuclide: Cf250
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 238
+#     nuclide: Am238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.581404E-12
+   6.500000E+01   3.267327E-10
+   7.000000E+01   6.329640E-09
+   7.500000E+01   4.447672E-08
+   8.000000E+01   1.639966E-07
+   9.000000E+01   3.848040E-07
+   1.000000E+02   1.056265E-06
+   1.100000E+02   1.080917E-06
+   1.200000E+02   9.585946E-07
+   1.300000E+02   9.134783E-07
+   1.400000E+02   2.813712E-06
+   1.500000E+02   1.192332E-05
+   1.600000E+02   2.643730E-05
+   1.800000E+02   4.504906E-05
+   2.000000E+02   1.109342E-07

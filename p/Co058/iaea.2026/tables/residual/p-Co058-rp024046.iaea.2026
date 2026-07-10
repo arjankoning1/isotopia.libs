@@ -1,0 +1,39 @@
+# header: 
+#   title: Co58(p,x)Cr46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 46
+#     nuclide: Cr46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.596597E-10
+   1.000000E+02   6.420336E-07
+   1.100000E+02   6.814741E-06
+   1.200000E+02   1.741059E-05
+   1.300000E+02   3.053518E-05
+   1.400000E+02   6.195079E-05
+   1.500000E+02   1.164099E-04
+   1.600000E+02   2.034546E-04
+   1.800000E+02   4.114957E-04
+   2.000000E+02   6.696532E-04

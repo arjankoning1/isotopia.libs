@@ -1,0 +1,47 @@
+# header: 
+#   title: Sn112(p,x)Ag101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.543631E-12
+   6.000000E+01   7.315268E-08
+   6.500000E+01   8.227584E-05
+   7.000000E+01   3.447528E-03
+   7.500000E+01   2.135058E-02
+   8.000000E+01   4.359573E-02
+   9.000000E+01   4.721267E-02
+   1.000000E+02   6.089161E-02
+   1.100000E+02   2.461315E-01
+   1.200000E+02   5.888256E-01
+   1.300000E+02   1.243417E+00
+   1.400000E+02   1.568079E+00
+   1.500000E+02   1.908255E+00
+   1.600000E+02   2.434475E+00
+   1.800000E+02   2.919332E+00
+   2.000000E+02   2.948228E+00

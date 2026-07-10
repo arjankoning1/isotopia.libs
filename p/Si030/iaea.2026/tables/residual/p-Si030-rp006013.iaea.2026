@@ -1,0 +1,44 @@
+# header: 
+#   title: Si30(p,x)C13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.270642E-12
+   6.500000E+01   1.817617E-07
+   7.000000E+01   2.744458E-05
+   7.500000E+01   3.913404E-04
+   8.000000E+01   1.915413E-03
+   9.000000E+01   9.970311E-03
+   1.000000E+02   2.456284E-02
+   1.100000E+02   5.733103E-02
+   1.200000E+02   1.260233E-01
+   1.300000E+02   2.276415E-01
+   1.400000E+02   3.541949E-01
+   1.500000E+02   5.097259E-01
+   1.600000E+02   6.973825E-01
+   1.800000E+02   1.205677E+00
+   2.000000E+02   1.733421E+00

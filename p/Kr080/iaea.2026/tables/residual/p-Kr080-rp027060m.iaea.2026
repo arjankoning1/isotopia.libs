@@ -1,0 +1,43 @@
+# header: 
+#   title: Kr80(p,x)Co60m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 80
+#   nuclide: Kr80
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.387315E-13
+   8.000000E+01   1.047805E-10
+   9.000000E+01   2.034975E-08
+   1.000000E+02   1.232996E-07
+   1.100000E+02   3.751972E-07
+   1.200000E+02   4.439479E-06
+   1.300000E+02   1.002363E-04
+   1.400000E+02   6.100127E-04
+   1.500000E+02   1.685037E-03
+   1.600000E+02   3.674950E-03
+   1.800000E+02   1.136799E-02
+   2.000000E+02   2.576759E-02

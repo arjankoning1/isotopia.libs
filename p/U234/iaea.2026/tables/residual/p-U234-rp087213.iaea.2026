@@ -1,0 +1,38 @@
+# header: 
+#   title: U234(p,x)Fr213 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 234
+#   nuclide: U234
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 213
+#     nuclide: Fr213
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.913336E-09
+   1.100000E+02   8.311164E-06
+   1.200000E+02   4.860152E-04
+   1.300000E+02   8.102397E-03
+   1.400000E+02   4.450868E-02
+   1.500000E+02   1.003192E-01
+   1.600000E+02   1.846618E-01
+   1.800000E+02   5.195124E-01
+   2.000000E+02   8.995210E-01

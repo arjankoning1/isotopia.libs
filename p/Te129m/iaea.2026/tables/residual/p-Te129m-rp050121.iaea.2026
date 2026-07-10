@@ -1,0 +1,48 @@
+# header: 
+#   title: Te129m(p,x)Sn121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 129
+#   nuclide: Te129m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.119597E-09
+   4.500000E+01   1.143655E-05
+   5.000000E+01   3.938788E-04
+   5.500000E+01   2.953072E-03
+   6.000000E+01   2.156905E-02
+   6.500000E+01   9.223694E-02
+   7.000000E+01   2.006764E-01
+   7.500000E+01   2.651902E-01
+   8.000000E+01   2.886801E-01
+   9.000000E+01   2.745415E-01
+   1.000000E+02   2.864457E-01
+   1.100000E+02   4.900441E-01
+   1.200000E+02   8.766375E-01
+   1.300000E+02   1.432781E+00
+   1.400000E+02   2.244065E+00
+   1.500000E+02   2.596503E+00
+   1.600000E+02   2.977154E+00
+   1.800000E+02   3.714136E+00
+   2.000000E+02   4.058079E+00

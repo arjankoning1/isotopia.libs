@@ -1,0 +1,50 @@
+# header: 
+#   title: Rh99(p,x)Zr89m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.515178E-13
+   4.500000E+01   5.296365E-10
+   5.000000E+01   8.180451E-07
+   5.500000E+01   3.137010E-04
+   6.000000E+01   8.117029E-03
+   6.500000E+01   4.190185E-02
+   7.000000E+01   7.984484E-02
+   7.500000E+01   9.318986E-02
+   8.000000E+01   8.850409E-02
+   9.000000E+01   8.071394E-02
+   1.000000E+02   1.270105E-01
+   1.100000E+02   2.226330E-01
+   1.200000E+02   4.183596E-01
+   1.300000E+02   3.722377E-01
+   1.400000E+02   4.830561E-01
+   1.500000E+02   3.337636E-01
+   1.600000E+02   3.861995E-01
+   1.800000E+02   3.385909E-01
+   2.000000E+02   2.492185E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn122(p,n')Sb122 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Skakun
+#   year: 1979
+#   subentry: A0134002T
+#   X4 reaction: 50-SN-122(P,N)51-SB-122,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0134002T
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.900000E+00   0.000000E+00   2.270000E+02   3.000000E+01   1.000000E+00
+   7.800000E+00   0.000000E+00   3.800000E+02   5.000000E+01   1.000000E+00
+   9.100000E+00   0.000000E+00   6.580001E+02   8.600000E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun,A.Iordakesku,V.A.Lutsik,Ju.N.Rakivnenko, I.A.Romanij
+#   title: Excitation functions and isomeric ratios for 122-Sn(p,n)122m,g-Sb and 124-Sn(p,n)124m2,m1-Sb reactions.
+#   journal: Conf: 29.Conf.on Nucl.Spectr.and Nucl.Struct.,Riga 1979, p.291 (1979)

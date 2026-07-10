@@ -1,0 +1,44 @@
+# header: 
+#   title: Br77(p,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 77
+#   nuclide: Br77
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.987118E-09
+   6.500000E+01   3.947388E-06
+   7.000000E+01   2.372872E-04
+   7.500000E+01   2.290012E-03
+   8.000000E+01   9.803864E-03
+   9.000000E+01   9.618142E-02
+   1.000000E+02   3.704160E-01
+   1.100000E+02   6.923053E-01
+   1.200000E+02   1.701781E+00
+   1.300000E+02   3.924268E+00
+   1.400000E+02   7.334868E+00
+   1.500000E+02   1.062820E+01
+   1.600000E+02   1.336949E+01
+   1.800000E+02   1.665892E+01
+   2.000000E+02   1.918343E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Pm149(p,x)Ba131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 149
+#   nuclide: Pm149
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.061405E-09
+   1.000000E+02   1.487577E-05
+   1.100000E+02   8.593962E-04
+   1.200000E+02   3.913668E-03
+   1.300000E+02   5.982379E-03
+   1.400000E+02   9.893851E-03
+   1.500000E+02   1.986469E-02
+   1.600000E+02   2.883084E-02
+   1.800000E+02   5.889707E-02
+   2.000000E+02   5.790743E-02

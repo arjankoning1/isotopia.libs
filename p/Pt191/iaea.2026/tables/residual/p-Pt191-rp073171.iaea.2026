@@ -1,0 +1,37 @@
+# header: 
+#   title: Pt191(p,x)Ta171 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 191
+#   nuclide: Pt191
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 171
+#     nuclide: Ta171
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.393528E-08
+   1.200000E+02   1.557259E-04
+   1.300000E+02   1.690713E-02
+   1.400000E+02   1.676172E-01
+   1.500000E+02   4.039708E-01
+   1.600000E+02   3.873452E-01
+   1.800000E+02   5.900855E-01
+   2.000000E+02   1.182027E+00

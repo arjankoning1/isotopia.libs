@@ -1,0 +1,43 @@
+# header: 
+#   title: Br81(p,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.239485E-10
+   7.000000E+01   1.836313E-06
+   7.500000E+01   1.790911E-04
+   8.000000E+01   2.823038E-03
+   9.000000E+01   5.340510E-02
+   1.000000E+02   1.730640E-01
+   1.100000E+02   3.295592E-01
+   1.200000E+02   4.904443E-01
+   1.300000E+02   8.292403E-01
+   1.400000E+02   1.404371E+00
+   1.500000E+02   1.999350E+00
+   1.600000E+02   2.727826E+00
+   1.800000E+02   4.056271E+00
+   2.000000E+02   4.867887E+00

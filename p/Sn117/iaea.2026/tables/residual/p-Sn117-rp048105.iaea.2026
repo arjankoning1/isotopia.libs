@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn117(p,x)Cd105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 105
+#     nuclide: Cd105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.131467E-11
+   9.000000E+01   1.399594E-04
+   1.000000E+02   5.159394E-02
+   1.100000E+02   6.765535E-01
+   1.200000E+02   2.069891E+00
+   1.300000E+02   3.795523E+00
+   1.400000E+02   5.890801E+00
+   1.500000E+02   7.971611E+00
+   1.600000E+02   9.323338E+00
+   1.800000E+02   1.323650E+01
+   2.000000E+02   1.421846E+01

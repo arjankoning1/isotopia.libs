@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba132(p,x)Sn114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 114
+#     nuclide: Sn114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.395245E-12
+   1.000000E+02   6.417335E-08
+   1.100000E+02   1.808907E-05
+   1.200000E+02   7.595870E-04
+   1.300000E+02   5.086627E-03
+   1.400000E+02   1.128216E-02
+   1.500000E+02   2.070172E-02
+   1.600000E+02   3.635951E-02
+   1.800000E+02   8.745951E-02
+   2.000000E+02   1.720639E-01

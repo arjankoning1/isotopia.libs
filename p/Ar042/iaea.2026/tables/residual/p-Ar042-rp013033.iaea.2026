@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar42(p,x)Al33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 33
+#     nuclide: Al33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.924203E-10
+   6.000000E+01   3.993802E-08
+   6.500000E+01   3.231895E-07
+   7.000000E+01   7.483695E-07
+   7.500000E+01   1.353429E-06
+   8.000000E+01   1.835760E-06
+   9.000000E+01   2.910824E-06
+   1.000000E+02   8.827026E-06
+   1.100000E+02   2.939685E-05
+   1.200000E+02   6.613696E-05
+   1.300000E+02   1.129387E-04
+   1.400000E+02   1.514271E-04
+   1.500000E+02   2.245466E-04
+   1.600000E+02   2.319393E-04
+   1.800000E+02   2.646644E-04
+   2.000000E+02   3.726265E-04

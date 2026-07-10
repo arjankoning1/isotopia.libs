@@ -1,0 +1,44 @@
+# header: 
+#   title: Cs131(p,x)Ba125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 125
+#     nuclide: Ba125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.165720E-06
+   6.500000E+01   3.079648E-02
+   7.000000E+01   1.118075E+00
+   7.500000E+01   4.817077E+00
+   8.000000E+01   8.328430E+00
+   9.000000E+01   9.017345E+00
+   1.000000E+02   7.750841E+00
+   1.100000E+02   6.943123E+00
+   1.200000E+02   5.987340E+00
+   1.300000E+02   4.987948E+00
+   1.400000E+02   4.239874E+00
+   1.500000E+02   3.657053E+00
+   1.600000E+02   3.281835E+00
+   1.800000E+02   2.651647E+00
+   2.000000E+02   2.315456E+00

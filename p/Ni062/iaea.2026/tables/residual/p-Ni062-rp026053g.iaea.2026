@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni62(p,x)Fe53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.210684E-11
+   6.500000E+01   9.486869E-06
+   7.000000E+01   9.852865E-04
+   7.500000E+01   8.766356E-03
+   8.000000E+01   3.529088E-02
+   9.000000E+01   2.566282E-01
+   1.000000E+02   7.571739E-01
+   1.100000E+02   1.171612E+00
+   1.200000E+02   1.497189E+00
+   1.300000E+02   1.966351E+00
+   1.400000E+02   2.457996E+00
+   1.500000E+02   2.977757E+00
+   1.600000E+02   3.393413E+00
+   1.800000E+02   3.575071E+00
+   2.000000E+02   4.235041E+00

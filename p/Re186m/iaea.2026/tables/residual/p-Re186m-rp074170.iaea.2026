@@ -1,0 +1,37 @@
+# header: 
+#   title: Re186m(p,x)W170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 170
+#     nuclide: W170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.975507E-12
+   1.200000E+02   1.230616E-06
+   1.300000E+02   2.588051E-03
+   1.400000E+02   1.735785E-01
+   1.500000E+02   1.324600E+00
+   1.600000E+02   3.098496E+00
+   1.800000E+02   5.672025E+00
+   2.000000E+02   1.406643E+01

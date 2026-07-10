@@ -1,0 +1,46 @@
+# header: 
+#   title: Ce140(p,x)Xe129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.988883E-12
+   5.500000E+01   2.596432E-09
+   6.000000E+01   1.728399E-07
+   6.500000E+01   1.067955E-05
+   7.000000E+01   2.668118E-04
+   7.500000E+01   1.970686E-03
+   8.000000E+01   5.822707E-03
+   9.000000E+01   1.074595E-02
+   1.000000E+02   9.766236E-03
+   1.100000E+02   1.102231E-02
+   1.200000E+02   2.001437E-02
+   1.300000E+02   3.069079E-02
+   1.400000E+02   5.140566E-02
+   1.500000E+02   6.755143E-02
+   1.600000E+02   6.075463E-02
+   1.800000E+02   7.356488E-02
+   2.000000E+02   1.028764E-01

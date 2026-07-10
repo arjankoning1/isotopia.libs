@@ -1,0 +1,45 @@
+# header: 
+#   title: K40(p,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.015000E-08
+   6.000000E+01   1.431683E-05
+   6.500000E+01   3.669193E-04
+   7.000000E+01   2.139274E-03
+   7.500000E+01   5.968888E-03
+   8.000000E+01   1.078481E-02
+   9.000000E+01   1.932813E-02
+   1.000000E+02   3.843882E-02
+   1.100000E+02   9.783179E-02
+   1.200000E+02   2.037882E-01
+   1.300000E+02   3.380786E-01
+   1.400000E+02   5.218795E-01
+   1.500000E+02   7.679050E-01
+   1.600000E+02   1.111358E+00
+   1.800000E+02   1.832572E+00
+   2.000000E+02   2.115127E+00

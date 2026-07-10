@@ -1,0 +1,36 @@
+# header: 
+#   title: Er172(p,x)Er157 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 172
+#   nuclide: Er172
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 157
+#     nuclide: Er157
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.379559E-07
+   1.300000E+02   1.908930E-03
+   1.400000E+02   1.010224E-01
+   1.500000E+02   9.673622E-01
+   1.600000E+02   3.124284E+00
+   1.800000E+02   7.685708E+00
+   2.000000E+02   1.178387E+01

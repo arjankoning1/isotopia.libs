@@ -1,0 +1,43 @@
+# header: 
+#   title: Cr54(p,x)K40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 40
+#     nuclide: K40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.388893E-11
+   7.000000E+01   3.884070E-07
+   7.500000E+01   4.274491E-05
+   8.000000E+01   6.884363E-04
+   9.000000E+01   1.168296E-02
+   1.000000E+02   3.474308E-02
+   1.100000E+02   8.181649E-02
+   1.200000E+02   2.735190E-01
+   1.300000E+02   6.781160E-01
+   1.400000E+02   1.180570E+00
+   1.500000E+02   1.822856E+00
+   1.600000E+02   3.096271E+00
+   1.800000E+02   5.567232E+00
+   2.000000E+02   8.056450E+00

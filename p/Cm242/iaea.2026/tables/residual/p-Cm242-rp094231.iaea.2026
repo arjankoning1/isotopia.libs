@@ -1,0 +1,43 @@
+# header: 
+#   title: Cm242(p,x)Pu231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 242
+#   nuclide: Cm242
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 231
+#     nuclide: Pu231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.257530E-12
+   7.000000E+01   1.775585E-09
+   7.500000E+01   1.373593E-07
+   8.000000E+01   1.586281E-06
+   9.000000E+01   2.887332E-05
+   1.000000E+02   5.999898E-05
+   1.100000E+02   9.238929E-05
+   1.200000E+02   1.065683E-04
+   1.300000E+02   2.943052E-04
+   1.400000E+02   6.867190E-04
+   1.500000E+02   8.538376E-04
+   1.600000E+02   2.078874E-04
+   1.800000E+02   5.312584E-05
+   2.000000E+02   3.090215E-05

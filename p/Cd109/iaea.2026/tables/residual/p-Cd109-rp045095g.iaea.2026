@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd109(p,x)Rh95g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 95
+#     nuclide: Rh95g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.200061E-08
+   1.000000E+02   3.552427E-04
+   1.100000E+02   1.074237E-02
+   1.200000E+02   5.982069E-02
+   1.300000E+02   1.258501E-01
+   1.400000E+02   2.908599E-01
+   1.500000E+02   5.360764E-01
+   1.600000E+02   1.077947E+00
+   1.800000E+02   1.838789E+00
+   2.000000E+02   3.313948E+00

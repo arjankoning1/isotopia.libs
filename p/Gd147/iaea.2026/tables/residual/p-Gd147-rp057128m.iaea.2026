@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd147(p,x)La128m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 147
+#   nuclide: Gd147
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 128
+#     nuclide: La128m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.093041E-12
+   1.000000E+02   6.618372E-09
+   1.100000E+02   3.253534E-07
+   1.200000E+02   5.546056E-06
+   1.300000E+02   1.692070E-04
+   1.400000E+02   2.408922E-04
+   1.500000E+02   1.013155E-03
+   1.600000E+02   2.028775E-03
+   1.800000E+02   5.195541E-03
+   2.000000E+02   1.120928E-02

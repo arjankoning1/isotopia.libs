@@ -1,0 +1,49 @@
+# header: 
+#   title: Y90(p,x)Br80m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.180721E-10
+   5.000000E+01   1.289568E-07
+   5.500000E+01   4.221803E-06
+   6.000000E+01   9.706972E-05
+   6.500000E+01   1.315575E-03
+   7.000000E+01   5.759738E-03
+   7.500000E+01   1.235676E-02
+   8.000000E+01   1.711133E-02
+   9.000000E+01   3.706412E-02
+   1.000000E+02   2.180606E-01
+   1.100000E+02   4.762486E-01
+   1.200000E+02   7.807667E-01
+   1.300000E+02   9.490231E-01
+   1.400000E+02   1.278658E+00
+   1.500000E+02   1.342643E+00
+   1.600000E+02   1.379089E+00
+   1.800000E+02   1.602182E+00
+   2.000000E+02   1.364515E+00

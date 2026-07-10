@@ -1,0 +1,43 @@
+# header: 
+#   title: Fe56(p,x)Co52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 52
+#     nuclide: Co52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.295791E-07
+   7.000000E+01   3.397010E-06
+   7.500000E+01   1.385840E-05
+   8.000000E+01   2.781906E-05
+   9.000000E+01   4.339629E-05
+   1.000000E+02   4.327849E-05
+   1.100000E+02   3.831541E-05
+   1.200000E+02   3.272849E-05
+   1.300000E+02   2.805075E-05
+   1.400000E+02   2.451369E-05
+   1.500000E+02   2.149275E-05
+   1.600000E+02   1.940106E-05
+   1.800000E+02   1.620044E-05
+   2.000000E+02   1.339804E-05

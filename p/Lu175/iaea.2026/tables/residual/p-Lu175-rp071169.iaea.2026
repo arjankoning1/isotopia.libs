@@ -1,0 +1,47 @@
+# header: 
+#   title: Lu175(p,x)Lu169 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 169
+#     nuclide: Lu169
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.493846E-05
+   5.000000E+01   6.085768E-02
+   5.500000E+01   9.148377E-01
+   6.000000E+01   5.115446E+00
+   6.500000E+01   2.414378E+01
+   7.000000E+01   6.308789E+01
+   7.500000E+01   1.016786E+02
+   8.000000E+01   1.183489E+02
+   9.000000E+01   1.166222E+02
+   1.000000E+02   1.130404E+02
+   1.100000E+02   1.121210E+02
+   1.200000E+02   1.053922E+02
+   1.300000E+02   1.048862E+02
+   1.400000E+02   1.067489E+02
+   1.500000E+02   9.304427E+01
+   1.600000E+02   1.054092E+02
+   1.800000E+02   8.199780E+01
+   2.000000E+02   9.496423E+01

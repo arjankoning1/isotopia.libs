@@ -1,0 +1,46 @@
+# header: 
+#   title: O16(p,x)O13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 13
+#     nuclide: O13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.607896E-04
+   5.500000E+01   2.903899E-03
+   6.000000E+01   6.775049E-03
+   6.500000E+01   1.285728E-02
+   7.000000E+01   2.267186E-02
+   7.500000E+01   3.448515E-02
+   8.000000E+01   4.502556E-02
+   9.000000E+01   5.717802E-02
+   1.000000E+02   5.950903E-02
+   1.100000E+02   5.784177E-02
+   1.200000E+02   5.513965E-02
+   1.300000E+02   5.188115E-02
+   1.400000E+02   4.925578E-02
+   1.500000E+02   4.654066E-02
+   1.600000E+02   4.421436E-02
+   1.800000E+02   4.050134E-02
+   2.000000E+02   3.682919E-02

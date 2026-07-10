@@ -1,0 +1,46 @@
+# header: 
+#   title: Es251(p,x)Es245 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 251
+#   nuclide: Es251
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 245
+#     nuclide: Es245
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.430632E-11
+   5.500000E+01   4.759330E-10
+   6.000000E+01   1.170178E-09
+   6.500000E+01   2.155782E-09
+   7.000000E+01   4.813716E-09
+   7.500000E+01   1.198926E-08
+   8.000000E+01   2.731987E-08
+   9.000000E+01   6.640159E-08
+   1.000000E+02   2.050897E-07
+   1.100000E+02   1.878542E-07
+   1.200000E+02   3.273388E-07
+   1.300000E+02   7.093206E-07
+   1.400000E+02   4.634057E-07
+   1.500000E+02   4.276637E-07
+   1.600000E+02   4.827162E-07
+   1.800000E+02   1.494697E-06
+   2.000000E+02   2.297875E-06

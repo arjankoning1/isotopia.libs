@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca45(p,x)Na26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.426338E-12
+   7.500000E+01   4.902588E-10
+   8.000000E+01   9.992145E-09
+   9.000000E+01   1.889656E-07
+   1.000000E+02   4.982103E-07
+   1.100000E+02   1.287964E-06
+   1.200000E+02   8.659596E-06
+   1.300000E+02   4.232408E-05
+   1.400000E+02   1.141706E-04
+   1.500000E+02   1.524041E-04
+   1.600000E+02   2.926570E-04
+   1.800000E+02   9.164799E-04
+   2.000000E+02   2.294884E-03

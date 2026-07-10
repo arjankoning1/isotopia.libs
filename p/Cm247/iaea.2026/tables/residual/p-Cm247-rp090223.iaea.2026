@@ -1,0 +1,35 @@
+# header: 
+#   title: Cm247(p,x)Th223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 247
+#   nuclide: Cm247
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 223
+#     nuclide: Th223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   4.104464E-12
+   1.400000E+02   7.461360E-08
+   1.500000E+02   1.465696E-05
+   1.600000E+02   2.605907E-04
+   1.800000E+02   3.846959E-03
+   2.000000E+02   6.435290E-03

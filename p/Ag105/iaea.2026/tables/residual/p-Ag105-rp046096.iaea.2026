@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag105(p,x)Pd96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 105
+#   nuclide: Ag105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 96
+#     nuclide: Pd96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.058168E-10
+   7.000000E+01   2.222313E-06
+   7.500000E+01   2.740681E-04
+   8.000000E+01   2.814567E-03
+   9.000000E+01   1.189828E-02
+   1.000000E+02   1.420949E-02
+   1.100000E+02   1.648025E-02
+   1.200000E+02   2.160439E-02
+   1.300000E+02   3.357888E-02
+   1.400000E+02   4.456220E-02
+   1.500000E+02   5.713443E-02
+   1.600000E+02   6.505215E-02
+   1.800000E+02   8.476302E-02
+   2.000000E+02   1.087082E-01

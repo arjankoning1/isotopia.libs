@@ -1,0 +1,49 @@
+# header: 
+#   title: Nb91(p,x)Rb81m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.026046E-10
+   5.000000E+01   6.171543E-07
+   5.500000E+01   2.708436E-05
+   6.000000E+01   2.551481E-03
+   6.500000E+01   5.580439E-02
+   7.000000E+01   2.318325E-01
+   7.500000E+01   4.381837E-01
+   8.000000E+01   5.633271E-01
+   9.000000E+01   5.884200E-01
+   1.000000E+02   8.548837E-01
+   1.100000E+02   1.919637E+00
+   1.200000E+02   3.498983E+00
+   1.300000E+02   4.701209E+00
+   1.400000E+02   5.350739E+00
+   1.500000E+02   5.463073E+00
+   1.600000E+02   6.715837E+00
+   1.800000E+02   6.203848E+00
+   2.000000E+02   6.099335E+00

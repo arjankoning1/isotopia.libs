@@ -1,0 +1,43 @@
+# header: 
+#   title: I126(p,x)Te116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 116
+#     nuclide: Te116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.064321E-10
+   7.000000E+01   1.229694E-05
+   7.500000E+01   4.616510E-03
+   8.000000E+01   1.356126E-01
+   9.000000E+01   2.975422E+00
+   1.000000E+02   6.750308E+00
+   1.100000E+02   7.519895E+00
+   1.200000E+02   9.612069E+00
+   1.300000E+02   1.533529E+01
+   1.400000E+02   2.525195E+01
+   1.500000E+02   3.239967E+01
+   1.600000E+02   3.737645E+01
+   1.800000E+02   4.114096E+01
+   2.000000E+02   3.533665E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: S33(p,x)F20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 33
+#   nuclide: S33
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 20
+#     nuclide: F20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.693760E-10
+   6.500000E+01   2.061902E-06
+   7.000000E+01   1.097126E-04
+   7.500000E+01   9.782522E-04
+   8.000000E+01   3.538443E-03
+   9.000000E+01   1.185447E-02
+   1.000000E+02   2.392347E-02
+   1.100000E+02   4.992547E-02
+   1.200000E+02   1.057897E-01
+   1.300000E+02   1.745889E-01
+   1.400000E+02   2.583013E-01
+   1.500000E+02   3.633290E-01
+   1.600000E+02   4.181228E-01
+   1.800000E+02   5.586566E-01
+   2.000000E+02   7.214523E-01

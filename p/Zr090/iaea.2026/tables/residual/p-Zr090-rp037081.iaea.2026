@@ -1,0 +1,48 @@
+# header: 
+#   title: Zr90(p,x)Rb81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.744774E-11
+   4.500000E+01   1.530000E-05
+   5.000000E+01   1.791857E-02
+   5.500000E+01   3.128028E-01
+   6.000000E+01   9.259326E-01
+   6.500000E+01   1.322139E+00
+   7.000000E+01   1.222649E+00
+   7.500000E+01   8.765534E-01
+   8.000000E+01   8.012115E-01
+   9.000000E+01   3.421314E+00
+   1.000000E+02   8.703267E+00
+   1.100000E+02   1.156597E+01
+   1.200000E+02   1.478924E+01
+   1.300000E+02   1.685834E+01
+   1.400000E+02   1.849507E+01
+   1.500000E+02   2.129011E+01
+   1.600000E+02   2.261687E+01
+   1.800000E+02   2.078794E+01
+   2.000000E+02   1.803542E+01

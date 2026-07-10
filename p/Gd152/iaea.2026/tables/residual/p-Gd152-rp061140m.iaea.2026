@@ -1,0 +1,46 @@
+# header: 
+#   title: Gd152(p,x)Pm140m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 152
+#   nuclide: Gd152
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 140
+#     nuclide: Pm140m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.264021E-09
+   6.500000E+01   5.568784E-06
+   7.000000E+01   1.307278E-03
+   7.500000E+01   2.908332E-02
+   8.000000E+01   1.433321E-01
+   9.000000E+01   3.095684E-01
+   1.000000E+02   2.083289E-01
+   1.100000E+02   3.766888E-01
+   1.200000E+02   9.425574E-01
+   1.300000E+02   1.209118E+00
+   1.400000E+02   1.524952E+00
+   1.500000E+02   1.712781E+00
+   1.600000E+02   2.481634E+00
+   1.800000E+02   2.638747E+00
+   2.000000E+02   3.051069E+00

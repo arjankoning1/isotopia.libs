@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe130(p,x)Sn114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 114
+#     nuclide: Sn114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.380951E-11
+   1.000000E+02   4.355708E-06
+   1.100000E+02   1.367339E-03
+   1.200000E+02   2.061377E-02
+   1.300000E+02   5.997979E-02
+   1.400000E+02   1.028894E-01
+   1.500000E+02   1.859173E-01
+   1.600000E+02   2.789728E-01
+   1.800000E+02   6.348962E-01
+   2.000000E+02   9.878400E-01

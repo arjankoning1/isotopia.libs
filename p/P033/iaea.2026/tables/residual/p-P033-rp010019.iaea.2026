@@ -1,0 +1,42 @@
+# header: 
+#   title: P33(p,x)Ne19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 33
+#   nuclide: P33
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 19
+#     nuclide: Ne19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.003363E-08
+   7.500000E+01   1.033328E-05
+   8.000000E+01   1.910657E-04
+   9.000000E+01   3.017327E-03
+   1.000000E+02   8.734421E-03
+   1.100000E+02   1.559358E-02
+   1.200000E+02   3.021607E-02
+   1.300000E+02   5.668280E-02
+   1.400000E+02   9.483027E-02
+   1.500000E+02   1.472645E-01
+   1.600000E+02   2.188830E-01
+   1.800000E+02   4.347689E-01
+   2.000000E+02   6.879593E-01

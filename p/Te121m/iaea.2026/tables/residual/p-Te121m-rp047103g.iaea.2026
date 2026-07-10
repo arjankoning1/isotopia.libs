@@ -1,0 +1,40 @@
+# header: 
+#   title: Te121m(p,x)Ag103g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.854088E-08
+   1.100000E+02   4.733528E-04
+   1.200000E+02   1.835877E-02
+   1.300000E+02   6.009179E-02
+   1.400000E+02   2.279555E-01
+   1.500000E+02   4.550850E-01
+   1.600000E+02   1.203008E+00
+   1.800000E+02   3.606861E+00
+   2.000000E+02   7.409950E+00

@@ -1,0 +1,47 @@
+# header: 
+#   title: Pd100(p,x)Mo89m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 89
+#     nuclide: Mo89m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.503317E-12
+   6.000000E+01   1.128459E-08
+   6.500000E+01   1.689137E-06
+   7.000000E+01   1.738622E-04
+   7.500000E+01   4.345005E-03
+   8.000000E+01   2.024848E-02
+   9.000000E+01   3.988581E-02
+   1.000000E+02   2.134077E-02
+   1.100000E+02   3.473702E-02
+   1.200000E+02   7.124645E-02
+   1.300000E+02   1.415512E-01
+   1.400000E+02   2.278484E-01
+   1.500000E+02   2.879887E-01
+   1.600000E+02   4.157609E-01
+   1.800000E+02   5.287520E-01
+   2.000000E+02   7.219365E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba135m(p,x)Te122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 122
+#     nuclide: Te122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.821390E-11
+   7.000000E+01   5.410718E-08
+   7.500000E+01   5.346058E-06
+   8.000000E+01   1.169093E-04
+   9.000000E+01   1.603849E-02
+   1.000000E+02   1.959374E-01
+   1.100000E+02   3.963486E-01
+   1.200000E+02   4.780288E-01
+   1.300000E+02   5.232208E-01
+   1.400000E+02   7.351993E-01
+   1.500000E+02   7.825463E-01
+   1.600000E+02   1.016634E+00
+   1.800000E+02   8.990205E-01
+   2.000000E+02   8.691092E-01

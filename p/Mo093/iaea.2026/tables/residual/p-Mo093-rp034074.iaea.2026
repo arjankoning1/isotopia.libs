@@ -1,0 +1,39 @@
+# header: 
+#   title: Mo93(p,x)Se74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 93
+#   nuclide: Mo93
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 74
+#     nuclide: Se74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.859782E-12
+   1.000000E+02   4.627999E-08
+   1.100000E+02   3.009348E-05
+   1.200000E+02   8.769810E-04
+   1.300000E+02   4.365819E-03
+   1.400000E+02   1.157837E-02
+   1.500000E+02   2.367055E-02
+   1.600000E+02   6.300689E-02
+   1.800000E+02   2.265747E-01
+   2.000000E+02   4.079339E-01

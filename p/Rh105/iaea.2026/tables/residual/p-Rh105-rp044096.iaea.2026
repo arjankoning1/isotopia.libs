@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh105(p,x)Ru96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 96
+#     nuclide: Ru96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.784067E-08
+   6.000000E+01   9.628678E-04
+   6.500000E+01   1.492999E-01
+   7.000000E+01   1.738538E+00
+   7.500000E+01   5.296576E+00
+   8.000000E+01   8.174861E+00
+   9.000000E+01   8.673331E+00
+   1.000000E+02   9.432338E+00
+   1.100000E+02   1.467401E+01
+   1.200000E+02   2.381068E+01
+   1.300000E+02   3.246755E+01
+   1.400000E+02   3.760981E+01
+   1.500000E+02   3.893389E+01
+   1.600000E+02   3.763593E+01
+   1.800000E+02   3.789640E+01
+   2.000000E+02   3.653268E+01

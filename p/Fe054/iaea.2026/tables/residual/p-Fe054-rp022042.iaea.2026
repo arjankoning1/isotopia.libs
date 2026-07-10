@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe54(p,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.538720E-11
+   9.000000E+01   2.166560E-07
+   1.000000E+02   4.797669E-06
+   1.100000E+02   4.060142E-05
+   1.200000E+02   1.363223E-04
+   1.300000E+02   2.437649E-04
+   1.400000E+02   3.927128E-04
+   1.500000E+02   6.762000E-04
+   1.600000E+02   1.051873E-03
+   1.800000E+02   1.961429E-03
+   2.000000E+02   2.752004E-03

@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn117(p,x)Sn111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.168718E-07
+   5.500000E+01   5.829873E-03
+   6.000000E+01   1.993195E-01
+   6.500000E+01   1.446468E+00
+   7.000000E+01   9.247210E+00
+   7.500000E+01   2.892104E+01
+   8.000000E+01   4.803935E+01
+   9.000000E+01   5.545714E+01
+   1.000000E+02   4.661448E+01
+   1.100000E+02   4.225346E+01
+   1.200000E+02   4.003910E+01
+   1.300000E+02   3.836241E+01
+   1.400000E+02   3.529801E+01
+   1.500000E+02   3.378526E+01
+   1.600000E+02   3.253973E+01
+   1.800000E+02   3.173294E+01
+   2.000000E+02   3.267851E+01

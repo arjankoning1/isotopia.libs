@@ -1,0 +1,45 @@
+# header: 
+#   title: Co58(p,x)Sc48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.966426E-12
+   6.000000E+01   3.369080E-08
+   6.500000E+01   4.657555E-06
+   7.000000E+01   2.047983E-05
+   7.500000E+01   1.299807E-04
+   8.000000E+01   3.945266E-04
+   9.000000E+01   1.167414E-03
+   1.000000E+02   1.705948E-03
+   1.100000E+02   2.772507E-03
+   1.200000E+02   5.361128E-03
+   1.300000E+02   8.115532E-03
+   1.400000E+02   8.728989E-03
+   1.500000E+02   9.915947E-03
+   1.600000E+02   1.075356E-02
+   1.800000E+02   1.120831E-02
+   2.000000E+02   9.922554E-03

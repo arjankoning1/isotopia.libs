@@ -1,0 +1,43 @@
+# header: 
+#   title: Hg203(p,x)Pt192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 203
+#   nuclide: Hg203
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 192
+#     nuclide: Pt192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.274378E-08
+   7.000000E+01   1.082854E-05
+   7.500000E+01   6.983464E-04
+   8.000000E+01   7.943072E-03
+   9.000000E+01   9.942488E-02
+   1.000000E+02   3.613458E-01
+   1.100000E+02   4.723794E-01
+   1.200000E+02   5.135450E-01
+   1.300000E+02   5.233366E-01
+   1.400000E+02   5.955422E-01
+   1.500000E+02   9.304008E-01
+   1.600000E+02   1.366778E+00
+   1.800000E+02   1.910572E+00
+   2.000000E+02   2.825260E+00

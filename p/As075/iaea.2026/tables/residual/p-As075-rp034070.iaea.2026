@@ -1,0 +1,45 @@
+# header: 
+#   title: As75(p,x)Se70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 70
+#     nuclide: Se70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.169028E-07
+   6.000000E+01   3.396825E-04
+   6.500000E+01   4.265725E-03
+   7.000000E+01   1.128086E-02
+   7.500000E+01   1.630521E-02
+   8.000000E+01   1.759995E-02
+   9.000000E+01   1.896843E-02
+   1.000000E+02   1.750231E-02
+   1.100000E+02   1.509742E-02
+   1.200000E+02   1.311882E-02
+   1.300000E+02   1.142231E-02
+   1.400000E+02   1.007449E-02
+   1.500000E+02   8.936081E-03
+   1.600000E+02   8.751525E-03
+   1.800000E+02   7.862374E-03
+   2.000000E+02   7.700419E-03

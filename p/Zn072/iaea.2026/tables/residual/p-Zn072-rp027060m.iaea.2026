@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn72(p,x)Co60m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.032138E-09
+   6.500000E+01   3.737374E-05
+   7.000000E+01   3.042360E-03
+   7.500000E+01   2.748408E-02
+   8.000000E+01   7.892531E-02
+   9.000000E+01   1.846508E-01
+   1.000000E+02   2.904109E-01
+   1.100000E+02   4.693843E-01
+   1.200000E+02   8.600116E-01
+   1.300000E+02   1.550778E+00
+   1.400000E+02   2.154204E+00
+   1.500000E+02   2.242652E+00
+   1.600000E+02   2.944380E+00
+   1.800000E+02   4.079512E+00
+   2.000000E+02   2.732202E+00

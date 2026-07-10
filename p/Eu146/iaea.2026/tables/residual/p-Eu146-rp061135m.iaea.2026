@@ -1,0 +1,42 @@
+# header: 
+#   title: Eu146(p,x)Pm135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 146
+#   nuclide: Eu146
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 135
+#     nuclide: Pm135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.592441E-09
+   9.000000E+01   5.989399E-05
+   1.000000E+02   2.492987E-02
+   1.100000E+02   3.041604E-01
+   1.200000E+02   7.760783E-01
+   1.300000E+02   8.267682E-01
+   1.400000E+02   1.029093E+00
+   1.500000E+02   1.556628E+00
+   1.600000E+02   1.935604E+00
+   1.800000E+02   1.973462E+00
+   2.000000E+02   1.204957E+00

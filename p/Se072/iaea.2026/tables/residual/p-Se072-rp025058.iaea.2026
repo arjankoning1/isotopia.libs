@@ -1,0 +1,37 @@
+# header: 
+#   title: Se72(p,x)Mn58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 58
+#     nuclide: Mn58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.887412E-10
+   1.200000E+02   4.316087E-08
+   1.300000E+02   1.463576E-06
+   1.400000E+02   1.357587E-05
+   1.500000E+02   4.448202E-05
+   1.600000E+02   1.004695E-04
+   1.800000E+02   1.996307E-04
+   2.000000E+02   3.492507E-04

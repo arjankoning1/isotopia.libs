@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn112(p,x)Rh98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.649406E-10
+   6.500000E+01   1.316094E-06
+   7.000000E+01   3.014166E-04
+   7.500000E+01   9.558110E-03
+   8.000000E+01   5.901985E-02
+   9.000000E+01   1.751889E-01
+   1.000000E+02   1.632765E-01
+   1.100000E+02   3.059433E-01
+   1.200000E+02   1.309663E+00
+   1.300000E+02   3.075660E+00
+   1.400000E+02   5.460126E+00
+   1.500000E+02   6.583240E+00
+   1.600000E+02   8.668503E+00
+   1.800000E+02   1.432922E+01
+   2.000000E+02   1.704704E+01

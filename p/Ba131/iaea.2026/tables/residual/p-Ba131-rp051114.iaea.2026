@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba131(p,x)Sb114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 114
+#     nuclide: Sb114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.647594E-09
+   1.000000E+02   3.205864E-05
+   1.100000E+02   3.329903E-03
+   1.200000E+02   1.778764E-02
+   1.300000E+02   2.212744E-02
+   1.400000E+02   4.932489E-02
+   1.500000E+02   1.889699E-01
+   1.600000E+02   6.072069E-01
+   1.800000E+02   2.849690E+00
+   2.000000E+02   5.630418E+00

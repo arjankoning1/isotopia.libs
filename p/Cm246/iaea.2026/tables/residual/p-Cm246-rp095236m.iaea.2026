@@ -1,0 +1,46 @@
+# header: 
+#   title: Cm246(p,x)Am236m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 246
+#   nuclide: Cm246
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.286670E-13
+   6.500000E+01   1.099898E-10
+   7.000000E+01   3.392973E-09
+   7.500000E+01   2.444674E-08
+   8.000000E+01   1.228564E-07
+   9.000000E+01   6.184742E-07
+   1.000000E+02   1.212758E-06
+   1.100000E+02   2.055322E-06
+   1.200000E+02   1.836414E-06
+   1.300000E+02   2.538600E-06
+   1.400000E+02   4.015033E-06
+   1.500000E+02   6.015310E-06
+   1.600000E+02   2.167706E-05
+   1.800000E+02   1.067756E-05
+   2.000000E+02   7.752834E-08

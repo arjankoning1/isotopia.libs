@@ -1,0 +1,45 @@
+# header: 
+#   title: Ge70(p,x)Co63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 63
+#     nuclide: Co63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.739075E-10
+   6.000000E+01   7.997593E-08
+   6.500000E+01   2.021768E-06
+   7.000000E+01   1.527955E-05
+   7.500000E+01   5.079312E-05
+   8.000000E+01   1.009448E-04
+   9.000000E+01   2.078354E-04
+   1.000000E+02   2.723838E-04
+   1.100000E+02   4.991310E-04
+   1.200000E+02   6.959632E-04
+   1.300000E+02   1.218193E-03
+   1.400000E+02   1.278121E-03
+   1.500000E+02   1.514270E-03
+   1.600000E+02   1.803885E-03
+   1.800000E+02   2.338363E-03
+   2.000000E+02   1.250062E-03

@@ -1,0 +1,37 @@
+# header: 
+#   title: Ir191(p,x)Re175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 191
+#   nuclide: Ir191
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 175
+#     nuclide: Re175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.425652E-09
+   1.200000E+02   5.753658E-05
+   1.300000E+02   9.661548E-03
+   1.400000E+02   1.979866E-01
+   1.500000E+02   1.192473E+00
+   1.600000E+02   3.273146E+00
+   1.800000E+02   5.101559E+00
+   2.000000E+02   7.353465E+00

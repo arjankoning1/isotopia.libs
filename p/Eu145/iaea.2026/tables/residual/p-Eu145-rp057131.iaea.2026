@@ -1,0 +1,44 @@
+# header: 
+#   title: Eu145(p,x)La131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 131
+#     nuclide: La131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.018246E-11
+   6.500000E+01   3.433549E-08
+   7.000000E+01   3.366515E-06
+   7.500000E+01   8.361272E-05
+   8.000000E+01   6.722200E-04
+   9.000000E+01   5.755864E-03
+   1.000000E+02   6.124799E-03
+   1.100000E+02   4.237182E-03
+   1.200000E+02   9.056283E-03
+   1.300000E+02   1.780940E-02
+   1.400000E+02   1.484472E-02
+   1.500000E+02   2.013798E-02
+   1.600000E+02   2.964079E-02
+   1.800000E+02   2.158042E-02
+   2.000000E+02   4.141353E-02

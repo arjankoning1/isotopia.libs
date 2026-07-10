@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe58(p,x)Ca46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 46
+#     nuclide: Ca46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.220225E-08
+   5.500000E+01   8.702431E-07
+   6.000000E+01   8.499515E-06
+   6.500000E+01   3.289853E-05
+   7.000000E+01   7.406758E-05
+   7.500000E+01   1.125951E-04
+   8.000000E+01   1.607719E-04
+   9.000000E+01   4.363304E-04
+   1.000000E+02   2.489734E-03
+   1.100000E+02   9.052914E-03
+   1.200000E+02   1.631351E-02
+   1.300000E+02   2.343635E-02
+   1.400000E+02   3.184449E-02
+   1.500000E+02   4.286279E-02
+   1.600000E+02   4.483842E-02
+   1.800000E+02   5.495299E-02
+   2.000000E+02   5.948048E-02

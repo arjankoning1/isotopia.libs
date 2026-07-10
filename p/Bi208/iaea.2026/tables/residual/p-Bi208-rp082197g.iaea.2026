@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi208(p,x)Pb197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 197
+#     nuclide: Pb197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.705855E-11
+   7.000000E+01   2.152255E-06
+   7.500000E+01   8.601013E-05
+   8.000000E+01   3.821838E-03
+   9.000000E+01   9.786237E-01
+   1.000000E+02   5.328550E+00
+   1.100000E+02   4.600571E+00
+   1.200000E+02   2.815046E+00
+   1.300000E+02   3.296885E+00
+   1.400000E+02   3.847585E+00
+   1.500000E+02   5.141647E+00
+   1.600000E+02   5.514348E+00
+   1.800000E+02   6.658374E+00
+   2.000000E+02   7.626568E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge69(p,x)Ni57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 69
+#   nuclide: Ge69
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.022524E-09
+   6.500000E+01   1.439807E-06
+   7.000000E+01   5.167726E-05
+   7.500000E+01   3.506197E-04
+   8.000000E+01   1.822235E-03
+   9.000000E+01   2.313571E-02
+   1.000000E+02   7.970647E-02
+   1.100000E+02   1.287853E-01
+   1.200000E+02   2.133330E-01
+   1.300000E+02   3.640904E-01
+   1.400000E+02   6.568801E-01
+   1.500000E+02   9.737189E-01
+   1.600000E+02   1.300823E+00
+   1.800000E+02   2.160136E+00
+   2.000000E+02   2.182123E+00

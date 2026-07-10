@@ -1,0 +1,43 @@
+# header: 
+#   title: Ar36(p,x)Cl30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 30
+#     nuclide: Cl30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.959288E-08
+   7.000000E+01   1.566719E-06
+   7.500000E+01   9.254359E-06
+   8.000000E+01   2.074107E-05
+   9.000000E+01   3.425726E-05
+   1.000000E+02   4.040853E-05
+   1.100000E+02   5.396206E-05
+   1.200000E+02   7.360059E-05
+   1.300000E+02   9.423275E-05
+   1.400000E+02   1.121716E-04
+   1.500000E+02   1.259094E-04
+   1.600000E+02   1.359682E-04
+   1.800000E+02   1.488533E-04
+   2.000000E+02   1.556789E-04

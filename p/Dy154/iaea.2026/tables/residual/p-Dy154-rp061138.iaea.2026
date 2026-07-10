@@ -1,0 +1,41 @@
+# header: 
+#   title: Dy154(p,x)Pm138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 154
+#   nuclide: Dy154
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 138
+#     nuclide: Pm138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.612499E-11
+   8.000000E+01   4.312050E-08
+   9.000000E+01   5.348915E-04
+   1.000000E+02   1.912703E-02
+   1.100000E+02   4.932185E-02
+   1.200000E+02   9.370182E-02
+   1.300000E+02   4.436649E-01
+   1.400000E+02   8.077832E-01
+   1.500000E+02   8.398178E-01
+   1.600000E+02   1.544591E+00
+   1.800000E+02   2.495087E+00
+   2.000000E+02   2.743911E+00

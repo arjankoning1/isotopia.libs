@@ -1,0 +1,37 @@
+# header: 
+#   title: Pt191(p,x)Au180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 191
+#   nuclide: Pt191
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 180
+#     nuclide: Au180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.183754E-05
+   1.200000E+02   2.988410E-02
+   1.300000E+02   8.819593E-01
+   1.400000E+02   3.144222E+00
+   1.500000E+02   3.305149E+00
+   1.600000E+02   2.202348E+00
+   1.800000E+02   1.742913E+00
+   2.000000E+02   1.845989E+00

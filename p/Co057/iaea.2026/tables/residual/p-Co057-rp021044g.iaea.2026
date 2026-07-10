@@ -1,0 +1,46 @@
+# header: 
+#   title: Co57(p,x)Sc44g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.210106E-08
+   6.500000E+01   1.258676E-05
+   7.000000E+01   6.958912E-04
+   7.500000E+01   7.486003E-03
+   8.000000E+01   3.084748E-02
+   9.000000E+01   1.205024E-01
+   1.000000E+02   2.044357E-01
+   1.100000E+02   4.259166E-01
+   1.200000E+02   9.395359E-01
+   1.300000E+02   1.817480E+00
+   1.400000E+02   2.576676E+00
+   1.500000E+02   3.707339E+00
+   1.600000E+02   5.378988E+00
+   1.800000E+02   6.883061E+00
+   2.000000E+02   1.067581E+01

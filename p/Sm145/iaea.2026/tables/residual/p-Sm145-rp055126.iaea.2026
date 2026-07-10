@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm145(p,x)Cs126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 126
+#     nuclide: Cs126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.416326E-09
+   1.000000E+02   2.146710E-05
+   1.100000E+02   5.000911E-04
+   1.200000E+02   1.522378E-03
+   1.300000E+02   1.595553E-03
+   1.400000E+02   2.768979E-03
+   1.500000E+02   6.115142E-03
+   1.600000E+02   1.300525E-02
+   1.800000E+02   2.799002E-02
+   2.000000E+02   4.810766E-02

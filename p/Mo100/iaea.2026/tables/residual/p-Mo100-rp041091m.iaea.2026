@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo100(p,x)Nb91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   7.432931E-11
+   5.500000E+01   3.690997E-05
+   6.000000E+01   1.217793E-02
+   6.500000E+01   2.398308E-01
+   7.000000E+01   9.067824E-01
+   7.500000E+01   1.560672E+00
+   8.000000E+01   1.929201E+00
+   9.000000E+01   1.939363E+00
+   1.000000E+02   2.555544E+00
+   1.100000E+02   4.387299E+00
+   1.200000E+02   7.596561E+00
+   1.300000E+02   9.618483E+00
+   1.400000E+02   1.094739E+01
+   1.500000E+02   1.077190E+01
+   1.600000E+02   1.089265E+01
+   1.800000E+02   9.939685E+00
+   2.000000E+02   9.717056E+00

@@ -1,0 +1,49 @@
+# header: 
+#   title: Fe56(p,x)Mn50m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   6.568784E-06
+   5.000000E+01   1.406451E-02
+   5.500000E+01   9.639901E-02
+   6.000000E+01   1.523101E-01
+   6.500000E+01   1.430008E-01
+   7.000000E+01   1.257402E-01
+   7.500000E+01   1.135807E-01
+   8.000000E+01   1.144161E-01
+   9.000000E+01   1.551173E-01
+   1.000000E+02   2.258010E-01
+   1.100000E+02   2.709235E-01
+   1.200000E+02   2.724949E-01
+   1.300000E+02   2.755051E-01
+   1.400000E+02   2.702657E-01
+   1.500000E+02   2.597392E-01
+   1.600000E+02   2.639263E-01
+   1.800000E+02   2.487639E-01
+   2.000000E+02   2.329921E-01

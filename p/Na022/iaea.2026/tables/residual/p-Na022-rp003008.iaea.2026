@@ -1,0 +1,43 @@
+# header: 
+#   title: Na22(p,x)Li8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.164987E-12
+   7.000000E+01   8.828188E-09
+   7.500000E+01   8.575881E-07
+   8.000000E+01   1.463036E-05
+   9.000000E+01   2.981758E-04
+   1.000000E+02   1.176600E-03
+   1.100000E+02   3.055128E-03
+   1.200000E+02   8.267547E-03
+   1.300000E+02   1.899313E-02
+   1.400000E+02   3.605838E-02
+   1.500000E+02   5.619016E-02
+   1.600000E+02   8.137395E-02
+   1.800000E+02   1.404286E-01
+   2.000000E+02   2.011304E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd112(p,x)Tc95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.397973E-07
+   1.000000E+02   1.513063E-03
+   1.100000E+02   3.469353E-02
+   1.200000E+02   6.006068E-02
+   1.300000E+02   7.809376E-02
+   1.400000E+02   1.654174E-01
+   1.500000E+02   4.469199E-01
+   1.600000E+02   9.995090E-01
+   1.800000E+02   2.789781E+00
+   2.000000E+02   5.140395E+00

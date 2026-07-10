@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru100(p,x)Zr88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.095625E-09
+   6.500000E+01   1.161315E-06
+   7.000000E+01   9.184583E-05
+   7.500000E+01   2.332214E-03
+   8.000000E+01   3.471185E-02
+   9.000000E+01   5.556610E-01
+   1.000000E+02   1.357571E+00
+   1.100000E+02   2.088074E+00
+   1.200000E+02   3.600584E+00
+   1.300000E+02   6.986039E+00
+   1.400000E+02   1.183529E+01
+   1.500000E+02   1.608984E+01
+   1.600000E+02   1.972135E+01
+   1.800000E+02   2.563305E+01
+   2.000000E+02   2.627540E+01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ac226(p,x)Po208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 226
+#   nuclide: Ac226
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 208
+#     nuclide: Po208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.732862E-10
+   7.000000E+01   3.512046E-09
+   7.500000E+01   3.155841E-08
+   8.000000E+01   7.996377E-07
+   9.000000E+01   6.009854E-04
+   1.000000E+02   1.858121E-02
+   1.100000E+02   8.931225E-02
+   1.200000E+02   1.200213E-01
+   1.300000E+02   1.369590E-01
+   1.400000E+02   2.041103E-01
+   1.500000E+02   2.251555E-01
+   1.600000E+02   2.924934E-01
+   1.800000E+02   4.055264E-01
+   2.000000E+02   4.532532E-01

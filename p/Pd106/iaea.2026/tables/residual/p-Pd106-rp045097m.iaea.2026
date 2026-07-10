@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd106(p,x)Rh97m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 97
+#     nuclide: Rh97m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.550639E-10
+   6.500000E+01   4.531665E-05
+   7.000000E+01   1.621315E-02
+   7.500000E+01   2.099980E-01
+   8.000000E+01   6.459320E-01
+   9.000000E+01   1.050673E+00
+   1.000000E+02   8.607430E-01
+   1.100000E+02   8.871983E-01
+   1.200000E+02   1.185854E+00
+   1.300000E+02   1.508319E+00
+   1.400000E+02   1.938808E+00
+   1.500000E+02   1.962551E+00
+   1.600000E+02   2.298308E+00
+   1.800000E+02   2.379846E+00
+   2.000000E+02   2.239911E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd100(p,x)Y84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 84
+#     nuclide: Y84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.825195E-13
+   6.500000E+01   1.037331E-09
+   7.000000E+01   4.750140E-07
+   7.500000E+01   2.462332E-05
+   8.000000E+01   1.835823E-04
+   9.000000E+01   8.323777E-04
+   1.000000E+02   2.769321E-04
+   1.100000E+02   4.983100E-04
+   1.200000E+02   2.830723E-03
+   1.300000E+02   1.118937E-02
+   1.400000E+02   1.995169E-02
+   1.500000E+02   4.057972E-02
+   1.600000E+02   7.416619E-02
+   1.800000E+02   1.834787E-01
+   2.000000E+02   3.051882E-01

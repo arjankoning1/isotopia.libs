@@ -1,0 +1,46 @@
+# header: 
+#   title: Hg195m(p,x)Hg189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 195
+#   nuclide: Hg195m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 189
+#     nuclide: Hg189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.884398E-06
+   5.500000E+01   7.664825E-03
+   6.000000E+01   2.556192E-01
+   6.500000E+01   2.399296E+00
+   7.000000E+01   1.659121E+01
+   7.500000E+01   5.661569E+01
+   8.000000E+01   1.029547E+02
+   9.000000E+01   1.159387E+02
+   1.000000E+02   1.010999E+02
+   1.100000E+02   9.777900E+01
+   1.200000E+02   9.230631E+01
+   1.300000E+02   9.125806E+01
+   1.400000E+02   8.913287E+01
+   1.500000E+02   8.787891E+01
+   1.600000E+02   8.023415E+01
+   1.800000E+02   7.897809E+01
+   2.000000E+02   9.546973E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Hf177(p,x)Ho160n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 160
+#     nuclide: Ho160n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.470969E-11
+   9.000000E+01   1.676355E-06
+   1.000000E+02   2.241066E-04
+   1.100000E+02   1.376289E-03
+   1.200000E+02   1.833508E-03
+   1.300000E+02   1.866051E-03
+   1.400000E+02   3.441566E-03
+   1.500000E+02   3.751663E-03
+   1.600000E+02   5.189032E-03
+   1.800000E+02   1.191257E-02
+   2.000000E+02   1.038161E-02

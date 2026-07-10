@@ -1,0 +1,44 @@
+# header: 
+#   title: Sc48(p,x)Sc42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.009217E-05
+   6.500000E+01   3.561390E-03
+   7.000000E+01   2.124031E-02
+   7.500000E+01   6.662049E-02
+   8.000000E+01   1.461769E-01
+   9.000000E+01   3.922468E-01
+   1.000000E+02   5.882484E-01
+   1.100000E+02   6.418180E-01
+   1.200000E+02   6.066250E-01
+   1.300000E+02   5.761924E-01
+   1.400000E+02   5.736271E-01
+   1.500000E+02   5.644648E-01
+   1.600000E+02   5.165074E-01
+   1.800000E+02   4.617799E-01
+   2.000000E+02   4.777842E-01

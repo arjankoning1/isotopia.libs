@@ -1,0 +1,46 @@
+# header: 
+#   title: Tb160(p,x)Tb152m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 160
+#   nuclide: Tb160
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 152
+#     nuclide: Tb152m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.433642E-09
+   6.500000E+01   1.234485E-03
+   7.000000E+01   1.289016E-01
+   7.500000E+01   1.432932E+00
+   8.000000E+01   5.701249E+00
+   9.000000E+01   3.521301E+01
+   1.000000E+02   4.552893E+01
+   1.100000E+02   3.691131E+01
+   1.200000E+02   3.501789E+01
+   1.300000E+02   2.977253E+01
+   1.400000E+02   3.020347E+01
+   1.500000E+02   2.615596E+01
+   1.600000E+02   2.173674E+01
+   1.800000E+02   1.917894E+01
+   2.000000E+02   1.762671E+01

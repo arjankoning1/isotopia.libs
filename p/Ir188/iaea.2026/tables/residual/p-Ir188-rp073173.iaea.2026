@@ -1,0 +1,41 @@
+# header: 
+#   title: Ir188(p,x)Ta173 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 188
+#   nuclide: Ir188
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 173
+#     nuclide: Ta173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.618816E-12
+   8.000000E+01   1.339747E-08
+   9.000000E+01   1.115924E-04
+   1.000000E+02   1.083347E-02
+   1.100000E+02   1.934415E-01
+   1.200000E+02   8.189632E-01
+   1.300000E+02   1.183057E+00
+   1.400000E+02   1.129100E+00
+   1.500000E+02   1.208594E+00
+   1.600000E+02   1.335935E+00
+   1.800000E+02   1.894078E+00
+   2.000000E+02   1.224872E+00

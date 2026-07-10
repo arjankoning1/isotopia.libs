@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd102(p,x)Nb92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   7.167591E-12
+   4.500000E+01   4.105726E-09
+   5.000000E+01   4.239633E-07
+   5.500000E+01   5.863890E-05
+   6.000000E+01   2.500564E-03
+   6.500000E+01   2.360870E-02
+   7.000000E+01   7.531260E-02
+   7.500000E+01   1.149045E-01
+   8.000000E+01   1.136029E-01
+   9.000000E+01   9.011288E-02
+   1.000000E+02   1.307493E-01
+   1.100000E+02   3.029942E-01
+   1.200000E+02   5.252841E-01
+   1.300000E+02   5.986706E-01
+   1.400000E+02   6.556764E-01
+   1.500000E+02   8.852839E-01
+   1.600000E+02   1.030224E+00
+   1.800000E+02   6.945698E-01
+   2.000000E+02   5.280979E-01

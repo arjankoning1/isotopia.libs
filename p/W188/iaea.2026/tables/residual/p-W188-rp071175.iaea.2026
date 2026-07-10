@@ -1,0 +1,45 @@
+# header: 
+#   title: W188(p,x)Lu175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 188
+#   nuclide: W188
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 175
+#     nuclide: Lu175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.574064E-11
+   6.000000E+01   1.710606E-07
+   6.500000E+01   8.669651E-05
+   7.000000E+01   6.344799E-03
+   7.500000E+01   7.384813E-02
+   8.000000E+01   2.686437E-01
+   9.000000E+01   5.510142E-01
+   1.000000E+02   3.439506E-01
+   1.100000E+02   3.062227E-01
+   1.200000E+02   4.996290E-01
+   1.300000E+02   5.098096E-01
+   1.400000E+02   5.841735E-01
+   1.500000E+02   6.132891E-01
+   1.600000E+02   4.497352E-01
+   1.800000E+02   7.081591E-01
+   2.000000E+02   8.862278E-01

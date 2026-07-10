@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba133m(p,x)Cs122n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.580160E-12
+   9.000000E+01   4.815518E-04
+   1.000000E+02   1.729347E-01
+   1.100000E+02   9.030342E-01
+   1.200000E+02   1.147494E+00
+   1.300000E+02   1.089022E+00
+   1.400000E+02   1.333625E+00
+   1.500000E+02   1.780636E+00
+   1.600000E+02   2.219182E+00
+   1.800000E+02   3.115109E+00
+   2.000000E+02   3.347205E+00

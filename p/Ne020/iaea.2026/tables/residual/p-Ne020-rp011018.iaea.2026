@@ -1,0 +1,45 @@
+# header: 
+#   title: Ne20(p,x)Na18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 18
+#     nuclide: Na18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.396902E-06
+   6.000000E+01   2.893623E-05
+   6.500000E+01   6.564122E-05
+   7.000000E+01   9.138449E-05
+   7.500000E+01   9.969204E-05
+   8.000000E+01   1.009988E-04
+   9.000000E+01   9.087397E-05
+   1.000000E+02   7.731275E-05
+   1.100000E+02   6.629149E-05
+   1.200000E+02   5.557758E-05
+   1.300000E+02   5.013970E-05
+   1.400000E+02   4.262347E-05
+   1.500000E+02   4.033649E-05
+   1.600000E+02   3.376312E-05
+   1.800000E+02   3.042432E-05
+   2.000000E+02   2.378419E-05

@@ -1,0 +1,38 @@
+# header: 
+#   title: Cm247(p,x)Np230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 247
+#   nuclide: Cm247
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 230
+#     nuclide: Np230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.057017E-10
+   1.100000E+02   2.046902E-07
+   1.200000E+02   2.925744E-05
+   1.300000E+02   2.154882E-04
+   1.400000E+02   7.570332E-04
+   1.500000E+02   7.840224E-04
+   1.600000E+02   8.787349E-04
+   1.800000E+02   5.185293E-03
+   2.000000E+02   6.205770E-03

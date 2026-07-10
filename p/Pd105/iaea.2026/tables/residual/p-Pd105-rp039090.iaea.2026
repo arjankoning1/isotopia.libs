@@ -1,0 +1,47 @@
+# header: 
+#   title: Pd105(p,x)Y90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.055863E-12
+   5.000000E+01   6.583222E-10
+   5.500000E+01   4.383152E-08
+   6.000000E+01   6.014477E-07
+   6.500000E+01   2.138138E-06
+   7.000000E+01   2.938614E-06
+   7.500000E+01   2.113477E-06
+   8.000000E+01   1.087182E-06
+   9.000000E+01   4.615046E-05
+   1.000000E+02   4.062241E-04
+   1.100000E+02   3.927338E-04
+   1.200000E+02   6.578320E-04
+   1.300000E+02   9.542002E-04
+   1.400000E+02   1.922935E-03
+   1.500000E+02   2.765642E-03
+   1.600000E+02   3.540641E-03
+   1.800000E+02   6.125466E-03
+   2.000000E+02   9.755446E-03

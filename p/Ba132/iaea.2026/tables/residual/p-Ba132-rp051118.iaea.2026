@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba132(p,x)Sb118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.896948E-10
+   6.500000E+01   2.383433E-07
+   7.000000E+01   2.618212E-05
+   7.500000E+01   4.126347E-04
+   8.000000E+01   1.651361E-03
+   9.000000E+01   4.084073E-03
+   1.000000E+02   3.635687E-03
+   1.100000E+02   1.939736E-02
+   1.200000E+02   7.057537E-02
+   1.300000E+02   1.236915E-01
+   1.400000E+02   1.416391E-01
+   1.500000E+02   1.727328E-01
+   1.600000E+02   2.132711E-01
+   1.800000E+02   1.690638E-01
+   2.000000E+02   1.761256E-01

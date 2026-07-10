@@ -1,0 +1,41 @@
+# header: 
+#   title: Lu169(p,x)Ho153m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 169
+#   nuclide: Lu169
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 153
+#     nuclide: Ho153m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.183269E-10
+   1.000000E+02   2.369640E-06
+   1.100000E+02   6.101813E-04
+   1.200000E+02   1.060121E-02
+   1.300000E+02   4.821169E-02
+   1.400000E+02   1.042556E-01
+   1.500000E+02   1.648283E-01
+   1.600000E+02   1.810411E-01
+   1.800000E+02   3.563798E-01
+   2.000000E+02   4.593233E-01

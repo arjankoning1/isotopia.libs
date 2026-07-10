@@ -1,0 +1,45 @@
+# header: 
+#   title: S32(p,x)Si25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 25
+#     nuclide: Si25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.494096E-11
+   6.000000E+01   2.401727E-06
+   6.500000E+01   4.212574E-05
+   7.000000E+01   1.712589E-04
+   7.500000E+01   5.921397E-04
+   8.000000E+01   1.546264E-03
+   9.000000E+01   4.210128E-03
+   1.000000E+02   6.053383E-03
+   1.100000E+02   7.167605E-03
+   1.200000E+02   8.570036E-03
+   1.300000E+02   9.782320E-03
+   1.400000E+02   1.057077E-02
+   1.500000E+02   1.086713E-02
+   1.600000E+02   1.087763E-02
+   1.800000E+02   1.044825E-02
+   2.000000E+02   9.639319E-03

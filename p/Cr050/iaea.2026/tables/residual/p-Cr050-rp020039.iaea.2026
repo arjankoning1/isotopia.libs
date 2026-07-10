@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr50(p,x)Ca39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 39
+#     nuclide: Ca39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.952615E-09
+   6.500000E+01   1.565883E-06
+   7.000000E+01   3.067365E-05
+   7.500000E+01   2.154896E-04
+   8.000000E+01   1.355181E-03
+   9.000000E+01   1.399125E-02
+   1.000000E+02   3.773902E-02
+   1.100000E+02   5.742782E-02
+   1.200000E+02   8.806607E-02
+   1.300000E+02   1.554111E-01
+   1.400000E+02   2.329334E-01
+   1.500000E+02   3.244097E-01
+   1.600000E+02   4.152053E-01
+   1.800000E+02   4.465499E-01
+   2.000000E+02   5.420187E-01

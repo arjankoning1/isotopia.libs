@@ -1,0 +1,38 @@
+# header: 
+#   title: Cs133(p,x)In114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 114
+#     nuclide: In114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.035421E-12
+   1.100000E+02   6.559881E-08
+   1.200000E+02   1.624524E-05
+   1.300000E+02   2.806841E-04
+   1.400000E+02   1.849217E-03
+   1.500000E+02   5.718431E-03
+   1.600000E+02   1.240042E-02
+   1.800000E+02   4.670668E-02
+   2.000000E+02   8.528373E-02

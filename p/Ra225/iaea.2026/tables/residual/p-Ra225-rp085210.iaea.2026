@@ -1,0 +1,45 @@
+# header: 
+#   title: Ra225(p,x)At210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 210
+#     nuclide: At210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.925761E-10
+   6.000000E+01   3.122011E-08
+   6.500000E+01   1.258469E-06
+   7.000000E+01   5.726214E-05
+   7.500000E+01   1.086663E-03
+   8.000000E+01   8.120968E-03
+   9.000000E+01   2.911904E-01
+   1.000000E+02   1.997462E+00
+   1.100000E+02   3.336410E+00
+   1.200000E+02   3.919887E+00
+   1.300000E+02   3.857656E+00
+   1.400000E+02   4.827690E+00
+   1.500000E+02   6.253156E+00
+   1.600000E+02   5.649354E+00
+   1.800000E+02   7.344517E+00
+   2.000000E+02   1.324253E+01

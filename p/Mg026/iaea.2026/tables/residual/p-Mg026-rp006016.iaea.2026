@@ -1,0 +1,43 @@
+# header: 
+#   title: Mg26(p,x)C16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 16
+#     nuclide: C16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.581804E-10
+   7.000000E+01   8.802651E-08
+   7.500000E+01   2.229399E-06
+   8.000000E+01   1.391125E-05
+   9.000000E+01   8.025511E-05
+   1.000000E+02   1.781844E-04
+   1.100000E+02   2.978209E-04
+   1.200000E+02   4.566100E-04
+   1.300000E+02   6.383591E-04
+   1.400000E+02   8.226784E-04
+   1.500000E+02   9.749650E-04
+   1.600000E+02   1.108083E-03
+   1.800000E+02   1.265341E-03
+   2.000000E+02   1.341142E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs131(p,x)In114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 114
+#     nuclide: In114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.006183E-08
+   1.000000E+02   5.355377E-06
+   1.100000E+02   2.376181E-04
+   1.200000E+02   1.434870E-03
+   1.300000E+02   2.387515E-03
+   1.400000E+02   4.729887E-03
+   1.500000E+02   9.608515E-03
+   1.600000E+02   1.852458E-02
+   1.800000E+02   2.810736E-02
+   2.000000E+02   3.395889E-02

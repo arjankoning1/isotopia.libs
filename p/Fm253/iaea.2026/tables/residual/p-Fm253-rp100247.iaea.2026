@@ -1,0 +1,46 @@
+# header: 
+#   title: Fm253(p,x)Fm247 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 100
+#     A: 247
+#     nuclide: Fm247
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.666398E-12
+   5.500000E+01   6.406552E-11
+   6.000000E+01   1.759719E-10
+   6.500000E+01   3.904870E-10
+   7.000000E+01   1.144338E-09
+   7.500000E+01   3.355574E-09
+   8.000000E+01   9.679503E-09
+   9.000000E+01   2.954181E-08
+   1.000000E+02   8.506401E-08
+   1.100000E+02   8.562898E-08
+   1.200000E+02   1.653544E-07
+   1.300000E+02   3.300848E-07
+   1.400000E+02   1.506828E-07
+   1.500000E+02   1.429962E-07
+   1.600000E+02   2.811848E-07
+   1.800000E+02   4.015797E-07
+   2.000000E+02   1.157115E-06

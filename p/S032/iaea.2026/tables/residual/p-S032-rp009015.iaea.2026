@@ -1,0 +1,39 @@
+# header: 
+#   title: S32(p,x)F15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 15
+#     nuclide: F15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.424330E-09
+   1.000000E+02   1.376977E-06
+   1.100000E+02   1.009634E-05
+   1.200000E+02   2.526167E-05
+   1.300000E+02   6.186864E-05
+   1.400000E+02   1.841700E-04
+   1.500000E+02   4.453170E-04
+   1.600000E+02   8.411972E-04
+   1.800000E+02   2.413376E-03
+   2.000000E+02   5.226327E-03

@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo94(p,x)Tc90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 90
+#     nuclide: Tc90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.053530E-04
+   6.000000E+01   2.510581E-03
+   6.500000E+01   1.009318E-02
+   7.000000E+01   1.640762E-02
+   7.500000E+01   1.873628E-02
+   8.000000E+01   1.874069E-02
+   9.000000E+01   1.603991E-02
+   1.000000E+02   1.294069E-02
+   1.100000E+02   1.043899E-02
+   1.200000E+02   8.535069E-03
+   1.300000E+02   7.439032E-03
+   1.400000E+02   6.541948E-03
+   1.500000E+02   5.930674E-03
+   1.600000E+02   5.266713E-03
+   1.800000E+02   4.337851E-03
+   2.000000E+02   3.986867E-03

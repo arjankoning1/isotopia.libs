@@ -1,0 +1,42 @@
+# header: 
+#   title: Ar42(p,x)Mg26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.924240E-09
+   7.500000E+01   1.394955E-06
+   8.000000E+01   4.618824E-05
+   9.000000E+01   1.838024E-03
+   1.000000E+02   1.811037E-02
+   1.100000E+02   6.893421E-02
+   1.200000E+02   1.465157E-01
+   1.300000E+02   2.451055E-01
+   1.400000E+02   4.281612E-01
+   1.500000E+02   7.507055E-01
+   1.600000E+02   1.251345E+00
+   1.800000E+02   2.490594E+00
+   2.000000E+02   4.507550E+00

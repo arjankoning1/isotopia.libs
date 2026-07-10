@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn112(p,x)Rh96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.216423E-12
+   9.000000E+01   5.564410E-06
+   1.000000E+02   3.676923E-03
+   1.100000E+02   2.622263E-02
+   1.200000E+02   6.341997E-02
+   1.300000E+02   1.332071E-01
+   1.400000E+02   5.219001E-01
+   1.500000E+02   1.425521E+00
+   1.600000E+02   3.254294E+00
+   1.800000E+02   6.503084E+00
+   2.000000E+02   1.269402E+01

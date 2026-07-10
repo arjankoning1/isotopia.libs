@@ -1,0 +1,48 @@
+# header: 
+#   title: Zr94(p,x)Kr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 94
+#   nuclide: Zr94
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.066820E-08
+   4.500000E+01   1.476969E-05
+   5.000000E+01   6.465477E-04
+   5.500000E+01   4.318590E-03
+   6.000000E+01   1.055709E-02
+   6.500000E+01   1.232708E-02
+   7.000000E+01   9.104805E-03
+   7.500000E+01   6.728482E-03
+   8.000000E+01   5.732475E-03
+   9.000000E+01   1.960957E-02
+   1.000000E+02   4.379240E-02
+   1.100000E+02   7.958283E-02
+   1.200000E+02   7.960264E-02
+   1.300000E+02   8.981206E-02
+   1.400000E+02   1.109072E-01
+   1.500000E+02   1.059388E-01
+   1.600000E+02   8.117605E-02
+   1.800000E+02   8.491753E-02
+   2.000000E+02   8.524589E-02

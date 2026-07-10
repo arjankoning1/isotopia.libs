@@ -1,0 +1,40 @@
+# header: 
+#   title: Mg24(p,x)F14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 14
+#     nuclide: F14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.018401E-11
+   9.000000E+01   5.524217E-08
+   1.000000E+02   6.160074E-07
+   1.100000E+02   1.846554E-06
+   1.200000E+02   4.898730E-06
+   1.300000E+02   1.241065E-05
+   1.400000E+02   2.565162E-05
+   1.500000E+02   4.371932E-05
+   1.600000E+02   6.641416E-05
+   1.800000E+02   1.318712E-04
+   2.000000E+02   2.063182E-04

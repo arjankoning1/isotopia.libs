@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd104(p,x)Sr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.314321E-11
+   1.000000E+02   8.607550E-08
+   1.100000E+02   4.035350E-06
+   1.200000E+02   6.088681E-05
+   1.300000E+02   2.588640E-04
+   1.400000E+02   5.300416E-04
+   1.500000E+02   1.079768E-03
+   1.600000E+02   2.523273E-03
+   1.800000E+02   9.375623E-03
+   2.000000E+02   2.998611E-02

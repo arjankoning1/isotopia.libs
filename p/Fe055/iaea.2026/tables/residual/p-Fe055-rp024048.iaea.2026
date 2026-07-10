@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe55(p,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   7.348097E-12
+   4.500000E+01   1.506648E-05
+   5.000000E+01   1.041885E-03
+   5.500000E+01   1.015553E-02
+   6.000000E+01   1.612136E-01
+   6.500000E+01   6.066338E-01
+   7.000000E+01   1.015021E+00
+   7.500000E+01   1.241668E+00
+   8.000000E+01   1.461894E+00
+   9.000000E+01   1.627329E+00
+   1.000000E+02   1.894158E+00
+   1.100000E+02   2.414270E+00
+   1.200000E+02   2.789784E+00
+   1.300000E+02   3.095623E+00
+   1.400000E+02   3.168612E+00
+   1.500000E+02   3.433780E+00
+   1.600000E+02   3.491926E+00
+   1.800000E+02   3.223174E+00
+   2.000000E+02   3.574449E+00

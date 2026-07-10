@@ -1,0 +1,44 @@
+# header: 
+#   title: Pr141(p,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.468875E-11
+   6.500000E+01   2.153269E-07
+   7.000000E+01   1.653134E-04
+   7.500000E+01   1.119091E-02
+   8.000000E+01   1.094200E-01
+   9.000000E+01   6.040471E-01
+   1.000000E+02   5.513803E-01
+   1.100000E+02   4.994304E-01
+   1.200000E+02   9.905497E-01
+   1.300000E+02   1.614689E+00
+   1.400000E+02   1.698134E+00
+   1.500000E+02   2.013470E+00
+   1.600000E+02   1.941369E+00
+   1.800000E+02   2.302681E+00
+   2.000000E+02   1.771677E+00

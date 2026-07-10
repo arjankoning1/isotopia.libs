@@ -1,0 +1,45 @@
+# header: 
+#   title: S35(p,x)P28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 28
+#     nuclide: P28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.535854E-11
+   6.000000E+01   1.424602E-06
+   6.500000E+01   7.088422E-05
+   7.000000E+01   4.523637E-04
+   7.500000E+01   1.144177E-03
+   8.000000E+01   1.828099E-03
+   9.000000E+01   2.883263E-03
+   1.000000E+02   5.378747E-03
+   1.100000E+02   9.951875E-03
+   1.200000E+02   1.467445E-02
+   1.300000E+02   1.793371E-02
+   1.400000E+02   1.934544E-02
+   1.500000E+02   1.982395E-02
+   1.600000E+02   1.966673E-02
+   1.800000E+02   1.835453E-02
+   2.000000E+02   1.725003E-02

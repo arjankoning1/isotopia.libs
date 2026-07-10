@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm145(p,x)Pm136 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 136
+#     nuclide: Pm136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.611621E-08
+   7.000000E+01   2.059553E-04
+   7.500000E+01   4.614701E-02
+   8.000000E+01   6.102652E-01
+   9.000000E+01   2.954062E+00
+   1.000000E+02   2.751366E+00
+   1.100000E+02   7.119762E+00
+   1.200000E+02   1.697437E+01
+   1.300000E+02   2.434207E+01
+   1.400000E+02   2.733211E+01
+   1.500000E+02   3.472513E+01
+   1.600000E+02   3.477448E+01
+   1.800000E+02   3.659639E+01
+   2.000000E+02   3.366497E+01

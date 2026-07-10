@@ -1,0 +1,47 @@
+# header: 
+#   title: Cm247(p,x)U238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 247
+#   nuclide: Cm247
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 238
+#     nuclide: U238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.092207E-11
+   5.000000E+01   9.367954E-10
+   5.500000E+01   2.033214E-08
+   6.000000E+01   1.807335E-07
+   6.500000E+01   5.275779E-07
+   7.000000E+01   8.789145E-07
+   7.500000E+01   1.207911E-06
+   8.000000E+01   1.443419E-06
+   9.000000E+01   1.839866E-06
+   1.000000E+02   1.209752E-05
+   1.100000E+02   4.239604E-05
+   1.200000E+02   8.531972E-05
+   1.300000E+02   8.319644E-05
+   1.400000E+02   5.784636E-05
+   1.500000E+02   6.680730E-05
+   1.600000E+02   8.575523E-05
+   1.800000E+02   1.871243E-04
+   2.000000E+02   5.291915E-04

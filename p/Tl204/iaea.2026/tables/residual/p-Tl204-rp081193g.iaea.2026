@@ -1,0 +1,41 @@
+# header: 
+#   title: Tl204(p,x)Tl193g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 204
+#   nuclide: Tl204
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 193
+#     nuclide: Tl193g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.289595E-07
+   1.000000E+02   3.865071E-02
+   1.100000E+02   1.872696E+00
+   1.200000E+02   4.748850E+00
+   1.300000E+02   3.864352E+00
+   1.400000E+02   3.487675E+00
+   1.500000E+02   4.498704E+00
+   1.600000E+02   4.565478E+00
+   1.800000E+02   6.570444E+00
+   2.000000E+02   8.005313E+00

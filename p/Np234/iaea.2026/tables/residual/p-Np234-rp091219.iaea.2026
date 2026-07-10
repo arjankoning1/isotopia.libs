@@ -1,0 +1,38 @@
+# header: 
+#   title: Np234(p,x)Pa219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 234
+#   nuclide: Np234
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 219
+#     nuclide: Pa219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.178001E-08
+   1.100000E+02   4.369688E-05
+   1.200000E+02   3.710767E-03
+   1.300000E+02   4.426342E-02
+   1.400000E+02   1.333190E-01
+   1.500000E+02   4.120305E-01
+   1.600000E+02   4.611096E-01
+   1.800000E+02   1.317792E+00
+   2.000000E+02   1.648674E+00

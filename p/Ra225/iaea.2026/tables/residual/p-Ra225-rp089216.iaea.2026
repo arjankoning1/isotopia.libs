@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra225(p,x)Ac216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 216
+#     nuclide: Ac216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.429535E-09
+   7.000000E+01   5.245842E-05
+   7.500000E+01   7.992703E-03
+   8.000000E+01   1.729468E-01
+   9.000000E+01   4.219676E+00
+   1.000000E+02   1.393525E+01
+   1.100000E+02   1.684127E+01
+   1.200000E+02   1.230660E+01
+   1.300000E+02   6.933413E+00
+   1.400000E+02   5.040951E+00
+   1.500000E+02   4.339469E+00
+   1.600000E+02   3.798676E+00
+   1.800000E+02   3.297354E+00
+   2.000000E+02   1.984095E+00

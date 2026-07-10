@@ -1,0 +1,37 @@
+# header: 
+#   title: Tb161(p,x)Sm142 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 161
+#   nuclide: Tb161
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 142
+#     nuclide: Sm142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.641211E-12
+   1.200000E+02   2.710533E-06
+   1.300000E+02   3.061549E-03
+   1.400000E+02   9.389950E-02
+   1.500000E+02   4.553327E-01
+   1.600000E+02   1.024566E+00
+   1.800000E+02   3.630125E+00
+   2.000000E+02   9.645578E+00

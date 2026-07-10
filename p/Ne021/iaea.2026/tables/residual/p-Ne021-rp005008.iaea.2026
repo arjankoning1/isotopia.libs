@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne21(p,x)B8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 8
+#     nuclide: B8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.927436E-10
+   6.500000E+01   3.949795E-07
+   7.000000E+01   8.171235E-06
+   7.500000E+01   4.802450E-05
+   8.000000E+01   1.767407E-04
+   9.000000E+01   1.265345E-03
+   1.000000E+02   7.475030E-03
+   1.100000E+02   2.879371E-02
+   1.200000E+02   7.284117E-02
+   1.300000E+02   1.362398E-01
+   1.400000E+02   2.145807E-01
+   1.500000E+02   3.022946E-01
+   1.600000E+02   4.040133E-01
+   1.800000E+02   6.509312E-01
+   2.000000E+02   9.227545E-01

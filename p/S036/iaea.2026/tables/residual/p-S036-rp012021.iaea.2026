@@ -1,0 +1,36 @@
+# header: 
+#   title: S36(p,x)Mg21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 36
+#   nuclide: S36
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 21
+#     nuclide: Mg21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.082337E-09
+   1.300000E+02   2.146442E-07
+   1.400000E+02   2.946154E-06
+   1.500000E+02   1.291289E-05
+   1.600000E+02   3.390173E-05
+   1.800000E+02   1.214884E-04
+   2.000000E+02   2.629390E-04

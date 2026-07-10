@@ -1,0 +1,42 @@
+# header: 
+#   title: Br79(p,x)As69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 69
+#     nuclide: As69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.536891E-08
+   7.500000E+01   1.657779E-05
+   8.000000E+01   5.536966E-04
+   9.000000E+01   1.345212E-02
+   1.000000E+02   9.308819E-02
+   1.100000E+02   2.678891E-01
+   1.200000E+02   4.603694E-01
+   1.300000E+02   6.633333E-01
+   1.400000E+02   9.840765E-01
+   1.500000E+02   1.484599E+00
+   1.600000E+02   1.845840E+00
+   1.800000E+02   2.486038E+00
+   2.000000E+02   3.422961E+00

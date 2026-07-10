@@ -1,0 +1,51 @@
+# header: 
+#   title: Es255(p,x)Es250g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 250
+#     nuclide: Es250g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   6.112899E-09
+   4.000000E+01   4.177095E-07
+   4.500000E+01   1.635610E-06
+   5.000000E+01   2.714193E-06
+   5.500000E+01   4.883113E-06
+   6.000000E+01   1.079741E-05
+   6.500000E+01   2.161022E-05
+   7.000000E+01   3.482506E-05
+   7.500000E+01   6.067466E-05
+   8.000000E+01   7.413919E-05
+   9.000000E+01   1.509384E-04
+   1.000000E+02   1.714979E-04
+   1.100000E+02   2.845811E-04
+   1.200000E+02   1.878404E-04
+   1.300000E+02   3.137422E-04
+   1.400000E+02   4.000224E-04
+   1.500000E+02   4.285102E-04
+   1.600000E+02   8.663079E-04
+   1.800000E+02   3.907769E-04
+   2.000000E+02   7.459195E-04

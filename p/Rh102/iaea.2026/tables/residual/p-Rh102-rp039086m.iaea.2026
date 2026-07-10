@@ -1,0 +1,43 @@
+# header: 
+#   title: Rh102(p,x)Y86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.654594E-12
+   8.000000E+01   3.863819E-09
+   9.000000E+01   6.504143E-06
+   1.000000E+02   4.076917E-04
+   1.100000E+02   6.308855E-03
+   1.200000E+02   2.430548E-02
+   1.300000E+02   4.610880E-02
+   1.400000E+02   9.839900E-02
+   1.500000E+02   2.325260E-01
+   1.600000E+02   3.960083E-01
+   1.800000E+02   7.339397E-01
+   2.000000E+02   1.550958E+00

@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs134(p,x)I123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 123
+#     nuclide: I123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.164275E-11
+   7.000000E+01   7.068719E-07
+   7.500000E+01   5.537241E-04
+   8.000000E+01   2.036578E-02
+   9.000000E+01   7.492955E-01
+   1.000000E+02   7.482442E+00
+   1.100000E+02   1.323692E+01
+   1.200000E+02   8.853963E+00
+   1.300000E+02   6.995824E+00
+   1.400000E+02   1.037662E+01
+   1.500000E+02   1.272063E+01
+   1.600000E+02   1.702770E+01
+   1.800000E+02   1.701753E+01
+   2.000000E+02   1.910450E+01

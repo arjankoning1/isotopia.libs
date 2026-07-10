@@ -1,0 +1,35 @@
+# header: 
+#   title: Gd154(p,x)Eu138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 154
+#   nuclide: Gd154
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 138
+#     nuclide: Eu138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.430444E-11
+   1.400000E+02   1.372400E-07
+   1.500000E+02   1.899024E-05
+   1.600000E+02   3.295747E-04
+   1.800000E+02   7.431986E-03
+   2.000000E+02   6.757533E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Cu63(p,x)Co54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.224123E-08
+   7.000000E+01   1.307609E-05
+   7.500000E+01   3.048821E-04
+   8.000000E+01   1.654926E-03
+   9.000000E+01   1.335413E-02
+   1.000000E+02   4.426599E-02
+   1.100000E+02   7.441406E-02
+   1.200000E+02   9.481943E-02
+   1.300000E+02   1.104298E-01
+   1.400000E+02   1.248955E-01
+   1.500000E+02   1.336807E-01
+   1.600000E+02   1.443869E-01
+   1.800000E+02   1.529850E-01
+   2.000000E+02   1.844069E-01

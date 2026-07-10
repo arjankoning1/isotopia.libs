@@ -1,0 +1,49 @@
+# header: 
+#   title: Bk247(p,x)U235m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 247
+#   nuclide: Bk247
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.595995E-12
+   5.000000E+01   1.114332E-10
+   5.500000E+01   2.575702E-09
+   6.000000E+01   1.685251E-08
+   6.500000E+01   3.937302E-08
+   7.000000E+01   5.836366E-08
+   7.500000E+01   6.709362E-08
+   8.000000E+01   8.876642E-08
+   9.000000E+01   5.962327E-07
+   1.000000E+02   2.657777E-06
+   1.100000E+02   6.617597E-06
+   1.200000E+02   7.552119E-06
+   1.300000E+02   5.523194E-06
+   1.400000E+02   7.663262E-06
+   1.500000E+02   2.336292E-05
+   1.600000E+02   3.516290E-05
+   1.800000E+02   3.028526E-05
+   2.000000E+02   7.892293E-07

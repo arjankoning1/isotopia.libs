@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba133m(p,x)Sb118g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.162553E-12
+   7.000000E+01   2.091086E-08
+   7.500000E+01   7.184160E-06
+   8.000000E+01   3.067395E-04
+   9.000000E+01   9.575965E-03
+   1.000000E+02   1.618231E-02
+   1.100000E+02   2.023911E-02
+   1.200000E+02   5.553626E-02
+   1.300000E+02   6.587465E-02
+   1.400000E+02   7.011963E-02
+   1.500000E+02   7.556757E-02
+   1.600000E+02   1.008249E-01
+   1.800000E+02   1.318455E-01
+   2.000000E+02   1.171303E-01

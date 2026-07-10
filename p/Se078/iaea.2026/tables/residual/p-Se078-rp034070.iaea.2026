@@ -1,0 +1,40 @@
+# header: 
+#   title: Se78(p,x)Se70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 70
+#     nuclide: Se70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.490899E-09
+   9.000000E+01   4.023737E-05
+   1.000000E+02   7.769244E-04
+   1.100000E+02   4.452026E-03
+   1.200000E+02   1.304163E-02
+   1.300000E+02   2.275362E-02
+   1.400000E+02   3.155116E-02
+   1.500000E+02   3.431149E-02
+   1.600000E+02   3.686734E-02
+   1.800000E+02   4.897754E-02
+   2.000000E+02   5.425760E-02

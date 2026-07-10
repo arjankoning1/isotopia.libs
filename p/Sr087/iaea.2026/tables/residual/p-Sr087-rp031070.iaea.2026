@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr87(p,x)Ga70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.791782E-10
+   8.000000E+01   6.117017E-08
+   9.000000E+01   7.281697E-06
+   1.000000E+02   2.405739E-05
+   1.100000E+02   4.695793E-05
+   1.200000E+02   3.728899E-04
+   1.300000E+02   1.791877E-03
+   1.400000E+02   4.893207E-03
+   1.500000E+02   7.657384E-03
+   1.600000E+02   1.215069E-02
+   1.800000E+02   2.598386E-02
+   2.000000E+02   3.596086E-02

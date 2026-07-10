@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo93(p,x)Br78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 93
+#   nuclide: Mo93
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.404794E-11
+   6.000000E+01   6.895706E-09
+   6.500000E+01   2.314306E-07
+   7.000000E+01   1.677144E-06
+   7.500000E+01   4.885003E-06
+   8.000000E+01   7.708059E-06
+   9.000000E+01   9.634218E-06
+   1.000000E+02   1.275770E-04
+   1.100000E+02   1.646358E-03
+   1.200000E+02   5.374147E-03
+   1.300000E+02   9.745453E-03
+   1.400000E+02   1.556003E-02
+   1.500000E+02   3.525439E-02
+   1.600000E+02   6.007312E-02
+   1.800000E+02   7.363771E-02
+   2.000000E+02   1.589853E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe55(p,x)Ti49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 49
+#     nuclide: Ti49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.907541E-06
+   4.500000E+01   3.203590E-03
+   5.000000E+01   5.969892E-02
+   5.500000E+01   2.482730E-01
+   6.000000E+01   4.305148E-01
+   6.500000E+01   4.517200E-01
+   7.000000E+01   3.753137E-01
+   7.500000E+01   3.151231E-01
+   8.000000E+01   3.110623E-01
+   9.000000E+01   3.712634E-01
+   1.000000E+02   4.960424E-01
+   1.100000E+02   5.969743E-01
+   1.200000E+02   6.340485E-01
+   1.300000E+02   6.327906E-01
+   1.400000E+02   5.879543E-01
+   1.500000E+02   5.654034E-01
+   1.600000E+02   5.309436E-01
+   1.800000E+02   4.540362E-01
+   2.000000E+02   3.946161E-01

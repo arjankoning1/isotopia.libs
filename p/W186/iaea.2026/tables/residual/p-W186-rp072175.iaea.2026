@@ -1,0 +1,44 @@
+# header: 
+#   title: W186(p,x)Hf175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 175
+#     nuclide: Hf175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.369956E-09
+   6.500000E+01   3.455000E-06
+   7.000000E+01   3.761054E-04
+   7.500000E+01   5.726772E-03
+   8.000000E+01   3.494503E-02
+   9.000000E+01   5.598864E-01
+   1.000000E+02   1.483724E+00
+   1.100000E+02   1.640958E+00
+   1.200000E+02   2.017947E+00
+   1.300000E+02   3.047934E+00
+   1.400000E+02   3.250556E+00
+   1.500000E+02   4.037486E+00
+   1.600000E+02   4.844058E+00
+   1.800000E+02   5.404184E+00
+   2.000000E+02   5.972548E+00

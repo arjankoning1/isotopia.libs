@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc97m(p,x)Rb83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 97
+#   nuclide: Tc97m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.617065E-10
+   6.500000E+01   1.960992E-08
+   7.000000E+01   8.231913E-07
+   7.500000E+01   3.810063E-05
+   8.000000E+01   4.284771E-04
+   9.000000E+01   4.493173E-03
+   1.000000E+02   9.189986E-03
+   1.100000E+02   1.444785E-02
+   1.200000E+02   3.074824E-02
+   1.300000E+02   6.388483E-02
+   1.400000E+02   1.030821E-01
+   1.500000E+02   1.304584E-01
+   1.600000E+02   1.596781E-01
+   1.800000E+02   2.773746E-01
+   2.000000E+02   2.301950E-01

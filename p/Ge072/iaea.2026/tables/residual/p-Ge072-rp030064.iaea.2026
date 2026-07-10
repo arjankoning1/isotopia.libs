@@ -1,0 +1,48 @@
+# header: 
+#   title: Ge72(p,x)Zn64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 64
+#     nuclide: Zn64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.180895E-12
+   4.500000E+01   3.111736E-05
+   5.000000E+01   5.495889E-03
+   5.500000E+01   6.746706E-02
+   6.000000E+01   6.371693E-01
+   6.500000E+01   3.309418E+00
+   7.000000E+01   7.790172E+00
+   7.500000E+01   1.208057E+01
+   8.000000E+01   1.457555E+01
+   9.000000E+01   1.921271E+01
+   1.000000E+02   2.206589E+01
+   1.100000E+02   2.662141E+01
+   1.200000E+02   3.397473E+01
+   1.300000E+02   4.027444E+01
+   1.400000E+02   4.200500E+01
+   1.500000E+02   4.370067E+01
+   1.600000E+02   4.266176E+01
+   1.800000E+02   4.148264E+01
+   2.000000E+02   3.588300E+01

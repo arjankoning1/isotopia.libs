@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba135(p,x)Sb120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.939847E-10
+   7.500000E+01   1.289437E-07
+   8.000000E+01   7.556704E-06
+   9.000000E+01   3.577906E-04
+   1.000000E+02   9.485676E-04
+   1.100000E+02   9.814504E-04
+   1.200000E+02   4.804449E-03
+   1.300000E+02   2.193712E-02
+   1.400000E+02   3.617074E-02
+   1.500000E+02   4.515044E-02
+   1.600000E+02   6.268641E-02
+   1.800000E+02   6.781235E-02
+   2.000000E+02   7.204397E-02

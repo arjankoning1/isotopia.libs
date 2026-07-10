@@ -1,0 +1,39 @@
+# header: 
+#   title: Pu237(p,x)Th220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 237
+#   nuclide: Pu237
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 220
+#     nuclide: Th220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.210197E-08
+   1.000000E+02   7.758465E-06
+   1.100000E+02   2.386967E-03
+   1.200000E+02   4.185479E-02
+   1.300000E+02   2.889421E-01
+   1.400000E+02   6.114634E-01
+   1.500000E+02   6.940607E-01
+   1.600000E+02   7.056878E-01
+   1.800000E+02   9.234554E-01
+   2.000000E+02   5.996416E-01

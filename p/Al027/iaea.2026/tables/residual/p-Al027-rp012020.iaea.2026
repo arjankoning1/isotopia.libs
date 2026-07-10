@@ -1,0 +1,42 @@
+# header: 
+#   title: Al27(p,x)Mg20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 20
+#     nuclide: Mg20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.359597E-11
+   7.500000E+01   9.472389E-08
+   8.000000E+01   1.645946E-06
+   9.000000E+01   1.787141E-05
+   1.000000E+02   4.492966E-05
+   1.100000E+02   6.794812E-05
+   1.200000E+02   9.589933E-05
+   1.300000E+02   1.343724E-04
+   1.400000E+02   1.764757E-04
+   1.500000E+02   2.093292E-04
+   1.600000E+02   2.309708E-04
+   1.800000E+02   2.369710E-04
+   2.000000E+02   2.264786E-04

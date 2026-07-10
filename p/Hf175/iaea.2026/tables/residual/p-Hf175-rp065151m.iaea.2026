@@ -1,0 +1,38 @@
+# header: 
+#   title: Hf175(p,x)Tb151m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 175
+#   nuclide: Hf175
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 151
+#     nuclide: Tb151m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.592359E-10
+   1.300000E+02   3.420474E-06
+   1.400000E+02   7.105277E-04
+   1.500000E+02   1.704725E-02
+   1.600000E+02   4.778332E-02
+   1.800000E+02   1.378850E-01
+   2.000000E+02   6.975602E-01

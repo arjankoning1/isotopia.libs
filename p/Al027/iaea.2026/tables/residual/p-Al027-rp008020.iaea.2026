@@ -1,0 +1,44 @@
+# header: 
+#   title: Al27(p,x)O20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 20
+#     nuclide: O20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.585782E-09
+   6.500000E+01   1.508636E-06
+   7.000000E+01   2.567420E-05
+   7.500000E+01   1.243877E-04
+   8.000000E+01   3.111248E-04
+   9.000000E+01   7.802419E-04
+   1.000000E+02   1.361862E-03
+   1.100000E+02   2.231709E-03
+   1.200000E+02   3.277062E-03
+   1.300000E+02   4.156916E-03
+   1.400000E+02   4.714849E-03
+   1.500000E+02   4.984871E-03
+   1.600000E+02   5.067134E-03
+   1.800000E+02   4.865864E-03
+   2.000000E+02   4.625886E-03

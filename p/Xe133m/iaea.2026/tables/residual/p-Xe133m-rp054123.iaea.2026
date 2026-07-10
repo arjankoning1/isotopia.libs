@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe133m(p,x)Xe123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 123
+#     nuclide: Xe123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.363560E-12
+   9.000000E+01   3.028490E-03
+   1.000000E+02   1.011667E+00
+   1.100000E+02   7.113423E+00
+   1.200000E+02   1.450947E+01
+   1.300000E+02   1.968948E+01
+   1.400000E+02   2.359378E+01
+   1.500000E+02   2.725489E+01
+   1.600000E+02   2.911135E+01
+   1.800000E+02   2.849640E+01
+   2.000000E+02   2.672412E+01

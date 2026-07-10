@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr86(p,x)Ga69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 69
+#     nuclide: Ga69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.118245E-11
+   7.500000E+01   7.042388E-09
+   8.000000E+01   3.953573E-07
+   9.000000E+01   2.614981E-05
+   1.000000E+02   9.728509E-05
+   1.100000E+02   1.733444E-04
+   1.200000E+02   8.387181E-04
+   1.300000E+02   6.630234E-03
+   1.400000E+02   2.452055E-02
+   1.500000E+02   4.870569E-02
+   1.600000E+02   7.103789E-02
+   1.800000E+02   1.464650E-01
+   2.000000E+02   1.853186E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca40(p,x)Ar37 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Artun
+#   year: 1975
+#   subentry: O0807007
+#   X4 reaction: 20-CA-40(P,X)18-AR-37,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0807007
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+02   0.000000E+00   2.130000E+01   4.260000E+00   1.000000E+00
+   2.100000E+02   0.000000E+00   1.360000E+01   2.720000E+00   1.000000E+00
+   6.000000E+02   0.000000E+00   5.400000E+00   1.080000E+00   1.000000E+00
+# reference:
+#   author: O.Artun,Y.Cassagnou,R.Legrain,N.Lisbona,L.Roussel, J.P.Alard,A.Baldit,J.P.Costilhes,J.Fargeix,G.Roche, J.C.Tamain
+#   title: Multinucleon removal induced by high-energy protons
+#   journal: Jour: Physical Review Letters, Vol.35, p.773 (1975)

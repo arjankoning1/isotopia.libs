@@ -1,0 +1,37 @@
+# header: 
+#   title: Er166(p,x)Er153 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 166
+#   nuclide: Er166
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 153
+#     nuclide: Er153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.074122E-10
+   1.200000E+02   1.162689E-04
+   1.300000E+02   1.506486E-02
+   1.400000E+02   2.037321E-01
+   1.500000E+02   9.845669E-01
+   1.600000E+02   2.130425E+00
+   1.800000E+02   4.210660E+00
+   2.000000E+02   6.704868E+00

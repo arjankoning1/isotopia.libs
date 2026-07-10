@@ -1,0 +1,41 @@
+# header: 
+#   title: Ra224(p,x)Rn210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 210
+#     nuclide: Rn210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.782164E-08
+   8.000000E+01   2.247614E-05
+   9.000000E+01   1.079687E-02
+   1.000000E+02   3.265941E-01
+   1.100000E+02   2.541016E+00
+   1.200000E+02   6.719500E+00
+   1.300000E+02   1.350382E+01
+   1.400000E+02   1.476072E+01
+   1.500000E+02   1.452067E+01
+   1.600000E+02   1.665727E+01
+   1.800000E+02   1.733447E+01
+   2.000000E+02   2.076900E+01

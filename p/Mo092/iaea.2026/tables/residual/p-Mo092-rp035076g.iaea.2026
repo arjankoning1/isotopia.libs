@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo92(p,x)Br76g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.101173E-11
+   7.000000E+01   1.239932E-07
+   7.500000E+01   1.203683E-05
+   8.000000E+01   1.689033E-04
+   9.000000E+01   1.399040E-03
+   1.000000E+02   1.076504E-03
+   1.100000E+02   1.215066E-03
+   1.200000E+02   5.607860E-03
+   1.300000E+02   2.180887E-02
+   1.400000E+02   4.205681E-02
+   1.500000E+02   8.604940E-02
+   1.600000E+02   1.740237E-01
+   1.800000E+02   4.916105E-01
+   2.000000E+02   7.461371E-01

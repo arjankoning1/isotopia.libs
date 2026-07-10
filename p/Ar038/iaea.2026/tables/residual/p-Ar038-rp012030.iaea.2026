@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar38(p,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.976157E-11
+   9.000000E+01   4.319758E-08
+   1.000000E+02   9.078327E-07
+   1.100000E+02   3.434757E-06
+   1.200000E+02   6.139567E-06
+   1.300000E+02   8.218278E-06
+   1.400000E+02   1.043308E-05
+   1.500000E+02   1.319843E-05
+   1.600000E+02   1.623235E-05
+   1.800000E+02   2.097819E-05
+   2.000000E+02   2.140104E-05

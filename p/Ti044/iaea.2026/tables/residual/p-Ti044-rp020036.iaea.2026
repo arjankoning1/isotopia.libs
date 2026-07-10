@@ -1,0 +1,42 @@
+# header: 
+#   title: Ti44(p,x)Ca36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 36
+#     nuclide: Ca36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.345136E-09
+   7.500000E+01   2.666165E-07
+   8.000000E+01   1.690442E-06
+   9.000000E+01   8.665875E-06
+   1.000000E+02   2.508202E-05
+   1.100000E+02   4.537624E-05
+   1.200000E+02   6.177731E-05
+   1.300000E+02   7.524013E-05
+   1.400000E+02   8.932484E-05
+   1.500000E+02   1.025422E-04
+   1.600000E+02   1.158228E-04
+   1.800000E+02   1.247481E-04
+   2.000000E+02   1.300537E-04

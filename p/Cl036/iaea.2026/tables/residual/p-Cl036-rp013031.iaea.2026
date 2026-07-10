@@ -1,0 +1,45 @@
+# header: 
+#   title: Cl36(p,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.037610E-11
+   6.000000E+01   1.220537E-07
+   6.500000E+01   3.842416E-06
+   7.000000E+01   2.083915E-05
+   7.500000E+01   5.786666E-05
+   8.000000E+01   1.339930E-04
+   9.000000E+01   5.413655E-04
+   1.000000E+02   1.201866E-03
+   1.100000E+02   1.810182E-03
+   1.200000E+02   2.267021E-03
+   1.300000E+02   2.571936E-03
+   1.400000E+02   2.752792E-03
+   1.500000E+02   2.880213E-03
+   1.600000E+02   2.909976E-03
+   1.800000E+02   2.888696E-03
+   2.000000E+02   2.729460E-03

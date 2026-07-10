@@ -1,0 +1,45 @@
+# header: 
+#   title: Ag110m(p,x)Tc98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.229537E-10
+   6.000000E+01   8.473859E-07
+   6.500000E+01   6.194783E-05
+   7.000000E+01   1.020839E-03
+   7.500000E+01   1.482502E-02
+   8.000000E+01   9.744940E-02
+   9.000000E+01   3.993704E-01
+   1.000000E+02   3.870919E-01
+   1.100000E+02   4.342975E-01
+   1.200000E+02   5.458007E-01
+   1.300000E+02   8.811456E-01
+   1.400000E+02   1.061743E+00
+   1.500000E+02   1.126374E+00
+   1.600000E+02   1.342161E+00
+   1.800000E+02   1.031283E+00
+   2.000000E+02   9.825506E-01

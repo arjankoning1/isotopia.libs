@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu63(p,n')Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Albert
+#   year: 1961
+#   subentry: C2006002
+#   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2006002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.850000E+00   0.000000E+00   5.100001E+02   3.570000E+01   1.000000E+00
+# reference:
+#   author: R.D.Albert,L.F.Hansen
+#   title: 10-MeV proton reaction cross sections for Cu63 and Cu65
+#   journal: Jour: Physical Review Letters, Vol.6, p.13 (1961)

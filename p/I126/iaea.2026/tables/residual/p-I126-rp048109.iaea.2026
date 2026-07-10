@@ -1,0 +1,39 @@
+# header: 
+#   title: I126(p,x)Cd109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 109
+#     nuclide: Cd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.446621E-08
+   1.000000E+02   1.164461E-04
+   1.100000E+02   2.560765E-03
+   1.200000E+02   8.505411E-03
+   1.300000E+02   1.726103E-02
+   1.400000E+02   7.561523E-02
+   1.500000E+02   2.416511E-01
+   1.600000E+02   5.394531E-01
+   1.800000E+02   1.220757E+00
+   2.000000E+02   1.620683E+00

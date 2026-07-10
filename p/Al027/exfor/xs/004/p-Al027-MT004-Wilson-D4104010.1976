@@ -1,0 +1,40 @@
+# header: 
+#   title: Al27(p,n')Si27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wilson
+#   year: 1976
+#   subentry: D4104010
+#   X4 reaction: 13-AL-27(P,N)14-SI-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4104010
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.375000E+01   2.500000E-01   1.520000E+02   1.500000E+01   1.000000E+00
+   1.820000E+01   2.000000E-01   1.060000E+02   1.100000E+01   1.000000E+00
+   2.210000E+01   4.000000E-01   4.270000E+01   6.500000E+00   1.000000E+00
+   2.635000E+01   3.500000E-01   4.110000E+01   7.100000E+00   1.000000E+00
+# reference:
+#   author: R.L.Wilson,D.J.Frantsvog,A.R.Kunselman,C.Detraz, C.S.Zasdins
+#   title: Excitation functions of reactions induced by 1H and 2H ions on natural Mg, Al and Si
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.13, p.976 (1976)

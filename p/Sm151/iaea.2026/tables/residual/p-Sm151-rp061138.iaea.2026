@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm151(p,x)Pm138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 151
+#   nuclide: Sm151
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 138
+#     nuclide: Pm138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.835462E-09
+   1.000000E+02   2.277787E-03
+   1.100000E+02   3.895817E-01
+   1.200000E+02   2.264896E+00
+   1.300000E+02   3.840947E+00
+   1.400000E+02   5.538599E+00
+   1.500000E+02   8.351429E+00
+   1.600000E+02   1.214847E+01
+   1.800000E+02   2.239401E+01
+   2.000000E+02   2.512102E+01

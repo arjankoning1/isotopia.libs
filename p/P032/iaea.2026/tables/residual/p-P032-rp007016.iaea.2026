@@ -1,0 +1,44 @@
+# header: 
+#   title: P32(p,x)N16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.428593E-10
+   6.500000E+01   1.549881E-06
+   7.000000E+01   6.101728E-05
+   7.500000E+01   4.290354E-04
+   8.000000E+01   1.278976E-03
+   9.000000E+01   3.457229E-03
+   1.000000E+02   5.405172E-03
+   1.100000E+02   1.005906E-02
+   1.200000E+02   1.921300E-02
+   1.300000E+02   3.055950E-02
+   1.400000E+02   4.436403E-02
+   1.500000E+02   6.158004E-02
+   1.600000E+02   8.588462E-02
+   1.800000E+02   1.438432E-01
+   2.000000E+02   2.069195E-01

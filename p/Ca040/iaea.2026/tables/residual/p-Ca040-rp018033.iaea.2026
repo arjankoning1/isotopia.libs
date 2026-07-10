@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca40(p,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.246721E-07
+   6.000000E+01   3.599661E-05
+   6.500000E+01   1.821407E-04
+   7.000000E+01   4.364057E-04
+   7.500000E+01   8.966105E-04
+   8.000000E+01   1.654332E-03
+   9.000000E+01   3.296892E-03
+   1.000000E+02   4.228418E-03
+   1.100000E+02   4.827300E-03
+   1.200000E+02   5.431678E-03
+   1.300000E+02   6.039705E-03
+   1.400000E+02   6.571054E-03
+   1.500000E+02   6.961844E-03
+   1.600000E+02   7.237486E-03
+   1.800000E+02   7.367791E-03
+   2.000000E+02   7.272888E-03

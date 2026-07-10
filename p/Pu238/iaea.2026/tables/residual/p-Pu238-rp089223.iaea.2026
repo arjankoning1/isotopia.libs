@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu238(p,x)Ac223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 223
+#     nuclide: Ac223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.667066E-07
+   6.500000E+01   1.044604E-07
+   7.000000E+01   2.074424E-05
+   7.500000E+01   1.874891E-03
+   8.000000E+01   5.973267E-03
+   9.000000E+01   2.887218E-02
+   1.000000E+02   4.083443E-02
+   1.100000E+02   3.515628E-02
+   1.200000E+02   4.549278E-02
+   1.300000E+02   7.719249E-02
+   1.400000E+02   1.057139E-01
+   1.500000E+02   1.265666E-01
+   1.600000E+02   1.610531E-01
+   1.800000E+02   6.478922E-02
+   2.000000E+02   9.519477E-02

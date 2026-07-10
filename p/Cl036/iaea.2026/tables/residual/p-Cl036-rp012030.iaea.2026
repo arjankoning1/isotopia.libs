@@ -1,0 +1,41 @@
+# header: 
+#   title: Cl36(p,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.124401E-12
+   8.000000E+01   6.752044E-10
+   9.000000E+01   7.429006E-08
+   1.000000E+02   6.060360E-07
+   1.100000E+02   2.368679E-06
+   1.200000E+02   6.106301E-06
+   1.300000E+02   1.115934E-05
+   1.400000E+02   1.585250E-05
+   1.500000E+02   1.982981E-05
+   1.600000E+02   2.263651E-05
+   1.800000E+02   2.584449E-05
+   2.000000E+02   2.726031E-05

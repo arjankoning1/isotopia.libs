@@ -1,0 +1,38 @@
+# header: 
+#   title: Ir192(p,x)Ir180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 180
+#     nuclide: Ir180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.668370E-07
+   1.100000E+02   4.944010E-03
+   1.200000E+02   5.456143E-01
+   1.300000E+02   5.181809E+00
+   1.400000E+02   1.798018E+01
+   1.500000E+02   2.920044E+01
+   1.600000E+02   2.930860E+01
+   1.800000E+02   2.393377E+01
+   2.000000E+02   2.164972E+01

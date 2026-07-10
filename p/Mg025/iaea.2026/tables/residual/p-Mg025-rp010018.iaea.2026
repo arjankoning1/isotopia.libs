@@ -1,0 +1,47 @@
+# header: 
+#   title: Mg25(p,x)Ne18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 18
+#     nuclide: Ne18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.376406E-05
+   5.000000E+01   1.651333E-03
+   5.500000E+01   1.139605E-02
+   6.000000E+01   4.118560E-02
+   6.500000E+01   1.199226E-01
+   7.000000E+01   2.517746E-01
+   7.500000E+01   4.011086E-01
+   8.000000E+01   5.294849E-01
+   9.000000E+01   6.847934E-01
+   1.000000E+02   7.785247E-01
+   1.100000E+02   8.635889E-01
+   1.200000E+02   9.649471E-01
+   1.300000E+02   1.045893E+00
+   1.400000E+02   1.095114E+00
+   1.500000E+02   1.106848E+00
+   1.600000E+02   1.092400E+00
+   1.800000E+02   1.028172E+00
+   2.000000E+02   9.318674E-01

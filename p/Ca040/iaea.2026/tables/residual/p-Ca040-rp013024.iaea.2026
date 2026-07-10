@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca40(p,x)Al24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.529925E-11
+   7.500000E+01   2.134249E-08
+   8.000000E+01   6.925587E-07
+   9.000000E+01   1.506887E-05
+   1.000000E+02   4.255516E-05
+   1.100000E+02   1.052963E-04
+   1.200000E+02   4.590586E-04
+   1.300000E+02   1.524769E-03
+   1.400000E+02   3.650951E-03
+   1.500000E+02   7.603848E-03
+   1.600000E+02   1.499227E-02
+   1.800000E+02   4.570859E-02
+   2.000000E+02   1.004024E-01

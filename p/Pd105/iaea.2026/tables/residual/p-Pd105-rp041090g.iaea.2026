@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd105(p,x)Nb90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.679271E-08
+   7.500000E+01   1.797342E-05
+   8.000000E+01   1.224733E-03
+   9.000000E+01   4.298095E-02
+   1.000000E+02   6.849385E-02
+   1.100000E+02   5.505587E-02
+   1.200000E+02   1.199166E-01
+   1.300000E+02   4.724935E-01
+   1.400000E+02   1.145735E+00
+   1.500000E+02   2.112476E+00
+   1.600000E+02   3.402526E+00
+   1.800000E+02   6.502287E+00
+   2.000000E+02   1.016686E+01

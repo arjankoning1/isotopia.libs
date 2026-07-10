@@ -1,0 +1,48 @@
+# header: 
+#   title: Sn126(p,x)Cd117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 126
+#   nuclide: Sn126
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 117
+#     nuclide: Cd117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.817284E-09
+   5.500000E+01   3.303519E-05
+   6.000000E+01   1.747833E-03
+   6.500000E+01   1.153184E-02
+   7.000000E+01   4.512196E-02
+   7.500000E+01   1.458214E-01
+   8.000000E+01   3.168275E-01
+   9.000000E+01   5.942672E-01
+   1.000000E+02   6.328278E-01
+   1.100000E+02   6.384234E-01
+   1.200000E+02   6.487498E-01
+   1.300000E+02   9.174440E-01
+   1.400000E+02   1.208345E+00
+   1.500000E+02   1.225200E+00
+   1.600000E+02   1.461618E+00
+   1.800000E+02   2.560682E+00
+   2.000000E+02   2.592505E+00

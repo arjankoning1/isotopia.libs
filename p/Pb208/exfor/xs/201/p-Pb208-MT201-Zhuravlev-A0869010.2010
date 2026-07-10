@@ -1,0 +1,34 @@
+# header: 
+#   title: Pb208(p,xn) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zhuravlev
+#   year: 2010
+#   subentry: A0869010
+#   X4 reaction: 82-PB-208(P,X)0-NN-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0869010
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (p,xn)
+#   ENDF_MF: 3
+#   ENDF_MT: 201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.020000E+01   0.000000E+00   1.670000E+02   1.670000E+01   1.000000E+00
+   1.116000E+01   0.000000E+00   2.850000E+02   2.850000E+01   1.000000E+00
+# reference:
+#   author: B.V.Zhuravlev, A.A.Lychagin, N.N.Titarenko, V.G.Demenkov, V.I.Trykova
+#   title: Nuclear level densities in Bi-208 and Po-209 from the neutron spectra in the (p,n) reactions on Pb-208 and Bi-209 nuclei.
+#   journal: Jour: Yadernaya Fizika, Vol.73, p.1150 (2010)

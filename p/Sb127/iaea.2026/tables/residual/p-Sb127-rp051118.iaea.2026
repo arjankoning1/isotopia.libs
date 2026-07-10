@@ -1,0 +1,42 @@
+# header: 
+#   title: Sb127(p,x)Sb118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 127
+#   nuclide: Sb127
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.567202E-09
+   7.500000E+01   1.527672E-04
+   8.000000E+01   1.909254E-02
+   9.000000E+01   1.243868E+00
+   1.000000E+02   1.002222E+01
+   1.100000E+02   2.902773E+01
+   1.200000E+02   4.195830E+01
+   1.300000E+02   4.725430E+01
+   1.400000E+02   4.734781E+01
+   1.500000E+02   4.663169E+01
+   1.600000E+02   4.339581E+01
+   1.800000E+02   3.687480E+01
+   2.000000E+02   4.590937E+01

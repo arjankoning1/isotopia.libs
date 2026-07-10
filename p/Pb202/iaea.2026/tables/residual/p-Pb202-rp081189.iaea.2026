@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb202(p,x)Tl189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 189
+#     nuclide: Tl189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.220879E-12
+   1.000000E+02   1.519478E-06
+   1.100000E+02   3.648925E-02
+   1.200000E+02   2.937114E+00
+   1.300000E+02   1.190335E+01
+   1.400000E+02   1.241289E+01
+   1.500000E+02   9.285288E+00
+   1.600000E+02   9.659532E+00
+   1.800000E+02   1.491751E+01
+   2.000000E+02   1.803128E+01

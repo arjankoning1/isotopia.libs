@@ -1,0 +1,40 @@
+# header: 
+#   title: Cf249(p,x)Pa231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 249
+#   nuclide: Cf249
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 231
+#     nuclide: Pa231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.311714E-11
+   9.000000E+01   2.817705E-08
+   1.000000E+02   4.195848E-07
+   1.100000E+02   8.239581E-07
+   1.200000E+02   1.545949E-06
+   1.300000E+02   7.474316E-06
+   1.400000E+02   1.386886E-05
+   1.500000E+02   1.464127E-05
+   1.600000E+02   1.542899E-05
+   1.800000E+02   1.368732E-05
+   2.000000E+02   3.080575E-05

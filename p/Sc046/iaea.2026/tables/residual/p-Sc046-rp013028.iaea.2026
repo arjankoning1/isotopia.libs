@@ -1,0 +1,42 @@
+# header: 
+#   title: Sc46(p,x)Al28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.118935E-12
+   7.500000E+01   1.108470E-09
+   8.000000E+01   5.534974E-08
+   9.000000E+01   2.070767E-05
+   1.000000E+02   5.508813E-04
+   1.100000E+02   2.570042E-03
+   1.200000E+02   5.574363E-03
+   1.300000E+02   1.065499E-02
+   1.400000E+02   2.070569E-02
+   1.500000E+02   4.801814E-02
+   1.600000E+02   9.513774E-02
+   1.800000E+02   3.037222E-01
+   2.000000E+02   7.473449E-01

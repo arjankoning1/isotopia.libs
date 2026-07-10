@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm149(p,x)Eu141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 149
+#   nuclide: Sm149
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 141
+#     nuclide: Eu141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.163577E-07
+   8.000000E+01   5.556338E-03
+   9.000000E+01   1.920277E+00
+   1.000000E+02   7.297144E+00
+   1.100000E+02   6.998025E+00
+   1.200000E+02   4.969201E+00
+   1.300000E+02   3.734001E+00
+   1.400000E+02   3.315011E+00
+   1.500000E+02   2.895820E+00
+   1.600000E+02   2.645913E+00
+   1.800000E+02   2.063871E+00
+   2.000000E+02   2.046021E+00

@@ -1,0 +1,51 @@
+# header: 
+#   title: Sn126(p,x)Sn121g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 126
+#   nuclide: Sn126
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   3.300780E-05
+   4.000000E+01   4.656041E-02
+   4.500000E+01   4.559112E-01
+   5.000000E+01   1.596415E+00
+   5.500000E+01   5.467742E+00
+   6.000000E+01   1.376033E+01
+   6.500000E+01   2.338064E+01
+   7.000000E+01   2.970484E+01
+   7.500000E+01   3.331166E+01
+   8.000000E+01   3.491047E+01
+   9.000000E+01   3.547325E+01
+   1.000000E+02   3.466646E+01
+   1.100000E+02   3.187679E+01
+   1.200000E+02   3.081947E+01
+   1.300000E+02   3.068720E+01
+   1.400000E+02   2.899699E+01
+   1.500000E+02   2.698518E+01
+   1.600000E+02   2.664000E+01
+   1.800000E+02   2.412674E+01
+   2.000000E+02   2.456599E+01

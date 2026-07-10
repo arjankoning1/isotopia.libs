@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti44(p,x)Sc38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 38
+#     nuclide: Sc38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.569943E-11
+   6.500000E+01   1.023583E-07
+   7.000000E+01   2.023641E-06
+   7.500000E+01   6.479695E-06
+   8.000000E+01   1.060884E-05
+   9.000000E+01   1.398452E-05
+   1.000000E+02   1.586537E-05
+   1.100000E+02   2.111768E-05
+   1.200000E+02   2.974093E-05
+   1.300000E+02   3.882154E-05
+   1.400000E+02   4.623224E-05
+   1.500000E+02   5.174641E-05
+   1.600000E+02   5.469521E-05
+   1.800000E+02   5.972980E-05
+   2.000000E+02   6.227577E-05

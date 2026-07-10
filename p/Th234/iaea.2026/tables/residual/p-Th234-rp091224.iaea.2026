@@ -1,0 +1,41 @@
+# header: 
+#   title: Th234(p,x)Pa224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 224
+#     nuclide: Pa224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.370830E-09
+   8.000000E+01   1.885522E-06
+   9.000000E+01   1.248341E-03
+   1.000000E+02   2.074327E-02
+   1.100000E+02   6.824057E-02
+   1.200000E+02   1.036084E-01
+   1.300000E+02   9.415681E-02
+   1.400000E+02   1.575216E-01
+   1.500000E+02   1.321104E-01
+   1.600000E+02   2.287585E-01
+   1.800000E+02   2.115544E-01
+   2.000000E+02   4.030587E-01

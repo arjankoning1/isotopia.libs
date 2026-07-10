@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd105(p,x)Tc93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 93
+#     nuclide: Tc93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.114798E-12
+   6.500000E+01   1.377690E-07
+   7.000000E+01   8.066724E-05
+   7.500000E+01   3.054793E-03
+   8.000000E+01   1.980019E-02
+   9.000000E+01   6.218171E-02
+   1.000000E+02   5.395006E-02
+   1.100000E+02   6.446996E-02
+   1.200000E+02   1.636958E-01
+   1.300000E+02   4.654723E-01
+   1.400000E+02   7.564644E-01
+   1.500000E+02   1.118874E+00
+   1.600000E+02   1.603320E+00
+   1.800000E+02   2.423632E+00
+   2.000000E+02   2.818383E+00

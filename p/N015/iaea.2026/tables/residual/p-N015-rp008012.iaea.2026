@@ -1,0 +1,43 @@
+# header: 
+#   title: N15(p,x)O12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 7
+#   A: 15
+#   nuclide: N15
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 12
+#     nuclide: O12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.124647E-07
+   7.000000E+01   9.572129E-06
+   7.500000E+01   4.087728E-05
+   8.000000E+01   7.946492E-05
+   9.000000E+01   1.262517E-04
+   1.000000E+02   1.235851E-04
+   1.100000E+02   1.084015E-04
+   1.200000E+02   9.297567E-05
+   1.300000E+02   7.892224E-05
+   1.400000E+02   6.958370E-05
+   1.500000E+02   6.448675E-05
+   1.600000E+02   5.961297E-05
+   1.800000E+02   5.418796E-05
+   2.000000E+02   5.251202E-05

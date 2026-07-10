@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu63(p,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Humes
+#   year: 1963
+#   subentry: B0061005
+#   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0061005
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.750000E+00   0.000000E+00   2.390000E+02   1.300000E+01   1.000000E+00
+# reference:
+#   author: R.M.HUMES, G.F.DELL JR, W.D.PLOUGHE, H.J.HAUSMAN
+#   title: (P,N) Cross Sections at 6.75 MeV.
+#   journal: Jour: Physical Review, Vol.130, p.1522 (1963)

@@ -1,0 +1,42 @@
+# header: 
+#   title: Cl35(p,x)S28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 28
+#     nuclide: S28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.188270E-10
+   7.500000E+01   1.041537E-07
+   8.000000E+01   2.021575E-06
+   9.000000E+01   1.847564E-05
+   1.000000E+02   3.581562E-05
+   1.100000E+02   4.505199E-05
+   1.200000E+02   5.581228E-05
+   1.300000E+02   7.184565E-05
+   1.400000E+02   8.717145E-05
+   1.500000E+02   1.002516E-04
+   1.600000E+02   1.079935E-04
+   1.800000E+02   1.158543E-04
+   2.000000E+02   1.174753E-04

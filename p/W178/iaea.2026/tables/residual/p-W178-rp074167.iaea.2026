@@ -1,0 +1,38 @@
+# header: 
+#   title: W178(p,x)W167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 178
+#   nuclide: W178
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 167
+#     nuclide: W167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.412257E-08
+   1.100000E+02   1.214943E-03
+   1.200000E+02   9.302540E-02
+   1.300000E+02   1.248568E+00
+   1.400000E+02   4.507761E+00
+   1.500000E+02   6.645283E+00
+   1.600000E+02   7.152654E+00
+   1.800000E+02   8.978064E+00
+   2.000000E+02   1.190018E+01

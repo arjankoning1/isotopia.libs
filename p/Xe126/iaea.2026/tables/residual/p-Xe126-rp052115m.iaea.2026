@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe126(p,x)Te115m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 126
+#   nuclide: Xe126
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.503798E-11
+   8.000000E+01   1.507209E-07
+   9.000000E+01   2.649064E-04
+   1.000000E+02   9.236682E-03
+   1.100000E+02   6.402828E-02
+   1.200000E+02   1.235212E-01
+   1.300000E+02   1.637494E-01
+   1.400000E+02   2.129665E-01
+   1.500000E+02   3.211862E-01
+   1.600000E+02   3.893050E-01
+   1.800000E+02   6.449869E-01
+   2.000000E+02   6.862712E-01

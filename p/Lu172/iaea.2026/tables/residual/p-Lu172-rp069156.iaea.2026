@@ -1,0 +1,36 @@
+# header: 
+#   title: Lu172(p,x)Tm156 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 172
+#   nuclide: Lu172
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 156
+#     nuclide: Tm156
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.708016E-07
+   1.300000E+02   1.381584E-03
+   1.400000E+02   1.264948E-01
+   1.500000E+02   1.057424E+00
+   1.600000E+02   2.873928E+00
+   1.800000E+02   8.362805E+00
+   2.000000E+02   1.487736E+01

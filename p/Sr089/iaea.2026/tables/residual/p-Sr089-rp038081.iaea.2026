@@ -1,0 +1,40 @@
+# header: 
+#   title: Sr89(p,x)Sr81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 81
+#     nuclide: Sr81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.149752E-06
+   9.000000E+01   1.845997E-02
+   1.000000E+02   2.581421E-01
+   1.100000E+02   1.054936E+00
+   1.200000E+02   2.402002E+00
+   1.300000E+02   3.369077E+00
+   1.400000E+02   3.938827E+00
+   1.500000E+02   4.125765E+00
+   1.600000E+02   4.032670E+00
+   1.800000E+02   4.136189E+00
+   2.000000E+02   3.685295E+00

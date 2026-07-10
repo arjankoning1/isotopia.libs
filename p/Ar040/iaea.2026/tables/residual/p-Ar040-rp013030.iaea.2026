@@ -1,0 +1,47 @@
+# header: 
+#   title: Ar40(p,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   8.291294E-10
+   5.000000E+01   6.157153E-06
+   5.500000E+01   1.628229E-04
+   6.000000E+01   7.182452E-04
+   6.500000E+01   2.466215E-03
+   7.000000E+01   7.775644E-03
+   7.500000E+01   1.596486E-02
+   8.000000E+01   2.398794E-02
+   9.000000E+01   3.282237E-02
+   1.000000E+02   4.405325E-02
+   1.100000E+02   6.937651E-02
+   1.200000E+02   1.000274E-01
+   1.300000E+02   1.315326E-01
+   1.400000E+02   1.478498E-01
+   1.500000E+02   1.625473E-01
+   1.600000E+02   1.760814E-01
+   1.800000E+02   1.749506E-01
+   2.000000E+02   1.647142E-01

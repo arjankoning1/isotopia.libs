@@ -1,0 +1,43 @@
+# header: 
+#   title: Pu236(p,x)Ac220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 220
+#     nuclide: Ac220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.565677E-12
+   7.000000E+01   3.775769E-09
+   7.500000E+01   2.009471E-06
+   8.000000E+01   2.227592E-04
+   9.000000E+01   1.379813E-02
+   1.000000E+02   1.040531E-01
+   1.100000E+02   1.309413E-01
+   1.200000E+02   1.593600E-01
+   1.300000E+02   1.509842E-01
+   1.400000E+02   1.885881E-01
+   1.500000E+02   2.518882E-01
+   1.600000E+02   2.770990E-01
+   1.800000E+02   6.764226E-01
+   2.000000E+02   5.137182E-01

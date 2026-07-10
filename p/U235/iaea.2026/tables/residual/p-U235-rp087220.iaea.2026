@@ -1,0 +1,45 @@
+# header: 
+#   title: U235(p,x)Fr220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 220
+#     nuclide: Fr220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.801636E-12
+   6.000000E+01   1.178120E-08
+   6.500000E+01   1.482985E-06
+   7.000000E+01   5.852710E-05
+   7.500000E+01   1.244478E-03
+   8.000000E+01   5.400827E-03
+   9.000000E+01   1.631466E-02
+   1.000000E+02   1.207812E-02
+   1.100000E+02   2.702704E-02
+   1.200000E+02   4.529171E-02
+   1.300000E+02   7.742922E-02
+   1.400000E+02   1.072210E-01
+   1.500000E+02   9.585781E-02
+   1.600000E+02   1.713586E-01
+   1.800000E+02   8.949475E-02
+   2.000000E+02   1.381384E-01

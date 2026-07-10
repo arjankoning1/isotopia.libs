@@ -1,0 +1,42 @@
+# header: 
+#   title: P31(p,x)Mg21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 21
+#     nuclide: Mg21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.392073E-08
+   7.500000E+01   4.217331E-06
+   8.000000E+01   6.080568E-05
+   9.000000E+01   6.182352E-04
+   1.000000E+02   1.374195E-03
+   1.100000E+02   2.041851E-03
+   1.200000E+02   3.344093E-03
+   1.300000E+02   5.403151E-03
+   1.400000E+02   7.315182E-03
+   1.500000E+02   9.421929E-03
+   1.600000E+02   1.104046E-02
+   1.800000E+02   1.271649E-02
+   2.000000E+02   1.318393E-02

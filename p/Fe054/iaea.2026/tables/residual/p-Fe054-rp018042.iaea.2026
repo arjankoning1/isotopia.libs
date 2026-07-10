@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe54(p,x)Ar42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 42
+#     nuclide: Ar42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.558476E-12
+   1.000000E+02   2.277312E-08
+   1.100000E+02   1.779453E-06
+   1.200000E+02   1.651664E-05
+   1.300000E+02   5.656186E-05
+   1.400000E+02   8.797259E-05
+   1.500000E+02   1.174917E-04
+   1.600000E+02   2.173681E-04
+   1.800000E+02   4.756616E-04
+   2.000000E+02   9.444846E-04

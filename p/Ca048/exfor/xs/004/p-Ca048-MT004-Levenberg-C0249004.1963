@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca48(p,n')Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levenberg
+#   year: 1963
+#   subentry: C0249004
+#   X4 reaction: 20-CA-48(P,N)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0249004
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+02   0.000000E+00   7.791700E+00   2.996800E-01   9.989370E-01
+   2.000000E+02   0.000000E+00   4.695000E+00   1.198700E+00   9.989370E-01
+   3.000000E+02   0.000000E+00   4.095600E+00   2.996800E-01   9.989370E-01
+   4.000000E+02   0.000000E+00   3.596200E+00   9.989400E-02   9.989370E-01
+   5.000000E+02   0.000000E+00   3.895900E+00   1.997900E-01   9.989370E-01
+   6.000000E+02   0.000000E+00   2.197700E+00   1.997900E-01   9.989370E-01
+   6.600000E+02   0.000000E+00   2.597200E+00   9.989400E-02   9.989370E-01
+# reference:
+#   author: I.Levenberg,V.Pokrovsky,I.Yutlandov,Rhen De-Hou, L.Tarasova
+#   title: Simple nuclear reactions on Ca48 induced by high energy  protons
+#   journal: Jour: Nuclear Physics, Vol.41, p.504 (1963)

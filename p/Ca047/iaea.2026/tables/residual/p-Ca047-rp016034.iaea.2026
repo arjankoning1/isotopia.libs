@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca47(p,x)S34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 34
+#     nuclide: S34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.303732E-12
+   6.500000E+01   2.456643E-06
+   7.000000E+01   3.673609E-04
+   7.500000E+01   3.463265E-03
+   8.000000E+01   1.766207E-02
+   9.000000E+01   2.274470E-01
+   1.000000E+02   1.169114E+00
+   1.100000E+02   2.608146E+00
+   1.200000E+02   4.117813E+00
+   1.300000E+02   5.804145E+00
+   1.400000E+02   8.692339E+00
+   1.500000E+02   1.155948E+01
+   1.600000E+02   1.470236E+01
+   1.800000E+02   1.979238E+01
+   2.000000E+02   2.180877E+01

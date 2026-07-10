@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca47(p,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.359426E-12
+   6.500000E+01   1.699130E-06
+   7.000000E+01   5.809948E-04
+   7.500000E+01   7.208518E-03
+   8.000000E+01   2.815399E-02
+   9.000000E+01   1.673539E-01
+   1.000000E+02   3.486928E-01
+   1.100000E+02   6.758333E-01
+   1.200000E+02   1.463439E+00
+   1.300000E+02   3.208140E+00
+   1.400000E+02   5.047657E+00
+   1.500000E+02   6.601832E+00
+   1.600000E+02   7.919312E+00
+   1.800000E+02   1.220221E+01
+   2.000000E+02   1.240952E+01

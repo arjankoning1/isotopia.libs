@@ -1,0 +1,39 @@
+# header: 
+#   title: Rb87(p,x)Rb78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 78
+#     nuclide: Rb78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.334933E-08
+   1.000000E+02   1.222023E-03
+   1.100000E+02   3.645208E-02
+   1.200000E+02   2.492120E-01
+   1.300000E+02   7.515922E-01
+   1.400000E+02   1.394943E+00
+   1.500000E+02   1.859473E+00
+   1.600000E+02   2.558626E+00
+   1.800000E+02   2.975579E+00
+   2.000000E+02   3.811074E+00

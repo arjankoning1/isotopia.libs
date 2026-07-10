@@ -1,0 +1,51 @@
+# header: 
+#   title: Pb203(p,x)Au194n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.690590E-10
+   4.000000E+01   7.605680E-07
+   4.500000E+01   8.730979E-05
+   5.000000E+01   1.439278E-03
+   5.500000E+01   5.660763E-03
+   6.000000E+01   8.765962E-03
+   6.500000E+01   7.637723E-03
+   7.000000E+01   6.744226E-03
+   7.500000E+01   5.986617E-03
+   8.000000E+01   9.907507E-03
+   9.000000E+01   2.731391E-02
+   1.000000E+02   4.079361E-02
+   1.100000E+02   4.350404E-02
+   1.200000E+02   2.784396E-02
+   1.300000E+02   3.149267E-02
+   1.400000E+02   3.626658E-02
+   1.500000E+02   3.923995E-02
+   1.600000E+02   4.105961E-02
+   1.800000E+02   3.095132E-02
+   2.000000E+02   4.281665E-02

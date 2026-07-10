@@ -1,0 +1,46 @@
+# header: 
+#   title: Md260(p,x)Bk250 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 101
+#   A: 260
+#   nuclide: Md260
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 97
+#     A: 250
+#     nuclide: Bk250
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.478914E-13
+   5.500000E+01   1.824883E-12
+   6.000000E+01   3.463800E-11
+   6.500000E+01   2.579304E-10
+   7.000000E+01   7.759215E-10
+   7.500000E+01   1.478233E-09
+   8.000000E+01   1.456289E-09
+   9.000000E+01   1.879590E-09
+   1.000000E+02   3.822343E-09
+   1.100000E+02   1.334205E-08
+   1.200000E+02   2.779603E-08
+   1.300000E+02   1.705000E-07
+   1.400000E+02   5.518128E-07
+   1.500000E+02   1.326020E-06
+   1.600000E+02   6.215836E-07
+   1.800000E+02   8.855569E-10
+   2.000000E+02   4.677068E-10

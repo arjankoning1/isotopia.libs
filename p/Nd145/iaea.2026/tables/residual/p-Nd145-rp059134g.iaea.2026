@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd145(p,x)Pr134g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 134
+#     nuclide: Pr134g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.525663E-10
+   8.000000E+01   1.591361E-05
+   9.000000E+01   2.695086E-01
+   1.000000E+02   4.845095E+00
+   1.100000E+02   8.730860E+00
+   1.200000E+02   7.146078E+00
+   1.300000E+02   7.371176E+00
+   1.400000E+02   9.756507E+00
+   1.500000E+02   1.090426E+01
+   1.600000E+02   1.284026E+01
+   1.800000E+02   1.268232E+01
+   2.000000E+02   1.280954E+01

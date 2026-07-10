@@ -1,0 +1,46 @@
+# header: 
+#   title: Pt202(p,x)Ir191m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 202
+#   nuclide: Pt202
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 191
+#     nuclide: Ir191m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.829343E-11
+   6.500000E+01   3.998778E-06
+   7.000000E+01   1.978248E-03
+   7.500000E+01   6.916148E-02
+   8.000000E+01   5.134659E-01
+   9.000000E+01   2.300225E+00
+   1.000000E+02   2.146639E+00
+   1.100000E+02   1.924126E+00
+   1.200000E+02   2.501520E+00
+   1.300000E+02   3.951669E+00
+   1.400000E+02   5.099013E+00
+   1.500000E+02   6.710274E+00
+   1.600000E+02   7.581601E+00
+   1.800000E+02   9.167208E+00
+   2.000000E+02   1.080038E+01

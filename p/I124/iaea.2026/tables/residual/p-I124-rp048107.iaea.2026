@@ -1,0 +1,39 @@
+# header: 
+#   title: I124(p,x)Cd107 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 107
+#     nuclide: Cd107
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.294752E-08
+   1.000000E+02   1.784115E-04
+   1.100000E+02   5.978137E-03
+   1.200000E+02   1.978722E-02
+   1.300000E+02   4.205639E-02
+   1.400000E+02   1.527048E-01
+   1.500000E+02   4.655083E-01
+   1.600000E+02   1.096733E+00
+   1.800000E+02   2.500732E+00
+   2.000000E+02   5.176819E+00

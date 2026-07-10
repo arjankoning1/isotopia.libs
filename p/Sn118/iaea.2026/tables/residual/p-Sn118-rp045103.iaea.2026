@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn118(p,x)Rh103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.617627E-09
+   7.500000E+01   1.336091E-05
+   8.000000E+01   1.351879E-03
+   9.000000E+01   9.377962E-02
+   1.000000E+02   2.638963E-01
+   1.100000E+02   1.821322E-01
+   1.200000E+02   1.870506E-01
+   1.300000E+02   2.586790E-01
+   1.400000E+02   4.508595E-01
+   1.500000E+02   5.175439E-01
+   1.600000E+02   6.778763E-01
+   1.800000E+02   7.155522E-01
+   2.000000E+02   7.829410E-01

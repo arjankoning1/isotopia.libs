@@ -1,0 +1,40 @@
+# header: 
+#   title: I125(p,x)Sn111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 125
+#   nuclide: I125
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.134833E-09
+   9.000000E+01   1.318776E-04
+   1.000000E+02   3.008977E-02
+   1.100000E+02   2.355057E-01
+   1.200000E+02   4.180832E-01
+   1.300000E+02   5.883564E-01
+   1.400000E+02   1.496033E+00
+   1.500000E+02   3.788491E+00
+   1.600000E+02   6.787625E+00
+   1.800000E+02   1.251535E+01
+   2.000000E+02   1.706925E+01

@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi210(p,x)Hg199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 199
+#     nuclide: Hg199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.902859E-10
+   5.000000E+01   7.278436E-07
+   5.500000E+01   1.009184E-04
+   6.000000E+01   2.146698E-03
+   6.500000E+01   1.063884E-02
+   7.000000E+01   2.174640E-02
+   7.500000E+01   2.728339E-02
+   8.000000E+01   2.572408E-02
+   9.000000E+01   2.919246E-02
+   1.000000E+02   4.614209E-02
+   1.100000E+02   7.139206E-02
+   1.200000E+02   8.692805E-02
+   1.300000E+02   1.152041E-01
+   1.400000E+02   1.152683E-01
+   1.500000E+02   9.649387E-02
+   1.600000E+02   1.414037E-01
+   1.800000E+02   2.849671E-01
+   2.000000E+02   3.748365E-01

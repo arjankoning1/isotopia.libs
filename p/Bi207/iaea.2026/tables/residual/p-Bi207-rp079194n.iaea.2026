@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi207(p,x)Au194n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.886050E-13
+   7.000000E+01   8.057392E-10
+   7.500000E+01   1.055363E-07
+   8.000000E+01   5.874517E-06
+   9.000000E+01   1.845125E-03
+   1.000000E+02   2.167392E-02
+   1.100000E+02   3.218088E-02
+   1.200000E+02   3.872932E-02
+   1.300000E+02   3.525946E-02
+   1.400000E+02   2.713080E-02
+   1.500000E+02   2.583813E-02
+   1.600000E+02   2.722854E-02
+   1.800000E+02   1.564827E-02
+   2.000000E+02   1.111463E-02

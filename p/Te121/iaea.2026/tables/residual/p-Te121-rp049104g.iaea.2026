@@ -1,0 +1,38 @@
+# header: 
+#   title: Te121(p,x)In104g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 104
+#     nuclide: In104g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   7.654666E-10
+   1.300000E+02   1.760863E-07
+   1.400000E+02   1.051324E-05
+   1.500000E+02   1.479058E-04
+   1.600000E+02   7.184535E-04
+   1.800000E+02   7.823961E-03
+   2.000000E+02   4.313886E-02

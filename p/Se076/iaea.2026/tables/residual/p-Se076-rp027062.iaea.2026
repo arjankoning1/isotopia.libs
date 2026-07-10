@@ -1,0 +1,43 @@
+# header: 
+#   title: Se76(p,x)Co62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 62
+#     nuclide: Co62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.293909E-12
+   7.000000E+01   3.209817E-10
+   7.500000E+01   3.395746E-08
+   8.000000E+01   7.191500E-07
+   9.000000E+01   2.241161E-05
+   1.000000E+02   1.253535E-04
+   1.100000E+02   2.481651E-04
+   1.200000E+02   1.190853E-03
+   1.300000E+02   3.605284E-03
+   1.400000E+02   6.646938E-03
+   1.500000E+02   7.714420E-03
+   1.600000E+02   1.075856E-02
+   1.800000E+02   1.805826E-02
+   2.000000E+02   2.303025E-02

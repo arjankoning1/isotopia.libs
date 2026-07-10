@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe56(p,x)Sc46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.069613E-09
+   5.500000E+01   3.782578E-06
+   6.000000E+01   1.968823E-04
+   6.500000E+01   1.860687E-03
+   7.000000E+01   1.181572E-02
+   7.500000E+01   3.629331E-02
+   8.000000E+01   8.711010E-02
+   9.000000E+01   1.927985E-01
+   1.000000E+02   2.946165E-01
+   1.100000E+02   5.415780E-01
+   1.200000E+02   1.033104E+00
+   1.300000E+02   1.372072E+00
+   1.400000E+02   1.774008E+00
+   1.500000E+02   2.106505E+00
+   1.600000E+02   1.941824E+00
+   1.800000E+02   2.050520E+00
+   2.000000E+02   2.199690E+00

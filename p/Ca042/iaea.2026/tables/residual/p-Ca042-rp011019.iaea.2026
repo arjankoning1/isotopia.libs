@@ -1,0 +1,35 @@
+# header: 
+#   title: Ca42(p,x)Na19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 19
+#     nuclide: Na19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.090806E-12
+   1.400000E+02   3.721996E-10
+   1.500000E+02   1.533759E-08
+   1.600000E+02   2.969013E-07
+   1.800000E+02   9.659442E-06
+   2.000000E+02   6.813527E-05

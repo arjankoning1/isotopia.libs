@@ -1,0 +1,39 @@
+# header: 
+#   title: W180(p,x)Re169m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 180
+#   nuclide: W180
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 169
+#     nuclide: Re169m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.247934E-09
+   1.200000E+02   6.862698E-06
+   1.300000E+02   1.759682E-04
+   1.400000E+02   8.533607E-04
+   1.500000E+02   1.964267E-03
+   1.600000E+02   3.496755E-03
+   1.800000E+02   6.013430E-03
+   2.000000E+02   7.055717E-03

@@ -1,0 +1,46 @@
+# header: 
+#   title: Pb208(p,x)Tl198g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 198
+#     nuclide: Tl198g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.299829E-10
+   6.500000E+01   2.648411E-05
+   7.000000E+01   1.337662E-02
+   7.500000E+01   4.649918E-01
+   8.000000E+01   3.037282E+00
+   9.000000E+01   1.036274E+01
+   1.000000E+02   6.509957E+00
+   1.100000E+02   3.591512E+00
+   1.200000E+02   3.581713E+00
+   1.300000E+02   3.980555E+00
+   1.400000E+02   4.676713E+00
+   1.500000E+02   4.178025E+00
+   1.600000E+02   5.369226E+00
+   1.800000E+02   4.460007E+00
+   2.000000E+02   4.652736E+00

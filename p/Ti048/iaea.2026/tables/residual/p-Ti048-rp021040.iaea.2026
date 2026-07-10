@@ -1,0 +1,41 @@
+# header: 
+#   title: Ti48(p,x)Sc40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 40
+#     nuclide: Sc40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.192216E-09
+   8.000000E+01   3.378215E-07
+   9.000000E+01   9.971757E-06
+   1.000000E+02   2.801463E-05
+   1.100000E+02   4.560844E-05
+   1.200000E+02   9.773372E-05
+   1.300000E+02   1.941574E-04
+   1.400000E+02   3.101716E-04
+   1.500000E+02   3.972396E-04
+   1.600000E+02   4.489189E-04
+   1.800000E+02   5.048250E-04
+   2.000000E+02   5.207107E-04

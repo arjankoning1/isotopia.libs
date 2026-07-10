@@ -1,0 +1,44 @@
+# header: 
+#   title: Cs137(p,x)Te125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.482938E-08
+   6.500000E+01   7.211237E-05
+   7.000000E+01   6.254637E-03
+   7.500000E+01   6.898499E-02
+   8.000000E+01   2.383773E-01
+   9.000000E+01   4.118769E-01
+   1.000000E+02   2.433453E-01
+   1.100000E+02   2.408258E-01
+   1.200000E+02   3.669411E-01
+   1.300000E+02   4.395570E-01
+   1.400000E+02   3.955222E-01
+   1.500000E+02   4.648285E-01
+   1.600000E+02   4.888126E-01
+   1.800000E+02   4.071949E-01
+   2.000000E+02   5.743272E-01

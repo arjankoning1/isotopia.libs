@@ -1,0 +1,45 @@
+# header: 
+#   title: Pd102(p,x)Mo97 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 97
+#     nuclide: Mo97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.023847E-09
+   6.000000E+01   6.314173E-07
+   6.500000E+01   1.745615E-05
+   7.000000E+01   1.565643E-04
+   7.500000E+01   7.125593E-04
+   8.000000E+01   2.076199E-03
+   9.000000E+01   5.689146E-03
+   1.000000E+02   7.237734E-03
+   1.100000E+02   8.194273E-03
+   1.200000E+02   8.276516E-03
+   1.300000E+02   7.724092E-03
+   1.400000E+02   8.084882E-03
+   1.500000E+02   6.926437E-03
+   1.600000E+02   7.267846E-03
+   1.800000E+02   6.009439E-03
+   2.000000E+02   5.070123E-03

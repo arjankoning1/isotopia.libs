@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd143(p,x)Ba131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.582703E-12
+   6.000000E+01   5.087708E-09
+   6.500000E+01   1.241448E-06
+   7.000000E+01   3.708669E-05
+   7.500000E+01   4.104291E-04
+   8.000000E+01   3.134558E-03
+   9.000000E+01   3.195915E-02
+   1.000000E+02   4.971354E-02
+   1.100000E+02   4.335451E-02
+   1.200000E+02   5.144491E-02
+   1.300000E+02   7.317758E-02
+   1.400000E+02   7.702373E-02
+   1.500000E+02   8.759467E-02
+   1.600000E+02   1.013458E-01
+   1.800000E+02   7.816710E-02
+   2.000000E+02   9.151788E-02

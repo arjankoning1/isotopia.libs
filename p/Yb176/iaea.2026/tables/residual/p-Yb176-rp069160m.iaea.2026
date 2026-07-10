@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb176(p,x)Tm160m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 176
+#   nuclide: Yb176
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 160
+#     nuclide: Tm160m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.911306E-09
+   1.200000E+02   4.197567E-04
+   1.300000E+02   8.712438E-02
+   1.400000E+02   8.945292E-01
+   1.500000E+02   2.166609E+00
+   1.600000E+02   2.904814E+00
+   1.800000E+02   6.353759E+00
+   2.000000E+02   9.221630E+00

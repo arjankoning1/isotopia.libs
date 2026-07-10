@@ -1,0 +1,42 @@
+# header: 
+#   title: Es251(p,x)Np238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 251
+#   nuclide: Es251
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.914481E-12
+   7.500000E+01   2.761615E-11
+   8.000000E+01   1.930359E-10
+   9.000000E+01   9.448857E-10
+   1.000000E+02   1.942707E-09
+   1.100000E+02   1.463263E-08
+   1.200000E+02   8.595280E-08
+   1.300000E+02   1.955190E-07
+   1.400000E+02   2.491912E-07
+   1.500000E+02   4.868239E-07
+   1.600000E+02   8.887132E-07
+   1.800000E+02   1.042483E-06
+   2.000000E+02   2.181861E-06

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pd103(p,x)Mo90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 103
+#   nuclide: Pd103
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 90
+#     nuclide: Mo90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.008029E-10
+   7.500000E+01   3.464284E-07
+   8.000000E+01   4.183144E-05
+   9.000000E+01   7.725260E-03
+   1.000000E+02   1.205050E-01
+   1.100000E+02   3.212870E-01
+   1.200000E+02   7.984011E-01
+   1.300000E+02   1.295384E+00
+   1.400000E+02   2.481579E+00
+   1.500000E+02   4.293398E+00
+   1.600000E+02   6.586396E+00
+   1.800000E+02   1.445734E+01
+   2.000000E+02   1.965063E+01

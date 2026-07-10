@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar39(p,x)Na25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.098435E-09
+   6.500000E+01   6.453166E-07
+   7.000000E+01   1.534682E-05
+   7.500000E+01   1.005565E-04
+   8.000000E+01   4.087150E-04
+   9.000000E+01   3.207397E-03
+   1.000000E+02   1.015309E-02
+   1.100000E+02   1.776157E-02
+   1.200000E+02   3.539437E-02
+   1.300000E+02   6.552932E-02
+   1.400000E+02   1.057600E-01
+   1.500000E+02   1.716502E-01
+   1.600000E+02   2.561591E-01
+   1.800000E+02   5.348915E-01
+   2.000000E+02   9.245204E-01

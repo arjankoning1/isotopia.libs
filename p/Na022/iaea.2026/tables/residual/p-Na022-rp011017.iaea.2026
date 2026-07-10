@@ -1,0 +1,40 @@
+# header: 
+#   title: Na22(p,x)Na17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 17
+#     nuclide: Na17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.354522E-11
+   9.000000E+01   6.420465E-08
+   1.000000E+02   3.564565E-07
+   1.100000E+02   7.378513E-07
+   1.200000E+02   1.090613E-06
+   1.300000E+02   1.366075E-06
+   1.400000E+02   1.550912E-06
+   1.500000E+02   1.666257E-06
+   1.600000E+02   1.740602E-06
+   1.800000E+02   1.795089E-06
+   2.000000E+02   1.813750E-06

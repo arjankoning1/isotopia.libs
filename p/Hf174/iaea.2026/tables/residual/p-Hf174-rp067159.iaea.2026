@@ -1,0 +1,44 @@
+# header: 
+#   title: Hf174(p,x)Ho159 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 174
+#   nuclide: Hf174
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 159
+#     nuclide: Ho159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.582704E-10
+   6.500000E+01   1.277424E-07
+   7.000000E+01   2.193456E-05
+   7.500000E+01   1.061645E-03
+   8.000000E+01   1.309305E-02
+   9.000000E+01   1.172375E-01
+   1.000000E+02   1.076515E-01
+   1.100000E+02   5.474900E-02
+   1.200000E+02   5.886777E-02
+   1.300000E+02   1.171715E-01
+   1.400000E+02   9.852422E-02
+   1.500000E+02   1.087043E-01
+   1.600000E+02   1.348349E-01
+   1.800000E+02   8.138128E-02
+   2.000000E+02   1.127165E-01

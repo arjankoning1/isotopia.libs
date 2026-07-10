@@ -1,0 +1,45 @@
+# header: 
+#   title: Es254m(p,x)Pu241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 254
+#   nuclide: Es254m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 241
+#     nuclide: Pu241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.851019E-11
+   6.000000E+01   1.938163E-09
+   6.500000E+01   1.013650E-08
+   7.000000E+01   2.547018E-08
+   7.500000E+01   4.666594E-08
+   8.000000E+01   7.935077E-08
+   9.000000E+01   2.370857E-07
+   1.000000E+02   8.315869E-07
+   1.100000E+02   1.942887E-06
+   1.200000E+02   2.178849E-06
+   1.300000E+02   3.660989E-06
+   1.400000E+02   5.394942E-06
+   1.500000E+02   1.288608E-05
+   1.600000E+02   2.234469E-05
+   1.800000E+02   3.965482E-05
+   2.000000E+02   6.356325E-07

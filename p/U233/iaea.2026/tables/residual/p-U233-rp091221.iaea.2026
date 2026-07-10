@@ -1,0 +1,41 @@
+# header: 
+#   title: U233(p,x)Pa221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 233
+#   nuclide: U233
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 221
+#     nuclide: Pa221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.368056E-11
+   8.000000E+01   1.356964E-07
+   9.000000E+01   7.925444E-04
+   1.000000E+02   4.418390E-02
+   1.100000E+02   2.453547E-01
+   1.200000E+02   3.629773E-01
+   1.300000E+02   3.666421E-01
+   1.400000E+02   4.955402E-01
+   1.500000E+02   7.583495E-01
+   1.600000E+02   6.618644E-01
+   1.800000E+02   1.264922E+00
+   2.000000E+02   1.077206E+00

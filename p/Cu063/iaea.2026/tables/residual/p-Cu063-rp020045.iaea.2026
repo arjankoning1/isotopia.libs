@@ -1,0 +1,39 @@
+# header: 
+#   title: Cu63(p,x)Ca45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 45
+#     nuclide: Ca45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.095017E-10
+   1.000000E+02   1.327314E-07
+   1.100000E+02   8.494954E-06
+   1.200000E+02   6.242776E-05
+   1.300000E+02   1.607529E-04
+   1.400000E+02   3.103651E-04
+   1.500000E+02   7.881912E-04
+   1.600000E+02   2.144252E-03
+   1.800000E+02   1.047593E-02
+   2.000000E+02   2.358014E-02

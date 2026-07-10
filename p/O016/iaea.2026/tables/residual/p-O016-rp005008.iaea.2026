@@ -1,0 +1,48 @@
+# header: 
+#   title: O16(p,x)B8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 8
+#     nuclide: B8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.291386E-07
+   4.500000E+01   1.111722E-03
+   5.000000E+01   2.259322E-02
+   5.500000E+01   4.794889E-02
+   6.000000E+01   6.038046E-02
+   6.500000E+01   6.096018E-02
+   7.000000E+01   6.408802E-02
+   7.500000E+01   8.149370E-02
+   8.000000E+01   1.207651E-01
+   9.000000E+01   2.905910E-01
+   1.000000E+02   5.424759E-01
+   1.100000E+02   7.796099E-01
+   1.200000E+02   9.854812E-01
+   1.300000E+02   1.178663E+00
+   1.400000E+02   1.379270E+00
+   1.500000E+02   1.565948E+00
+   1.600000E+02   1.723700E+00
+   1.800000E+02   1.893977E+00
+   2.000000E+02   1.902694E+00

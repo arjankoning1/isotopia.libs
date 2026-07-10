@@ -1,0 +1,41 @@
+# header: 
+#   title: Es253(p,x)U235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 253
+#   nuclide: Es253
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.649750E-16
+   8.000000E+01   2.442539E-11
+   9.000000E+01   1.245063E-08
+   1.000000E+02   9.896683E-08
+   1.100000E+02   1.687984E-07
+   1.200000E+02   1.983815E-07
+   1.300000E+02   2.478847E-07
+   1.400000E+02   1.912411E-07
+   1.500000E+02   2.363711E-07
+   1.600000E+02   4.598432E-07
+   1.800000E+02   1.389269E-06
+   2.000000E+02   3.687540E-08

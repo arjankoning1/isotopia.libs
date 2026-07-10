@@ -1,0 +1,42 @@
+# header: 
+#   title: Tl201(p,x)Hg190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 201
+#   nuclide: Tl201
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 190
+#     nuclide: Hg190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.999005E-10
+   7.500000E+01   9.124855E-07
+   8.000000E+01   3.472003E-04
+   9.000000E+01   5.054259E-01
+   1.000000E+02   8.827516E+00
+   1.100000E+02   1.451732E+01
+   1.200000E+02   9.763071E+00
+   1.300000E+02   1.195974E+01
+   1.400000E+02   1.813869E+01
+   1.500000E+02   2.277452E+01
+   1.600000E+02   2.704926E+01
+   1.800000E+02   2.622697E+01
+   2.000000E+02   2.757090E+01

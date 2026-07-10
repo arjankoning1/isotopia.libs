@@ -1,0 +1,44 @@
+# header: 
+#   title: Sc47(p,x)Sc41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 41
+#     nuclide: Sc41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.681082E-09
+   6.500000E+01   1.518200E-05
+   7.000000E+01   1.850366E-04
+   7.500000E+01   9.107984E-04
+   8.000000E+01   2.915586E-03
+   9.000000E+01   1.357171E-02
+   1.000000E+02   2.655881E-02
+   1.100000E+02   3.334657E-02
+   1.200000E+02   3.447198E-02
+   1.300000E+02   3.511708E-02
+   1.400000E+02   3.415654E-02
+   1.500000E+02   3.139170E-02
+   1.600000E+02   3.305450E-02
+   1.800000E+02   3.098000E-02
+   2.000000E+02   3.103190E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge76(p,x)Co60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.060986E-12
+   8.000000E+01   5.375772E-08
+   9.000000E+01   2.319822E-04
+   1.000000E+02   3.138738E-03
+   1.100000E+02   1.743235E-02
+   1.200000E+02   4.313797E-02
+   1.300000E+02   1.187779E-01
+   1.400000E+02   3.455130E-01
+   1.500000E+02   6.706977E-01
+   1.600000E+02   1.009358E+00
+   1.800000E+02   1.962620E+00
+   2.000000E+02   2.843650E+00

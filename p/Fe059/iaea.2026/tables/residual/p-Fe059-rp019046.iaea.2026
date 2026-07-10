@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe59(p,x)K46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 46
+#     nuclide: K46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.590006E-11
+   7.500000E+01   1.262790E-09
+   8.000000E+01   1.529753E-08
+   9.000000E+01   1.603650E-07
+   1.000000E+02   3.956129E-07
+   1.100000E+02   4.683632E-06
+   1.200000E+02   3.570030E-05
+   1.300000E+02   1.038479E-04
+   1.400000E+02   1.953710E-04
+   1.500000E+02   2.736251E-04
+   1.600000E+02   4.421653E-04
+   1.800000E+02   7.343915E-04
+   2.000000E+02   8.628321E-04

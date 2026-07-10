@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni58(p,x)Sc45g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.457100E-09
+   6.500000E+01   2.385623E-06
+   7.000000E+01   1.571577E-04
+   7.500000E+01   1.846445E-03
+   8.000000E+01   8.183045E-03
+   9.000000E+01   3.772907E-02
+   1.000000E+02   7.044704E-02
+   1.100000E+02   1.202478E-01
+   1.200000E+02   2.894845E-01
+   1.300000E+02   5.787110E-01
+   1.400000E+02   8.736623E-01
+   1.500000E+02   1.367533E+00
+   1.600000E+02   1.833104E+00
+   1.800000E+02   3.245209E+00
+   2.000000E+02   3.870471E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ho165(p,x)Tb151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 67
+#   A: 165
+#   nuclide: Ho165
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 151
+#     nuclide: Tb151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.107318E-07
+   1.000000E+02   4.965229E-02
+   1.100000E+02   4.032284E+00
+   1.200000E+02   1.895023E+01
+   1.300000E+02   2.998560E+01
+   1.400000E+02   3.337865E+01
+   1.500000E+02   3.727648E+01
+   1.600000E+02   4.454270E+01
+   1.800000E+02   4.746749E+01
+   2.000000E+02   4.746043E+01

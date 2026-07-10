@@ -1,0 +1,40 @@
+# header: 
+#   title: U237(p,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.155117E-10
+   9.000000E+01   2.039435E-04
+   1.000000E+02   1.028660E-02
+   1.100000E+02   2.224812E-01
+   1.200000E+02   9.320421E-01
+   1.300000E+02   1.462064E+00
+   1.400000E+02   2.018865E+00
+   1.500000E+02   2.803053E+00
+   1.600000E+02   3.425572E+00
+   1.800000E+02   2.755769E+00
+   2.000000E+02   4.823287E+00

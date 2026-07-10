@@ -1,0 +1,46 @@
+# header: 
+#   title: Ba136(p,x)Ba129g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.121360E-06
+   6.500000E+01   3.041407E-03
+   7.000000E+01   7.546031E-02
+   7.500000E+01   4.256568E-01
+   8.000000E+01   1.748371E+00
+   9.000000E+01   9.895156E+00
+   1.000000E+02   1.601926E+01
+   1.100000E+02   1.665504E+01
+   1.200000E+02   1.596678E+01
+   1.300000E+02   1.527754E+01
+   1.400000E+02   1.502218E+01
+   1.500000E+02   1.436001E+01
+   1.600000E+02   1.378318E+01
+   1.800000E+02   1.295613E+01
+   2.000000E+02   1.264764E+01

@@ -1,0 +1,40 @@
+# header: 
+#   title: U238(p,x)Np238 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Turkevich
+#   year: 1994
+#   subentry: C1385002
+#   X4 reaction: 92-U-238(P,N)93-NP-238,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1385002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.600000E+00   3.000000E-02   1.900000E-02   0.000000E+00   1.000000E+00
+   7.300000E+00   3.000000E-02   8.000000E-01   0.000000E+00   1.000000E+00
+   9.400000E+00   3.000000E-02   2.900000E+00   0.000000E+00   1.000000E+00
+   1.150000E+01   3.000000E-02   5.700000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: A.Turkevich
+#   title: Proton reactions of 238U in the 5-12 MeV range
+#   journal: Jour: Radiochimica Acta, Vol.64, p.145 (1994)

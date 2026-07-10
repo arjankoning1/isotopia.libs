@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo98(p,x)Mo93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.204645E-03
+   4.500000E+01   3.455806E-01
+   5.000000E+01   2.786633E+00
+   5.500000E+01   2.370749E+01
+   6.000000E+01   8.049640E+01
+   6.500000E+01   1.312472E+02
+   7.000000E+01   1.435912E+02
+   7.500000E+01   1.364066E+02
+   8.000000E+01   1.272462E+02
+   9.000000E+01   1.138227E+02
+   1.000000E+02   1.036995E+02
+   1.100000E+02   9.440337E+01
+   1.200000E+02   8.719164E+01
+   1.300000E+02   8.028168E+01
+   1.400000E+02   7.726627E+01
+   1.500000E+02   7.328127E+01
+   1.600000E+02   6.920170E+01
+   1.800000E+02   6.735245E+01
+   2.000000E+02   5.845816E+01

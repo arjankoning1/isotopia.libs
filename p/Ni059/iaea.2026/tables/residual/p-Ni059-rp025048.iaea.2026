@@ -1,0 +1,40 @@
+# header: 
+#   title: Ni59(p,x)Mn48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 48
+#     nuclide: Mn48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.456220E-11
+   9.000000E+01   7.245055E-07
+   1.000000E+02   7.589923E-06
+   1.100000E+02   1.693449E-05
+   1.200000E+02   3.875035E-05
+   1.300000E+02   1.093560E-04
+   1.400000E+02   2.163378E-04
+   1.500000E+02   3.447603E-04
+   1.600000E+02   4.702124E-04
+   1.800000E+02   7.312547E-04
+   2.000000E+02   8.553370E-04

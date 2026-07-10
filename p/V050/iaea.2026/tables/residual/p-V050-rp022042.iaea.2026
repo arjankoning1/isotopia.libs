@@ -1,0 +1,42 @@
+# header: 
+#   title: V50(p,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.435087E-10
+   7.500000E+01   3.327222E-07
+   8.000000E+01   6.698519E-06
+   9.000000E+01   7.704160E-05
+   1.000000E+02   1.598779E-04
+   1.100000E+02   2.107723E-04
+   1.200000E+02   2.808840E-04
+   1.300000E+02   3.724887E-04
+   1.400000E+02   4.997600E-04
+   1.500000E+02   5.825712E-04
+   1.600000E+02   6.225944E-04
+   1.800000E+02   6.722403E-04
+   2.000000E+02   7.117381E-04

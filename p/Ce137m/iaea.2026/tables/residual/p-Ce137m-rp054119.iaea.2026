@@ -1,0 +1,36 @@
+# header: 
+#   title: Ce137m(p,x)Xe119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 137
+#   nuclide: Ce137m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 119
+#     nuclide: Xe119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.117989E-09
+   1.300000E+02   5.138104E-05
+   1.400000E+02   5.626375E-03
+   1.500000E+02   6.476973E-02
+   1.600000E+02   3.538630E-01
+   1.800000E+02   2.186054E+00
+   2.000000E+02   6.339299E+00

@@ -1,0 +1,43 @@
+# header: 
+#   title: V50(p,x)S37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 37
+#     nuclide: S37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.914368E-10
+   7.000000E+01   2.471787E-08
+   7.500000E+01   3.077951E-07
+   8.000000E+01   1.239477E-06
+   9.000000E+01   3.965594E-06
+   1.000000E+02   1.726849E-05
+   1.100000E+02   1.374462E-04
+   1.200000E+02   4.897749E-04
+   1.300000E+02   9.470150E-04
+   1.400000E+02   1.418219E-03
+   1.500000E+02   2.095260E-03
+   1.600000E+02   3.100857E-03
+   1.800000E+02   4.549587E-03
+   2.000000E+02   6.288803E-03

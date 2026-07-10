@@ -1,0 +1,45 @@
+# header: 
+#   title: Cd106(p,x)Mo91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 106
+#   nuclide: Cd106
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.257155E-13
+   7.000000E+01   2.877587E-10
+   7.500000E+01   4.362378E-08
+   8.000000E+01   2.181543E-06
+   9.000000E+01   6.880183E-04
+   1.000000E+02   4.810172E-03
+   1.100000E+02   9.434285E-03
+   1.200000E+02   1.949491E-02
+   1.300000E+02   4.829824E-02
+   1.400000E+02   1.217497E-01
+   1.500000E+02   2.352606E-01
+   1.600000E+02   3.608426E-01
+   1.800000E+02   8.486881E-01
+   2.000000E+02   1.493103E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe56(p,x) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jenkins
+#   year: 1970
+#   subentry: B0041006
+#   X4 reaction: 26-FE-56(P,X)25-MN-54,IND,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0041006
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 9000
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.460000E+01   0.000000E+00   6.001400E+00   2.766600E-01   1.000240E+00
+   2.770000E+01   0.000000E+00   1.400336E+01   6.455200E-01   1.000240E+00
+   3.080000E+01   0.000000E+00   3.700889E+01   1.706000E+00   1.000240E+00
+   3.100000E+01   0.000000E+00   8.101945E+01   3.734800E+00   1.000240E+00
+   3.320000E+01   0.000000E+00   6.301513E+01   2.904900E+00   1.000240E+00
+   3.440000E+01   0.000000E+00   1.110267E+02   5.118000E+00   1.000240E+00
+   3.600000E+01   0.000000E+00   1.250300E+02   5.763600E+00   1.000240E+00
+   3.900000E+01   0.000000E+00   1.400336E+02   6.455250E+00   1.000240E+00
+# reference:
+#   author: I.L.Jenkins, A.G.Wain
+#   title: Excitation functions for the bombardment of Fe-56 with protons
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.32, p.1419 (1970)

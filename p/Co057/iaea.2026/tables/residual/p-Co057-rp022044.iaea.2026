@@ -1,0 +1,44 @@
+# header: 
+#   title: Co57(p,x)Ti44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 44
+#     nuclide: Ti44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.607831E-08
+   6.500000E+01   2.950167E-05
+   7.000000E+01   7.828914E-04
+   7.500000E+01   5.054339E-03
+   8.000000E+01   1.437811E-02
+   9.000000E+01   3.665837E-02
+   1.000000E+02   6.831726E-02
+   1.100000E+02   1.778492E-01
+   1.200000E+02   4.029596E-01
+   1.300000E+02   7.645772E-01
+   1.400000E+02   1.158941E+00
+   1.500000E+02   1.803138E+00
+   1.600000E+02   2.819341E+00
+   1.800000E+02   4.190476E+00
+   2.000000E+02   6.756247E+00

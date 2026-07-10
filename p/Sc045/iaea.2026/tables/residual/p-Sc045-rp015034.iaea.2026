@@ -1,0 +1,45 @@
+# header: 
+#   title: Sc45(p,x)P34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 34
+#     nuclide: P34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.427260E-11
+   6.000000E+01   1.336139E-07
+   6.500000E+01   6.831995E-06
+   7.000000E+01   6.512622E-05
+   7.500000E+01   2.772068E-04
+   8.000000E+01   9.451713E-04
+   9.000000E+01   5.530949E-03
+   1.000000E+02   1.202452E-02
+   1.100000E+02   1.757634E-02
+   1.200000E+02   3.032279E-02
+   1.300000E+02   5.273521E-02
+   1.400000E+02   7.647006E-02
+   1.500000E+02   9.513339E-02
+   1.600000E+02   1.113105E-01
+   1.800000E+02   1.415123E-01
+   2.000000E+02   1.367282E-01

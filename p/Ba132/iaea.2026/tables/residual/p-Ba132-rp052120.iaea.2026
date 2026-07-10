@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba132(p,x)Te120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 120
+#     nuclide: Te120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.824612E-12
+   6.000000E+01   5.922919E-09
+   6.500000E+01   1.012290E-06
+   7.000000E+01   4.547283E-05
+   7.500000E+01   1.376946E-03
+   8.000000E+01   1.889988E-02
+   9.000000E+01   2.793520E-01
+   1.000000E+02   5.870318E-01
+   1.100000E+02   6.314953E-01
+   1.200000E+02   7.595351E-01
+   1.300000E+02   9.988132E-01
+   1.400000E+02   1.043521E+00
+   1.500000E+02   1.160205E+00
+   1.600000E+02   1.362740E+00
+   1.800000E+02   9.739313E-01
+   2.000000E+02   8.902620E-01

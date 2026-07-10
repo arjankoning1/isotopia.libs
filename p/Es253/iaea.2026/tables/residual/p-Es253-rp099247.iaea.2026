@@ -1,0 +1,47 @@
+# header: 
+#   title: Es253(p,x)Es247 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 253
+#   nuclide: Es253
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 247
+#     nuclide: Es247
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   8.493756E-12
+   5.000000E+01   3.586281E-10
+   5.500000E+01   1.546489E-09
+   6.000000E+01   3.002981E-09
+   6.500000E+01   5.552919E-09
+   7.000000E+01   1.300470E-08
+   7.500000E+01   2.406634E-08
+   8.000000E+01   5.757904E-08
+   9.000000E+01   1.132936E-07
+   1.000000E+02   2.515953E-07
+   1.100000E+02   2.772962E-07
+   1.200000E+02   6.251138E-07
+   1.300000E+02   8.314133E-07
+   1.400000E+02   6.459671E-07
+   1.500000E+02   4.821578E-07
+   1.600000E+02   6.524978E-07
+   1.800000E+02   1.945305E-06
+   2.000000E+02   2.768858E-06

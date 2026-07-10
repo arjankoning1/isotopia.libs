@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd144(p,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.684616E-11
+   6.500000E+01   3.310319E-07
+   7.000000E+01   2.715385E-04
+   7.500000E+01   1.382448E-02
+   8.000000E+01   1.085579E-01
+   9.000000E+01   4.811043E-01
+   1.000000E+02   4.349726E-01
+   1.100000E+02   4.687644E-01
+   1.200000E+02   9.076765E-01
+   1.300000E+02   1.501930E+00
+   1.400000E+02   1.628190E+00
+   1.500000E+02   1.883904E+00
+   1.600000E+02   1.796530E+00
+   1.800000E+02   2.121650E+00
+   2.000000E+02   1.884345E+00

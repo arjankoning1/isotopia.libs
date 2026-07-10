@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd104(p,x)Rb82g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.388490E-10
+   1.200000E+02   1.113106E-07
+   1.300000E+02   1.361018E-06
+   1.400000E+02   5.057602E-06
+   1.500000E+02   1.082716E-05
+   1.600000E+02   4.988123E-05
+   1.800000E+02   4.309085E-04
+   2.000000E+02   1.931829E-03

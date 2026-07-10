@@ -1,0 +1,44 @@
+# header: 
+#   title: Lu174(p,x)Ho160m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 160
+#     nuclide: Ho160m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.401527E-11
+   7.500000E+01   1.550179E-08
+   8.000000E+01   1.721931E-06
+   9.000000E+01   2.280327E-04
+   1.000000E+02   2.916805E-03
+   1.100000E+02   1.021372E-02
+   1.200000E+02   1.672116E-02
+   1.300000E+02   1.936494E-02
+   1.400000E+02   1.987712E-02
+   1.500000E+02   1.841555E-02
+   1.600000E+02   2.279384E-02
+   1.800000E+02   3.045218E-02
+   2.000000E+02   1.476242E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm151(p,x)Ce137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 151
+#   nuclide: Sm151
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 137
+#     nuclide: Ce137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.012706E-12
+   7.000000E+01   2.521109E-08
+   7.500000E+01   5.581461E-06
+   8.000000E+01   1.688454E-04
+   9.000000E+01   6.478408E-03
+   1.000000E+02   5.918394E-02
+   1.100000E+02   1.362559E-01
+   1.200000E+02   1.889544E-01
+   1.300000E+02   3.418881E-01
+   1.400000E+02   6.262467E-01
+   1.500000E+02   7.178605E-01
+   1.600000E+02   9.490964E-01
+   1.800000E+02   1.198076E+00
+   2.000000E+02   8.676323E-01

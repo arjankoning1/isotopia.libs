@@ -1,0 +1,47 @@
+# header: 
+#   title: U238(p,x)Pa229 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 229
+#     nuclide: Pa229
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.324431E-08
+   5.000000E+01   5.604147E-05
+   5.500000E+01   7.424674E-03
+   6.000000E+01   1.174483E-01
+   6.500000E+01   4.904170E-01
+   7.000000E+01   1.006998E+00
+   7.500000E+01   1.693192E+00
+   8.000000E+01   1.764642E+00
+   9.000000E+01   1.995391E+00
+   1.000000E+02   1.931730E+00
+   1.100000E+02   2.321087E+00
+   1.200000E+02   2.257438E+00
+   1.300000E+02   3.684586E+00
+   1.400000E+02   5.563543E+00
+   1.500000E+02   5.018353E+00
+   1.600000E+02   4.054424E+00
+   1.800000E+02   8.571682E+00
+   2.000000E+02   7.303952E+00

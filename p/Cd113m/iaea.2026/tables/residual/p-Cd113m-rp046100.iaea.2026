@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd113m(p,x)Pd100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 100
+#     nuclide: Pd100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.023295E-08
+   1.000000E+02   3.916338E-04
+   1.100000E+02   3.454428E-02
+   1.200000E+02   3.050410E-01
+   1.300000E+02   9.428449E-01
+   1.400000E+02   2.181972E+00
+   1.500000E+02   3.725349E+00
+   1.600000E+02   5.130736E+00
+   1.800000E+02   9.401207E+00
+   2.000000E+02   1.408958E+01

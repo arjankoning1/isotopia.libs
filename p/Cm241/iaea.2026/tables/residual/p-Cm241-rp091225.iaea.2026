@@ -1,0 +1,42 @@
+# header: 
+#   title: Cm241(p,x)Pa225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 225
+#     nuclide: Pa225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.448860E-12
+   7.500000E+01   1.920596E-09
+   8.000000E+01   1.161650E-06
+   9.000000E+01   5.599226E-04
+   1.000000E+02   1.131159E-02
+   1.100000E+02   1.562442E-02
+   1.200000E+02   1.226604E-02
+   1.300000E+02   3.214836E-02
+   1.400000E+02   4.831619E-02
+   1.500000E+02   4.654117E-02
+   1.600000E+02   3.873135E-02
+   1.800000E+02   3.394403E-02
+   2.000000E+02   6.030189E-02

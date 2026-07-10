@@ -1,0 +1,47 @@
+# header: 
+#   title: Si28(p,x)Al23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 23
+#     nuclide: Al23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.680601E-06
+   5.000000E+01   1.851768E-03
+   5.500000E+01   5.585005E-03
+   6.000000E+01   5.066541E-03
+   6.500000E+01   5.020107E-03
+   7.000000E+01   5.308153E-03
+   7.500000E+01   5.453104E-03
+   8.000000E+01   6.210294E-03
+   9.000000E+01   1.045916E-02
+   1.000000E+02   1.604052E-02
+   1.100000E+02   1.955629E-02
+   1.200000E+02   2.078983E-02
+   1.300000E+02   2.073412E-02
+   1.400000E+02   2.020377E-02
+   1.500000E+02   1.954165E-02
+   1.600000E+02   1.899823E-02
+   1.800000E+02   1.762720E-02
+   2.000000E+02   1.677215E-02

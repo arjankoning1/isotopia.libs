@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr90(p,x)Br77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 77
+#     nuclide: Br77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.575210E-11
+   8.000000E+01   5.181599E-07
+   9.000000E+01   5.487194E-03
+   1.000000E+02   9.961206E-02
+   1.100000E+02   4.569370E-01
+   1.200000E+02   9.850455E-01
+   1.300000E+02   2.065337E+00
+   1.400000E+02   4.536598E+00
+   1.500000E+02   7.460240E+00
+   1.600000E+02   1.039087E+01
+   1.800000E+02   1.638608E+01
+   2.000000E+02   1.888998E+01

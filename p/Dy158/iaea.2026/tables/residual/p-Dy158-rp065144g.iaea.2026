@@ -1,0 +1,39 @@
+# header: 
+#   title: Dy158(p,x)Tb144g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 158
+#   nuclide: Dy158
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 144
+#     nuclide: Tb144g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.860058E-10
+   1.200000E+02   1.690718E-06
+   1.300000E+02   4.440803E-05
+   1.400000E+02   1.912927E-04
+   1.500000E+02   4.048166E-04
+   1.600000E+02   7.618833E-04
+   1.800000E+02   2.477430E-03
+   2.000000E+02   6.832767E-03

@@ -1,0 +1,45 @@
+# header: 
+#   title: P33(p,x)Si26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 33
+#   nuclide: P33
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 26
+#     nuclide: Si26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.860243E-07
+   6.000000E+01   1.050060E-04
+   6.500000E+01   1.443299E-03
+   7.000000E+01   6.049820E-03
+   7.500000E+01   1.307637E-02
+   8.000000E+01   1.928444E-02
+   9.000000E+01   2.526051E-02
+   1.000000E+02   2.980266E-02
+   1.100000E+02   3.801994E-02
+   1.200000E+02   4.803484E-02
+   1.300000E+02   5.610115E-02
+   1.400000E+02   6.043198E-02
+   1.500000E+02   6.274986E-02
+   1.600000E+02   6.254741E-02
+   1.800000E+02   5.994270E-02
+   2.000000E+02   5.714841E-02

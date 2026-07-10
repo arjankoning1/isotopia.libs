@@ -1,0 +1,39 @@
+# header: 
+#   title: Mg24(p,x)Na17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 17
+#     nuclide: Na17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.582352E-11
+   1.000000E+02   7.771468E-09
+   1.100000E+02   3.943249E-08
+   1.200000E+02   9.560005E-08
+   1.300000E+02   2.048384E-07
+   1.400000E+02   3.983488E-07
+   1.500000E+02   6.615166E-07
+   1.600000E+02   9.185695E-07
+   1.800000E+02   1.341811E-06
+   2.000000E+02   1.551667E-06

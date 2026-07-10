@@ -1,0 +1,42 @@
+# header: 
+#   title: Sb125(p,x)Ag112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 112
+#     nuclide: Ag112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.781804E-09
+   7.500000E+01   1.064503E-06
+   8.000000E+01   3.293636E-05
+   9.000000E+01   1.265004E-03
+   1.000000E+02   9.291171E-03
+   1.100000E+02   1.990907E-02
+   1.200000E+02   2.679371E-02
+   1.300000E+02   3.223120E-02
+   1.400000E+02   4.816289E-02
+   1.500000E+02   6.561816E-02
+   1.600000E+02   6.696128E-02
+   1.800000E+02   7.991088E-02
+   2.000000E+02   7.245628E-02

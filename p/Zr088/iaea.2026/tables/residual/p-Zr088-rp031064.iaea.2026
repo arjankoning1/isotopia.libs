@@ -1,0 +1,35 @@
+# header: 
+#   title: Zr88(p,x)Ga64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 88
+#   nuclide: Zr88
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 64
+#     nuclide: Ga64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.383633E-10
+   1.400000E+02   1.004506E-07
+   1.500000E+02   4.747681E-06
+   1.600000E+02   4.418783E-05
+   1.800000E+02   8.832159E-04
+   2.000000E+02   9.342358E-03

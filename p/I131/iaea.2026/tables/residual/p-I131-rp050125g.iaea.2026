@@ -1,0 +1,51 @@
+# header: 
+#   title: I131(p,x)Sn125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 125
+#     nuclide: Sn125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.093154E-09
+   4.000000E+01   1.770842E-07
+   4.500000E+01   2.409058E-06
+   5.000000E+01   1.305776E-05
+   5.500000E+01   3.387488E-05
+   6.000000E+01   7.851488E-05
+   6.500000E+01   1.448202E-04
+   7.000000E+01   2.219541E-04
+   7.500000E+01   2.728266E-04
+   8.000000E+01   3.278714E-04
+   9.000000E+01   5.304939E-04
+   1.000000E+02   2.951773E-03
+   1.100000E+02   1.086514E-02
+   1.200000E+02   2.347759E-02
+   1.300000E+02   3.748456E-02
+   1.400000E+02   5.072114E-02
+   1.500000E+02   5.852177E-02
+   1.600000E+02   6.406043E-02
+   1.800000E+02   7.912551E-02
+   2.000000E+02   7.434166E-02

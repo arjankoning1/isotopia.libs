@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd107(p,x)Ag100g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 100
+#     nuclide: Ag100g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.017190E-08
+   7.500000E+01   2.034763E-04
+   8.000000E+01   6.554342E-03
+   9.000000E+01   5.901477E-02
+   1.000000E+02   6.106291E-02
+   1.100000E+02   5.073831E-02
+   1.200000E+02   4.797537E-02
+   1.300000E+02   4.276410E-02
+   1.400000E+02   3.680552E-02
+   1.500000E+02   3.384339E-02
+   1.600000E+02   3.171303E-02
+   1.800000E+02   3.003970E-02
+   2.000000E+02   3.247048E-02

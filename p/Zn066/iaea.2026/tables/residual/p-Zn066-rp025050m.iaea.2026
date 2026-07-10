@@ -1,0 +1,40 @@
+# header: 
+#   title: Zn66(p,x)Mn50m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.045227E-08
+   1.100000E+02   7.623701E-06
+   1.200000E+02   1.010480E-04
+   1.300000E+02   3.528129E-04
+   1.400000E+02   9.934161E-04
+   1.500000E+02   3.145084E-03
+   1.600000E+02   8.417808E-03
+   1.800000E+02   3.006357E-02
+   2.000000E+02   7.200303E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: As74(p,x)Ga64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 64
+#     nuclide: Ga64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.483798E-08
+   7.500000E+01   5.744884E-06
+   8.000000E+01   8.069394E-05
+   9.000000E+01   2.649876E-03
+   1.000000E+02   2.378418E-02
+   1.100000E+02   7.913756E-02
+   1.200000E+02   1.455171E-01
+   1.300000E+02   2.562373E-01
+   1.400000E+02   4.439832E-01
+   1.500000E+02   7.093054E-01
+   1.600000E+02   8.431053E-01
+   1.800000E+02   1.277431E+00
+   2.000000E+02   1.598501E+00

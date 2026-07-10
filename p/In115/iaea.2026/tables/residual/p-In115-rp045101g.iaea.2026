@@ -1,0 +1,43 @@
+# header: 
+#   title: In115(p,x)Rh101g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.668961E-09
+   8.000000E+01   2.350136E-06
+   9.000000E+01   3.417725E-03
+   1.000000E+02   5.441832E-02
+   1.100000E+02   2.689469E-01
+   1.200000E+02   5.943711E-01
+   1.300000E+02   8.564172E-01
+   1.400000E+02   1.191277E+00
+   1.500000E+02   1.451455E+00
+   1.600000E+02   1.840274E+00
+   1.800000E+02   2.231351E+00
+   2.000000E+02   2.043341E+00

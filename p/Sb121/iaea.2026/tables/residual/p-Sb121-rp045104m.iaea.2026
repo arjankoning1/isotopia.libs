@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb121(p,x)Rh104m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.222980E-08
+   1.000000E+02   5.939509E-05
+   1.100000E+02   1.261335E-03
+   1.200000E+02   6.209564E-03
+   1.300000E+02   1.225065E-02
+   1.400000E+02   2.161174E-02
+   1.500000E+02   3.143091E-02
+   1.600000E+02   4.662360E-02
+   1.800000E+02   6.286336E-02
+   2.000000E+02   6.874609E-02

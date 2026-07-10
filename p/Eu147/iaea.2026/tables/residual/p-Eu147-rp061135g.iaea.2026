@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu147(p,x)Pm135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 147
+#   nuclide: Eu147
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 135
+#     nuclide: Pm135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.011796E-09
+   1.000000E+02   2.538765E-05
+   1.100000E+02   5.378730E-03
+   1.200000E+02   2.353095E-02
+   1.300000E+02   3.112360E-02
+   1.400000E+02   4.180409E-02
+   1.500000E+02   5.940484E-02
+   1.600000E+02   8.286382E-02
+   1.800000E+02   1.335975E-01
+   2.000000E+02   9.008060E-02

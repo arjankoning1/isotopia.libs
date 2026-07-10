@@ -1,0 +1,51 @@
+# header: 
+#   title: Mo99(p,x)Tc95m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.803569E-02
+   4.000000E+01   7.490356E+00
+   4.500000E+01   2.154953E+01
+   5.000000E+01   2.306071E+01
+   5.500000E+01   1.704932E+01
+   6.000000E+01   1.188521E+01
+   6.500000E+01   8.774447E+00
+   7.000000E+01   6.912395E+00
+   7.500000E+01   5.668451E+00
+   8.000000E+01   4.783472E+00
+   9.000000E+01   3.612674E+00
+   1.000000E+02   2.854500E+00
+   1.100000E+02   2.419037E+00
+   1.200000E+02   2.031091E+00
+   1.300000E+02   1.764358E+00
+   1.400000E+02   1.527836E+00
+   1.500000E+02   1.391561E+00
+   1.600000E+02   1.293606E+00
+   1.800000E+02   1.115372E+00
+   2.000000E+02   9.088095E-01

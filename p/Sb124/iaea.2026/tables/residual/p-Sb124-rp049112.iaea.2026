@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb124(p,x)In112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 124
+#   nuclide: Sb124
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.499546E-10
+   8.000000E+01   2.131288E-06
+   9.000000E+01   1.480424E-02
+   1.000000E+02   5.069207E-01
+   1.100000E+02   3.771148E+00
+   1.200000E+02   9.912760E+00
+   1.300000E+02   1.511606E+01
+   1.400000E+02   1.921862E+01
+   1.500000E+02   2.146899E+01
+   1.600000E+02   2.373229E+01
+   1.800000E+02   2.224197E+01
+   2.000000E+02   2.527049E+01

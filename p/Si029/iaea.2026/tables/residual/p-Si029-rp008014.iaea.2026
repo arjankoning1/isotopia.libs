@@ -1,0 +1,42 @@
+# header: 
+#   title: Si29(p,x)O14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 14
+#     nuclide: O14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.518463E-10
+   7.500000E+01   5.904741E-07
+   8.000000E+01   1.780770E-05
+   9.000000E+01   4.853271E-04
+   1.000000E+02   3.455511E-03
+   1.100000E+02   1.096629E-02
+   1.200000E+02   2.189844E-02
+   1.300000E+02   3.544536E-02
+   1.400000E+02   5.624542E-02
+   1.500000E+02   8.727556E-02
+   1.600000E+02   1.270509E-01
+   1.800000E+02   2.310399E-01
+   2.000000E+02   3.402942E-01

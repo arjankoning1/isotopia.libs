@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn119m(p,x)Ag102m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 102
+#     nuclide: Ag102m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.188998E-13
+   1.200000E+02   2.740528E-07
+   1.300000E+02   6.152893E-05
+   1.400000E+02   1.627037E-03
+   1.500000E+02   1.262678E-02
+   1.600000E+02   4.316236E-02
+   1.800000E+02   1.688030E-01
+   2.000000E+02   5.029585E-01

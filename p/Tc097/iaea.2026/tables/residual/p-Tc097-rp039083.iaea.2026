@@ -1,0 +1,39 @@
+# header: 
+#   title: Tc97(p,x)Y83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 97
+#   nuclide: Tc97
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 83
+#     nuclide: Y83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.992438E-07
+   1.000000E+02   9.391867E-04
+   1.100000E+02   2.965240E-02
+   1.200000E+02   2.055380E-01
+   1.300000E+02   6.584315E-01
+   1.400000E+02   1.276173E+00
+   1.500000E+02   2.543438E+00
+   1.600000E+02   4.307048E+00
+   1.800000E+02   1.116706E+01
+   2.000000E+02   1.612495E+01

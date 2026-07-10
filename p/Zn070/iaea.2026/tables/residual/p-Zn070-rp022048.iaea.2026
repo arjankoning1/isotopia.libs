@@ -1,0 +1,37 @@
+# header: 
+#   title: Zn70(p,x)Ti48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.398511E-12
+   1.200000E+02   5.621671E-08
+   1.300000E+02   1.305193E-05
+   1.400000E+02   2.731018E-04
+   1.500000E+02   1.887791E-03
+   1.600000E+02   6.391063E-03
+   1.800000E+02   3.643414E-02
+   2.000000E+02   1.718808E-01

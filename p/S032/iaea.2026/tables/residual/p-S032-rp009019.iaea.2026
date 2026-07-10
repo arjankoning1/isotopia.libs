@@ -1,0 +1,45 @@
+# header: 
+#   title: S32(p,x)F19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 19
+#     nuclide: F19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.063041E-10
+   6.000000E+01   5.283290E-06
+   6.500000E+01   6.252157E-04
+   7.000000E+01   6.924478E-03
+   7.500000E+01   2.588159E-02
+   8.000000E+01   5.550754E-02
+   9.000000E+01   1.134155E-01
+   1.000000E+02   2.043155E-01
+   1.100000E+02   5.670155E-01
+   1.200000E+02   1.208252E+00
+   1.300000E+02   1.923912E+00
+   1.400000E+02   2.768006E+00
+   1.500000E+02   3.815378E+00
+   1.600000E+02   4.747431E+00
+   1.800000E+02   6.683588E+00
+   2.000000E+02   7.782959E+00

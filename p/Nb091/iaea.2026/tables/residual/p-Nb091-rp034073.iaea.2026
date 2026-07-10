@@ -1,0 +1,39 @@
+# header: 
+#   title: Nb91(p,x)Se73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.117271E-08
+   1.000000E+02   9.950143E-06
+   1.100000E+02   2.196134E-04
+   1.200000E+02   1.028001E-03
+   1.300000E+02   5.528831E-03
+   1.400000E+02   3.318840E-02
+   1.500000E+02   1.327596E-01
+   1.600000E+02   3.234161E-01
+   1.800000E+02   1.090947E+00
+   2.000000E+02   2.640458E+00

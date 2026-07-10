@@ -1,0 +1,51 @@
+# header: 
+#   title: Tl202(p,x)Au200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 202
+#   nuclide: Tl202
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 200
+#     nuclide: Au200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   5.368425E-11
+   4.000000E+01   3.785567E-08
+   4.500000E+01   4.555709E-06
+   5.000000E+01   8.547624E-05
+   5.500000E+01   5.000964E-04
+   6.000000E+01   1.459080E-03
+   6.500000E+01   2.847650E-03
+   7.000000E+01   4.299973E-03
+   7.500000E+01   5.638987E-03
+   8.000000E+01   6.747726E-03
+   9.000000E+01   8.452437E-03
+   1.000000E+02   9.586778E-03
+   1.100000E+02   1.000260E-02
+   1.200000E+02   9.840020E-03
+   1.300000E+02   1.128623E-02
+   1.400000E+02   9.978943E-03
+   1.500000E+02   1.130380E-02
+   1.600000E+02   9.357897E-03
+   1.800000E+02   1.118813E-02
+   2.000000E+02   8.564121E-03

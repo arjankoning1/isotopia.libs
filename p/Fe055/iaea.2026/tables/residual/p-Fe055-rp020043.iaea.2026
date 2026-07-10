@@ -1,0 +1,47 @@
+# header: 
+#   title: Fe55(p,x)Ca43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 43
+#     nuclide: Ca43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.162250E-10
+   5.000000E+01   6.987598E-06
+   5.500000E+01   6.972321E-04
+   6.000000E+01   3.521126E-03
+   6.500000E+01   6.678496E-03
+   7.000000E+01   7.756520E-03
+   7.500000E+01   6.369526E-03
+   8.000000E+01   7.873778E-03
+   9.000000E+01   3.626484E-02
+   1.000000E+02   2.796863E-01
+   1.100000E+02   6.455131E-01
+   1.200000E+02   1.162196E+00
+   1.300000E+02   1.465340E+00
+   1.400000E+02   1.899510E+00
+   1.500000E+02   2.657204E+00
+   1.600000E+02   3.567870E+00
+   1.800000E+02   3.662557E+00
+   2.000000E+02   4.513570E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: I131(p,x)Sb120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.617717E-12
+   7.000000E+01   9.704013E-08
+   7.500000E+01   5.474501E-05
+   8.000000E+01   1.508722E-03
+   9.000000E+01   5.945196E-02
+   1.000000E+02   5.487546E-01
+   1.100000E+02   1.145259E+00
+   1.200000E+02   1.217168E+00
+   1.300000E+02   1.231151E+00
+   1.400000E+02   1.328550E+00
+   1.500000E+02   1.671723E+00
+   1.600000E+02   1.520517E+00
+   1.800000E+02   2.251982E+00
+   2.000000E+02   1.838925E+00

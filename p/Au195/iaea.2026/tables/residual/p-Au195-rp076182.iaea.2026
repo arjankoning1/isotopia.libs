@@ -1,0 +1,44 @@
+# header: 
+#   title: Au195(p,x)Os182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 195
+#   nuclide: Au195
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 182
+#     nuclide: Os182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.117929E-12
+   6.500000E+01   5.310253E-09
+   7.000000E+01   2.628803E-06
+   7.500000E+01   3.181051E-04
+   8.000000E+01   7.942988E-03
+   9.000000E+01   1.785223E-01
+   1.000000E+02   3.173687E-01
+   1.100000E+02   2.483874E-01
+   1.200000E+02   4.874890E-01
+   1.300000E+02   6.740292E-01
+   1.400000E+02   8.526673E-01
+   1.500000E+02   8.433101E-01
+   1.600000E+02   9.394317E-01
+   1.800000E+02   8.826258E-01
+   2.000000E+02   8.862243E-01

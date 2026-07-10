@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu239(p,x)Ac225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 225
+#     nuclide: Ac225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.563919E-10
+   6.000000E+01   1.137752E-07
+   6.500000E+01   1.135463E-05
+   7.000000E+01   2.055469E-04
+   7.500000E+01   1.399663E-03
+   8.000000E+01   3.790803E-03
+   9.000000E+01   6.854589E-03
+   1.000000E+02   7.040053E-03
+   1.100000E+02   9.543889E-03
+   1.200000E+02   2.019391E-02
+   1.300000E+02   3.380829E-02
+   1.400000E+02   3.749095E-02
+   1.500000E+02   4.526049E-02
+   1.600000E+02   2.491571E-02
+   1.800000E+02   4.182176E-02
+   2.000000E+02   5.840697E-02

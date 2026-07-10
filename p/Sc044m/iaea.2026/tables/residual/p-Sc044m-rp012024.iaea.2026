@@ -1,0 +1,43 @@
+# header: 
+#   title: Sc44m(p,x)Mg24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.260967E-12
+   7.000000E+01   5.804314E-09
+   7.500000E+01   4.561678E-07
+   8.000000E+01   6.911640E-06
+   9.000000E+01   1.178143E-04
+   1.000000E+02   4.047447E-04
+   1.100000E+02   8.026725E-04
+   1.200000E+02   2.170259E-03
+   1.300000E+02   6.956724E-03
+   1.400000E+02   1.796838E-02
+   1.500000E+02   3.936738E-02
+   1.600000E+02   8.397684E-02
+   1.800000E+02   3.218041E-01
+   2.000000E+02   9.615847E-01

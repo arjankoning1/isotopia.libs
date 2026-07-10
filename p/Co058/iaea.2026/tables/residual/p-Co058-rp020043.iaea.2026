@@ -1,0 +1,46 @@
+# header: 
+#   title: Co58(p,x)Ca43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 43
+#     nuclide: Ca43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.142128E-10
+   5.500000E+01   2.750585E-07
+   6.000000E+01   1.381593E-05
+   6.500000E+01   7.808034E-05
+   7.000000E+01   8.529888E-05
+   7.500000E+01   2.045044E-04
+   8.000000E+01   3.139113E-04
+   9.000000E+01   8.876512E-04
+   1.000000E+02   9.204956E-03
+   1.100000E+02   4.154252E-02
+   1.200000E+02   1.021061E-01
+   1.300000E+02   1.713124E-01
+   1.400000E+02   4.506308E-01
+   1.500000E+02   6.283730E-01
+   1.600000E+02   9.308820E-01
+   1.800000E+02   1.617585E+00
+   2.000000E+02   2.286304E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pa230(p,x)Rn212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 212
+#     nuclide: Rn212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.637812E-09
+   7.500000E+01   1.136578E-06
+   8.000000E+01   2.240784E-04
+   9.000000E+01   3.162071E-02
+   1.000000E+02   2.645012E-01
+   1.100000E+02   4.317032E-01
+   1.200000E+02   5.295200E-01
+   1.300000E+02   5.384420E-01
+   1.400000E+02   6.624722E-01
+   1.500000E+02   1.044828E+00
+   1.600000E+02   1.142822E+00
+   1.800000E+02   1.198920E+00
+   2.000000E+02   6.592427E-01

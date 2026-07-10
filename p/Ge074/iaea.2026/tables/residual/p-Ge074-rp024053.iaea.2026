@@ -1,0 +1,38 @@
+# header: 
+#   title: Ge74(p,x)Cr53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 53
+#     nuclide: Cr53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.300430E-12
+   1.100000E+02   1.721940E-07
+   1.200000E+02   2.605896E-05
+   1.300000E+02   4.394495E-04
+   1.400000E+02   2.174187E-03
+   1.500000E+02   5.807865E-03
+   1.600000E+02   1.183139E-02
+   1.800000E+02   5.014852E-02
+   2.000000E+02   1.696192E-01

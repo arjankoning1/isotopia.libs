@@ -1,0 +1,43 @@
+# header: 
+#   title: Au194(p,x)Au185m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 194
+#   nuclide: Au194
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 185
+#     nuclide: Au185m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.576512E-09
+   8.000000E+01   3.179439E-05
+   9.000000E+01   2.576987E-02
+   1.000000E+02   9.459004E-01
+   1.100000E+02   4.269511E+00
+   1.200000E+02   5.239847E+00
+   1.300000E+02   4.571005E+00
+   1.400000E+02   4.533328E+00
+   1.500000E+02   4.428364E+00
+   1.600000E+02   4.667178E+00
+   1.800000E+02   3.988822E+00
+   2.000000E+02   3.816234E+00

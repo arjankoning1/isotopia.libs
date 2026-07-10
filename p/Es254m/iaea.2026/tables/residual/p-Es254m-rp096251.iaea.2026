@@ -1,0 +1,44 @@
+# header: 
+#   title: Es254m(p,x)Cm251 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 254
+#   nuclide: Es254m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 96
+#     A: 251
+#     nuclide: Cm251
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.584471E-10
+   6.500000E+01   9.940793E-09
+   7.000000E+01   1.361124E-07
+   7.500000E+01   7.396951E-07
+   8.000000E+01   2.784391E-06
+   9.000000E+01   7.341775E-06
+   1.000000E+02   2.295473E-05
+   1.100000E+02   1.430351E-05
+   1.200000E+02   2.139201E-05
+   1.300000E+02   3.514618E-05
+   1.400000E+02   5.324286E-05
+   1.500000E+02   4.188482E-05
+   1.600000E+02   2.854797E-06
+   1.800000E+02   3.403684E-07
+   2.000000E+02   1.496905E-07

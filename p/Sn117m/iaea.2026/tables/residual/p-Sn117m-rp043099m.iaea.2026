@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn117m(p,x)Tc99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.352157E-12
+   8.000000E+01   2.216342E-09
+   9.000000E+01   8.344530E-06
+   1.000000E+02   1.958313E-04
+   1.100000E+02   4.559752E-04
+   1.200000E+02   3.680912E-04
+   1.300000E+02   6.136837E-04
+   1.400000E+02   1.189916E-03
+   1.500000E+02   2.265156E-03
+   1.600000E+02   3.698342E-03
+   1.800000E+02   4.572943E-03
+   2.000000E+02   8.332732E-03

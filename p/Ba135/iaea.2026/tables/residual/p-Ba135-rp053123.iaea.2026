@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba135(p,x)I123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 123
+#     nuclide: I123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.406837E-10
+   6.500000E+01   2.579516E-06
+   7.000000E+01   7.207203E-04
+   7.500000E+01   2.446995E-02
+   8.000000E+01   1.664646E-01
+   9.000000E+01   7.028391E-01
+   1.000000E+02   5.654448E-01
+   1.100000E+02   7.668827E-01
+   1.200000E+02   2.151124E+00
+   1.300000E+02   3.875030E+00
+   1.400000E+02   4.418132E+00
+   1.500000E+02   5.779984E+00
+   1.600000E+02   5.490667E+00
+   1.800000E+02   7.245471E+00
+   2.000000E+02   4.654638E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Rh99(p,x)Tc91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.562371E-08
+   5.500000E+01   2.403061E-04
+   6.000000E+01   9.111741E-03
+   6.500000E+01   4.769715E-02
+   7.000000E+01   2.700664E-01
+   7.500000E+01   7.675493E-01
+   8.000000E+01   1.270385E+00
+   9.000000E+01   1.693176E+00
+   1.000000E+02   1.905262E+00
+   1.100000E+02   2.654281E+00
+   1.200000E+02   4.151855E+00
+   1.300000E+02   5.181172E+00
+   1.400000E+02   6.317964E+00
+   1.500000E+02   7.407158E+00
+   1.600000E+02   7.144688E+00
+   1.800000E+02   8.204009E+00
+   2.000000E+02   8.047839E+00

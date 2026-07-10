@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd100(p,x)Rh94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 94
+#     nuclide: Rh94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.951109E-07
+   4.500000E+01   9.469505E-03
+   5.000000E+01   4.290404E-01
+   5.500000E+01   1.183381E+00
+   6.000000E+01   9.479953E-01
+   6.500000E+01   4.745582E-01
+   7.000000E+01   2.682708E-01
+   7.500000E+01   2.184334E-01
+   8.000000E+01   2.499234E-01
+   9.000000E+01   5.760889E-01
+   1.000000E+02   1.006015E+00
+   1.100000E+02   1.241351E+00
+   1.200000E+02   1.377403E+00
+   1.300000E+02   1.477861E+00
+   1.400000E+02   1.570922E+00
+   1.500000E+02   1.563672E+00
+   1.600000E+02   1.699854E+00
+   1.800000E+02   1.517794E+00
+   2.000000E+02   2.123335E+00

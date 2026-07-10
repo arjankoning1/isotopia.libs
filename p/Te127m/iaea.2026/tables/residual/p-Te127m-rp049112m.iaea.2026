@@ -1,0 +1,41 @@
+# header: 
+#   title: Te127m(p,x)In112m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 127
+#   nuclide: Te127m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.558218E-08
+   1.000000E+02   1.328618E-03
+   1.100000E+02   1.005528E-01
+   1.200000E+02   5.483924E-01
+   1.300000E+02   1.023433E+00
+   1.400000E+02   1.486158E+00
+   1.500000E+02   2.668008E+00
+   1.600000E+02   4.025188E+00
+   1.800000E+02   5.996924E+00
+   2.000000E+02   8.087304E+00

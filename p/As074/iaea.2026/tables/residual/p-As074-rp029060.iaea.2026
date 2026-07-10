@@ -1,0 +1,40 @@
+# header: 
+#   title: As74(p,x)Cu60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.058906E-11
+   9.000000E+01   4.313400E-06
+   1.000000E+02   5.086445E-04
+   1.100000E+02   9.981383E-03
+   1.200000E+02   7.114556E-02
+   1.300000E+02   1.970451E-01
+   1.400000E+02   4.122469E-01
+   1.500000E+02   9.048576E-01
+   1.600000E+02   1.661368E+00
+   1.800000E+02   3.468954E+00
+   2.000000E+02   5.686237E+00

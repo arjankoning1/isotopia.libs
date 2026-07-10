@@ -1,0 +1,36 @@
+# header: 
+#   title: Xe129(p,x)In107m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 107
+#     nuclide: In107m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   1.664307E-12
+   1.500000E+02   6.551444E-09
+   1.600000E+02   1.039384E-06
+   1.800000E+02   1.994263E-04
+   2.000000E+02   2.778138E-03

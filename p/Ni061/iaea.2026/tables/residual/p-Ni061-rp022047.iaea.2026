@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni61(p,x)Ti47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 47
+#     nuclide: Ti47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.815975E-09
+   6.500000E+01   1.865506E-06
+   7.000000E+01   4.585004E-05
+   7.500000E+01   2.500018E-04
+   8.000000E+01   1.810029E-03
+   9.000000E+01   2.270869E-02
+   1.000000E+02   6.836031E-02
+   1.100000E+02   1.558291E-01
+   1.200000E+02   5.386356E-01
+   1.300000E+02   1.378590E+00
+   1.400000E+02   2.763396E+00
+   1.500000E+02   3.914404E+00
+   1.600000E+02   5.238317E+00
+   1.800000E+02   9.974822E+00
+   2.000000E+02   1.113804E+01

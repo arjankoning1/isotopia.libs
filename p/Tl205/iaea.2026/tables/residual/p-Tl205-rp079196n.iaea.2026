@@ -1,0 +1,48 @@
+# header: 
+#   title: Tl205(p,x)Au196n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.867852E-10
+   5.500000E+01   8.642340E-07
+   6.000000E+01   7.674118E-05
+   6.500000E+01   8.202652E-04
+   7.000000E+01   4.471643E-03
+   7.500000E+01   1.821815E-02
+   8.000000E+01   4.386950E-02
+   9.000000E+01   6.227377E-02
+   1.000000E+02   5.243791E-02
+   1.100000E+02   4.340892E-02
+   1.200000E+02   6.053717E-02
+   1.300000E+02   8.424806E-02
+   1.400000E+02   1.784891E-01
+   1.500000E+02   2.887142E-01
+   1.600000E+02   2.695424E-01
+   1.800000E+02   3.955438E-01
+   2.000000E+02   8.343976E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Se72(p,x)Ni64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.731392E-12
+   6.000000E+01   3.941236E-08
+   6.500000E+01   1.943189E-06
+   7.000000E+01   2.877928E-05
+   7.500000E+01   1.070823E-04
+   8.000000E+01   1.935709E-04
+   9.000000E+01   7.893656E-04
+   1.000000E+02   1.422080E-03
+   1.100000E+02   1.761278E-03
+   1.200000E+02   2.638878E-03
+   1.300000E+02   3.994483E-03
+   1.400000E+02   4.564200E-03
+   1.500000E+02   5.121402E-03
+   1.600000E+02   4.962555E-03
+   1.800000E+02   3.826058E-03
+   2.000000E+02   2.463440E-03

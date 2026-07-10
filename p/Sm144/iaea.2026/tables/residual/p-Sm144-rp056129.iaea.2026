@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm144(p,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.177098E-12
+   7.000000E+01   3.344311E-10
+   7.500000E+01   2.590690E-08
+   8.000000E+01   1.476303E-06
+   9.000000E+01   5.417481E-04
+   1.000000E+02   4.819521E-03
+   1.100000E+02   7.157798E-03
+   1.200000E+02   5.595406E-03
+   1.300000E+02   1.147604E-02
+   1.400000E+02   1.757406E-02
+   1.500000E+02   2.120978E-02
+   1.600000E+02   2.797772E-02
+   1.800000E+02   2.455568E-02
+   2.000000E+02   4.792437E-02

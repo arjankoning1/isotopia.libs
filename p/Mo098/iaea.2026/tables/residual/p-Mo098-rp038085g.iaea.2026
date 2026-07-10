@@ -1,0 +1,44 @@
+# header: 
+#   title: Mo98(p,x)Sr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.307783E-09
+   7.500000E+01   1.213001E-06
+   8.000000E+01   4.343274E-05
+   9.000000E+01   6.855028E-03
+   1.000000E+02   5.515645E-02
+   1.100000E+02   1.624815E-01
+   1.200000E+02   3.139700E-01
+   1.300000E+02   4.727504E-01
+   1.400000E+02   7.911964E-01
+   1.500000E+02   1.157463E+00
+   1.600000E+02   1.421819E+00
+   1.800000E+02   1.645195E+00
+   2.000000E+02   2.071111E+00

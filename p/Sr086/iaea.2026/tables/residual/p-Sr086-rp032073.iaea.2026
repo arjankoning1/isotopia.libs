@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr86(p,x)Ge73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 73
+#     nuclide: Ge73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.253252E-09
+   6.500000E+01   4.461099E-07
+   7.000000E+01   1.536373E-05
+   7.500000E+01   1.143383E-04
+   8.000000E+01   3.570629E-04
+   9.000000E+01   7.783200E-04
+   1.000000E+02   7.902697E-04
+   1.100000E+02   1.298508E-03
+   1.200000E+02   3.957059E-03
+   1.300000E+02   8.529707E-03
+   1.400000E+02   1.139250E-02
+   1.500000E+02   1.455814E-02
+   1.600000E+02   2.145586E-02
+   1.800000E+02   1.925060E-02
+   2.000000E+02   2.349810E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: U238(p,x)Fr222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 222
+#     nuclide: Fr222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.459656E-10
+   7.000000E+01   1.853641E-07
+   7.500000E+01   1.716700E-05
+   8.000000E+01   1.347980E-03
+   9.000000E+01   6.033557E-02
+   1.000000E+02   1.171181E-01
+   1.100000E+02   1.113464E-01
+   1.200000E+02   1.172279E-01
+   1.300000E+02   1.569014E-01
+   1.400000E+02   1.118397E-01
+   1.500000E+02   8.699469E-02
+   1.600000E+02   7.380848E-02
+   1.800000E+02   6.260208E-02
+   2.000000E+02   9.190577E-02

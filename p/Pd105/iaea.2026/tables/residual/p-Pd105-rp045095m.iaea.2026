@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd105(p,x)Rh95m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 95
+#     nuclide: Rh95m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.379501E-14
+   7.500000E+01   2.140628E-08
+   8.000000E+01   2.788023E-05
+   9.000000E+01   3.986035E-03
+   1.000000E+02   8.464966E-03
+   1.100000E+02   9.531835E-03
+   1.200000E+02   1.204093E-02
+   1.300000E+02   1.670209E-02
+   1.400000E+02   2.608817E-02
+   1.500000E+02   3.046100E-02
+   1.600000E+02   4.568929E-02
+   1.800000E+02   4.700247E-02
+   2.000000E+02   7.674155E-02

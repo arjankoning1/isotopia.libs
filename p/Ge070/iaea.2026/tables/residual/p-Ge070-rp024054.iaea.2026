@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge70(p,x)Cr54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 54
+#     nuclide: Cr54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.077975E-10
+   6.500000E+01   3.499034E-08
+   7.000000E+01   1.391742E-06
+   7.500000E+01   1.248682E-05
+   8.000000E+01   4.113420E-05
+   9.000000E+01   2.359962E-04
+   1.000000E+02   4.445969E-04
+   1.100000E+02   8.276202E-04
+   1.200000E+02   3.008655E-03
+   1.300000E+02   8.176085E-03
+   1.400000E+02   1.495891E-02
+   1.500000E+02   2.827567E-02
+   1.600000E+02   5.299217E-02
+   1.800000E+02   1.005670E-01
+   2.000000E+02   1.295276E-01

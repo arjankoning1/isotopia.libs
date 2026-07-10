@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi209(p,x)Au191 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 191
+#     nuclide: Au191
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.842911E-08
+   1.200000E+02   2.070065E-04
+   1.300000E+02   1.473165E-02
+   1.400000E+02   1.300133E-01
+   1.500000E+02   3.374298E-01
+   1.600000E+02   5.057084E-01
+   1.800000E+02   6.772350E-01
+   2.000000E+02   8.843807E-01

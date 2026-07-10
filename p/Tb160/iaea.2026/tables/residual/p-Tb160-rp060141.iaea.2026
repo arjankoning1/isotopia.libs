@@ -1,0 +1,39 @@
+# header: 
+#   title: Tb160(p,x)Nd141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 160
+#   nuclide: Tb160
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.832571E-10
+   1.000000E+02   1.740126E-05
+   1.100000E+02   5.080070E-03
+   1.200000E+02   5.456521E-02
+   1.300000E+02   1.120531E-01
+   1.400000E+02   1.624347E-01
+   1.500000E+02   2.221126E-01
+   1.600000E+02   3.489116E-01
+   1.800000E+02   5.446258E-01
+   2.000000E+02   5.029644E-01

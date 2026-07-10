@@ -1,0 +1,48 @@
+# header: 
+#   title: Ce140(p,x)Ba131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.836550E-12
+   5.500000E+01   1.203854E-07
+   6.000000E+01   7.435314E-05
+   6.500000E+01   2.348482E-03
+   7.000000E+01   1.700998E-02
+   7.500000E+01   1.088766E-01
+   8.000000E+01   4.028048E-01
+   9.000000E+01   1.087211E+00
+   1.000000E+02   1.111288E+00
+   1.100000E+02   1.095764E+00
+   1.200000E+02   1.248621E+00
+   1.300000E+02   1.462084E+00
+   1.400000E+02   2.035214E+00
+   1.500000E+02   2.183209E+00
+   1.600000E+02   2.682041E+00
+   1.800000E+02   3.718034E+00
+   2.000000E+02   2.953799E+00

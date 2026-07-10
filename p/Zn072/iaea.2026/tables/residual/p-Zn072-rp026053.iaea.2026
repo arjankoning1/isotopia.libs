@@ -1,0 +1,35 @@
+# header: 
+#   title: Zn72(p,x)Fe53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   5.516032E-12
+   1.400000E+02   5.949452E-08
+   1.500000E+02   9.490545E-06
+   1.600000E+02   2.048121E-04
+   1.800000E+02   5.559529E-03
+   2.000000E+02   3.746210E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb95m(p,x)Rb81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.491856E-10
+   9.000000E+01   4.359681E-05
+   1.000000E+02   5.416180E-03
+   1.100000E+02   7.799312E-02
+   1.200000E+02   4.059296E-01
+   1.300000E+02   1.019099E+00
+   1.400000E+02   1.665349E+00
+   1.500000E+02   2.772437E+00
+   1.600000E+02   3.953325E+00
+   1.800000E+02   7.324985E+00
+   2.000000E+02   8.753251E+00

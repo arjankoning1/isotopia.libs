@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca41(p,x)Ca36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 36
+#     nuclide: Ca36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.092436E-09
+   7.500000E+01   9.046971E-08
+   8.000000E+01   4.318587E-07
+   9.000000E+01   2.437273E-06
+   1.000000E+02   6.538636E-06
+   1.100000E+02   1.117603E-05
+   1.200000E+02   1.458982E-05
+   1.300000E+02   1.660171E-05
+   1.400000E+02   1.771276E-05
+   1.500000E+02   1.828672E-05
+   1.600000E+02   1.869023E-05
+   1.800000E+02   1.876189E-05
+   2.000000E+02   1.860610E-05

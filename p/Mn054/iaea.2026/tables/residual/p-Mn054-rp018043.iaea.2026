@@ -1,0 +1,40 @@
+# header: 
+#   title: Mn54(p,x)Ar43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 43
+#     nuclide: Ar43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.989052E-12
+   9.000000E+01   6.614250E-09
+   1.000000E+02   1.506249E-07
+   1.100000E+02   5.838829E-07
+   1.200000E+02   1.903747E-06
+   1.300000E+02   7.622916E-06
+   1.400000E+02   2.074173E-05
+   1.500000E+02   3.562832E-05
+   1.600000E+02   4.668631E-05
+   1.800000E+02   5.585406E-05
+   2.000000E+02   5.364349E-05

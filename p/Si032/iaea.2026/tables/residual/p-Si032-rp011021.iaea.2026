@@ -1,0 +1,43 @@
+# header: 
+#   title: Si32(p,x)Na21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 21
+#     nuclide: Na21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.762219E-07
+   7.000000E+01   4.927036E-05
+   7.500000E+01   6.444698E-04
+   8.000000E+01   2.813991E-03
+   9.000000E+01   1.222390E-02
+   1.000000E+02   2.438466E-02
+   1.100000E+02   5.243959E-02
+   1.200000E+02   1.220132E-01
+   1.300000E+02   2.314338E-01
+   1.400000E+02   3.543676E-01
+   1.500000E+02   4.753556E-01
+   1.600000E+02   6.149512E-01
+   1.800000E+02   8.621143E-01
+   2.000000E+02   9.987167E-01

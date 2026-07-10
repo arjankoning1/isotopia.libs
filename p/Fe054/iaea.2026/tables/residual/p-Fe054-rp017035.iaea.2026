@@ -1,0 +1,43 @@
+# header: 
+#   title: Fe54(p,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.909043E-11
+   7.000000E+01   2.539536E-08
+   7.500000E+01   2.633366E-07
+   8.000000E+01   6.322564E-07
+   9.000000E+01   5.517991E-06
+   1.000000E+02   1.314018E-05
+   1.100000E+02   7.556262E-05
+   1.200000E+02   1.136578E-03
+   1.300000E+02   6.132207E-03
+   1.400000E+02   1.521945E-02
+   1.500000E+02   2.997846E-02
+   1.600000E+02   6.180403E-02
+   1.800000E+02   2.383731E-01
+   2.000000E+02   6.793619E-01

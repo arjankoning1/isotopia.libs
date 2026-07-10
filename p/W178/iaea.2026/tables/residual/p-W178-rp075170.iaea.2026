@@ -1,0 +1,40 @@
+# header: 
+#   title: W178(p,x)Re170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 178
+#   nuclide: W178
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 170
+#     nuclide: Re170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.649660E-07
+   9.000000E+01   4.066745E-01
+   1.000000E+02   9.675439E+00
+   1.100000E+02   1.784421E+01
+   1.200000E+02   1.109147E+01
+   1.300000E+02   6.359291E+00
+   1.400000E+02   4.778081E+00
+   1.500000E+02   4.121029E+00
+   1.600000E+02   3.641071E+00
+   1.800000E+02   2.759858E+00
+   2.000000E+02   2.465045E+00

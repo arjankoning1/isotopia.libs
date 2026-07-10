@@ -1,0 +1,40 @@
+# header: 
+#   title: Co57(p,x)Cr46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 46
+#     nuclide: Cr46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.771442E-09
+   9.000000E+01   5.217955E-06
+   1.000000E+02   3.420072E-05
+   1.100000E+02   6.182710E-05
+   1.200000E+02   9.134465E-05
+   1.300000E+02   1.615353E-04
+   1.400000E+02   2.903585E-04
+   1.500000E+02   4.564809E-04
+   1.600000E+02   6.119021E-04
+   1.800000E+02   9.092953E-04
+   2.000000E+02   1.150325E-03

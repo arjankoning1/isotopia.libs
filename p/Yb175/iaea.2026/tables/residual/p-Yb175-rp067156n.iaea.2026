@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb175(p,x)Ho156n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 175
+#   nuclide: Yb175
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 156
+#     nuclide: Ho156n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.182820E-13
+   1.200000E+02   6.493049E-07
+   1.300000E+02   1.416221E-03
+   1.400000E+02   5.661601E-02
+   1.500000E+02   2.687746E-01
+   1.600000E+02   5.355791E-01
+   1.800000E+02   8.750117E-01
+   2.000000E+02   2.359109E+00

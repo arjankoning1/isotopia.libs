@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti44(p,x)Si26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 26
+#     nuclide: Si26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.272732E-11
+   9.000000E+01   3.675620E-08
+   1.000000E+02   1.835100E-06
+   1.100000E+02   3.797116E-05
+   1.200000E+02   2.114146E-04
+   1.300000E+02   5.372745E-04
+   1.400000E+02   1.155859E-03
+   1.500000E+02   2.732795E-03
+   1.600000E+02   5.526239E-03
+   1.800000E+02   1.971523E-02
+   2.000000E+02   5.122333E-02

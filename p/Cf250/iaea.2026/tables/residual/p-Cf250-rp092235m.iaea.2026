@@ -1,0 +1,44 @@
+# header: 
+#   title: Cf250(p,x)U235m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 250
+#   nuclide: Cf250
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.102424E-17
+   7.500000E+01   3.705637E-12
+   8.000000E+01   1.251120E-10
+   9.000000E+01   3.998117E-08
+   1.000000E+02   4.090904E-07
+   1.100000E+02   7.981955E-07
+   1.200000E+02   9.482016E-07
+   1.300000E+02   1.345605E-06
+   1.400000E+02   2.741584E-06
+   1.500000E+02   3.651912E-06
+   1.600000E+02   6.071486E-06
+   1.800000E+02   1.475627E-05
+   2.000000E+02   4.191133E-07

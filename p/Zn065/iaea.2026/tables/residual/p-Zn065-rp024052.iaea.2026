@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn65(p,x)Cr52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 52
+#     nuclide: Cr52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.993474E-08
+   5.500000E+01   2.791178E-05
+   6.000000E+01   1.360375E-03
+   6.500000E+01   7.745497E-03
+   7.000000E+01   1.711319E-02
+   7.500000E+01   2.199432E-02
+   8.000000E+01   3.721378E-02
+   9.000000E+01   6.823152E-02
+   1.000000E+02   1.955139E-01
+   1.100000E+02   6.032619E-01
+   1.200000E+02   1.190686E+00
+   1.300000E+02   1.756255E+00
+   1.400000E+02   2.730572E+00
+   1.500000E+02   3.999300E+00
+   1.600000E+02   5.123151E+00
+   1.800000E+02   7.731862E+00
+   2.000000E+02   8.070264E+00

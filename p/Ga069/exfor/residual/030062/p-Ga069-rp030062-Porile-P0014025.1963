@@ -1,0 +1,37 @@
+# header: 
+#   title: Ga69(p,x)Zn62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Porile
+#   year: 1963
+#   subentry: P0014025
+#   X4 reaction: 31-GA-69(P,X)30-ZN-62,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0014025
+# target: 
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.530000E+01   0.000000E+00   7.340000E-01   1.101000E-01   1.000000E+00
+# reference:
+#   author: N.T.Porile,S.Tanaka,H.Amano,M.Furukawa,S.Iwata,M.Yagi
+#   title: Nuclear reactions of Ga69 and Ga71 with 13-56 MeV  protons
+#   journal: Jour: Nuclear Physics, Vol.43, p.500 (1963)

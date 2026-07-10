@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr52(p,x)S35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.314516E-09
+   8.000000E+01   2.058948E-07
+   9.000000E+01   6.188089E-05
+   1.000000E+02   7.623975E-04
+   1.100000E+02   1.969022E-03
+   1.200000E+02   3.313459E-03
+   1.300000E+02   7.421528E-03
+   1.400000E+02   1.561601E-02
+   1.500000E+02   2.996845E-02
+   1.600000E+02   4.962680E-02
+   1.800000E+02   1.169974E-01
+   2.000000E+02   2.135843E-01

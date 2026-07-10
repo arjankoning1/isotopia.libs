@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu154(p,x)Ce135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.818796E-12
+   1.000000E+02   5.221998E-06
+   1.100000E+02   5.140247E-03
+   1.200000E+02   1.038581E-01
+   1.300000E+02   2.292803E-01
+   1.400000E+02   1.928814E-01
+   1.500000E+02   2.165275E-01
+   1.600000E+02   2.890566E-01
+   1.800000E+02   6.393657E-01
+   2.000000E+02   1.086399E+00

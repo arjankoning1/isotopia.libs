@@ -1,0 +1,39 @@
+# header: 
+#   title: In113(p,x)Rh96m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.422162E-11
+   1.200000E+02   3.997824E-06
+   1.300000E+02   8.861266E-04
+   1.400000E+02   1.395044E-02
+   1.500000E+02   7.201506E-02
+   1.600000E+02   1.894578E-01
+   1.800000E+02   6.287304E-01
+   2.000000E+02   1.303243E+00

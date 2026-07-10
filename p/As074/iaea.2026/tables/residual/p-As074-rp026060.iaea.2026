@@ -1,0 +1,44 @@
+# header: 
+#   title: As74(p,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.028749E-11
+   6.500000E+01   8.559841E-10
+   7.000000E+01   3.807956E-08
+   7.500000E+01   5.907799E-07
+   8.000000E+01   1.974609E-06
+   9.000000E+01   4.939916E-05
+   1.000000E+02   1.829862E-04
+   1.100000E+02   3.112155E-04
+   1.200000E+02   5.702990E-04
+   1.300000E+02   1.577009E-03
+   1.400000E+02   3.310286E-03
+   1.500000E+02   5.132684E-03
+   1.600000E+02   5.670684E-03
+   1.800000E+02   6.109436E-03
+   2.000000E+02   6.418248E-03

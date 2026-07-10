@@ -1,0 +1,42 @@
+# header: 
+#   title: Eu152(p,x)Nd137g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 152
+#   nuclide: Eu152
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.751068E-11
+   9.000000E+01   5.215716E-05
+   1.000000E+02   3.158141E-02
+   1.100000E+02   3.209407E-01
+   1.200000E+02   5.567344E-01
+   1.300000E+02   5.440041E-01
+   1.400000E+02   8.194475E-01
+   1.500000E+02   1.374544E+00
+   1.600000E+02   2.247559E+00
+   1.800000E+02   3.154195E+00
+   2.000000E+02   4.167561E+00

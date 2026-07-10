@@ -1,0 +1,48 @@
+# header: 
+#   title: Rh102m(p,x)Mo91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.116989E-14
+   5.500000E+01   2.356377E-09
+   6.000000E+01   8.293787E-06
+   6.500000E+01   6.385798E-04
+   7.000000E+01   5.335300E-03
+   7.500000E+01   1.515490E-02
+   8.000000E+01   2.668712E-02
+   9.000000E+01   4.765135E-02
+   1.000000E+02   8.723900E-02
+   1.100000E+02   2.428331E-01
+   1.200000E+02   5.074822E-01
+   1.300000E+02   8.881204E-01
+   1.400000E+02   1.094140E+00
+   1.500000E+02   1.620430E+00
+   1.600000E+02   2.116001E+00
+   1.800000E+02   2.506137E+00
+   2.000000E+02   2.919675E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Cr52(p,x)K46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 46
+#     nuclide: K46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.088518E-11
+   9.000000E+01   4.130351E-08
+   1.000000E+02   3.942741E-07
+   1.100000E+02   1.928915E-06
+   1.200000E+02   6.939310E-06
+   1.300000E+02   1.557214E-05
+   1.400000E+02   2.441929E-05
+   1.500000E+02   3.023155E-05
+   1.600000E+02   3.663082E-05
+   1.800000E+02   4.032659E-05
+   2.000000E+02   4.459345E-05

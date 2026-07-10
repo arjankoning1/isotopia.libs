@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd105(p,x)Tc93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 93
+#     nuclide: Tc93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.867869E-10
+   6.500000E+01   6.720902E-06
+   7.000000E+01   1.837390E-03
+   7.500000E+01   5.116725E-02
+   8.000000E+01   2.678870E-01
+   9.000000E+01   7.217247E-01
+   1.000000E+02   5.886022E-01
+   1.100000E+02   7.126842E-01
+   1.200000E+02   1.853079E+00
+   1.300000E+02   4.972852E+00
+   1.400000E+02   7.960645E+00
+   1.500000E+02   1.125670E+01
+   1.600000E+02   1.733061E+01
+   1.800000E+02   2.511989E+01
+   2.000000E+02   2.967075E+01

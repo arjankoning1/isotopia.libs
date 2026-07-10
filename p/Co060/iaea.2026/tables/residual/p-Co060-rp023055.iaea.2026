@@ -1,0 +1,44 @@
+# header: 
+#   title: Co60(p,x)V55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 55
+#     nuclide: V55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.263797E-09
+   6.500000E+01   2.854395E-07
+   7.000000E+01   5.594271E-06
+   7.500000E+01   3.939892E-05
+   8.000000E+01   1.297660E-04
+   9.000000E+01   5.526317E-04
+   1.000000E+02   1.065003E-03
+   1.100000E+02   1.421525E-03
+   1.200000E+02   1.693487E-03
+   1.300000E+02   1.796709E-03
+   1.400000E+02   1.574920E-03
+   1.500000E+02   1.602448E-03
+   1.600000E+02   1.812699E-03
+   1.800000E+02   1.193547E-03
+   2.000000E+02   1.348867E-03

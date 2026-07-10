@@ -1,0 +1,48 @@
+# header: 
+#   title: Sr90(p,x)Y85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 85
+#     nuclide: Y85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.728829E-09
+   5.500000E+01   5.319021E-01
+   6.000000E+01   1.191927E+01
+   6.500000E+01   3.272523E+01
+   7.000000E+01   4.308003E+01
+   7.500000E+01   3.875389E+01
+   8.000000E+01   3.081850E+01
+   9.000000E+01   1.998802E+01
+   1.000000E+02   1.424426E+01
+   1.100000E+02   1.042354E+01
+   1.200000E+02   8.022792E+00
+   1.300000E+02   6.334754E+00
+   1.400000E+02   5.223596E+00
+   1.500000E+02   4.381399E+00
+   1.600000E+02   3.790836E+00
+   1.800000E+02   3.051143E+00
+   2.000000E+02   2.488687E+00

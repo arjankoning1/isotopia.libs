@@ -1,0 +1,36 @@
+# header: 
+#   title: Bi205(p,x)Hg186 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 186
+#     nuclide: Hg186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.683008E-12
+   1.300000E+02   1.863043E-07
+   1.400000E+02   4.898147E-04
+   1.500000E+02   5.827949E-02
+   1.600000E+02   5.652191E-01
+   1.800000E+02   1.894460E+00
+   2.000000E+02   2.156986E+00

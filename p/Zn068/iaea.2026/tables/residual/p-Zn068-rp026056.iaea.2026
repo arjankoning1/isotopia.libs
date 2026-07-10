@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn68(p,x)Fe56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.459798E-09
+   6.000000E+01   6.199972E-06
+   6.500000E+01   8.350638E-04
+   7.000000E+01   1.159523E-02
+   7.500000E+01   5.506719E-02
+   8.000000E+01   1.761159E-01
+   9.000000E+01   1.023552E+00
+   1.000000E+02   2.742115E+00
+   1.100000E+02   4.145389E+00
+   1.200000E+02   5.750582E+00
+   1.300000E+02   8.506603E+00
+   1.400000E+02   1.199004E+01
+   1.500000E+02   1.486270E+01
+   1.600000E+02   1.606625E+01
+   1.800000E+02   1.854194E+01
+   2.000000E+02   1.772199E+01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Th230(p,x)Ac215 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 215
+#     nuclide: Ac215
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.079028E-11
+   1.000000E+02   2.080602E-06
+   1.100000E+02   2.471331E-03
+   1.200000E+02   9.049864E-02
+   1.300000E+02   5.856029E-01
+   1.400000E+02   1.607151E+00
+   1.500000E+02   2.053282E+00
+   1.600000E+02   3.992311E+00
+   1.800000E+02   5.621553E+00
+   2.000000E+02   6.251074E+00

@@ -1,0 +1,38 @@
+# header: 
+#   title: Rb85(p,x)Cu65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 65
+#     nuclide: Cu65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.906718E-10
+   1.100000E+02   4.295644E-07
+   1.200000E+02   6.461795E-05
+   1.300000E+02   1.173004E-03
+   1.400000E+02   5.741317E-03
+   1.500000E+02   1.252243E-02
+   1.600000E+02   2.204678E-02
+   1.800000E+02   5.735948E-02
+   2.000000E+02   8.644331E-02

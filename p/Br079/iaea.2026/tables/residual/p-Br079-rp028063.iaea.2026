@@ -1,0 +1,45 @@
+# header: 
+#   title: Br79(p,x)Ni63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.591050E-10
+   6.000000E+01   1.334576E-07
+   6.500000E+01   5.014128E-06
+   7.000000E+01   3.648401E-05
+   7.500000E+01   1.055268E-04
+   8.000000E+01   1.754137E-04
+   9.000000E+01   2.720632E-04
+   1.000000E+02   1.009917E-03
+   1.100000E+02   4.873388E-03
+   1.200000E+02   1.295889E-02
+   1.300000E+02   2.011287E-02
+   1.400000E+02   4.015724E-02
+   1.500000E+02   8.897414E-02
+   1.600000E+02   1.467222E-01
+   1.800000E+02   2.338700E-01
+   2.000000E+02   2.385309E-01

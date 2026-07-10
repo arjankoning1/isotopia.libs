@@ -1,0 +1,48 @@
+# header: 
+#   title: Rb83(p,x)Rb78m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 83
+#   nuclide: Rb83
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 78
+#     nuclide: Rb78m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   9.188610E-06
+   5.500000E+01   1.579941E-02
+   6.000000E+01   1.259902E-01
+   6.500000E+01   5.896218E-01
+   7.000000E+01   2.185879E+00
+   7.500000E+01   4.329104E+00
+   8.000000E+01   5.570270E+00
+   9.000000E+01   6.128309E+00
+   1.000000E+02   6.115516E+00
+   1.100000E+02   5.703387E+00
+   1.200000E+02   5.244507E+00
+   1.300000E+02   4.996724E+00
+   1.400000E+02   4.872075E+00
+   1.500000E+02   4.630009E+00
+   1.600000E+02   4.594799E+00
+   1.800000E+02   4.550342E+00
+   2.000000E+02   4.964236E+00

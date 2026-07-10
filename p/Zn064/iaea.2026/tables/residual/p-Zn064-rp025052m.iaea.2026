@@ -1,0 +1,49 @@
+# header: 
+#   title: Zn64(p,x)Mn52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.884746E-09
+   5.000000E+01   8.019024E-06
+   5.500000E+01   4.018199E-04
+   6.000000E+01   2.624861E-03
+   6.500000E+01   7.152377E-03
+   7.000000E+01   1.222983E-02
+   7.500000E+01   1.572493E-02
+   8.000000E+01   1.824509E-02
+   9.000000E+01   5.566843E-02
+   1.000000E+02   2.699260E-01
+   1.100000E+02   5.913997E-01
+   1.200000E+02   9.522962E-01
+   1.300000E+02   1.593498E+00
+   1.400000E+02   2.700236E+00
+   1.500000E+02   3.767560E+00
+   1.600000E+02   4.579669E+00
+   1.800000E+02   6.531828E+00
+   2.000000E+02   7.371365E+00

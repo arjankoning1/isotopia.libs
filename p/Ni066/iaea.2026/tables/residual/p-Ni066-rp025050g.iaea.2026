@@ -1,0 +1,38 @@
+# header: 
+#   title: Ni66(p,x)Mn50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 66
+#   nuclide: Ni66
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.337277E-11
+   1.300000E+02   4.719437E-08
+   1.400000E+02   1.904907E-06
+   1.500000E+02   1.799094E-05
+   1.600000E+02   8.862717E-05
+   1.800000E+02   9.440964E-04
+   2.000000E+02   3.737740E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Pa231(p,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.959756E-12
+   1.000000E+02   7.050932E-09
+   1.100000E+02   5.624315E-06
+   1.200000E+02   1.682021E-03
+   1.300000E+02   4.124358E-02
+   1.400000E+02   3.046559E-01
+   1.500000E+02   8.212663E-01
+   1.600000E+02   1.418305E+00
+   1.800000E+02   2.845700E+00
+   2.000000E+02   3.564716E+00

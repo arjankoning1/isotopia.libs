@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn119(p,x)Sn107 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 107
+#     nuclide: Sn107
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.345994E-12
+   1.200000E+02   5.662110E-07
+   1.300000E+02   3.530991E-05
+   1.400000E+02   5.366848E-04
+   1.500000E+02   3.662270E-03
+   1.600000E+02   1.247640E-02
+   1.800000E+02   4.647766E-02
+   2.000000E+02   7.591527E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn120(p,x)Ag105g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.355733E-10
+   1.000000E+02   1.877621E-04
+   1.100000E+02   6.269191E-02
+   1.200000E+02   5.875069E-01
+   1.300000E+02   9.567333E-01
+   1.400000E+02   1.085707E+00
+   1.500000E+02   1.610262E+00
+   1.600000E+02   3.090189E+00
+   1.800000E+02   5.793239E+00
+   2.000000E+02   7.796464E+00

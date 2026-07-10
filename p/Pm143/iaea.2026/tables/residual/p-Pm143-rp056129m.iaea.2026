@@ -1,0 +1,46 @@
+# header: 
+#   title: Pm143(p,x)Ba129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 143
+#   nuclide: Pm143
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.887839E-10
+   6.500000E+01   2.966919E-07
+   7.000000E+01   2.628866E-05
+   7.500000E+01   4.356019E-04
+   8.000000E+01   1.966821E-03
+   9.000000E+01   5.089195E-03
+   1.000000E+02   3.940095E-03
+   1.100000E+02   1.447715E-02
+   1.200000E+02   4.468680E-02
+   1.300000E+02   6.516980E-02
+   1.400000E+02   7.714255E-02
+   1.500000E+02   8.030718E-02
+   1.600000E+02   1.014018E-01
+   1.800000E+02   1.176922E-01
+   2.000000E+02   1.038653E-01

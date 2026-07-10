@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs133(p,x)Cs124m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 124
+#     nuclide: Cs124m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.158981E-08
+   9.000000E+01   1.297533E-02
+   1.000000E+02   3.160827E-01
+   1.100000E+02   1.103335E+00
+   1.200000E+02   1.513626E+00
+   1.300000E+02   1.586616E+00
+   1.400000E+02   1.763854E+00
+   1.500000E+02   2.041287E+00
+   1.600000E+02   1.954991E+00
+   1.800000E+02   2.279670E+00
+   2.000000E+02   2.002400E+00

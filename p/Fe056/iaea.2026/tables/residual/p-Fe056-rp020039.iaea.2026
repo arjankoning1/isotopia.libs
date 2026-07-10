@@ -1,0 +1,38 @@
+# header: 
+#   title: Fe56(p,x)Ca39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 39
+#     nuclide: Ca39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.826764E-11
+   1.100000E+02   4.697119E-07
+   1.200000E+02   3.248161E-05
+   1.300000E+02   2.963632E-04
+   1.400000E+02   1.147217E-03
+   1.500000E+02   2.855871E-03
+   1.600000E+02   6.394307E-03
+   1.800000E+02   2.562870E-02
+   2.000000E+02   6.907194E-02

@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn114(p,x)Sb113 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Betak
+#   year: 2007
+#   subentry: D1036005
+#   X4 reaction: 50-SN-114(P,2N)51-SB-113,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D1036005
+# target: 
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 51
+#     A: 113
+#     nuclide: Sb113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.360000E+01   8.000000E-01   4.420000E+02   5.200000E+01   1.000000E+00
+# reference:
+#   author: E.Betak, E.Rurarz, S.Mikolajewski, J.Wojtkowska
+#   title: A new method of pure 111In production by  proton-induced nuclear reactions with enriched 112Sn
+#   journal: Jour: Nukleonika, Vol.52, p.17 (2007)

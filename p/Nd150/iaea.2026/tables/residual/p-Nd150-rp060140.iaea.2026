@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd150(p,x)Nd140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 140
+#     nuclide: Nd140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.905618E-08
+   7.500000E+01   3.176817E-04
+   8.000000E+01   5.206135E-02
+   9.000000E+01   4.301025E+00
+   1.000000E+02   2.344742E+01
+   1.100000E+02   5.116875E+01
+   1.200000E+02   5.830719E+01
+   1.300000E+02   5.610242E+01
+   1.400000E+02   5.647898E+01
+   1.500000E+02   5.480704E+01
+   1.600000E+02   5.616250E+01
+   1.800000E+02   5.053865E+01
+   2.000000E+02   4.801740E+01

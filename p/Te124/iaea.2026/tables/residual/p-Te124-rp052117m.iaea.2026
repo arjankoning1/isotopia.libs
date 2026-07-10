@@ -1,0 +1,46 @@
+# header: 
+#   title: Te124(p,x)Te117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 117
+#     nuclide: Te117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.798187E-08
+   6.500000E+01   7.393800E-04
+   7.000000E+01   3.920553E-02
+   7.500000E+01   3.047189E-01
+   8.000000E+01   1.521942E+00
+   9.000000E+01   1.329013E+01
+   1.000000E+02   2.412304E+01
+   1.100000E+02   2.362662E+01
+   1.200000E+02   2.104330E+01
+   1.300000E+02   1.995187E+01
+   1.400000E+02   1.908316E+01
+   1.500000E+02   1.701981E+01
+   1.600000E+02   1.678614E+01
+   1.800000E+02   1.576238E+01
+   2.000000E+02   1.460160E+01

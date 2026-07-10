@@ -1,0 +1,42 @@
+# header: 
+#   title: Mo97(p,x)Rb82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.188269E-12
+   7.500000E+01   9.607886E-09
+   8.000000E+01   7.014842E-06
+   9.000000E+01   2.111117E-03
+   1.000000E+02   1.282155E-02
+   1.100000E+02   3.439325E-02
+   1.200000E+02   6.529289E-02
+   1.300000E+02   1.551259E-01
+   1.400000E+02   3.450084E-01
+   1.500000E+02   5.584561E-01
+   1.600000E+02   8.524894E-01
+   1.800000E+02   1.653933E+00
+   2.000000E+02   2.120727E+00

@@ -1,0 +1,35 @@
+# header: 
+#   title: Y91(p,x)Ge68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 68
+#     nuclide: Ge68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.939179E-11
+   1.400000E+02   2.530646E-07
+   1.500000E+02   5.067033E-05
+   1.600000E+02   1.100129E-03
+   1.800000E+02   2.551274E-02
+   2.000000E+02   1.586467E-01

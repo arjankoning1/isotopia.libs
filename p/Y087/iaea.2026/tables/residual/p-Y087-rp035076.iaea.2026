@@ -1,0 +1,45 @@
+# header: 
+#   title: Y87(p,x)Br76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.842209E-09
+   6.000000E+01   7.148220E-06
+   6.500000E+01   5.149625E-04
+   7.000000E+01   5.929258E-03
+   7.500000E+01   6.265251E-02
+   8.000000E+01   3.000129E-01
+   9.000000E+01   1.029053E+00
+   1.000000E+02   1.384214E+00
+   1.100000E+02   1.959805E+00
+   1.200000E+02   4.038398E+00
+   1.300000E+02   7.267697E+00
+   1.400000E+02   1.065180E+01
+   1.500000E+02   1.212149E+01
+   1.600000E+02   1.249364E+01
+   1.800000E+02   1.584166E+01
+   2.000000E+02   1.199739E+01

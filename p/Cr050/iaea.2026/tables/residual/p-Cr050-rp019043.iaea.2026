@@ -1,0 +1,45 @@
+# header: 
+#   title: Cr50(p,x)K43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.434470E-10
+   6.000000E+01   1.593095E-06
+   6.500000E+01   1.344675E-04
+   7.000000E+01   1.338720E-03
+   7.500000E+01   4.565322E-03
+   8.000000E+01   1.286713E-02
+   9.000000E+01   3.257565E-02
+   1.000000E+02   4.219354E-02
+   1.100000E+02   5.390514E-02
+   1.200000E+02   7.960767E-02
+   1.300000E+02   9.539203E-02
+   1.400000E+02   1.233473E-01
+   1.500000E+02   1.061240E-01
+   1.600000E+02   1.146352E-01
+   1.800000E+02   9.234422E-02
+   2.000000E+02   7.886830E-02

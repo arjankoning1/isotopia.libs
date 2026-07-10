@@ -1,0 +1,41 @@
+# header: 
+#   title: Es253(p,x)U237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 253
+#   nuclide: Es253
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.365703E-12
+   8.000000E+01   4.886342E-11
+   9.000000E+01   3.760732E-10
+   1.000000E+02   1.095825E-09
+   1.100000E+02   6.049196E-09
+   1.200000E+02   2.156476E-08
+   1.300000E+02   1.905008E-08
+   1.400000E+02   3.344678E-08
+   1.500000E+02   6.192936E-08
+   1.600000E+02   1.635764E-07
+   1.800000E+02   5.136498E-07
+   2.000000E+02   1.582447E-06

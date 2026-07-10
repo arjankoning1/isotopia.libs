@@ -1,0 +1,40 @@
+# header: 
+#   title: Pm145(p,x)Ba127m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 127
+#     nuclide: Ba127m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.918734E-08
+   1.100000E+02   2.489246E-04
+   1.200000E+02   7.372656E-03
+   1.300000E+02   1.888549E-02
+   1.400000E+02   1.820763E-02
+   1.500000E+02   4.588415E-02
+   1.600000E+02   1.101662E-01
+   1.800000E+02   3.010369E-01
+   2.000000E+02   5.787466E-01

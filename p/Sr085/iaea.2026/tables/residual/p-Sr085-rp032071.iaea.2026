@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr85(p,x)Ge71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 71
+#     nuclide: Ge71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.896664E-10
+   6.500000E+01   8.915605E-08
+   7.000000E+01   6.779298E-06
+   7.500000E+01   3.063066E-04
+   8.000000E+01   3.235074E-03
+   9.000000E+01   2.638201E-02
+   1.000000E+02   3.889456E-02
+   1.100000E+02   5.774762E-02
+   1.200000E+02   9.673285E-02
+   1.300000E+02   1.838055E-01
+   1.400000E+02   3.290827E-01
+   1.500000E+02   3.943548E-01
+   1.600000E+02   4.914720E-01
+   1.800000E+02   9.646171E-01
+   2.000000E+02   6.907515E-01

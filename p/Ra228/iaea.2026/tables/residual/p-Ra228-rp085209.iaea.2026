@@ -1,0 +1,39 @@
+# header: 
+#   title: Ra228(p,x)At209 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 228
+#   nuclide: Ra228
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 209
+#     nuclide: At209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.437887E-12
+   1.000000E+02   4.346867E-07
+   1.100000E+02   3.586298E-04
+   1.200000E+02   2.418184E-02
+   1.300000E+02   2.947664E-01
+   1.400000E+02   1.033667E+00
+   1.500000E+02   2.376132E+00
+   1.600000E+02   2.975943E+00
+   1.800000E+02   5.474576E+00
+   2.000000E+02   5.923589E+00

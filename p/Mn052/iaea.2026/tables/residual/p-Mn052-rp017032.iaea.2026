@@ -1,0 +1,37 @@
+# header: 
+#   title: Mn52(p,x)Cl32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 52
+#   nuclide: Mn52
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 32
+#     nuclide: Cl32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.834076E-11
+   1.200000E+02   1.850881E-08
+   1.300000E+02   7.147409E-07
+   1.400000E+02   8.982843E-06
+   1.500000E+02   4.726852E-05
+   1.600000E+02   1.278182E-04
+   1.800000E+02   5.377624E-04
+   2.000000E+02   1.838553E-03

@@ -1,0 +1,48 @@
+# header: 
+#   title: Cu63(p,x)Fe59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.729770E-07
+   4.500000E+01   5.991867E-04
+   5.000000E+01   1.434602E-02
+   5.500000E+01   7.171639E-02
+   6.000000E+01   2.477402E-01
+   6.500000E+01   5.259460E-01
+   7.000000E+01   7.769904E-01
+   7.500000E+01   9.749399E-01
+   8.000000E+01   1.087495E+00
+   9.000000E+01   1.074028E+00
+   1.000000E+02   9.764140E-01
+   1.100000E+02   8.845655E-01
+   1.200000E+02   8.309253E-01
+   1.300000E+02   7.436644E-01
+   1.400000E+02   7.082223E-01
+   1.500000E+02   6.495749E-01
+   1.600000E+02   6.010319E-01
+   1.800000E+02   5.178317E-01
+   2.000000E+02   4.424000E-01

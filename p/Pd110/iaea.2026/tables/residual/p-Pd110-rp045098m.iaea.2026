@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd110(p,x)Rh98m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.886634E-06
+   1.000000E+02   2.414343E-02
+   1.100000E+02   3.883428E-01
+   1.200000E+02   8.292673E-01
+   1.300000E+02   1.207113E+00
+   1.400000E+02   1.803376E+00
+   1.500000E+02   2.827011E+00
+   1.600000E+02   4.356585E+00
+   1.800000E+02   6.368662E+00
+   2.000000E+02   6.404673E+00

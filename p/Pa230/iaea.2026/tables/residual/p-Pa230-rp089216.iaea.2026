@@ -1,0 +1,41 @@
+# header: 
+#   title: Pa230(p,x)Ac216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 216
+#     nuclide: Ac216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.647259E-11
+   8.000000E+01   7.190351E-08
+   9.000000E+01   2.233682E-04
+   1.000000E+02   6.033959E-02
+   1.100000E+02   8.612944E-01
+   1.200000E+02   2.793662E+00
+   1.300000E+02   6.280694E+00
+   1.400000E+02   8.374755E+00
+   1.500000E+02   8.235186E+00
+   1.600000E+02   8.866410E+00
+   1.800000E+02   8.822573E+00
+   2.000000E+02   1.091860E+01

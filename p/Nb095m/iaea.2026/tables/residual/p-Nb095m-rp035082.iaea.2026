@@ -1,0 +1,44 @@
+# header: 
+#   title: Nb95m(p,x)Br82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.274366E-09
+   6.500000E+01   4.688741E-07
+   7.000000E+01   1.116177E-05
+   7.500000E+01   7.285624E-05
+   8.000000E+01   2.283995E-04
+   9.000000E+01   5.813740E-04
+   1.000000E+02   1.066962E-03
+   1.100000E+02   3.567433E-03
+   1.200000E+02   8.994017E-03
+   1.300000E+02   1.291405E-02
+   1.400000E+02   1.982070E-02
+   1.500000E+02   2.712507E-02
+   1.600000E+02   3.055632E-02
+   1.800000E+02   3.435406E-02
+   2.000000E+02   4.302628E-02

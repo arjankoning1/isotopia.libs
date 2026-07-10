@@ -1,0 +1,43 @@
+# header: 
+#   title: Zr92(p,x)Kr79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 79
+#     nuclide: Kr79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.674678E-09
+   8.000000E+01   2.059573E-06
+   9.000000E+01   1.263472E-03
+   1.000000E+02   2.892610E-02
+   1.100000E+02   2.022206E-01
+   1.200000E+02   5.319595E-01
+   1.300000E+02   8.687931E-01
+   1.400000E+02   1.442961E+00
+   1.500000E+02   2.330334E+00
+   1.600000E+02   2.896667E+00
+   1.800000E+02   4.550328E+00
+   2.000000E+02   5.433976E+00

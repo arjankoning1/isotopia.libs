@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd148(p,x)La135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 148
+#   nuclide: Nd148
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 135
+#     nuclide: La135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.550341E-11
+   6.500000E+01   1.865495E-07
+   7.000000E+01   7.447256E-05
+   7.500000E+01   2.594083E-03
+   8.000000E+01   1.848044E-02
+   9.000000E+01   8.362636E-02
+   1.000000E+02   1.049005E-01
+   1.100000E+02   1.961081E-01
+   1.200000E+02   6.111702E-01
+   1.300000E+02   9.010065E-01
+   1.400000E+02   9.408987E-01
+   1.500000E+02   8.766377E-01
+   1.600000E+02   1.080006E+00
+   1.800000E+02   1.427652E+00
+   2.000000E+02   1.016444E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa232(p,x)Ra219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 232
+#   nuclide: Pa232
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 219
+#     nuclide: Ra219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.486518E-08
+   6.000000E+01   2.214998E-05
+   6.500000E+01   3.113484E-03
+   7.000000E+01   7.422023E-02
+   7.500000E+01   6.113880E-01
+   8.000000E+01   2.011230E+00
+   9.000000E+01   6.107898E+00
+   1.000000E+02   5.658070E+00
+   1.100000E+02   4.368144E+00
+   1.200000E+02   3.708465E+00
+   1.300000E+02   4.025088E+00
+   1.400000E+02   4.915136E+00
+   1.500000E+02   4.665264E+00
+   1.600000E+02   4.601785E+00
+   1.800000E+02   6.329061E+00
+   2.000000E+02   5.104746E+00

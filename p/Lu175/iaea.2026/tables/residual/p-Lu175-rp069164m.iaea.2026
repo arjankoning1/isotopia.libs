@@ -1,0 +1,45 @@
+# header: 
+#   title: Lu175(p,x)Tm164m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 164
+#     nuclide: Tm164m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.922923E-09
+   7.000000E+01   6.672446E-06
+   7.500000E+01   7.003492E-04
+   8.000000E+01   8.895992E-03
+   9.000000E+01   1.190359E-01
+   1.000000E+02   4.743357E-01
+   1.100000E+02   7.017677E-01
+   1.200000E+02   8.656166E-01
+   1.300000E+02   9.321653E-01
+   1.400000E+02   7.893441E-01
+   1.500000E+02   7.061745E-01
+   1.600000E+02   9.130594E-01
+   1.800000E+02   7.995226E-01
+   2.000000E+02   8.259521E-01

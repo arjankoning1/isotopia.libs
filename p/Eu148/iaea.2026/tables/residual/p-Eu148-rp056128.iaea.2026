@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu148(p,x)Ba128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 148
+#   nuclide: Eu148
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 128
+#     nuclide: Ba128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.957651E-12
+   1.000000E+02   3.188919E-08
+   1.100000E+02   9.723932E-06
+   1.200000E+02   1.189930E-04
+   1.300000E+02   4.409947E-04
+   1.400000E+02   1.112727E-03
+   1.500000E+02   4.320255E-03
+   1.600000E+02   9.927069E-03
+   1.800000E+02   2.669063E-02
+   2.000000E+02   4.697934E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Zr92(p,x)Se78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 78
+#     nuclide: Se78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.625588E-10
+   7.000000E+01   1.511660E-08
+   7.500000E+01   6.738524E-07
+   8.000000E+01   6.474243E-06
+   9.000000E+01   8.583481E-05
+   1.000000E+02   2.475783E-04
+   1.100000E+02   4.464147E-04
+   1.200000E+02   1.019017E-03
+   1.300000E+02   3.368037E-03
+   1.400000E+02   8.433011E-03
+   1.500000E+02   1.462032E-02
+   1.600000E+02   3.066141E-02
+   1.800000E+02   6.592526E-02
+   2.000000E+02   1.019123E-01

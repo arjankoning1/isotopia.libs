@@ -1,0 +1,45 @@
+# header: 
+#   title: Fe60(p,x)Co54m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.050607E-10
+   7.000000E+01   5.660333E-06
+   7.500000E+01   1.312655E-04
+   8.000000E+01   4.270456E-04
+   9.000000E+01   1.738928E-03
+   1.000000E+02   2.309855E-03
+   1.100000E+02   2.094630E-03
+   1.200000E+02   1.693767E-03
+   1.300000E+02   1.340010E-03
+   1.400000E+02   1.100586E-03
+   1.500000E+02   9.139776E-04
+   1.600000E+02   7.577328E-04
+   1.800000E+02   6.351228E-04
+   2.000000E+02   5.397979E-04

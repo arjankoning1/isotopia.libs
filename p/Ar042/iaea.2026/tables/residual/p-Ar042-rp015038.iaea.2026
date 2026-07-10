@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar42(p,x)P38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 38
+#     nuclide: P38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.493250E-09
+   6.000000E+01   3.914499E-07
+   6.500000E+01   2.473936E-06
+   7.000000E+01   8.209945E-06
+   7.500000E+01   3.066031E-05
+   8.000000E+01   8.599636E-05
+   9.000000E+01   2.778003E-04
+   1.000000E+02   4.949135E-04
+   1.100000E+02   6.746326E-04
+   1.200000E+02   8.094722E-04
+   1.300000E+02   8.673925E-04
+   1.400000E+02   9.367096E-04
+   1.500000E+02   9.444486E-04
+   1.600000E+02   9.784942E-04
+   1.800000E+02   8.223411E-04
+   2.000000E+02   7.278980E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: Tl200(p,x)Au187g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 200
+#   nuclide: Tl200
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 187
+#     nuclide: Au187g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.653192E-07
+   1.000000E+02   7.081267E-03
+   1.100000E+02   3.509738E-01
+   1.200000E+02   2.376439E+00
+   1.300000E+02   5.784321E+00
+   1.400000E+02   5.887921E+00
+   1.500000E+02   5.384265E+00
+   1.600000E+02   5.682858E+00
+   1.800000E+02   6.651071E+00
+   2.000000E+02   4.600968E+00

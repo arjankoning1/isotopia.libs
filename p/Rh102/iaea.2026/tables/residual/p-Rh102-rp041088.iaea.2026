@@ -1,0 +1,40 @@
+# header: 
+#   title: Rh102(p,x)Nb88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 88
+#     nuclide: Nb88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.459304E-12
+   9.000000E+01   3.317035E-06
+   1.000000E+02   7.212872E-04
+   1.100000E+02   1.664536E-02
+   1.200000E+02   1.172205E-01
+   1.300000E+02   3.406746E-01
+   1.400000E+02   6.914483E-01
+   1.500000E+02   1.290125E+00
+   1.600000E+02   2.358445E+00
+   1.800000E+02   4.591034E+00
+   2.000000E+02   8.347311E+00

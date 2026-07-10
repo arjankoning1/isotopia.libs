@@ -1,0 +1,40 @@
+# header: 
+#   title: Ba136(p,x)Ba127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 127
+#     nuclide: Ba127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.911719E-07
+   9.000000E+01   3.335202E-02
+   1.000000E+02   1.105691E+00
+   1.100000E+02   7.612619E+00
+   1.200000E+02   1.599105E+01
+   1.300000E+02   1.776085E+01
+   1.400000E+02   1.775752E+01
+   1.500000E+02   1.916496E+01
+   1.600000E+02   1.819937E+01
+   1.800000E+02   1.772467E+01
+   2.000000E+02   1.710740E+01

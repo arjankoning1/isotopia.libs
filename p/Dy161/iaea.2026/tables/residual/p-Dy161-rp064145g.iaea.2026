@@ -1,0 +1,39 @@
+# header: 
+#   title: Dy161(p,x)Gd145g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 161
+#   nuclide: Dy161
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 145
+#     nuclide: Gd145g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.525679E-08
+   1.200000E+02   1.165577E-03
+   1.300000E+02   1.277719E-01
+   1.400000E+02   9.533891E-01
+   1.500000E+02   2.304403E+00
+   1.600000E+02   2.827158E+00
+   1.800000E+02   5.523883E+00
+   2.000000E+02   8.404439E+00

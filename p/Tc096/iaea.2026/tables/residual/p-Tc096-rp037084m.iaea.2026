@@ -1,0 +1,49 @@
+# header: 
+#   title: Tc96(p,x)Rb84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 96
+#   nuclide: Tc96
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.001013E-11
+   5.000000E+01   1.014170E-08
+   5.500000E+01   8.609148E-07
+   6.000000E+01   1.094559E-05
+   6.500000E+01   4.951853E-05
+   7.000000E+01   9.807751E-05
+   7.500000E+01   1.100181E-04
+   8.000000E+01   9.568142E-05
+   9.000000E+01   1.732994E-04
+   1.000000E+02   9.967679E-04
+   1.100000E+02   3.006226E-03
+   1.200000E+02   4.918184E-03
+   1.300000E+02   5.828226E-03
+   1.400000E+02   6.867368E-03
+   1.500000E+02   8.625280E-03
+   1.600000E+02   1.133455E-02
+   1.800000E+02   1.172235E-02
+   2.000000E+02   1.264120E-02

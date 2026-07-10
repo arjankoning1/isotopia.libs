@@ -1,0 +1,45 @@
+# header: 
+#   title: Zr90(p,x)Br77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 77
+#     nuclide: Br77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.317495E-12
+   6.000000E+01   1.025083E-07
+   6.500000E+01   4.847954E-05
+   7.000000E+01   1.360235E-03
+   7.500000E+01   7.003772E-03
+   8.000000E+01   1.596080E-02
+   9.000000E+01   2.460538E-02
+   1.000000E+02   2.878656E-02
+   1.100000E+02   9.752549E-02
+   1.200000E+02   3.409679E-01
+   1.300000E+02   6.490765E-01
+   1.400000E+02   1.037497E+00
+   1.500000E+02   1.529100E+00
+   1.600000E+02   2.303008E+00
+   1.800000E+02   3.443393E+00
+   2.000000E+02   3.961542E+00

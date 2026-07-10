@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe129m(p,x)Cd111m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.733794E-12
+   1.000000E+02   5.954390E-07
+   1.100000E+02   7.987172E-05
+   1.200000E+02   4.001935E-04
+   1.300000E+02   1.053659E-03
+   1.400000E+02   2.696352E-03
+   1.500000E+02   5.818401E-03
+   1.600000E+02   9.808327E-03
+   1.800000E+02   3.666694E-02
+   2.000000E+02   4.060487E-02

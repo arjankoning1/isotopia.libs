@@ -1,0 +1,39 @@
+# header: 
+#   title: Tc97m(p,x)Tc89 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 97
+#   nuclide: Tc97m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 89
+#     nuclide: Tc89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.949982E-06
+   1.000000E+02   1.256924E-04
+   1.100000E+02   1.119343E-03
+   1.200000E+02   4.065509E-03
+   1.300000E+02   7.252934E-03
+   1.400000E+02   9.471262E-03
+   1.500000E+02   1.038123E-02
+   1.600000E+02   1.094011E-02
+   1.800000E+02   1.195590E-02
+   2.000000E+02   1.370327E-02

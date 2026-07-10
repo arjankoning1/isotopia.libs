@@ -1,0 +1,51 @@
+# header: 
+#   title: Tc99(p,x)Y90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.367792E-09
+   4.000000E+01   3.247487E-06
+   4.500000E+01   2.442443E-04
+   5.000000E+01   1.951373E-03
+   5.500000E+01   4.966782E-03
+   6.000000E+01   5.943938E-03
+   6.500000E+01   5.340238E-03
+   7.000000E+01   4.313210E-03
+   7.500000E+01   4.439923E-03
+   8.000000E+01   6.547223E-03
+   9.000000E+01   1.551373E-02
+   1.000000E+02   2.739738E-02
+   1.100000E+02   3.254650E-02
+   1.200000E+02   3.773987E-02
+   1.300000E+02   4.481838E-02
+   1.400000E+02   5.046279E-02
+   1.500000E+02   5.040153E-02
+   1.600000E+02   4.611006E-02
+   1.800000E+02   5.031475E-02
+   2.000000E+02   5.844056E-02

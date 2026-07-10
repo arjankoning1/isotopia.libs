@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd142(p,x)Ba129g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.295254E-10
+   7.500000E+01   6.953795E-08
+   8.000000E+01   5.083458E-06
+   9.000000E+01   1.375210E-03
+   1.000000E+02   3.605947E-02
+   1.100000E+02   1.055684E-01
+   1.200000E+02   9.762898E-02
+   1.300000E+02   1.028877E-01
+   1.400000E+02   1.263817E-01
+   1.500000E+02   1.647566E-01
+   1.600000E+02   1.598721E-01
+   1.800000E+02   1.890005E-01
+   2.000000E+02   1.251993E-01

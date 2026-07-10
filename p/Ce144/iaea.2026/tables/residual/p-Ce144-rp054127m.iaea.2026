@@ -1,0 +1,40 @@
+# header: 
+#   title: Ce144(p,x)Xe127m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.103242E-08
+   1.100000E+02   2.321864E-04
+   1.200000E+02   7.633206E-03
+   1.300000E+02   5.548217E-02
+   1.400000E+02   1.544890E-01
+   1.500000E+02   2.644617E-01
+   1.600000E+02   4.173292E-01
+   1.800000E+02   7.164527E-01
+   2.000000E+02   1.087650E+00

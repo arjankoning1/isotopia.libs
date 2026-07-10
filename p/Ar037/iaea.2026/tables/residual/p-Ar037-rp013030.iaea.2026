@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar37(p,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 37
+#   nuclide: Ar37
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.484245E-08
+   6.000000E+01   1.672699E-05
+   6.500000E+01   4.254556E-04
+   7.000000E+01   2.378365E-03
+   7.500000E+01   6.149705E-03
+   8.000000E+01   1.054644E-02
+   9.000000E+01   1.870145E-02
+   1.000000E+02   2.935247E-02
+   1.100000E+02   4.374082E-02
+   1.200000E+02   5.759286E-02
+   1.300000E+02   6.663199E-02
+   1.400000E+02   7.066244E-02
+   1.500000E+02   6.976475E-02
+   1.600000E+02   6.818563E-02
+   1.800000E+02   5.910287E-02
+   2.000000E+02   5.464815E-02

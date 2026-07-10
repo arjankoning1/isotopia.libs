@@ -1,0 +1,36 @@
+# header: 
+#   title: Ba133(p,x)Te115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.306240E-07
+   1.300000E+02   4.361895E-04
+   1.400000E+02   1.183419E-02
+   1.500000E+02   7.030839E-02
+   1.600000E+02   3.382057E-01
+   1.800000E+02   1.590388E+00
+   2.000000E+02   4.857823E+00

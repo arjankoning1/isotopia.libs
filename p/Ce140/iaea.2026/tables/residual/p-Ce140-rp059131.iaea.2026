@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce140(p,x)Pr131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 131
+#     nuclide: Pr131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.899918E-10
+   1.000000E+02   1.075813E-02
+   1.100000E+02   9.771727E-01
+   1.200000E+02   4.017737E+00
+   1.300000E+02   4.040047E+00
+   1.400000E+02   2.826445E+00
+   1.500000E+02   2.270640E+00
+   1.600000E+02   2.105841E+00
+   1.800000E+02   1.807737E+00
+   2.000000E+02   1.551115E+00

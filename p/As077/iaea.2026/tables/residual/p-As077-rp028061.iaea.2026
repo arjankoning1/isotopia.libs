@@ -1,0 +1,41 @@
+# header: 
+#   title: As77(p,x)Ni61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 77
+#   nuclide: As77
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.802743E-09
+   8.000000E+01   1.610109E-06
+   9.000000E+01   9.299500E-04
+   1.000000E+02   3.131314E-02
+   1.100000E+02   1.442221E-01
+   1.200000E+02   2.951941E-01
+   1.300000E+02   4.986412E-01
+   1.400000E+02   9.413228E-01
+   1.500000E+02   1.609531E+00
+   1.600000E+02   2.655556E+00
+   1.800000E+02   5.296839E+00
+   2.000000E+02   7.837103E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ti46(p,x)S39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 39
+#     nuclide: S39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.090004E-12
+   1.000000E+02   2.800150E-09
+   1.100000E+02   8.129496E-08
+   1.200000E+02   6.770235E-07
+   1.300000E+02   2.973627E-06
+   1.400000E+02   6.927026E-06
+   1.500000E+02   1.095898E-05
+   1.600000E+02   1.362515E-05
+   1.800000E+02   1.480494E-05
+   2.000000E+02   1.314352E-05

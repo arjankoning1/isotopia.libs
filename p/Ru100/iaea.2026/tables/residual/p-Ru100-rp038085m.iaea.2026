@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru100(p,x)Sr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.246671E-11
+   7.500000E+01   8.890046E-09
+   8.000000E+01   3.203019E-07
+   9.000000E+01   5.290266E-05
+   1.000000E+02   7.331034E-04
+   1.100000E+02   2.533610E-03
+   1.200000E+02   4.551900E-03
+   1.300000E+02   7.953187E-03
+   1.400000E+02   1.594762E-02
+   1.500000E+02   2.950953E-02
+   1.600000E+02   4.054912E-02
+   1.800000E+02   7.399633E-02
+   2.000000E+02   1.169404E-01

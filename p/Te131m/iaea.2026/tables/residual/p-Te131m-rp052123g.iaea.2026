@@ -1,0 +1,46 @@
+# header: 
+#   title: Te131m(p,x)Te123g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 131
+#   nuclide: Te131m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.995316E-07
+   6.500000E+01   1.947133E-03
+   7.000000E+01   8.365708E-02
+   7.500000E+01   5.423226E-01
+   8.000000E+01   1.643105E+00
+   9.000000E+01   8.067966E+00
+   1.000000E+02   1.775705E+01
+   1.100000E+02   2.222567E+01
+   1.200000E+02   2.236089E+01
+   1.300000E+02   2.126423E+01
+   1.400000E+02   1.997494E+01
+   1.500000E+02   1.950317E+01
+   1.600000E+02   1.804072E+01
+   1.800000E+02   1.689120E+01
+   2.000000E+02   1.514907E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar36(p,x)Na22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.044233E-11
+   6.500000E+01   2.058415E-07
+   7.000000E+01   1.290416E-05
+   7.500000E+01   2.203405E-04
+   8.000000E+01   2.041206E-03
+   9.000000E+01   3.105153E-02
+   1.000000E+02   1.050151E-01
+   1.100000E+02   2.007250E-01
+   1.200000E+02   3.828738E-01
+   1.300000E+02   7.156989E-01
+   1.400000E+02   1.200330E+00
+   1.500000E+02   1.907261E+00
+   1.600000E+02   2.881659E+00
+   1.800000E+02   5.452518E+00
+   2.000000E+02   8.288712E+00

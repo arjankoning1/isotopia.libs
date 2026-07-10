@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm243(p,x)Ac222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 243
+#   nuclide: Cm243
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.690238E-11
+   1.000000E+02   1.776807E-07
+   1.100000E+02   5.888356E-05
+   1.200000E+02   5.848240E-03
+   1.300000E+02   3.622256E-03
+   1.400000E+02   5.359821E-03
+   1.500000E+02   5.349176E-03
+   1.600000E+02   1.055946E-02
+   1.800000E+02   1.628328E-02
+   2.000000E+02   2.049615E-02

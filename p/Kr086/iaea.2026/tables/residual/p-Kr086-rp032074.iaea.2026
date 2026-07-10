@@ -1,0 +1,44 @@
+# header: 
+#   title: Kr86(p,x)Ge74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 86
+#   nuclide: Kr86
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 74
+#     nuclide: Ge74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.599766E-09
+   6.500000E+01   5.632733E-06
+   7.000000E+01   3.725180E-04
+   7.500000E+01   3.049041E-03
+   8.000000E+01   1.233482E-02
+   9.000000E+01   9.946321E-02
+   1.000000E+02   1.770259E-01
+   1.100000E+02   1.662453E-01
+   1.200000E+02   1.876086E-01
+   1.300000E+02   2.693385E-01
+   1.400000E+02   3.491026E-01
+   1.500000E+02   4.153117E-01
+   1.600000E+02   4.911509E-01
+   1.800000E+02   4.652679E-01
+   2.000000E+02   4.533929E-01

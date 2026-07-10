@@ -1,0 +1,38 @@
+# header: 
+#   title: C13(p,x)N14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woodbury
+#   year: 1953
+#   subentry: C1647003
+#   X4 reaction: 6-C-13(P,G)7-N-14,,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1647003
+# target: 
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 7
+#     A: 14
+#     nuclide: N14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+00   0.000000E+00   7.400000E-02   0.000000E+00   1.000000E+00
+   1.550000E+00   0.000000E+00   3.700000E-02   0.000000E+00   1.000000E+00
+# reference:
+#   author: H.H.Woodbury,R.B.Day,A.V.Tollestrup
+#   title: Gamma Radiation from the Reaction C13(p,gamma)N14
+#   journal: Jour: Physical Review, Vol.92, p.1199 (1953)

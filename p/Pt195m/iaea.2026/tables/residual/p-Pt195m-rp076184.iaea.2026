@@ -1,0 +1,44 @@
+# header: 
+#   title: Pt195m(p,x)Os184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 195
+#   nuclide: Pt195m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 184
+#     nuclide: Os184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.748358E-10
+   6.500000E+01   4.159356E-07
+   7.000000E+01   1.143550E-04
+   7.500000E+01   3.699470E-03
+   8.000000E+01   2.969467E-02
+   9.000000E+01   4.483307E-01
+   1.000000E+02   1.835560E+00
+   1.100000E+02   2.093819E+00
+   1.200000E+02   2.076671E+00
+   1.300000E+02   1.894255E+00
+   1.400000E+02   1.979067E+00
+   1.500000E+02   2.497441E+00
+   1.600000E+02   3.123044E+00
+   1.800000E+02   3.323917E+00
+   2.000000E+02   4.259358E+00

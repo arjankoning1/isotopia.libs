@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca42(p,x)Cl39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 39
+#     nuclide: Cl39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.334940E-07
+   4.500000E+01   2.375920E-04
+   5.000000E+01   4.927929E-03
+   5.500000E+01   1.734236E-02
+   6.000000E+01   3.041712E-02
+   6.500000E+01   4.538455E-02
+   7.000000E+01   5.566895E-02
+   7.500000E+01   5.943474E-02
+   8.000000E+01   6.370604E-02
+   9.000000E+01   6.229408E-02
+   1.000000E+02   5.663103E-02
+   1.100000E+02   5.181235E-02
+   1.200000E+02   4.815565E-02
+   1.300000E+02   4.849312E-02
+   1.400000E+02   4.907176E-02
+   1.500000E+02   3.779306E-02
+   1.600000E+02   3.422441E-02
+   1.800000E+02   3.180497E-02
+   2.000000E+02   2.841243E-02

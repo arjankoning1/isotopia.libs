@@ -1,0 +1,37 @@
+# header: 
+#   title: N14(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Laumer
+#   year: 1973
+#   subentry: C0985004
+#   X4 reaction: 7-N-14(P,X)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0985004
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.170000E+01   0.000000E+00   3.540000E+01   4.300000E+00   1.000000E+00
+# reference:
+#   author: H.Laumer,S.M.Austin,L.M.Panggabean,C.N.Davids
+#   title: Production of Light E;ements Lithium, Beryllium, and  Boron by Proton-Induced Spallation
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.8, p.483 (1973)

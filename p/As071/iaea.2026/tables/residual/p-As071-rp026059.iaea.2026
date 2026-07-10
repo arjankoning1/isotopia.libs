@@ -1,0 +1,42 @@
+# header: 
+#   title: As71(p,x)Fe59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 71
+#   nuclide: As71
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.497233E-10
+   7.500000E+01   7.596791E-08
+   8.000000E+01   1.389454E-06
+   9.000000E+01   1.150271E-04
+   1.000000E+02   1.856722E-03
+   1.100000E+02   6.516429E-03
+   1.200000E+02   1.052594E-02
+   1.300000E+02   1.606617E-02
+   1.400000E+02   2.516725E-02
+   1.500000E+02   3.366386E-02
+   1.600000E+02   4.124149E-02
+   1.800000E+02   4.181672E-02
+   2.000000E+02   4.176749E-02

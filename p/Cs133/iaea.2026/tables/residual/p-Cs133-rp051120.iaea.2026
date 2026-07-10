@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs133(p,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.594292E-12
+   7.000000E+01   1.422234E-08
+   7.500000E+01   2.341464E-06
+   8.000000E+01   5.089839E-05
+   9.000000E+01   1.958505E-03
+   1.000000E+02   1.796771E-02
+   1.100000E+02   3.517543E-02
+   1.200000E+02   5.410596E-02
+   1.300000E+02   1.095074E-01
+   1.400000E+02   2.264117E-01
+   1.500000E+02   2.693585E-01
+   1.600000E+02   3.772055E-01
+   1.800000E+02   3.750895E-01
+   2.000000E+02   3.800024E-01

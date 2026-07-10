@@ -1,0 +1,42 @@
+# header: 
+#   title: Sm144(p,x)Ce131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 131
+#     nuclide: Ce131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.134751E-10
+   7.500000E+01   6.587205E-07
+   8.000000E+01   7.542485E-05
+   9.000000E+01   1.848248E-02
+   1.000000E+02   4.273901E-01
+   1.100000E+02   1.175711E+00
+   1.200000E+02   1.316325E+00
+   1.300000E+02   1.939238E+00
+   1.400000E+02   2.857437E+00
+   1.500000E+02   4.098937E+00
+   1.600000E+02   5.275681E+00
+   1.800000E+02   6.556231E+00
+   2.000000E+02   6.213859E+00

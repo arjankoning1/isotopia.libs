@@ -1,0 +1,45 @@
+# header: 
+#   title: V50(p,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.502424E-12
+   6.000000E+01   2.185395E-08
+   6.500000E+01   2.119758E-06
+   7.000000E+01   1.898222E-05
+   7.500000E+01   6.104778E-05
+   8.000000E+01   1.386314E-04
+   9.000000E+01   4.831210E-04
+   1.000000E+02   1.056434E-03
+   1.100000E+02   1.630860E-03
+   1.200000E+02   2.033185E-03
+   1.300000E+02   2.283669E-03
+   1.400000E+02   2.499459E-03
+   1.500000E+02   2.547590E-03
+   1.600000E+02   2.528001E-03
+   1.800000E+02   2.508318E-03
+   2.000000E+02   2.250121E-03

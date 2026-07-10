@@ -1,0 +1,36 @@
+# header: 
+#   title: Ag106m(p,x)Sr82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 106
+#   nuclide: Ag106m
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.494274E-12
+   1.300000E+02   2.858816E-09
+   1.400000E+02   2.179656E-07
+   1.500000E+02   3.478525E-06
+   1.600000E+02   8.724823E-05
+   1.800000E+02   6.108806E-03
+   2.000000E+02   4.114357E-02

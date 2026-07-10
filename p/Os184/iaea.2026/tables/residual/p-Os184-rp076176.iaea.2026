@@ -1,0 +1,43 @@
+# header: 
+#   title: Os184(p,x)Os176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 176
+#     nuclide: Os176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.199927E-11
+   7.000000E+01   1.886737E-05
+   7.500000E+01   5.764049E-03
+   8.000000E+01   1.266131E-01
+   9.000000E+01   6.050837E+00
+   1.000000E+02   4.909074E+01
+   1.100000E+02   8.336722E+01
+   1.200000E+02   7.238596E+01
+   1.300000E+02   6.396121E+01
+   1.400000E+02   6.142048E+01
+   1.500000E+02   6.446812E+01
+   1.600000E+02   5.473368E+01
+   1.800000E+02   4.928455E+01
+   2.000000E+02   5.592566E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Kr81(p,x)Br73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 73
+#     nuclide: Br73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.406513E-07
+   6.500000E+01   1.686759E-03
+   7.000000E+01   4.276861E-02
+   7.500000E+01   1.870495E-01
+   8.000000E+01   3.297892E-01
+   9.000000E+01   3.615332E-01
+   1.000000E+02   4.036966E-01
+   1.100000E+02   5.434276E-01
+   1.200000E+02   9.062927E-01
+   1.300000E+02   1.313995E+00
+   1.400000E+02   1.587481E+00
+   1.500000E+02   1.669891E+00
+   1.600000E+02   2.145843E+00
+   1.800000E+02   2.445462E+00
+   2.000000E+02   2.245021E+00

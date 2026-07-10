@@ -1,0 +1,43 @@
+# header: 
+#   title: Th234(p,x)Ac222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.588388E-09
+   7.000000E+01   1.667476E-05
+   7.500000E+01   2.736639E-03
+   8.000000E+01   7.511653E-02
+   9.000000E+01   2.397039E+00
+   1.000000E+02   9.946407E+00
+   1.100000E+02   1.665149E+01
+   1.200000E+02   1.486252E+01
+   1.300000E+02   1.554342E+01
+   1.400000E+02   1.675609E+01
+   1.500000E+02   1.732940E+01
+   1.600000E+02   1.803871E+01
+   1.800000E+02   1.419418E+01
+   2.000000E+02   2.100502E+01

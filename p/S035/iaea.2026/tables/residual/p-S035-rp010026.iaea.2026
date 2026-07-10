@@ -1,0 +1,40 @@
+# header: 
+#   title: S35(p,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.424985E-12
+   9.000000E+01   1.732550E-08
+   1.000000E+02   4.619790E-07
+   1.100000E+02   2.706094E-06
+   1.200000E+02   7.684594E-06
+   1.300000E+02   1.406497E-05
+   1.400000E+02   2.159348E-05
+   1.500000E+02   3.165185E-05
+   1.600000E+02   4.350383E-05
+   1.800000E+02   6.151381E-05
+   2.000000E+02   6.722282E-05

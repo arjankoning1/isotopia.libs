@@ -1,0 +1,44 @@
+# header: 
+#   title: Gd153(p,x)Nd140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 153
+#   nuclide: Gd153
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 140
+#     nuclide: Nd140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.979985E-10
+   6.500000E+01   2.429689E-07
+   7.000000E+01   1.967349E-05
+   7.500000E+01   4.871683E-04
+   8.000000E+01   1.017875E-02
+   9.000000E+01   3.300880E-01
+   1.000000E+02   8.585662E-01
+   1.100000E+02   6.948456E-01
+   1.200000E+02   5.537614E-01
+   1.300000E+02   6.503054E-01
+   1.400000E+02   7.321624E-01
+   1.500000E+02   7.980646E-01
+   1.600000E+02   7.250081E-01
+   1.800000E+02   7.345807E-01
+   2.000000E+02   7.559311E-01

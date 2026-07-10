@@ -1,0 +1,44 @@
+# header: 
+#   title: V50(p,x)Ar36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 36
+#     nuclide: Ar36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.702193E-11
+   6.500000E+01   4.756989E-07
+   7.000000E+01   6.626455E-05
+   7.500000E+01   1.064143E-03
+   8.000000E+01   4.846696E-03
+   9.000000E+01   2.161905E-02
+   1.000000E+02   4.151152E-02
+   1.100000E+02   9.286924E-02
+   1.200000E+02   2.547516E-01
+   1.300000E+02   5.335108E-01
+   1.400000E+02   8.905423E-01
+   1.500000E+02   1.508336E+00
+   1.600000E+02   2.367300E+00
+   1.800000E+02   4.710953E+00
+   2.000000E+02   7.185009E+00

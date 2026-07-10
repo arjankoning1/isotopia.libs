@@ -1,0 +1,47 @@
+# header: 
+#   title: Zn64(p,x)Fe53m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.513271E-12
+   6.000000E+01   1.408253E-07
+   6.500000E+01   2.081830E-05
+   7.000000E+01   2.017717E-04
+   7.500000E+01   8.776544E-04
+   8.000000E+01   3.902817E-03
+   9.000000E+01   2.633057E-02
+   1.000000E+02   5.136447E-02
+   1.100000E+02   8.029385E-02
+   1.200000E+02   1.702051E-01
+   1.300000E+02   2.849771E-01
+   1.400000E+02   3.611385E-01
+   1.500000E+02   4.691064E-01
+   1.600000E+02   5.052140E-01
+   1.800000E+02   5.365139E-01
+   2.000000E+02   5.200945E-01

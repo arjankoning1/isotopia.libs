@@ -1,0 +1,40 @@
+# header: 
+#   title: Am243(p,x)Pa227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 243
+#   nuclide: Am243
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 227
+#     nuclide: Pa227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.771763E-12
+   9.000000E+01   7.625177E-07
+   1.000000E+02   6.838156E-04
+   1.100000E+02   2.630186E-02
+   1.200000E+02   7.877398E-02
+   1.300000E+02   9.718255E-02
+   1.400000E+02   1.944143E-01
+   1.500000E+02   2.001871E-01
+   1.600000E+02   1.996652E-01
+   1.800000E+02   1.646416E-01
+   2.000000E+02   1.557074E-01

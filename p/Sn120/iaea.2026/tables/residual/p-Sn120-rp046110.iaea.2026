@@ -1,0 +1,47 @@
+# header: 
+#   title: Sn120(p,x)Pd110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 110
+#     nuclide: Pd110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.044457E-11
+   5.000000E+01   4.940029E-09
+   5.500000E+01   1.310573E-06
+   6.000000E+01   8.345393E-05
+   6.500000E+01   8.880615E-04
+   7.000000E+01   3.130111E-03
+   7.500000E+01   5.391960E-03
+   8.000000E+01   5.937730E-03
+   9.000000E+01   5.326338E-03
+   1.000000E+02   6.288866E-03
+   1.100000E+02   9.093998E-03
+   1.200000E+02   1.124602E-02
+   1.300000E+02   1.581831E-02
+   1.400000E+02   1.538487E-02
+   1.500000E+02   1.299169E-02
+   1.600000E+02   1.656416E-02
+   1.800000E+02   2.976268E-02
+   2.000000E+02   2.648926E-02

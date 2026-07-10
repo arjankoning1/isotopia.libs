@@ -1,0 +1,35 @@
+# header: 
+#   title: Np238(p,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.428218E-10
+   1.400000E+02   5.913317E-07
+   1.500000E+02   4.804859E-05
+   1.600000E+02   8.295243E-04
+   1.800000E+02   2.522120E-02
+   2.000000E+02   8.424465E-02

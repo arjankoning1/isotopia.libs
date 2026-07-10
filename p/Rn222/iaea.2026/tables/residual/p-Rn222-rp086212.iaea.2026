@@ -1,0 +1,44 @@
+# header: 
+#   title: Rn222(p,x)Rn212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 212
+#     nuclide: Rn212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.675036E-08
+   6.500000E+01   1.516813E-04
+   7.000000E+01   1.863778E-02
+   7.500000E+01   3.473892E-01
+   8.000000E+01   2.112355E+00
+   9.000000E+01   1.369669E+01
+   1.000000E+02   2.999074E+01
+   1.100000E+02   4.145837E+01
+   1.200000E+02   4.417158E+01
+   1.300000E+02   3.999643E+01
+   1.400000E+02   4.093484E+01
+   1.500000E+02   4.143128E+01
+   1.600000E+02   4.619529E+01
+   1.800000E+02   3.683439E+01
+   2.000000E+02   5.995464E+01

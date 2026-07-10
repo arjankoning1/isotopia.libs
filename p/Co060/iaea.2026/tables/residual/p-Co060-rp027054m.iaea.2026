@@ -1,0 +1,46 @@
+# header: 
+#   title: Co60(p,x)Co54m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.765493E-07
+   6.500000E+01   1.020688E-04
+   7.000000E+01   5.304173E-04
+   7.500000E+01   1.697738E-03
+   8.000000E+01   4.068321E-03
+   9.000000E+01   1.230616E-02
+   1.000000E+02   1.905448E-02
+   1.100000E+02   2.107817E-02
+   1.200000E+02   2.061835E-02
+   1.300000E+02   2.008315E-02
+   1.400000E+02   1.883274E-02
+   1.500000E+02   1.752549E-02
+   1.600000E+02   1.815599E-02
+   1.800000E+02   1.694459E-02
+   2.000000E+02   1.739220E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: F19(p,x)Be12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 12
+#     nuclide: Be12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.686998E-09
+   7.000000E+01   3.483703E-07
+   7.500000E+01   5.307493E-06
+   8.000000E+01   2.763567E-05
+   9.000000E+01   1.374540E-04
+   1.000000E+02   2.865142E-04
+   1.100000E+02   5.188133E-04
+   1.200000E+02   9.122616E-04
+   1.300000E+02   1.404447E-03
+   1.400000E+02   1.858596E-03
+   1.500000E+02   2.205992E-03
+   1.600000E+02   2.459002E-03
+   1.800000E+02   2.625373E-03
+   2.000000E+02   2.568362E-03

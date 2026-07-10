@@ -1,0 +1,42 @@
+# header: 
+#   title: Bi210(p,x)Hg195g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.225971E-10
+   9.000000E+01   8.917254E-05
+   1.000000E+02   2.112531E-02
+   1.100000E+02   1.783863E-01
+   1.200000E+02   2.593918E-01
+   1.300000E+02   3.329236E-01
+   1.400000E+02   5.809847E-01
+   1.500000E+02   9.154411E-01
+   1.600000E+02   1.122478E+00
+   1.800000E+02   1.048318E+00
+   2.000000E+02   7.222057E-01

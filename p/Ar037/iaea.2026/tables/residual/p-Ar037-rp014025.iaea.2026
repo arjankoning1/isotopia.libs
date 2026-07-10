@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar37(p,x)Si25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 37
+#   nuclide: Ar37
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 25
+#     nuclide: Si25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.026700E-11
+   9.000000E+01   2.761771E-07
+   1.000000E+02   8.360980E-06
+   1.100000E+02   6.580978E-05
+   1.200000E+02   2.021113E-04
+   1.300000E+02   4.110048E-04
+   1.400000E+02   7.296926E-04
+   1.500000E+02   1.233925E-03
+   1.600000E+02   1.800060E-03
+   1.800000E+02   3.176664E-03
+   2.000000E+02   4.084641E-03

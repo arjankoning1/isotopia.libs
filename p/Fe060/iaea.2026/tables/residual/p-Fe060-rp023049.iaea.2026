@@ -1,0 +1,45 @@
+# header: 
+#   title: Fe60(p,x)V49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 49
+#     nuclide: V49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.266956E-10
+   6.000000E+01   4.635333E-05
+   6.500000E+01   6.973560E-03
+   7.000000E+01   5.600449E-02
+   7.500000E+01   1.452734E-01
+   8.000000E+01   2.065655E-01
+   9.000000E+01   4.907471E-01
+   1.000000E+02   1.108239E+00
+   1.100000E+02   2.964050E+00
+   1.200000E+02   6.775002E+00
+   1.300000E+02   1.081972E+01
+   1.400000E+02   1.410135E+01
+   1.500000E+02   1.613241E+01
+   1.600000E+02   1.964368E+01
+   1.800000E+02   2.188147E+01
+   2.000000E+02   2.223333E+01

@@ -1,0 +1,51 @@
+# header: 
+#   title: Co56(p,x)Co53m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   3.220105E-09
+   4.000000E+01   4.575992E-04
+   4.500000E+01   1.765913E-03
+   5.000000E+01   6.921868E-03
+   5.500000E+01   1.639052E-02
+   6.000000E+01   1.956849E-02
+   6.500000E+01   1.876743E-02
+   7.000000E+01   1.719261E-02
+   7.500000E+01   1.526384E-02
+   8.000000E+01   1.350895E-02
+   9.000000E+01   1.058998E-02
+   1.000000E+02   8.677823E-03
+   1.100000E+02   7.360992E-03
+   1.200000E+02   6.454233E-03
+   1.300000E+02   5.786870E-03
+   1.400000E+02   5.227714E-03
+   1.500000E+02   4.719262E-03
+   1.600000E+02   4.426882E-03
+   1.800000E+02   3.932372E-03
+   2.000000E+02   3.492363E-03
