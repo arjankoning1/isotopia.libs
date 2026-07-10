@@ -1,0 +1,37 @@
+# header: 
+#   title: Ba131(g,x)Xe117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 117
+#     nuclide: Xe117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.494199E-12
+   1.200000E+02   8.741138E-07
+   1.300000E+02   1.860503E-04
+   1.400000E+02   1.792817E-03
+   1.500000E+02   3.620731E-03
+   1.600000E+02   3.880367E-03
+   1.800000E+02   1.286825E-02
+   2.000000E+02   1.698342E-02

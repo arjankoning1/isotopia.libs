@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni56(g,x)K38m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.027878E-13
+   9.000000E+01   1.132754E-08
+   1.000000E+02   4.914931E-07
+   1.100000E+02   1.245785E-06
+   1.200000E+02   1.338659E-06
+   1.300000E+02   5.408086E-06
+   1.400000E+02   2.373591E-05
+   1.500000E+02   4.614017E-05
+   1.600000E+02   6.525763E-05
+   1.800000E+02   2.055718E-04
+   2.000000E+02   4.627314E-04

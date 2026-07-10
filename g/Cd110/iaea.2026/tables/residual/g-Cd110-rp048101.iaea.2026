@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd110(g,x)Cd101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 101
+#     nuclide: Cd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.247777E-11
+   1.000000E+02   1.042430E-05
+   1.100000E+02   2.800158E-04
+   1.200000E+02   6.856556E-04
+   1.300000E+02   6.105786E-04
+   1.400000E+02   3.918991E-04
+   1.500000E+02   2.753614E-04
+   1.600000E+02   2.658861E-04
+   1.800000E+02   2.402033E-04
+   2.000000E+02   2.845082E-04

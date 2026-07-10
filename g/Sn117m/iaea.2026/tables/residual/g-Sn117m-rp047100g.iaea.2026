@@ -1,0 +1,36 @@
+# header: 
+#   title: Sn117m(g,x)Ag100g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 100
+#     nuclide: Ag100g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   8.232781E-09
+   1.500000E+02   1.776053E-06
+   1.600000E+02   5.203579E-05
+   1.800000E+02   1.975592E-03
+   2.000000E+02   3.612190E-03

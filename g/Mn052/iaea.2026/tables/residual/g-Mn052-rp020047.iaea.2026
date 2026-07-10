@@ -1,0 +1,44 @@
+# header: 
+#   title: Mn52(g,x)Ca47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 25
+#   A: 52
+#   nuclide: Mn52
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.308801E-10
+   6.500000E+01   6.696776E-08
+   7.000000E+01   1.051094E-06
+   7.500000E+01   5.092865E-06
+   8.000000E+01   1.265034E-05
+   9.000000E+01   1.710089E-05
+   1.000000E+02   8.886224E-06
+   1.100000E+02   4.287838E-06
+   1.200000E+02   2.557642E-06
+   1.300000E+02   1.703558E-06
+   1.400000E+02   1.268633E-06
+   1.500000E+02   9.252454E-07
+   1.600000E+02   6.743675E-07
+   1.800000E+02   4.221512E-07
+   2.000000E+02   2.884778E-07

@@ -1,0 +1,36 @@
+# header: 
+#   title: U230(g,x)Fr210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 210
+#     nuclide: Fr210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.973304E-11
+   1.300000E+02   8.856595E-09
+   1.400000E+02   9.281028E-08
+   1.500000E+02   4.835761E-07
+   1.600000E+02   6.369423E-07
+   1.800000E+02   6.030411E-07
+   2.000000E+02   6.625837E-07

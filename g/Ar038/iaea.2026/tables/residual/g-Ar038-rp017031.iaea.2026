@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar38(g,x)Cl31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 31
+#     nuclide: Cl31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.071519E-11
+   9.000000E+01   3.190262E-08
+   1.000000E+02   2.289980E-07
+   1.100000E+02   7.288078E-07
+   1.200000E+02   1.334694E-06
+   1.300000E+02   1.728290E-06
+   1.400000E+02   1.956401E-06
+   1.500000E+02   2.027724E-06
+   1.600000E+02   2.069305E-06
+   1.800000E+02   2.005592E-06
+   2.000000E+02   1.932822E-06

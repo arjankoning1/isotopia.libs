@@ -1,0 +1,46 @@
+# header: 
+#   title: Ir193(g,x)Ta180g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 180
+#     nuclide: Ta180g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.734445E-11
+   6.500000E+01   5.125517E-08
+   7.000000E+01   3.101913E-06
+   7.500000E+01   2.668429E-05
+   8.000000E+01   8.001657E-05
+   9.000000E+01   7.576105E-05
+   1.000000E+02   1.916024E-05
+   1.100000E+02   2.132689E-05
+   1.200000E+02   6.046020E-05
+   1.300000E+02   8.782335E-05
+   1.400000E+02   1.104451E-04
+   1.500000E+02   1.024595E-04
+   1.600000E+02   1.013923E-04
+   1.800000E+02   1.288027E-04
+   2.000000E+02   1.687233E-04

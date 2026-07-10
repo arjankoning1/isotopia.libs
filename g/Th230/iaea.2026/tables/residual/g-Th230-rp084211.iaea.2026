@@ -1,0 +1,42 @@
+# header: 
+#   title: Th230(g,x)Po211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 211
+#     nuclide: Po211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.377009E-11
+   7.500000E+01   2.161372E-10
+   8.000000E+01   2.453344E-09
+   9.000000E+01   4.426341E-08
+   1.000000E+02   1.142851E-07
+   1.100000E+02   1.356213E-07
+   1.200000E+02   2.709706E-07
+   1.300000E+02   1.260168E-06
+   1.400000E+02   2.645974E-06
+   1.500000E+02   2.922501E-06
+   1.600000E+02   3.354637E-06
+   1.800000E+02   3.383552E-06
+   2.000000E+02   3.361431E-06

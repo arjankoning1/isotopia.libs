@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo92(g,x)Rb86g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.057217E-11
+   7.000000E+01   1.073026E-09
+   7.500000E+01   1.259508E-08
+   8.000000E+01   1.653024E-07
+   9.000000E+01   3.525392E-06
+   1.000000E+02   7.403345E-06
+   1.100000E+02   5.698170E-06
+   1.200000E+02   4.407459E-06
+   1.300000E+02   4.065817E-06
+   1.400000E+02   4.066963E-06
+   1.500000E+02   3.495384E-06
+   1.600000E+02   3.328432E-06
+   1.800000E+02   2.381068E-06
+   2.000000E+02   1.756016E-06

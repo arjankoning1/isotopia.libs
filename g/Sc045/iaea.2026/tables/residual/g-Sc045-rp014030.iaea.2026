@@ -1,0 +1,45 @@
+# header: 
+#   title: Sc45(g,x)Si30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 30
+#     nuclide: Si30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.191954E-11
+   6.000000E+01   3.059353E-08
+   6.500000E+01   5.544869E-07
+   7.000000E+01   3.500498E-06
+   7.500000E+01   4.088048E-05
+   8.000000E+01   2.162022E-04
+   9.000000E+01   7.580132E-04
+   1.000000E+02   7.926555E-04
+   1.100000E+02   9.540623E-04
+   1.200000E+02   2.744502E-03
+   1.300000E+02   5.408164E-03
+   1.400000E+02   7.041202E-03
+   1.500000E+02   7.871939E-03
+   1.600000E+02   9.581488E-03
+   1.800000E+02   1.273790E-02
+   2.000000E+02   1.321368E-02

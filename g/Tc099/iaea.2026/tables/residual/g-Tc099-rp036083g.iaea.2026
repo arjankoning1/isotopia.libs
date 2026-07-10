@@ -1,0 +1,43 @@
+# header: 
+#   title: Tc99(g,x)Kr83g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 83
+#     nuclide: Kr83g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.546254E-12
+   8.000000E+01   9.823417E-10
+   9.000000E+01   3.427954E-06
+   1.000000E+02   1.389151E-04
+   1.100000E+02   3.785174E-04
+   1.200000E+02   2.623719E-04
+   1.300000E+02   3.943770E-04
+   1.400000E+02   1.198379E-03
+   1.500000E+02   1.758979E-03
+   1.600000E+02   1.566246E-03
+   1.800000E+02   2.063346E-03
+   2.000000E+02   1.500865E-03

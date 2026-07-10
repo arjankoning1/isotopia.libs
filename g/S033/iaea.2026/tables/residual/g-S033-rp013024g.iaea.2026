@@ -1,0 +1,44 @@
+# header: 
+#   title: S33(g,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 33
+#   nuclide: S33
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.730045E-08
+   7.500000E+01   1.331278E-06
+   8.000000E+01   4.592199E-06
+   9.000000E+01   2.248241E-05
+   1.000000E+02   4.959430E-05
+   1.100000E+02   5.744467E-05
+   1.200000E+02   6.373572E-05
+   1.300000E+02   7.503023E-05
+   1.400000E+02   8.658292E-05
+   1.500000E+02   9.264264E-05
+   1.600000E+02   9.764711E-05
+   1.800000E+02   9.992824E-05
+   2.000000E+02   9.358377E-05

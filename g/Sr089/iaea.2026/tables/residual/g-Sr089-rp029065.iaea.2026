@@ -1,0 +1,35 @@
+# header: 
+#   title: Sr89(g,x)Cu65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 65
+#     nuclide: Cu65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.604137E-12
+   1.400000E+02   2.738065E-08
+   1.500000E+02   2.073050E-06
+   1.600000E+02   2.889845E-05
+   1.800000E+02   3.119419E-04
+   2.000000E+02   5.265799E-04

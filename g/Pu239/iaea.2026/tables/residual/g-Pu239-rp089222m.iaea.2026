@@ -1,0 +1,41 @@
+# header: 
+#   title: Pu239(g,x)Ac222m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.748851E-12
+   1.000000E+02   4.431848E-10
+   1.100000E+02   1.396232E-08
+   1.200000E+02   7.956054E-08
+   1.300000E+02   1.525495E-07
+   1.400000E+02   1.769805E-07
+   1.500000E+02   3.825449E-07
+   1.600000E+02   4.953482E-07
+   1.800000E+02   7.548655E-07
+   2.000000E+02   2.763272E-07

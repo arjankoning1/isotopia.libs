@@ -1,0 +1,42 @@
+# header: 
+#   title: Kr83(g,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 83
+#   nuclide: Kr83
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.242969E-12
+   7.500000E+01   3.962162E-06
+   8.000000E+01   3.141855E-04
+   9.000000E+01   9.689444E-03
+   1.000000E+02   9.890856E-02
+   1.100000E+02   1.847793E-01
+   1.200000E+02   1.582160E-01
+   1.300000E+02   1.154046E-01
+   1.400000E+02   9.527786E-02
+   1.500000E+02   8.451866E-02
+   1.600000E+02   7.878725E-02
+   1.800000E+02   7.017428E-02
+   2.000000E+02   6.796774E-02

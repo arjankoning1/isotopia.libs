@@ -1,0 +1,37 @@
+# header: 
+#   title: Pm148(g,x)Nd133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 133
+#     nuclide: Nd133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.637865E-10
+   1.400000E+02   1.080782E-06
+   1.500000E+02   6.900609E-05
+   1.600000E+02   1.062650E-03
+   1.800000E+02   1.198537E-02
+   2.000000E+02   9.959757E-03

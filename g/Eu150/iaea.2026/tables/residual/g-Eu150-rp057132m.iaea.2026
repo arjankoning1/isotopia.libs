@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu150(g,x)La132m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 150
+#   nuclide: Eu150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.968474E-11
+   1.000000E+02   8.245401E-07
+   1.100000E+02   3.119052E-05
+   1.200000E+02   7.701830E-05
+   1.300000E+02   6.006829E-05
+   1.400000E+02   1.470963E-04
+   1.500000E+02   3.639516E-04
+   1.600000E+02   3.741635E-04
+   1.800000E+02   3.959053E-04
+   2.000000E+02   2.646706E-04

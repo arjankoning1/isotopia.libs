@@ -1,0 +1,37 @@
+# header: 
+#   title: Nd150(g,x)Xe129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.884166E-11
+   1.200000E+02   2.998953E-07
+   1.300000E+02   1.955304E-05
+   1.400000E+02   1.149083E-04
+   1.500000E+02   1.655999E-04
+   1.600000E+02   3.375902E-04
+   1.800000E+02   2.229769E-03
+   2.000000E+02   1.890716E-03

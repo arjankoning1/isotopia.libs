@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl35(g,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.063563E-10
+   7.500000E+01   1.105088E-07
+   8.000000E+01   1.053450E-06
+   9.000000E+01   5.843852E-06
+   1.000000E+02   1.099416E-05
+   1.100000E+02   2.047269E-05
+   1.200000E+02   4.046280E-05
+   1.300000E+02   5.917078E-05
+   1.400000E+02   6.721537E-05
+   1.500000E+02   6.950015E-05
+   1.600000E+02   6.789042E-05
+   1.800000E+02   6.684239E-05
+   2.000000E+02   6.674104E-05

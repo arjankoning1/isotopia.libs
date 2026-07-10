@@ -1,0 +1,40 @@
+# header: 
+#   title: Ru103(g,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 103
+#   nuclide: Ru103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.323089E-11
+   9.000000E+01   1.723761E-06
+   1.000000E+02   1.144076E-04
+   1.100000E+02   1.606761E-03
+   1.200000E+02   4.811483E-03
+   1.300000E+02   4.957626E-03
+   1.400000E+02   5.224635E-03
+   1.500000E+02   8.381253E-03
+   1.600000E+02   1.201898E-02
+   1.800000E+02   1.030951E-02
+   2.000000E+02   9.014274E-03

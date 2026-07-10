@@ -1,0 +1,42 @@
+# header: 
+#   title: U234(g,x)Ra218 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 234
+#   nuclide: U234
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 218
+#     nuclide: Ra218
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.997263E-12
+   7.500000E+01   8.957443E-10
+   8.000000E+01   8.291071E-08
+   9.000000E+01   4.455455E-05
+   1.000000E+02   3.365382E-04
+   1.100000E+02   5.515009E-04
+   1.200000E+02   5.880348E-04
+   1.300000E+02   4.977468E-04
+   1.400000E+02   5.659057E-04
+   1.500000E+02   7.117843E-04
+   1.600000E+02   5.961917E-04
+   1.800000E+02   5.808293E-04
+   2.000000E+02   1.064704E-03

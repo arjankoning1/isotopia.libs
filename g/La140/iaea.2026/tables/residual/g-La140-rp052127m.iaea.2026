@@ -1,0 +1,45 @@
+# header: 
+#   title: La140(g,x)Te127m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 127
+#     nuclide: Te127m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.181801E-09
+   7.000000E+01   3.592299E-07
+   7.500000E+01   1.027205E-05
+   8.000000E+01   3.336724E-04
+   9.000000E+01   1.796705E-02
+   1.000000E+02   3.323660E-02
+   1.100000E+02   1.373632E-02
+   1.200000E+02   4.924010E-03
+   1.300000E+02   1.931237E-03
+   1.400000E+02   1.269263E-03
+   1.500000E+02   9.733980E-04
+   1.600000E+02   6.451492E-04
+   1.800000E+02   5.478083E-04
+   2.000000E+02   6.357997E-04

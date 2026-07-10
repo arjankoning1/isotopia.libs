@@ -1,0 +1,42 @@
+# header: 
+#   title: Ce134(g,x)Cs123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 123
+#     nuclide: Cs123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.012320E-11
+   7.500000E+01   1.842264E-07
+   8.000000E+01   2.568603E-05
+   9.000000E+01   3.640328E-03
+   1.000000E+02   8.801907E-02
+   1.100000E+02   2.132863E-01
+   1.200000E+02   1.674350E-01
+   1.300000E+02   1.238839E-01
+   1.400000E+02   1.813606E-01
+   1.500000E+02   2.022510E-01
+   1.600000E+02   1.627038E-01
+   1.800000E+02   9.791594E-02
+   2.000000E+02   6.542450E-02

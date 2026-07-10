@@ -1,0 +1,43 @@
+# header: 
+#   title: O17(g,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 8
+#   A: 17
+#   nuclide: O17
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.432107E-10
+   7.000000E+01   1.568049E-08
+   7.500000E+01   8.563002E-08
+   8.000000E+01   1.649284E-07
+   9.000000E+01   1.932276E-07
+   1.000000E+02   2.278115E-07
+   1.100000E+02   4.334100E-07
+   1.200000E+02   7.422835E-07
+   1.300000E+02   1.021216E-06
+   1.400000E+02   1.176803E-06
+   1.500000E+02   1.193386E-06
+   1.600000E+02   1.129884E-06
+   1.800000E+02   9.499027E-07
+   2.000000E+02   7.892293E-07

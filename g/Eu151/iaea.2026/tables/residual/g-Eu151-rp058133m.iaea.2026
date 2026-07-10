@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu151(g,x)Ce133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.217997E-08
+   1.200000E+02   9.548542E-06
+   1.300000E+02   3.429160E-04
+   1.400000E+02   3.145982E-03
+   1.500000E+02   6.626407E-03
+   1.600000E+02   7.786151E-03
+   1.800000E+02   1.206282E-02
+   2.000000E+02   8.749033E-03

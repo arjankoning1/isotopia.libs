@@ -1,0 +1,39 @@
+# header: 
+#   title: Ge68(g,x)Cu57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 57
+#     nuclide: Cu57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.599699E-09
+   1.000000E+02   6.323826E-08
+   1.100000E+02   5.448657E-07
+   1.200000E+02   1.618231E-06
+   1.300000E+02   2.272244E-06
+   1.400000E+02   2.703968E-06
+   1.500000E+02   3.382944E-06
+   1.600000E+02   4.185396E-06
+   1.800000E+02   4.970359E-06
+   2.000000E+02   5.895607E-06

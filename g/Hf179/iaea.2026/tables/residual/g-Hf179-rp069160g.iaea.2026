@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf179(g,x)Tm160g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 179
+#   nuclide: Hf179
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 160
+#     nuclide: Tm160g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   7.252501E-12
+   1.400000E+02   2.273596E-07
+   1.500000E+02   5.374943E-05
+   1.600000E+02   1.326400E-03
+   1.800000E+02   2.678462E-02
+   2.000000E+02   3.436812E-02

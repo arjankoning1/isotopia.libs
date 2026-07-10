@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca45(g,x)Cl34m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.928846E-11
+   8.000000E+01   1.558879E-07
+   9.000000E+01   2.675799E-05
+   1.000000E+02   4.534266E-04
+   1.100000E+02   2.117310E-03
+   1.200000E+02   3.533120E-03
+   1.300000E+02   3.945258E-03
+   1.400000E+02   4.264578E-03
+   1.500000E+02   4.955574E-03
+   1.600000E+02   5.252509E-03
+   1.800000E+02   5.337975E-03
+   2.000000E+02   5.621686E-03

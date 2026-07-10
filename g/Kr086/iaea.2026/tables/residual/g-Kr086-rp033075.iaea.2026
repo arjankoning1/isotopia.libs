@@ -1,0 +1,41 @@
+# header: 
+#   title: Kr86(g,x)As75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 86
+#   nuclide: Kr86
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 75
+#     nuclide: As75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.678160E-08
+   8.000000E+01   3.080861E-05
+   9.000000E+01   2.443299E-03
+   1.000000E+02   3.449767E-02
+   1.100000E+02   9.032030E-02
+   1.200000E+02   9.124417E-02
+   1.300000E+02   7.121332E-02
+   1.400000E+02   8.452115E-02
+   1.500000E+02   1.022895E-01
+   1.600000E+02   9.249230E-02
+   1.800000E+02   5.780840E-02
+   2.000000E+02   2.927470E-02

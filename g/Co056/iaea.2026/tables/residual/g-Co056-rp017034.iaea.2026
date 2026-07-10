@@ -1,0 +1,38 @@
+# header: 
+#   title: Co56(g,x)Cl34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.608124E-11
+   1.100000E+02   1.722207E-08
+   1.200000E+02   1.810311E-07
+   1.300000E+02   3.352418E-07
+   1.400000E+02   6.393826E-07
+   1.500000E+02   3.310062E-06
+   1.600000E+02   1.276118E-05
+   1.800000E+02   3.789138E-05
+   2.000000E+02   1.733600E-04

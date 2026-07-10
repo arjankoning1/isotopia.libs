@@ -1,0 +1,37 @@
+# header: 
+#   title: Pd104(g,x)Y83g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 83
+#     nuclide: Y83g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.579057E-11
+   1.400000E+02   7.897526E-08
+   1.500000E+02   6.182551E-06
+   1.600000E+02   1.163019E-04
+   1.800000E+02   1.533403E-03
+   2.000000E+02   4.312381E-03

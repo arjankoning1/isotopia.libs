@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn118(g,x)Ru102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 102
+#     nuclide: Ru102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.488320E-12
+   8.000000E+01   1.575517E-08
+   9.000000E+01   3.331114E-05
+   1.000000E+02   4.414270E-04
+   1.100000E+02   6.052952E-04
+   1.200000E+02   5.454980E-04
+   1.300000E+02   1.691124E-03
+   1.400000E+02   3.510627E-03
+   1.500000E+02   2.637815E-03
+   1.600000E+02   2.414674E-03
+   1.800000E+02   1.503792E-03
+   2.000000E+02   9.182688E-04

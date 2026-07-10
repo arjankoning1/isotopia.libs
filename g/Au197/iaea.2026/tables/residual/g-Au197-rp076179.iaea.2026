@@ -1,0 +1,36 @@
+# header: 
+#   title: Au197(g,x)Os179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 179
+#     nuclide: Os179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.263324E-12
+   1.300000E+02   1.220045E-06
+   1.400000E+02   5.532854E-04
+   1.500000E+02   1.371793E-02
+   1.600000E+02   7.202926E-02
+   1.800000E+02   1.405513E-01
+   2.000000E+02   8.924530E-02

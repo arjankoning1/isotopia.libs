@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd152(g,x)Gd143 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 152
+#   nuclide: Gd152
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 143
+#     nuclide: Gd143
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.266493E-11
+   9.000000E+01   5.163765E-03
+   1.000000E+02   1.436046E-01
+   1.100000E+02   2.763055E-01
+   1.200000E+02   1.823266E-01
+   1.300000E+02   1.035724E-01
+   1.400000E+02   7.656020E-02
+   1.500000E+02   6.653023E-02
+   1.600000E+02   6.250665E-02
+   1.800000E+02   5.697518E-02
+   2.000000E+02   5.319445E-02

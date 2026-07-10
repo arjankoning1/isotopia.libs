@@ -1,0 +1,38 @@
+# header: 
+#   title: Sn121(g,x)Pd105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 105
+#     nuclide: Pd105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.277964E-06
+   1.100000E+02   7.300127E-03
+   1.200000E+02   9.726476E-02
+   1.300000E+02   2.006593E-01
+   1.400000E+02   1.601417E-01
+   1.500000E+02   1.011337E-01
+   1.600000E+02   8.006509E-02
+   1.800000E+02   5.092520E-02
+   2.000000E+02   4.378682E-02

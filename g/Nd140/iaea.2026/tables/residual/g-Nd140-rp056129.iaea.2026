@@ -1,0 +1,46 @@
+# header: 
+#   title: Nd140(g,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.566817E-10
+   5.500000E+01   1.036443E-06
+   6.000000E+01   1.214790E-04
+   6.500000E+01   1.346971E-03
+   7.000000E+01   3.623005E-03
+   7.500000E+01   4.509772E-03
+   8.000000E+01   3.235230E-03
+   9.000000E+01   1.062813E-03
+   1.000000E+02   6.764376E-03
+   1.100000E+02   1.516260E-02
+   1.200000E+02   1.185663E-02
+   1.300000E+02   7.207708E-03
+   1.400000E+02   8.897986E-03
+   1.500000E+02   7.537490E-03
+   1.600000E+02   6.012739E-03
+   1.800000E+02   4.779717E-03
+   2.000000E+02   3.051861E-03

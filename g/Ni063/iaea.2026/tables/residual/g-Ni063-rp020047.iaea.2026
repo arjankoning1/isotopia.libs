@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni63(g,x)Ca47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.168852E-10
+   7.000000E+01   2.018589E-09
+   7.500000E+01   9.895028E-09
+   8.000000E+01   2.267915E-08
+   9.000000E+01   1.876057E-08
+   1.000000E+02   1.232810E-07
+   1.100000E+02   1.659782E-06
+   1.200000E+02   4.353270E-06
+   1.300000E+02   4.189651E-06
+   1.400000E+02   4.657898E-06
+   1.500000E+02   8.259468E-06
+   1.600000E+02   1.310862E-05
+   1.800000E+02   1.482860E-05
+   2.000000E+02   1.956691E-05

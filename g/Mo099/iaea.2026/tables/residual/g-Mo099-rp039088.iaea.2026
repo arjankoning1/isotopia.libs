@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo99(g,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.562820E-10
+   7.000000E+01   1.813177E-06
+   7.500000E+01   9.059271E-05
+   8.000000E+01   6.655243E-04
+   9.000000E+01   1.603310E-02
+   1.000000E+02   6.267898E-02
+   1.100000E+02   6.790011E-02
+   1.200000E+02   5.219814E-02
+   1.300000E+02   5.538706E-02
+   1.400000E+02   6.771331E-02
+   1.500000E+02   6.578579E-02
+   1.600000E+02   4.958108E-02
+   1.800000E+02   3.268554E-02
+   2.000000E+02   3.220041E-02

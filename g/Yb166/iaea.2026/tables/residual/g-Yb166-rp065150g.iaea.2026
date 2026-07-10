@@ -1,0 +1,41 @@
+# header: 
+#   title: Yb166(g,x)Tb150g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 70
+#   A: 166
+#   nuclide: Yb166
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 150
+#     nuclide: Tb150g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.966653E-10
+   1.000000E+02   9.854169E-07
+   1.100000E+02   7.289940E-05
+   1.200000E+02   8.018413E-04
+   1.300000E+02   1.267164E-03
+   1.400000E+02   7.240345E-04
+   1.500000E+02   7.230082E-04
+   1.600000E+02   9.893288E-04
+   1.800000E+02   6.471021E-04
+   2.000000E+02   3.764149E-04

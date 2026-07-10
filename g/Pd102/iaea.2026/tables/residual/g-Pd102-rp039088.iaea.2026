@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd102(g,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.023900E-11
+   6.500000E+01   1.693216E-08
+   7.000000E+01   9.275205E-07
+   7.500000E+01   8.816799E-06
+   8.000000E+01   3.067298E-05
+   9.000000E+01   5.550607E-05
+   1.000000E+02   2.498099E-05
+   1.100000E+02   1.360817E-04
+   1.200000E+02   6.150656E-04
+   1.300000E+02   8.817523E-04
+   1.400000E+02   7.285788E-04
+   1.500000E+02   9.341164E-04
+   1.600000E+02   1.622657E-03
+   1.800000E+02   1.537098E-03
+   2.000000E+02   6.362378E-04

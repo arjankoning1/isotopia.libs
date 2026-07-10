@@ -1,0 +1,39 @@
+# header: 
+#   title: Ag105(g,x)Mo90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 105
+#   nuclide: Ag105
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 90
+#     nuclide: Mo90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.279600E-09
+   1.000000E+02   4.887665E-06
+   1.100000E+02   3.783365E-04
+   1.200000E+02   4.271496E-03
+   1.300000E+02   9.983433E-03
+   1.400000E+02   1.060780E-02
+   1.500000E+02   1.679610E-02
+   1.600000E+02   3.277261E-02
+   1.800000E+02   5.364609E-02
+   2.000000E+02   6.560119E-02

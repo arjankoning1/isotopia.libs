@@ -1,0 +1,48 @@
+# header: 
+#   title: Ce137m(g,x)Cs129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 137
+#   nuclide: Ce137m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 129
+#     nuclide: Cs129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.354354E-09
+   4.500000E+01   3.371661E-07
+   5.000000E+01   7.358110E-06
+   5.500000E+01   2.624049E-04
+   6.000000E+01   3.354905E-03
+   6.500000E+01   1.114237E-02
+   7.000000E+01   1.813297E-02
+   7.500000E+01   1.740238E-02
+   8.000000E+01   1.226479E-02
+   9.000000E+01   6.738005E-03
+   1.000000E+02   7.360452E-03
+   1.100000E+02   9.006421E-03
+   1.200000E+02   1.018295E-02
+   1.300000E+02   1.042519E-02
+   1.400000E+02   1.090142E-02
+   1.500000E+02   1.050901E-02
+   1.600000E+02   1.171894E-02
+   1.800000E+02   8.505253E-03
+   2.000000E+02   8.719515E-03

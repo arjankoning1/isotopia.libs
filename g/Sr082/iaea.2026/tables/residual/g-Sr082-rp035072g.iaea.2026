@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr82(g,x)Br72g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 72
+#     nuclide: Br72g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.084349E-08
+   8.000000E+01   1.353440E-06
+   9.000000E+01   5.403829E-05
+   1.000000E+02   6.893112E-04
+   1.100000E+02   1.143051E-03
+   1.200000E+02   9.511840E-04
+   1.300000E+02   1.119591E-03
+   1.400000E+02   1.843129E-03
+   1.500000E+02   2.272674E-03
+   1.600000E+02   2.354418E-03
+   1.800000E+02   2.359457E-03
+   2.000000E+02   2.496973E-03

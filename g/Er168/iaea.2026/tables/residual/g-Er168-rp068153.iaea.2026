@@ -1,0 +1,35 @@
+# header: 
+#   title: Er168(g,x)Er153 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 68
+#   A: 168
+#   nuclide: Er168
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 153
+#     nuclide: Er153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.373441E-08
+   1.400000E+02   1.454158E-04
+   1.500000E+02   7.315602E-03
+   1.600000E+02   4.509722E-02
+   1.800000E+02   8.637874E-02
+   2.000000E+02   2.865031E-02

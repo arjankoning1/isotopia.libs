@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe130(g,x)In116n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 116
+#     nuclide: In116n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.947881E-13
+   8.000000E+01   1.066551E-09
+   9.000000E+01   7.728535E-07
+   1.000000E+02   2.586924E-05
+   1.100000E+02   1.582629E-04
+   1.200000E+02   1.737711E-04
+   1.300000E+02   1.029562E-04
+   1.400000E+02   1.572255E-04
+   1.500000E+02   2.156660E-04
+   1.600000E+02   1.951445E-04
+   1.800000E+02   1.073062E-04
+   2.000000E+02   8.398084E-05

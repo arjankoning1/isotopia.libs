@@ -1,0 +1,38 @@
+# header: 
+#   title: Gd154(g,x)Ce135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 154
+#   nuclide: Gd154
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.968441E-09
+   1.100000E+02   4.705760E-06
+   1.200000E+02   1.183303E-04
+   1.300000E+02   3.145259E-04
+   1.400000E+02   3.455989E-04
+   1.500000E+02   7.245491E-04
+   1.600000E+02   2.210348E-03
+   1.800000E+02   2.690666E-03
+   2.000000E+02   4.837045E-03

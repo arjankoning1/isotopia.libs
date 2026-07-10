@@ -1,0 +1,40 @@
+# header: 
+#   title: Pd108(g,x)Ru96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 96
+#     nuclide: Ru96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.871641E-11
+   9.000000E+01   1.119607E-04
+   1.000000E+02   1.567685E-02
+   1.100000E+02   8.100455E-02
+   1.200000E+02   1.080632E-01
+   1.300000E+02   9.710662E-02
+   1.400000E+02   1.720802E-01
+   1.500000E+02   3.013160E-01
+   1.600000E+02   2.863803E-01
+   1.800000E+02   1.199021E-01
+   2.000000E+02   7.544330E-02

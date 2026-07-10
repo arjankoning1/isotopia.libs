@@ -1,0 +1,43 @@
+# header: 
+#   title: Co58(g,x)Sc44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.870745E-10
+   7.000000E+01   1.398770E-06
+   7.500000E+01   4.744539E-05
+   8.000000E+01   2.313626E-04
+   9.000000E+01   5.562090E-04
+   1.000000E+02   3.755244E-04
+   1.100000E+02   1.014461E-03
+   1.200000E+02   4.172665E-03
+   1.300000E+02   6.383669E-03
+   1.400000E+02   7.341810E-03
+   1.500000E+02   9.494873E-03
+   1.600000E+02   1.516960E-02
+   1.800000E+02   2.170827E-02
+   2.000000E+02   2.376902E-02

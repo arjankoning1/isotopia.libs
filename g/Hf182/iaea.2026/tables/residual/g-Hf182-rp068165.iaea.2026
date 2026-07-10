@@ -1,0 +1,39 @@
+# header: 
+#   title: Hf182(g,x)Er165 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 182
+#   nuclide: Hf182
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 165
+#     nuclide: Er165
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.971931E-09
+   1.000000E+02   3.098098E-05
+   1.100000E+02   1.623092E-03
+   1.200000E+02   7.019154E-03
+   1.300000E+02   7.154957E-03
+   1.400000E+02   8.477295E-03
+   1.500000E+02   1.853839E-02
+   1.600000E+02   1.946606E-02
+   1.800000E+02   1.057991E-02
+   2.000000E+02   3.916990E-03

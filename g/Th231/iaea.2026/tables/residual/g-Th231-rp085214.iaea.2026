@@ -1,0 +1,41 @@
+# header: 
+#   title: Th231(g,x)At214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 231
+#   nuclide: Th231
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 214
+#     nuclide: At214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.769765E-11
+   8.000000E+01   1.236906E-08
+   9.000000E+01   1.233719E-06
+   1.000000E+02   1.570947E-05
+   1.100000E+02   4.863067E-05
+   1.200000E+02   5.880296E-05
+   1.300000E+02   4.258593E-05
+   1.400000E+02   3.650287E-05
+   1.500000E+02   2.132981E-05
+   1.600000E+02   2.541844E-05
+   1.800000E+02   2.771996E-05
+   2.000000E+02   2.488632E-05

@@ -1,0 +1,45 @@
+# header: 
+#   title: Y90(g,x)Y84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 84
+#     nuclide: Y84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.773024E-05
+   7.000000E+01   4.389375E-03
+   7.500000E+01   2.418284E-02
+   8.000000E+01   4.130490E-02
+   9.000000E+01   2.625006E-02
+   1.000000E+02   1.322808E-02
+   1.100000E+02   9.482519E-03
+   1.200000E+02   8.012637E-03
+   1.300000E+02   7.218419E-03
+   1.400000E+02   6.650910E-03
+   1.500000E+02   6.194059E-03
+   1.600000E+02   5.758313E-03
+   1.800000E+02   5.569647E-03
+   2.000000E+02   5.093644E-03

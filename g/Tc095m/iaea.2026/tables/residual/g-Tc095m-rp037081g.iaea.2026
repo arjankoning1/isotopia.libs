@@ -1,0 +1,46 @@
+# header: 
+#   title: Tc95m(g,x)Rb81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.209159E-12
+   6.500000E+01   2.966760E-08
+   7.000000E+01   2.789513E-06
+   7.500000E+01   2.802062E-05
+   8.000000E+01   8.028040E-05
+   9.000000E+01   1.192678E-04
+   1.000000E+02   1.077144E-04
+   1.100000E+02   1.219287E-03
+   1.200000E+02   3.710397E-03
+   1.300000E+02   4.160506E-03
+   1.400000E+02   3.765737E-03
+   1.500000E+02   5.500768E-03
+   1.600000E+02   7.844766E-03
+   1.800000E+02   6.144365E-03
+   2.000000E+02   6.154759E-03

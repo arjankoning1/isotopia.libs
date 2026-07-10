@@ -1,0 +1,37 @@
+# header: 
+#   title: La139(g,x)Sb118g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   9.388341E-09
+   1.400000E+02   1.619919E-06
+   1.500000E+02   1.838340E-05
+   1.600000E+02   6.090952E-05
+   1.800000E+02   1.060973E-03
+   2.000000E+02   2.206265E-03

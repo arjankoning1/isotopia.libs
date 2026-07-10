@@ -1,0 +1,48 @@
+# header: 
+#   title: Sr90(g,x)Rb84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   5.483199E-08
+   5.500000E+01   7.514019E-04
+   6.000000E+01   4.896140E-03
+   6.500000E+01   1.146866E-02
+   7.000000E+01   3.898063E-02
+   7.500000E+01   7.787494E-02
+   8.000000E+01   9.574603E-02
+   9.000000E+01   8.126118E-02
+   1.000000E+02   7.186660E-02
+   1.100000E+02   6.596159E-02
+   1.200000E+02   5.934001E-02
+   1.300000E+02   5.344906E-02
+   1.400000E+02   5.130150E-02
+   1.500000E+02   4.883178E-02
+   1.600000E+02   3.875005E-02
+   1.800000E+02   3.260392E-02
+   2.000000E+02   3.013841E-02

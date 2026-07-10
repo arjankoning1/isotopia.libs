@@ -1,0 +1,44 @@
+# header: 
+#   title: P33(g,x)Ne21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 33
+#   nuclide: P33
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.144637E-07
+   6.500000E+01   1.053872E-04
+   7.000000E+01   6.248553E-04
+   7.500000E+01   1.885473E-03
+   8.000000E+01   4.261825E-03
+   9.000000E+01   1.036261E-02
+   1.000000E+02   1.269848E-02
+   1.100000E+02   1.765155E-02
+   1.200000E+02   2.414635E-02
+   1.300000E+02   2.845449E-02
+   1.400000E+02   3.409796E-02
+   1.500000E+02   3.597829E-02
+   1.600000E+02   3.615602E-02
+   1.800000E+02   3.202822E-02
+   2.000000E+02   2.791766E-02

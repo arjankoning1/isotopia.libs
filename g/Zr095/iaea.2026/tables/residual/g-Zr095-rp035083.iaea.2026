@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr95(g,x)Br83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 95
+#   nuclide: Zr95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 83
+#     nuclide: Br83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.403684E-10
+   6.500000E+01   1.571506E-08
+   7.000000E+01   5.569664E-07
+   7.500000E+01   1.784221E-05
+   8.000000E+01   1.500679E-04
+   9.000000E+01   1.007930E-03
+   1.000000E+02   9.786523E-04
+   1.100000E+02   7.882997E-04
+   1.200000E+02   1.834358E-03
+   1.300000E+02   3.212568E-03
+   1.400000E+02   2.578071E-03
+   1.500000E+02   1.968057E-03
+   1.600000E+02   2.063236E-03
+   1.800000E+02   1.336855E-03
+   2.000000E+02   7.378436E-04

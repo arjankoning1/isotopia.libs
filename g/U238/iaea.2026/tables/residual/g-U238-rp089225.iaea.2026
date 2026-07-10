@@ -1,0 +1,42 @@
+# header: 
+#   title: U238(g,x)Ac225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 225
+#     nuclide: Ac225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.513455E-11
+   7.500000E+01   4.619718E-09
+   8.000000E+01   1.303033E-07
+   9.000000E+01   7.658997E-06
+   1.000000E+02   8.203470E-05
+   1.100000E+02   1.620807E-04
+   1.200000E+02   1.847728E-04
+   1.300000E+02   1.417573E-04
+   1.400000E+02   1.566743E-04
+   1.500000E+02   1.835943E-04
+   1.600000E+02   2.112679E-04
+   1.800000E+02   5.174743E-04
+   2.000000E+02   9.771641E-04

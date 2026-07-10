@@ -1,0 +1,40 @@
+# header: 
+#   title: Sr85(g,x)As71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 71
+#     nuclide: As71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.328505E-10
+   9.000000E+01   9.028106E-06
+   1.000000E+02   6.709582E-04
+   1.100000E+02   9.227425E-03
+   1.200000E+02   2.053733E-02
+   1.300000E+02   1.898235E-02
+   1.400000E+02   2.096171E-02
+   1.500000E+02   3.988163E-02
+   1.600000E+02   5.484804E-02
+   1.800000E+02   5.164758E-02
+   2.000000E+02   4.940702E-02

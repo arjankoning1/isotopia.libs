@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo98(g,x)Nb89m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 89
+#     nuclide: Nb89m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.027909E-12
+   8.000000E+01   7.269167E-07
+   9.000000E+01   2.681641E-04
+   1.000000E+02   3.675958E-03
+   1.100000E+02   1.303410E-02
+   1.200000E+02   1.563134E-02
+   1.300000E+02   1.293515E-02
+   1.400000E+02   1.115803E-02
+   1.500000E+02   1.012133E-02
+   1.600000E+02   1.009218E-02
+   1.800000E+02   9.300399E-03
+   2.000000E+02   8.157422E-03

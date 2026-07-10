@@ -1,0 +1,43 @@
+# header: 
+#   title: Al26(g,x)O20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 20
+#     nuclide: O20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.655382E-09
+   7.000000E+01   2.945149E-07
+   7.500000E+01   1.652684E-06
+   8.000000E+01   4.448234E-06
+   9.000000E+01   1.604143E-05
+   1.000000E+02   2.789798E-05
+   1.100000E+02   3.139320E-05
+   1.200000E+02   2.714279E-05
+   1.300000E+02   2.356292E-05
+   1.400000E+02   1.921575E-05
+   1.500000E+02   1.615031E-05
+   1.600000E+02   1.404807E-05
+   1.800000E+02   1.094448E-05
+   2.000000E+02   8.864409E-06

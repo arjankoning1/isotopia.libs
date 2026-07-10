@@ -1,0 +1,35 @@
+# header: 
+#   title: W182(g,x)Er159 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 159
+#     nuclide: Er159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   2.167889E-11
+   1.400000E+02   8.708157E-08
+   1.500000E+02   1.102824E-05
+   1.600000E+02   1.135603E-04
+   1.800000E+02   4.409334E-04
+   2.000000E+02   1.081557E-03

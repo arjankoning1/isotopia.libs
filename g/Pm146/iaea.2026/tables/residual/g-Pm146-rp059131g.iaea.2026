@@ -1,0 +1,39 @@
+# header: 
+#   title: Pm146(g,x)Pr131g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 61
+#   A: 146
+#   nuclide: Pm146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 131
+#     nuclide: Pr131g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.808428E-11
+   1.200000E+02   1.406874E-06
+   1.300000E+02   4.673880E-04
+   1.400000E+02   6.234431E-03
+   1.500000E+02   1.590530E-02
+   1.600000E+02   1.748734E-02
+   1.800000E+02   2.917361E-02
+   2.000000E+02   3.050433E-02

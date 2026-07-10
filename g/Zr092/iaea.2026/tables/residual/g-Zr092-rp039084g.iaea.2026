@@ -1,0 +1,43 @@
+# header: 
+#   title: Zr92(g,x)Y84g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 84
+#     nuclide: Y84g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.747371E-09
+   8.000000E+01   5.007493E-05
+   9.000000E+01   4.668187E-03
+   1.000000E+02   4.578030E-02
+   1.100000E+02   1.087040E-01
+   1.200000E+02   1.027241E-01
+   1.300000E+02   8.444688E-02
+   1.400000E+02   7.282771E-02
+   1.500000E+02   6.815229E-02
+   1.600000E+02   6.399614E-02
+   1.800000E+02   6.599851E-02
+   2.000000E+02   6.179067E-02

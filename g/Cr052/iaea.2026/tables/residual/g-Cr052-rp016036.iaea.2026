@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr52(g,x)S36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 36
+#     nuclide: S36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.655325E-10
+   6.500000E+01   1.172904E-08
+   7.000000E+01   5.593076E-08
+   7.500000E+01   1.344233E-07
+   8.000000E+01   1.862605E-07
+   9.000000E+01   1.703445E-07
+   1.000000E+02   3.118174E-06
+   1.100000E+02   2.274222E-05
+   1.200000E+02   5.329201E-05
+   1.300000E+02   7.550168E-05
+   1.400000E+02   1.447846E-04
+   1.500000E+02   3.494890E-04
+   1.600000E+02   4.619588E-04
+   1.800000E+02   6.257285E-04
+   2.000000E+02   9.778540E-04

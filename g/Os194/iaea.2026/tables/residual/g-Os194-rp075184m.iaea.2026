@@ -1,0 +1,44 @@
+# header: 
+#   title: Os194(g,x)Re184m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 194
+#   nuclide: Os194
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.180387E-09
+   7.500000E+01   5.981825E-06
+   8.000000E+01   1.881151E-04
+   9.000000E+01   4.016171E-03
+   1.000000E+02   3.077483E-02
+   1.100000E+02   6.368357E-02
+   1.200000E+02   7.189400E-02
+   1.300000E+02   8.471854E-02
+   1.400000E+02   7.043409E-02
+   1.500000E+02   7.180747E-02
+   1.600000E+02   5.823790E-02
+   1.800000E+02   5.227704E-02
+   2.000000E+02   5.365930E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Na23(g,x)Li8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.179304E-10
+   7.000000E+01   3.626684E-08
+   7.500000E+01   2.628548E-07
+   8.000000E+01   8.520444E-07
+   9.000000E+01   7.208735E-06
+   1.000000E+02   1.758877E-05
+   1.100000E+02   2.325069E-05
+   1.200000E+02   3.309313E-05
+   1.300000E+02   5.604148E-05
+   1.400000E+02   8.986489E-05
+   1.500000E+02   1.251112E-04
+   1.600000E+02   1.595298E-04
+   1.800000E+02   2.488183E-04
+   2.000000E+02   3.369144E-04

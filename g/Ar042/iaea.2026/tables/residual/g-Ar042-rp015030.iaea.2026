@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar42(g,x)P30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.436296E-12
+   9.000000E+01   4.427265E-06
+   1.000000E+02   1.662222E-04
+   1.100000E+02   9.291894E-04
+   1.200000E+02   2.646938E-03
+   1.300000E+02   4.468533E-03
+   1.400000E+02   5.392535E-03
+   1.500000E+02   6.218279E-03
+   1.600000E+02   6.827370E-03
+   1.800000E+02   7.441189E-03
+   2.000000E+02   7.128373E-03

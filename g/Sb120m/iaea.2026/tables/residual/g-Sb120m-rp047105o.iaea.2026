@@ -1,0 +1,45 @@
+# header: 
+#   title: Sb120m(g,x)Ag105o cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105o
+#     level: 
+#       isomer: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.292375E-07
+   7.000000E+01   1.804891E-07
+   7.500000E+01   2.633264E-07
+   8.000000E+01   4.691500E-07
+   9.000000E+01   8.603838E-05
+   1.000000E+02   1.160424E-03
+   1.100000E+02   1.963413E-03
+   1.200000E+02   1.796107E-03
+   1.300000E+02   3.476039E-03
+   1.400000E+02   9.008324E-03
+   1.500000E+02   9.720227E-03
+   1.600000E+02   9.435716E-03
+   1.800000E+02   5.143197E-03
+   2.000000E+02   4.957751E-03

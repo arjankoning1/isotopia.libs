@@ -1,0 +1,43 @@
+# header: 
+#   title: Sb121(g,x)Cd110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 110
+#     nuclide: Cd110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.897276E-11
+   7.000000E+01   2.752439E-07
+   7.500000E+01   2.256427E-05
+   8.000000E+01   2.713194E-04
+   9.000000E+01   1.284076E-02
+   1.000000E+02   7.244857E-02
+   1.100000E+02   8.972695E-02
+   1.200000E+02   6.688479E-02
+   1.300000E+02   5.908439E-02
+   1.400000E+02   5.915923E-02
+   1.500000E+02   5.917294E-02
+   1.600000E+02   4.984498E-02
+   1.800000E+02   4.433791E-02
+   2.000000E+02   3.089852E-02

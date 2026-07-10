@@ -1,0 +1,38 @@
+# header: 
+#   title: Gd158(g,x)Pr140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 140
+#     nuclide: Pr140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.270550E-10
+   1.100000E+02   1.081898E-06
+   1.200000E+02   7.274052E-05
+   1.300000E+02   1.143808E-03
+   1.400000E+02   3.605778E-03
+   1.500000E+02   4.113687E-03
+   1.600000E+02   3.068786E-03
+   1.800000E+02   2.758397E-03
+   2.000000E+02   1.727705E-03

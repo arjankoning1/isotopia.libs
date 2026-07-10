@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo97(g,x)Br83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 83
+#     nuclide: Br83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.036431E-12
+   7.000000E+01   1.104278E-09
+   7.500000E+01   3.737227E-08
+   8.000000E+01   3.509479E-07
+   9.000000E+01   2.808430E-06
+   1.000000E+02   2.459591E-06
+   1.100000E+02   1.494444E-05
+   1.200000E+02   1.023164E-04
+   1.300000E+02   1.712715E-04
+   1.400000E+02   1.294891E-04
+   1.500000E+02   1.522214E-04
+   1.600000E+02   2.847640E-04
+   1.800000E+02   1.975691E-04
+   2.000000E+02   1.309670E-04

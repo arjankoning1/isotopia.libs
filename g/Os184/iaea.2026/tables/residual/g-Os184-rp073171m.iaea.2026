@@ -1,0 +1,42 @@
+# header: 
+#   title: Os184(g,x)Ta171m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 171
+#     nuclide: Ta171m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.448763E-11
+   9.000000E+01   1.759141E-06
+   1.000000E+02   2.765529E-04
+   1.100000E+02   6.645667E-03
+   1.200000E+02   3.063024E-02
+   1.300000E+02   3.651117E-02
+   1.400000E+02   2.399972E-02
+   1.500000E+02   1.797108E-02
+   1.600000E+02   1.859060E-02
+   1.800000E+02   1.219420E-02
+   2.000000E+02   8.912958E-03

@@ -1,0 +1,40 @@
+# header: 
+#   title: Y87(g,x)Sr79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 79
+#     nuclide: Sr79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.399187E-09
+   9.000000E+01   2.769708E-05
+   1.000000E+02   5.248682E-04
+   1.100000E+02   2.934889E-03
+   1.200000E+02   4.275320E-03
+   1.300000E+02   3.621933E-03
+   1.400000E+02   3.141980E-03
+   1.500000E+02   2.883112E-03
+   1.600000E+02   2.902073E-03
+   1.800000E+02   2.864176E-03
+   2.000000E+02   3.063698E-03

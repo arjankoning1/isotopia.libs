@@ -1,0 +1,37 @@
+# header: 
+#   title: Ba130(g,x)I116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 116
+#     nuclide: I116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.612257E-08
+   1.200000E+02   6.216835E-05
+   1.300000E+02   1.894871E-03
+   1.400000E+02   1.699301E-02
+   1.500000E+02   4.119821E-02
+   1.600000E+02   4.563944E-02
+   1.800000E+02   5.545931E-02
+   2.000000E+02   7.201003E-02

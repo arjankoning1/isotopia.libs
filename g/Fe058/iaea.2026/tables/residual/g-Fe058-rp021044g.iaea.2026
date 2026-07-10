@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe58(g,x)Sc44g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.723868E-08
+   1.000000E+02   2.464935E-05
+   1.100000E+02   3.417135E-04
+   1.200000E+02   1.725291E-03
+   1.300000E+02   2.967854E-03
+   1.400000E+02   3.665794E-03
+   1.500000E+02   5.862232E-03
+   1.600000E+02   9.077557E-03
+   1.800000E+02   1.455847E-02
+   2.000000E+02   1.822531E-02

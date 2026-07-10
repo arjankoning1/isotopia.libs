@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn112(g,x)Tc95g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.249414E-12
+   9.000000E+01   2.865413E-08
+   1.000000E+02   1.288355E-05
+   1.100000E+02   4.015947E-04
+   1.200000E+02   1.347835E-03
+   1.300000E+02   1.523088E-03
+   1.400000E+02   2.074617E-03
+   1.500000E+02   5.741890E-03
+   1.600000E+02   7.965211E-03
+   1.800000E+02   9.217602E-03
+   2.000000E+02   8.558115E-03

@@ -1,0 +1,42 @@
+# header: 
+#   title: Y90(g,x)Se77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 77
+#     nuclide: Se77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.679450E-12
+   7.500000E+01   3.799733E-09
+   8.000000E+01   1.256428E-07
+   9.000000E+01   9.152196E-05
+   1.000000E+02   2.254461E-03
+   1.100000E+02   5.230913E-03
+   1.200000E+02   5.871771E-03
+   1.300000E+02   6.022078E-03
+   1.400000E+02   8.308450E-03
+   1.500000E+02   1.086672E-02
+   1.600000E+02   1.158696E-02
+   1.800000E+02   1.185096E-02
+   2.000000E+02   9.672199E-03

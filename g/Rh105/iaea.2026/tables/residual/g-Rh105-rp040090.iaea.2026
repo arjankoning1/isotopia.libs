@@ -1,0 +1,41 @@
+# header: 
+#   title: Rh105(g,x)Zr90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.498859E-12
+   8.000000E+01   1.309158E-09
+   9.000000E+01   2.324173E-06
+   1.000000E+02   2.826578E-04
+   1.100000E+02   2.994985E-03
+   1.200000E+02   7.141796E-03
+   1.300000E+02   7.040962E-03
+   1.400000E+02   7.437761E-03
+   1.500000E+02   1.098780E-02
+   1.600000E+02   1.286144E-02
+   1.800000E+02   1.117540E-02
+   2.000000E+02   7.727228E-03

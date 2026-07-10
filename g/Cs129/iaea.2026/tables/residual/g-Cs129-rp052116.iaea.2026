@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs129(g,x)Te116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 116
+#     nuclide: Te116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.454730E-08
+   1.000000E+02   6.856033E-05
+   1.100000E+02   3.387560E-03
+   1.200000E+02   4.347349E-02
+   1.300000E+02   1.238773E-01
+   1.400000E+02   1.349010E-01
+   1.500000E+02   1.078399E-01
+   1.600000E+02   1.154595E-01
+   1.800000E+02   1.268180E-01
+   2.000000E+02   7.511668E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Se72(g,x)Ga62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 62
+#     nuclide: Ga62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.182802E-09
+   8.000000E+01   1.560365E-07
+   9.000000E+01   4.374983E-06
+   1.000000E+02   4.697974E-05
+   1.100000E+02   9.152446E-05
+   1.200000E+02   9.106685E-05
+   1.300000E+02   1.055979E-04
+   1.400000E+02   1.478534E-04
+   1.500000E+02   1.851076E-04
+   1.600000E+02   2.080171E-04
+   1.800000E+02   2.185406E-04
+   2.000000E+02   2.090876E-04

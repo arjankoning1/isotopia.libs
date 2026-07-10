@@ -1,0 +1,39 @@
+# header: 
+#   title: U230(g,x)At209 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 209
+#     nuclide: At209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.169641E-13
+   1.000000E+02   1.128832E-10
+   1.100000E+02   2.950039E-09
+   1.200000E+02   2.129739E-08
+   1.300000E+02   6.610984E-08
+   1.400000E+02   8.590765E-08
+   1.500000E+02   9.981643E-08
+   1.600000E+02   9.480095E-08
+   1.800000E+02   7.981516E-08
+   2.000000E+02   5.995405E-08

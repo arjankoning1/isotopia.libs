@@ -1,0 +1,40 @@
+# header: 
+#   title: Bi208(g,x)Au193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.244157E-11
+   9.000000E+01   5.009172E-06
+   1.000000E+02   5.458889E-04
+   1.100000E+02   2.035957E-03
+   1.200000E+02   1.211265E-03
+   1.300000E+02   6.485727E-04
+   1.400000E+02   1.228215E-03
+   1.500000E+02   1.551804E-03
+   1.600000E+02   7.080792E-04
+   1.800000E+02   6.049096E-04
+   2.000000E+02   3.675870E-04

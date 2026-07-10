@@ -1,0 +1,33 @@
+# header: 
+#   title: Ce140(g,x)Xe119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 119
+#     nuclide: Xe119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   8.369523E-12
+   1.600000E+02   9.072089E-08
+   1.800000E+02   3.472318E-04
+   2.000000E+02   4.214787E-03

@@ -1,0 +1,48 @@
+# header: 
+#   title: Mg25(g,x)C12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.010217E-05
+   4.500000E+01   2.733589E-03
+   5.000000E+01   7.018395E-03
+   5.500000E+01   7.386821E-03
+   6.000000E+01   5.836750E-03
+   6.500000E+01   4.406046E-03
+   7.000000E+01   3.881823E-03
+   7.500000E+01   4.494503E-03
+   8.000000E+01   6.425704E-03
+   9.000000E+01   1.401742E-02
+   1.000000E+02   2.122013E-02
+   1.100000E+02   2.460805E-02
+   1.200000E+02   2.745941E-02
+   1.300000E+02   3.115320E-02
+   1.400000E+02   3.555169E-02
+   1.500000E+02   3.818545E-02
+   1.600000E+02   3.974672E-02
+   1.800000E+02   4.130800E-02
+   2.000000E+02   4.114223E-02

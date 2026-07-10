@@ -1,0 +1,39 @@
+# header: 
+#   title: Ir189(g,x)Ta171g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 189
+#   nuclide: Ir189
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 171
+#     nuclide: Ta171g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.389477E-08
+   1.200000E+02   2.411847E-05
+   1.300000E+02   1.104677E-03
+   1.400000E+02   6.072768E-03
+   1.500000E+02   9.503388E-03
+   1.600000E+02   6.520443E-03
+   1.800000E+02   9.885914E-03
+   2.000000E+02   5.723786E-03

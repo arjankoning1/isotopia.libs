@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg197(g,x)W177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 197
+#   nuclide: Hg197
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 177
+#     nuclide: W177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.532327E-08
+   1.200000E+02   2.511555E-05
+   1.300000E+02   4.100123E-04
+   1.400000E+02   8.612262E-04
+   1.500000E+02   6.478712E-04
+   1.600000E+02   4.412712E-04
+   1.800000E+02   6.166472E-04
+   2.000000E+02   1.414345E-04

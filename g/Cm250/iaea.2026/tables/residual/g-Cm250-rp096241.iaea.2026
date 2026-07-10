@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm250(g,x)Cm241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 96
+#     A: 241
+#     nuclide: Cm241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.322427E-11
+   6.500000E+01   1.782754E-09
+   7.000000E+01   1.524542E-08
+   7.500000E+01   3.288158E-08
+   8.000000E+01   6.420694E-08
+   9.000000E+01   1.763437E-07
+   1.000000E+02   4.597422E-07
+   1.100000E+02   7.386301E-07
+   1.200000E+02   9.918049E-07
+   1.300000E+02   5.643169E-07
+   1.400000E+02   3.884678E-07
+   1.500000E+02   1.581870E-07
+   1.600000E+02   6.964671E-08
+   1.800000E+02   3.089498E-09
+   2.000000E+02   9.779872E-09

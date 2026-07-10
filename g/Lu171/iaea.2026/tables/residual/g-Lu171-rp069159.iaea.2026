@@ -1,0 +1,41 @@
+# header: 
+#   title: Lu171(g,x)Tm159 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 71
+#   A: 171
+#   nuclide: Lu171
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 159
+#     nuclide: Tm159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.340408E-11
+   8.000000E+01   2.583744E-07
+   9.000000E+01   4.811286E-03
+   1.000000E+02   1.138948E-01
+   1.100000E+02   2.086384E-01
+   1.200000E+02   1.202588E-01
+   1.300000E+02   1.059045E-01
+   1.400000E+02   1.739903E-01
+   1.500000E+02   1.664868E-01
+   1.600000E+02   1.177352E-01
+   1.800000E+02   8.694784E-02
+   2.000000E+02   6.507220E-02

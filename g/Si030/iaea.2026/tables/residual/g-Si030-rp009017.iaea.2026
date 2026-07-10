@@ -1,0 +1,41 @@
+# header: 
+#   title: Si30(g,x)F17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 17
+#     nuclide: F17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.896776E-08
+   8.000000E+01   2.445155E-06
+   9.000000E+01   4.959315E-05
+   1.000000E+02   3.010765E-04
+   1.100000E+02   7.083194E-04
+   1.200000E+02   9.327331E-04
+   1.300000E+02   1.111161E-03
+   1.400000E+02   1.535336E-03
+   1.500000E+02   2.039313E-03
+   1.600000E+02   2.601630E-03
+   1.800000E+02   3.435947E-03
+   2.000000E+02   3.740353E-03

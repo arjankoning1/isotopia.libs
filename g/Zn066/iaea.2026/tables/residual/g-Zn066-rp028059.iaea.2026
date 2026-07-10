@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn66(g,x)Ni59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 59
+#     nuclide: Ni59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.868026E-05
+   4.500000E+01   1.392682E-02
+   5.000000E+01   8.556561E-02
+   5.500000E+01   1.364271E-01
+   6.000000E+01   1.312162E-01
+   6.500000E+01   9.873573E-02
+   7.000000E+01   7.268408E-02
+   7.500000E+01   6.148672E-02
+   8.000000E+01   7.100942E-02
+   9.000000E+01   1.839411E-01
+   1.000000E+02   2.578807E-01
+   1.100000E+02   2.303722E-01
+   1.200000E+02   1.919335E-01
+   1.300000E+02   1.679620E-01
+   1.400000E+02   1.588646E-01
+   1.500000E+02   1.408057E-01
+   1.600000E+02   1.370376E-01
+   1.800000E+02   1.123832E-01
+   2.000000E+02   1.083725E-01

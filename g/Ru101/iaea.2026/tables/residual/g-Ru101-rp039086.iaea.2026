@@ -1,0 +1,39 @@
+# header: 
+#   title: Ru101(g,x)Y86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.867917E-09
+   1.000000E+02   1.012905E-05
+   1.100000E+02   4.208907E-04
+   1.200000E+02   3.727528E-03
+   1.300000E+02   7.414572E-03
+   1.400000E+02   7.521392E-03
+   1.500000E+02   1.062090E-02
+   1.600000E+02   2.206754E-02
+   1.800000E+02   2.485659E-02
+   2.000000E+02   2.446275E-02

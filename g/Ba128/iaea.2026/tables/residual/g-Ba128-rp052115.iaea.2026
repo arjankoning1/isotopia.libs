@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba128(g,x)Te115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.887020E-11
+   7.500000E+01   9.050373E-08
+   8.000000E+01   2.310181E-05
+   9.000000E+01   3.817417E-03
+   1.000000E+02   1.499458E-02
+   1.100000E+02   1.160183E-02
+   1.200000E+02   1.852983E-02
+   1.300000E+02   8.495232E-02
+   1.400000E+02   1.196258E-01
+   1.500000E+02   1.051762E-01
+   1.600000E+02   8.463966E-02
+   1.800000E+02   1.072255E-01
+   2.000000E+02   5.501096E-02

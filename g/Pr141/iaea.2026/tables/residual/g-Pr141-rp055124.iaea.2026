@@ -1,0 +1,37 @@
+# header: 
+#   title: Pr141(g,x)Cs124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 124
+#     nuclide: Cs124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.289457E-10
+   1.200000E+02   7.868901E-06
+   1.300000E+02   1.018646E-03
+   1.400000E+02   6.634462E-03
+   1.500000E+02   1.048405E-02
+   1.600000E+02   1.173988E-02
+   1.800000E+02   3.881719E-02
+   2.000000E+02   2.858444E-02

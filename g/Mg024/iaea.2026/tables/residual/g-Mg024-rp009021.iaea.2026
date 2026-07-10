@@ -1,0 +1,48 @@
+# header: 
+#   title: Mg24(g,x)F21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 21
+#     nuclide: F21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   9.135360E-07
+   4.500000E+01   7.363509E-04
+   5.000000E+01   2.987267E-03
+   5.500000E+01   4.054577E-03
+   6.000000E+01   3.548102E-03
+   6.500000E+01   2.684055E-03
+   7.000000E+01   2.008307E-03
+   7.500000E+01   1.577507E-03
+   8.000000E+01   1.321738E-03
+   9.000000E+01   8.838922E-04
+   1.000000E+02   6.743507E-04
+   1.100000E+02   5.143179E-04
+   1.200000E+02   3.938248E-04
+   1.300000E+02   3.073854E-04
+   1.400000E+02   2.593711E-04
+   1.500000E+02   2.247756E-04
+   1.600000E+02   1.659229E-04
+   1.800000E+02   1.297693E-04
+   2.000000E+02   8.357104E-05

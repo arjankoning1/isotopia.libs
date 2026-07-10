@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr51(g,x)P34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 34
+#     nuclide: P34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.695386E-12
+   8.000000E+01   2.298018E-10
+   9.000000E+01   5.697118E-09
+   1.000000E+02   8.504027E-09
+   1.100000E+02   1.243864E-07
+   1.200000E+02   2.187180E-06
+   1.300000E+02   9.958082E-06
+   1.400000E+02   1.697687E-05
+   1.500000E+02   2.249932E-05
+   1.600000E+02   3.933492E-05
+   1.800000E+02   1.208390E-04
+   2.000000E+02   1.837862E-04

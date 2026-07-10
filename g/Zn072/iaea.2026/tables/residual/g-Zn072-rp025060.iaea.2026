@@ -1,0 +1,43 @@
+# header: 
+#   title: Zn72(g,x)Mn60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 60
+#     nuclide: Mn60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.811590E-10
+   7.000000E+01   3.325916E-08
+   7.500000E+01   2.541425E-07
+   8.000000E+01   1.839846E-06
+   9.000000E+01   1.452235E-05
+   1.000000E+02   1.834436E-05
+   1.100000E+02   1.213571E-05
+   1.200000E+02   1.385155E-05
+   1.300000E+02   2.151771E-05
+   1.400000E+02   2.613030E-05
+   1.500000E+02   2.752425E-05
+   1.600000E+02   1.985623E-05
+   1.800000E+02   1.949419E-05
+   2.000000E+02   1.424154E-05

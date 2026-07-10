@@ -1,0 +1,36 @@
+# header: 
+#   title: Ce142(g,x)Sb121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 142
+#   nuclide: Ce142
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 121
+#     nuclide: Sb121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.032967E-10
+   1.300000E+02   1.232626E-07
+   1.400000E+02   3.498008E-06
+   1.500000E+02   2.826875E-05
+   1.600000E+02   6.844409E-05
+   1.800000E+02   3.978910E-04
+   2.000000E+02   1.171071E-03

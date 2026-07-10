@@ -1,0 +1,37 @@
+# header: 
+#   title: Sm153(g,x)Ba132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 153
+#   nuclide: Sm153
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 132
+#     nuclide: Ba132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.516772E-10
+   1.200000E+02   1.948704E-06
+   1.300000E+02   1.075177E-04
+   1.400000E+02   5.253218E-04
+   1.500000E+02   7.752125E-04
+   1.600000E+02   6.021584E-04
+   1.800000E+02   1.101516E-03
+   2.000000E+02   8.147178E-04

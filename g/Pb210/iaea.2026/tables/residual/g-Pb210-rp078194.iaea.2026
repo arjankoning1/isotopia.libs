@@ -1,0 +1,40 @@
+# header: 
+#   title: Pb210(g,x)Pt194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 82
+#   A: 210
+#   nuclide: Pb210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 194
+#     nuclide: Pt194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.749011E-12
+   9.000000E+01   1.567044E-06
+   1.000000E+02   5.959141E-04
+   1.100000E+02   4.527189E-03
+   1.200000E+02   4.085156E-03
+   1.300000E+02   1.951416E-03
+   1.400000E+02   2.393443E-03
+   1.500000E+02   1.716786E-03
+   1.600000E+02   1.163324E-03
+   1.800000E+02   3.167033E-04
+   2.000000E+02   2.665805E-04

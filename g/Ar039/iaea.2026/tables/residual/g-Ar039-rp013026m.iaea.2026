@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar39(g,x)Al26m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.193400E-11
+   7.500000E+01   1.135376E-07
+   8.000000E+01   2.824364E-06
+   9.000000E+01   1.028943E-04
+   1.000000E+02   1.137070E-03
+   1.100000E+02   2.738102E-03
+   1.200000E+02   3.459238E-03
+   1.300000E+02   3.704529E-03
+   1.400000E+02   4.352870E-03
+   1.500000E+02   4.715035E-03
+   1.600000E+02   4.967319E-03
+   1.800000E+02   5.275900E-03
+   2.000000E+02   4.318728E-03

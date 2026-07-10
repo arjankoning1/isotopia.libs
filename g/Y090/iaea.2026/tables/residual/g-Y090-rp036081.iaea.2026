@@ -1,0 +1,45 @@
+# header: 
+#   title: Y90(g,x)Kr81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.280536E-09
+   6.000000E+01   2.169297E-06
+   6.500000E+01   3.959844E-05
+   7.000000E+01   9.504516E-04
+   7.500000E+01   8.637574E-03
+   8.000000E+01   2.979445E-02
+   9.000000E+01   6.418595E-02
+   1.000000E+02   5.339214E-02
+   1.100000E+02   4.634431E-02
+   1.200000E+02   5.508389E-02
+   1.300000E+02   6.049888E-02
+   1.400000E+02   5.957998E-02
+   1.500000E+02   5.452053E-02
+   1.600000E+02   5.080618E-02
+   1.800000E+02   4.446343E-02
+   2.000000E+02   3.374556E-02

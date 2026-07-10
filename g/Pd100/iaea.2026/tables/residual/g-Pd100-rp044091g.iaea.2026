@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd100(g,x)Ru91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 91
+#     nuclide: Ru91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.466611E-11
+   7.500000E+01   3.001096E-07
+   8.000000E+01   1.057968E-05
+   9.000000E+01   1.039888E-04
+   1.000000E+02   1.063060E-04
+   1.100000E+02   9.170638E-05
+   1.200000E+02   1.825043E-04
+   1.300000E+02   3.592533E-04
+   1.400000E+02   3.938437E-04
+   1.500000E+02   3.707382E-04
+   1.600000E+02   3.578936E-04
+   1.800000E+02   4.111355E-04
+   2.000000E+02   4.760708E-04

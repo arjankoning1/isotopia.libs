@@ -1,0 +1,41 @@
+# header: 
+#   title: Np234(g,x)Np225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 234
+#   nuclide: Np234
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 225
+#     nuclide: Np225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.758819E-11
+   8.000000E+01   1.211123E-08
+   9.000000E+01   5.021647E-07
+   1.000000E+02   9.157695E-07
+   1.100000E+02   8.244484E-07
+   1.200000E+02   9.152719E-07
+   1.300000E+02   1.993777E-06
+   1.400000E+02   1.113065E-06
+   1.500000E+02   3.699481E-06
+   1.600000E+02   4.514350E-06
+   1.800000E+02   1.611324E-06
+   2.000000E+02   3.142836E-05

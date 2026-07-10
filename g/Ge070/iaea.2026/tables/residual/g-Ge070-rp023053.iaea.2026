@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge70(g,x)V53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 53
+#     nuclide: V53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.160874E-12
+   8.000000E+01   2.394134E-10
+   9.000000E+01   7.629973E-09
+   1.000000E+02   1.662787E-08
+   1.100000E+02   3.063189E-08
+   1.200000E+02   4.443107E-07
+   1.300000E+02   2.170467E-06
+   1.400000E+02   4.205255E-06
+   1.500000E+02   3.576487E-06
+   1.600000E+02   6.908298E-06
+   1.800000E+02   2.507536E-05
+   2.000000E+02   3.094495E-05

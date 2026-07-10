@@ -1,0 +1,51 @@
+# header: 
+#   title: Cs134(g,x)Xe129g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.706519E-06
+   4.000000E+01   1.106730E-03
+   4.500000E+01   4.133838E-03
+   5.000000E+01   4.537882E-02
+   5.500000E+01   1.778293E-01
+   6.000000E+01   2.718042E-01
+   6.500000E+01   2.679020E-01
+   7.000000E+01   2.378454E-01
+   7.500000E+01   2.224398E-01
+   8.000000E+01   2.148292E-01
+   9.000000E+01   2.025467E-01
+   1.000000E+02   1.856208E-01
+   1.100000E+02   1.703930E-01
+   1.200000E+02   1.521696E-01
+   1.300000E+02   1.400592E-01
+   1.400000E+02   1.286350E-01
+   1.500000E+02   1.150274E-01
+   1.600000E+02   1.045430E-01
+   1.800000E+02   8.873868E-02
+   2.000000E+02   6.585302E-02

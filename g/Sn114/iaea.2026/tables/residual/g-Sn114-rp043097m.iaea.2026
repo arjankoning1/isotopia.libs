@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn114(g,x)Tc97m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 97
+#     nuclide: Tc97m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.877174E-10
+   1.000000E+02   3.239855E-07
+   1.100000E+02   1.975735E-05
+   1.200000E+02   8.188891E-05
+   1.300000E+02   9.675992E-05
+   1.400000E+02   7.153139E-05
+   1.500000E+02   1.557903E-04
+   1.600000E+02   2.293349E-04
+   1.800000E+02   2.207298E-04
+   2.000000E+02   1.634014E-04

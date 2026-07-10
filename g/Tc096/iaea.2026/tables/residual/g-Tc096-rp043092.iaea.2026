@@ -1,0 +1,48 @@
+# header: 
+#   title: Tc96(g,x)Tc92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 96
+#   nuclide: Tc96
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 92
+#     nuclide: Tc92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.406324E-04
+   4.500000E+01   2.089061E-01
+   5.000000E+01   4.565882E-01
+   5.500000E+01   3.934207E-01
+   6.000000E+01   2.465404E-01
+   6.500000E+01   1.705412E-01
+   7.000000E+01   1.383805E-01
+   7.500000E+01   1.213128E-01
+   8.000000E+01   1.102686E-01
+   9.000000E+01   9.556299E-02
+   1.000000E+02   8.507376E-02
+   1.100000E+02   7.656007E-02
+   1.200000E+02   6.945954E-02
+   1.300000E+02   6.407975E-02
+   1.400000E+02   5.877317E-02
+   1.500000E+02   5.359691E-02
+   1.600000E+02   4.793251E-02
+   1.800000E+02   4.100645E-02
+   2.000000E+02   3.438978E-02

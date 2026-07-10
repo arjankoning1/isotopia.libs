@@ -1,0 +1,47 @@
+# header: 
+#   title: Ra225(g,x)Po210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.242626E-12
+   5.000000E+01   3.826266E-07
+   5.500000E+01   1.956209E-06
+   6.000000E+01   9.410091E-06
+   6.500000E+01   3.167148E-04
+   7.000000E+01   3.372324E-03
+   7.500000E+01   7.972231E-03
+   8.000000E+01   2.713122E-03
+   9.000000E+01   1.876057E-03
+   1.000000E+02   7.299299E-04
+   1.100000E+02   5.088927E-04
+   1.200000E+02   4.243861E-04
+   1.300000E+02   5.494336E-04
+   1.400000E+02   6.553030E-04
+   1.500000E+02   6.391945E-04
+   1.600000E+02   6.645129E-04
+   1.800000E+02   7.787501E-04
+   2.000000E+02   8.115108E-04

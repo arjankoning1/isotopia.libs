@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb175(g,x)Ho160 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 70
+#   A: 175
+#   nuclide: Yb175
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 160
+#     nuclide: Ho160
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.954480E-12
+   1.000000E+02   1.503964E-05
+   1.100000E+02   2.907695E-03
+   1.200000E+02   3.286400E-02
+   1.300000E+02   9.799398E-02
+   1.400000E+02   1.153734E-01
+   1.500000E+02   6.412067E-02
+   1.600000E+02   5.586652E-02
+   1.800000E+02   3.358686E-02
+   2.000000E+02   1.581256E-02

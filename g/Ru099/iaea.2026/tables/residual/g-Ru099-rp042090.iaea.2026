@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru99(g,x)Mo90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 90
+#     nuclide: Mo90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.813788E-08
+   6.500000E+01   1.750584E-04
+   7.000000E+01   5.225776E-03
+   7.500000E+01   2.173451E-02
+   8.000000E+01   3.700340E-02
+   9.000000E+01   3.129783E-02
+   1.000000E+02   2.403656E-02
+   1.100000E+02   6.899260E-02
+   1.200000E+02   1.344299E-01
+   1.300000E+02   1.349074E-01
+   1.400000E+02   1.056472E-01
+   1.500000E+02   8.829096E-02
+   1.600000E+02   8.668573E-02
+   1.800000E+02   8.157505E-02
+   2.000000E+02   7.249139E-02

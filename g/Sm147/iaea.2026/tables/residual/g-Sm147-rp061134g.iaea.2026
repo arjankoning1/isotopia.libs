@@ -1,0 +1,38 @@
+# header: 
+#   title: Sm147(g,x)Pm134g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 147
+#   nuclide: Sm147
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 134
+#     nuclide: Pm134g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.934094E-10
+   1.300000E+02   6.919773E-06
+   1.400000E+02   3.435673E-04
+   1.500000E+02   2.810879E-03
+   1.600000E+02   8.479987E-03
+   1.800000E+02   9.803522E-03
+   2.000000E+02   7.499707E-03

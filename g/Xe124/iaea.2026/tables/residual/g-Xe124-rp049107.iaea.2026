@@ -1,0 +1,37 @@
+# header: 
+#   title: Xe124(g,x)In107 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 107
+#     nuclide: In107
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.849547E-08
+   1.200000E+02   1.234886E-05
+   1.300000E+02   4.480265E-04
+   1.400000E+02   4.751187E-03
+   1.500000E+02   1.294524E-02
+   1.600000E+02   1.439906E-02
+   1.800000E+02   3.188450E-02
+   2.000000E+02   4.750493E-02

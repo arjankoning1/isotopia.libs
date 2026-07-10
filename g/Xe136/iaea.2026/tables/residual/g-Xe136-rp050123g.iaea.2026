@@ -1,0 +1,45 @@
+# header: 
+#   title: Xe136(g,x)Sn123g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.880041E-12
+   7.000000E+01   3.594717E-08
+   7.500000E+01   8.548108E-06
+   8.000000E+01   1.689685E-04
+   9.000000E+01   1.393515E-03
+   1.000000E+02   9.473717E-04
+   1.100000E+02   3.886164E-04
+   1.200000E+02   2.411761E-04
+   1.300000E+02   2.174002E-04
+   1.400000E+02   1.524015E-04
+   1.500000E+02   1.524866E-04
+   1.600000E+02   1.452014E-04
+   1.800000E+02   1.052301E-04
+   2.000000E+02   2.028334E-04

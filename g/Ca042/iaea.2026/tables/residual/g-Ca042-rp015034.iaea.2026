@@ -1,0 +1,46 @@
+# header: 
+#   title: Ca42(g,x)P34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 34
+#     nuclide: P34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.160804E-09
+   5.500000E+01   6.687443E-07
+   6.000000E+01   6.688872E-06
+   6.500000E+01   7.685793E-05
+   7.000000E+01   6.630725E-04
+   7.500000E+01   2.050921E-03
+   8.000000E+01   3.176881E-03
+   9.000000E+01   2.577235E-03
+   1.000000E+02   1.694057E-03
+   1.100000E+02   2.003614E-03
+   1.200000E+02   3.168906E-03
+   1.300000E+02   4.092772E-03
+   1.400000E+02   3.492892E-03
+   1.500000E+02   2.925490E-03
+   1.600000E+02   2.517098E-03
+   1.800000E+02   2.220524E-03
+   2.000000E+02   1.905966E-03

@@ -1,0 +1,36 @@
+# header: 
+#   title: Ru100(g,x)Rb80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 80
+#     nuclide: Rb80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.587571E-11
+   1.300000E+02   2.062603E-07
+   1.400000E+02   1.392825E-05
+   1.500000E+02   2.140535E-04
+   1.600000E+02   1.050786E-03
+   1.800000E+02   2.883475E-03
+   2.000000E+02   1.139805E-02

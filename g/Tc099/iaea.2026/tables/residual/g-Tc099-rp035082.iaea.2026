@@ -1,0 +1,42 @@
+# header: 
+#   title: Tc99(g,x)Br82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.197679E-10
+   7.500000E+01   1.748652E-08
+   8.000000E+01   2.911040E-07
+   9.000000E+01   2.904048E-06
+   1.000000E+02   2.131678E-06
+   1.100000E+02   5.116813E-06
+   1.200000E+02   5.206217E-05
+   1.300000E+02   9.468518E-05
+   1.400000E+02   8.379953E-05
+   1.500000E+02   1.356073E-04
+   1.600000E+02   2.834826E-04
+   1.800000E+02   2.428555E-04
+   2.000000E+02   3.601088E-04

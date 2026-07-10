@@ -1,0 +1,44 @@
+# header: 
+#   title: Cs135(g,x)Sb123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 123
+#     nuclide: Sb123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.044117E-09
+   6.500000E+01   1.115896E-06
+   7.000000E+01   3.007447E-05
+   7.500000E+01   1.454445E-04
+   8.000000E+01   2.912312E-04
+   9.000000E+01   1.873928E-04
+   1.000000E+02   4.619041E-04
+   1.100000E+02   3.220501E-03
+   1.200000E+02   4.039366E-03
+   1.300000E+02   2.631737E-03
+   1.400000E+02   1.089109E-03
+   1.500000E+02   9.369890E-04
+   1.600000E+02   8.839481E-04
+   1.800000E+02   5.081983E-04
+   2.000000E+02   7.023714E-04

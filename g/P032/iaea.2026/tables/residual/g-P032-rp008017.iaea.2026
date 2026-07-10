@@ -1,0 +1,44 @@
+# header: 
+#   title: P32(g,x)O17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 17
+#     nuclide: O17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.032785E-07
+   6.500000E+01   3.070986E-05
+   7.000000E+01   1.983051E-04
+   7.500000E+01   3.258456E-04
+   8.000000E+01   3.632349E-04
+   9.000000E+01   5.304854E-04
+   1.000000E+02   9.477346E-04
+   1.100000E+02   2.192412E-03
+   1.200000E+02   3.216127E-03
+   1.300000E+02   3.504580E-03
+   1.400000E+02   4.213945E-03
+   1.500000E+02   5.609138E-03
+   1.600000E+02   7.027803E-03
+   1.800000E+02   9.814631E-03
+   2.000000E+02   1.079721E-02

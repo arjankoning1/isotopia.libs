@@ -1,0 +1,36 @@
+# header: 
+#   title: Zr96(g,x)Ge74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 74
+#     nuclide: Ge74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.289585E-08
+   1.300000E+02   2.905633E-06
+   1.400000E+02   2.616379E-05
+   1.500000E+02   6.112861E-05
+   1.600000E+02   8.070865E-05
+   1.800000E+02   2.605506E-04
+   2.000000E+02   4.722679E-04

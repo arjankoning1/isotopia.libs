@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo98(g,x)Mo91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.341661E-06
+   7.000000E+01   3.903079E-03
+   7.500000E+01   3.268456E-02
+   8.000000E+01   8.232481E-02
+   9.000000E+01   1.211740E-01
+   1.000000E+02   8.948118E-02
+   1.100000E+02   6.948173E-02
+   1.200000E+02   5.934307E-02
+   1.300000E+02   5.210042E-02
+   1.400000E+02   4.918366E-02
+   1.500000E+02   4.494010E-02
+   1.600000E+02   4.196524E-02
+   1.800000E+02   3.887009E-02
+   2.000000E+02   3.754187E-02

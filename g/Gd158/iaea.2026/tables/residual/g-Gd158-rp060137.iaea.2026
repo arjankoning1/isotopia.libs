@@ -1,0 +1,35 @@
+# header: 
+#   title: Gd158(g,x)Nd137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   8.382583E-11
+   1.400000E+02   3.218980E-06
+   1.500000E+02   8.709928E-04
+   1.600000E+02   1.649215E-02
+   1.800000E+02   1.122043E-01
+   2.000000E+02   1.023890E-01

@@ -1,0 +1,38 @@
+# header: 
+#   title: Au195(g,x)Au184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 195
+#   nuclide: Au195
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 184
+#     nuclide: Au184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.062235E-06
+   1.100000E+02   8.583533E-03
+   1.200000E+02   1.295659E-01
+   1.300000E+02   2.389361E-01
+   1.400000E+02   1.664482E-01
+   1.500000E+02   1.061551E-01
+   1.600000E+02   8.594419E-02
+   1.800000E+02   7.738546E-02
+   2.000000E+02   5.843405E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa230(g,x)Fr216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 216
+#     nuclide: Fr216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.029097E-13
+   6.000000E+01   8.647747E-12
+   6.500000E+01   1.177065E-10
+   7.000000E+01   7.117618E-09
+   7.500000E+01   9.336294E-08
+   8.000000E+01   4.028886E-07
+   9.000000E+01   1.236393E-06
+   1.000000E+02   1.325946E-06
+   1.100000E+02   1.664689E-06
+   1.200000E+02   3.407818E-06
+   1.300000E+02   5.813412E-06
+   1.400000E+02   7.011140E-06
+   1.500000E+02   8.398714E-06
+   1.600000E+02   1.435161E-05
+   1.800000E+02   1.657703E-05
+   2.000000E+02   2.140137E-05

@@ -1,0 +1,45 @@
+# header: 
+#   title: C12(g,x)C9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 9
+#     nuclide: C9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.659008E-06
+   6.000000E+01   5.926145E-05
+   6.500000E+01   2.163100E-04
+   7.000000E+01   3.863516E-04
+   7.500000E+01   5.076945E-04
+   8.000000E+01   5.729550E-04
+   9.000000E+01   6.041441E-04
+   1.000000E+02   5.735217E-04
+   1.100000E+02   5.223129E-04
+   1.200000E+02   4.680671E-04
+   1.300000E+02   4.188342E-04
+   1.400000E+02   3.771372E-04
+   1.500000E+02   3.308491E-04
+   1.600000E+02   2.918590E-04
+   1.800000E+02   2.299248E-04
+   2.000000E+02   1.841300E-04

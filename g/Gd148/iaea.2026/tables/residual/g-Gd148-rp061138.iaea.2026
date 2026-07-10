@@ -1,0 +1,44 @@
+# header: 
+#   title: Gd148(g,x)Pm138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 148
+#   nuclide: Gd148
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 138
+#     nuclide: Pm138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.925279E-11
+   6.500000E+01   1.190507E-07
+   7.000000E+01   2.100715E-05
+   7.500000E+01   3.737318E-04
+   8.000000E+01   8.507814E-03
+   9.000000E+01   1.505669E-01
+   1.000000E+02   2.025750E-01
+   1.100000E+02   1.071655E-01
+   1.200000E+02   1.070169E-01
+   1.300000E+02   1.597820E-01
+   1.400000E+02   1.471942E-01
+   1.500000E+02   9.482799E-02
+   1.600000E+02   7.382454E-02
+   1.800000E+02   5.383021E-02
+   2.000000E+02   5.126369E-02

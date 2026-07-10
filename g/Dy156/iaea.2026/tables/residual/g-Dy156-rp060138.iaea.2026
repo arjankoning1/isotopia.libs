@@ -1,0 +1,39 @@
+# header: 
+#   title: Dy156(g,x)Nd138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 66
+#   A: 156
+#   nuclide: Dy156
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 138
+#     nuclide: Nd138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.822067E-09
+   1.000000E+02   1.128232E-05
+   1.100000E+02   3.681662E-04
+   1.200000E+02   1.131581E-03
+   1.300000E+02   8.975258E-04
+   1.400000E+02   1.871152E-03
+   1.500000E+02   4.821676E-03
+   1.600000E+02   6.951368E-03
+   1.800000E+02   6.509750E-03
+   2.000000E+02   7.279666E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cu67(g,x)Sc46m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.702991E-12
+   1.200000E+02   2.439394E-08
+   1.300000E+02   6.440085E-07
+   1.400000E+02   2.827374E-06
+   1.500000E+02   5.119852E-06
+   1.600000E+02   1.026352E-05
+   1.800000E+02   4.318023E-05
+   2.000000E+02   1.021089E-04

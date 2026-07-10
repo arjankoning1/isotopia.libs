@@ -1,0 +1,33 @@
+# header: 
+#   title: Se74(g,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   1.142051E-09
+   1.600000E+02   5.977601E-08
+   1.800000E+02   1.535592E-06
+   2.000000E+02   1.228963E-05

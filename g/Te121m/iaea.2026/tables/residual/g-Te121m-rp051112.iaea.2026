@@ -1,0 +1,40 @@
+# header: 
+#   title: Te121m(g,x)Sb112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 112
+#     nuclide: Sb112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.487923E-07
+   9.000000E+01   7.321269E-04
+   1.000000E+02   1.570233E-02
+   1.100000E+02   1.037453E-01
+   1.200000E+02   1.578620E-01
+   1.300000E+02   1.158535E-01
+   1.400000E+02   8.465799E-02
+   1.500000E+02   7.431652E-02
+   1.600000E+02   7.572021E-02
+   1.800000E+02   7.419977E-02
+   2.000000E+02   6.744193E-02

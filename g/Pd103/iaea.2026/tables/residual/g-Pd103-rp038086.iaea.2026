@@ -1,0 +1,43 @@
+# header: 
+#   title: Pd103(g,x)Sr86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 103
+#   nuclide: Pd103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 86
+#     nuclide: Sr86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.728811E-12
+   7.000000E+01   4.404830E-10
+   7.500000E+01   8.377102E-09
+   8.000000E+01   5.749939E-08
+   9.000000E+01   3.590438E-07
+   1.000000E+02   5.165109E-07
+   1.100000E+02   8.211169E-06
+   1.200000E+02   2.657758E-05
+   1.300000E+02   3.422475E-05
+   1.400000E+02   3.858855E-05
+   1.500000E+02   6.317413E-05
+   1.600000E+02   1.495535E-04
+   1.800000E+02   1.465976E-04
+   2.000000E+02   2.838932E-04

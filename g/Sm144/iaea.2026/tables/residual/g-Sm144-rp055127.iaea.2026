@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm144(g,x)Cs127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 127
+#     nuclide: Cs127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.105254E-10
+   1.000000E+02   3.630484E-07
+   1.100000E+02   1.566061E-05
+   1.200000E+02   5.234984E-05
+   1.300000E+02   5.088519E-05
+   1.400000E+02   4.528266E-05
+   1.500000E+02   1.384668E-04
+   1.600000E+02   1.662030E-04
+   1.800000E+02   1.104394E-04
+   2.000000E+02   8.019090E-05

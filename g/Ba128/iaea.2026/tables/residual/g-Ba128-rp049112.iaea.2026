@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba128(g,x)In112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.326353E-11
+   8.000000E+01   1.752629E-09
+   9.000000E+01   8.361817E-07
+   1.000000E+02   2.508542E-05
+   1.100000E+02   6.483100E-05
+   1.200000E+02   3.630514E-05
+   1.300000E+02   5.423799E-05
+   1.400000E+02   1.676278E-04
+   1.500000E+02   2.065255E-04
+   1.600000E+02   1.756968E-04
+   1.800000E+02   1.524537E-04
+   2.000000E+02   1.099848E-04

@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd145(g,x)Ba132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 132
+#     nuclide: Ba132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.300246E-09
+   7.000000E+01   1.701497E-06
+   7.500000E+01   7.693697E-05
+   8.000000E+01   5.679515E-04
+   9.000000E+01   2.256610E-03
+   1.000000E+02   1.349197E-03
+   1.100000E+02   1.227890E-03
+   1.200000E+02   4.255321E-03
+   1.300000E+02   4.670412E-03
+   1.400000E+02   3.450104E-03
+   1.500000E+02   2.916663E-03
+   1.600000E+02   3.240781E-03
+   1.800000E+02   2.062282E-03
+   2.000000E+02   1.165021E-03

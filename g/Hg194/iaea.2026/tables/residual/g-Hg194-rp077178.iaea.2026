@@ -1,0 +1,36 @@
+# header: 
+#   title: Hg194(g,x)Ir178 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 194
+#   nuclide: Hg194
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 178
+#     nuclide: Ir178
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.287424E-07
+   1.300000E+02   9.780585E-05
+   1.400000E+02   3.801838E-03
+   1.500000E+02   3.792666E-02
+   1.600000E+02   1.130995E-01
+   1.800000E+02   9.529917E-02
+   2.000000E+02   6.294399E-02

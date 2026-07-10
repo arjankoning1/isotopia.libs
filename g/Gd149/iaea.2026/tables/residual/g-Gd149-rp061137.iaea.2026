@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd149(g,x)Pm137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 149
+#   nuclide: Gd149
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 137
+#     nuclide: Pm137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.652311E-09
+   9.000000E+01   5.867971E-05
+   1.000000E+02   6.457238E-03
+   1.100000E+02   8.725040E-02
+   1.200000E+02   1.695253E-01
+   1.300000E+02   1.254414E-01
+   1.400000E+02   1.171486E-01
+   1.500000E+02   1.643418E-01
+   1.600000E+02   1.638536E-01
+   1.800000E+02   8.615139E-02
+   2.000000E+02   5.485430E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: I131(g,x)Sn121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.883714E-12
+   6.000000E+01   4.213191E-08
+   6.500000E+01   2.728077E-06
+   7.000000E+01   3.154294E-05
+   7.500000E+01   3.511558E-04
+   8.000000E+01   1.622580E-03
+   9.000000E+01   4.197007E-03
+   1.000000E+02   2.609895E-03
+   1.100000E+02   1.501903E-03
+   1.200000E+02   1.508401E-03
+   1.300000E+02   1.724634E-03
+   1.400000E+02   2.124693E-03
+   1.500000E+02   2.959981E-03
+   1.600000E+02   3.836556E-03
+   1.800000E+02   3.383307E-03
+   2.000000E+02   5.199250E-03

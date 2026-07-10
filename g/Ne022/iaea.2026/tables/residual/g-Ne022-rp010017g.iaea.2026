@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne22(g,x)Ne17g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.263409E-09
+   7.500000E+01   2.308784E-07
+   8.000000E+01   1.430775E-06
+   9.000000E+01   6.355517E-06
+   1.000000E+02   9.753907E-06
+   1.100000E+02   1.064104E-05
+   1.200000E+02   1.041924E-05
+   1.300000E+02   9.903683E-06
+   1.400000E+02   9.411176E-06
+   1.500000E+02   8.695011E-06
+   1.600000E+02   8.055084E-06
+   1.800000E+02   6.948188E-06
+   2.000000E+02   6.001020E-06

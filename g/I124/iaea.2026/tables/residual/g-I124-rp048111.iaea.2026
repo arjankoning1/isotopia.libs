@@ -1,0 +1,43 @@
+# header: 
+#   title: I124(g,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.394640E-10
+   7.000000E+01   4.426451E-08
+   7.500000E+01   9.156480E-07
+   8.000000E+01   1.830984E-05
+   9.000000E+01   7.857750E-04
+   1.000000E+02   1.925000E-03
+   1.100000E+02   1.106838E-03
+   1.200000E+02   7.639311E-04
+   1.300000E+02   1.556865E-03
+   1.400000E+02   1.866537E-03
+   1.500000E+02   1.454971E-03
+   1.600000E+02   1.348611E-03
+   1.800000E+02   1.007097E-03
+   2.000000E+02   9.302529E-04

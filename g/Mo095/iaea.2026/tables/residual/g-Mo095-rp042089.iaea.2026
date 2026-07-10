@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo95(g,x)Mo89 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 89
+#     nuclide: Mo89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.069826E-05
+   7.000000E+01   3.552049E-03
+   7.500000E+01   1.335560E-02
+   8.000000E+01   2.203427E-02
+   9.000000E+01   2.005328E-02
+   1.000000E+02   1.367396E-02
+   1.100000E+02   1.159230E-02
+   1.200000E+02   1.070613E-02
+   1.300000E+02   1.023138E-02
+   1.400000E+02   9.901266E-03
+   1.500000E+02   9.724378E-03
+   1.600000E+02   9.633397E-03
+   1.800000E+02   8.304340E-03
+   2.000000E+02   8.945854E-03

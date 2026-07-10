@@ -1,0 +1,43 @@
+# header: 
+#   title: Te123(g,x)Te116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 116
+#     nuclide: Te116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.704336E-04
+   7.000000E+01   2.480070E-02
+   7.500000E+01   1.872381E-01
+   8.000000E+01   4.627316E-01
+   9.000000E+01   6.643897E-01
+   1.000000E+02   3.926418E-01
+   1.100000E+02   2.333663E-01
+   1.200000E+02   1.783960E-01
+   1.300000E+02   1.552529E-01
+   1.400000E+02   1.414111E-01
+   1.500000E+02   1.271074E-01
+   1.600000E+02   1.127511E-01
+   1.800000E+02   1.014235E-01
+   2.000000E+02   8.571877E-02

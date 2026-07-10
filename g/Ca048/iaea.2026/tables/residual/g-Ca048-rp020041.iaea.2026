@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca48(g,x)Ca41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.121616E-06
+   7.500000E+01   1.041467E-03
+   8.000000E+01   9.350751E-03
+   9.000000E+01   4.556148E-02
+   1.000000E+02   5.635538E-02
+   1.100000E+02   4.511117E-02
+   1.200000E+02   3.594125E-02
+   1.300000E+02   3.183236E-02
+   1.400000E+02   2.865229E-02
+   1.500000E+02   2.550801E-02
+   1.600000E+02   2.210937E-02
+   1.800000E+02   1.898850E-02
+   2.000000E+02   1.739540E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Co56(g,x)K38g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.212391E-12
+   9.000000E+01   8.772396E-08
+   1.000000E+02   2.040064E-06
+   1.100000E+02   4.164284E-06
+   1.200000E+02   4.265069E-06
+   1.300000E+02   2.101674E-05
+   1.400000E+02   7.907829E-05
+   1.500000E+02   1.618465E-04
+   1.600000E+02   2.080117E-04
+   1.800000E+02   7.319038E-04
+   2.000000E+02   1.702811E-03

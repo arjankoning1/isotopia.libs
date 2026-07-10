@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn112(g,x)Pd99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 99
+#     nuclide: Pd99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.877927E-12
+   7.500000E+01   7.879424E-08
+   8.000000E+01   3.190957E-05
+   9.000000E+01   6.299318E-03
+   1.000000E+02   2.113122E-02
+   1.100000E+02   1.690212E-02
+   1.200000E+02   2.081646E-02
+   1.300000E+02   7.160706E-02
+   1.400000E+02   1.032162E-01
+   1.500000E+02   9.231615E-02
+   1.600000E+02   8.297895E-02
+   1.800000E+02   8.486152E-02
+   2.000000E+02   6.072266E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba135m(g,x)Te123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.541680E-12
+   6.000000E+01   5.832506E-08
+   6.500000E+01   3.998232E-05
+   7.000000E+01   1.678075E-03
+   7.500000E+01   9.327742E-03
+   8.000000E+01   1.959434E-02
+   9.000000E+01   1.367798E-02
+   1.000000E+02   3.376404E-03
+   1.100000E+02   1.074933E-02
+   1.200000E+02   2.269711E-02
+   1.300000E+02   1.570180E-02
+   1.400000E+02   1.042474E-02
+   1.500000E+02   6.497352E-03
+   1.600000E+02   6.031851E-03
+   1.800000E+02   3.836883E-03
+   2.000000E+02   3.491079E-03

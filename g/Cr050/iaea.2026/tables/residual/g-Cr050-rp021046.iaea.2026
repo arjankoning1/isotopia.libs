@@ -1,0 +1,48 @@
+# header: 
+#   title: Cr50(g,x)Sc46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.599028E-06
+   4.500000E+01   6.446494E-05
+   5.000000E+01   1.277493E-03
+   5.500000E+01   1.623306E-02
+   6.000000E+01   4.260412E-02
+   6.500000E+01   5.509200E-02
+   7.000000E+01   4.903914E-02
+   7.500000E+01   3.880170E-02
+   8.000000E+01   3.051390E-02
+   9.000000E+01   2.145662E-02
+   1.000000E+02   1.652059E-02
+   1.100000E+02   1.353289E-02
+   1.200000E+02   1.076666E-02
+   1.300000E+02   9.077769E-03
+   1.400000E+02   7.431755E-03
+   1.500000E+02   6.053784E-03
+   1.600000E+02   5.368818E-03
+   1.800000E+02   3.881697E-03
+   2.000000E+02   2.680039E-03

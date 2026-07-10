@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe60(g,x)K46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 46
+#     nuclide: K46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.227965E-10
+   8.000000E+01   2.394026E-08
+   9.000000E+01   4.923937E-07
+   1.000000E+02   6.554565E-07
+   1.100000E+02   3.794217E-07
+   1.200000E+02   1.060590E-06
+   1.300000E+02   3.038137E-06
+   1.400000E+02   3.542084E-06
+   1.500000E+02   3.253129E-06
+   1.600000E+02   3.466619E-06
+   1.800000E+02   4.962405E-06
+   2.000000E+02   4.460625E-06

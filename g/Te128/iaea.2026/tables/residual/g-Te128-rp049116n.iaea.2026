@@ -1,0 +1,43 @@
+# header: 
+#   title: Te128(g,x)In116n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 116
+#     nuclide: In116n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.235331E-12
+   8.000000E+01   1.198718E-08
+   9.000000E+01   2.574148E-05
+   1.000000E+02   5.505949E-04
+   1.100000E+02   3.732421E-03
+   1.200000E+02   5.717608E-03
+   1.300000E+02   4.196797E-03
+   1.400000E+02   3.740106E-03
+   1.500000E+02   3.673277E-03
+   1.600000E+02   3.952532E-03
+   1.800000E+02   4.172881E-03
+   2.000000E+02   3.965897E-03

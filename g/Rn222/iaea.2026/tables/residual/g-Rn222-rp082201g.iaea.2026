@@ -1,0 +1,39 @@
+# header: 
+#   title: Rn222(g,x)Pb201g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 201
+#     nuclide: Pb201g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.661348E-12
+   1.200000E+02   2.318970E-07
+   1.300000E+02   6.603426E-05
+   1.400000E+02   1.084030E-03
+   1.500000E+02   5.001536E-03
+   1.600000E+02   1.084085E-02
+   1.800000E+02   2.324603E-02
+   2.000000E+02   5.558373E-02

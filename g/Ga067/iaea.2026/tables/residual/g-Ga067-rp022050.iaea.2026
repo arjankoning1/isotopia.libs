@@ -1,0 +1,43 @@
+# header: 
+#   title: Ga67(g,x)Ti50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.985697E-12
+   7.000000E+01   9.534850E-10
+   7.500000E+01   1.166992E-08
+   8.000000E+01   3.973065E-08
+   9.000000E+01   7.103393E-08
+   1.000000E+02   6.564461E-08
+   1.100000E+02   6.364806E-07
+   1.200000E+02   1.553144E-06
+   1.300000E+02   4.481236E-06
+   1.400000E+02   5.115661E-06
+   1.500000E+02   5.928115E-06
+   1.600000E+02   1.207996E-05
+   1.800000E+02   2.662346E-05
+   2.000000E+02   2.685172E-05

@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb84(g,x)Ga70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.175865E-11
+   6.500000E+01   3.450289E-08
+   7.000000E+01   1.328169E-06
+   7.500000E+01   7.876884E-06
+   8.000000E+01   1.754898E-05
+   9.000000E+01   1.663297E-05
+   1.000000E+02   2.131021E-05
+   1.100000E+02   1.224901E-04
+   1.200000E+02   3.184671E-04
+   1.300000E+02   3.538471E-04
+   1.400000E+02   3.900375E-04
+   1.500000E+02   4.960905E-04
+   1.600000E+02   6.936761E-04
+   1.800000E+02   5.806558E-04
+   2.000000E+02   5.136793E-04

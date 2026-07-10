@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb122(g,x)Ag108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 122
+#   nuclide: Sb122
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.729500E-12
+   8.000000E+01   4.588267E-08
+   9.000000E+01   4.003223E-04
+   1.000000E+02   6.582767E-03
+   1.100000E+02   1.076377E-02
+   1.200000E+02   6.333096E-03
+   1.300000E+02   6.466547E-03
+   1.400000E+02   1.281519E-02
+   1.500000E+02   1.273219E-02
+   1.600000E+02   1.062247E-02
+   1.800000E+02   8.323292E-03
+   2.000000E+02   6.875985E-03

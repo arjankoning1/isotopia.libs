@@ -1,0 +1,44 @@
+# header: 
+#   title: Br81(g,x)Br74g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.358695E-12
+   7.500000E+01   6.347973E-06
+   8.000000E+01   4.820680E-04
+   9.000000E+01   7.534818E-03
+   1.000000E+02   1.029196E-02
+   1.100000E+02   8.035612E-03
+   1.200000E+02   6.474399E-03
+   1.300000E+02   5.684120E-03
+   1.400000E+02   5.365449E-03
+   1.500000E+02   4.827141E-03
+   1.600000E+02   4.579229E-03
+   1.800000E+02   4.457228E-03
+   2.000000E+02   4.493152E-03

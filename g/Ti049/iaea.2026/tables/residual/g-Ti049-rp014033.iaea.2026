@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti49(g,x)Si33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 33
+#     nuclide: Si33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.261537E-12
+   6.500000E+01   8.564318E-10
+   7.000000E+01   1.051160E-08
+   7.500000E+01   2.402746E-08
+   8.000000E+01   2.457950E-08
+   9.000000E+01   1.014446E-08
+   1.000000E+02   2.836628E-07
+   1.100000E+02   3.067485E-06
+   1.200000E+02   6.150082E-06
+   1.300000E+02   6.610702E-06
+   1.400000E+02   8.221319E-06
+   1.500000E+02   1.434191E-05
+   1.600000E+02   2.049502E-05
+   1.800000E+02   2.546883E-05
+   2.000000E+02   3.178149E-05

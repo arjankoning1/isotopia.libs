@@ -1,0 +1,39 @@
+# header: 
+#   title: Os188(g,x)Lu169g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 169
+#     nuclide: Lu169g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.616336E-11
+   1.200000E+02   7.325541E-08
+   1.300000E+02   5.497952E-06
+   1.400000E+02   7.410937E-05
+   1.500000E+02   2.619639E-04
+   1.600000E+02   5.749882E-04
+   1.800000E+02   6.241390E-04
+   2.000000E+02   6.753880E-04

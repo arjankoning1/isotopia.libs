@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr53(g,x)Sc44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.582898E-08
+   6.500000E+01   6.501121E-05
+   7.000000E+01   6.318631E-04
+   7.500000E+01   2.847720E-03
+   8.000000E+01   1.405674E-02
+   9.000000E+01   5.668852E-02
+   1.000000E+02   6.094349E-02
+   1.100000E+02   5.173023E-02
+   1.200000E+02   6.566516E-02
+   1.300000E+02   8.928725E-02
+   1.400000E+02   9.461571E-02
+   1.500000E+02   9.327523E-02
+   1.600000E+02   7.651883E-02
+   1.800000E+02   6.685042E-02
+   2.000000E+02   6.278180E-02

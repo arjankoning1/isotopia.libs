@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(g,x)Ni60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.016299E-11
+   6.500000E+01   3.086186E-07
+   7.000000E+01   3.663947E-05
+   7.500000E+01   4.239684E-04
+   8.000000E+01   1.633614E-03
+   9.000000E+01   4.550489E-03
+   1.000000E+02   3.498664E-03
+   1.100000E+02   5.106973E-03
+   1.200000E+02   1.962926E-02
+   1.300000E+02   3.226851E-02
+   1.400000E+02   3.076950E-02
+   1.500000E+02   2.892023E-02
+   1.600000E+02   3.715290E-02
+   1.800000E+02   3.877277E-02
+   2.000000E+02   2.986029E-02

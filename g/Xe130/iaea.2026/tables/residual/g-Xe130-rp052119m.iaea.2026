@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe130(g,x)Te119m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.863109E-08
+   8.000000E+01   4.286945E-05
+   9.000000E+01   2.705241E-02
+   1.000000E+02   1.413911E-01
+   1.100000E+02   1.166164E-01
+   1.200000E+02   6.137291E-02
+   1.300000E+02   7.412189E-02
+   1.400000E+02   8.582398E-02
+   1.500000E+02   7.874439E-02
+   1.600000E+02   5.478933E-02
+   1.800000E+02   4.025578E-02
+   2.000000E+02   3.782947E-02

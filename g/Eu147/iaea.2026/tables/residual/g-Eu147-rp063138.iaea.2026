@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu147(g,x)Eu138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 147
+#   nuclide: Eu147
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 138
+#     nuclide: Eu138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.197052E-12
+   1.000000E+02   1.206281E-04
+   1.100000E+02   4.201309E-03
+   1.200000E+02   8.364487E-03
+   1.300000E+02   5.623072E-03
+   1.400000E+02   3.361418E-03
+   1.500000E+02   3.051938E-03
+   1.600000E+02   3.021559E-03
+   1.800000E+02   3.286611E-03
+   2.000000E+02   4.276852E-03

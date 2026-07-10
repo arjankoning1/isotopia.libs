@@ -1,0 +1,43 @@
+# header: 
+#   title: Zn64(g,x)V53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 53
+#     nuclide: V53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.553003E-12
+   7.000000E+01   1.316520E-09
+   7.500000E+01   4.830133E-08
+   8.000000E+01   3.610724E-07
+   9.000000E+01   1.821068E-06
+   1.000000E+02   2.039575E-06
+   1.100000E+02   1.190254E-05
+   1.200000E+02   5.815479E-05
+   1.300000E+02   8.454659E-05
+   1.400000E+02   9.043505E-05
+   1.500000E+02   8.818093E-05
+   1.600000E+02   8.246798E-05
+   1.800000E+02   7.707135E-05
+   2.000000E+02   4.254436E-05

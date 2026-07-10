@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd160(g,x)Eu149 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 160
+#   nuclide: Gd160
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 149
+#     nuclide: Eu149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.737057E-08
+   9.000000E+01   1.009424E-03
+   1.000000E+02   2.081098E-02
+   1.100000E+02   1.178799E-01
+   1.200000E+02   1.769873E-01
+   1.300000E+02   1.417555E-01
+   1.400000E+02   1.282002E-01
+   1.500000E+02   1.053068E-01
+   1.600000E+02   1.233778E-01
+   1.800000E+02   9.472846E-02
+   2.000000E+02   1.169073E-01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti47(g,x)Sc40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 40
+#     nuclide: Sc40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.847549E-09
+   9.000000E+01   2.225223E-07
+   1.000000E+02   1.324827E-06
+   1.100000E+02   3.393427E-06
+   1.200000E+02   4.435247E-06
+   1.300000E+02   4.752983E-06
+   1.400000E+02   4.905768E-06
+   1.500000E+02   4.867691E-06
+   1.600000E+02   4.670690E-06
+   1.800000E+02   4.497265E-06
+   2.000000E+02   4.244713E-06

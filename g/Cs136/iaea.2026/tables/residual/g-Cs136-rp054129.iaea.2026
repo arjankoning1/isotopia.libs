@@ -1,0 +1,46 @@
+# header: 
+#   title: Cs136(g,x)Xe129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.789309E-09
+   5.500000E+01   3.651424E-04
+   6.000000E+01   8.851813E-03
+   6.500000E+01   3.119693E-02
+   7.000000E+01   1.707998E-01
+   7.500000E+01   5.577545E-01
+   8.000000E+01   8.457742E-01
+   9.000000E+01   5.624977E-01
+   1.000000E+02   3.746150E-01
+   1.100000E+02   3.451183E-01
+   1.200000E+02   3.193367E-01
+   1.300000E+02   3.016808E-01
+   1.400000E+02   2.809273E-01
+   1.500000E+02   2.567379E-01
+   1.600000E+02   2.373926E-01
+   1.800000E+02   1.913675E-01
+   2.000000E+02   1.808614E-01

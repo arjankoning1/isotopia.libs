@@ -1,0 +1,40 @@
+# header: 
+#   title: Au196(g,x)Ir183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 183
+#     nuclide: Ir183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.464459E-12
+   9.000000E+01   1.316723E-05
+   1.000000E+02   8.318317E-03
+   1.100000E+02   9.844881E-02
+   1.200000E+02   1.368041E-01
+   1.300000E+02   9.065482E-02
+   1.400000E+02   1.094259E-01
+   1.500000E+02   1.156361E-01
+   1.600000E+02   8.306160E-02
+   1.800000E+02   4.593053E-02
+   2.000000E+02   4.067681E-02

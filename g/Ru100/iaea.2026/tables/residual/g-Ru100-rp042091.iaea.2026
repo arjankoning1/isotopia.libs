@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru100(g,x)Mo91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.961447E-07
+   6.500000E+01   6.138124E-04
+   7.000000E+01   1.207703E-02
+   7.500000E+01   3.992714E-02
+   8.000000E+01   6.447832E-02
+   9.000000E+01   5.416162E-02
+   1.000000E+02   4.883017E-02
+   1.100000E+02   1.608181E-01
+   1.200000E+02   3.199291E-01
+   1.300000E+02   3.110532E-01
+   1.400000E+02   2.244111E-01
+   1.500000E+02   1.680255E-01
+   1.600000E+02   1.447726E-01
+   1.800000E+02   1.199163E-01
+   2.000000E+02   1.142078E-01

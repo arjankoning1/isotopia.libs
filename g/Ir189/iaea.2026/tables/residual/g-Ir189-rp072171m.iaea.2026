@@ -1,0 +1,40 @@
+# header: 
+#   title: Ir189(g,x)Hf171m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 189
+#   nuclide: Ir189
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.494518E-13
+   1.100000E+02   1.145161E-08
+   1.200000E+02   1.476799E-06
+   1.300000E+02   2.591237E-05
+   1.400000E+02   1.599536E-04
+   1.500000E+02   2.354880E-04
+   1.600000E+02   2.057317E-04
+   1.800000E+02   1.316582E-04
+   2.000000E+02   8.590547E-05

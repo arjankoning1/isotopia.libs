@@ -1,0 +1,43 @@
+# header: 
+#   title: Hf178(g,x)Lu168m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 168
+#     nuclide: Lu168m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.746104E-09
+   8.000000E+01   1.846384E-05
+   9.000000E+01   5.544114E-03
+   1.000000E+02   5.560324E-02
+   1.100000E+02   1.848555E-01
+   1.200000E+02   2.107913E-01
+   1.300000E+02   1.618041E-01
+   1.400000E+02   1.349071E-01
+   1.500000E+02   1.045854E-01
+   1.600000E+02   1.122144E-01
+   1.800000E+02   8.128895E-02
+   2.000000E+02   9.580804E-02

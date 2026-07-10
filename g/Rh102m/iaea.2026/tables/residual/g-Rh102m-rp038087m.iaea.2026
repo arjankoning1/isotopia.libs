@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh102m(g,x)Sr87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.250904E-13
+   7.000000E+01   2.518263E-11
+   7.500000E+01   1.808317E-09
+   8.000000E+01   3.596045E-08
+   9.000000E+01   5.030525E-07
+   1.000000E+02   7.154189E-07
+   1.100000E+02   6.924661E-07
+   1.200000E+02   6.938409E-06
+   1.300000E+02   2.122803E-05
+   1.400000E+02   2.373040E-05
+   1.500000E+02   2.211899E-05
+   1.600000E+02   4.708387E-05
+   1.800000E+02   7.393454E-05
+   2.000000E+02   5.187055E-05

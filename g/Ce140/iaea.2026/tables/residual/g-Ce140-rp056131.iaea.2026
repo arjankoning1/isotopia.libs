@@ -1,0 +1,45 @@
+# header: 
+#   title: Ce140(g,x)Ba131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.129875E-08
+   6.000000E+01   5.700561E-05
+   6.500000E+01   5.496201E-03
+   7.000000E+01   3.468826E-02
+   7.500000E+01   6.667764E-02
+   8.000000E+01   6.663906E-02
+   9.000000E+01   2.519492E-02
+   1.000000E+02   1.542072E-02
+   1.100000E+02   2.912960E-02
+   1.200000E+02   3.992712E-02
+   1.300000E+02   4.550584E-02
+   1.400000E+02   4.762373E-02
+   1.500000E+02   5.278495E-02
+   1.600000E+02   4.440399E-02
+   1.800000E+02   4.996558E-02
+   2.000000E+02   3.439776E-02

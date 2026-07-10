@@ -1,0 +1,43 @@
+# header: 
+#   title: Te125(g,x)Sb116m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 116
+#     nuclide: Sb116m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.223376E-08
+   8.000000E+01   2.011062E-05
+   9.000000E+01   2.747734E-03
+   1.000000E+02   4.442056E-02
+   1.100000E+02   1.631577E-01
+   1.200000E+02   1.788536E-01
+   1.300000E+02   1.266639E-01
+   1.400000E+02   9.457476E-02
+   1.500000E+02   7.489847E-02
+   1.600000E+02   6.460418E-02
+   1.800000E+02   5.992020E-02
+   2.000000E+02   5.202556E-02

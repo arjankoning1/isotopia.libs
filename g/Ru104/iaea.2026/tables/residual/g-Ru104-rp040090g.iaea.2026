@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru104(g,x)Zr90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.456009E-11
+   7.500000E+01   4.514424E-08
+   8.000000E+01   6.776015E-06
+   9.000000E+01   6.092032E-04
+   1.000000E+02   2.310219E-03
+   1.100000E+02   2.619839E-03
+   1.200000E+02   4.103428E-03
+   1.300000E+02   1.117212E-02
+   1.400000E+02   1.912471E-02
+   1.500000E+02   1.941561E-02
+   1.600000E+02   2.008116E-02
+   1.800000E+02   1.923539E-02
+   2.000000E+02   1.014656E-02

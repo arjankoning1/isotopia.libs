@@ -1,0 +1,49 @@
+# header: 
+#   title: Y87(g,x)Y83g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 83
+#     nuclide: Y83g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.616527E-03
+   5.000000E+01   1.108710E-01
+   5.500000E+01   2.116068E-01
+   6.000000E+01   1.806238E-01
+   6.500000E+01   1.255646E-01
+   7.000000E+01   9.695520E-02
+   7.500000E+01   8.445702E-02
+   8.000000E+01   7.765412E-02
+   9.000000E+01   6.892584E-02
+   1.000000E+02   6.225185E-02
+   1.100000E+02   5.678285E-02
+   1.200000E+02   5.185050E-02
+   1.300000E+02   4.767546E-02
+   1.400000E+02   4.461395E-02
+   1.500000E+02   4.053786E-02
+   1.600000E+02   3.744484E-02
+   1.800000E+02   3.284346E-02
+   2.000000E+02   2.954291E-02

@@ -1,0 +1,33 @@
+# header: 
+#   title: Ba136(g,x)Xe118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 118
+#     nuclide: Xe118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   2.471404E-09
+   1.600000E+02   3.049905E-06
+   1.800000E+02   1.050627E-03
+   2.000000E+02   3.594964E-03

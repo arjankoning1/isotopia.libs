@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr52(g,x)Ar42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 42
+#     nuclide: Ar42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.443355E-09
+   6.500000E+01   3.845204E-07
+   7.000000E+01   3.830619E-06
+   7.500000E+01   1.570650E-05
+   8.000000E+01   2.433346E-05
+   9.000000E+01   1.725832E-05
+   1.000000E+02   1.715673E-05
+   1.100000E+02   6.684097E-05
+   1.200000E+02   1.391006E-04
+   1.300000E+02   2.034728E-04
+   1.400000E+02   1.628267E-04
+   1.500000E+02   1.761883E-04
+   1.600000E+02   2.388862E-04
+   1.800000E+02   2.489777E-04
+   2.000000E+02   6.302014E-05

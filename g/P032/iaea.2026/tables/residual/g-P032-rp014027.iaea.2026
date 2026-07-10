@@ -1,0 +1,47 @@
+# header: 
+#   title: P32(g,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.750514E-07
+   5.000000E+01   1.257612E-03
+   5.500000E+01   4.470203E-03
+   6.000000E+01   6.821946E-03
+   6.500000E+01   8.224068E-03
+   7.000000E+01   9.615127E-03
+   7.500000E+01   1.065130E-02
+   8.000000E+01   1.127242E-02
+   9.000000E+01   1.171420E-02
+   1.000000E+02   1.149290E-02
+   1.100000E+02   1.094341E-02
+   1.200000E+02   1.030638E-02
+   1.300000E+02   9.537864E-03
+   1.400000E+02   8.976189E-03
+   1.500000E+02   8.240412E-03
+   1.600000E+02   7.371170E-03
+   1.800000E+02   6.299744E-03
+   2.000000E+02   5.533030E-03

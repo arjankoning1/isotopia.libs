@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca47(g,x)S33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.724596E-10
+   9.000000E+01   2.292454E-05
+   1.000000E+02   7.930909E-04
+   1.100000E+02   2.683454E-03
+   1.200000E+02   3.863041E-03
+   1.300000E+02   4.952780E-03
+   1.400000E+02   7.815233E-03
+   1.500000E+02   1.119209E-02
+   1.600000E+02   1.440483E-02
+   1.800000E+02   1.728170E-02
+   2.000000E+02   1.793643E-02

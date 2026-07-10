@@ -1,0 +1,48 @@
+# header: 
+#   title: Si30(g,x)Ne24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 24
+#     nuclide: Ne24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   5.703512E-12
+   4.500000E+01   1.758160E-06
+   5.000000E+01   1.900695E-05
+   5.500000E+01   4.682801E-05
+   6.000000E+01   6.929380E-05
+   6.500000E+01   7.574211E-05
+   7.000000E+01   7.335371E-05
+   7.500000E+01   7.430202E-05
+   8.000000E+01   9.451742E-05
+   9.000000E+01   3.116167E-04
+   1.000000E+02   6.195385E-04
+   1.100000E+02   7.442567E-04
+   1.200000E+02   6.319978E-04
+   1.300000E+02   5.650634E-04
+   1.400000E+02   5.115831E-04
+   1.500000E+02   4.584589E-04
+   1.600000E+02   3.313251E-04
+   1.800000E+02   2.674767E-04
+   2.000000E+02   2.206369E-04

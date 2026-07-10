@@ -1,0 +1,42 @@
+# header: 
+#   title: Co58(g,x)K41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 41
+#     nuclide: K41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.526598E-11
+   7.500000E+01   1.072164E-08
+   8.000000E+01   2.534861E-07
+   9.000000E+01   3.535233E-06
+   1.000000E+02   4.238518E-06
+   1.100000E+02   5.328662E-06
+   1.200000E+02   5.182253E-05
+   1.300000E+02   1.678822E-04
+   1.400000E+02   2.099911E-04
+   1.500000E+02   2.700681E-04
+   1.600000E+02   5.223445E-04
+   1.800000E+02   1.027039E-03
+   2.000000E+02   1.591643E-03

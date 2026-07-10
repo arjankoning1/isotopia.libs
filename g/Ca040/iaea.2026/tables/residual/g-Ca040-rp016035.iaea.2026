@@ -1,0 +1,47 @@
+# header: 
+#   title: Ca40(g,x)S35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.274863E-06
+   5.000000E+01   2.175894E-04
+   5.500000E+01   9.270018E-04
+   6.000000E+01   4.167110E-03
+   6.500000E+01   1.369600E-02
+   7.000000E+01   2.535182E-02
+   7.500000E+01   3.153839E-02
+   8.000000E+01   3.045733E-02
+   9.000000E+01   2.083660E-02
+   1.000000E+02   1.416713E-02
+   1.100000E+02   1.074419E-02
+   1.200000E+02   8.166768E-03
+   1.300000E+02   6.833776E-03
+   1.400000E+02   5.521783E-03
+   1.500000E+02   4.581667E-03
+   1.600000E+02   3.936621E-03
+   1.800000E+02   3.038026E-03
+   2.000000E+02   2.129063E-03

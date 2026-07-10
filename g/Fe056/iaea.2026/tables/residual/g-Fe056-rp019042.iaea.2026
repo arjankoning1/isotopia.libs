@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe56(g,x)K42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.524623E-11
+   7.500000E+01   6.470117E-08
+   8.000000E+01   2.176185E-06
+   9.000000E+01   2.438731E-05
+   1.000000E+02   2.572670E-05
+   1.100000E+02   2.420476E-05
+   1.200000E+02   1.417815E-04
+   1.300000E+02   4.303229E-04
+   1.400000E+02   6.080028E-04
+   1.500000E+02   6.541855E-04
+   1.600000E+02   7.005019E-04
+   1.800000E+02   1.238166E-03
+   2.000000E+02   1.222604E-03

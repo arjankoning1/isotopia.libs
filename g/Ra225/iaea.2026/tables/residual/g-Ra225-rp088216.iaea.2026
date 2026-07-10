@@ -1,0 +1,44 @@
+# header: 
+#   title: Ra225(g,x)Ra216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 216
+#     nuclide: Ra216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.932763E-06
+   6.500000E+01   4.781231E-03
+   7.000000E+01   1.051226E-01
+   7.500000E+01   5.110008E-01
+   8.000000E+01   1.023360E+00
+   9.000000E+01   9.366221E-01
+   1.000000E+02   3.645817E-01
+   1.100000E+02   1.859753E-01
+   1.200000E+02   1.318877E-01
+   1.300000E+02   1.121332E-01
+   1.400000E+02   8.291316E-02
+   1.500000E+02   8.275048E-02
+   1.600000E+02   6.655796E-02
+   1.800000E+02   5.695057E-02
+   2.000000E+02   4.970215E-02

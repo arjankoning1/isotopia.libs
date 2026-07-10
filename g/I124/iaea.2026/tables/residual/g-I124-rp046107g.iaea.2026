@@ -1,0 +1,41 @@
+# header: 
+#   title: I124(g,x)Pd107g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 107
+#     nuclide: Pd107g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.630494E-09
+   1.000000E+02   2.164664E-06
+   1.100000E+02   4.942193E-05
+   1.200000E+02   1.117456E-04
+   1.300000E+02   7.420320E-05
+   1.400000E+02   6.495391E-05
+   1.500000E+02   9.789851E-05
+   1.600000E+02   1.175645E-04
+   1.800000E+02   6.742534E-05
+   2.000000E+02   6.703855E-05

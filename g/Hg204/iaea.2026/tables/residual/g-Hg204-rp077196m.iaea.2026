@@ -1,0 +1,49 @@
+# header: 
+#   title: Hg204(g,x)Ir196m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 196
+#     nuclide: Ir196m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.964282E-12
+   5.000000E+01   2.931769E-10
+   5.500000E+01   7.613017E-09
+   6.000000E+01   2.072742E-07
+   6.500000E+01   1.456230E-06
+   7.000000E+01   3.563300E-06
+   7.500000E+01   5.203792E-06
+   8.000000E+01   4.998025E-06
+   9.000000E+01   4.090259E-06
+   1.000000E+02   4.938219E-06
+   1.100000E+02   1.509401E-05
+   1.200000E+02   3.550587E-05
+   1.300000E+02   5.515193E-05
+   1.400000E+02   8.589954E-05
+   1.500000E+02   8.015230E-05
+   1.600000E+02   9.927519E-05
+   1.800000E+02   1.418086E-04
+   2.000000E+02   7.158905E-05

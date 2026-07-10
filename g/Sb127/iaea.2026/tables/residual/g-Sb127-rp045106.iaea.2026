@@ -1,0 +1,36 @@
+# header: 
+#   title: Sb127(g,x)Rh106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 127
+#   nuclide: Sb127
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 106
+#     nuclide: Rh106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.865926E-12
+   1.300000E+02   1.557656E-08
+   1.400000E+02   1.612904E-06
+   1.500000E+02   1.416882E-05
+   1.600000E+02   3.272931E-05
+   1.800000E+02   1.252551E-04
+   2.000000E+02   2.636830E-04

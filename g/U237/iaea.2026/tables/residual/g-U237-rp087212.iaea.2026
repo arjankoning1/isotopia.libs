@@ -1,0 +1,33 @@
+# header: 
+#   title: U237(g,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   2.327288E-10
+   1.600000E+02   2.602775E-08
+   1.800000E+02   3.413584E-06
+   2.000000E+02   1.624542E-05

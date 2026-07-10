@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe124(g,x)Ag105g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.038013E-12
+   1.100000E+02   8.552772E-09
+   1.200000E+02   1.250372E-06
+   1.300000E+02   4.217450E-05
+   1.400000E+02   2.170707E-04
+   1.500000E+02   3.314066E-04
+   1.600000E+02   3.203909E-04
+   1.800000E+02   9.073453E-04
+   2.000000E+02   1.101567E-03

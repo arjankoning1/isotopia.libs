@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru101(g,x)Rb86g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.832738E-12
+   7.500000E+01   1.454100E-09
+   8.000000E+01   7.920859E-08
+   9.000000E+01   3.485849E-06
+   1.000000E+02   9.017552E-06
+   1.100000E+02   5.985904E-06
+   1.200000E+02   1.915296E-05
+   1.300000E+02   7.118618E-05
+   1.400000E+02   1.163065E-04
+   1.500000E+02   1.036888E-04
+   1.600000E+02   1.387564E-04
+   1.800000E+02   2.458165E-04
+   2.000000E+02   1.911307E-04

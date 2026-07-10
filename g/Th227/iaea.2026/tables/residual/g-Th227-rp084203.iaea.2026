@@ -1,0 +1,36 @@
+# header: 
+#   title: Th227(g,x)Po203 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 227
+#   nuclide: Th227
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 203
+#     nuclide: Po203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.240458E-11
+   1.300000E+02   1.241977E-08
+   1.400000E+02   5.247358E-07
+   1.500000E+02   1.684688E-06
+   1.600000E+02   3.115347E-06
+   1.800000E+02   5.757553E-06
+   2.000000E+02   3.333077E-06

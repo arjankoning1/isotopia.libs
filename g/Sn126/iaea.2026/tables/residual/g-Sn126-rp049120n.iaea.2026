@@ -1,0 +1,49 @@
+# header: 
+#   title: Sn126(g,x)In120n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 126
+#   nuclide: Sn126
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 120
+#     nuclide: In120n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.307503E-09
+   5.000000E+01   2.097157E-05
+   5.500000E+01   2.242828E-04
+   6.000000E+01   7.952367E-04
+   6.500000E+01   3.881920E-03
+   7.000000E+01   1.156162E-02
+   7.500000E+01   1.946516E-02
+   8.000000E+01   2.510747E-02
+   9.000000E+01   2.864608E-02
+   1.000000E+02   2.987224E-02
+   1.100000E+02   2.736749E-02
+   1.200000E+02   2.542396E-02
+   1.300000E+02   2.531722E-02
+   1.400000E+02   1.990588E-02
+   1.500000E+02   2.103076E-02
+   1.600000E+02   1.571420E-02
+   1.800000E+02   1.414014E-02
+   2.000000E+02   1.325626E-02

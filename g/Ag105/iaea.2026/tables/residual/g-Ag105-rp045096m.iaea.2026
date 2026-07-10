@@ -1,0 +1,46 @@
+# header: 
+#   title: Ag105(g,x)Rh96m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 105
+#   nuclide: Ag105
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.003607E-08
+   6.500000E+01   8.225673E-05
+   7.000000E+01   3.365975E-03
+   7.500000E+01   1.262779E-02
+   8.000000E+01   1.805304E-02
+   9.000000E+01   1.108879E-02
+   1.000000E+02   8.214854E-03
+   1.100000E+02   2.141020E-02
+   1.200000E+02   3.574119E-02
+   1.300000E+02   3.174578E-02
+   1.400000E+02   2.605684E-02
+   1.500000E+02   2.440161E-02
+   1.600000E+02   2.324065E-02
+   1.800000E+02   2.193893E-02
+   2.000000E+02   2.487012E-02

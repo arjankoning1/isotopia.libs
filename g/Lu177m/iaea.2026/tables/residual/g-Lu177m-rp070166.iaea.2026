@@ -1,0 +1,40 @@
+# header: 
+#   title: Lu177m(g,x)Yb166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 71
+#   A: 177
+#   nuclide: Lu177m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 166
+#     nuclide: Yb166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.130221E-08
+   9.000000E+01   6.812829E-04
+   1.000000E+02   1.822628E-02
+   1.100000E+02   1.427738E-01
+   1.200000E+02   2.632166E-01
+   1.300000E+02   2.087114E-01
+   1.400000E+02   1.610416E-01
+   1.500000E+02   1.500705E-01
+   1.600000E+02   1.410491E-01
+   1.800000E+02   1.094134E-01
+   2.000000E+02   1.320015E-01

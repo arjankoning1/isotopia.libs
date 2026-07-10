@@ -1,0 +1,44 @@
+# header: 
+#   title: Ce140(g,x)Te125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.808577E-11
+   7.500000E+01   5.841434E-09
+   8.000000E+01   1.331520E-07
+   9.000000E+01   1.962961E-06
+   1.000000E+02   1.916606E-06
+   1.100000E+02   1.649777E-06
+   1.200000E+02   1.197809E-05
+   1.300000E+02   3.485444E-05
+   1.400000E+02   4.069160E-05
+   1.500000E+02   4.894714E-05
+   1.600000E+02   7.700433E-05
+   1.800000E+02   9.629281E-05
+   2.000000E+02   1.273775E-04

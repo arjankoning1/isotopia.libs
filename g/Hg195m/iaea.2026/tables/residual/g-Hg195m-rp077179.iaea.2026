@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg195m(g,x)Ir179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 195
+#   nuclide: Hg195m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 179
+#     nuclide: Ir179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.527634E-11
+   1.200000E+02   1.316651E-06
+   1.300000E+02   2.848246E-04
+   1.400000E+02   6.772594E-03
+   1.500000E+02   4.635707E-02
+   1.600000E+02   1.049659E-01
+   1.800000E+02   6.438354E-02
+   2.000000E+02   6.029563E-02

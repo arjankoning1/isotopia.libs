@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd107(g,x)Sr87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.066853E-13
+   1.000000E+02   1.321654E-09
+   1.100000E+02   8.068162E-08
+   1.200000E+02   3.321899E-07
+   1.300000E+02   4.123925E-07
+   1.400000E+02   1.559868E-06
+   1.500000E+02   7.124500E-06
+   1.600000E+02   1.564132E-05
+   1.800000E+02   3.227848E-05
+   2.000000E+02   8.524840E-05

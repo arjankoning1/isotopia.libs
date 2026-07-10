@@ -1,0 +1,42 @@
+# header: 
+#   title: Pt202(g,x)Ir192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 78
+#   A: 202
+#   nuclide: Pt202
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 192
+#     nuclide: Ir192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.135860E-08
+   7.500000E+01   5.223820E-05
+   8.000000E+01   1.072275E-03
+   9.000000E+01   1.402156E-02
+   1.000000E+02   8.594105E-02
+   1.100000E+02   1.659029E-01
+   1.200000E+02   1.935175E-01
+   1.300000E+02   1.931148E-01
+   1.400000E+02   2.002502E-01
+   1.500000E+02   1.735027E-01
+   1.600000E+02   1.799941E-01
+   1.800000E+02   1.328889E-01
+   2.000000E+02   1.719957E-01

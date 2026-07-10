@@ -1,0 +1,48 @@
+# header: 
+#   title: Po210(g,x)Bi203m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 84
+#   A: 210
+#   nuclide: Po210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 203
+#     nuclide: Bi203m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.339575E-10
+   5.500000E+01   2.853805E-06
+   6.000000E+01   6.613685E-05
+   6.500000E+01   3.675911E-04
+   7.000000E+01   2.774881E-03
+   7.500000E+01   8.808524E-03
+   8.000000E+01   1.581843E-02
+   9.000000E+01   2.342758E-02
+   1.000000E+02   2.406978E-02
+   1.100000E+02   2.212533E-02
+   1.200000E+02   2.059070E-02
+   1.300000E+02   2.003664E-02
+   1.400000E+02   1.856856E-02
+   1.500000E+02   1.797707E-02
+   1.600000E+02   1.536886E-02
+   1.800000E+02   1.428366E-02
+   2.000000E+02   1.460189E-02

@@ -1,0 +1,36 @@
+# header: 
+#   title: Te129m(g,x)Ag108m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 129
+#   nuclide: Te129m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   5.374859E-10
+   1.500000E+02   4.440043E-07
+   1.600000E+02   1.584725E-05
+   1.800000E+02   4.978075E-04
+   2.000000E+02   1.259333E-03

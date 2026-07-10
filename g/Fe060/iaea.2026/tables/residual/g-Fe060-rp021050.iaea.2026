@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe60(g,x)Sc50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.583459E-11
+   5.500000E+01   1.076020E-07
+   6.000000E+01   4.005584E-06
+   6.500000E+01   2.051916E-05
+   7.000000E+01   3.210184E-05
+   7.500000E+01   2.812590E-05
+   8.000000E+01   1.529896E-05
+   9.000000E+01   1.010206E-05
+   1.000000E+02   4.784783E-05
+   1.100000E+02   1.100676E-04
+   1.200000E+02   7.435707E-05
+   1.300000E+02   6.464012E-05
+   1.400000E+02   7.559352E-05
+   1.500000E+02   8.727215E-05
+   1.600000E+02   8.425101E-05
+   1.800000E+02   6.766431E-05
+   2.000000E+02   1.675274E-05

@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn122(g,x)Rh108g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 108
+#     nuclide: Rh108g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.843335E-10
+   9.000000E+01   8.041549E-07
+   1.000000E+02   2.524132E-05
+   1.100000E+02   1.869188E-04
+   1.200000E+02   2.244161E-04
+   1.300000E+02   1.169559E-04
+   1.400000E+02   1.074421E-04
+   1.500000E+02   1.106049E-04
+   1.600000E+02   6.622772E-05
+   1.800000E+02   4.464755E-05
+   2.000000E+02   2.800304E-05

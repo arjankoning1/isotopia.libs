@@ -1,0 +1,40 @@
+# header: 
+#   title: Eu153(g,x)Ce135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   7.744990E-13
+   1.100000E+02   4.167752E-08
+   1.200000E+02   1.739935E-05
+   1.300000E+02   7.776003E-04
+   1.400000E+02   4.603760E-03
+   1.500000E+02   7.560989E-03
+   1.600000E+02   7.526634E-03
+   1.800000E+02   1.484122E-02
+   2.000000E+02   1.047744E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Co59(g,x)Cr49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 49
+#     nuclide: Cr49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.256390E-08
+   7.500000E+01   9.686982E-06
+   8.000000E+01   1.041627E-04
+   9.000000E+01   2.245584E-03
+   1.000000E+02   1.210776E-02
+   1.100000E+02   1.712895E-02
+   1.200000E+02   1.552565E-02
+   1.300000E+02   1.777646E-02
+   1.400000E+02   2.548986E-02
+   1.500000E+02   3.177800E-02
+   1.600000E+02   3.175687E-02
+   1.800000E+02   3.003508E-02
+   2.000000E+02   2.493655E-02

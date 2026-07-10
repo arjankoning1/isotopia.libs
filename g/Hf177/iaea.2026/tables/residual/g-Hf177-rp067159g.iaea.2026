@@ -1,0 +1,40 @@
+# header: 
+#   title: Hf177(g,x)Ho159g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 159
+#     nuclide: Ho159g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.233857E-12
+   1.100000E+02   1.923938E-07
+   1.200000E+02   2.312876E-05
+   1.300000E+02   2.845126E-04
+   1.400000E+02   1.087295E-03
+   1.500000E+02   1.691852E-03
+   1.600000E+02   1.222315E-03
+   1.800000E+02   1.043381E-03
+   2.000000E+02   1.025273E-03

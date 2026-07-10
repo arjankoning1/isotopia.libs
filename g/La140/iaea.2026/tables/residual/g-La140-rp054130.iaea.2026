@@ -1,0 +1,45 @@
+# header: 
+#   title: La140(g,x)Xe130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 130
+#     nuclide: Xe130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.693922E-08
+   6.000000E+01   1.357575E-05
+   6.500000E+01   3.147429E-04
+   7.000000E+01   2.326944E-03
+   7.500000E+01   2.228495E-02
+   8.000000E+01   9.973924E-02
+   9.000000E+01   2.096321E-01
+   1.000000E+02   8.104983E-02
+   1.100000E+02   2.906074E-02
+   1.200000E+02   1.806507E-02
+   1.300000E+02   1.514782E-02
+   1.400000E+02   1.377121E-02
+   1.500000E+02   1.425393E-02
+   1.600000E+02   1.488859E-02
+   1.800000E+02   1.059926E-02
+   2.000000E+02   1.261319E-02

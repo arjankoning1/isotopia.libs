@@ -1,0 +1,40 @@
+# header: 
+#   title: Eu146(g,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 146
+#   nuclide: Eu146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.957055E-12
+   9.000000E+01   8.938022E-09
+   1.000000E+02   3.306076E-06
+   1.100000E+02   4.490832E-05
+   1.200000E+02   8.344036E-05
+   1.300000E+02   4.275688E-05
+   1.400000E+02   8.070489E-05
+   1.500000E+02   1.463534E-04
+   1.600000E+02   1.569285E-04
+   1.800000E+02   1.167663E-04
+   2.000000E+02   8.474836E-05

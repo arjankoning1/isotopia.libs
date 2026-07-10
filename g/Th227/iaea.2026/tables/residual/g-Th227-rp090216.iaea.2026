@@ -1,0 +1,39 @@
+# header: 
+#   title: Th227(g,x)Th216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 227
+#   nuclide: Th227
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 216
+#     nuclide: Th216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.198019E-10
+   1.000000E+02   4.030062E-09
+   1.100000E+02   6.693668E-09
+   1.200000E+02   6.424532E-09
+   1.300000E+02   1.541576E-08
+   1.400000E+02   4.471094E-08
+   1.500000E+02   5.992084E-08
+   1.600000E+02   8.662428E-08
+   1.800000E+02   5.899989E-07
+   2.000000E+02   1.703013E-05

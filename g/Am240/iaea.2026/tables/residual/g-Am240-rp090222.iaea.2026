@@ -1,0 +1,39 @@
+# header: 
+#   title: Am240(g,x)Th222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 222
+#     nuclide: Th222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.062635E-12
+   1.000000E+02   5.243779E-08
+   1.100000E+02   4.010940E-06
+   1.200000E+02   4.979626E-05
+   1.300000E+02   1.530742E-04
+   1.400000E+02   2.829900E-04
+   1.500000E+02   4.315434E-04
+   1.600000E+02   5.572530E-04
+   1.800000E+02   5.132030E-04
+   2.000000E+02   4.542568E-05

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm245(g,x)Pu233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 233
+#     nuclide: Pu233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.537751E-12
+   8.000000E+01   1.583552E-11
+   9.000000E+01   1.592390E-10
+   1.000000E+02   7.976753E-10
+   1.100000E+02   1.834328E-09
+   1.200000E+02   3.766641E-09
+   1.300000E+02   5.900739E-09
+   1.400000E+02   7.625503E-09
+   1.500000E+02   2.205777E-08
+   1.600000E+02   2.508489E-08
+   1.800000E+02   1.125659E-07
+   2.000000E+02   3.019405E-07

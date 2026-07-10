@@ -1,0 +1,41 @@
+# header: 
+#   title: Cs133(g,x)I122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 122
+#     nuclide: I122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.341859E-08
+   8.000000E+01   7.020142E-05
+   9.000000E+01   2.254750E-02
+   1.000000E+02   8.259509E-02
+   1.100000E+02   5.762807E-02
+   1.200000E+02   5.601250E-02
+   1.300000E+02   1.089196E-01
+   1.400000E+02   1.272464E-01
+   1.500000E+02   8.805642E-02
+   1.600000E+02   6.228896E-02
+   1.800000E+02   4.888236E-02
+   2.000000E+02   4.400164E-02

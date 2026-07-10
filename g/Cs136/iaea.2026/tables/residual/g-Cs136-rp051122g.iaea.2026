@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs136(g,x)Sb122g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.211092E-12
+   8.000000E+01   9.802513E-09
+   9.000000E+01   1.195189E-05
+   1.000000E+02   7.674503E-05
+   1.100000E+02   2.265569E-04
+   1.200000E+02   1.640708E-03
+   1.300000E+02   5.350948E-03
+   1.400000E+02   7.488338E-03
+   1.500000E+02   6.488445E-03
+   1.600000E+02   4.327252E-03
+   1.800000E+02   2.519983E-03
+   2.000000E+02   1.335789E-03

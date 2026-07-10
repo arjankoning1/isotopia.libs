@@ -1,0 +1,48 @@
+# header: 
+#   title: Co60(g,x)Mn53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.895852E-05
+   4.500000E+01   3.380981E-02
+   5.000000E+01   1.645696E-01
+   5.500000E+01   2.339960E-01
+   6.000000E+01   2.093012E-01
+   6.500000E+01   1.450544E-01
+   7.000000E+01   9.984881E-02
+   7.500000E+01   8.443620E-02
+   8.000000E+01   1.113294E-01
+   9.000000E+01   2.986313E-01
+   1.000000E+02   3.907132E-01
+   1.100000E+02   3.510187E-01
+   1.200000E+02   3.027674E-01
+   1.300000E+02   2.716000E-01
+   1.400000E+02   2.423851E-01
+   1.500000E+02   2.259610E-01
+   1.600000E+02   2.029936E-01
+   1.800000E+02   1.760113E-01
+   2.000000E+02   1.486590E-01

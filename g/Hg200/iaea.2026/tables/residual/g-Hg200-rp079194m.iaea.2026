@@ -1,0 +1,49 @@
+# header: 
+#   title: Hg200(g,x)Au194m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.331671E-08
+   5.000000E+01   4.226762E-05
+   5.500000E+01   4.519120E-04
+   6.000000E+01   6.661693E-03
+   6.500000E+01   4.796041E-02
+   7.000000E+01   1.317236E-01
+   7.500000E+01   2.123733E-01
+   8.000000E+01   2.631175E-01
+   9.000000E+01   2.911066E-01
+   1.000000E+02   2.874738E-01
+   1.100000E+02   2.693727E-01
+   1.200000E+02   2.547984E-01
+   1.300000E+02   2.417807E-01
+   1.400000E+02   2.305744E-01
+   1.500000E+02   2.075691E-01
+   1.600000E+02   1.930006E-01
+   1.800000E+02   1.736265E-01
+   2.000000E+02   1.217962E-01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Si28(g,x)C10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.174665E-12
+   9.000000E+01   1.933077E-08
+   1.000000E+02   4.110966E-07
+   1.100000E+02   1.339334E-06
+   1.200000E+02   2.806424E-06
+   1.300000E+02   7.823440E-06
+   1.400000E+02   1.849631E-05
+   1.500000E+02   3.482272E-05
+   1.600000E+02   5.952837E-05
+   1.800000E+02   1.582558E-04
+   2.000000E+02   3.366395E-04

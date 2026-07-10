@@ -1,0 +1,40 @@
+# header: 
+#   title: Pt190(g,x)Ir180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 78
+#   A: 190
+#   nuclide: Pt190
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 180
+#     nuclide: Ir180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.810924E-10
+   9.000000E+01   2.735386E-04
+   1.000000E+02   1.606678E-02
+   1.100000E+02   2.143897E-01
+   1.200000E+02   5.537829E-01
+   1.300000E+02   4.670765E-01
+   1.400000E+02   2.964507E-01
+   1.500000E+02   2.394449E-01
+   1.600000E+02   1.857274E-01
+   1.800000E+02   1.441292E-01
+   2.000000E+02   1.733882E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: P31(g,x)C12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.595227E-10
+   7.500000E+01   3.964285E-08
+   8.000000E+01   1.310299E-06
+   9.000000E+01   6.126823E-05
+   1.000000E+02   1.667417E-04
+   1.100000E+02   2.137937E-04
+   1.200000E+02   2.995726E-04
+   1.300000E+02   5.409790E-04
+   1.400000E+02   9.165296E-04
+   1.500000E+02   1.224727E-03
+   1.600000E+02   1.547678E-03
+   1.800000E+02   2.535939E-03
+   2.000000E+02   3.646679E-03

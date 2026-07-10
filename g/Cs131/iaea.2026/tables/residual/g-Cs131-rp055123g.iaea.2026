@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs131(g,x)Cs123g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 123
+#     nuclide: Cs123g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.336526E-07
+   8.000000E+01   1.015729E-03
+   9.000000E+01   1.014575E-01
+   1.000000E+02   2.368188E-01
+   1.100000E+02   1.651926E-01
+   1.200000E+02   8.794420E-02
+   1.300000E+02   6.154125E-02
+   1.400000E+02   5.294543E-02
+   1.500000E+02   4.739385E-02
+   1.600000E+02   4.388617E-02
+   1.800000E+02   3.937556E-02
+   2.000000E+02   3.844946E-02

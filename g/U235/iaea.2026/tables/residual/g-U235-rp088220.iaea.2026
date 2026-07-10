@@ -1,0 +1,43 @@
+# header: 
+#   title: U235(g,x)Ra220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 220
+#     nuclide: Ra220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.530824E-11
+   7.000000E+01   5.783251E-09
+   7.500000E+01   8.623459E-07
+   8.000000E+01   2.708150E-05
+   9.000000E+01   5.311958E-04
+   1.000000E+02   8.218268E-04
+   1.100000E+02   7.728813E-04
+   1.200000E+02   6.020816E-04
+   1.300000E+02   6.383859E-04
+   1.400000E+02   4.834021E-04
+   1.500000E+02   4.390093E-04
+   1.600000E+02   4.568174E-04
+   1.800000E+02   4.902477E-04
+   2.000000E+02   1.934805E-04

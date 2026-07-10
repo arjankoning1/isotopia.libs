@@ -1,0 +1,39 @@
+# header: 
+#   title: Np234(g,x)Fr214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 234
+#   nuclide: Np234
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 214
+#     nuclide: Fr214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.032864E-11
+   1.000000E+02   1.435076E-09
+   1.100000E+02   2.023403E-08
+   1.200000E+02   5.065843E-08
+   1.300000E+02   2.005503E-07
+   1.400000E+02   4.507482E-07
+   1.500000E+02   3.642875E-07
+   1.600000E+02   3.237139E-07
+   1.800000E+02   3.801308E-07
+   2.000000E+02   5.313758E-07

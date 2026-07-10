@@ -1,0 +1,44 @@
+# header: 
+#   title: Si30(g,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.163434E-07
+   7.500000E+01   1.990496E-06
+   8.000000E+01   6.024177E-06
+   9.000000E+01   2.936417E-05
+   1.000000E+02   6.594469E-05
+   1.100000E+02   8.753130E-05
+   1.200000E+02   9.566666E-05
+   1.300000E+02   9.790390E-05
+   1.400000E+02   9.777811E-05
+   1.500000E+02   9.359603E-05
+   1.600000E+02   8.977997E-05
+   1.800000E+02   8.000562E-05
+   2.000000E+02   7.121764E-05

@@ -1,0 +1,42 @@
+# header: 
+#   title: Sc45(g,x)Mg28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 28
+#     nuclide: Mg28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.387844E-10
+   7.500000E+01   1.477081E-08
+   8.000000E+01   1.657239E-07
+   9.000000E+01   1.119060E-06
+   1.000000E+02   1.172694E-06
+   1.100000E+02   8.045012E-07
+   1.200000E+02   2.441031E-06
+   1.300000E+02   5.905985E-06
+   1.400000E+02   7.159091E-06
+   1.500000E+02   7.814819E-06
+   1.600000E+02   1.067055E-05
+   1.800000E+02   1.865292E-05
+   2.000000E+02   2.467867E-05

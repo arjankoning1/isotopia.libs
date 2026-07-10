@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr87(g,x)Se73g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.917082E-09
+   1.000000E+02   1.224365E-04
+   1.100000E+02   2.860904E-03
+   1.200000E+02   6.581380E-03
+   1.300000E+02   6.178993E-03
+   1.400000E+02   9.685021E-03
+   1.500000E+02   2.321819E-02
+   1.600000E+02   2.975675E-02
+   1.800000E+02   2.867419E-02
+   2.000000E+02   3.214493E-02

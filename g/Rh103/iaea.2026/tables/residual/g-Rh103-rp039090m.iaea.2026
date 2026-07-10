@@ -1,0 +1,49 @@
+# header: 
+#   title: Rh103(g,x)Y90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   9.271581E-13
+   5.000000E+01   3.378348E-09
+   5.500000E+01   2.567841E-07
+   6.000000E+01   1.803025E-06
+   6.500000E+01   4.173091E-06
+   7.000000E+01   3.883672E-06
+   7.500000E+01   1.813407E-06
+   8.000000E+01   7.450117E-07
+   9.000000E+01   9.858758E-06
+   1.000000E+02   6.645343E-05
+   1.100000E+02   6.399745E-05
+   1.200000E+02   4.420051E-05
+   1.300000E+02   7.774817E-05
+   1.400000E+02   1.379558E-04
+   1.500000E+02   1.469922E-04
+   1.600000E+02   1.068385E-04
+   1.800000E+02   1.064391E-04
+   2.000000E+02   8.613028E-05

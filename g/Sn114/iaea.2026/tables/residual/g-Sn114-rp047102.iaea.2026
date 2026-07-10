@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn114(g,x)Ag102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 102
+#     nuclide: Ag102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.497023E-06
+   1.000000E+02   6.789337E-04
+   1.100000E+02   2.979915E-02
+   1.200000E+02   1.303103E-01
+   1.300000E+02   1.410566E-01
+   1.400000E+02   1.008003E-01
+   1.500000E+02   7.885850E-02
+   1.600000E+02   9.294564E-02
+   1.800000E+02   6.627143E-02
+   2.000000E+02   5.776713E-02

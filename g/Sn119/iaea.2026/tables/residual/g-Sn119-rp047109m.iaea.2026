@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn119(g,x)Ag109m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 109
+#     nuclide: Ag109m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.487037E-08
+   6.500000E+01   2.483526E-05
+   7.000000E+01   3.504701E-04
+   7.500000E+01   1.981468E-03
+   8.000000E+01   1.036394E-02
+   9.000000E+01   4.770864E-02
+   1.000000E+02   3.861361E-02
+   1.100000E+02   1.997248E-02
+   1.200000E+02   1.633422E-02
+   1.300000E+02   1.949129E-02
+   1.400000E+02   1.482446E-02
+   1.500000E+02   1.546498E-02
+   1.600000E+02   1.106230E-02
+   1.800000E+02   1.158405E-02
+   2.000000E+02   6.814850E-03

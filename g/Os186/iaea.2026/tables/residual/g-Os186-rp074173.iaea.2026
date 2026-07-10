@@ -1,0 +1,39 @@
+# header: 
+#   title: Os186(g,x)W173 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 173
+#     nuclide: W173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.622812E-06
+   1.000000E+02   3.533822E-03
+   1.100000E+02   8.089717E-02
+   1.200000E+02   2.030909E-01
+   1.300000E+02   1.539017E-01
+   1.400000E+02   1.048016E-01
+   1.500000E+02   1.513580E-01
+   1.600000E+02   1.698431E-01
+   1.800000E+02   8.077381E-02
+   2.000000E+02   4.144993E-02

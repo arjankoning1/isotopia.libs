@@ -1,0 +1,43 @@
+# header: 
+#   title: Zn65(g,x)Ti48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.270242E-11
+   7.000000E+01   1.340729E-08
+   7.500000E+01   3.610251E-07
+   8.000000E+01   2.143672E-06
+   9.000000E+01   7.861602E-06
+   1.000000E+02   8.856787E-06
+   1.100000E+02   9.148171E-05
+   1.200000E+02   4.323462E-04
+   1.300000E+02   7.515012E-04
+   1.400000E+02   8.678158E-04
+   1.500000E+02   1.166017E-03
+   1.600000E+02   2.081381E-03
+   1.800000E+02   2.850111E-03
+   2.000000E+02   3.781948E-03

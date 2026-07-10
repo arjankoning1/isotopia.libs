@@ -1,0 +1,37 @@
+# header: 
+#   title: Mo96(g,x)As76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.684646E-10
+   1.200000E+02   2.066998E-07
+   1.300000E+02   1.205573E-06
+   1.400000E+02   2.077116E-06
+   1.500000E+02   3.718085E-06
+   1.600000E+02   2.570791E-05
+   1.800000E+02   7.660397E-05
+   2.000000E+02   1.713157E-04

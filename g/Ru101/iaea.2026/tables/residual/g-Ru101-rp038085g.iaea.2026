@@ -1,0 +1,42 @@
+# header: 
+#   title: Ru101(g,x)Sr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.795460E-10
+   9.000000E+01   2.047058E-06
+   1.000000E+02   2.530971E-05
+   1.100000E+02   4.844030E-05
+   1.200000E+02   8.645160E-05
+   1.300000E+02   5.918441E-04
+   1.400000E+02   1.594632E-03
+   1.500000E+02   1.907431E-03
+   1.600000E+02   2.127330E-03
+   1.800000E+02   4.959523E-03
+   2.000000E+02   5.516618E-03

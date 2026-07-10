@@ -1,0 +1,37 @@
+# header: 
+#   title: Zn64(g,n')Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Delbianco
+#   year: 1962
+#   subentry: L0037008
+#   X4 reaction: 30-ZN-64(G,N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/L0037008
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.048000E+01   0.000000E+00   3.570000E+01   1.700000E+00   1.000000E+00
+# reference:
+#   author: W.E.DEL BIANCO,W.E.STEPHENS
+#   title: Photonuclear activation by 20.5-MeV gamma rays.
+#   journal: Jour: Physical Review, Vol.126, p.709 (1962)

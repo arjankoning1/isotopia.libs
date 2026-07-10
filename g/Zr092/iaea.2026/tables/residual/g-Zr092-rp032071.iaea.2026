@@ -1,0 +1,37 @@
+# header: 
+#   title: Zr92(g,x)Ge71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 71
+#     nuclide: Ge71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.063996E-12
+   1.200000E+02   6.305303E-09
+   1.300000E+02   3.237935E-07
+   1.400000E+02   1.972875E-06
+   1.500000E+02   9.582911E-06
+   1.600000E+02   1.078886E-04
+   1.800000E+02   7.716955E-04
+   2.000000E+02   1.411492E-03

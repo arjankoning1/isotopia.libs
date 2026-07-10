@@ -1,0 +1,39 @@
+# header: 
+#   title: Kr85(g,x)Cu68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 85
+#   nuclide: Kr85
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.630908E-10
+   1.000000E+02   2.561159E-07
+   1.100000E+02   6.199826E-06
+   1.200000E+02   3.464030E-05
+   1.300000E+02   5.674607E-05
+   1.400000E+02   4.135633E-05
+   1.500000E+02   4.764817E-05
+   1.600000E+02   8.534558E-05
+   1.800000E+02   8.605833E-05
+   2.000000E+02   6.444161E-05

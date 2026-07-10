@@ -1,0 +1,45 @@
+# header: 
+#   title: Sb126(g,x)Sb118m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 126
+#   nuclide: Sb126
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.791322E-09
+   7.000000E+01   5.224812E-04
+   7.500000E+01   2.718488E-02
+   8.000000E+01   1.746648E-01
+   9.000000E+01   5.630227E-01
+   1.000000E+02   3.839088E-01
+   1.100000E+02   1.779645E-01
+   1.200000E+02   1.101695E-01
+   1.300000E+02   8.345725E-02
+   1.400000E+02   7.062222E-02
+   1.500000E+02   6.247107E-02
+   1.600000E+02   5.860439E-02
+   1.800000E+02   4.922577E-02
+   2.000000E+02   3.447188E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Pm146(g,x)Ce133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 61
+#   A: 146
+#   nuclide: Pm146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.112345E-06
+   1.000000E+02   3.540614E-04
+   1.100000E+02   9.037519E-03
+   1.200000E+02   4.061043E-02
+   1.300000E+02   4.724929E-02
+   1.400000E+02   3.318350E-02
+   1.500000E+02   3.155850E-02
+   1.600000E+02   3.369514E-02
+   1.800000E+02   2.508541E-02
+   2.000000E+02   2.172814E-02

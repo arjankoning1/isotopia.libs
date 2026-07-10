@@ -1,0 +1,47 @@
+# header: 
+#   title: Cr50(g,x)Ca40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 40
+#     nuclide: Ca40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.164953E-08
+   5.000000E+01   2.565368E-04
+   5.500000E+01   2.313047E-03
+   6.000000E+01   4.212243E-03
+   6.500000E+01   4.584168E-03
+   7.000000E+01   3.776845E-03
+   7.500000E+01   2.793333E-03
+   8.000000E+01   2.473663E-03
+   9.000000E+01   9.467727E-03
+   1.000000E+02   3.371504E-02
+   1.100000E+02   4.455486E-02
+   1.200000E+02   4.111945E-02
+   1.300000E+02   4.575190E-02
+   1.400000E+02   5.266825E-02
+   1.500000E+02   5.555172E-02
+   1.600000E+02   5.417440E-02
+   1.800000E+02   5.332687E-02
+   2.000000E+02   4.993303E-02

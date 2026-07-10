@@ -1,0 +1,44 @@
+# header: 
+#   title: Os194(g,x)Hf180g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 194
+#   nuclide: Os194
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 180
+#     nuclide: Hf180g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.516036E-09
+   7.500000E+01   1.932980E-07
+   8.000000E+01   3.087424E-06
+   9.000000E+01   2.938520E-05
+   1.000000E+02   2.474244E-05
+   1.100000E+02   9.485218E-06
+   1.200000E+02   1.295569E-05
+   1.300000E+02   3.333465E-05
+   1.400000E+02   4.964921E-05
+   1.500000E+02   5.102881E-05
+   1.600000E+02   5.020988E-05
+   1.800000E+02   9.780325E-05
+   2.000000E+02   1.573441E-04

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ne22(g,x)Li7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.392131E-07
+   6.000000E+01   5.832043E-06
+   6.500000E+01   2.088277E-05
+   7.000000E+01   7.509495E-05
+   7.500000E+01   2.320426E-04
+   8.000000E+01   4.676990E-04
+   9.000000E+01   8.599406E-04
+   1.000000E+02   1.091188E-03
+   1.100000E+02   1.502126E-03
+   1.200000E+02   2.357398E-03
+   1.300000E+02   3.341365E-03
+   1.400000E+02   4.341045E-03
+   1.500000E+02   5.189991E-03
+   1.600000E+02   6.084348E-03
+   1.800000E+02   7.026848E-03
+   2.000000E+02   8.108705E-03

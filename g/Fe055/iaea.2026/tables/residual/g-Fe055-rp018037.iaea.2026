@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe55(g,x)Ar37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.879505E-10
+   9.000000E+01   6.941220E-07
+   1.000000E+02   8.245267E-06
+   1.100000E+02   1.444169E-05
+   1.200000E+02   2.602173E-05
+   1.300000E+02   1.524043E-04
+   1.400000E+02   5.739328E-04
+   1.500000E+02   8.882555E-04
+   1.600000E+02   1.190239E-03
+   1.800000E+02   3.403276E-03
+   2.000000E+02   5.805478E-03

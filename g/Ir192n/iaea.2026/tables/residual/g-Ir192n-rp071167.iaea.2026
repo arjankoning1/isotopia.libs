@@ -1,0 +1,33 @@
+# header: 
+#   title: Ir192n(g,x)Lu167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192n
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 167
+#     nuclide: Lu167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   3.448861E-10
+   1.600000E+02   1.304553E-07
+   1.800000E+02   5.026256E-05
+   2.000000E+02   4.065272E-04

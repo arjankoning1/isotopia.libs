@@ -1,0 +1,38 @@
+# header: 
+#   title: Es251(g,x)U231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 99
+#   A: 251
+#   nuclide: Es251
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 231
+#     nuclide: U231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.174260E-11
+   1.100000E+02   9.717981E-09
+   1.200000E+02   7.677569E-08
+   1.300000E+02   7.177374E-08
+   1.400000E+02   1.989310E-08
+   1.500000E+02   8.772162E-09
+   1.600000E+02   4.225367E-09
+   1.800000E+02   7.207056E-10
+   2.000000E+02   9.396013E-15

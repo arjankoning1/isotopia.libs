@@ -1,0 +1,38 @@
+# header: 
+#   title: Zr91(g,x)Ge71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 91
+#   nuclide: Zr91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 71
+#     nuclide: Ge71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.196804E-12
+   1.100000E+02   2.170057E-08
+   1.200000E+02   1.089571E-06
+   1.300000E+02   4.812558E-06
+   1.400000E+02   6.648791E-06
+   1.500000E+02   1.826457E-05
+   1.600000E+02   6.915868E-05
+   1.800000E+02   1.776029E-04
+   2.000000E+02   4.387877E-04

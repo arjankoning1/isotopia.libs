@@ -1,0 +1,49 @@
+# header: 
+#   title: Rh99(g,x)Nb95g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.143596E-10
+   5.000000E+01   8.632477E-08
+   5.500000E+01   1.867476E-06
+   6.000000E+01   9.161918E-06
+   6.500000E+01   1.807964E-05
+   7.000000E+01   1.624891E-05
+   7.500000E+01   1.061129E-05
+   8.000000E+01   7.970658E-06
+   9.000000E+01   4.703266E-06
+   1.000000E+02   3.961773E-06
+   1.100000E+02   2.680164E-06
+   1.200000E+02   2.057626E-06
+   1.300000E+02   1.952628E-06
+   1.400000E+02   1.493805E-06
+   1.500000E+02   9.857557E-07
+   1.600000E+02   9.714971E-07
+   1.800000E+02   5.108198E-07
+   2.000000E+02   4.620282E-07

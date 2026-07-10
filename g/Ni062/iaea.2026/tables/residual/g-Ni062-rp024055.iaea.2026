@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni62(g,x)Cr55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 55
+#     nuclide: Cr55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.403654E-11
+   4.500000E+01   1.263314E-07
+   5.000000E+01   1.854739E-06
+   5.500000E+01   7.091421E-05
+   6.000000E+01   4.619165E-04
+   6.500000E+01   9.013462E-04
+   7.000000E+01   9.236665E-04
+   7.500000E+01   7.115817E-04
+   8.000000E+01   5.442777E-04
+   9.000000E+01   4.880990E-04
+   1.000000E+02   1.010383E-03
+   1.100000E+02   1.378744E-03
+   1.200000E+02   1.255008E-03
+   1.300000E+02   1.015554E-03
+   1.400000E+02   8.225457E-04
+   1.500000E+02   7.028312E-04
+   1.600000E+02   6.026258E-04
+   1.800000E+02   4.798715E-04
+   2.000000E+02   3.333076E-04

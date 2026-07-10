@@ -1,0 +1,44 @@
+# header: 
+#   title: Re183(g,x)Hf171g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 75
+#   A: 183
+#   nuclide: Re183
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.890328E-10
+   7.500000E+01   1.329002E-07
+   8.000000E+01   8.749967E-06
+   9.000000E+01   5.656158E-04
+   1.000000E+02   8.569398E-03
+   1.100000E+02   1.894999E-02
+   1.200000E+02   1.306952E-02
+   1.300000E+02   9.971377E-03
+   1.400000E+02   7.969710E-03
+   1.500000E+02   8.921234E-03
+   1.600000E+02   6.860852E-03
+   1.800000E+02   8.256306E-03
+   2.000000E+02   6.384158E-03

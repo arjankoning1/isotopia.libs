@@ -1,0 +1,43 @@
+# header: 
+#   title: Tl204(g,x)Ir190g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 81
+#   A: 204
+#   nuclide: Tl204
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 190
+#     nuclide: Ir190g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.170267E-09
+   8.000000E+01   3.167971E-07
+   9.000000E+01   7.461364E-05
+   1.000000E+02   2.215630E-04
+   1.100000E+02   8.763668E-05
+   1.200000E+02   6.247452E-05
+   1.300000E+02   1.231725E-04
+   1.400000E+02   1.494967E-04
+   1.500000E+02   1.219555E-04
+   1.600000E+02   7.411107E-05
+   1.800000E+02   1.036638E-04
+   2.000000E+02   1.462967E-04

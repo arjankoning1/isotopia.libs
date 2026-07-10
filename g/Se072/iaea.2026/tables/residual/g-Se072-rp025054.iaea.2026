@@ -1,0 +1,41 @@
+# header: 
+#   title: Se72(g,x)Mn54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.966872E-11
+   8.000000E+01   1.514534E-08
+   9.000000E+01   4.051838E-06
+   1.000000E+02   2.613174E-05
+   1.100000E+02   3.019519E-05
+   1.200000E+02   4.601668E-05
+   1.300000E+02   2.661302E-04
+   1.400000E+02   6.671454E-04
+   1.500000E+02   8.693787E-04
+   1.600000E+02   1.025557E-03
+   1.800000E+02   2.632146E-03
+   2.000000E+02   3.828395E-03

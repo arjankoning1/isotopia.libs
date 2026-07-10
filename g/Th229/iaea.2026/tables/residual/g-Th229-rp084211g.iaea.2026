@@ -1,0 +1,46 @@
+# header: 
+#   title: Th229(g,x)Po211g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 211
+#     nuclide: Po211g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.769244E-12
+   6.500000E+01   6.385138E-11
+   7.000000E+01   9.334264E-10
+   7.500000E+01   7.459562E-09
+   8.000000E+01   2.538337E-08
+   9.000000E+01   6.722094E-08
+   1.000000E+02   9.639106E-08
+   1.100000E+02   1.107571E-07
+   1.200000E+02   2.322858E-07
+   1.300000E+02   5.047684E-07
+   1.400000E+02   6.929221E-07
+   1.500000E+02   8.625490E-07
+   1.600000E+02   9.211739E-07
+   1.800000E+02   9.161898E-07
+   2.000000E+02   1.198179E-06

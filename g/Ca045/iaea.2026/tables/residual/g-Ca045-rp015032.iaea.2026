@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca45(g,x)P32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.716811E-10
+   7.000000E+01   5.430082E-07
+   7.500000E+01   1.452078E-05
+   8.000000E+01   1.007630E-04
+   9.000000E+01   2.270906E-03
+   1.000000E+02   8.935545E-03
+   1.100000E+02   1.244813E-02
+   1.200000E+02   1.283299E-02
+   1.300000E+02   1.677878E-02
+   1.400000E+02   2.387807E-02
+   1.500000E+02   2.724349E-02
+   1.600000E+02   2.816731E-02
+   1.800000E+02   3.101472E-02
+   2.000000E+02   2.779807E-02

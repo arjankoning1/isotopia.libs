@@ -1,0 +1,42 @@
+# header: 
+#   title: U230(g,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.821005E-13
+   7.500000E+01   1.725703E-11
+   8.000000E+01   7.955525E-10
+   9.000000E+01   9.723171E-08
+   1.000000E+02   7.093892E-07
+   1.100000E+02   2.886187E-06
+   1.200000E+02   2.531624E-06
+   1.300000E+02   2.455804E-06
+   1.400000E+02   4.725602E-06
+   1.500000E+02   6.146296E-06
+   1.600000E+02   5.334821E-06
+   1.800000E+02   2.975415E-06
+   2.000000E+02   1.505149E-06

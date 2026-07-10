@@ -1,0 +1,38 @@
+# header: 
+#   title: Ga71(g,x)Ti51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.429957E-10
+   1.100000E+02   2.913205E-08
+   1.200000E+02   4.229680E-07
+   1.300000E+02   1.278680E-06
+   1.400000E+02   1.543003E-06
+   1.500000E+02   1.896882E-06
+   1.600000E+02   4.240078E-06
+   1.800000E+02   8.346773E-06
+   2.000000E+02   1.288399E-05

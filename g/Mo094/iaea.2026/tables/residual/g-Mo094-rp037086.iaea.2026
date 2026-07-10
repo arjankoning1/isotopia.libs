@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo94(g,x)Rb86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.574900E-11
+   6.000000E+01   1.200317E-09
+   6.500000E+01   1.071208E-07
+   7.000000E+01   3.369493E-06
+   7.500000E+01   2.280230E-05
+   8.000000E+01   6.158381E-05
+   9.000000E+01   9.368778E-05
+   1.000000E+02   6.939734E-05
+   1.100000E+02   9.450759E-05
+   1.200000E+02   2.217096E-04
+   1.300000E+02   2.672047E-04
+   1.400000E+02   2.546660E-04
+   1.500000E+02   2.417784E-04
+   1.600000E+02   2.083658E-04
+   1.800000E+02   1.717171E-04
+   2.000000E+02   1.124299E-04

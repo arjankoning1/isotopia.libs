@@ -1,0 +1,35 @@
+# header: 
+#   title: Lu174m(g,x)Yb159 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 159
+#     nuclide: Yb159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.252937E-06
+   1.400000E+02   3.623490E-04
+   1.500000E+02   7.437067E-03
+   1.600000E+02   4.747829E-02
+   1.800000E+02   1.366568E-01
+   2.000000E+02   5.735948E-02

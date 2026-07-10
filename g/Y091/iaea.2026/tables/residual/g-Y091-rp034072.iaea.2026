@@ -1,0 +1,35 @@
+# header: 
+#   title: Y91(g,x)Se72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 72
+#     nuclide: Se72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.154664E-12
+   1.400000E+02   2.105341E-08
+   1.500000E+02   7.096500E-06
+   1.600000E+02   1.845588E-04
+   1.800000E+02   2.060418E-03
+   2.000000E+02   4.679448E-03

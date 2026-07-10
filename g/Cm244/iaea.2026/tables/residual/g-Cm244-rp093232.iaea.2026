@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm244(g,x)Np232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 244
+#   nuclide: Cm244
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 232
+#     nuclide: Np232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.055444E-13
+   8.000000E+01   5.530809E-13
+   9.000000E+01   1.325512E-11
+   1.000000E+02   3.274350E-10
+   1.100000E+02   1.941053E-09
+   1.200000E+02   9.259005E-09
+   1.300000E+02   1.808149E-08
+   1.400000E+02   3.345776E-08
+   1.500000E+02   1.285497E-07
+   1.600000E+02   3.147504E-07
+   1.800000E+02   6.657932E-07
+   2.000000E+02   2.365127E-06

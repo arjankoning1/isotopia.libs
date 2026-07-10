@@ -1,0 +1,37 @@
+# header: 
+#   title: Cm240(g,x)Ra216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 216
+#     nuclide: Ra216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.903008E-14
+   1.200000E+02   7.247171E-12
+   1.300000E+02   2.787695E-10
+   1.400000E+02   1.538811E-09
+   1.500000E+02   4.055483E-09
+   1.600000E+02   1.307864E-08
+   1.800000E+02   6.396063E-08
+   2.000000E+02   1.296944E-07

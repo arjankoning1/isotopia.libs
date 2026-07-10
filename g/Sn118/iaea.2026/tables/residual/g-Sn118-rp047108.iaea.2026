@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn118(g,x)Ag108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.268408E-10
+   6.500000E+01   2.135257E-06
+   7.000000E+01   1.870542E-04
+   7.500000E+01   1.252415E-03
+   8.000000E+01   4.898261E-03
+   9.000000E+01   5.095464E-02
+   1.000000E+02   6.678679E-02
+   1.100000E+02   4.180190E-02
+   1.200000E+02   3.538313E-02
+   1.300000E+02   3.829420E-02
+   1.400000E+02   3.300667E-02
+   1.500000E+02   2.595329E-02
+   1.600000E+02   2.322868E-02
+   1.800000E+02   1.795306E-02
+   2.000000E+02   1.511826E-02

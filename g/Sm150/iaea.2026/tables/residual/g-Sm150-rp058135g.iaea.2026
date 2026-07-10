@@ -1,0 +1,42 @@
+# header: 
+#   title: Sm150(g,x)Ce135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.333251E-11
+   9.000000E+01   1.170663E-05
+   1.000000E+02   9.289982E-04
+   1.100000E+02   3.594619E-03
+   1.200000E+02   3.220919E-03
+   1.300000E+02   3.448364E-03
+   1.400000E+02   9.881203E-03
+   1.500000E+02   1.232984E-02
+   1.600000E+02   1.050127E-02
+   1.800000E+02   7.012130E-03
+   2.000000E+02   5.601341E-03

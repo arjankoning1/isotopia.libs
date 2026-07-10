@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo98(g,x)Zr90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.225873E-09
+   4.500000E+01   7.928969E-04
+   5.000000E+01   2.599990E-02
+   5.500000E+01   1.265082E-01
+   6.000000E+01   2.165011E-01
+   6.500000E+01   2.266567E-01
+   7.000000E+01   1.582621E-01
+   7.500000E+01   9.155691E-02
+   8.000000E+01   6.647599E-02
+   9.000000E+01   1.669796E-01
+   1.000000E+02   2.731979E-01
+   1.100000E+02   2.513461E-01
+   1.200000E+02   2.044655E-01
+   1.300000E+02   1.732112E-01
+   1.400000E+02   1.573983E-01
+   1.500000E+02   1.409243E-01
+   1.600000E+02   1.331099E-01
+   1.800000E+02   1.032206E-01
+   2.000000E+02   9.016889E-02

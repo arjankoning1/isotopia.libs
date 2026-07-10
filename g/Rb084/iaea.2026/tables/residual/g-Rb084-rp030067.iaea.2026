@@ -1,0 +1,39 @@
+# header: 
+#   title: Rb84(g,x)Zn67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 67
+#     nuclide: Zn67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.820921E-08
+   1.000000E+02   1.111881E-06
+   1.100000E+02   1.520007E-05
+   1.200000E+02   5.576017E-05
+   1.300000E+02   7.076161E-05
+   1.400000E+02   1.103365E-04
+   1.500000E+02   2.425059E-04
+   1.600000E+02   4.227674E-04
+   1.800000E+02   5.515607E-04
+   2.000000E+02   6.645737E-04

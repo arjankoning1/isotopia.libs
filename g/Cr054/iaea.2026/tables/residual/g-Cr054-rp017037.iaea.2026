@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr54(g,x)Cl37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 37
+#     nuclide: Cl37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.329431E-09
+   1.000000E+02   2.190566E-06
+   1.100000E+02   6.530682E-05
+   1.200000E+02   4.599020E-04
+   1.300000E+02   9.419725E-04
+   1.400000E+02   1.136040E-03
+   1.500000E+02   1.515441E-03
+   1.600000E+02   2.497577E-03
+   1.800000E+02   4.318703E-03
+   2.000000E+02   5.893332E-03

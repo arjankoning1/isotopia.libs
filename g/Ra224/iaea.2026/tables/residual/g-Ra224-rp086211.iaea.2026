@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra224(g,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.860868E-07
+   7.000000E+01   1.430717E-04
+   7.500000E+01   1.726664E-03
+   8.000000E+01   4.827660E-03
+   9.000000E+01   1.942565E-02
+   1.000000E+02   2.734812E-02
+   1.100000E+02   1.604885E-02
+   1.200000E+02   1.163386E-02
+   1.300000E+02   1.616099E-02
+   1.400000E+02   1.833057E-02
+   1.500000E+02   2.041568E-02
+   1.600000E+02   1.584425E-02
+   1.800000E+02   1.624509E-02
+   2.000000E+02   2.279513E-02

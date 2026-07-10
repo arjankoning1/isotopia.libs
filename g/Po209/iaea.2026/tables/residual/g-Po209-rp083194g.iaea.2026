@@ -1,0 +1,37 @@
+# header: 
+#   title: Po209(g,x)Bi194g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 84
+#   A: 209
+#   nuclide: Po209
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 194
+#     nuclide: Bi194g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.382843E-09
+   1.400000E+02   7.401839E-06
+   1.500000E+02   4.515627E-04
+   1.600000E+02   4.655111E-03
+   1.800000E+02   2.793513E-02
+   2.000000E+02   1.477255E-02

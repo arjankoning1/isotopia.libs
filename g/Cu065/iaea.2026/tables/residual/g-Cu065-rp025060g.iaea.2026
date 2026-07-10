@@ -1,0 +1,46 @@
+# header: 
+#   title: Cu65(g,x)Mn60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 60
+#     nuclide: Mn60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.196121E-10
+   6.500000E+01   1.190058E-08
+   7.000000E+01   9.227762E-08
+   7.500000E+01   6.302390E-07
+   8.000000E+01   1.848424E-06
+   9.000000E+01   2.717968E-06
+   1.000000E+02   2.206338E-06
+   1.100000E+02   1.783917E-06
+   1.200000E+02   1.416200E-06
+   1.300000E+02   1.046147E-06
+   1.400000E+02   1.136963E-06
+   1.500000E+02   7.081546E-07
+   1.600000E+02   7.150816E-07
+   1.800000E+02   4.427690E-07
+   2.000000E+02   3.542695E-07

@@ -1,0 +1,50 @@
+# header: 
+#   title: Ba140(g,x)Ba135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 140
+#   nuclide: Ba140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 135
+#     nuclide: Ba135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.680519E-01
+   4.500000E+01   2.279748E+00
+   5.000000E+01   2.658654E+00
+   5.500000E+01   1.550500E+00
+   6.000000E+01   8.095173E-01
+   6.500000E+01   5.330836E-01
+   7.000000E+01   4.191165E-01
+   7.500000E+01   3.558108E-01
+   8.000000E+01   3.099573E-01
+   9.000000E+01   2.503269E-01
+   1.000000E+02   2.139303E-01
+   1.100000E+02   1.860173E-01
+   1.200000E+02   1.627081E-01
+   1.300000E+02   1.444488E-01
+   1.400000E+02   1.252544E-01
+   1.500000E+02   1.144343E-01
+   1.600000E+02   9.438948E-02
+   1.800000E+02   8.145516E-02
+   2.000000E+02   6.386036E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pu241(g,x)U229 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 229
+#     nuclide: U229
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.160647E-11
+   7.500000E+01   8.051789E-09
+   8.000000E+01   1.281804E-07
+   9.000000E+01   1.890873E-06
+   1.000000E+02   7.276121E-06
+   1.100000E+02   1.194801E-05
+   1.200000E+02   4.243830E-05
+   1.300000E+02   8.798818E-05
+   1.400000E+02   1.933930E-04
+   1.500000E+02   2.250101E-04
+   1.600000E+02   2.896829E-04
+   1.800000E+02   6.122676E-04
+   2.000000E+02   6.355786E-04

@@ -1,0 +1,42 @@
+# header: 
+#   title: Mo95(g,x)Se77g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 77
+#     nuclide: Se77g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.860447E-13
+   9.000000E+01   1.541303E-09
+   1.000000E+02   2.949523E-08
+   1.100000E+02   5.775036E-08
+   1.200000E+02   7.221799E-08
+   1.300000E+02   7.042862E-07
+   1.400000E+02   2.600068E-06
+   1.500000E+02   4.535467E-06
+   1.600000E+02   6.798243E-06
+   1.800000E+02   3.430172E-05
+   2.000000E+02   5.071840E-05

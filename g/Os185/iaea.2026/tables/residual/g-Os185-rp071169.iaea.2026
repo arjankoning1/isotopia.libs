@@ -1,0 +1,39 @@
+# header: 
+#   title: Os185(g,x)Lu169 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 185
+#   nuclide: Os185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 169
+#     nuclide: Lu169
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.242521E-09
+   1.000000E+02   2.752855E-06
+   1.100000E+02   9.268767E-05
+   1.200000E+02   7.233917E-04
+   1.300000E+02   1.093458E-03
+   1.400000E+02   7.583185E-04
+   1.500000E+02   6.543825E-04
+   1.600000E+02   5.903716E-04
+   1.800000E+02   4.271229E-04
+   2.000000E+02   2.511434E-04

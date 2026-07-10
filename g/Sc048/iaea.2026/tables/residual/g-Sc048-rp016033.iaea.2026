@@ -1,0 +1,39 @@
+# header: 
+#   title: Sc48(g,x)S33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.023437E-07
+   1.000000E+02   9.534487E-05
+   1.100000E+02   7.380353E-04
+   1.200000E+02   2.513818E-03
+   1.300000E+02   4.603507E-03
+   1.400000E+02   5.887173E-03
+   1.500000E+02   7.048131E-03
+   1.600000E+02   9.512867E-03
+   1.800000E+02   1.502446E-02
+   2.000000E+02   1.614340E-02

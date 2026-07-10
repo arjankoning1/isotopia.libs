@@ -1,0 +1,39 @@
+# header: 
+#   title: Zr90(g,x)Br76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.779810E-08
+   1.000000E+02   3.318255E-05
+   1.100000E+02   1.557338E-03
+   1.200000E+02   9.467845E-03
+   1.300000E+02   1.348254E-02
+   1.400000E+02   1.165323E-02
+   1.500000E+02   2.101759E-02
+   1.600000E+02   3.295686E-02
+   1.800000E+02   3.548477E-02
+   2.000000E+02   3.519289E-02

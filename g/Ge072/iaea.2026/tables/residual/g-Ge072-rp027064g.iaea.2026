@@ -1,0 +1,46 @@
+# header: 
+#   title: Ge72(g,x)Co64g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 64
+#     nuclide: Co64g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.735099E-10
+   6.500000E+01   1.340447E-08
+   7.000000E+01   1.973583E-07
+   7.500000E+01   1.895126E-06
+   8.000000E+01   7.044366E-06
+   9.000000E+01   1.800799E-05
+   1.000000E+02   1.664090E-05
+   1.100000E+02   1.348821E-05
+   1.200000E+02   1.594591E-05
+   1.300000E+02   2.081985E-05
+   1.400000E+02   2.374781E-05
+   1.500000E+02   1.454403E-05
+   1.600000E+02   1.303590E-05
+   1.800000E+02   1.174041E-05
+   2.000000E+02   6.110305E-06

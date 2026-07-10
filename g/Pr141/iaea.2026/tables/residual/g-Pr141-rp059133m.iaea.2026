@@ -1,0 +1,43 @@
+# header: 
+#   title: Pr141(g,x)Pr133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 133
+#     nuclide: Pr133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.013232E-08
+   8.000000E+01   5.407266E-04
+   9.000000E+01   1.172414E-01
+   1.000000E+02   3.004973E-01
+   1.100000E+02   1.965768E-01
+   1.200000E+02   9.717652E-02
+   1.300000E+02   6.996565E-02
+   1.400000E+02   5.999895E-02
+   1.500000E+02   5.246848E-02
+   1.600000E+02   4.901396E-02
+   1.800000E+02   4.346574E-02
+   2.000000E+02   4.018226E-02

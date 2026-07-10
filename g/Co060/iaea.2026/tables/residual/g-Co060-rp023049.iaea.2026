@@ -1,0 +1,45 @@
+# header: 
+#   title: Co60(g,x)V49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 49
+#     nuclide: V49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.391600E-09
+   6.000000E+01   4.704393E-05
+   6.500000E+01   1.267044E-03
+   7.000000E+01   5.172338E-03
+   7.500000E+01   9.066934E-03
+   8.000000E+01   1.016306E-02
+   9.000000E+01   6.917212E-03
+   1.000000E+02   1.315147E-02
+   1.100000E+02   4.301589E-02
+   1.200000E+02   6.500852E-02
+   1.300000E+02   6.128366E-02
+   1.400000E+02   6.502824E-02
+   1.500000E+02   7.453515E-02
+   1.600000E+02   7.649650E-02
+   1.800000E+02   7.015726E-02
+   2.000000E+02   5.713240E-02

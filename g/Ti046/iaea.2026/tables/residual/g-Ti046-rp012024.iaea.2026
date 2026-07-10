@@ -1,0 +1,39 @@
+# header: 
+#   title: Ti46(g,x)Mg24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.860547E-10
+   1.000000E+02   1.025241E-06
+   1.100000E+02   1.793678E-05
+   1.200000E+02   4.995975E-05
+   1.300000E+02   6.366283E-05
+   1.400000E+02   1.001941E-04
+   1.500000E+02   2.486813E-04
+   1.600000E+02   4.755176E-04
+   1.800000E+02   9.707417E-04
+   2.000000E+02   2.196169E-03

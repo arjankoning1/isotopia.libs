@@ -1,0 +1,38 @@
+# header: 
+#   title: W184(g,x)Tm164g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 184
+#   nuclide: W184
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 164
+#     nuclide: Tm164g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.645947E-10
+   1.300000E+02   5.658511E-07
+   1.400000E+02   4.373680E-05
+   1.500000E+02   7.332989E-04
+   1.600000E+02   2.370319E-03
+   1.800000E+02   3.248129E-03
+   2.000000E+02   3.996774E-03

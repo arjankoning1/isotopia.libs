@@ -1,0 +1,37 @@
+# header: 
+#   title: Ir192n(g,x)W175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192n
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 175
+#     nuclide: W175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.719297E-11
+   1.200000E+02   1.145538E-06
+   1.300000E+02   1.902101E-04
+   1.400000E+02   3.223239E-03
+   1.500000E+02   1.880715E-02
+   1.600000E+02   3.694888E-02
+   1.800000E+02   2.305571E-02
+   2.000000E+02   1.702002E-02

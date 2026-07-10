@@ -1,0 +1,45 @@
+# header: 
+#   title: Cr50(g,x)Ti43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 43
+#     nuclide: Ti43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.433038E-07
+   6.000000E+01   5.006770E-05
+   6.500000E+01   2.207615E-04
+   7.000000E+01   3.264067E-04
+   7.500000E+01   3.224407E-04
+   8.000000E+01   2.940188E-04
+   9.000000E+01   2.987057E-04
+   1.000000E+02   5.208367E-04
+   1.100000E+02   8.989312E-04
+   1.200000E+02   1.029116E-03
+   1.300000E+02   1.043362E-03
+   1.400000E+02   1.029320E-03
+   1.500000E+02   1.016754E-03
+   1.600000E+02   9.678662E-04
+   1.800000E+02   9.083527E-04
+   2.000000E+02   9.188327E-04

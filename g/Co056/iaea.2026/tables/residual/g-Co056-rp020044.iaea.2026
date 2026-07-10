@@ -1,0 +1,43 @@
+# header: 
+#   title: Co56(g,x)Ca44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 44
+#     nuclide: Ca44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.575602E-09
+   7.000000E+01   3.054555E-07
+   7.500000E+01   3.335400E-06
+   8.000000E+01   5.061510E-05
+   9.000000E+01   5.953289E-04
+   1.000000E+02   8.669001E-04
+   1.100000E+02   7.711849E-04
+   1.200000E+02   8.034895E-04
+   1.300000E+02   2.143135E-03
+   1.400000E+02   2.344729E-03
+   1.500000E+02   3.014455E-03
+   1.600000E+02   2.190597E-03
+   1.800000E+02   2.599110E-03
+   2.000000E+02   2.161743E-03

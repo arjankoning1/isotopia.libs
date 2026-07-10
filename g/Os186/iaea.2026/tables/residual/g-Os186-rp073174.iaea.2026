@@ -1,0 +1,42 @@
+# header: 
+#   title: Os186(g,x)Ta174 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 174
+#     nuclide: Ta174
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.892686E-12
+   7.500000E+01   1.306752E-08
+   8.000000E+01   2.541762E-06
+   9.000000E+01   4.413902E-04
+   1.000000E+02   9.106496E-03
+   1.100000E+02   2.832934E-02
+   1.200000E+02   2.555586E-02
+   1.300000E+02   1.525752E-02
+   1.400000E+02   1.131381E-02
+   1.500000E+02   1.095823E-02
+   1.600000E+02   1.126858E-02
+   1.800000E+02   8.735779E-03
+   2.000000E+02   9.062330E-03

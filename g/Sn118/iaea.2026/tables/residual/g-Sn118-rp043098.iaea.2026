@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn118(g,x)Tc98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.588617E-12
+   1.200000E+02   6.267503E-08
+   1.300000E+02   5.819982E-06
+   1.400000E+02   1.204039E-04
+   1.500000E+02   6.881647E-04
+   1.600000E+02   1.094929E-03
+   1.800000E+02   2.638103E-03
+   2.000000E+02   3.710920E-03

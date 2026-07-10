@@ -1,0 +1,44 @@
+# header: 
+#   title: Cu65(g,x)Cr57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 57
+#     nuclide: Cr57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.231731E-10
+   6.500000E+01   1.639820E-08
+   7.000000E+01   2.283827E-07
+   7.500000E+01   1.848021E-06
+   8.000000E+01   5.928394E-06
+   9.000000E+01   9.815703E-06
+   1.000000E+02   6.472755E-06
+   1.100000E+02   6.147112E-06
+   1.200000E+02   9.906766E-06
+   1.300000E+02   1.115912E-05
+   1.400000E+02   9.098952E-06
+   1.500000E+02   7.452747E-06
+   1.600000E+02   6.107270E-06
+   1.800000E+02   4.138721E-06
+   2.000000E+02   3.875349E-06

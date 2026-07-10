@@ -1,0 +1,42 @@
+# header: 
+#   title: Hg204(g,x)Os190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 190
+#     nuclide: Os190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.904286E-12
+   7.500000E+01   4.596712E-09
+   8.000000E+01   4.855003E-07
+   9.000000E+01   4.695590E-05
+   1.000000E+02   1.199777E-04
+   1.100000E+02   4.508418E-05
+   1.200000E+02   2.126700E-05
+   1.300000E+02   2.636950E-05
+   1.400000E+02   4.618265E-05
+   1.500000E+02   4.480263E-05
+   1.600000E+02   4.134599E-05
+   1.800000E+02   5.766394E-05
+   2.000000E+02   9.712321E-05

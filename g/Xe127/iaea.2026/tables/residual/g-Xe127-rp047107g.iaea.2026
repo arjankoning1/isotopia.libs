@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe127(g,x)Ag107g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 127
+#   nuclide: Xe127
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 107
+#     nuclide: Ag107g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.646396E-12
+   1.200000E+02   2.255198E-08
+   1.300000E+02   1.246801E-06
+   1.400000E+02   1.745550E-05
+   1.500000E+02   6.919071E-05
+   1.600000E+02   1.046767E-04
+   1.800000E+02   1.336871E-04
+   2.000000E+02   2.652442E-04

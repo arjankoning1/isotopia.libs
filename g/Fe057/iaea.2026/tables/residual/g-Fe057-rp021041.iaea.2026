@@ -1,0 +1,36 @@
+# header: 
+#   title: Fe57(g,x)Sc41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 41
+#     nuclide: Sc41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.992810E-09
+   1.300000E+02   2.647223E-07
+   1.400000E+02   2.178142E-06
+   1.500000E+02   7.708481E-06
+   1.600000E+02   1.379205E-05
+   1.800000E+02   2.898256E-05
+   2.000000E+02   5.499149E-05

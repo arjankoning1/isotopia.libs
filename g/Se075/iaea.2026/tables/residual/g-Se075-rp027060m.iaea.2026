@@ -1,0 +1,46 @@
+# header: 
+#   title: Se75(g,x)Co60m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.822939E-13
+   6.500000E+01   6.216406E-10
+   7.000000E+01   2.721042E-08
+   7.500000E+01   6.557371E-07
+   8.000000E+01   1.335005E-05
+   9.000000E+01   2.281729E-04
+   1.000000E+02   3.015822E-04
+   1.100000E+02   1.843091E-04
+   1.200000E+02   3.304109E-04
+   1.300000E+02   9.293379E-04
+   1.400000E+02   1.099400E-03
+   1.500000E+02   8.213064E-04
+   1.600000E+02   8.176727E-04
+   1.800000E+02   1.045832E-03
+   2.000000E+02   5.309371E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb120m(g,x)Tc97g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 97
+#     nuclide: Tc97g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.245626E-11
+   1.000000E+02   4.776428E-09
+   1.100000E+02   4.746504E-07
+   1.200000E+02   3.369937E-06
+   1.300000E+02   5.898769E-06
+   1.400000E+02   1.616286E-05
+   1.500000E+02   6.180708E-05
+   1.600000E+02   1.813246E-04
+   1.800000E+02   3.045550E-04
+   2.000000E+02   2.698744E-04

@@ -1,0 +1,36 @@
+# header: 
+#   title: Rh103(g,x)Sr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.994913E-09
+   1.300000E+02   1.243989E-06
+   1.400000E+02   4.495655E-05
+   1.500000E+02   3.649046E-04
+   1.600000E+02   1.040048E-03
+   1.800000E+02   3.267648E-03
+   2.000000E+02   1.278269E-02

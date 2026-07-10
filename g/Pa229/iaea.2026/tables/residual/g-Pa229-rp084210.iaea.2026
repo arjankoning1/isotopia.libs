@@ -1,0 +1,42 @@
+# header: 
+#   title: Pa229(g,x)Po210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 229
+#   nuclide: Pa229
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.251156E-12
+   7.500000E+01   8.306476E-11
+   8.000000E+01   6.372667E-10
+   9.000000E+01   7.430573E-09
+   1.000000E+02   5.132243E-08
+   1.100000E+02   9.327954E-08
+   1.200000E+02   3.579851E-08
+   1.300000E+02   2.885914E-08
+   1.400000E+02   4.218573E-08
+   1.500000E+02   5.987908E-08
+   1.600000E+02   7.607761E-08
+   1.800000E+02   1.248039E-06
+   2.000000E+02   1.129105E-06

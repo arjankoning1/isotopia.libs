@@ -1,0 +1,43 @@
+# header: 
+#   title: Ar36(g,x)Na24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.715166E-08
+   7.000000E+01   1.441819E-05
+   7.500000E+01   2.235880E-04
+   8.000000E+01   7.411984E-04
+   9.000000E+01   2.712965E-03
+   1.000000E+02   4.708400E-03
+   1.100000E+02   5.168526E-03
+   1.200000E+02   6.083312E-03
+   1.300000E+02   8.485545E-03
+   1.400000E+02   9.692887E-03
+   1.500000E+02   1.024834E-02
+   1.600000E+02   1.018899E-02
+   1.800000E+02   7.468823E-03
+   2.000000E+02   6.402350E-03

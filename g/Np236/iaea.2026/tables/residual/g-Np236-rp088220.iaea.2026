@@ -1,0 +1,41 @@
+# header: 
+#   title: Np236(g,x)Ra220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 236
+#   nuclide: Np236
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 220
+#     nuclide: Ra220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.978096E-11
+   8.000000E+01   6.093103E-09
+   9.000000E+01   2.252567E-06
+   1.000000E+02   2.322516E-05
+   1.100000E+02   6.869315E-05
+   1.200000E+02   1.032083E-04
+   1.300000E+02   1.291544E-04
+   1.400000E+02   1.033972E-04
+   1.500000E+02   1.177971E-04
+   1.600000E+02   1.106967E-04
+   1.800000E+02   1.131534E-04
+   2.000000E+02   3.447618E-05

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge70(g,x)Ni58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 58
+#     nuclide: Ni58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.324924E-11
+   6.500000E+01   7.619063E-07
+   7.000000E+01   9.020328E-05
+   7.500000E+01   1.131457E-03
+   8.000000E+01   3.684250E-03
+   9.000000E+01   7.301042E-03
+   1.000000E+02   5.493627E-03
+   1.100000E+02   8.058676E-03
+   1.200000E+02   2.235681E-02
+   1.300000E+02   3.310013E-02
+   1.400000E+02   3.649892E-02
+   1.500000E+02   3.627117E-02
+   1.600000E+02   4.601048E-02
+   1.800000E+02   6.006141E-02
+   2.000000E+02   4.120577E-02

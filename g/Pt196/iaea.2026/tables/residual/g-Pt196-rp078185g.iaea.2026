@@ -1,0 +1,41 @@
+# header: 
+#   title: Pt196(g,x)Pt185g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 78
+#   A: 196
+#   nuclide: Pt196
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 185
+#     nuclide: Pt185g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.437088E-07
+   1.000000E+02   6.923820E-03
+   1.100000E+02   2.206387E-01
+   1.200000E+02   5.750769E-01
+   1.300000E+02   4.455579E-01
+   1.400000E+02   2.537832E-01
+   1.500000E+02   1.744341E-01
+   1.600000E+02   1.273736E-01
+   1.800000E+02   9.861822E-02
+   2.000000E+02   8.526347E-02

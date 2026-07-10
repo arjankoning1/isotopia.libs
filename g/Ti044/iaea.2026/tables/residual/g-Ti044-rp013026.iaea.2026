@@ -1,0 +1,41 @@
+# header: 
+#   title: Ti44(g,x)Al26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.142965E-12
+   8.000000E+01   3.828695E-09
+   9.000000E+01   1.121897E-06
+   1.000000E+02   6.362207E-06
+   1.100000E+02   1.294525E-05
+   1.200000E+02   9.663135E-05
+   1.300000E+02   4.518977E-04
+   1.400000E+02   1.150725E-03
+   1.500000E+02   1.615484E-03
+   1.600000E+02   2.360564E-03
+   1.800000E+02   4.645124E-03
+   2.000000E+02   7.050024E-03

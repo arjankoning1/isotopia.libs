@@ -1,0 +1,42 @@
+# header: 
+#   title: Ru98(g,x)Rb82g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 98
+#   nuclide: Ru98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.082351E-11
+   9.000000E+01   3.091212E-08
+   1.000000E+02   8.930694E-06
+   1.100000E+02   7.906869E-05
+   1.200000E+02   9.808748E-05
+   1.300000E+02   8.561677E-05
+   1.400000E+02   3.064944E-04
+   1.500000E+02   8.353868E-04
+   1.600000E+02   9.229573E-04
+   1.800000E+02   1.353240E-03
+   2.000000E+02   1.475611E-03

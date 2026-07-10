@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn123(g,x)Pd112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 123
+#   nuclide: Sn123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 112
+#     nuclide: Pd112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.533946E-12
+   5.500000E+01   3.067465E-08
+   6.000000E+01   3.917131E-06
+   6.500000E+01   3.697927E-05
+   7.000000E+01   1.125646E-04
+   7.500000E+01   1.451972E-04
+   8.000000E+01   1.038196E-04
+   9.000000E+01   3.384351E-05
+   1.000000E+02   5.283112E-05
+   1.100000E+02   1.083893E-04
+   1.200000E+02   1.284274E-04
+   1.300000E+02   8.485791E-05
+   1.400000E+02   9.579126E-05
+   1.500000E+02   1.049526E-04
+   1.600000E+02   8.215584E-05
+   1.800000E+02   1.559553E-04
+   2.000000E+02   2.213756E-04

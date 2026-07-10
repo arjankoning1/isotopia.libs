@@ -1,0 +1,38 @@
+# header: 
+#   title: P32(g,x)B13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 13
+#     nuclide: B13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.271287E-11
+   1.100000E+02   8.606867E-10
+   1.200000E+02   6.155118E-09
+   1.300000E+02   2.587035E-08
+   1.400000E+02   9.657479E-08
+   1.500000E+02   2.384183E-07
+   1.600000E+02   3.933698E-07
+   1.800000E+02   1.023770E-06
+   2.000000E+02   2.138906E-06

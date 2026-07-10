@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe57(g,x)V54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 54
+#     nuclide: V54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.193761E-08
+   4.500000E+01   1.589218E-05
+   5.000000E+01   1.373476E-04
+   5.500000E+01   2.140194E-04
+   6.000000E+01   1.593840E-04
+   6.500000E+01   1.121929E-04
+   7.000000E+01   8.811132E-05
+   7.500000E+01   7.156397E-05
+   8.000000E+01   6.319516E-05
+   9.000000E+01   4.710817E-05
+   1.000000E+02   3.349557E-05
+   1.100000E+02   2.563942E-05
+   1.200000E+02   2.251055E-05
+   1.300000E+02   1.585917E-05
+   1.400000E+02   1.350112E-05
+   1.500000E+02   9.845993E-06
+   1.600000E+02   9.513403E-06
+   1.800000E+02   5.430978E-06
+   2.000000E+02   5.068850E-06

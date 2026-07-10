@@ -1,0 +1,49 @@
+# header: 
+#   title: Ar39(g,x)Cl34m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.991792E-05
+   5.000000E+01   5.175408E-04
+   5.500000E+01   1.577388E-03
+   6.000000E+01   6.606556E-03
+   6.500000E+01   1.629567E-02
+   7.000000E+01   2.435531E-02
+   7.500000E+01   2.752986E-02
+   8.000000E+01   2.712663E-02
+   9.000000E+01   2.413446E-02
+   1.000000E+02   2.168035E-02
+   1.100000E+02   1.973287E-02
+   1.200000E+02   1.811593E-02
+   1.300000E+02   1.629170E-02
+   1.400000E+02   1.522722E-02
+   1.500000E+02   1.434395E-02
+   1.600000E+02   1.264101E-02
+   1.800000E+02   1.041349E-02
+   2.000000E+02   9.524144E-03

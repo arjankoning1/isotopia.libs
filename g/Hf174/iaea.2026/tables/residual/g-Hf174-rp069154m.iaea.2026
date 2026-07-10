@@ -1,0 +1,35 @@
+# header: 
+#   title: Hf174(g,x)Tm154m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 174
+#   nuclide: Hf174
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 154
+#     nuclide: Tm154m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   5.275609E-12
+   1.600000E+02   8.308169E-08
+   1.800000E+02   6.516899E-04
+   2.000000E+02   2.596096E-02

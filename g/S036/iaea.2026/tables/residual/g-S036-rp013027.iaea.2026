@@ -1,0 +1,45 @@
+# header: 
+#   title: S36(g,x)Al27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 36
+#   nuclide: S36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 27
+#     nuclide: Al27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.641491E-05
+   6.000000E+01   9.974753E-04
+   6.500000E+01   3.695038E-03
+   7.000000E+01   9.691416E-03
+   7.500000E+01   2.635860E-02
+   8.000000E+01   5.086154E-02
+   9.000000E+01   9.752610E-02
+   1.000000E+02   1.139839E-01
+   1.100000E+02   1.201714E-01
+   1.200000E+02   1.164290E-01
+   1.300000E+02   1.213685E-01
+   1.400000E+02   1.102731E-01
+   1.500000E+02   1.075964E-01
+   1.600000E+02   9.633657E-02
+   1.800000E+02   7.762785E-02
+   2.000000E+02   6.930086E-02

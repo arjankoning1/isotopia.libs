@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr82(g,x)Se69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 69
+#     nuclide: Se69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.996948E-08
+   1.000000E+02   7.044523E-06
+   1.100000E+02   2.735635E-05
+   1.200000E+02   2.827665E-05
+   1.300000E+02   4.541493E-05
+   1.400000E+02   1.447007E-04
+   1.500000E+02   3.023782E-04
+   1.600000E+02   3.803968E-04
+   1.800000E+02   6.062182E-04
+   2.000000E+02   6.822993E-04

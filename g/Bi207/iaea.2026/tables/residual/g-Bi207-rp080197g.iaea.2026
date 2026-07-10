@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi207(g,x)Hg197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.513996E-10
+   6.000000E+01   7.826313E-08
+   6.500000E+01   2.259002E-06
+   7.000000E+01   2.214528E-05
+   7.500000E+01   2.093267E-04
+   8.000000E+01   9.103566E-04
+   9.000000E+01   2.499835E-03
+   1.000000E+02   2.128810E-03
+   1.100000E+02   1.852193E-03
+   1.200000E+02   1.484024E-03
+   1.300000E+02   1.761367E-03
+   1.400000E+02   1.601100E-03
+   1.500000E+02   2.104928E-03
+   1.600000E+02   2.436727E-03
+   1.800000E+02   2.005803E-03
+   2.000000E+02   2.505727E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs133(g,x)Sb118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.728415E-08
+   1.000000E+02   6.296197E-05
+   1.100000E+02   1.241684E-03
+   1.200000E+02   2.229259E-03
+   1.300000E+02   2.680269E-03
+   1.400000E+02   1.084756E-02
+   1.500000E+02   2.358230E-02
+   1.600000E+02   2.076239E-02
+   1.800000E+02   1.214240E-02
+   2.000000E+02   1.084373E-02

@@ -1,0 +1,39 @@
+# header: 
+#   title: Y91(g,x)Ga72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.889042E-12
+   1.000000E+02   8.874173E-08
+   1.100000E+02   1.833277E-06
+   1.200000E+02   2.890074E-06
+   1.300000E+02   5.603542E-06
+   1.400000E+02   4.560890E-05
+   1.500000E+02   1.336187E-04
+   1.600000E+02   1.393830E-04
+   1.800000E+02   2.169107E-04
+   2.000000E+02   2.436388E-04

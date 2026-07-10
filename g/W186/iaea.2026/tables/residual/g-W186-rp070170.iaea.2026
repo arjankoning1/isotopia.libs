@@ -1,0 +1,40 @@
+# header: 
+#   title: W186(g,x)Yb170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 170
+#     nuclide: Yb170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.215612E-12
+   9.000000E+01   1.433385E-06
+   1.000000E+02   2.441836E-04
+   1.100000E+02   1.494322E-03
+   1.200000E+02   1.357407E-03
+   1.300000E+02   1.417049E-03
+   1.400000E+02   4.108777E-03
+   1.500000E+02   5.651372E-03
+   1.600000E+02   5.554467E-03
+   1.800000E+02   3.187678E-03
+   2.000000E+02   2.383184E-03

@@ -1,0 +1,40 @@
+# header: 
+#   title: Ga71(g,x)Cr54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 54
+#     nuclide: Cr54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.960572E-11
+   9.000000E+01   2.417793E-07
+   1.000000E+02   9.755609E-06
+   1.100000E+02   1.044294E-04
+   1.200000E+02   2.733817E-04
+   1.300000E+02   3.009665E-04
+   1.400000E+02   3.249625E-04
+   1.500000E+02   5.684014E-04
+   1.600000E+02   8.934265E-04
+   1.800000E+02   9.572312E-04
+   2.000000E+02   1.143053E-03

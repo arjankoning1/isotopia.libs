@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge69(g,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 69
+#   nuclide: Ge69
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.012985E-12
+   6.500000E+01   1.293561E-09
+   7.000000E+01   2.574818E-08
+   7.500000E+01   4.246669E-07
+   8.000000E+01   3.980628E-06
+   9.000000E+01   3.678713E-05
+   1.000000E+02   4.958323E-05
+   1.100000E+02   2.986623E-05
+   1.200000E+02   2.803574E-05
+   1.300000E+02   4.767853E-05
+   1.400000E+02   4.813260E-05
+   1.500000E+02   4.296168E-05
+   1.600000E+02   3.339442E-05
+   1.800000E+02   2.195219E-05
+   2.000000E+02   1.458767E-05

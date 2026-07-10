@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr82(g,x)As70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 70
+#     nuclide: As70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.005817E-11
+   6.500000E+01   8.514081E-08
+   7.000000E+01   3.950166E-06
+   7.500000E+01   6.809831E-05
+   8.000000E+01   1.084836E-03
+   9.000000E+01   1.060985E-02
+   1.000000E+02   1.209976E-02
+   1.100000E+02   9.404243E-03
+   1.200000E+02   2.382723E-02
+   1.300000E+02   5.856609E-02
+   1.400000E+02   6.983794E-02
+   1.500000E+02   6.452414E-02
+   1.600000E+02   6.412734E-02
+   1.800000E+02   7.931644E-02
+   2.000000E+02   5.715735E-02

@@ -1,0 +1,44 @@
+# header: 
+#   title: Pt190(g,x)Re179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 78
+#   A: 190
+#   nuclide: Pt190
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 179
+#     nuclide: Re179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.553256E-12
+   6.500000E+01   1.147362E-08
+   7.000000E+01   1.664229E-06
+   7.500000E+01   3.456084E-05
+   8.000000E+01   3.018970E-04
+   9.000000E+01   9.175517E-03
+   1.000000E+02   2.925987E-02
+   1.100000E+02   2.359651E-02
+   1.200000E+02   1.290505E-02
+   1.300000E+02   1.324708E-02
+   1.400000E+02   1.264608E-02
+   1.500000E+02   1.195751E-02
+   1.600000E+02   1.057908E-02
+   1.800000E+02   1.261505E-02
+   2.000000E+02   9.141232E-03

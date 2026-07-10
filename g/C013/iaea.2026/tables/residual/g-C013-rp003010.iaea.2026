@@ -1,0 +1,45 @@
+# header: 
+#   title: C13(g,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.038688E-07
+   6.000000E+01   1.457060E-06
+   6.500000E+01   2.624182E-06
+   7.000000E+01   2.455764E-06
+   7.500000E+01   1.766640E-06
+   8.000000E+01   1.128309E-06
+   9.000000E+01   4.528882E-07
+   1.000000E+02   2.148868E-07
+   1.100000E+02   1.298144E-07
+   1.200000E+02   9.211367E-08
+   1.300000E+02   7.456308E-08
+   1.400000E+02   5.627805E-08
+   1.500000E+02   4.759407E-08
+   1.600000E+02   3.859945E-08
+   1.800000E+02   3.113827E-08
+   2.000000E+02   2.045539E-08

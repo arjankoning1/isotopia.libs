@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn121(g,x)In111g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 111
+#     nuclide: In111g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.828116E-09
+   9.000000E+01   7.522035E-04
+   1.000000E+02   1.292996E-02
+   1.100000E+02   4.967564E-02
+   1.200000E+02   9.009618E-02
+   1.300000E+02   9.452898E-02
+   1.400000E+02   8.776394E-02
+   1.500000E+02   7.796738E-02
+   1.600000E+02   8.202200E-02
+   1.800000E+02   7.524762E-02
+   2.000000E+02   6.451820E-02

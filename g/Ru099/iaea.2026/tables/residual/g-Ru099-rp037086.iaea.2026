@@ -1,0 +1,44 @@
+# header: 
+#   title: Ru99(g,x)Rb86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.493645E-10
+   6.500000E+01   1.995968E-09
+   7.000000E+01   6.844214E-09
+   7.500000E+01   1.000829E-08
+   8.000000E+01   7.567354E-09
+   9.000000E+01   3.906381E-08
+   1.000000E+02   1.502890E-06
+   1.100000E+02   8.561606E-06
+   1.200000E+02   1.146909E-05
+   1.300000E+02   1.276558E-05
+   1.400000E+02   3.285188E-05
+   1.500000E+02   7.078596E-05
+   1.600000E+02   7.430866E-05
+   1.800000E+02   7.547152E-05
+   2.000000E+02   1.100953E-04

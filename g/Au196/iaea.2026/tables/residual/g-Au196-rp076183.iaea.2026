@@ -1,0 +1,41 @@
+# header: 
+#   title: Au196(g,x)Os183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 183
+#     nuclide: Os183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.489064E-11
+   8.000000E+01   5.426180E-08
+   9.000000E+01   3.057836E-04
+   1.000000E+02   6.353591E-03
+   1.100000E+02   2.783583E-02
+   1.200000E+02   3.951314E-02
+   1.300000E+02   2.549893E-02
+   1.400000E+02   1.672546E-02
+   1.500000E+02   1.550418E-02
+   1.600000E+02   1.202324E-02
+   1.800000E+02   1.015654E-02
+   2.000000E+02   7.087989E-03

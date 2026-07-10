@@ -1,0 +1,39 @@
+# header: 
+#   title: Rh102m(g,x)Zr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.358026E-12
+   1.200000E+02   1.870446E-07
+   1.300000E+02   1.804197E-05
+   1.400000E+02   3.205952E-04
+   1.500000E+02   1.727256E-03
+   1.600000E+02   3.618134E-03
+   1.800000E+02   7.343348E-03
+   2.000000E+02   2.031676E-02

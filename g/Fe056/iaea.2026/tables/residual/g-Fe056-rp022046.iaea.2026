@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe56(g,x)Ti46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 46
+#     nuclide: Ti46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.592509E-07
+   5.500000E+01   1.792644E-04
+   6.000000E+01   1.624217E-03
+   6.500000E+01   3.698457E-03
+   7.000000E+01   4.553860E-03
+   7.500000E+01   3.882315E-03
+   8.000000E+01   2.972935E-03
+   9.000000E+01   8.495116E-03
+   1.000000E+02   4.750521E-02
+   1.100000E+02   7.993346E-02
+   1.200000E+02   7.834419E-02
+   1.300000E+02   7.919496E-02
+   1.400000E+02   9.846772E-02
+   1.500000E+02   1.155289E-01
+   1.600000E+02   1.175895E-01
+   1.800000E+02   9.511460E-02
+   2.000000E+02   8.513469E-02

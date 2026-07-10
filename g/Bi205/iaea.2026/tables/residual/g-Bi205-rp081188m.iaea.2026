@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi205(g,x)Tl188m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 188
+#     nuclide: Tl188m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.515562E-10
+   1.400000E+02   4.619789E-06
+   1.500000E+02   1.094465E-03
+   1.600000E+02   1.590703E-02
+   1.800000E+02   4.789755E-02
+   2.000000E+02   3.920248E-02

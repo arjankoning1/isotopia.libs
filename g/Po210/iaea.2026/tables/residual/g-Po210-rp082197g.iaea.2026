@@ -1,0 +1,42 @@
+# header: 
+#   title: Po210(g,x)Pb197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 84
+#   A: 210
+#   nuclide: Po210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 197
+#     nuclide: Pb197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.701458E-12
+   9.000000E+01   3.604928E-06
+   1.000000E+02   3.572080E-03
+   1.100000E+02   4.176657E-02
+   1.200000E+02   5.960754E-02
+   1.300000E+02   2.820721E-02
+   1.400000E+02   1.515620E-02
+   1.500000E+02   1.475465E-02
+   1.600000E+02   1.337422E-02
+   1.800000E+02   1.170544E-02
+   2.000000E+02   1.136193E-02

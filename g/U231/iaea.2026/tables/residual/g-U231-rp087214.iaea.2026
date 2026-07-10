@@ -1,0 +1,41 @@
+# header: 
+#   title: U231(g,x)Fr214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 231
+#   nuclide: U231
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 214
+#     nuclide: Fr214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.098705E-13
+   8.000000E+01   1.408479E-11
+   9.000000E+01   1.173523E-09
+   1.000000E+02   2.920566E-08
+   1.100000E+02   4.784080E-07
+   1.200000E+02   2.274458E-06
+   1.300000E+02   2.592520E-06
+   1.400000E+02   1.728545E-06
+   1.500000E+02   1.619460E-06
+   1.600000E+02   1.573836E-06
+   1.800000E+02   1.037969E-06
+   2.000000E+02   1.296168E-06

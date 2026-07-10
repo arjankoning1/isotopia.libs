@@ -1,0 +1,38 @@
+# header: 
+#   title: Sb125(g,x)Pd108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 108
+#     nuclide: Pd108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.083196E-10
+   1.100000E+02   6.299632E-06
+   1.200000E+02   2.855939E-04
+   1.300000E+02   2.132335E-03
+   1.400000E+02   6.274573E-03
+   1.500000E+02   8.226044E-03
+   1.600000E+02   7.269420E-03
+   1.800000E+02   5.360706E-03
+   2.000000E+02   3.794961E-03

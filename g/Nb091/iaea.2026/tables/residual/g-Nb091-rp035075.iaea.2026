@@ -1,0 +1,39 @@
+# header: 
+#   title: Nb91(g,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.283165E-08
+   1.000000E+02   6.667003E-05
+   1.100000E+02   5.391241E-04
+   1.200000E+02   6.863002E-04
+   1.300000E+02   1.031277E-03
+   1.400000E+02   4.752080E-03
+   1.500000E+02   1.285859E-02
+   1.600000E+02   1.410676E-02
+   1.800000E+02   2.619702E-02
+   2.000000E+02   3.646949E-02

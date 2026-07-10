@@ -1,0 +1,41 @@
+# header: 
+#   title: Ne22(g,x)N12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 12
+#     nuclide: N12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.720807E-09
+   8.000000E+01   5.920957E-07
+   9.000000E+01   1.591172E-05
+   1.000000E+02   6.937228E-05
+   1.100000E+02   1.733509E-04
+   1.200000E+02   2.788936E-04
+   1.300000E+02   3.558794E-04
+   1.400000E+02   4.233329E-04
+   1.500000E+02   4.822194E-04
+   1.600000E+02   5.368168E-04
+   1.800000E+02   5.834105E-04
+   2.000000E+02   5.555856E-04

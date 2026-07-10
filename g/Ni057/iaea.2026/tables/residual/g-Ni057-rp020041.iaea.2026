@@ -1,0 +1,45 @@
+# header: 
+#   title: Ni57(g,x)Ca41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.186186E-12
+   6.000000E+01   4.773866E-09
+   6.500000E+01   1.790258E-07
+   7.000000E+01   1.107641E-06
+   7.500000E+01   2.758426E-06
+   8.000000E+01   3.624943E-06
+   9.000000E+01   2.300372E-06
+   1.000000E+02   5.720802E-05
+   1.100000E+02   4.564846E-04
+   1.200000E+02   7.678499E-04
+   1.300000E+02   7.993159E-04
+   1.400000E+02   1.901695E-03
+   1.500000E+02   4.350805E-03
+   1.600000E+02   6.476347E-03
+   1.800000E+02   1.049747E-02
+   2.000000E+02   1.606362E-02

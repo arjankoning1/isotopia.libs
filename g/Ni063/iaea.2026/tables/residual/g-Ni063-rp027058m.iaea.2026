@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni63(g,x)Co58m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.827505E-06
+   4.500000E+01   3.031224E-03
+   5.000000E+01   9.206227E-03
+   5.500000E+01   6.771582E-02
+   6.000000E+01   2.254652E-01
+   6.500000E+01   3.605576E-01
+   7.000000E+01   3.900850E-01
+   7.500000E+01   3.680095E-01
+   8.000000E+01   3.258393E-01
+   9.000000E+01   2.728480E-01
+   1.000000E+02   2.350874E-01
+   1.100000E+02   1.997575E-01
+   1.200000E+02   1.757218E-01
+   1.300000E+02   1.579641E-01
+   1.400000E+02   1.441865E-01
+   1.500000E+02   1.387541E-01
+   1.600000E+02   1.130102E-01
+   1.800000E+02   9.309173E-02
+   2.000000E+02   8.501719E-02

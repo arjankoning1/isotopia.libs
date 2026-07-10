@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge70(g,x)Ge64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 64
+#     nuclide: Ge64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.955651E-08
+   7.500000E+01   1.040770E-06
+   8.000000E+01   6.076351E-06
+   9.000000E+01   1.835172E-05
+   1.000000E+02   1.840746E-05
+   1.100000E+02   1.704649E-05
+   1.200000E+02   1.658276E-05
+   1.300000E+02   1.613975E-05
+   1.400000E+02   1.610959E-05
+   1.500000E+02   1.517516E-05
+   1.600000E+02   1.515762E-05
+   1.800000E+02   1.491781E-05
+   2.000000E+02   1.364222E-05

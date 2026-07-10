@@ -1,0 +1,49 @@
+# header: 
+#   title: Sr87(g,x)Br79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.591043E-10
+   5.000000E+01   6.927024E-07
+   5.500000E+01   1.375118E-05
+   6.000000E+01   2.795977E-04
+   6.500000E+01   3.272142E-03
+   7.000000E+01   1.102990E-02
+   7.500000E+01   1.859798E-02
+   8.000000E+01   1.945412E-02
+   9.000000E+01   1.145651E-02
+   1.000000E+02   8.966793E-03
+   1.100000E+02   1.499235E-02
+   1.200000E+02   1.940818E-02
+   1.300000E+02   1.695573E-02
+   1.400000E+02   1.385760E-02
+   1.500000E+02   1.291272E-02
+   1.600000E+02   9.364863E-03
+   1.800000E+02   9.113435E-03
+   2.000000E+02   5.424752E-03

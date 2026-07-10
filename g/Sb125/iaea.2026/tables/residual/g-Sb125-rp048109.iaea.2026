@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb125(g,x)Cd109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 109
+#     nuclide: Cd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.253597E-10
+   1.200000E+02   7.489087E-06
+   1.300000E+02   7.595400E-04
+   1.400000E+02   8.735622E-03
+   1.500000E+02   3.644633E-02
+   1.600000E+02   7.225932E-02
+   1.800000E+02   6.868684E-02
+   2.000000E+02   6.248330E-02

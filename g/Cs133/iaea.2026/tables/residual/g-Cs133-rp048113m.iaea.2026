@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs133(g,x)Cd113m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 113
+#     nuclide: Cd113m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.712833E-12
+   1.200000E+02   1.686551E-08
+   1.300000E+02   2.697729E-06
+   1.400000E+02   4.304959E-05
+   1.500000E+02   9.715353E-05
+   1.600000E+02   9.875182E-05
+   1.800000E+02   1.441945E-04
+   2.000000E+02   9.128843E-05

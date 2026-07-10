@@ -1,0 +1,38 @@
+# header: 
+#   title: V50(g,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.469994E-11
+   1.100000E+02   1.567900E-09
+   1.200000E+02   1.939065E-08
+   1.300000E+02   5.373414E-08
+   1.400000E+02   7.692374E-08
+   1.500000E+02   1.433271E-07
+   1.600000E+02   3.709870E-07
+   1.800000E+02   1.171839E-06
+   2.000000E+02   1.068871E-06

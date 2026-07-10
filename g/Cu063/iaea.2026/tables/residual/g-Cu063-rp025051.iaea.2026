@@ -1,0 +1,42 @@
+# header: 
+#   title: Cu63(g,x)Mn51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 51
+#     nuclide: Mn51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.161130E-08
+   7.500000E+01   1.432133E-05
+   8.000000E+01   2.734012E-04
+   9.000000E+01   1.843827E-03
+   1.000000E+02   1.709504E-03
+   1.100000E+02   2.183636E-03
+   1.200000E+02   6.886835E-03
+   1.300000E+02   1.278356E-02
+   1.400000E+02   1.440587E-02
+   1.500000E+02   1.688086E-02
+   1.600000E+02   1.861831E-02
+   1.800000E+02   2.420544E-02
+   2.000000E+02   1.875332E-02

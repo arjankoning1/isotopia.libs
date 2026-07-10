@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe54(g,x)Ca39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 39
+#     nuclide: Ca39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.421700E-12
+   9.000000E+01   2.319160E-07
+   1.000000E+02   4.461881E-06
+   1.100000E+02   8.130805E-06
+   1.200000E+02   8.385062E-06
+   1.300000E+02   2.925104E-05
+   1.400000E+02   1.079219E-04
+   1.500000E+02   1.873160E-04
+   1.600000E+02   2.233419E-04
+   1.800000E+02   4.291253E-04
+   2.000000E+02   7.820518E-04

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ra223(g,x)Rn208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 208
+#     nuclide: Rn208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.571534E-12
+   1.000000E+02   1.498624E-07
+   1.100000E+02   2.621846E-05
+   1.200000E+02   3.119857E-04
+   1.300000E+02   6.506491E-04
+   1.400000E+02   6.265921E-04
+   1.500000E+02   5.928428E-04
+   1.600000E+02   6.577246E-04
+   1.800000E+02   5.828487E-04
+   2.000000E+02   5.455121E-04

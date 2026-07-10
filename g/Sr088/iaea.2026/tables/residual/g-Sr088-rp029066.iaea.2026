@@ -1,0 +1,36 @@
+# header: 
+#   title: Sr88(g,x)Cu66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.030537E-11
+   1.300000E+02   1.594818E-08
+   1.400000E+02   1.842829E-07
+   1.500000E+02   5.762074E-07
+   1.600000E+02   3.177223E-06
+   1.800000E+02   6.308372E-05
+   2.000000E+02   1.349494E-04

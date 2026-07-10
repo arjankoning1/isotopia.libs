@@ -1,0 +1,43 @@
+# header: 
+#   title: Mg24(g,x)B12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.986643E-10
+   7.000000E+01   1.594893E-06
+   7.500000E+01   2.450404E-05
+   8.000000E+01   7.900098E-05
+   9.000000E+01   4.311798E-04
+   1.000000E+02   9.989175E-04
+   1.100000E+02   1.177827E-03
+   1.200000E+02   1.222412E-03
+   1.300000E+02   1.450130E-03
+   1.400000E+02   1.870563E-03
+   1.500000E+02   1.943572E-03
+   1.600000E+02   2.108189E-03
+   1.800000E+02   2.008440E-03
+   2.000000E+02   1.809204E-03

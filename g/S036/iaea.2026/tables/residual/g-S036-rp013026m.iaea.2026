@@ -1,0 +1,45 @@
+# header: 
+#   title: S36(g,x)Al26m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 36
+#   nuclide: S36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.483668E-13
+   7.000000E+01   2.371541E-07
+   7.500000E+01   1.876467E-05
+   8.000000E+01   1.141843E-04
+   9.000000E+01   6.645757E-04
+   1.000000E+02   2.407063E-03
+   1.100000E+02   4.574618E-03
+   1.200000E+02   5.971908E-03
+   1.300000E+02   6.668650E-03
+   1.400000E+02   7.414351E-03
+   1.500000E+02   6.638613E-03
+   1.600000E+02   6.426550E-03
+   1.800000E+02   5.879670E-03
+   2.000000E+02   4.370231E-03

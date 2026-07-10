@@ -1,0 +1,43 @@
+# header: 
+#   title: Tl202(g,x)Hg193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 81
+#   A: 202
+#   nuclide: Tl202
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 193
+#     nuclide: Hg193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.094473E-11
+   7.000000E+01   6.315198E-06
+   7.500000E+01   1.550658E-03
+   8.000000E+01   2.059863E-02
+   9.000000E+01   2.196134E-01
+   1.000000E+02   7.444733E-01
+   1.100000E+02   7.071535E-01
+   1.200000E+02   4.247388E-01
+   1.300000E+02   3.328825E-01
+   1.400000E+02   3.093621E-01
+   1.500000E+02   2.569588E-01
+   1.600000E+02   2.684862E-01
+   1.800000E+02   1.974330E-01
+   2.000000E+02   1.428139E-01

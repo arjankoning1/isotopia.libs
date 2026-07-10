@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca44(g,x)Mg27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.142654E-11
+   7.000000E+01   9.280261E-09
+   7.500000E+01   2.414497E-07
+   8.000000E+01   1.200752E-06
+   9.000000E+01   2.983402E-06
+   1.000000E+02   2.222131E-06
+   1.100000E+02   1.076116E-05
+   1.200000E+02   6.291443E-05
+   1.300000E+02   1.569977E-04
+   1.400000E+02   2.098090E-04
+   1.500000E+02   2.535855E-04
+   1.600000E+02   3.420242E-04
+   1.800000E+02   5.724494E-04
+   2.000000E+02   4.506564E-04

@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni61(g,x)Mn58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 58
+#     nuclide: Mn58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.809183E-06
+   4.500000E+01   2.586676E-04
+   5.000000E+01   9.678531E-04
+   5.500000E+01   9.632056E-04
+   6.000000E+01   5.208479E-04
+   6.500000E+01   2.781079E-04
+   7.000000E+01   1.771667E-04
+   7.500000E+01   1.444076E-04
+   8.000000E+01   1.106637E-04
+   9.000000E+01   8.009309E-05
+   1.000000E+02   6.217046E-05
+   1.100000E+02   4.813818E-05
+   1.200000E+02   3.574601E-05
+   1.300000E+02   2.649883E-05
+   1.400000E+02   2.437491E-05
+   1.500000E+02   1.661698E-05
+   1.600000E+02   1.387723E-05
+   1.800000E+02   8.670256E-06
+   2.000000E+02   6.936754E-06

@@ -1,0 +1,46 @@
+# header: 
+#   title: Zr90(g,x)Br82m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.156269E-11
+   6.500000E+01   7.674448E-10
+   7.000000E+01   3.192338E-08
+   7.500000E+01   8.111674E-07
+   8.000000E+01   5.356709E-06
+   9.000000E+01   2.578554E-05
+   1.000000E+02   3.517758E-05
+   1.100000E+02   4.602114E-05
+   1.200000E+02   9.741102E-05
+   1.300000E+02   1.388627E-04
+   1.400000E+02   1.801690E-04
+   1.500000E+02   1.584694E-04
+   1.600000E+02   1.410188E-04
+   1.800000E+02   1.145101E-04
+   2.000000E+02   6.988244E-05

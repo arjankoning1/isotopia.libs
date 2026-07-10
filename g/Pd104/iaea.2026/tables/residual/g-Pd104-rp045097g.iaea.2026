@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd104(g,x)Rh97g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 97
+#     nuclide: Rh97g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.253573E-07
+   6.500000E+01   2.948540E-04
+   7.000000E+01   2.254013E-03
+   7.500000E+01   1.918680E-02
+   8.000000E+01   1.100635E-01
+   9.000000E+01   3.275204E-01
+   1.000000E+02   2.760265E-01
+   1.100000E+02   2.023793E-01
+   1.200000E+02   1.699543E-01
+   1.300000E+02   1.556622E-01
+   1.400000E+02   1.453053E-01
+   1.500000E+02   1.354609E-01
+   1.600000E+02   1.338059E-01
+   1.800000E+02   1.147661E-01
+   2.000000E+02   1.070635E-01

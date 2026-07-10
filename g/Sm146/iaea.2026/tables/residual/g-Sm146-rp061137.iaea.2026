@@ -1,0 +1,40 @@
+# header: 
+#   title: Sm146(g,x)Pm137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 146
+#   nuclide: Sm146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 137
+#     nuclide: Pm137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.491621E-07
+   9.000000E+01   4.722420E-03
+   1.000000E+02   6.601060E-02
+   1.100000E+02   2.853727E-01
+   1.200000E+02   3.501922E-01
+   1.300000E+02   2.629912E-01
+   1.400000E+02   2.097213E-01
+   1.500000E+02   1.874699E-01
+   1.600000E+02   1.614293E-01
+   1.800000E+02   1.380230E-01
+   2.000000E+02   1.337402E-01

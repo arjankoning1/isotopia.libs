@@ -1,0 +1,42 @@
+# header: 
+#   title: K40(g,x)Ne23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.063852E-11
+   7.500000E+01   3.301071E-09
+   8.000000E+01   3.492323E-08
+   9.000000E+01   1.475087E-07
+   1.000000E+02   2.997791E-07
+   1.100000E+02   4.020183E-06
+   1.200000E+02   2.090065E-05
+   1.300000E+02   5.012593E-05
+   1.400000E+02   7.410116E-05
+   1.500000E+02   9.020740E-05
+   1.600000E+02   1.098474E-04
+   1.800000E+02   1.822411E-04
+   2.000000E+02   2.202378E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: V49(g,x)Si30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 23
+#   A: 49
+#   nuclide: V49
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 30
+#     nuclide: Si30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.121389E-12
+   8.000000E+01   7.391946E-10
+   9.000000E+01   1.422716E-07
+   1.000000E+02   8.297187E-06
+   1.100000E+02   3.800961E-05
+   1.200000E+02   5.396006E-05
+   1.300000E+02   8.374826E-05
+   1.400000E+02   2.591851E-04
+   1.500000E+02   5.762961E-04
+   1.600000E+02   8.562564E-04
+   1.800000E+02   1.559193E-03
+   2.000000E+02   2.736927E-03

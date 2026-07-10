@@ -1,0 +1,45 @@
+# header: 
+#   title: O18(g,x)C10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.333007E-10
+   6.000000E+01   1.225404E-06
+   6.500000E+01   1.650188E-05
+   7.000000E+01   6.931079E-05
+   7.500000E+01   1.651657E-04
+   8.000000E+01   2.859113E-04
+   9.000000E+01   4.880526E-04
+   1.000000E+02   6.190835E-04
+   1.100000E+02   7.531745E-04
+   1.200000E+02   8.978869E-04
+   1.300000E+02   1.018041E-03
+   1.400000E+02   1.101420E-03
+   1.500000E+02   1.092351E-03
+   1.600000E+02   1.049177E-03
+   1.800000E+02   9.150894E-04
+   2.000000E+02   7.948469E-04

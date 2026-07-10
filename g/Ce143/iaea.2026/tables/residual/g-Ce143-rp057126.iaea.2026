@@ -1,0 +1,33 @@
+# header: 
+#   title: Ce143(g,x)La126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 143
+#   nuclide: Ce143
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 126
+#     nuclide: La126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   5.097725E-11
+   1.600000E+02   4.255636E-07
+   1.800000E+02   9.543157E-04
+   2.000000E+02   2.036368E-02

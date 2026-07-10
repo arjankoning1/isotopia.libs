@@ -1,0 +1,40 @@
+# header: 
+#   title: Np235(g,x)Ac220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 220
+#     nuclide: Ac220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.485436E-12
+   9.000000E+01   2.910350E-10
+   1.000000E+02   1.941284E-09
+   1.100000E+02   8.086227E-09
+   1.200000E+02   4.294720E-08
+   1.300000E+02   1.110118E-07
+   1.400000E+02   1.628630E-07
+   1.500000E+02   1.763988E-07
+   1.600000E+02   2.412761E-07
+   1.800000E+02   2.857377E-07
+   2.000000E+02   7.881986E-07

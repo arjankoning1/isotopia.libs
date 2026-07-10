@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca44(g,x)Ca40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 40
+#     nuclide: Ca40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   7.701468E-04
+   4.500000E+01   2.207512E-01
+   5.000000E+01   3.916183E-01
+   5.500000E+01   3.292810E-01
+   6.000000E+01   2.349606E-01
+   6.500000E+01   1.683785E-01
+   7.000000E+01   1.293766E-01
+   7.500000E+01   1.069965E-01
+   8.000000E+01   9.214106E-02
+   9.000000E+01   7.458932E-02
+   1.000000E+02   6.367410E-02
+   1.100000E+02   5.555785E-02
+   1.200000E+02   4.765110E-02
+   1.300000E+02   4.376211E-02
+   1.400000E+02   3.839547E-02
+   1.500000E+02   3.492486E-02
+   1.600000E+02   3.046039E-02
+   1.800000E+02   2.597371E-02
+   2.000000E+02   2.024648E-02

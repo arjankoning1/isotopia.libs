@@ -1,0 +1,47 @@
+# header: 
+#   title: Zn64(g,x)Fe59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.420598E-11
+   5.000000E+01   4.904645E-07
+   5.500000E+01   2.146441E-05
+   6.000000E+01   1.663687E-04
+   6.500000E+01   1.174901E-03
+   7.000000E+01   3.395928E-03
+   7.500000E+01   5.075561E-03
+   8.000000E+01   5.240882E-03
+   9.000000E+01   3.583384E-03
+   1.000000E+02   2.354224E-03
+   1.100000E+02   1.824126E-03
+   1.200000E+02   1.478797E-03
+   1.300000E+02   1.286085E-03
+   1.400000E+02   1.061441E-03
+   1.500000E+02   9.109462E-04
+   1.600000E+02   7.644158E-04
+   1.800000E+02   5.504108E-04
+   2.000000E+02   4.319386E-04

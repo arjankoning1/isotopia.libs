@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe131m(g,x)Xe121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 121
+#     nuclide: Xe121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.710564E-10
+   1.000000E+02   6.611362E-04
+   1.100000E+02   3.534377E-02
+   1.200000E+02   1.146559E-01
+   1.300000E+02   1.234208E-01
+   1.400000E+02   9.057825E-02
+   1.500000E+02   6.891634E-02
+   1.600000E+02   5.969751E-02
+   1.800000E+02   5.289625E-02
+   2.000000E+02   4.758742E-02

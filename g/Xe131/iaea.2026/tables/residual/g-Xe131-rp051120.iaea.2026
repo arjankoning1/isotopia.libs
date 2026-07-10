@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe131(g,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.495922E-12
+   7.000000E+01   8.326386E-08
+   7.500000E+01   1.461224E-05
+   8.000000E+01   1.956362E-04
+   9.000000E+01   4.701740E-03
+   1.000000E+02   2.426506E-02
+   1.100000E+02   2.321538E-02
+   1.200000E+02   1.179285E-02
+   1.300000E+02   1.148561E-02
+   1.400000E+02   1.159839E-02
+   1.500000E+02   1.247747E-02
+   1.600000E+02   8.648394E-03
+   1.800000E+02   9.391000E-03
+   2.000000E+02   6.810212E-03

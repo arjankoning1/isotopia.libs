@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne21(g,x)B14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 14
+#     nuclide: B14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.854191E-12
+   6.500000E+01   1.535701E-08
+   7.000000E+01   2.083697E-07
+   7.500000E+01   5.594417E-07
+   8.000000E+01   7.867847E-07
+   9.000000E+01   7.163405E-07
+   1.000000E+02   7.913470E-07
+   1.100000E+02   1.357674E-06
+   1.200000E+02   2.145242E-06
+   1.300000E+02   2.710611E-06
+   1.400000E+02   2.925523E-06
+   1.500000E+02   2.787742E-06
+   1.600000E+02   2.543059E-06
+   1.800000E+02   2.070119E-06
+   2.000000E+02   1.709097E-06

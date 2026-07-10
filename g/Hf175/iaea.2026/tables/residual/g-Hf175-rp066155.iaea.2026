@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf175(g,x)Dy155 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 175
+#   nuclide: Hf175
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 155
+#     nuclide: Dy155
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.350691E-08
+   1.200000E+02   5.385172E-06
+   1.300000E+02   7.600433E-05
+   1.400000E+02   1.999814E-04
+   1.500000E+02   1.886426E-04
+   1.600000E+02   2.326506E-04
+   1.800000E+02   5.704547E-04
+   2.000000E+02   2.614425E-04

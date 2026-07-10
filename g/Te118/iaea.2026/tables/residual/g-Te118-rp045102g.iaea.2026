@@ -1,0 +1,43 @@
+# header: 
+#   title: Te118(g,x)Rh102g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.120544E-11
+   8.000000E+01   9.493256E-10
+   9.000000E+01   1.496315E-06
+   1.000000E+02   6.906953E-05
+   1.100000E+02   1.632240E-04
+   1.200000E+02   1.211202E-04
+   1.300000E+02   1.314371E-04
+   1.400000E+02   4.618225E-04
+   1.500000E+02   6.348043E-04
+   1.600000E+02   4.428787E-04
+   1.800000E+02   5.032890E-04
+   2.000000E+02   3.973883E-04

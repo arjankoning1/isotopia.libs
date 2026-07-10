@@ -1,0 +1,44 @@
+# header: 
+#   title: Os185(g,x)Re177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 185
+#   nuclide: Os185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 177
+#     nuclide: Re177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.953145E-08
+   6.500000E+01   7.825410E-05
+   7.000000E+01   1.815181E-03
+   7.500000E+01   1.130349E-02
+   8.000000E+01   6.917803E-02
+   9.000000E+01   5.298637E-01
+   1.000000E+02   7.125814E-01
+   1.100000E+02   5.057868E-01
+   1.200000E+02   4.118703E-01
+   1.300000E+02   3.707744E-01
+   1.400000E+02   3.186169E-01
+   1.500000E+02   3.333923E-01
+   1.600000E+02   2.664086E-01
+   1.800000E+02   2.163011E-01
+   2.000000E+02   2.861307E-01

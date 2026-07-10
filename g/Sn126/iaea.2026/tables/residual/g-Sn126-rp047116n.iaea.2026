@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn126(g,x)Ag116n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 126
+#   nuclide: Sn126
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 116
+#     nuclide: Ag116n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.552635E-12
+   6.500000E+01   2.787490E-08
+   7.000000E+01   1.814961E-06
+   7.500000E+01   1.206381E-05
+   8.000000E+01   4.208361E-05
+   9.000000E+01   2.925022E-04
+   1.000000E+02   3.759226E-04
+   1.100000E+02   2.957163E-04
+   1.200000E+02   2.519611E-04
+   1.300000E+02   2.901786E-04
+   1.400000E+02   2.904092E-04
+   1.500000E+02   5.562902E-04
+   1.600000E+02   7.786796E-04
+   1.800000E+02   6.790414E-04
+   2.000000E+02   1.004513E-03

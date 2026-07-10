@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu154(g,x)Pr140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 140
+#     nuclide: Pr140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.162957E-10
+   7.000000E+01   4.326408E-07
+   7.500000E+01   5.961224E-05
+   8.000000E+01   9.525231E-04
+   9.000000E+01   5.337284E-03
+   1.000000E+02   3.097110E-03
+   1.100000E+02   4.605880E-03
+   1.200000E+02   1.224305E-02
+   1.300000E+02   1.132301E-02
+   1.400000E+02   6.820670E-03
+   1.500000E+02   3.767791E-03
+   1.600000E+02   2.873197E-03
+   1.800000E+02   1.960106E-03
+   2.000000E+02   1.246082E-03

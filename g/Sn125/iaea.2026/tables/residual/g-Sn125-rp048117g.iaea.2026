@@ -1,0 +1,49 @@
+# header: 
+#   title: Sn125(g,x)Cd117g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 117
+#     nuclide: Cd117g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   6.565106E-08
+   5.000000E+01   1.462480E-04
+   5.500000E+01   2.134569E-03
+   6.000000E+01   4.662504E-03
+   6.500000E+01   4.175221E-03
+   7.000000E+01   2.404119E-03
+   7.500000E+01   1.274216E-03
+   8.000000E+01   7.667667E-04
+   9.000000E+01   6.998242E-04
+   1.000000E+02   1.674913E-03
+   1.100000E+02   3.355305E-03
+   1.200000E+02   4.675074E-03
+   1.300000E+02   5.591440E-03
+   1.400000E+02   6.135316E-03
+   1.500000E+02   6.142108E-03
+   1.600000E+02   5.803733E-03
+   1.800000E+02   6.117118E-03
+   2.000000E+02   5.439926E-03

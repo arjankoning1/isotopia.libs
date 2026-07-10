@@ -1,0 +1,40 @@
+# header: 
+#   title: Mg26(g,x)Li6 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 6
+#     nuclide: Li6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.789825E-09
+   9.000000E+01   1.313152E-06
+   1.000000E+02   1.322114E-05
+   1.100000E+02   6.077359E-05
+   1.200000E+02   1.347912E-04
+   1.300000E+02   2.092327E-04
+   1.400000E+02   3.108841E-04
+   1.500000E+02   4.700398E-04
+   1.600000E+02   6.686969E-04
+   1.800000E+02   1.156304E-03
+   2.000000E+02   1.725622E-03

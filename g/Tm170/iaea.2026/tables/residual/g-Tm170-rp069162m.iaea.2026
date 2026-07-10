@@ -1,0 +1,45 @@
+# header: 
+#   title: Tm170(g,x)Tm162m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 69
+#   A: 170
+#   nuclide: Tm170
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 162
+#     nuclide: Tm162m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.644285E-07
+   7.000000E+01   1.826016E-02
+   7.500000E+01   3.196917E-01
+   8.000000E+01   9.264522E-01
+   9.000000E+01   9.666008E-01
+   1.000000E+02   3.841566E-01
+   1.100000E+02   2.016954E-01
+   1.200000E+02   1.576720E-01
+   1.300000E+02   1.269058E-01
+   1.400000E+02   1.145949E-01
+   1.500000E+02   9.614953E-02
+   1.600000E+02   9.241560E-02
+   1.800000E+02   7.180601E-02
+   2.000000E+02   7.427234E-02

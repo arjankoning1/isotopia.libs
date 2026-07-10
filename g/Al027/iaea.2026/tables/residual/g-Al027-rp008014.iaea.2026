@@ -1,0 +1,42 @@
+# header: 
+#   title: Al27(g,x)O14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 14
+#     nuclide: O14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.748701E-12
+   7.500000E+01   1.947417E-08
+   8.000000E+01   3.721142E-07
+   9.000000E+01   5.847844E-06
+   1.000000E+02   3.287759E-05
+   1.100000E+02   8.335236E-05
+   1.200000E+02   1.357520E-04
+   1.300000E+02   1.997211E-04
+   1.400000E+02   2.987207E-04
+   1.500000E+02   4.090016E-04
+   1.600000E+02   5.234762E-04
+   1.800000E+02   6.931511E-04
+   2.000000E+02   8.362443E-04

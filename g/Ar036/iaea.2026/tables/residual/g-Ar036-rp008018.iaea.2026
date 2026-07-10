@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar36(g,x)O18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 18
+#     nuclide: O18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.655493E-12
+   9.000000E+01   8.362639E-09
+   1.000000E+02   7.452158E-08
+   1.100000E+02   1.270289E-06
+   1.200000E+02   1.846676E-05
+   1.300000E+02   6.830967E-05
+   1.400000E+02   1.410541E-04
+   1.500000E+02   2.005162E-04
+   1.600000E+02   2.866472E-04
+   1.800000E+02   5.477850E-04
+   2.000000E+02   5.625800E-04

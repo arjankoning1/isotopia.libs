@@ -1,0 +1,35 @@
+# header: 
+#   title: Eu151(g,x)Ba128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 128
+#     nuclide: Ba128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.392980E-12
+   1.400000E+02   2.324329E-08
+   1.500000E+02   3.165137E-06
+   1.600000E+02   5.416657E-05
+   1.800000E+02   7.740293E-04
+   2.000000E+02   1.271157E-03

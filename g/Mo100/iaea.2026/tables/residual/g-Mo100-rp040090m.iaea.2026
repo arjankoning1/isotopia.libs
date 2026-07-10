@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo100(g,x)Zr90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.741819E-17
+   6.000000E+01   5.380589E-08
+   6.500000E+01   1.895921E-04
+   7.000000E+01   7.156724E-03
+   7.500000E+01   3.467105E-02
+   8.000000E+01   7.295993E-02
+   9.000000E+01   8.812599E-02
+   1.000000E+02   5.822632E-02
+   1.100000E+02   8.001652E-02
+   1.200000E+02   1.307505E-01
+   1.300000E+02   1.283375E-01
+   1.400000E+02   1.093726E-01
+   1.500000E+02   8.066987E-02
+   1.600000E+02   6.327625E-02
+   1.800000E+02   5.915368E-02
+   2.000000E+02   4.363161E-02

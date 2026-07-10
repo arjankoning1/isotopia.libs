@@ -1,0 +1,45 @@
+# header: 
+#   title: Ra226(g,x)Fr217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 217
+#     nuclide: Fr217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.358705E-08
+   6.000000E+01   2.712866E-05
+   6.500000E+01   6.288654E-04
+   7.000000E+01   2.541706E-03
+   7.500000E+01   7.777245E-03
+   8.000000E+01   2.283283E-02
+   9.000000E+01   7.938889E-02
+   1.000000E+02   1.055284E-01
+   1.100000E+02   9.767026E-02
+   1.200000E+02   8.740408E-02
+   1.300000E+02   8.809066E-02
+   1.400000E+02   7.895000E-02
+   1.500000E+02   8.140798E-02
+   1.600000E+02   7.288694E-02
+   1.800000E+02   7.785893E-02
+   2.000000E+02   5.012660E-02

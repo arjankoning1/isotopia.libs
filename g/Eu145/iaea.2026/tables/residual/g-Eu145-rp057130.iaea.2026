@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu145(g,x)La130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 130
+#     nuclide: La130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.709784E-12
+   7.000000E+01   4.553438E-09
+   7.500000E+01   6.668063E-07
+   8.000000E+01   1.488012E-05
+   9.000000E+01   1.980978E-04
+   1.000000E+02   1.795195E-04
+   1.100000E+02   1.678398E-04
+   1.200000E+02   1.305155E-03
+   1.300000E+02   2.677046E-03
+   1.400000E+02   1.458348E-03
+   1.500000E+02   1.440923E-03
+   1.600000E+02   2.574748E-03
+   1.800000E+02   1.335400E-03
+   2.000000E+02   9.585257E-04

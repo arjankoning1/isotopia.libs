@@ -1,0 +1,44 @@
+# header: 
+#   title: Pt188(g,x)Re177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 78
+#   A: 188
+#   nuclide: Pt188
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 177
+#     nuclide: Re177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.393493E-12
+   6.500000E+01   6.132740E-09
+   7.000000E+01   1.222181E-06
+   7.500000E+01   3.593286E-05
+   8.000000E+01   3.614953E-04
+   9.000000E+01   1.621250E-02
+   1.000000E+02   6.584978E-02
+   1.100000E+02   5.798531E-02
+   1.200000E+02   3.266568E-02
+   1.300000E+02   2.658013E-02
+   1.400000E+02   3.361254E-02
+   1.500000E+02   2.587487E-02
+   1.600000E+02   2.161154E-02
+   1.800000E+02   2.121923E-02
+   2.000000E+02   2.025443E-02

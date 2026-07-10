@@ -1,0 +1,37 @@
+# header: 
+#   title: Cr50(g,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.116441E-12
+   1.200000E+02   1.363229E-08
+   1.300000E+02   4.194574E-07
+   1.400000E+02   1.774292E-06
+   1.500000E+02   2.842067E-06
+   1.600000E+02   5.476090E-06
+   1.800000E+02   3.398720E-05
+   2.000000E+02   9.717452E-05

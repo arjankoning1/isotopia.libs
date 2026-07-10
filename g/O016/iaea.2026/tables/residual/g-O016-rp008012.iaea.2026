@@ -1,0 +1,42 @@
+# header: 
+#   title: O16(g,x)O12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 12
+#     nuclide: O12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.235595E-11
+   7.500000E+01   9.072903E-08
+   8.000000E+01   1.230223E-06
+   9.000000E+01   7.350049E-06
+   1.000000E+02   1.182251E-05
+   1.100000E+02   1.344791E-05
+   1.200000E+02   1.375806E-05
+   1.300000E+02   1.353548E-05
+   1.400000E+02   1.295494E-05
+   1.500000E+02   1.187268E-05
+   1.600000E+02   1.095443E-05
+   1.800000E+02   9.114529E-06
+   2.000000E+02   7.764899E-06

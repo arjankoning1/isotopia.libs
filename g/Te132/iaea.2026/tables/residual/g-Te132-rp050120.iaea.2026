@@ -1,0 +1,41 @@
+# header: 
+#   title: Te132(g,x)Sn120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 132
+#   nuclide: Te132
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 120
+#     nuclide: Sn120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.705255E-09
+   8.000000E+01   2.087324E-06
+   9.000000E+01   1.415302E-03
+   1.000000E+02   1.015597E-02
+   1.100000E+02   1.288303E-02
+   1.200000E+02   1.047045E-02
+   1.300000E+02   9.110122E-03
+   1.400000E+02   1.169792E-02
+   1.500000E+02   1.526770E-02
+   1.600000E+02   2.010664E-02
+   1.800000E+02   2.491613E-02
+   2.000000E+02   2.499698E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Pu237(g,x)Ra220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 237
+#   nuclide: Pu237
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 220
+#     nuclide: Ra220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.277422E-14
+   7.000000E+01   5.208886E-11
+   7.500000E+01   1.122238E-08
+   8.000000E+01   4.590268E-07
+   9.000000E+01   1.567338E-05
+   1.000000E+02   2.451599E-05
+   1.100000E+02   2.860149E-05
+   1.200000E+02   2.394915E-05
+   1.300000E+02   2.174115E-05
+   1.400000E+02   2.406033E-05
+   1.500000E+02   2.265185E-05
+   1.600000E+02   2.605470E-05
+   1.800000E+02   7.283893E-06
+   2.000000E+02   5.433571E-06

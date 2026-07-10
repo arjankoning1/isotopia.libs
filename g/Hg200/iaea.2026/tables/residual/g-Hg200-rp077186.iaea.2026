@@ -1,0 +1,39 @@
+# header: 
+#   title: Hg200(g,x)Ir186 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 186
+#     nuclide: Ir186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.288363E-11
+   1.000000E+02   2.614221E-06
+   1.100000E+02   2.515711E-04
+   1.200000E+02   5.173672E-03
+   1.300000E+02   1.728024E-02
+   1.400000E+02   1.550093E-02
+   1.500000E+02   1.224772E-02
+   1.600000E+02   6.811976E-03
+   1.800000E+02   8.350384E-03
+   2.000000E+02   6.883855E-03

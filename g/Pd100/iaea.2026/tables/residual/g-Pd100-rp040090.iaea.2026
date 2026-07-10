@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd100(g,x)Zr90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.732121E-10
+   4.500000E+01   1.316774E-06
+   5.000000E+01   1.012083E-04
+   5.500000E+01   5.968676E-04
+   6.000000E+01   6.620717E-04
+   6.500000E+01   5.929749E-04
+   7.000000E+01   5.239419E-04
+   7.500000E+01   3.706939E-04
+   8.000000E+01   2.775375E-04
+   9.000000E+01   2.548752E-03
+   1.000000E+02   4.613133E-03
+   1.100000E+02   4.211450E-03
+   1.200000E+02   2.808380E-03
+   1.300000E+02   2.846086E-03
+   1.400000E+02   3.712256E-03
+   1.500000E+02   2.940674E-03
+   1.600000E+02   1.740168E-03
+   1.800000E+02   1.117493E-03
+   2.000000E+02   6.326622E-04

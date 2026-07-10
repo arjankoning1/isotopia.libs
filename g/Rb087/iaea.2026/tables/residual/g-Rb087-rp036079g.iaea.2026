@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb87(g,x)Kr79g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 79
+#     nuclide: Kr79g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.406247E-11
+   7.500000E+01   4.496948E-06
+   8.000000E+01   1.247061E-04
+   9.000000E+01   1.487233E-02
+   1.000000E+02   4.829339E-02
+   1.100000E+02   5.184357E-02
+   1.200000E+02   5.067986E-02
+   1.300000E+02   4.989266E-02
+   1.400000E+02   4.894599E-02
+   1.500000E+02   4.530713E-02
+   1.600000E+02   4.248285E-02
+   1.800000E+02   3.681168E-02
+   2.000000E+02   3.359101E-02

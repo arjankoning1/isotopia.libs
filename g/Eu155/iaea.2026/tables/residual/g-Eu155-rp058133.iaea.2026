@@ -1,0 +1,34 @@
+# header: 
+#   title: Eu155(g,x)Ce133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   4.193081E-08
+   1.500000E+02   5.453430E-05
+   1.600000E+02   1.973023E-03
+   1.800000E+02   2.730059E-02
+   2.000000E+02   3.749683E-02

@@ -1,0 +1,35 @@
+# header: 
+#   title: Eu155(g,x)Ba129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   8.228872E-12
+   1.600000E+02   4.670719E-08
+   1.800000E+02   7.957796E-05
+   2.000000E+02   6.266714E-04

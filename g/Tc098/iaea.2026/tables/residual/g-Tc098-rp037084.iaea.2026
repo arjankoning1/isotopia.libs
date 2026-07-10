@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc98(g,x)Rb84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 98
+#   nuclide: Tc98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.669003E-11
+   6.500000E+01   3.849783E-08
+   7.000000E+01   1.165899E-06
+   7.500000E+01   6.798474E-06
+   8.000000E+01   1.707683E-05
+   9.000000E+01   1.763730E-05
+   1.000000E+02   3.137071E-05
+   1.100000E+02   3.021908E-04
+   1.200000E+02   7.312000E-04
+   1.300000E+02   7.788147E-04
+   1.400000E+02   8.982135E-04
+   1.500000E+02   1.596218E-03
+   1.600000E+02   2.232280E-03
+   1.800000E+02   2.363265E-03
+   2.000000E+02   2.406480E-03

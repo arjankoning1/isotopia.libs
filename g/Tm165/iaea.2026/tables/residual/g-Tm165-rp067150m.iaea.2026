@@ -1,0 +1,39 @@
+# header: 
+#   title: Tm165(g,x)Ho150m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 69
+#   A: 165
+#   nuclide: Tm165
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 150
+#     nuclide: Ho150m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.663609E-08
+   1.200000E+02   1.555276E-04
+   1.300000E+02   8.211154E-03
+   1.400000E+02   3.531907E-02
+   1.500000E+02   4.195512E-02
+   1.600000E+02   3.719119E-02
+   1.800000E+02   7.548698E-02
+   2.000000E+02   5.366539E-02

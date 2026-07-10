@@ -1,0 +1,44 @@
+# header: 
+#   title: Ag111(g,x)Rh100g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 111
+#   nuclide: Ag111
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 100
+#     nuclide: Rh100g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.266653E-12
+   7.500000E+01   6.142443E-07
+   8.000000E+01   1.666421E-04
+   9.000000E+01   1.356922E-02
+   1.000000E+02   3.127977E-02
+   1.100000E+02   2.476827E-02
+   1.200000E+02   2.699658E-02
+   1.300000E+02   5.881663E-02
+   1.400000E+02   6.823732E-02
+   1.500000E+02   6.081982E-02
+   1.600000E+02   4.311468E-02
+   1.800000E+02   3.021532E-02
+   2.000000E+02   2.529901E-02

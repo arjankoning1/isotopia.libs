@@ -1,0 +1,41 @@
+# header: 
+#   title: Zr90(g,x)Se75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.399320E-11
+   8.000000E+01   9.284923E-08
+   9.000000E+01   6.739347E-05
+   1.000000E+02   3.563693E-04
+   1.100000E+02   3.094728E-04
+   1.200000E+02   5.228209E-04
+   1.300000E+02   2.509354E-03
+   1.400000E+02   5.245256E-03
+   1.500000E+02   4.613517E-03
+   1.600000E+02   4.614456E-03
+   1.800000E+02   8.846343E-03
+   2.000000E+02   7.392548E-03

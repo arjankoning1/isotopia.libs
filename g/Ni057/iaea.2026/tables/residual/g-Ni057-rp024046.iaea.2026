@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni57(g,x)Cr46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 46
+#     nuclide: Cr46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.218450E-12
+   7.500000E+01   3.824973E-09
+   8.000000E+01   9.702155E-08
+   9.000000E+01   8.896807E-07
+   1.000000E+02   1.116469E-06
+   1.100000E+02   1.236149E-06
+   1.200000E+02   2.723206E-06
+   1.300000E+02   5.494360E-06
+   1.400000E+02   7.197492E-06
+   1.500000E+02   8.325066E-06
+   1.600000E+02   1.056349E-05
+   1.800000E+02   1.598758E-05
+   2.000000E+02   1.804157E-05

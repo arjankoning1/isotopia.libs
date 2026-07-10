@@ -1,0 +1,49 @@
+# header: 
+#   title: Pd100(g,x)Nb92m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.140787E-11
+   5.000000E+01   7.438616E-09
+   5.500000E+01   4.457566E-07
+   6.000000E+01   2.702751E-05
+   6.500000E+01   4.527768E-04
+   7.000000E+01   1.974041E-03
+   7.500000E+01   3.345380E-03
+   8.000000E+01   3.278148E-03
+   9.000000E+01   1.238863E-03
+   1.000000E+02   1.042551E-03
+   1.100000E+02   2.565802E-03
+   1.200000E+02   3.172230E-03
+   1.300000E+02   1.801607E-03
+   1.400000E+02   1.344577E-03
+   1.500000E+02   1.140218E-03
+   1.600000E+02   7.165516E-04
+   1.800000E+02   5.252098E-04
+   2.000000E+02   4.227758E-04

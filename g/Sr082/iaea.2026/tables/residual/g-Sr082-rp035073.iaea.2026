@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr82(g,x)Br73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 73
+#     nuclide: Br73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.879337E-08
+   6.500000E+01   6.478566E-06
+   7.000000E+01   6.235120E-05
+   7.500000E+01   6.959545E-04
+   8.000000E+01   4.745462E-03
+   9.000000E+01   1.779843E-02
+   1.000000E+02   1.483092E-02
+   1.100000E+02   1.297075E-02
+   1.200000E+02   2.097594E-02
+   1.300000E+02   3.000417E-02
+   1.400000E+02   3.377029E-02
+   1.500000E+02   3.135191E-02
+   1.600000E+02   2.899537E-02
+   1.800000E+02   3.105753E-02
+   2.000000E+02   2.845344E-02

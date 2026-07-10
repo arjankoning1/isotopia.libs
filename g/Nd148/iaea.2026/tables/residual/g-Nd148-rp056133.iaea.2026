@@ -1,0 +1,40 @@
+# header: 
+#   title: Nd148(g,x)Ba133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 148
+#   nuclide: Nd148
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.529906E-09
+   9.000000E+01   5.482687E-05
+   1.000000E+02   1.434023E-03
+   1.100000E+02   2.749457E-03
+   1.200000E+02   1.640817E-03
+   1.300000E+02   1.715501E-03
+   1.400000E+02   3.092980E-03
+   1.500000E+02   3.403123E-03
+   1.600000E+02   1.931010E-03
+   1.800000E+02   1.371117E-03
+   2.000000E+02   6.555421E-04

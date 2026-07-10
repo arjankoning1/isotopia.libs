@@ -1,0 +1,36 @@
+# header: 
+#   title: Sn115(g,x)Cd101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 101
+#     nuclide: Cd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   7.974957E-08
+   1.300000E+02   1.706553E-05
+   1.400000E+02   1.915151E-04
+   1.500000E+02   4.346221E-04
+   1.600000E+02   4.361965E-04
+   1.800000E+02   3.766727E-04
+   2.000000E+02   4.108883E-04

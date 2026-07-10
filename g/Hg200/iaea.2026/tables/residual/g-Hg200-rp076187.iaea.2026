@@ -1,0 +1,43 @@
+# header: 
+#   title: Hg200(g,x)Os187 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 187
+#     nuclide: Os187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.486539E-10
+   7.000000E+01   6.956997E-08
+   7.500000E+01   3.733004E-06
+   8.000000E+01   3.766451E-05
+   9.000000E+01   1.902495E-04
+   1.000000E+02   1.048076E-04
+   1.100000E+02   5.431526E-05
+   1.200000E+02   1.666654E-04
+   1.300000E+02   2.954167E-04
+   1.400000E+02   4.287914E-04
+   1.500000E+02   5.341613E-04
+   1.600000E+02   4.107044E-04
+   1.800000E+02   4.317665E-04
+   2.000000E+02   5.306089E-04

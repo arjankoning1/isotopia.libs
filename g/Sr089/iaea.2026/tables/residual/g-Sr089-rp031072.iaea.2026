@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr89(g,x)Ga72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.023314E-10
+   1.000000E+02   8.603454E-07
+   1.100000E+02   4.864534E-05
+   1.200000E+02   4.313957E-04
+   1.300000E+02   6.753290E-04
+   1.400000E+02   4.290291E-04
+   1.500000E+02   4.526357E-04
+   1.600000E+02   6.235436E-04
+   1.800000E+02   5.908111E-04
+   2.000000E+02   3.199981E-04

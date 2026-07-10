@@ -1,0 +1,39 @@
+# header: 
+#   title: S32(g,x)N17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 17
+#     nuclide: N17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.189904E-10
+   1.000000E+02   8.791823E-09
+   1.100000E+02   5.769287E-07
+   1.200000E+02   6.934416E-06
+   1.300000E+02   3.167940E-05
+   1.400000E+02   5.515352E-05
+   1.500000E+02   5.904809E-05
+   1.600000E+02   6.891210E-05
+   1.800000E+02   1.043924E-04
+   2.000000E+02   1.251573E-04

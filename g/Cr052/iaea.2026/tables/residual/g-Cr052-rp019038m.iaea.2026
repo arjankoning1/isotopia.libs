@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr52(g,x)K38m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.280973E-09
+   1.000000E+02   1.758261E-06
+   1.100000E+02   2.397621E-05
+   1.200000E+02   1.467203E-04
+   1.300000E+02   3.348293E-04
+   1.400000E+02   4.676829E-04
+   1.500000E+02   9.330221E-04
+   1.600000E+02   1.894792E-03
+   1.800000E+02   3.049066E-03
+   2.000000E+02   3.718820E-03

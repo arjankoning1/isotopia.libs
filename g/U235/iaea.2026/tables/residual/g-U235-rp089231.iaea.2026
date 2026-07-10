@@ -1,0 +1,46 @@
+# header: 
+#   title: U235(g,x)Ac231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 231
+#     nuclide: Ac231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.438486E-12
+   5.500000E+01   3.178225E-10
+   6.000000E+01   1.091321E-08
+   6.500000E+01   1.057598E-07
+   7.000000E+01   4.634256E-07
+   7.500000E+01   1.211650E-06
+   8.000000E+01   2.306563E-06
+   9.000000E+01   4.299231E-06
+   1.000000E+02   6.018536E-06
+   1.100000E+02   6.930783E-06
+   1.200000E+02   8.539449E-06
+   1.300000E+02   7.085675E-06
+   1.400000E+02   8.686990E-06
+   1.500000E+02   5.489550E-06
+   1.600000E+02   6.427420E-06
+   1.800000E+02   3.661279E-06
+   2.000000E+02   3.978687E-06

@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni58(g,x)Co54m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.544353E-08
+   4.500000E+01   2.214181E-05
+   5.000000E+01   2.167183E-04
+   5.500000E+01   2.199372E-03
+   6.000000E+01   7.069371E-03
+   6.500000E+01   1.113000E-02
+   7.000000E+01   1.332628E-02
+   7.500000E+01   1.454353E-02
+   8.000000E+01   1.520018E-02
+   9.000000E+01   1.534366E-02
+   1.000000E+02   1.467130E-02
+   1.100000E+02   1.374926E-02
+   1.200000E+02   1.260764E-02
+   1.300000E+02   1.178919E-02
+   1.400000E+02   1.077479E-02
+   1.500000E+02   9.847423E-03
+   1.600000E+02   9.132267E-03
+   1.800000E+02   7.516152E-03
+   2.000000E+02   6.563097E-03

@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd144(g,x)Ce133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.691852E-12
+   7.500000E+01   1.498312E-07
+   8.000000E+01   1.450396E-04
+   9.000000E+01   2.634210E-02
+   1.000000E+02   7.687652E-02
+   1.100000E+02   5.337415E-02
+   1.200000E+02   3.385525E-02
+   1.300000E+02   5.884751E-02
+   1.400000E+02   6.939141E-02
+   1.500000E+02   5.631960E-02
+   1.600000E+02   3.488074E-02
+   1.800000E+02   2.520947E-02
+   2.000000E+02   2.153545E-02

@@ -1,0 +1,39 @@
+# header: 
+#   title: Zn64(g,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.559776E-08
+   1.000000E+02   1.438005E-05
+   1.100000E+02   1.189988E-04
+   1.200000E+02   1.989323E-04
+   1.300000E+02   2.508632E-04
+   1.400000E+02   8.705645E-04
+   1.500000E+02   2.154976E-03
+   1.600000E+02   3.329487E-03
+   1.800000E+02   5.452941E-03
+   2.000000E+02   8.609530E-03

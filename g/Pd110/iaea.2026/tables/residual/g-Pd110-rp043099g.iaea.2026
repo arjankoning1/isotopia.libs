@@ -1,0 +1,45 @@
+# header: 
+#   title: Pd110(g,x)Tc99g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.782077E-11
+   7.000000E+01   5.413364E-07
+   7.500000E+01   3.511657E-05
+   8.000000E+01   2.634715E-04
+   9.000000E+01   8.201815E-03
+   1.000000E+02   3.606864E-02
+   1.100000E+02   3.815853E-02
+   1.200000E+02   2.412422E-02
+   1.300000E+02   1.774475E-02
+   1.400000E+02   1.774895E-02
+   1.500000E+02   1.855422E-02
+   1.600000E+02   1.259341E-02
+   1.800000E+02   1.138557E-02
+   2.000000E+02   6.875022E-03

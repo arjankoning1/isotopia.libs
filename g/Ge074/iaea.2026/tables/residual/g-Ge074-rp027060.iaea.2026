@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge74(g,x)Co60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.035852E-11
+   8.000000E+01   1.339988E-07
+   9.000000E+01   6.166402E-05
+   1.000000E+02   1.343370E-03
+   1.100000E+02   8.426091E-03
+   1.200000E+02   1.352818E-02
+   1.300000E+02   1.211614E-02
+   1.400000E+02   1.585213E-02
+   1.500000E+02   2.669217E-02
+   1.600000E+02   3.046901E-02
+   1.800000E+02   2.263032E-02
+   2.000000E+02   2.037413E-02

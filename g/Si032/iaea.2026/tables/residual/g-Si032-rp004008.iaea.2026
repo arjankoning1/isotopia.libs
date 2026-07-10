@@ -1,0 +1,38 @@
+# header: 
+#   title: Si32(g,x)Be8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 8
+#     nuclide: Be8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.325268E-10
+   1.100000E+02   9.092867E-08
+   1.200000E+02   1.484694E-06
+   1.300000E+02   5.699225E-06
+   1.400000E+02   1.229816E-05
+   1.500000E+02   2.450563E-05
+   1.600000E+02   5.264948E-05
+   1.800000E+02   2.001642E-04
+   2.000000E+02   5.142012E-04

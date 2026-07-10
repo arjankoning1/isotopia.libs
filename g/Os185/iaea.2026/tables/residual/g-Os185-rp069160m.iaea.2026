@@ -1,0 +1,35 @@
+# header: 
+#   title: Os185(g,x)Tm160m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 185
+#   nuclide: Os185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 160
+#     nuclide: Tm160m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   3.668995E-11
+   1.600000E+02   3.949744E-08
+   1.800000E+02   2.898889E-05
+   2.000000E+02   3.327817E-04

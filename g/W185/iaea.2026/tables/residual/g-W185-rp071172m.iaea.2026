@@ -1,0 +1,43 @@
+# header: 
+#   title: W185(g,x)Lu172m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 185
+#   nuclide: W185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.000834E-11
+   8.000000E+01   2.626435E-08
+   9.000000E+01   3.406403E-05
+   1.000000E+02   1.032973E-03
+   1.100000E+02   9.641688E-03
+   1.200000E+02   1.940114E-02
+   1.300000E+02   1.776509E-02
+   1.400000E+02   1.380988E-02
+   1.500000E+02   1.269810E-02
+   1.600000E+02   1.291487E-02
+   1.800000E+02   7.617694E-03
+   2.000000E+02   6.213755E-03

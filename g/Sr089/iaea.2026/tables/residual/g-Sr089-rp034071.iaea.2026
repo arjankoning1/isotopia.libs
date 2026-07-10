@@ -1,0 +1,35 @@
+# header: 
+#   title: Sr89(g,x)Se71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 71
+#     nuclide: Se71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.632770E-11
+   1.400000E+02   2.273177E-07
+   1.500000E+02   1.773757E-05
+   1.600000E+02   1.351685E-04
+   1.800000E+02   4.457775E-04
+   2.000000E+02   1.113131E-03

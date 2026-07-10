@@ -1,0 +1,42 @@
+# header: 
+#   title: Pa232(g,x)Rn214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 232
+#   nuclide: Pa232
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 214
+#     nuclide: Rn214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.921883E-13
+   7.500000E+01   2.701494E-11
+   8.000000E+01   7.617574E-10
+   9.000000E+01   1.107899E-07
+   1.000000E+02   1.383288E-06
+   1.100000E+02   7.340465E-06
+   1.200000E+02   1.049247E-05
+   1.300000E+02   1.799632E-05
+   1.400000E+02   2.308726E-05
+   1.500000E+02   2.034017E-05
+   1.600000E+02   2.047037E-05
+   1.800000E+02   3.402642E-05
+   2.000000E+02   2.717485E-05

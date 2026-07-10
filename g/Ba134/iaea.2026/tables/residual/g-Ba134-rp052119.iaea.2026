@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba134(g,x)Te119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.481362E-09
+   1.000000E+02   4.566951E-05
+   1.100000E+02   2.112982E-03
+   1.200000E+02   6.878160E-03
+   1.300000E+02   6.467219E-03
+   1.400000E+02   1.009117E-02
+   1.500000E+02   2.730068E-02
+   1.600000E+02   3.292566E-02
+   1.800000E+02   2.471659E-02
+   2.000000E+02   2.307465E-02

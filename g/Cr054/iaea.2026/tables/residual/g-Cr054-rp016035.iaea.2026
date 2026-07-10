@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr54(g,x)S35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.036663E-10
+   1.000000E+02   1.533180E-07
+   1.100000E+02   1.944288E-06
+   1.200000E+02   3.887807E-06
+   1.300000E+02   8.733961E-06
+   1.400000E+02   6.474740E-05
+   1.500000E+02   2.059918E-04
+   1.600000E+02   3.460413E-04
+   1.800000E+02   7.476684E-04
+   2.000000E+02   1.582275E-03

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ce144(g,x)Ba131g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.683796E-06
+   1.000000E+02   1.343887E-03
+   1.100000E+02   8.999648E-03
+   1.200000E+02   1.157109E-02
+   1.300000E+02   7.479815E-03
+   1.400000E+02   7.020897E-03
+   1.500000E+02   8.812538E-03
+   1.600000E+02   8.773739E-03
+   1.800000E+02   7.380153E-03
+   2.000000E+02   7.144067E-03

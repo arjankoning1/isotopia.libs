@@ -1,0 +1,37 @@
+# header: 
+#   title: Co58(g,x)Ar37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.294376E-09
+   1.200000E+02   1.505429E-07
+   1.300000E+02   4.068365E-06
+   1.400000E+02   2.571098E-05
+   1.500000E+02   5.185141E-05
+   1.600000E+02   7.535339E-05
+   1.800000E+02   3.684262E-04
+   2.000000E+02   8.618614E-04

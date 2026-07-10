@@ -1,0 +1,39 @@
+# header: 
+#   title: Se76(g,x)Fe57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.216742E-08
+   1.000000E+02   6.989658E-06
+   1.100000E+02   5.476770E-05
+   1.200000E+02   8.993125E-05
+   1.300000E+02   1.151015E-04
+   1.400000E+02   5.837034E-04
+   1.500000E+02   1.599900E-03
+   1.600000E+02   2.074744E-03
+   1.800000E+02   3.286781E-03
+   2.000000E+02   5.243240E-03

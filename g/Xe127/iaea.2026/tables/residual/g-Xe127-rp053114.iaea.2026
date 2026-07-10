@@ -1,0 +1,35 @@
+# header: 
+#   title: Xe127(g,x)I114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 127
+#   nuclide: Xe127
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 114
+#     nuclide: I114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   2.422516E-09
+   1.400000E+02   1.194250E-06
+   1.500000E+02   2.430085E-05
+   1.600000E+02   1.668073E-04
+   1.800000E+02   6.490505E-04
+   2.000000E+02   5.302711E-04

@@ -1,0 +1,43 @@
+# header: 
+#   title: Rb85(g,x)Se75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.966224E-08
+   7.000000E+01   2.420629E-05
+   7.500000E+01   3.624054E-04
+   8.000000E+01   2.148676E-03
+   9.000000E+01   3.799497E-02
+   1.000000E+02   8.185204E-02
+   1.100000E+02   6.649157E-02
+   1.200000E+02   5.601322E-02
+   1.300000E+02   7.423065E-02
+   1.400000E+02   8.401430E-02
+   1.500000E+02   7.522853E-02
+   1.600000E+02   5.902597E-02
+   1.800000E+02   3.761773E-02
+   2.000000E+02   3.750497E-02

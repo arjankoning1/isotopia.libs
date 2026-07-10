@@ -1,0 +1,39 @@
+# header: 
+#   title: Gd156(g,x)Ce135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 156
+#   nuclide: Gd156
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.008698E-11
+   1.200000E+02   4.831908E-07
+   1.300000E+02   9.992431E-05
+   1.400000E+02   1.379452E-03
+   1.500000E+02   3.379101E-03
+   1.600000E+02   3.979066E-03
+   1.800000E+02   1.038262E-02
+   2.000000E+02   9.201806E-03

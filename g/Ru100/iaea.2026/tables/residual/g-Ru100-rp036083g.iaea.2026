@@ -1,0 +1,43 @@
+# header: 
+#   title: Ru100(g,x)Kr83g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 83
+#     nuclide: Kr83g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.163027E-11
+   8.000000E+01   4.274811E-10
+   9.000000E+01   3.783259E-09
+   1.000000E+02   6.013905E-09
+   1.100000E+02   1.270942E-06
+   1.200000E+02   2.666190E-05
+   1.300000E+02   7.168589E-05
+   1.400000E+02   6.891106E-05
+   1.500000E+02   1.585422E-04
+   1.600000E+02   4.683069E-04
+   1.800000E+02   4.573326E-04
+   2.000000E+02   7.764333E-04

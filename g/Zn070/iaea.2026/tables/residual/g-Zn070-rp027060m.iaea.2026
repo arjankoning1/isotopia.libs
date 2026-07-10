@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn70(g,x)Co60m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.908106E-09
+   6.500000E+01   1.063059E-05
+   7.000000E+01   2.110794E-04
+   7.500000E+01   9.594398E-04
+   8.000000E+01   4.065537E-03
+   9.000000E+01   2.786404E-02
+   1.000000E+02   3.824291E-02
+   1.100000E+02   2.938087E-02
+   1.200000E+02   2.755825E-02
+   1.300000E+02   3.540436E-02
+   1.400000E+02   3.485173E-02
+   1.500000E+02   3.221270E-02
+   1.600000E+02   2.567331E-02
+   1.800000E+02   2.063206E-02
+   2.000000E+02   1.617527E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Bi208(g,x)Bi198n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 198
+#     nuclide: Bi198n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.552360E-05
+   1.000000E+02   4.933475E-02
+   1.100000E+02   3.399454E-01
+   1.200000E+02   3.153249E-01
+   1.300000E+02   1.303657E-01
+   1.400000E+02   7.294417E-02
+   1.500000E+02   5.740616E-02
+   1.600000E+02   4.634366E-02
+   1.800000E+02   3.357746E-02
+   2.000000E+02   3.575343E-02

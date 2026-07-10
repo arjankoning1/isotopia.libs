@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn112(g,x)In103g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 103
+#     nuclide: In103g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.064854E-08
+   1.000000E+02   3.800342E-06
+   1.100000E+02   4.961117E-05
+   1.200000E+02   1.916266E-04
+   1.300000E+02   2.538095E-04
+   1.400000E+02   2.572413E-04
+   1.500000E+02   2.836872E-04
+   1.600000E+02   3.033736E-04
+   1.800000E+02   4.214410E-04
+   2.000000E+02   4.710511E-04

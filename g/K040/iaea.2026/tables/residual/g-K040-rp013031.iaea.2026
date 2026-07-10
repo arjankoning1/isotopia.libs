@@ -1,0 +1,43 @@
+# header: 
+#   title: K40(g,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.952852E-11
+   7.000000E+01   3.776798E-08
+   7.500000E+01   5.152880E-07
+   8.000000E+01   2.400250E-06
+   9.000000E+01   1.718737E-05
+   1.000000E+02   4.441020E-05
+   1.100000E+02   5.894070E-05
+   1.200000E+02   6.386069E-05
+   1.300000E+02   4.938228E-05
+   1.400000E+02   5.985730E-05
+   1.500000E+02   6.536966E-05
+   1.600000E+02   6.297802E-05
+   1.800000E+02   5.262638E-05
+   2.000000E+02   1.535345E-05

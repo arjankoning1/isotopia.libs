@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd153(g,x)Eu142m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 153
+#   nuclide: Gd153
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 142
+#     nuclide: Eu142m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.997452E-11
+   1.000000E+02   6.430910E-05
+   1.100000E+02   5.110415E-03
+   1.200000E+02   7.083597E-02
+   1.300000E+02   1.843483E-01
+   1.400000E+02   1.675975E-01
+   1.500000E+02   1.066157E-01
+   1.600000E+02   7.667222E-02
+   1.800000E+02   6.528573E-02
+   2.000000E+02   4.995443E-02

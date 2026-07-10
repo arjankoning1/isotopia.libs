@@ -1,0 +1,37 @@
+# header: 
+#   title: Cs137(g,x)Cs125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 125
+#     nuclide: Cs125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.103733E-07
+   1.200000E+02   1.789645E-04
+   1.300000E+02   1.955863E-03
+   1.400000E+02   4.964896E-03
+   1.500000E+02   8.214649E-03
+   1.600000E+02   1.170478E-02
+   1.800000E+02   1.583241E-02
+   2.000000E+02   1.763328E-02

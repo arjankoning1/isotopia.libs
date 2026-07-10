@@ -1,0 +1,39 @@
+# header: 
+#   title: W182(g,x)Hf168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 168
+#     nuclide: Hf168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.949499E-11
+   1.000000E+02   2.952486E-05
+   1.100000E+02   8.691201E-03
+   1.200000E+02   8.247420E-02
+   1.300000E+02   1.560379E-01
+   1.400000E+02   1.235422E-01
+   1.500000E+02   9.651268E-02
+   1.600000E+02   1.189077E-01
+   1.800000E+02   8.388893E-02
+   2.000000E+02   4.544203E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: S36(g,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 36
+#   nuclide: S36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.278892E-12
+   7.000000E+01   3.235642E-07
+   7.500000E+01   2.248904E-05
+   8.000000E+01   1.775107E-04
+   9.000000E+01   1.141955E-03
+   1.000000E+02   2.204589E-03
+   1.100000E+02   2.769746E-03
+   1.200000E+02   3.048634E-03
+   1.300000E+02   3.094019E-03
+   1.400000E+02   3.076601E-03
+   1.500000E+02   2.751383E-03
+   1.600000E+02   2.606692E-03
+   1.800000E+02   2.266554E-03
+   2.000000E+02   1.852559E-03

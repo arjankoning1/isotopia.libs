@@ -1,0 +1,50 @@
+# header: 
+#   title: Pd105(g,x)Rh100m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 100
+#     nuclide: Rh100m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.323115E-05
+   4.500000E+01   1.504167E-03
+   5.000000E+01   1.829662E-02
+   5.500000E+01   2.934470E-01
+   6.000000E+01   7.270457E-01
+   6.500000E+01   8.615859E-01
+   7.000000E+01   7.097902E-01
+   7.500000E+01   5.393457E-01
+   8.000000E+01   4.542072E-01
+   9.000000E+01   3.640850E-01
+   1.000000E+02   3.225560E-01
+   1.100000E+02   2.923245E-01
+   1.200000E+02   2.608209E-01
+   1.300000E+02   2.388419E-01
+   1.400000E+02   1.994931E-01
+   1.500000E+02   1.863837E-01
+   1.600000E+02   1.760219E-01
+   1.800000E+02   1.448099E-01
+   2.000000E+02   1.062454E-01

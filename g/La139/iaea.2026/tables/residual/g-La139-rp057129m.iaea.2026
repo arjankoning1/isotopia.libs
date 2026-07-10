@@ -1,0 +1,41 @@
+# header: 
+#   title: La139(g,x)La129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 129
+#     nuclide: La129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.576165E-09
+   1.000000E+02   1.807850E-03
+   1.100000E+02   9.035096E-02
+   1.200000E+02   2.833784E-01
+   1.300000E+02   2.531169E-01
+   1.400000E+02   1.341292E-01
+   1.500000E+02   7.487063E-02
+   1.600000E+02   5.496571E-02
+   1.800000E+02   4.083375E-02
+   2.000000E+02   3.676176E-02

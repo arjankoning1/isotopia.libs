@@ -1,0 +1,41 @@
+# header: 
+#   title: Ir190(g,x)W177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 190
+#   nuclide: Ir190
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 177
+#     nuclide: W177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.686317E-11
+   8.000000E+01   1.798628E-08
+   9.000000E+01   3.333346E-05
+   1.000000E+02   1.080877E-03
+   1.100000E+02   9.212833E-03
+   1.200000E+02   1.667808E-02
+   1.300000E+02   1.208952E-02
+   1.400000E+02   8.252107E-03
+   1.500000E+02   9.158580E-03
+   1.600000E+02   8.126662E-03
+   1.800000E+02   8.783901E-03
+   2.000000E+02   6.785184E-03

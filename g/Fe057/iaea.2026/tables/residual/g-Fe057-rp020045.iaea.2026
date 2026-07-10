@@ -1,0 +1,47 @@
+# header: 
+#   title: Fe57(g,x)Ca45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 45
+#     nuclide: Ca45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.409189E-10
+   5.000000E+01   1.893204E-07
+   5.500000E+01   1.830081E-06
+   6.000000E+01   3.891243E-06
+   6.500000E+01   3.392365E-06
+   7.000000E+01   1.647232E-06
+   7.500000E+01   8.977862E-07
+   8.000000E+01   2.480150E-06
+   9.000000E+01   7.358693E-05
+   1.000000E+02   2.112239E-04
+   1.100000E+02   1.998212E-04
+   1.200000E+02   2.254825E-04
+   1.300000E+02   5.449468E-04
+   1.400000E+02   9.157935E-04
+   1.500000E+02   1.136670E-03
+   1.600000E+02   1.120352E-03
+   1.800000E+02   1.100140E-03
+   2.000000E+02   9.125089E-04

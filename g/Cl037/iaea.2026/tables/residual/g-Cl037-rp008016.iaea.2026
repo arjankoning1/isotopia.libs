@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl37(g,x)O16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.264817E-09
+   1.000000E+02   5.766331E-06
+   1.100000E+02   8.187633E-05
+   1.200000E+02   2.975501E-04
+   1.300000E+02   6.508016E-04
+   1.400000E+02   1.042390E-03
+   1.500000E+02   1.461912E-03
+   1.600000E+02   2.138774E-03
+   1.800000E+02   3.989295E-03
+   2.000000E+02   6.393593E-03

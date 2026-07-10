@@ -1,0 +1,43 @@
+# header: 
+#   title: Ru100(g,x)Nb89m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 89
+#     nuclide: Nb89m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.560640E-09
+   8.000000E+01   2.731535E-06
+   9.000000E+01   2.505028E-04
+   1.000000E+02   4.445511E-03
+   1.100000E+02   1.142167E-02
+   1.200000E+02   1.120694E-02
+   1.300000E+02   1.242080E-02
+   1.400000E+02   2.177225E-02
+   1.500000E+02   3.353531E-02
+   1.600000E+02   2.821246E-02
+   1.800000E+02   1.391087E-02
+   2.000000E+02   9.007157E-03

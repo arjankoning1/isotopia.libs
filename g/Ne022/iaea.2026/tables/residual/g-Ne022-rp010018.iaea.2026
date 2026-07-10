@@ -1,0 +1,46 @@
+# header: 
+#   title: Ne22(g,x)Ne18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 18
+#     nuclide: Ne18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.787797E-06
+   5.500000E+01   1.713037E-04
+   6.000000E+01   6.010930E-04
+   6.500000E+01   1.045819E-03
+   7.000000E+01   1.300324E-03
+   7.500000E+01   1.388809E-03
+   8.000000E+01   1.381847E-03
+   9.000000E+01   1.272964E-03
+   1.000000E+02   1.140434E-03
+   1.100000E+02   1.014806E-03
+   1.200000E+02   9.020994E-04
+   1.300000E+02   8.037923E-04
+   1.400000E+02   7.251075E-04
+   1.500000E+02   6.421583E-04
+   1.600000E+02   5.674967E-04
+   1.800000E+02   4.618939E-04
+   2.000000E+02   3.720934E-04

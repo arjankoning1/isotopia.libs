@@ -1,0 +1,38 @@
+# header: 
+#   title: Cd115m(g,x)Mo96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 115
+#   nuclide: Cd115m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 96
+#     nuclide: Mo96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.929289E-09
+   1.100000E+02   1.868542E-05
+   1.200000E+02   1.127827E-03
+   1.300000E+02   5.929955E-03
+   1.400000E+02   7.861408E-03
+   1.500000E+02   6.167880E-03
+   1.600000E+02   5.719802E-03
+   1.800000E+02   7.352816E-03
+   2.000000E+02   4.766611E-03

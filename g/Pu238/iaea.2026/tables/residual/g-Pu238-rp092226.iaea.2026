@@ -1,0 +1,42 @@
+# header: 
+#   title: Pu238(g,x)U226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 226
+#     nuclide: U226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.039729E-11
+   7.500000E+01   1.111526E-08
+   8.000000E+01   2.245551E-07
+   9.000000E+01   1.793968E-06
+   1.000000E+02   2.489098E-06
+   1.100000E+02   8.566690E-07
+   1.200000E+02   6.518253E-07
+   1.300000E+02   6.663305E-07
+   1.400000E+02   1.910968E-06
+   1.500000E+02   1.629241E-06
+   1.600000E+02   1.883233E-06
+   1.800000E+02   9.937915E-06
+   2.000000E+02   7.709723E-06

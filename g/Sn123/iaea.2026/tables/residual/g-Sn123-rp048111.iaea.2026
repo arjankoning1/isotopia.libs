@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn123(g,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 123
+#   nuclide: Sn123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.243642E-07
+   9.000000E+01   6.565787E-03
+   1.000000E+02   1.596888E-01
+   1.100000E+02   3.196797E-01
+   1.200000E+02   2.349647E-01
+   1.300000E+02   1.771185E-01
+   1.400000E+02   1.873351E-01
+   1.500000E+02   1.820744E-01
+   1.600000E+02   1.423820E-01
+   1.800000E+02   8.576851E-02
+   2.000000E+02   8.794811E-02

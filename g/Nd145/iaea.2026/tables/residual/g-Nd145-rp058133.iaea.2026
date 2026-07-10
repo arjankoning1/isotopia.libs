@@ -1,0 +1,40 @@
+# header: 
+#   title: Nd145(g,x)Ce133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.844931E-09
+   9.000000E+01   2.159722E-03
+   1.000000E+02   9.252973E-02
+   1.100000E+02   2.093703E-01
+   1.200000E+02   1.362837E-01
+   1.300000E+02   1.368347E-01
+   1.400000E+02   2.728724E-01
+   1.500000E+02   2.486247E-01
+   1.600000E+02   1.760846E-01
+   1.800000E+02   9.704294E-02
+   2.000000E+02   7.798918E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Au198m(g,x)Re182m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 182
+#     nuclide: Re182m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.914444E-08
+   1.000000E+02   1.407054E-05
+   1.100000E+02   7.362042E-05
+   1.200000E+02   7.346871E-05
+   1.300000E+02   3.344001E-05
+   1.400000E+02   9.210496E-05
+   1.500000E+02   8.927969E-05
+   1.600000E+02   5.412588E-05
+   1.800000E+02   3.617728E-05
+   2.000000E+02   3.691761E-05

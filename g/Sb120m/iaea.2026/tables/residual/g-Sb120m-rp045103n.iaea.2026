@@ -1,0 +1,46 @@
+# header: 
+#   title: Sb120m(g,x)Rh103n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.034717E-12
+   6.500000E+01   3.482222E-10
+   7.000000E+01   5.386037E-09
+   7.500000E+01   2.689213E-08
+   8.000000E+01   1.266822E-07
+   9.000000E+01   6.015404E-06
+   1.000000E+02   2.324593E-05
+   1.100000E+02   2.400688E-05
+   1.200000E+02   6.346057E-05
+   1.300000E+02   3.154014E-04
+   1.400000E+02   5.225286E-04
+   1.500000E+02   3.602171E-04
+   1.600000E+02   3.087465E-04
+   1.800000E+02   3.188161E-04
+   2.000000E+02   1.611385E-04

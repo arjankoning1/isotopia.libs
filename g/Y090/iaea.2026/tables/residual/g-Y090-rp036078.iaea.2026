@@ -1,0 +1,39 @@
+# header: 
+#   title: Y90(g,x)Kr78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 78
+#     nuclide: Kr78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.729068E-06
+   1.000000E+02   5.762919E-04
+   1.100000E+02   1.542081E-02
+   1.200000E+02   7.630750E-02
+   1.300000E+02   1.148527E-01
+   1.400000E+02   9.846085E-02
+   1.500000E+02   9.307328E-02
+   1.600000E+02   1.050020E-01
+   1.800000E+02   9.206082E-02
+   2.000000E+02   5.903010E-02

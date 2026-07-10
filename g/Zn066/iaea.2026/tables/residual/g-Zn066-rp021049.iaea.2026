@@ -1,0 +1,40 @@
+# header: 
+#   title: Zn66(g,x)Sc49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 49
+#     nuclide: Sc49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.957598E-11
+   9.000000E+01   1.235925E-09
+   1.000000E+02   6.700458E-09
+   1.100000E+02   1.007228E-08
+   1.200000E+02   9.986483E-08
+   1.300000E+02   7.615221E-07
+   1.400000E+02   2.263036E-06
+   1.500000E+02   3.033279E-06
+   1.600000E+02   4.450778E-06
+   1.800000E+02   1.764663E-05
+   2.000000E+02   2.775968E-05

@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb84(g,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.830578E-11
+   6.500000E+01   1.008307E-05
+   7.000000E+01   2.263330E-03
+   7.500000E+01   1.961248E-02
+   8.000000E+01   4.672176E-02
+   9.000000E+01   5.286651E-02
+   1.000000E+02   3.945420E-02
+   1.100000E+02   7.670543E-02
+   1.200000E+02   1.628799E-01
+   1.300000E+02   1.830988E-01
+   1.400000E+02   1.517666E-01
+   1.500000E+02   1.239569E-01
+   1.600000E+02   1.084417E-01
+   1.800000E+02   9.524304E-02
+   2.000000E+02   9.100700E-02

@@ -1,0 +1,35 @@
+# header: 
+#   title: Np237(g,x)Ra214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 214
+#     nuclide: Ra214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.483876E-10
+   1.400000E+02   8.391166E-09
+   1.500000E+02   1.004557E-07
+   1.600000E+02   9.701520E-07
+   1.800000E+02   6.820304E-06
+   2.000000E+02   1.441368E-05

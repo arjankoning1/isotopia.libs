@@ -1,0 +1,45 @@
+# header: 
+#   title: Ni57(g,x)Ti44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 44
+#     nuclide: Ti44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.693177E-08
+   6.000000E+01   4.063481E-06
+   6.500000E+01   3.364705E-05
+   7.000000E+01   7.375148E-05
+   7.500000E+01   8.778918E-05
+   8.000000E+01   6.807796E-05
+   9.000000E+01   6.449588E-05
+   1.000000E+02   8.844203E-04
+   1.100000E+02   2.632839E-03
+   1.200000E+02   3.242770E-03
+   1.300000E+02   3.574304E-03
+   1.400000E+02   6.317797E-03
+   1.500000E+02   1.155813E-02
+   1.600000E+02   1.298645E-02
+   1.800000E+02   1.789966E-02
+   2.000000E+02   2.119195E-02

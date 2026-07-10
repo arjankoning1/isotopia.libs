@@ -1,0 +1,41 @@
+# header: 
+#   title: Re182(g,x)Ta170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 75
+#   A: 182
+#   nuclide: Re182
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 170
+#     nuclide: Ta170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.757411E-11
+   8.000000E+01   2.587524E-07
+   9.000000E+01   4.464827E-03
+   1.000000E+02   1.269861E-01
+   1.100000E+02   2.596743E-01
+   1.200000E+02   1.485277E-01
+   1.300000E+02   8.946012E-02
+   1.400000E+02   1.427855E-01
+   1.500000E+02   1.196584E-01
+   1.600000E+02   1.054437E-01
+   1.800000E+02   7.518753E-02
+   2.000000E+02   5.746144E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm150(g,x)Nd139 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 139
+#     nuclide: Nd139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.081920E-11
+   7.000000E+01   3.484309E-06
+   7.500000E+01   1.416785E-03
+   8.000000E+01   2.965940E-02
+   9.000000E+01   2.543566E-01
+   1.000000E+02   2.501028E-01
+   1.100000E+02   1.226356E-01
+   1.200000E+02   1.223337E-01
+   1.300000E+02   1.617208E-01
+   1.400000E+02   1.334882E-01
+   1.500000E+02   1.058677E-01
+   1.600000E+02   8.301543E-02
+   1.800000E+02   6.881306E-02
+   2.000000E+02   7.623181E-02

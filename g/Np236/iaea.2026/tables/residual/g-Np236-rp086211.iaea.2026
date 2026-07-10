@@ -1,0 +1,36 @@
+# header: 
+#   title: Np236(g,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 236
+#   nuclide: Np236
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.048141E-11
+   1.300000E+02   8.589051E-10
+   1.400000E+02   1.537843E-08
+   1.500000E+02   8.042586E-08
+   1.600000E+02   3.310767E-07
+   1.800000E+02   6.270581E-07
+   2.000000E+02   1.161093E-06

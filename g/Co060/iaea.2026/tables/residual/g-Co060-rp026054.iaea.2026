@@ -1,0 +1,46 @@
+# header: 
+#   title: Co60(g,x)Fe54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 54
+#     nuclide: Fe54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.905576E-06
+   5.500000E+01   1.024749E-03
+   6.000000E+01   4.188994E-03
+   6.500000E+01   2.545954E-02
+   7.000000E+01   9.960685E-02
+   7.500000E+01   1.871017E-01
+   8.000000E+01   2.363874E-01
+   9.000000E+01   2.190033E-01
+   1.000000E+02   1.780783E-01
+   1.100000E+02   1.560200E-01
+   1.200000E+02   1.431344E-01
+   1.300000E+02   1.305921E-01
+   1.400000E+02   1.215267E-01
+   1.500000E+02   1.142672E-01
+   1.600000E+02   1.030020E-01
+   1.800000E+02   9.093280E-02
+   2.000000E+02   8.409579E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: K41(g,x)S30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 30
+#     nuclide: S30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.064854E-12
+   9.000000E+01   5.974798E-08
+   1.000000E+02   1.299413E-06
+   1.100000E+02   6.165173E-06
+   1.200000E+02   1.644060E-05
+   1.300000E+02   2.711313E-05
+   1.400000E+02   3.413684E-05
+   1.500000E+02   3.877502E-05
+   1.600000E+02   4.346322E-05
+   1.800000E+02   4.721559E-05
+   2.000000E+02   4.645936E-05

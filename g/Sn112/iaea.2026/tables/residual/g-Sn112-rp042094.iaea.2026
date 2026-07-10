@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn112(g,x)Mo94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 94
+#     nuclide: Mo94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.372852E-12
+   7.500000E+01   3.363650E-10
+   8.000000E+01   1.979484E-08
+   9.000000E+01   1.625324E-06
+   1.000000E+02   6.691407E-06
+   1.100000E+02   5.893005E-06
+   1.200000E+02   3.534967E-05
+   1.300000E+02   2.044848E-04
+   1.400000E+02   3.569375E-04
+   1.500000E+02   3.881878E-04
+   1.600000E+02   5.893201E-04
+   1.800000E+02   1.195571E-03
+   2.000000E+02   1.114041E-03

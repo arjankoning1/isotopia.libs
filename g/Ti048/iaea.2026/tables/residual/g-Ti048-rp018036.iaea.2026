@@ -1,0 +1,43 @@
+# header: 
+#   title: Ti48(g,x)Ar36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 36
+#     nuclide: Ar36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.351417E-10
+   7.000000E+01   2.531191E-06
+   7.500000E+01   2.184906E-04
+   8.000000E+01   1.482377E-03
+   9.000000E+01   5.101283E-03
+   1.000000E+02   5.447622E-03
+   1.100000E+02   6.079152E-03
+   1.200000E+02   1.004420E-02
+   1.300000E+02   1.603423E-02
+   1.400000E+02   2.030818E-02
+   1.500000E+02   2.327752E-02
+   1.600000E+02   2.491524E-02
+   1.800000E+02   2.678453E-02
+   2.000000E+02   2.878970E-02

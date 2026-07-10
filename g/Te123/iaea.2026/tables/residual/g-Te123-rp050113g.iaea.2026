@@ -1,0 +1,46 @@
+# header: 
+#   title: Te123(g,x)Sn113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.413334E-11
+   6.500000E+01   6.151441E-07
+   7.000000E+01   1.189574E-04
+   7.500000E+01   2.206243E-03
+   8.000000E+01   8.471009E-03
+   9.000000E+01   1.901316E-02
+   1.000000E+02   1.394501E-02
+   1.100000E+02   1.230236E-02
+   1.200000E+02   2.459380E-02
+   1.300000E+02   3.425106E-02
+   1.400000E+02   2.943446E-02
+   1.500000E+02   1.961944E-02
+   1.600000E+02   1.667056E-02
+   1.800000E+02   1.151518E-02
+   2.000000E+02   1.163816E-02

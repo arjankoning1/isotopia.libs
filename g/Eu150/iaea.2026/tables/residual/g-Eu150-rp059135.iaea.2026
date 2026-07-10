@@ -1,0 +1,40 @@
+# header: 
+#   title: Eu150(g,x)Pr135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 150
+#   nuclide: Eu150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 135
+#     nuclide: Pr135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.181297E-12
+   9.000000E+01   6.782635E-06
+   1.000000E+02   1.666338E-03
+   1.100000E+02   1.044611E-02
+   1.200000E+02   1.190725E-02
+   1.300000E+02   9.420470E-03
+   1.400000E+02   2.415782E-02
+   1.500000E+02   3.402927E-02
+   1.600000E+02   2.813336E-02
+   1.800000E+02   2.017688E-02
+   2.000000E+02   1.251243E-02

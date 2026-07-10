@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti48(g,x)Sc42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.202193E-07
+   6.500000E+01   6.865013E-05
+   7.000000E+01   4.127068E-04
+   7.500000E+01   7.525006E-04
+   8.000000E+01   1.904015E-03
+   9.000000E+01   6.384240E-03
+   1.000000E+02   8.150916E-03
+   1.100000E+02   8.033466E-03
+   1.200000E+02   7.640616E-03
+   1.300000E+02   7.019098E-03
+   1.400000E+02   6.786329E-03
+   1.500000E+02   6.234221E-03
+   1.600000E+02   5.606188E-03
+   1.800000E+02   5.566829E-03
+   2.000000E+02   5.010391E-03

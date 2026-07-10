@@ -1,0 +1,45 @@
+# header: 
+#   title: Os192(g,x)Ta182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 192
+#   nuclide: Os192
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.271129E-09
+   6.000000E+01   1.481024E-07
+   6.500000E+01   1.786144E-06
+   7.000000E+01   1.524799E-05
+   7.500000E+01   1.170815E-04
+   8.000000E+01   3.543348E-04
+   9.000000E+01   7.725896E-04
+   1.000000E+02   7.941702E-04
+   1.100000E+02   6.711160E-04
+   1.200000E+02   7.362439E-04
+   1.300000E+02   1.105441E-03
+   1.400000E+02   1.302404E-03
+   1.500000E+02   1.822670E-03
+   1.600000E+02   2.676283E-03
+   1.800000E+02   2.213499E-03
+   2.000000E+02   2.325645E-03

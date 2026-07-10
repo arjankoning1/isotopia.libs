@@ -1,0 +1,42 @@
+# header: 
+#   title: U237(g,x)U227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 227
+#     nuclide: U227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.002090E-08
+   7.500000E+01   6.023083E-06
+   8.000000E+01   6.447911E-05
+   9.000000E+01   1.977421E-04
+   1.000000E+02   1.545136E-04
+   1.100000E+02   1.029753E-04
+   1.200000E+02   7.717081E-05
+   1.300000E+02   1.163841E-04
+   1.400000E+02   2.932461E-04
+   1.500000E+02   9.958699E-05
+   1.600000E+02   4.410302E-04
+   1.800000E+02   1.498657E-04
+   2.000000E+02   1.039568E-03

@@ -1,0 +1,48 @@
+# header: 
+#   title: Fm252(g,x)Bk248m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 97
+#     A: 248
+#     nuclide: Bk248m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.719003E-13
+   5.500000E+01   6.258909E-11
+   6.000000E+01   1.750039E-09
+   6.500000E+01   1.287532E-08
+   7.000000E+01   4.011496E-08
+   7.500000E+01   7.832208E-08
+   8.000000E+01   1.247212E-07
+   9.000000E+01   2.039249E-07
+   1.000000E+02   2.670438E-07
+   1.100000E+02   2.601046E-07
+   1.200000E+02   2.729706E-07
+   1.300000E+02   2.327920E-07
+   1.400000E+02   2.477293E-07
+   1.500000E+02   1.903226E-07
+   1.600000E+02   1.491257E-07
+   1.800000E+02   1.466989E-07
+   2.000000E+02   6.578107E-08

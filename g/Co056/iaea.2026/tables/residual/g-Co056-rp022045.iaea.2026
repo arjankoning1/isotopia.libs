@@ -1,0 +1,45 @@
+# header: 
+#   title: Co56(g,x)Ti45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.643614E-08
+   6.000000E+01   9.618094E-07
+   6.500000E+01   3.484892E-05
+   7.000000E+01   7.333348E-04
+   7.500000E+01   3.163949E-03
+   8.000000E+01   5.589111E-03
+   9.000000E+01   5.869928E-03
+   1.000000E+02   4.429710E-03
+   1.100000E+02   1.302859E-02
+   1.200000E+02   3.298136E-02
+   1.300000E+02   4.035146E-02
+   1.400000E+02   4.233951E-02
+   1.500000E+02   4.345969E-02
+   1.600000E+02   5.618044E-02
+   1.800000E+02   5.477014E-02
+   2.000000E+02   5.456716E-02

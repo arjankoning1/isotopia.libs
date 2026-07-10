@@ -1,0 +1,39 @@
+# header: 
+#   title: Am241(g,x)Ac222m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.039526E-13
+   1.200000E+02   3.395703E-12
+   1.300000E+02   4.343368E-11
+   1.400000E+02   6.732970E-10
+   1.500000E+02   2.873994E-09
+   1.600000E+02   5.847888E-09
+   1.800000E+02   2.058876E-08
+   2.000000E+02   5.429220E-08

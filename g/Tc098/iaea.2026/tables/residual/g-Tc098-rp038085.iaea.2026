@@ -1,0 +1,43 @@
+# header: 
+#   title: Tc98(g,x)Sr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 98
+#   nuclide: Tc98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.149290E-11
+   7.000000E+01   1.379961E-08
+   7.500000E+01   6.348546E-07
+   8.000000E+01   1.313912E-05
+   9.000000E+01   7.410132E-04
+   1.000000E+02   2.842226E-03
+   1.100000E+02   2.951592E-03
+   1.200000E+02   2.556824E-03
+   1.300000E+02   5.025750E-03
+   1.400000E+02   9.599694E-03
+   1.500000E+02   8.597664E-03
+   1.600000E+02   8.115266E-03
+   1.800000E+02   7.384098E-03
+   2.000000E+02   6.905240E-03

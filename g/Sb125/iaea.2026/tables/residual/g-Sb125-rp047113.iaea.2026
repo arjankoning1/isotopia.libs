@@ -1,0 +1,44 @@
+# header: 
+#   title: Sb125(g,x)Ag113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 113
+#     nuclide: Ag113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.861190E-10
+   6.500000E+01   4.278941E-07
+   7.000000E+01   2.481556E-05
+   7.500000E+01   1.716339E-04
+   8.000000E+01   4.234125E-04
+   9.000000E+01   4.370468E-04
+   1.000000E+02   1.870379E-04
+   1.100000E+02   4.253221E-04
+   1.200000E+02   9.177199E-04
+   1.300000E+02   8.914808E-04
+   1.400000E+02   8.501625E-04
+   1.500000E+02   6.378202E-04
+   1.600000E+02   5.669689E-04
+   1.800000E+02   6.831827E-04
+   2.000000E+02   4.043269E-04

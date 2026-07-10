@@ -1,0 +1,44 @@
+# header: 
+#   title: Pa231(g,x)Ac219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 219
+#     nuclide: Ac219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.883627E-12
+   6.500000E+01   2.532947E-11
+   7.000000E+01   6.331295E-11
+   7.500000E+01   7.248189E-10
+   8.000000E+01   3.777833E-09
+   9.000000E+01   2.343492E-08
+   1.000000E+02   8.278099E-08
+   1.100000E+02   1.522336E-07
+   1.200000E+02   1.975685E-07
+   1.300000E+02   3.180908E-07
+   1.400000E+02   3.088002E-07
+   1.500000E+02   4.334369E-07
+   1.600000E+02   7.988483E-07
+   1.800000E+02   6.785783E-07
+   2.000000E+02   1.103795E-06

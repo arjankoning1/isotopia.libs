@@ -1,0 +1,45 @@
+# header: 
+#   title: U235(g,x)Fr223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 223
+#     nuclide: Fr223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.250232E-13
+   6.000000E+01   1.596925E-11
+   6.500000E+01   3.092367E-10
+   7.000000E+01   4.819819E-09
+   7.500000E+01   2.895356E-08
+   8.000000E+01   6.487485E-08
+   9.000000E+01   4.447573E-08
+   1.000000E+02   4.488946E-08
+   1.100000E+02   5.230178E-08
+   1.200000E+02   6.645290E-08
+   1.300000E+02   1.215390E-07
+   1.400000E+02   1.879056E-07
+   1.500000E+02   2.640355E-07
+   1.600000E+02   3.727939E-07
+   1.800000E+02   2.056513E-07
+   2.000000E+02   2.240311E-07

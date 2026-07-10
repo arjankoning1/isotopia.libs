@@ -1,0 +1,42 @@
+# header: 
+#   title: Co58(g,x)Ca47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.002438E-10
+   7.500000E+01   2.141424E-08
+   8.000000E+01   1.632488E-07
+   9.000000E+01   8.966768E-07
+   1.000000E+02   7.940978E-07
+   1.100000E+02   5.567620E-07
+   1.200000E+02   1.683833E-06
+   1.300000E+02   3.704511E-06
+   1.400000E+02   4.282090E-06
+   1.500000E+02   3.941891E-06
+   1.600000E+02   4.195821E-06
+   1.800000E+02   4.216146E-06
+   2.000000E+02   3.426945E-06

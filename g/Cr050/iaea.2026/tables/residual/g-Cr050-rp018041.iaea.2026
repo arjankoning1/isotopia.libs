@@ -1,0 +1,42 @@
+# header: 
+#   title: Cr50(g,x)Ar41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.462657E-10
+   7.500000E+01   2.317580E-08
+   8.000000E+01   3.669740E-07
+   9.000000E+01   5.728340E-05
+   1.000000E+02   2.786195E-04
+   1.100000E+02   3.173735E-04
+   1.200000E+02   2.223830E-04
+   1.300000E+02   2.067763E-04
+   1.400000E+02   2.809492E-04
+   1.500000E+02   2.599208E-04
+   1.600000E+02   2.178961E-04
+   1.800000E+02   1.485033E-04
+   2.000000E+02   9.701239E-05

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ti44(g,x)Si30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 30
+#     nuclide: Si30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.014053E-09
+   6.000000E+01   1.168560E-06
+   6.500000E+01   2.628856E-05
+   7.000000E+01   1.009767E-04
+   7.500000E+01   1.692260E-04
+   8.000000E+01   1.823722E-04
+   9.000000E+01   1.803803E-04
+   1.000000E+02   6.172986E-04
+   1.100000E+02   2.291707E-03
+   1.200000E+02   3.994883E-03
+   1.300000E+02   4.683545E-03
+   1.400000E+02   5.249266E-03
+   1.500000E+02   6.799310E-03
+   1.600000E+02   8.699204E-03
+   1.800000E+02   9.463181E-03
+   2.000000E+02   1.006661E-02

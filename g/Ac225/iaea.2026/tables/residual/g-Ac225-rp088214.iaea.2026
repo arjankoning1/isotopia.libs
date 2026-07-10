@@ -1,0 +1,42 @@
+# header: 
+#   title: Ac225(g,x)Ra214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 214
+#     nuclide: Ra214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.000879E-11
+   7.500000E+01   2.216681E-08
+   8.000000E+01   1.080958E-06
+   9.000000E+01   5.016914E-05
+   1.000000E+02   4.454516E-04
+   1.100000E+02   1.217658E-03
+   1.200000E+02   1.275068E-03
+   1.300000E+02   1.144890E-03
+   1.400000E+02   8.872808E-04
+   1.500000E+02   1.230914E-03
+   1.600000E+02   1.645323E-03
+   1.800000E+02   1.286724E-03
+   2.000000E+02   1.720664E-03

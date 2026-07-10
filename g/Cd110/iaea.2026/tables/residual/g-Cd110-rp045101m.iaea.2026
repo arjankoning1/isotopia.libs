@@ -1,0 +1,48 @@
+# header: 
+#   title: Cd110(g,x)Rh101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.642917E-10
+   5.500000E+01   4.298061E-07
+   6.000000E+01   1.859149E-05
+   6.500000E+01   3.440687E-04
+   7.000000E+01   7.243784E-03
+   7.500000E+01   3.543315E-02
+   8.000000E+01   7.209542E-02
+   9.000000E+01   7.041146E-02
+   1.000000E+02   4.007155E-02
+   1.100000E+02   4.578242E-02
+   1.200000E+02   7.508927E-02
+   1.300000E+02   6.992197E-02
+   1.400000E+02   5.829717E-02
+   1.500000E+02   4.814685E-02
+   1.600000E+02   3.572368E-02
+   1.800000E+02   3.078549E-02
+   2.000000E+02   2.271740E-02

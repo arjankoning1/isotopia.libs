@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe55(g,x)S36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 36
+#     nuclide: S36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.143256E-12
+   1.000000E+02   1.737043E-09
+   1.100000E+02   6.576752E-08
+   1.200000E+02   4.148933E-07
+   1.300000E+02   9.139943E-07
+   1.400000E+02   1.112349E-06
+   1.500000E+02   3.318266E-06
+   1.600000E+02   9.750061E-06
+   1.800000E+02   1.702307E-05
+   2.000000E+02   3.497669E-05

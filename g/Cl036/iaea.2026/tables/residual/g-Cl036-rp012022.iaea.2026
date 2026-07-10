@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl36(g,x)Mg22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 22
+#     nuclide: Mg22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.104312E-08
+   1.000000E+02   4.032142E-06
+   1.100000E+02   2.600456E-05
+   1.200000E+02   5.793144E-05
+   1.300000E+02   8.605510E-05
+   1.400000E+02   1.076234E-04
+   1.500000E+02   1.310457E-04
+   1.600000E+02   1.595992E-04
+   1.800000E+02   1.938317E-04
+   2.000000E+02   1.713882E-04

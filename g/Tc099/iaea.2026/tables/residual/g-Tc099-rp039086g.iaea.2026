@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc99(g,x)Y86g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.225371E-12
+   7.500000E+01   5.570806E-08
+   8.000000E+01   1.993950E-05
+   9.000000E+01   1.837529E-03
+   1.000000E+02   5.111231E-03
+   1.100000E+02   4.102032E-03
+   1.200000E+02   6.399927E-03
+   1.300000E+02   2.042076E-02
+   1.400000E+02   3.177784E-02
+   1.500000E+02   2.609298E-02
+   1.600000E+02   2.464686E-02
+   1.800000E+02   2.429614E-02
+   2.000000E+02   1.920175E-02

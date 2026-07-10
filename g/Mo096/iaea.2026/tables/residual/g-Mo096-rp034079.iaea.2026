@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo96(g,x)Se79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.749563E-12
+   8.000000E+01   8.369323E-11
+   9.000000E+01   1.260430E-09
+   1.000000E+02   3.276632E-09
+   1.100000E+02   1.406627E-06
+   1.200000E+02   3.371681E-05
+   1.300000E+02   9.067862E-05
+   1.400000E+02   9.464948E-05
+   1.500000E+02   1.124175E-04
+   1.600000E+02   2.793024E-04
+   1.800000E+02   2.937063E-04
+   2.000000E+02   4.778521E-04

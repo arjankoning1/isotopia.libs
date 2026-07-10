@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb208(g,x)Au198 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.465670E-12
+   6.000000E+01   7.489174E-09
+   6.500000E+01   7.646418E-07
+   7.000000E+01   8.776301E-06
+   7.500000E+01   1.052424E-04
+   8.000000E+01   7.648180E-04
+   9.000000E+01   3.069584E-03
+   1.000000E+02   2.036219E-03
+   1.100000E+02   1.169228E-03
+   1.200000E+02   7.769162E-04
+   1.300000E+02   6.671366E-04
+   1.400000E+02   8.789545E-04
+   1.500000E+02   9.750749E-04
+   1.600000E+02   1.160720E-03
+   1.800000E+02   2.102278E-03
+   2.000000E+02   1.638063E-03

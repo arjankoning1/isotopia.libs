@@ -1,0 +1,41 @@
+# header: 
+#   title: Po210(g,x)Tl196m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 84
+#   A: 210
+#   nuclide: Po210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 196
+#     nuclide: Tl196m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.277842E-10
+   1.000000E+02   4.285765E-06
+   1.100000E+02   3.553786E-04
+   1.200000E+02   4.727725E-03
+   1.300000E+02   1.336709E-02
+   1.400000E+02   1.106846E-02
+   1.500000E+02   6.482155E-03
+   1.600000E+02   5.826013E-03
+   1.800000E+02   4.135667E-03
+   2.000000E+02   5.106460E-03

@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb92(g,x)Sr81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 81
+#     nuclide: Sr81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.115595E-09
+   9.000000E+01   1.042984E-04
+   1.000000E+02   4.667160E-03
+   1.100000E+02   3.832139E-02
+   1.200000E+02   6.258719E-02
+   1.300000E+02   5.283622E-02
+   1.400000E+02   5.389406E-02
+   1.500000E+02   8.480664E-02
+   1.600000E+02   9.205472E-02
+   1.800000E+02   7.332321E-02
+   2.000000E+02   6.894179E-02

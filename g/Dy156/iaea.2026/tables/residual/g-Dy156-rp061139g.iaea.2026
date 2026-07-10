@@ -1,0 +1,40 @@
+# header: 
+#   title: Dy156(g,x)Pm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 66
+#   A: 156
+#   nuclide: Dy156
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.480997E-10
+   1.100000E+02   1.745872E-06
+   1.200000E+02   1.287430E-04
+   1.300000E+02   1.773532E-03
+   1.400000E+02   5.689813E-03
+   1.500000E+02   7.135462E-03
+   1.600000E+02   7.344095E-03
+   1.800000E+02   1.706209E-02
+   2.000000E+02   9.616436E-03

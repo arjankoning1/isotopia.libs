@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba132(g,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.965536E-10
+   6.500000E+01   1.530980E-08
+   7.000000E+01   2.733589E-07
+   7.500000E+01   6.280959E-06
+   8.000000E+01   5.172966E-05
+   9.000000E+01   2.050519E-04
+   1.000000E+02   1.082010E-04
+   1.100000E+02   7.344752E-05
+   1.200000E+02   1.502658E-04
+   1.300000E+02   2.508692E-04
+   1.400000E+02   1.739386E-04
+   1.500000E+02   1.425839E-04
+   1.600000E+02   1.559839E-04
+   1.800000E+02   8.979820E-05
+   2.000000E+02   8.846205E-05

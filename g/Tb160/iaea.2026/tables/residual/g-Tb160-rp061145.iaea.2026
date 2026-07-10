@@ -1,0 +1,41 @@
+# header: 
+#   title: Tb160(g,x)Pm145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 65
+#   A: 160
+#   nuclide: Tb160
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 145
+#     nuclide: Pm145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.175278E-09
+   8.000000E+01   3.410061E-07
+   9.000000E+01   2.159203E-04
+   1.000000E+02   1.368004E-03
+   1.100000E+02   1.130783E-03
+   1.200000E+02   7.096306E-04
+   1.300000E+02   1.726157E-03
+   1.400000E+02   3.088805E-03
+   1.500000E+02   3.218246E-03
+   1.600000E+02   3.827193E-03
+   1.800000E+02   2.705439E-03
+   2.000000E+02   3.217861E-03

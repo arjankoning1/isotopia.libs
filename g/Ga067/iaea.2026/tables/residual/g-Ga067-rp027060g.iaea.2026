@@ -1,0 +1,51 @@
+# header: 
+#   title: Ga67(g,x)Co60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   3.819916E-10
+   4.000000E+01   4.126981E-07
+   4.500000E+01   1.550320E-05
+   5.000000E+01   7.746921E-04
+   5.500000E+01   4.500526E-03
+   6.000000E+01   9.392396E-03
+   6.500000E+01   9.558406E-03
+   7.000000E+01   7.185380E-03
+   7.500000E+01   5.088564E-03
+   8.000000E+01   4.207988E-03
+   9.000000E+01   7.089357E-03
+   1.000000E+02   1.315699E-02
+   1.100000E+02   1.423199E-02
+   1.200000E+02   1.070989E-02
+   1.300000E+02   9.171292E-03
+   1.400000E+02   7.151905E-03
+   1.500000E+02   6.121001E-03
+   1.600000E+02   5.544639E-03
+   1.800000E+02   3.636736E-03
+   2.000000E+02   3.022011E-03

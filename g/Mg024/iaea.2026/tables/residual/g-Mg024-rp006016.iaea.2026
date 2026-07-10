@@ -1,0 +1,42 @@
+# header: 
+#   title: Mg24(g,x)C16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 16
+#     nuclide: C16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.409345E-12
+   7.500000E+01   5.022916E-09
+   8.000000E+01   9.268638E-08
+   9.000000E+01   1.026504E-06
+   1.000000E+02   1.915138E-06
+   1.100000E+02   2.047202E-06
+   1.200000E+02   2.530185E-06
+   1.300000E+02   3.372828E-06
+   1.400000E+02   3.861880E-06
+   1.500000E+02   3.733149E-06
+   1.600000E+02   2.995287E-06
+   1.800000E+02   1.705538E-06
+   2.000000E+02   1.127103E-06

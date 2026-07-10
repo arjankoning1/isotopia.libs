@@ -1,0 +1,33 @@
+# header: 
+#   title: Er170(g,x)Sm144 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 144
+#     nuclide: Sm144
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   2.576167E-09
+   1.600000E+02   1.665290E-06
+   1.800000E+02   7.003349E-04
+   2.000000E+02   9.024616E-03

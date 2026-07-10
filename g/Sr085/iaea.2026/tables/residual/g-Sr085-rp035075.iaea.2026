@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr85(g,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.368570E-11
+   7.000000E+01   1.376535E-06
+   7.500000E+01   1.174510E-04
+   8.000000E+01   8.733129E-04
+   9.000000E+01   3.362074E-02
+   1.000000E+02   1.115340E-01
+   1.100000E+02   1.003464E-01
+   1.200000E+02   7.419163E-02
+   1.300000E+02   1.027776E-01
+   1.400000E+02   1.410384E-01
+   1.500000E+02   1.405854E-01
+   1.600000E+02   1.244430E-01
+   1.800000E+02   9.609509E-02
+   2.000000E+02   8.702388E-02

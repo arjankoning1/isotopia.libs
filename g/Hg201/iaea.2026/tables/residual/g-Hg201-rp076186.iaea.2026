@@ -1,0 +1,40 @@
+# header: 
+#   title: Hg201(g,x)Os186 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 201
+#   nuclide: Hg201
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 186
+#     nuclide: Os186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.909530E-10
+   9.000000E+01   9.605806E-06
+   1.000000E+02   4.296323E-04
+   1.100000E+02   1.037317E-03
+   1.200000E+02   6.221484E-04
+   1.300000E+02   3.085601E-04
+   1.400000E+02   6.709680E-04
+   1.500000E+02   9.124696E-04
+   1.600000E+02   1.065906E-03
+   1.800000E+02   7.754980E-04
+   2.000000E+02   8.522777E-04

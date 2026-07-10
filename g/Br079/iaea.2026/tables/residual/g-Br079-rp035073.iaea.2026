@@ -1,0 +1,43 @@
+# header: 
+#   title: Br79(g,x)Br73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 73
+#     nuclide: Br73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.227148E-06
+   7.000000E+01   5.374711E-04
+   7.500000E+01   3.351785E-03
+   8.000000E+01   6.685609E-03
+   9.000000E+01   6.416586E-03
+   1.000000E+02   4.268056E-03
+   1.100000E+02   3.456136E-03
+   1.200000E+02   3.131284E-03
+   1.300000E+02   2.999432E-03
+   1.400000E+02   2.939184E-03
+   1.500000E+02   2.856702E-03
+   1.600000E+02   2.794307E-03
+   1.800000E+02   2.700084E-03
+   2.000000E+02   2.793072E-03

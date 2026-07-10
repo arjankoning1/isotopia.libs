@@ -1,0 +1,47 @@
+# header: 
+#   title: O18(g,x)Li9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 9
+#     nuclide: Li9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.760912E-07
+   5.000000E+01   9.104469E-06
+   5.500000E+01   1.726939E-05
+   6.000000E+01   1.536039E-05
+   6.500000E+01   1.009067E-05
+   7.000000E+01   9.013561E-06
+   7.500000E+01   1.452289E-05
+   8.000000E+01   2.872381E-05
+   9.000000E+01   8.314695E-05
+   1.000000E+02   1.500485E-04
+   1.100000E+02   1.925019E-04
+   1.200000E+02   2.132939E-04
+   1.300000E+02   2.321073E-04
+   1.400000E+02   2.513177E-04
+   1.500000E+02   2.583500E-04
+   1.600000E+02   2.607610E-04
+   1.800000E+02   2.412535E-04
+   2.000000E+02   2.112507E-04

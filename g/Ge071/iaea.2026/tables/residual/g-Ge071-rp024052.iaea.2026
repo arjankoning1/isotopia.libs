@@ -1,0 +1,40 @@
+# header: 
+#   title: Ge71(g,x)Cr52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 71
+#   nuclide: Ge71
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 52
+#     nuclide: Cr52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.240333E-12
+   9.000000E+01   9.428840E-08
+   1.000000E+02   6.568779E-06
+   1.100000E+02   3.022909E-05
+   1.200000E+02   4.164628E-05
+   1.300000E+02   1.173929E-04
+   1.400000E+02   5.255670E-04
+   1.500000E+02   1.143600E-03
+   1.600000E+02   1.474084E-03
+   1.800000E+02   3.199164E-03
+   2.000000E+02   4.815136E-03

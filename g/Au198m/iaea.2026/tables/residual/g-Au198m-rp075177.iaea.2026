@@ -1,0 +1,36 @@
+# header: 
+#   title: Au198m(g,x)Re177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 177
+#     nuclide: Re177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.046324E-11
+   1.300000E+02   1.823799E-07
+   1.400000E+02   5.323853E-05
+   1.500000E+02   1.100264E-03
+   1.600000E+02   6.245107E-03
+   1.800000E+02   1.273912E-02
+   2.000000E+02   6.702546E-03

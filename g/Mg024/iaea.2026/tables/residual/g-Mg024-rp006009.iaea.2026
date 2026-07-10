@@ -1,0 +1,39 @@
+# header: 
+#   title: Mg24(g,x)C9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 9
+#     nuclide: C9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.834537E-10
+   1.000000E+02   1.083610E-07
+   1.100000E+02   6.880682E-07
+   1.200000E+02   1.428236E-06
+   1.300000E+02   2.924608E-06
+   1.400000E+02   6.494453E-06
+   1.500000E+02   1.189160E-05
+   1.600000E+02   1.816238E-05
+   1.800000E+02   3.515596E-05
+   2.000000E+02   5.671320E-05

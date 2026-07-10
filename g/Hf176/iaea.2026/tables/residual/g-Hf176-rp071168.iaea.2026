@@ -1,0 +1,44 @@
+# header: 
+#   title: Hf176(g,x)Lu168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 176
+#   nuclide: Hf176
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 168
+#     nuclide: Lu168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.962909E-09
+   6.500000E+01   1.429350E-04
+   7.000000E+01   4.147720E-03
+   7.500000E+01   2.003670E-02
+   8.000000E+01   9.798126E-02
+   9.000000E+01   5.201869E-01
+   1.000000E+02   5.562530E-01
+   1.100000E+02   4.079291E-01
+   1.200000E+02   3.519266E-01
+   1.300000E+02   3.192354E-01
+   1.400000E+02   3.002355E-01
+   1.500000E+02   2.642349E-01
+   1.600000E+02   2.532328E-01
+   1.800000E+02   2.404915E-01
+   2.000000E+02   1.481774E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba136(g,x)Xe123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 123
+#     nuclide: Xe123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.246982E-12
+   1.000000E+02   3.964080E-05
+   1.100000E+02   1.601917E-02
+   1.200000E+02   1.250040E-01
+   1.300000E+02   1.806775E-01
+   1.400000E+02   1.209784E-01
+   1.500000E+02   9.209232E-02
+   1.600000E+02   7.791032E-02
+   1.800000E+02   4.866445E-02
+   2.000000E+02   4.164971E-02

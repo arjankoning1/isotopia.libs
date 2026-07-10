@@ -1,0 +1,49 @@
+# header: 
+#   title: Mo99(g,x)Y90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.106774E-10
+   5.000000E+01   1.210613E-06
+   5.500000E+01   3.212630E-05
+   6.000000E+01   2.195935E-04
+   6.500000E+01   2.151128E-03
+   7.000000E+01   7.557136E-03
+   7.500000E+01   1.205355E-02
+   8.000000E+01   1.190610E-02
+   9.000000E+01   6.968869E-03
+   1.000000E+02   6.179864E-03
+   1.100000E+02   8.017880E-03
+   1.200000E+02   9.100156E-03
+   1.300000E+02   7.553452E-03
+   1.400000E+02   5.759952E-03
+   1.500000E+02   6.564670E-03
+   1.600000E+02   6.357253E-03
+   1.800000E+02   4.356131E-03
+   2.000000E+02   2.695425E-03

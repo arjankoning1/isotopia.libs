@@ -1,0 +1,39 @@
+# header: 
+#   title: Ra226(g,x)Pb204 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 204
+#     nuclide: Pb204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.029799E-09
+   1.000000E+02   1.771275E-08
+   1.100000E+02   3.899417E-06
+   1.200000E+02   4.713233E-06
+   1.300000E+02   5.339097E-05
+   1.400000E+02   2.029236E-04
+   1.500000E+02   3.260676E-04
+   1.600000E+02   3.396691E-04
+   1.800000E+02   6.177106E-04
+   2.000000E+02   4.545026E-04

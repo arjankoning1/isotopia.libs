@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo95(g,x)Br82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.541897E-11
+   7.000000E+01   2.791791E-10
+   7.500000E+01   9.874661E-10
+   8.000000E+01   1.310757E-09
+   9.000000E+01   6.860702E-09
+   1.000000E+02   2.754942E-07
+   1.100000E+02   2.669665E-06
+   1.200000E+02   6.271624E-06
+   1.300000E+02   8.668329E-06
+   1.400000E+02   2.344279E-05
+   1.500000E+02   5.624917E-05
+   1.600000E+02   6.530797E-05
+   1.800000E+02   7.863186E-05
+   2.000000E+02   1.143455E-04

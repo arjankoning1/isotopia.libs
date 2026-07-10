@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr87(g,x)Br77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 77
+#     nuclide: Br77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.701820E-10
+   7.000000E+01   2.709172E-06
+   7.500000E+01   1.332154E-04
+   8.000000E+01   1.025307E-03
+   9.000000E+01   3.893868E-02
+   1.000000E+02   1.184154E-01
+   1.100000E+02   1.079718E-01
+   1.200000E+02   8.019735E-02
+   1.300000E+02   9.135430E-02
+   1.400000E+02   1.140345E-01
+   1.500000E+02   9.725747E-02
+   1.600000E+02   9.155942E-02
+   1.800000E+02   6.060796E-02
+   2.000000E+02   4.226334E-02

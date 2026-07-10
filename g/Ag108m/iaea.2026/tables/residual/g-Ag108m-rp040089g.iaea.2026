@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag108m(g,x)Zr89g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 108
+#   nuclide: Ag108m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.301750E-10
+   1.100000E+02   2.545336E-07
+   1.200000E+02   1.553476E-05
+   1.300000E+02   1.791924E-04
+   1.400000E+02   5.871144E-04
+   1.500000E+02   7.501708E-04
+   1.600000E+02   1.091178E-03
+   1.800000E+02   3.365790E-03
+   2.000000E+02   4.463029E-03

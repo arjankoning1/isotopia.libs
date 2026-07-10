@@ -1,0 +1,46 @@
+# header: 
+#   title: Pa231(g,x)Ra227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 227
+#     nuclide: Ra227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.124785E-11
+   5.500000E+01   2.577900E-09
+   6.000000E+01   5.414046E-08
+   6.500000E+01   3.259523E-07
+   7.000000E+01   9.850010E-07
+   7.500000E+01   1.906433E-06
+   8.000000E+01   2.964706E-06
+   9.000000E+01   4.906086E-06
+   1.000000E+02   5.866425E-06
+   1.100000E+02   5.930107E-06
+   1.200000E+02   6.041435E-06
+   1.300000E+02   5.601785E-06
+   1.400000E+02   5.157385E-06
+   1.500000E+02   3.792847E-06
+   1.600000E+02   4.122353E-06
+   1.800000E+02   2.907419E-06
+   2.000000E+02   1.783630E-06

@@ -1,0 +1,47 @@
+# header: 
+#   title: Fe57(g,x)Sc50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.643538E-11
+   6.000000E+01   1.413669E-08
+   6.500000E+01   1.925438E-07
+   7.000000E+01   6.716214E-07
+   7.500000E+01   9.993507E-07
+   8.000000E+01   8.971574E-07
+   9.000000E+01   6.344492E-07
+   1.000000E+02   1.352329E-06
+   1.100000E+02   4.773534E-06
+   1.200000E+02   6.027627E-06
+   1.300000E+02   6.337944E-06
+   1.400000E+02   6.552992E-06
+   1.500000E+02   4.243907E-06
+   1.600000E+02   3.745707E-06
+   1.800000E+02   3.087946E-06
+   2.000000E+02   2.600623E-06

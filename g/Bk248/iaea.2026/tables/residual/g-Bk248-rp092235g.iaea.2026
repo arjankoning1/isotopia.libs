@@ -1,0 +1,47 @@
+# header: 
+#   title: Bk248(g,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 97
+#   A: 248
+#   nuclide: Bk248
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.204634E-13
+   6.000000E+01   8.689055E-11
+   6.500000E+01   3.245706E-09
+   7.000000E+01   2.139154E-08
+   7.500000E+01   6.468110E-08
+   8.000000E+01   1.500846E-07
+   9.000000E+01   2.587583E-07
+   1.000000E+02   3.404275E-07
+   1.100000E+02   3.911251E-07
+   1.200000E+02   4.025273E-07
+   1.300000E+02   4.617127E-07
+   1.400000E+02   5.459636E-07
+   1.500000E+02   4.622886E-07
+   1.600000E+02   2.771393E-07
+   1.800000E+02   1.778386E-07
+   2.000000E+02   1.894344E-07

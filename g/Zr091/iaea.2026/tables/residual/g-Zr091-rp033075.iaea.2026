@@ -1,0 +1,40 @@
+# header: 
+#   title: Zr91(g,x)As75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 91
+#   nuclide: Zr91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 75
+#     nuclide: As75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.312657E-12
+   9.000000E+01   3.703672E-09
+   1.000000E+02   7.450427E-07
+   1.100000E+02   9.365243E-06
+   1.200000E+02   1.958249E-05
+   1.300000E+02   1.707766E-05
+   1.400000E+02   4.162415E-05
+   1.500000E+02   9.929242E-05
+   1.600000E+02   2.044229E-04
+   1.800000E+02   2.880840E-04
+   2.000000E+02   4.347071E-04

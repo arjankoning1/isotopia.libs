@@ -1,0 +1,38 @@
+# header: 
+#   title: Cu63(g,x)K44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 44
+#     nuclide: K44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.289278E-12
+   1.100000E+02   3.189878E-10
+   1.200000E+02   9.635576E-09
+   1.300000E+02   3.899833E-08
+   1.400000E+02   4.605412E-08
+   1.500000E+02   8.695194E-08
+   1.600000E+02   2.474885E-07
+   1.800000E+02   7.582045E-07
+   2.000000E+02   2.458899E-06

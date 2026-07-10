@@ -1,0 +1,46 @@
+# header: 
+#   title: Cs134(g,x)Sb122m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.518085E-10
+   6.500000E+01   5.822332E-07
+   7.000000E+01   1.667064E-05
+   7.500000E+01   8.562900E-05
+   8.000000E+01   1.680603E-04
+   9.000000E+01   1.055333E-04
+   1.000000E+02   3.105516E-04
+   1.100000E+02   2.167358E-03
+   1.200000E+02   3.191131E-03
+   1.300000E+02   2.112120E-03
+   1.400000E+02   7.222200E-04
+   1.500000E+02   4.911632E-04
+   1.600000E+02   4.562524E-04
+   1.800000E+02   2.410170E-04
+   2.000000E+02   2.710562E-04

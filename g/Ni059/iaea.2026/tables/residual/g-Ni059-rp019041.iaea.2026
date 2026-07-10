@@ -1,0 +1,39 @@
+# header: 
+#   title: Ni59(g,x)K41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 41
+#     nuclide: K41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.629451E-08
+   1.000000E+02   1.232496E-06
+   1.100000E+02   5.264617E-06
+   1.200000E+02   5.604865E-06
+   1.300000E+02   1.241556E-05
+   1.400000E+02   6.535782E-05
+   1.500000E+02   1.445097E-04
+   1.600000E+02   1.815946E-04
+   1.800000E+02   4.162107E-04
+   2.000000E+02   6.208533E-04

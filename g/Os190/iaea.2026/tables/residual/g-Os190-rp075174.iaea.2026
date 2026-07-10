@@ -1,0 +1,35 @@
+# header: 
+#   title: Os190(g,x)Re174 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 174
+#     nuclide: Re174
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   5.213529E-10
+   1.400000E+02   7.102833E-06
+   1.500000E+02   8.497365E-04
+   1.600000E+02   1.475109E-02
+   1.800000E+02   2.587460E-01
+   2.000000E+02   2.343393E-01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi207(g,x)Pb199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 199
+#     nuclide: Pb199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.954766E-08
+   6.500000E+01   1.378161E-04
+   7.000000E+01   2.169183E-03
+   7.500000E+01   3.027721E-02
+   8.000000E+01   1.896622E-01
+   9.000000E+01   5.455482E-01
+   1.000000E+02   5.497298E-01
+   1.100000E+02   5.009013E-01
+   1.200000E+02   4.620215E-01
+   1.300000E+02   4.249854E-01
+   1.400000E+02   3.959593E-01
+   1.500000E+02   3.613250E-01
+   1.600000E+02   3.374776E-01
+   1.800000E+02   2.977006E-01
+   2.000000E+02   2.159529E-01

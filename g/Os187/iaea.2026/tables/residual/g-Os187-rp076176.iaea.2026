@@ -1,0 +1,39 @@
+# header: 
+#   title: Os187(g,x)Os176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 187
+#   nuclide: Os187
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 176
+#     nuclide: Os176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.357027E-11
+   1.000000E+02   4.938463E-04
+   1.100000E+02   5.833748E-02
+   1.200000E+02   4.134828E-01
+   1.300000E+02   6.368557E-01
+   1.400000E+02   4.251254E-01
+   1.500000E+02   2.079272E-01
+   1.600000E+02   1.318358E-01
+   1.800000E+02   1.007736E-01
+   2.000000E+02   9.236639E-02

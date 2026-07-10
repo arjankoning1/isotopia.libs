@@ -1,0 +1,45 @@
+# header: 
+#   title: Zr92(g,x)Rb82g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.275314E-12
+   7.000000E+01   5.693028E-07
+   7.500000E+01   5.925813E-05
+   8.000000E+01   3.458926E-04
+   9.000000E+01   5.300134E-03
+   1.000000E+02   1.639440E-02
+   1.100000E+02   1.446401E-02
+   1.200000E+02   1.209877E-02
+   1.300000E+02   1.311889E-02
+   1.400000E+02   1.719967E-02
+   1.500000E+02   1.411653E-02
+   1.600000E+02   1.238198E-02
+   1.800000E+02   8.845127E-03
+   2.000000E+02   7.467781E-03

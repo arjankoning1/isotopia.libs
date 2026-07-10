@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh102(g,x)Tc93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 93
+#     nuclide: Tc93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.288563E-07
+   6.000000E+01   6.299991E-04
+   6.500000E+01   2.457076E-02
+   7.000000E+01   9.294581E-02
+   7.500000E+01   1.414180E-01
+   8.000000E+01   1.378585E-01
+   9.000000E+01   7.518598E-02
+   1.000000E+02   1.051332E-01
+   1.100000E+02   2.769667E-01
+   1.200000E+02   3.290500E-01
+   1.300000E+02   2.727165E-01
+   1.400000E+02   2.226345E-01
+   1.500000E+02   1.917657E-01
+   1.600000E+02   1.866366E-01
+   1.800000E+02   1.436590E-01
+   2.000000E+02   1.572807E-01

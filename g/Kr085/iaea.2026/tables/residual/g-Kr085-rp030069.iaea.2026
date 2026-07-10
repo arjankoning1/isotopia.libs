@@ -1,0 +1,40 @@
+# header: 
+#   title: Kr85(g,x)Zn69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 85
+#   nuclide: Kr85
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.650571E-10
+   9.000000E+01   1.207266E-05
+   1.000000E+02   2.351987E-04
+   1.100000E+02   3.793801E-04
+   1.200000E+02   2.660439E-04
+   1.300000E+02   5.016791E-04
+   1.400000E+02   1.226414E-03
+   1.500000E+02   1.425425E-03
+   1.600000E+02   1.069725E-03
+   1.800000E+02   1.452846E-03
+   2.000000E+02   9.084662E-04

@@ -1,0 +1,38 @@
+# header: 
+#   title: Xe136(g,x)Xe125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.566595E-05
+   1.100000E+02   3.727891E-03
+   1.200000E+02   1.535515E-02
+   1.300000E+02   2.272283E-02
+   1.400000E+02   2.876290E-02
+   1.500000E+02   3.329739E-02
+   1.600000E+02   3.685495E-02
+   1.800000E+02   3.756127E-02
+   2.000000E+02   4.061980E-02

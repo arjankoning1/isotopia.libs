@@ -1,0 +1,36 @@
+# header: 
+#   title: Cd116(g,x)Nb95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.387099E-10
+   1.300000E+02   2.942193E-07
+   1.400000E+02   1.452823E-05
+   1.500000E+02   2.460869E-04
+   1.600000E+02   1.140676E-03
+   1.800000E+02   1.686495E-03
+   2.000000E+02   1.343630E-03

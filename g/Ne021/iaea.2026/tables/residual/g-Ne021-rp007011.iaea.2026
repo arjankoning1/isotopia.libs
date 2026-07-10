@@ -1,0 +1,40 @@
+# header: 
+#   title: Ne21(g,x)N11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 11
+#     nuclide: N11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.033222E-09
+   9.000000E+01   6.940535E-07
+   1.000000E+02   5.219187E-06
+   1.100000E+02   1.565800E-05
+   1.200000E+02   3.069518E-05
+   1.300000E+02   4.564545E-05
+   1.400000E+02   6.049696E-05
+   1.500000E+02   7.537295E-05
+   1.600000E+02   8.907178E-05
+   1.800000E+02   1.052882E-04
+   2.000000E+02   1.026308E-04

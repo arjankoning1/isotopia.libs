@@ -1,0 +1,46 @@
+# header: 
+#   title: U235(g,x)Pa227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 227
+#     nuclide: Pa227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.516222E-12
+   5.500000E+01   1.296863E-07
+   6.000000E+01   3.035133E-06
+   6.500000E+01   9.421546E-06
+   7.000000E+01   5.513486E-05
+   7.500000E+01   1.854837E-04
+   8.000000E+01   4.700757E-04
+   9.000000E+01   9.838096E-04
+   1.000000E+02   1.722460E-03
+   1.100000E+02   2.200987E-03
+   1.200000E+02   2.582668E-03
+   1.300000E+02   3.535334E-03
+   1.400000E+02   3.622308E-03
+   1.500000E+02   4.506818E-03
+   1.600000E+02   5.913517E-03
+   1.800000E+02   3.142411E-03
+   2.000000E+02   8.825485E-03

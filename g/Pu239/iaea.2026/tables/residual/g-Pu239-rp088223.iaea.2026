@@ -1,0 +1,43 @@
+# header: 
+#   title: Pu239(g,x)Ra223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 223
+#     nuclide: Ra223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.791029E-13
+   7.000000E+01   9.490202E-11
+   7.500000E+01   3.780970E-09
+   8.000000E+01   4.639091E-08
+   9.000000E+01   3.202587E-07
+   1.000000E+02   5.132628E-07
+   1.100000E+02   4.640584E-07
+   1.200000E+02   3.447749E-07
+   1.300000E+02   4.429622E-07
+   1.400000E+02   5.117993E-07
+   1.500000E+02   4.905088E-07
+   1.600000E+02   2.947604E-07
+   1.800000E+02   6.606730E-08
+   2.000000E+02   7.068510E-08

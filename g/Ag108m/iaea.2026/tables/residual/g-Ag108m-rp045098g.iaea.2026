@@ -1,0 +1,45 @@
+# header: 
+#   title: Ag108m(g,x)Rh98g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 108
+#   nuclide: Ag108m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.476004E-09
+   7.000000E+01   2.073848E-05
+   7.500000E+01   2.205522E-03
+   8.000000E+01   1.681318E-02
+   9.000000E+01   5.880984E-02
+   1.000000E+02   4.449512E-02
+   1.100000E+02   4.458903E-02
+   1.200000E+02   1.050078E-01
+   1.300000E+02   1.642847E-01
+   1.400000E+02   1.317331E-01
+   1.500000E+02   1.129186E-01
+   1.600000E+02   8.376482E-02
+   1.800000E+02   7.391189E-02
+   2.000000E+02   6.756412E-02

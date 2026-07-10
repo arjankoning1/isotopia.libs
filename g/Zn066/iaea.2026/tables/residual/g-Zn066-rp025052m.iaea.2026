@@ -1,0 +1,42 @@
+# header: 
+#   title: Zn66(g,x)Mn52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.707289E-13
+   9.000000E+01   8.548096E-07
+   1.000000E+02   5.727455E-05
+   1.100000E+02   1.220122E-03
+   1.200000E+02   5.211067E-03
+   1.300000E+02   7.578203E-03
+   1.400000E+02   8.918289E-03
+   1.500000E+02   1.540538E-02
+   1.600000E+02   2.561525E-02
+   1.800000E+02   2.783004E-02
+   2.000000E+02   2.815629E-02

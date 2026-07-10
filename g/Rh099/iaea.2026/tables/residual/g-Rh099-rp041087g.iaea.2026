@@ -1,0 +1,44 @@
+# header: 
+#   title: Rh99(g,x)Nb87g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 87
+#     nuclide: Nb87g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.706196E-09
+   7.500000E+01   5.153352E-06
+   8.000000E+01   1.043406E-04
+   9.000000E+01   6.075399E-04
+   1.000000E+02   4.905274E-04
+   1.100000E+02   5.253290E-04
+   1.200000E+02   2.823829E-03
+   1.300000E+02   5.493966E-03
+   1.400000E+02   6.045293E-03
+   1.500000E+02   5.878793E-03
+   1.600000E+02   7.281731E-03
+   1.800000E+02   9.117245E-03
+   2.000000E+02   8.656590E-03

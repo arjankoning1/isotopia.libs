@@ -1,0 +1,34 @@
+# header: 
+#   title: Lu171(g,x)Yb155 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 71
+#   A: 171
+#   nuclide: Lu171
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 155
+#     nuclide: Yb155
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   4.831123E-11
+   1.500000E+02   4.131313E-07
+   1.600000E+02   3.819873E-05
+   1.800000E+02   4.067220E-03
+   2.000000E+02   1.316190E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Pd100(g,x)Nb87g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 87
+#     nuclide: Nb87g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.325270E-10
+   8.000000E+01   6.475888E-08
+   9.000000E+01   2.338798E-05
+   1.000000E+02   6.164569E-04
+   1.100000E+02   1.274272E-03
+   1.200000E+02   1.047253E-03
+   1.300000E+02   1.591537E-03
+   1.400000E+02   5.006599E-03
+   1.500000E+02   7.146695E-03
+   1.600000E+02   6.603636E-03
+   1.800000E+02   9.255535E-03
+   2.000000E+02   9.890352E-03

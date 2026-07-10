@@ -1,0 +1,39 @@
+# header: 
+#   title: Rh103(g,x)Rb84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.934928E-09
+   1.000000E+02   1.007295E-06
+   1.100000E+02   7.660367E-06
+   1.200000E+02   8.463844E-06
+   1.300000E+02   1.062815E-05
+   1.400000E+02   7.019904E-05
+   1.500000E+02   1.525152E-04
+   1.600000E+02   1.854259E-04
+   1.800000E+02   7.017357E-04
+   2.000000E+02   1.409548E-03

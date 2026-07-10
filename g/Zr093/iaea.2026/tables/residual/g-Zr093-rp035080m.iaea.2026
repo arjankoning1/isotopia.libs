@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr93(g,x)Br80m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 93
+#   nuclide: Zr93
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.820848E-11
+   7.500000E+01   3.345742E-08
+   8.000000E+01   1.348537E-06
+   9.000000E+01   5.206049E-04
+   1.000000E+02   4.755329E-03
+   1.100000E+02   5.468368E-03
+   1.200000E+02   5.350023E-03
+   1.300000E+02   1.428873E-02
+   1.400000E+02   2.779880E-02
+   1.500000E+02   2.382149E-02
+   1.600000E+02   1.839938E-02
+   1.800000E+02   1.493690E-02
+   2.000000E+02   9.725854E-03

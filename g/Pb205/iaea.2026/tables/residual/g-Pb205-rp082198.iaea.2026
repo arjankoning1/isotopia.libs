@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb205(g,x)Pb198 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 198
+#     nuclide: Pb198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.086267E-09
+   6.000000E+01   2.295725E-03
+   6.500000E+01   1.934503E-01
+   7.000000E+01   1.518758E+00
+   7.500000E+01   3.360472E+00
+   8.000000E+01   3.620687E+00
+   9.000000E+01   1.487945E+00
+   1.000000E+02   7.557057E-01
+   1.100000E+02   5.790821E-01
+   1.200000E+02   4.694989E-01
+   1.300000E+02   4.130009E-01
+   1.400000E+02   3.624304E-01
+   1.500000E+02   3.137420E-01
+   1.600000E+02   2.827808E-01
+   1.800000E+02   2.355249E-01
+   2.000000E+02   2.393851E-01

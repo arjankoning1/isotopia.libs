@@ -1,0 +1,35 @@
+# header: 
+#   title: Er168(g,x)Er151m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 68
+#   A: 168
+#   nuclide: Er168
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 151
+#     nuclide: Er151m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   8.878448E-12
+   1.600000E+02   3.020483E-07
+   1.800000E+02   5.796299E-04
+   2.000000E+02   3.519978E-03

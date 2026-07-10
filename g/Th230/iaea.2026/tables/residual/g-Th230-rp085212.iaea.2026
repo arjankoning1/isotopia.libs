@@ -1,0 +1,40 @@
+# header: 
+#   title: Th230(g,x)At212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 212
+#     nuclide: At212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.368055E-13
+   9.000000E+01   5.982596E-10
+   1.000000E+02   2.732716E-08
+   1.100000E+02   3.454743E-07
+   1.200000E+02   2.424216E-06
+   1.300000E+02   6.695677E-06
+   1.400000E+02   9.763058E-06
+   1.500000E+02   1.149027E-05
+   1.600000E+02   1.546441E-05
+   1.800000E+02   2.858845E-05
+   2.000000E+02   2.992550E-05

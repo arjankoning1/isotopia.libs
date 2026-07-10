@@ -1,0 +1,36 @@
+# header: 
+#   title: W185(g,x)Lu167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 185
+#   nuclide: W185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 167
+#     nuclide: Lu167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.013586E-11
+   1.300000E+02   6.735922E-07
+   1.400000E+02   1.393242E-04
+   1.500000E+02   2.940938E-03
+   1.600000E+02   1.703323E-02
+   1.800000E+02   5.499343E-02
+   2.000000E+02   5.204667E-02

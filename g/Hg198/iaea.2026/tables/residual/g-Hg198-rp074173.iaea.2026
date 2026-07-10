@@ -1,0 +1,33 @@
+# header: 
+#   title: Hg198(g,x)W173 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 173
+#     nuclide: W173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   1.691319E-11
+   1.600000E+02   9.316768E-08
+   1.800000E+02   3.765215E-04
+   2.000000E+02   3.522530E-03

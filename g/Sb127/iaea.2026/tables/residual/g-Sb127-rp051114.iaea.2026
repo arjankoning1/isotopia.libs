@@ -1,0 +1,36 @@
+# header: 
+#   title: Sb127(g,x)Sb114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 127
+#   nuclide: Sb127
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 114
+#     nuclide: Sb114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.145363E-06
+   1.300000E+02   9.529265E-04
+   1.400000E+02   2.087317E-02
+   1.500000E+02   7.980779E-02
+   1.600000E+02   1.113488E-01
+   1.800000E+02   5.136113E-02
+   2.000000E+02   2.857055E-02

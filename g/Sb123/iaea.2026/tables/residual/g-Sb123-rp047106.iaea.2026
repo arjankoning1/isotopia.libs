@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb123(g,x)Ag106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 106
+#     nuclide: Ag106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.111901E-08
+   1.200000E+02   7.504906E-05
+   1.300000E+02   2.239129E-03
+   1.400000E+02   7.690540E-03
+   1.500000E+02   8.940076E-03
+   1.600000E+02   7.997384E-03
+   1.800000E+02   1.655874E-02
+   2.000000E+02   1.474037E-02

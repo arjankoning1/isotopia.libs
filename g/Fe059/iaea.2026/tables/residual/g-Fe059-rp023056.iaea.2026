@@ -1,0 +1,47 @@
+# header: 
+#   title: Fe59(g,x)V56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 56
+#     nuclide: V56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.445874E-09
+   5.000000E+01   5.753975E-07
+   5.500000E+01   3.956093E-06
+   6.000000E+01   4.933695E-06
+   6.500000E+01   3.574113E-06
+   7.000000E+01   2.556660E-06
+   7.500000E+01   1.876630E-06
+   8.000000E+01   1.634664E-06
+   9.000000E+01   1.176813E-06
+   1.000000E+02   9.989371E-07
+   1.100000E+02   7.007117E-07
+   1.200000E+02   5.485724E-07
+   1.300000E+02   4.576931E-07
+   1.400000E+02   2.875073E-07
+   1.500000E+02   2.722869E-07
+   1.600000E+02   2.496626E-07
+   1.800000E+02   1.306064E-07
+   2.000000E+02   9.472806E-08

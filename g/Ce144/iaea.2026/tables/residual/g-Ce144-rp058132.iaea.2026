@@ -1,0 +1,38 @@
+# header: 
+#   title: Ce144(g,x)Ce132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 132
+#     nuclide: Ce132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.898787E-09
+   1.100000E+02   7.814074E-04
+   1.200000E+02   6.502794E-02
+   1.300000E+02   3.354336E-01
+   1.400000E+02   4.655575E-01
+   1.500000E+02   3.118146E-01
+   1.600000E+02   1.611172E-01
+   1.800000E+02   7.839602E-02
+   2.000000E+02   6.043130E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca42(g,x)Mg26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.106528E-09
+   6.000000E+01   3.861251E-08
+   6.500000E+01   1.679466E-07
+   7.000000E+01   2.540450E-07
+   7.500000E+01   2.137957E-07
+   8.000000E+01   3.276701E-07
+   9.000000E+01   3.034287E-05
+   1.000000E+02   7.850439E-04
+   1.100000E+02   2.357333E-03
+   1.200000E+02   3.089763E-03
+   1.300000E+02   3.223448E-03
+   1.400000E+02   4.928691E-03
+   1.500000E+02   7.538820E-03
+   1.600000E+02   9.638650E-03
+   1.800000E+02   1.209941E-02
+   2.000000E+02   1.491128E-02

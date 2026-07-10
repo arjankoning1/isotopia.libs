@@ -1,0 +1,40 @@
+# header: 
+#   title: Te118(g,x)Rh101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.779362E-12
+   9.000000E+01   2.015493E-08
+   1.000000E+02   1.139371E-05
+   1.100000E+02   4.156535E-04
+   1.200000E+02   1.282887E-03
+   1.300000E+02   1.058477E-03
+   1.400000E+02   1.167454E-03
+   1.500000E+02   2.945190E-03
+   1.600000E+02   3.951522E-03
+   1.800000E+02   3.891558E-03
+   2.000000E+02   2.972136E-03

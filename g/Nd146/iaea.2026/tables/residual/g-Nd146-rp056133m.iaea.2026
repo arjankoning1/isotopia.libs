@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd146(g,x)Ba133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.775279E-09
+   7.000000E+01   1.559229E-06
+   7.500000E+01   6.603632E-05
+   8.000000E+01   4.168169E-04
+   9.000000E+01   1.155207E-03
+   1.000000E+02   4.445174E-04
+   1.100000E+02   4.340977E-04
+   1.200000E+02   1.385610E-03
+   1.300000E+02   1.305926E-03
+   1.400000E+02   8.560763E-04
+   1.500000E+02   5.692471E-04
+   1.600000E+02   6.476422E-04
+   1.800000E+02   3.641076E-04
+   2.000000E+02   3.695654E-04

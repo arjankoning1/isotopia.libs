@@ -1,0 +1,39 @@
+# header: 
+#   title: Pu236(g,x)Pa222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 222
+#     nuclide: Pa222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.016529E-13
+   1.000000E+02   1.514948E-10
+   1.100000E+02   5.891529E-09
+   1.200000E+02   1.365119E-08
+   1.300000E+02   3.300714E-08
+   1.400000E+02   1.856981E-08
+   1.500000E+02   3.114284E-08
+   1.600000E+02   4.966247E-08
+   1.800000E+02   7.825191E-07
+   2.000000E+02   3.218093E-07

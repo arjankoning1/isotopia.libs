@@ -1,0 +1,49 @@
+# header: 
+#   title: Tc99(g,x)Zr90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.325700E-11
+   5.000000E+01   1.250003E-07
+   5.500000E+01   1.283423E-05
+   6.000000E+01   3.040809E-04
+   6.500000E+01   6.746616E-03
+   7.000000E+01   2.521648E-02
+   7.500000E+01   4.615653E-02
+   8.000000E+01   5.722933E-02
+   9.000000E+01   3.978680E-02
+   1.000000E+02   2.932566E-02
+   1.100000E+02   4.117492E-02
+   1.200000E+02   5.209902E-02
+   1.300000E+02   4.143965E-02
+   1.400000E+02   4.176339E-02
+   1.500000E+02   2.937933E-02
+   1.600000E+02   2.888466E-02
+   1.800000E+02   2.028778E-02
+   2.000000E+02   1.781256E-02

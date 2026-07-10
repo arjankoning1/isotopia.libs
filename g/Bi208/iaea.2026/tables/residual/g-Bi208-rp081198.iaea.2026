@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi208(g,x)Tl198 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 198
+#     nuclide: Tl198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.450460E-11
+   6.000000E+01   5.115807E-07
+   6.500000E+01   3.707569E-04
+   7.000000E+01   1.289267E-02
+   7.500000E+01   6.655665E-02
+   8.000000E+01   1.222888E-01
+   9.000000E+01   6.554626E-02
+   1.000000E+02   1.538358E-02
+   1.100000E+02   1.290781E-02
+   1.200000E+02   2.089019E-02
+   1.300000E+02   2.312798E-02
+   1.400000E+02   3.643182E-02
+   1.500000E+02   3.334742E-02
+   1.600000E+02   3.450359E-02
+   1.800000E+02   3.840445E-02
+   2.000000E+02   3.134038E-02

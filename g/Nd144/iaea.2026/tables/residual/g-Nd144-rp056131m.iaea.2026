@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd144(g,x)Ba131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.261037E-12
+   7.000000E+01   2.403969E-08
+   7.500000E+01   7.675927E-06
+   8.000000E+01   1.907725E-04
+   9.000000E+01   2.096035E-03
+   1.000000E+02   1.735304E-03
+   1.100000E+02   7.534554E-04
+   1.200000E+02   1.885943E-03
+   1.300000E+02   3.353091E-03
+   1.400000E+02   2.518890E-03
+   1.500000E+02   1.688022E-03
+   1.600000E+02   1.734972E-03
+   1.800000E+02   1.413376E-03
+   2.000000E+02   6.828191E-04

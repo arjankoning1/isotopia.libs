@@ -1,0 +1,41 @@
+# header: 
+#   title: La138(g,x)Te124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 57
+#   A: 138
+#   nuclide: La138
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 124
+#     nuclide: Te124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.680586E-10
+   8.000000E+01   1.123856E-07
+   9.000000E+01   2.343000E-05
+   1.000000E+02   1.053460E-03
+   1.100000E+02   3.699684E-03
+   1.200000E+02   3.710059E-03
+   1.300000E+02   2.486285E-03
+   1.400000E+02   2.804952E-03
+   1.500000E+02   2.758528E-03
+   1.600000E+02   3.365779E-03
+   1.800000E+02   2.365580E-03
+   2.000000E+02   2.046710E-03

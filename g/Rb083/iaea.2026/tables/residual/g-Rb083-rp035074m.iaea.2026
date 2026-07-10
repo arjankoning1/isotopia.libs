@@ -1,0 +1,45 @@
+# header: 
+#   title: Rb83(g,x)Br74m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 37
+#   A: 83
+#   nuclide: Rb83
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.402564E-10
+   7.000000E+01   1.780221E-05
+   7.500000E+01   1.163988E-03
+   8.000000E+01   6.868053E-03
+   9.000000E+01   1.530870E-02
+   1.000000E+02   1.029832E-02
+   1.100000E+02   1.267203E-02
+   1.200000E+02   3.188364E-02
+   1.300000E+02   4.401128E-02
+   1.400000E+02   4.211444E-02
+   1.500000E+02   3.709378E-02
+   1.600000E+02   2.944633E-02
+   1.800000E+02   2.960333E-02
+   2.000000E+02   3.095643E-02

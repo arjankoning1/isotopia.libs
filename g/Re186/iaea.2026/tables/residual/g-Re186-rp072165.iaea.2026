@@ -1,0 +1,33 @@
+# header: 
+#   title: Re186(g,x)Hf165 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 165
+#     nuclide: Hf165
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   4.710600E-12
+   1.600000E+02   3.431412E-08
+   1.800000E+02   3.285818E-04
+   2.000000E+02   1.867343E-02

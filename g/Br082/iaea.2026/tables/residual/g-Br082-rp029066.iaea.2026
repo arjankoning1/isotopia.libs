@@ -1,0 +1,41 @@
+# header: 
+#   title: Br82(g,x)Cu66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.168182E-12
+   8.000000E+01   8.900142E-09
+   9.000000E+01   2.186102E-05
+   1.000000E+02   2.627732E-04
+   1.100000E+02   3.971207E-04
+   1.200000E+02   3.052171E-04
+   1.300000E+02   7.120484E-04
+   1.400000E+02   1.728200E-03
+   1.500000E+02   2.220697E-03
+   1.600000E+02   1.930557E-03
+   1.800000E+02   2.712745E-03
+   2.000000E+02   2.107081E-03

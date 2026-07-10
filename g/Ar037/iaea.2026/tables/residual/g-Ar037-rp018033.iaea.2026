@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar37(g,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 37
+#   nuclide: Ar37
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.724741E-10
+   6.000000E+01   3.411933E-07
+   6.500000E+01   3.182250E-06
+   7.000000E+01   7.701391E-06
+   7.500000E+01   1.139021E-05
+   8.000000E+01   1.400231E-05
+   9.000000E+01   1.722293E-05
+   1.000000E+02   1.859162E-05
+   1.100000E+02   1.870457E-05
+   1.200000E+02   1.812055E-05
+   1.300000E+02   1.725685E-05
+   1.400000E+02   1.643701E-05
+   1.500000E+02   1.513515E-05
+   1.600000E+02   1.400532E-05
+   1.800000E+02   1.199447E-05
+   2.000000E+02   1.060114E-05

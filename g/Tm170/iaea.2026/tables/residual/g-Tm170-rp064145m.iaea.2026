@@ -1,0 +1,34 @@
+# header: 
+#   title: Tm170(g,x)Gd145m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 69
+#   A: 170
+#   nuclide: Tm170
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 145
+#     nuclide: Gd145m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 3
+##       E             xs
+##     [MeV]          [mb]
+   1.600000E+02   6.937365E-13
+   1.800000E+02   1.601826E-06
+   2.000000E+02   6.180413E-04

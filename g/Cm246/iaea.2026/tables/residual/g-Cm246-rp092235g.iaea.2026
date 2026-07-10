@@ -1,0 +1,50 @@
+# header: 
+#   title: Cm246(g,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 246
+#   nuclide: Cm246
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.247474E-13
+   4.500000E+01   2.361945E-10
+   5.000000E+01   2.248760E-08
+   5.500000E+01   3.260076E-07
+   6.000000E+01   7.446739E-07
+   6.500000E+01   7.273543E-07
+   7.000000E+01   7.455150E-07
+   7.500000E+01   8.793517E-07
+   8.000000E+01   1.201718E-06
+   9.000000E+01   1.602117E-06
+   1.000000E+02   1.814246E-06
+   1.100000E+02   1.889626E-06
+   1.200000E+02   1.948976E-06
+   1.300000E+02   2.239192E-06
+   1.400000E+02   2.544429E-06
+   1.500000E+02   3.013496E-06
+   1.600000E+02   2.272640E-06
+   1.800000E+02   3.208639E-06
+   2.000000E+02   3.775284E-06

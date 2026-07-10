@@ -1,0 +1,48 @@
+# header: 
+#   title: Si28(g,x)Ne21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.783004E-05
+   4.500000E+01   1.513161E-03
+   5.000000E+01   7.180089E-03
+   5.500000E+01   3.621348E-02
+   6.000000E+01   7.466134E-02
+   6.500000E+01   9.128607E-02
+   7.000000E+01   8.880269E-02
+   7.500000E+01   8.180955E-02
+   8.000000E+01   7.781278E-02
+   9.000000E+01   9.524656E-02
+   1.000000E+02   1.346298E-01
+   1.100000E+02   1.513921E-01
+   1.200000E+02   1.297119E-01
+   1.300000E+02   1.072970E-01
+   1.400000E+02   9.144422E-02
+   1.500000E+02   7.706546E-02
+   1.600000E+02   7.075733E-02
+   1.800000E+02   6.033840E-02
+   2.000000E+02   4.637270E-02

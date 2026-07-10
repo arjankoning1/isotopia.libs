@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba138(g,x)Sb124g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 124
+#     nuclide: Sb124g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.815843E-12
+   8.000000E+01   1.568965E-09
+   9.000000E+01   1.202979E-06
+   1.000000E+02   6.544534E-05
+   1.100000E+02   2.556744E-04
+   1.200000E+02   2.361571E-04
+   1.300000E+02   2.907515E-04
+   1.400000E+02   4.308794E-04
+   1.500000E+02   3.494641E-04
+   1.600000E+02   2.248582E-04
+   1.800000E+02   9.859099E-05
+   2.000000E+02   7.604855E-05

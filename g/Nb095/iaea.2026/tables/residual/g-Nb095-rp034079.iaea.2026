@@ -1,0 +1,41 @@
+# header: 
+#   title: Nb95(g,x)Se79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.047740E-12
+   8.000000E+01   4.966785E-10
+   9.000000E+01   4.351871E-06
+   1.000000E+02   2.692773E-04
+   1.100000E+02   8.674032E-04
+   1.200000E+02   6.812082E-04
+   1.300000E+02   6.903899E-04
+   1.400000E+02   1.851353E-03
+   1.500000E+02   2.959088E-03
+   1.600000E+02   2.743164E-03
+   1.800000E+02   2.803353E-03
+   2.000000E+02   2.212962E-03

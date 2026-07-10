@@ -1,0 +1,43 @@
+# header: 
+#   title: I127(g,x)I120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.256814E-05
+   7.000000E+01   1.417476E-02
+   7.500000E+01   2.050022E-01
+   8.000000E+01   6.320894E-01
+   9.000000E+01   8.452135E-01
+   1.000000E+02   4.389375E-01
+   1.100000E+02   2.728960E-01
+   1.200000E+02   2.160438E-01
+   1.300000E+02   1.898383E-01
+   1.400000E+02   1.686208E-01
+   1.500000E+02   1.538462E-01
+   1.600000E+02   1.427765E-01
+   1.800000E+02   1.176657E-01
+   2.000000E+02   1.102529E-01

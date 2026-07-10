@@ -1,0 +1,36 @@
+# header: 
+#   title: Pb203(g,x)Os181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 181
+#     nuclide: Os181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.830469E-12
+   1.300000E+02   2.367678E-07
+   1.400000E+02   7.931411E-05
+   1.500000E+02   1.798127E-03
+   1.600000E+02   5.191998E-03
+   1.800000E+02   3.068632E-03
+   2.000000E+02   2.328643E-03

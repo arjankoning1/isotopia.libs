@@ -1,0 +1,45 @@
+# header: 
+#   title: Ni62(g,x)Ti52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 52
+#     nuclide: Ti52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.360089E-12
+   6.000000E+01   2.117602E-09
+   6.500000E+01   5.805836E-08
+   7.000000E+01   2.998811E-07
+   7.500000E+01   6.022931E-07
+   8.000000E+01   7.140295E-07
+   9.000000E+01   4.256687E-07
+   1.000000E+02   1.052817E-06
+   1.100000E+02   5.259569E-06
+   1.200000E+02   9.270710E-06
+   1.300000E+02   8.897508E-06
+   1.400000E+02   7.889616E-06
+   1.500000E+02   8.096300E-06
+   1.600000E+02   8.933741E-06
+   1.800000E+02   6.914173E-06
+   2.000000E+02   5.164816E-06

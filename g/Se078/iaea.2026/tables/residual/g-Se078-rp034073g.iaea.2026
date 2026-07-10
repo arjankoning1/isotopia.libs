@@ -1,0 +1,48 @@
+# header: 
+#   title: Se78(g,x)Se73g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.319819E-07
+   5.500000E+01   1.555977E-02
+   6.000000E+01   1.285314E-01
+   6.500000E+01   2.432123E-01
+   7.000000E+01   2.710031E-01
+   7.500000E+01   2.294376E-01
+   8.000000E+01   1.781387E-01
+   9.000000E+01   1.227080E-01
+   1.000000E+02   9.891348E-02
+   1.100000E+02   8.433413E-02
+   1.200000E+02   7.438389E-02
+   1.300000E+02   6.734367E-02
+   1.400000E+02   6.225136E-02
+   1.500000E+02   5.544324E-02
+   1.600000E+02   5.064023E-02
+   1.800000E+02   4.173539E-02
+   2.000000E+02   3.682482E-02

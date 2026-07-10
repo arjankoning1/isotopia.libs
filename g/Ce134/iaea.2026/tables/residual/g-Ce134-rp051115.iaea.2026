@@ -1,0 +1,38 @@
+# header: 
+#   title: Ce134(g,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.625603E-11
+   1.100000E+02   5.583459E-08
+   1.200000E+02   6.645820E-06
+   1.300000E+02   1.639501E-04
+   1.400000E+02   7.085255E-04
+   1.500000E+02   9.445814E-04
+   1.600000E+02   9.561021E-04
+   1.800000E+02   3.018594E-03
+   2.000000E+02   2.822559E-03

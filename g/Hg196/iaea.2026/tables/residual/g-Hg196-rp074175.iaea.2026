@@ -1,0 +1,36 @@
+# header: 
+#   title: Hg196(g,x)W175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 175
+#     nuclide: W175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.348037E-09
+   1.300000E+02   2.855704E-06
+   1.400000E+02   7.199010E-05
+   1.500000E+02   3.018079E-04
+   1.600000E+02   3.427543E-04
+   1.800000E+02   6.241734E-04
+   2.000000E+02   7.870983E-04

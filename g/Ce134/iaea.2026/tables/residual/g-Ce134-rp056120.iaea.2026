@@ -1,0 +1,36 @@
+# header: 
+#   title: Ce134(g,x)Ba120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 120
+#     nuclide: Ba120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.617602E-09
+   1.300000E+02   1.802048E-06
+   1.400000E+02   4.257663E-05
+   1.500000E+02   1.770816E-04
+   1.600000E+02   2.667628E-04
+   1.800000E+02   6.864027E-04
+   2.000000E+02   1.710499E-03

@@ -1,0 +1,36 @@
+# header: 
+#   title: Er172(g,x)Sm149 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 68
+#   A: 172
+#   nuclide: Er172
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 149
+#     nuclide: Sm149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.874829E-12
+   1.300000E+02   4.283161E-08
+   1.400000E+02   5.338436E-06
+   1.500000E+02   6.479479E-05
+   1.600000E+02   1.704493E-04
+   1.800000E+02   6.329711E-04
+   2.000000E+02   1.020874E-03

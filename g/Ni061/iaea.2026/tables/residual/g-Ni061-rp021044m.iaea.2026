@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni61(g,x)Sc44m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.675381E-12
+   1.000000E+02   7.926769E-08
+   1.100000E+02   3.344350E-06
+   1.200000E+02   4.282958E-05
+   1.300000E+02   1.314274E-04
+   1.400000E+02   1.766620E-04
+   1.500000E+02   3.026063E-04
+   1.600000E+02   6.964953E-04
+   1.800000E+02   1.459117E-03
+   2.000000E+02   2.738839E-03

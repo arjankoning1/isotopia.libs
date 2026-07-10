@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag110m(g,x)Nb93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.765977E-11
+   9.000000E+01   7.965244E-07
+   1.000000E+02   4.324074E-05
+   1.100000E+02   1.476719E-04
+   1.200000E+02   1.657587E-04
+   1.300000E+02   9.527802E-04
+   1.400000E+02   5.171390E-03
+   1.500000E+02   7.935001E-03
+   1.600000E+02   7.255480E-03
+   1.800000E+02   5.148678E-03
+   2.000000E+02   3.337216E-03

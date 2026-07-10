@@ -1,0 +1,36 @@
+# header: 
+#   title: Mo99(g,x)Br78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.083830E-12
+   1.300000E+02   8.485681E-08
+   1.400000E+02   7.952587E-06
+   1.500000E+02   1.166717E-04
+   1.600000E+02   5.715493E-04
+   1.800000E+02   2.115204E-03
+   2.000000E+02   5.450067E-03

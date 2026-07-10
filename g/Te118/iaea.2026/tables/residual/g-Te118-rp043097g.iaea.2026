@@ -1,0 +1,39 @@
+# header: 
+#   title: Te118(g,x)Tc97g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 97
+#     nuclide: Tc97g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.406088E-09
+   1.200000E+02   7.723403E-07
+   1.300000E+02   1.449569E-05
+   1.400000E+02   4.554162E-05
+   1.500000E+02   4.940704E-05
+   1.600000E+02   5.350822E-05
+   1.800000E+02   2.274592E-04
+   2.000000E+02   2.090556E-04

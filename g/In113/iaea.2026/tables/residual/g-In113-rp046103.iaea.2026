@@ -1,0 +1,44 @@
+# header: 
+#   title: In113(g,x)Pd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.203653E-08
+   6.500000E+01   1.612106E-05
+   7.000000E+01   3.283787E-04
+   7.500000E+01   2.606031E-03
+   8.000000E+01   1.977914E-02
+   9.000000E+01   1.193156E-01
+   1.000000E+02   1.147670E-01
+   1.100000E+02   7.327289E-02
+   1.200000E+02   9.714430E-02
+   1.300000E+02   1.456185E-01
+   1.400000E+02   1.106998E-01
+   1.500000E+02   8.972193E-02
+   1.600000E+02   6.246210E-02
+   1.800000E+02   5.259144E-02
+   2.000000E+02   3.437990E-02

@@ -1,0 +1,46 @@
+# header: 
+#   title: K39(g,x)Al28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.076942E-10
+   5.500000E+01   7.817875E-07
+   6.000000E+01   2.776365E-05
+   6.500000E+01   7.392121E-04
+   7.000000E+01   4.416402E-03
+   7.500000E+01   1.146487E-02
+   8.000000E+01   1.745731E-02
+   9.000000E+01   1.898078E-02
+   1.000000E+02   1.518539E-02
+   1.100000E+02   1.482034E-02
+   1.200000E+02   1.896598E-02
+   1.300000E+02   1.805543E-02
+   1.400000E+02   1.814871E-02
+   1.500000E+02   1.818870E-02
+   1.600000E+02   1.718949E-02
+   1.800000E+02   1.164941E-02
+   2.000000E+02   9.876648E-03

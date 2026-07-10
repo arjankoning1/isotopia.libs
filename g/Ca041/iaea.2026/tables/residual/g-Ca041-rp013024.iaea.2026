@@ -1,0 +1,38 @@
+# header: 
+#   title: Ca41(g,x)Al24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.095937E-09
+   1.100000E+02   1.104287E-07
+   1.200000E+02   8.308353E-07
+   1.300000E+02   2.793648E-06
+   1.400000E+02   4.461945E-06
+   1.500000E+02   5.540646E-06
+   1.600000E+02   8.903789E-06
+   1.800000E+02   2.015325E-05
+   2.000000E+02   2.935220E-05

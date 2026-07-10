@@ -1,0 +1,39 @@
+# header: 
+#   title: Kr81(g,x)Ni61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.285356E-12
+   1.000000E+02   5.202560E-08
+   1.100000E+02   6.672174E-06
+   1.200000E+02   4.495818E-05
+   1.300000E+02   7.319653E-05
+   1.400000E+02   9.811393E-05
+   1.500000E+02   3.436133E-04
+   1.600000E+02   7.813385E-04
+   1.800000E+02   1.252686E-03
+   2.000000E+02   2.533509E-03

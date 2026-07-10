@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd147(g,x)Xe129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 147
+#   nuclide: Nd147
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.856131E-09
+   1.000000E+02   8.623395E-06
+   1.100000E+02   9.338051E-05
+   1.200000E+02   1.160246E-04
+   1.300000E+02   1.223314E-04
+   1.400000E+02   7.902195E-04
+   1.500000E+02   1.587317E-03
+   1.600000E+02   1.290672E-03
+   1.800000E+02   5.702630E-04
+   2.000000E+02   4.182886E-04

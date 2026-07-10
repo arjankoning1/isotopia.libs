@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar42(g,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.361519E-10
+   6.000000E+01   7.825519E-05
+   6.500000E+01   1.257174E-03
+   7.000000E+01   3.796402E-03
+   7.500000E+01   1.070247E-02
+   8.000000E+01   2.788191E-02
+   9.000000E+01   7.922546E-02
+   1.000000E+02   9.932669E-02
+   1.100000E+02   9.099969E-02
+   1.200000E+02   8.086946E-02
+   1.300000E+02   7.418601E-02
+   1.400000E+02   6.801497E-02
+   1.500000E+02   6.257644E-02
+   1.600000E+02   5.281216E-02
+   1.800000E+02   4.945358E-02
+   2.000000E+02   3.989733E-02

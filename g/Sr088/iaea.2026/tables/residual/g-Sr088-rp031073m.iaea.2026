@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr88(g,x)Ga73m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.036408E-12
+   8.000000E+01   5.543832E-11
+   9.000000E+01   3.897896E-08
+   1.000000E+02   7.729914E-07
+   1.100000E+02   1.206136E-06
+   1.200000E+02   5.263375E-06
+   1.300000E+02   2.329643E-05
+   1.400000E+02   3.786643E-05
+   1.500000E+02   2.578731E-05
+   1.600000E+02   3.676922E-05
+   1.800000E+02   2.727762E-05
+   2.000000E+02   2.329358E-05

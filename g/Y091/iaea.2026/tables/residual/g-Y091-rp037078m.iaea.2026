@@ -1,0 +1,39 @@
+# header: 
+#   title: Y91(g,x)Rb78m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 78
+#     nuclide: Rb78m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.309139E-09
+   1.200000E+02   4.557137E-06
+   1.300000E+02   1.133591E-04
+   1.400000E+02   5.156163E-04
+   1.500000E+02   9.616445E-04
+   1.600000E+02   1.403484E-03
+   1.800000E+02   2.143481E-03
+   2.000000E+02   3.409095E-03

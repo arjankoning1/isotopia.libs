@@ -1,0 +1,46 @@
+# header: 
+#   title: Bi210(g,x)Hg200 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 200
+#     nuclide: Hg200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.785532E-12
+   5.500000E+01   1.761883E-09
+   6.000000E+01   8.401344E-08
+   6.500000E+01   1.862190E-06
+   7.000000E+01   5.553196E-05
+   7.500000E+01   6.128299E-04
+   8.000000E+01   2.282599E-03
+   9.000000E+01   6.351711E-03
+   1.000000E+02   6.647595E-03
+   1.100000E+02   4.551089E-03
+   1.200000E+02   3.280890E-03
+   1.300000E+02   3.149058E-03
+   1.400000E+02   3.653271E-03
+   1.500000E+02   2.791726E-03
+   1.600000E+02   2.827301E-03
+   1.800000E+02   3.952933E-03
+   2.000000E+02   5.179220E-03

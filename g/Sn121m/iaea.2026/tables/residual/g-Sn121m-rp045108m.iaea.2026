@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn121m(g,x)Rh108m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 108
+#     nuclide: Rh108m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.240505E-10
+   7.500000E+01   3.696779E-08
+   8.000000E+01   5.466156E-07
+   9.000000E+01   3.408340E-05
+   1.000000E+02   2.106783E-04
+   1.100000E+02   1.616451E-04
+   1.200000E+02   5.592526E-05
+   1.300000E+02   4.410242E-05
+   1.400000E+02   4.346788E-05
+   1.500000E+02   2.394765E-05
+   1.600000E+02   2.086560E-05
+   1.800000E+02   1.708539E-05
+   2.000000E+02   6.018153E-06

@@ -1,0 +1,42 @@
+# header: 
+#   title: Bi209(g,x)Au195 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 195
+#     nuclide: Au195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.718399E-12
+   7.500000E+01   6.959895E-09
+   8.000000E+01   1.108971E-06
+   9.000000E+01   1.659316E-04
+   1.000000E+02   5.742330E-04
+   1.100000E+02   2.734124E-04
+   1.200000E+02   1.180314E-04
+   1.300000E+02   3.887127E-04
+   1.400000E+02   7.944421E-04
+   1.500000E+02   7.309978E-04
+   1.600000E+02   7.446547E-04
+   1.800000E+02   4.142498E-04
+   2.000000E+02   3.940663E-04

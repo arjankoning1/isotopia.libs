@@ -1,0 +1,42 @@
+# header: 
+#   title: Th230(g,x)Po210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.182595E-13
+   7.500000E+01   6.138999E-12
+   8.000000E+01   3.877483E-11
+   9.000000E+01   7.756306E-09
+   1.000000E+02   5.424518E-08
+   1.100000E+02   1.120604E-07
+   1.200000E+02   1.137688E-07
+   1.300000E+02   3.650652E-07
+   1.400000E+02   9.946610E-07
+   1.500000E+02   2.125476E-06
+   1.600000E+02   2.640028E-06
+   1.800000E+02   3.278905E-06
+   2.000000E+02   3.476625E-06

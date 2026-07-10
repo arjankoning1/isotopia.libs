@@ -1,0 +1,45 @@
+# header: 
+#   title: Tl204(g,x)Hg195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 81
+#   A: 204
+#   nuclide: Tl204
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.560802E-10
+   7.000000E+01   8.190803E-06
+   7.500000E+01   7.591731E-04
+   8.000000E+01   6.500227E-03
+   9.000000E+01   1.062633E-01
+   1.000000E+02   3.702630E-01
+   1.100000E+02   3.375296E-01
+   1.200000E+02   2.463855E-01
+   1.300000E+02   2.144403E-01
+   1.400000E+02   2.053312E-01
+   1.500000E+02   1.961877E-01
+   1.600000E+02   1.766704E-01
+   1.800000E+02   1.707515E-01
+   2.000000E+02   9.252677E-02

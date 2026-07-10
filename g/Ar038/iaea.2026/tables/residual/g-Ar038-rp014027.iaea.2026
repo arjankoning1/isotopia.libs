@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar38(g,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.270954E-10
+   6.500000E+01   6.187745E-06
+   7.000000E+01   2.365732E-04
+   7.500000E+01   1.165528E-03
+   8.000000E+01   2.415334E-03
+   9.000000E+01   3.022487E-03
+   1.000000E+02   2.440631E-03
+   1.100000E+02   2.779236E-03
+   1.200000E+02   3.741192E-03
+   1.300000E+02   4.673448E-03
+   1.400000E+02   5.023955E-03
+   1.500000E+02   5.049603E-03
+   1.600000E+02   4.955150E-03
+   1.800000E+02   4.690651E-03
+   2.000000E+02   3.652389E-03

@@ -1,0 +1,43 @@
+# header: 
+#   title: Sb121(g,x)Sn113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.742777E-07
+   7.000000E+01   2.217026E-04
+   7.500000E+01   2.245320E-03
+   8.000000E+01   1.787773E-02
+   9.000000E+01   2.999530E-01
+   1.000000E+02   6.139363E-01
+   1.100000E+02   4.768419E-01
+   1.200000E+02   3.261545E-01
+   1.300000E+02   2.678860E-01
+   1.400000E+02   2.325079E-01
+   1.500000E+02   2.272042E-01
+   1.600000E+02   1.990642E-01
+   1.800000E+02   1.671847E-01
+   2.000000E+02   1.401447E-01

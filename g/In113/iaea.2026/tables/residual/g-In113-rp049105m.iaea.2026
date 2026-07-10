@@ -1,0 +1,42 @@
+# header: 
+#   title: In113(g,x)In105m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 105
+#     nuclide: In105m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.520384E-08
+   9.000000E+01   4.589896E-05
+   1.000000E+02   1.699540E-04
+   1.100000E+02   1.524323E-04
+   1.200000E+02   1.290206E-04
+   1.300000E+02   1.332738E-04
+   1.400000E+02   1.514759E-04
+   1.500000E+02   1.562203E-04
+   1.600000E+02   1.598695E-04
+   1.800000E+02   1.793279E-04
+   2.000000E+02   2.085909E-04

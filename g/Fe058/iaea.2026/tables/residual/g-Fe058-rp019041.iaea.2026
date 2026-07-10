@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe58(g,x)K41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 41
+#     nuclide: K41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.631877E-12
+   1.000000E+02   7.157324E-08
+   1.100000E+02   3.217803E-06
+   1.200000E+02   4.304171E-05
+   1.300000E+02   1.356469E-04
+   1.400000E+02   1.974095E-04
+   1.500000E+02   3.080904E-04
+   1.600000E+02   7.019808E-04
+   1.800000E+02   1.701917E-03
+   2.000000E+02   2.564108E-03

@@ -1,0 +1,40 @@
+# header: 
+#   title: Mn53(g,x)S34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 25
+#   A: 53
+#   nuclide: Mn53
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 34
+#     nuclide: S34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.979915E-10
+   9.000000E+01   5.070507E-08
+   1.000000E+02   3.588366E-06
+   1.100000E+02   2.595789E-05
+   1.200000E+02   4.591429E-05
+   1.300000E+02   5.419034E-05
+   1.400000E+02   1.359869E-04
+   1.500000E+02   3.557187E-04
+   1.600000E+02   5.848091E-04
+   1.800000E+02   1.087455E-03
+   2.000000E+02   2.700242E-03

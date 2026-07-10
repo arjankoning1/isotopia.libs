@@ -1,0 +1,45 @@
+# header: 
+#   title: In113(g,x)Ag103g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.133228E-09
+   7.000000E+01   1.419321E-05
+   7.500000E+01   1.802958E-03
+   8.000000E+01   1.409711E-02
+   9.000000E+01   4.802759E-02
+   1.000000E+02   3.563057E-02
+   1.100000E+02   4.492278E-02
+   1.200000E+02   1.278153E-01
+   1.300000E+02   1.789658E-01
+   1.400000E+02   1.415617E-01
+   1.500000E+02   1.131281E-01
+   1.600000E+02   9.210458E-02
+   1.800000E+02   7.765930E-02
+   2.000000E+02   7.692219E-02

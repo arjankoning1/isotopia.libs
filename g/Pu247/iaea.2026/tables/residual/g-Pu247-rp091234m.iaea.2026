@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu247(g,x)Pa234m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 247
+#   nuclide: Pu247
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 234
+#     nuclide: Pa234m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.498555E-13
+   7.500000E+01   4.705703E-11
+   8.000000E+01   4.358397E-10
+   9.000000E+01   4.770833E-09
+   1.000000E+02   3.403363E-08
+   1.100000E+02   6.948621E-08
+   1.200000E+02   8.298361E-08
+   1.300000E+02   6.288806E-08
+   1.400000E+02   1.053926E-07
+   1.500000E+02   2.301413E-07
+   1.600000E+02   4.009090E-07
+   1.800000E+02   4.323330E-07
+   2.000000E+02   1.056298E-06

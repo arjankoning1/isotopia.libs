@@ -1,0 +1,46 @@
+# header: 
+#   title: Bi210(g,x)Au197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 197
+#     nuclide: Au197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.572378E-12
+   6.500000E+01   1.485982E-09
+   7.000000E+01   1.422150E-07
+   7.500000E+01   1.988821E-06
+   8.000000E+01   9.266795E-06
+   9.000000E+01   1.859820E-05
+   1.000000E+02   7.622262E-06
+   1.100000E+02   3.226536E-05
+   1.200000E+02   1.717495E-04
+   1.300000E+02   2.705332E-04
+   1.400000E+02   3.235626E-04
+   1.500000E+02   2.855739E-04
+   1.600000E+02   1.557967E-04
+   1.800000E+02   1.360723E-04
+   2.000000E+02   1.613595E-04

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ir192(g,x)Re182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 182
+#     nuclide: Re182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.251602E-08
+   6.000000E+01   3.070428E-05
+   6.500000E+01   2.222053E-03
+   7.000000E+01   1.931578E-02
+   7.500000E+01   4.813769E-02
+   8.000000E+01   5.841852E-02
+   9.000000E+01   2.543109E-02
+   1.000000E+02   1.106235E-02
+   1.100000E+02   1.660873E-02
+   1.200000E+02   2.173043E-02
+   1.300000E+02   2.699132E-02
+   1.400000E+02   2.753190E-02
+   1.500000E+02   3.612509E-02
+   1.600000E+02   3.398189E-02
+   1.800000E+02   3.342490E-02
+   2.000000E+02   4.256630E-02

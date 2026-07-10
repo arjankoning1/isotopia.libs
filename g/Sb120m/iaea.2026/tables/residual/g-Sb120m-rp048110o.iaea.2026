@@ -1,0 +1,49 @@
+# header: 
+#   title: Sb120m(g,x)Cd110o cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 110
+#     nuclide: Cd110o
+#     level: 
+#       isomer: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.247794E-07
+   5.000000E+01   6.884278E-05
+   5.500000E+01   3.148452E-05
+   6.000000E+01   1.349724E-04
+   6.500000E+01   4.631899E-04
+   7.000000E+01   1.439587E-03
+   7.500000E+01   2.935978E-03
+   8.000000E+01   3.754733E-03
+   9.000000E+01   3.198233E-03
+   1.000000E+02   2.355063E-03
+   1.100000E+02   2.522134E-03
+   1.200000E+02   2.257522E-03
+   1.300000E+02   2.475836E-03
+   1.400000E+02   1.966344E-03
+   1.500000E+02   1.677739E-03
+   1.600000E+02   1.935190E-03
+   1.800000E+02   1.180214E-03
+   2.000000E+02   1.201790E-03

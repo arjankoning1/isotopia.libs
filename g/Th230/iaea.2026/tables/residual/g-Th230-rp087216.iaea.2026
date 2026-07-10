@@ -1,0 +1,41 @@
+# header: 
+#   title: Th230(g,x)Fr216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 216
+#     nuclide: Fr216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.303985E-12
+   8.000000E+01   1.255420E-10
+   9.000000E+01   1.021726E-07
+   1.000000E+02   4.289822E-06
+   1.100000E+02   4.271693E-05
+   1.200000E+02   1.169100E-04
+   1.300000E+02   1.479231E-04
+   1.400000E+02   2.157320E-04
+   1.500000E+02   2.643805E-04
+   1.600000E+02   3.011149E-04
+   1.800000E+02   5.504611E-04
+   2.000000E+02   5.772765E-04

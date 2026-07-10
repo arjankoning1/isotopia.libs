@@ -1,0 +1,51 @@
+# header: 
+#   title: Pb207(g,x)Pb203m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.480636E-01
+   4.000000E+01   2.751794E+00
+   4.500000E+01   2.952809E+00
+   5.000000E+01   1.372041E+00
+   5.500000E+01   7.947444E-01
+   6.000000E+01   6.496713E-01
+   6.500000E+01   5.707003E-01
+   7.000000E+01   5.138661E-01
+   7.500000E+01   4.690122E-01
+   8.000000E+01   4.349764E-01
+   9.000000E+01   3.736589E-01
+   1.000000E+02   3.292150E-01
+   1.100000E+02   2.964351E-01
+   1.200000E+02   2.640683E-01
+   1.300000E+02   2.356908E-01
+   1.400000E+02   1.949129E-01
+   1.500000E+02   1.879644E-01
+   1.600000E+02   1.537038E-01
+   1.800000E+02   1.303946E-01
+   2.000000E+02   9.295061E-02

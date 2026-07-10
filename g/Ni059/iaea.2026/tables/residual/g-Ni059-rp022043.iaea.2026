@@ -1,0 +1,38 @@
+# header: 
+#   title: Ni59(g,x)Ti43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 43
+#     nuclide: Ti43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.022000E-10
+   1.100000E+02   1.720733E-07
+   1.200000E+02   9.304076E-07
+   1.300000E+02   1.307602E-06
+   1.400000E+02   2.335355E-06
+   1.500000E+02   8.302235E-06
+   1.600000E+02   1.946996E-05
+   1.800000E+02   4.205711E-05
+   2.000000E+02   9.298863E-05

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ge76(g,x)Co62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 62
+#     nuclide: Co62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.772861E-11
+   8.000000E+01   5.781355E-08
+   9.000000E+01   2.416714E-05
+   1.000000E+02   2.711488E-04
+   1.100000E+02   1.404591E-03
+   1.200000E+02   2.322890E-03
+   1.300000E+02   2.287344E-03
+   1.400000E+02   3.079415E-03
+   1.500000E+02   4.656659E-03
+   1.600000E+02   4.529861E-03
+   1.800000E+02   3.523712E-03
+   2.000000E+02   2.439270E-03

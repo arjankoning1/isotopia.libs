@@ -1,0 +1,42 @@
+# header: 
+#   title: Sb121(g,x)In109g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.526801E-12
+   9.000000E+01   3.357649E-05
+   1.000000E+02   7.141443E-03
+   1.100000E+02   3.944922E-02
+   1.200000E+02   4.725738E-02
+   1.300000E+02   3.265780E-02
+   1.400000E+02   4.232039E-02
+   1.500000E+02   6.584740E-02
+   1.600000E+02   6.413703E-02
+   1.800000E+02   3.531080E-02
+   2.000000E+02   2.678574E-02

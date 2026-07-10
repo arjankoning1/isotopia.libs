@@ -1,0 +1,44 @@
+# header: 
+#   title: Rh101(g,x)Rb85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 85
+#     nuclide: Rb85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.697056E-12
+   6.500000E+01   1.488503E-10
+   7.000000E+01   1.812013E-09
+   7.500000E+01   1.085235E-08
+   8.000000E+01   2.209069E-08
+   9.000000E+01   1.070613E-08
+   1.000000E+02   3.205111E-07
+   1.100000E+02   3.965205E-06
+   1.200000E+02   6.521390E-06
+   1.300000E+02   6.314793E-06
+   1.400000E+02   1.551359E-05
+   1.500000E+02   4.763002E-05
+   1.600000E+02   6.357963E-05
+   1.800000E+02   9.906862E-05
+   2.000000E+02   1.192824E-04

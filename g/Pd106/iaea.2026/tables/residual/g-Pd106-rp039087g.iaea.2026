@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd106(g,x)Y87g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.802898E-09
+   1.200000E+02   4.871213E-07
+   1.300000E+02   1.406237E-05
+   1.400000E+02   9.308571E-05
+   1.500000E+02   1.887721E-04
+   1.600000E+02   2.457231E-04
+   1.800000E+02   1.022252E-03
+   2.000000E+02   1.459638E-03

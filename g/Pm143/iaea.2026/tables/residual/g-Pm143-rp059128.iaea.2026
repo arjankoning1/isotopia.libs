@@ -1,0 +1,35 @@
+# header: 
+#   title: Pm143(g,x)Pr128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 61
+#   A: 143
+#   nuclide: Pm143
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 128
+#     nuclide: Pr128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.131730E-08
+   1.400000E+02   1.496831E-05
+   1.500000E+02   3.765243E-04
+   1.600000E+02   1.312380E-03
+   1.800000E+02   2.201437E-03
+   2.000000E+02   7.247042E-03

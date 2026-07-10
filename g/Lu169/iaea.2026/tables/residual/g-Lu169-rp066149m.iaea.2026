@@ -1,0 +1,38 @@
+# header: 
+#   title: Lu169(g,x)Dy149m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 71
+#   A: 169
+#   nuclide: Lu169
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 149
+#     nuclide: Dy149m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.163172E-14
+   1.300000E+02   4.272695E-09
+   1.400000E+02   2.766858E-06
+   1.500000E+02   1.564926E-04
+   1.600000E+02   1.365872E-03
+   1.800000E+02   6.656820E-03
+   2.000000E+02   5.981056E-03

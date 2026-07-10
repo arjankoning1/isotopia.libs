@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr90(g,x)Se77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 77
+#     nuclide: Se77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.888168E-08
+   8.000000E+01   6.918560E-05
+   9.000000E+01   1.596315E-02
+   1.000000E+02   5.235218E-02
+   1.100000E+02   4.718237E-02
+   1.200000E+02   4.674958E-02
+   1.300000E+02   7.012674E-02
+   1.400000E+02   8.576054E-02
+   1.500000E+02   7.118219E-02
+   1.600000E+02   6.237222E-02
+   1.800000E+02   3.883726E-02
+   2.000000E+02   3.324202E-02

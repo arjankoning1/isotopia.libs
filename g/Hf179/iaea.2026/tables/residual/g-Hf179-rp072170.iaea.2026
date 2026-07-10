@@ -1,0 +1,42 @@
+# header: 
+#   title: Hf179(g,x)Hf170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 179
+#   nuclide: Hf179
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 170
+#     nuclide: Hf170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.689465E-06
+   7.500000E+01   1.195448E-02
+   8.000000E+01   2.109580E-01
+   9.000000E+01   1.664570E+00
+   1.000000E+02   1.814887E+00
+   1.100000E+02   8.874520E-01
+   1.200000E+02   4.738367E-01
+   1.300000E+02   3.483431E-01
+   1.400000E+02   3.005356E-01
+   1.500000E+02   2.656934E-01
+   1.600000E+02   2.087931E-01
+   1.800000E+02   1.674416E-01
+   2.000000E+02   1.626236E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Kr82(g,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 82
+#   nuclide: Kr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.404478E-11
+   8.000000E+01   2.391134E-08
+   9.000000E+01   1.572048E-05
+   1.000000E+02   2.427438E-04
+   1.100000E+02   6.053880E-04
+   1.200000E+02   6.939172E-04
+   1.300000E+02   2.339984E-03
+   1.400000E+02   7.762262E-03
+   1.500000E+02   1.209466E-02
+   1.600000E+02   1.264460E-02
+   1.800000E+02   1.926405E-02
+   2.000000E+02   1.752274E-02

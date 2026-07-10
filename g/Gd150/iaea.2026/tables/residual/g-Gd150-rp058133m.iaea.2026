@@ -1,0 +1,42 @@
+# header: 
+#   title: Gd150(g,x)Ce133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 150
+#   nuclide: Gd150
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.398903E-12
+   9.000000E+01   1.230626E-06
+   1.000000E+02   1.625698E-04
+   1.100000E+02   5.815817E-04
+   1.200000E+02   3.594509E-04
+   1.300000E+02   4.355830E-04
+   1.400000E+02   1.344292E-03
+   1.500000E+02   1.791121E-03
+   1.600000E+02   1.058448E-03
+   1.800000E+02   1.314655E-03
+   2.000000E+02   6.984492E-04

@@ -1,0 +1,37 @@
+# header: 
+#   title: Ac227(g,x)Pb202g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 202
+#     nuclide: Pb202g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.229778E-10
+   1.400000E+02   9.188945E-08
+   1.500000E+02   2.811022E-06
+   1.600000E+02   3.136917E-05
+   1.800000E+02   2.063835E-04
+   2.000000E+02   2.578319E-04

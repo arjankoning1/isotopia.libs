@@ -1,0 +1,44 @@
+# header: 
+#   title: Ra228(g,x)Bi210m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 228
+#   nuclide: Ra228
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.603297E-10
+   7.500000E+01   6.197247E-09
+   8.000000E+01   4.666218E-08
+   9.000000E+01   6.188885E-07
+   1.000000E+02   3.590339E-06
+   1.100000E+02   9.844787E-06
+   1.200000E+02   1.566536E-05
+   1.300000E+02   1.573847E-05
+   1.400000E+02   1.514887E-05
+   1.500000E+02   4.385906E-05
+   1.600000E+02   3.958605E-05
+   1.800000E+02   7.264013E-05
+   2.000000E+02   5.568836E-05

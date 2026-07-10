@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu152(g,x)Pr134g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 152
+#   nuclide: Eu152
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 134
+#     nuclide: Pr134g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.622975E-10
+   1.200000E+02   3.440137E-06
+   1.300000E+02   3.414266E-04
+   1.400000E+02   2.002860E-03
+   1.500000E+02   3.246953E-03
+   1.600000E+02   5.248943E-03
+   1.800000E+02   2.505536E-02
+   2.000000E+02   1.666113E-02

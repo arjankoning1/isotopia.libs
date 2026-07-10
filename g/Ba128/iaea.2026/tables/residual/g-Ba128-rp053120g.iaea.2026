@@ -1,0 +1,50 @@
+# header: 
+#   title: Ba128(g,x)I120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.008949E-12
+   4.500000E+01   4.207761E-08
+   5.000000E+01   7.728732E-06
+   5.500000E+01   1.588633E-04
+   6.000000E+01   8.052833E-03
+   6.500000E+01   5.369750E-02
+   7.000000E+01   1.104821E-01
+   7.500000E+01   1.147605E-01
+   8.000000E+01   8.101102E-02
+   9.000000E+01   3.679765E-02
+   1.000000E+02   5.662473E-02
+   1.100000E+02   9.807766E-02
+   1.200000E+02   7.939728E-02
+   1.300000E+02   5.433892E-02
+   1.400000E+02   4.788710E-02
+   1.500000E+02   4.174651E-02
+   1.600000E+02   3.185629E-02
+   1.800000E+02   2.925984E-02
+   2.000000E+02   1.990892E-02

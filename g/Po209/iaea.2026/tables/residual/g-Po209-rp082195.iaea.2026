@@ -1,0 +1,38 @@
+# header: 
+#   title: Po209(g,x)Pb195 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 84
+#   A: 209
+#   nuclide: Po209
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 195
+#     nuclide: Pb195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.078122E-06
+   1.100000E+02   3.209659E-03
+   1.200000E+02   8.443345E-02
+   1.300000E+02   2.031561E-01
+   1.400000E+02   1.285460E-01
+   1.500000E+02   5.543477E-02
+   1.600000E+02   5.113450E-02
+   1.800000E+02   3.779683E-02
+   2.000000E+02   3.320257E-02

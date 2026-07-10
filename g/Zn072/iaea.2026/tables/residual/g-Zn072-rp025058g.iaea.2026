@@ -1,0 +1,43 @@
+# header: 
+#   title: Zn72(g,x)Mn58g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 58
+#     nuclide: Mn58g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.081099E-12
+   8.000000E+01   9.629339E-09
+   9.000000E+01   2.256074E-06
+   1.000000E+02   2.641009E-05
+   1.100000E+02   1.165670E-04
+   1.200000E+02   1.847351E-04
+   1.300000E+02   1.431169E-04
+   1.400000E+02   1.916523E-04
+   1.500000E+02   2.075856E-04
+   1.600000E+02   2.452756E-04
+   1.800000E+02   2.368221E-04
+   2.000000E+02   1.396958E-04

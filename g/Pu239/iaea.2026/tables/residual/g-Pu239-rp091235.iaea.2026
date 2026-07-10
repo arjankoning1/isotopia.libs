@@ -1,0 +1,46 @@
+# header: 
+#   title: Pu239(g,x)Pa235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 235
+#     nuclide: Pa235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.277622E-13
+   5.500000E+01   1.399513E-10
+   6.000000E+01   3.933700E-09
+   6.500000E+01   3.420469E-08
+   7.000000E+01   1.365334E-07
+   7.500000E+01   3.269618E-07
+   8.000000E+01   5.875957E-07
+   9.000000E+01   1.234020E-06
+   1.000000E+02   1.764753E-06
+   1.100000E+02   1.997165E-06
+   1.200000E+02   1.859057E-06
+   1.300000E+02   2.324730E-06
+   1.400000E+02   1.780818E-06
+   1.500000E+02   1.961079E-06
+   1.600000E+02   2.348177E-06
+   1.800000E+02   1.338498E-06
+   2.000000E+02   1.624739E-06

@@ -1,0 +1,45 @@
+# header: 
+#   title: Si29(g,x)O19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.916827E-09
+   6.000000E+01   7.084816E-06
+   6.500000E+01   6.738620E-05
+   7.000000E+01   1.300079E-04
+   7.500000E+01   1.278058E-04
+   8.000000E+01   9.246758E-05
+   9.000000E+01   6.157267E-05
+   1.000000E+02   1.371692E-04
+   1.100000E+02   3.032558E-04
+   1.200000E+02   4.251083E-04
+   1.300000E+02   4.500931E-04
+   1.400000E+02   4.795018E-04
+   1.500000E+02   4.811486E-04
+   1.600000E+02   4.911463E-04
+   1.800000E+02   4.782905E-04
+   2.000000E+02   4.356306E-04

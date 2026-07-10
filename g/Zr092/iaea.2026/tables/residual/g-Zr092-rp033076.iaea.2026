@@ -1,0 +1,40 @@
+# header: 
+#   title: Zr92(g,x)As76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.047300E-12
+   9.000000E+01   1.057926E-08
+   1.000000E+02   4.238535E-06
+   1.100000E+02   5.847573E-05
+   1.200000E+02   9.159819E-05
+   1.300000E+02   1.254788E-04
+   1.400000E+02   7.583465E-04
+   1.500000E+02   1.488214E-03
+   1.600000E+02   1.776309E-03
+   1.800000E+02   1.577974E-03
+   2.000000E+02   1.840146E-03

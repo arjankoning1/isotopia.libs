@@ -1,0 +1,51 @@
+# header: 
+#   title: Kr84(g,x)Br80g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 84
+#   nuclide: Kr84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.386318E-04
+   4.000000E+01   1.955153E-03
+   4.500000E+01   2.635385E-02
+   5.000000E+01   1.886861E-01
+   5.500000E+01   3.050563E-01
+   6.000000E+01   2.919453E-01
+   6.500000E+01   2.417370E-01
+   7.000000E+01   2.123657E-01
+   7.500000E+01   1.971231E-01
+   8.000000E+01   1.869213E-01
+   9.000000E+01   1.717014E-01
+   1.000000E+02   1.567769E-01
+   1.100000E+02   1.419252E-01
+   1.200000E+02   1.297310E-01
+   1.300000E+02   1.139671E-01
+   1.400000E+02   1.029949E-01
+   1.500000E+02   9.446557E-02
+   1.600000E+02   8.202587E-02
+   1.800000E+02   6.575832E-02
+   2.000000E+02   5.296802E-02

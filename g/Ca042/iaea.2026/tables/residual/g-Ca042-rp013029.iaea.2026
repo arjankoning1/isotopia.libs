@@ -1,0 +1,46 @@
+# header: 
+#   title: Ca42(g,x)Al29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.358293E-11
+   5.500000E+01   1.236381E-07
+   6.000000E+01   5.475253E-06
+   6.500000E+01   2.939218E-05
+   7.000000E+01   6.310362E-05
+   7.500000E+01   7.268484E-05
+   8.000000E+01   5.984589E-05
+   9.000000E+01   3.739103E-05
+   1.000000E+02   1.596439E-04
+   1.100000E+02   5.301868E-04
+   1.200000E+02   6.541349E-04
+   1.300000E+02   6.452792E-04
+   1.400000E+02   7.300257E-04
+   1.500000E+02   1.062613E-03
+   1.600000E+02   1.326012E-03
+   1.800000E+02   1.486592E-03
+   2.000000E+02   1.087961E-03

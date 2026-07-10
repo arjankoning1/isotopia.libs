@@ -1,0 +1,51 @@
+# header: 
+#   title: P32(g,x)Al26m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.297719E-05
+   4.000000E+01   1.388134E-02
+   4.500000E+01   3.041473E-02
+   5.000000E+01   2.305267E-02
+   5.500000E+01   1.455340E-02
+   6.000000E+01   1.203469E-02
+   6.500000E+01   1.658835E-02
+   7.000000E+01   2.114734E-02
+   7.500000E+01   2.156661E-02
+   8.000000E+01   2.127841E-02
+   9.000000E+01   2.206489E-02
+   1.000000E+02   2.255977E-02
+   1.100000E+02   2.216429E-02
+   1.200000E+02   2.041267E-02
+   1.300000E+02   1.932491E-02
+   1.400000E+02   1.834895E-02
+   1.500000E+02   1.617282E-02
+   1.600000E+02   1.455206E-02
+   1.800000E+02   1.296139E-02
+   2.000000E+02   1.097456E-02

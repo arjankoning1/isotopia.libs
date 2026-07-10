@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm147(g,x)La131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 62
+#   A: 147
+#   nuclide: Sm147
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 131
+#     nuclide: La131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.895680E-11
+   1.000000E+02   1.336640E-06
+   1.100000E+02   1.466867E-04
+   1.200000E+02   2.902219E-03
+   1.300000E+02   8.575970E-03
+   1.400000E+02   8.796062E-03
+   1.500000E+02   5.107632E-03
+   1.600000E+02   6.694327E-03
+   1.800000E+02   6.420257E-03
+   2.000000E+02   2.620419E-03

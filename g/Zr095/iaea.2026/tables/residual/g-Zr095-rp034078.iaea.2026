@@ -1,0 +1,39 @@
+# header: 
+#   title: Zr95(g,x)Se78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 95
+#   nuclide: Zr95
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 78
+#     nuclide: Se78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.001529E-07
+   1.000000E+02   1.119639E-04
+   1.100000E+02   1.266919E-03
+   1.200000E+02   2.242262E-03
+   1.300000E+02   2.450659E-03
+   1.400000E+02   5.995871E-03
+   1.500000E+02   1.148807E-02
+   1.600000E+02   1.396703E-02
+   1.800000E+02   1.456008E-02
+   2.000000E+02   1.530235E-02

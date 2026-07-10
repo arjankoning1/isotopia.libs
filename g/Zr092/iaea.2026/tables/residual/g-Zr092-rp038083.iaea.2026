@@ -1,0 +1,43 @@
+# header: 
+#   title: Zr92(g,x)Sr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.518512E-06
+   7.000000E+01   1.819474E-03
+   7.500000E+01   1.949574E-02
+   8.000000E+01   5.209940E-02
+   9.000000E+01   7.358451E-02
+   1.000000E+02   5.791182E-02
+   1.100000E+02   1.050240E-01
+   1.200000E+02   1.954634E-01
+   1.300000E+02   2.116749E-01
+   1.400000E+02   1.770895E-01
+   1.500000E+02   1.473627E-01
+   1.600000E+02   1.287827E-01
+   1.800000E+02   1.045633E-01
+   2.000000E+02   9.057281E-02

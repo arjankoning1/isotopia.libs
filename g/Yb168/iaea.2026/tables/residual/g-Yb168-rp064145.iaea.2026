@@ -1,0 +1,35 @@
+# header: 
+#   title: Yb168(g,x)Gd145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 70
+#   A: 168
+#   nuclide: Yb168
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 145
+#     nuclide: Gd145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   7.876706E-12
+   1.400000E+02   1.258688E-07
+   1.500000E+02   5.528043E-05
+   1.600000E+02   1.181628E-03
+   1.800000E+02   1.113694E-02
+   2.000000E+02   2.324441E-02

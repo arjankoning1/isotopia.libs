@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd144(g,x)Nd137g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.991991E-04
+   7.000000E+01   6.229221E-02
+   7.500000E+01   3.128774E-01
+   8.000000E+01   5.556132E-01
+   9.000000E+01   4.683825E-01
+   1.000000E+02   2.443182E-01
+   1.100000E+02   1.640012E-01
+   1.200000E+02   1.329957E-01
+   1.300000E+02   1.141509E-01
+   1.400000E+02   1.013223E-01
+   1.500000E+02   8.896938E-02
+   1.600000E+02   8.041125E-02
+   1.800000E+02   6.726521E-02
+   2.000000E+02   5.678877E-02

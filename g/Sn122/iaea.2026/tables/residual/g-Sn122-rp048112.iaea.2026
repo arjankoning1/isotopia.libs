@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn122(g,x)Cd112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 112
+#     nuclide: Cd112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.533847E-10
+   6.500000E+01   4.859023E-05
+   7.000000E+01   9.405545E-03
+   7.500000E+01   1.089962E-01
+   8.000000E+01   3.424252E-01
+   9.000000E+01   5.207576E-01
+   1.000000E+02   2.445665E-01
+   1.100000E+02   1.615249E-01
+   1.200000E+02   1.786959E-01
+   1.300000E+02   1.687057E-01
+   1.400000E+02   1.104434E-01
+   1.500000E+02   9.854884E-02
+   1.600000E+02   7.510107E-02
+   1.800000E+02   8.096479E-02
+   2.000000E+02   4.794097E-02

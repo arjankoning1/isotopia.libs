@@ -1,0 +1,39 @@
+# header: 
+#   title: Ti47(g,x)Cl33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 33
+#     nuclide: Cl33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.075084E-08
+   1.000000E+02   4.028809E-06
+   1.100000E+02   4.906498E-05
+   1.200000E+02   1.723143E-04
+   1.300000E+02   2.340678E-04
+   1.400000E+02   2.495734E-04
+   1.500000E+02   3.401792E-04
+   1.600000E+02   5.076287E-04
+   1.800000E+02   7.070982E-04
+   2.000000E+02   7.775688E-04

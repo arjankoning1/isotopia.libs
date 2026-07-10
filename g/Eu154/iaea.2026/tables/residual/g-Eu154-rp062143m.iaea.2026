@@ -1,0 +1,42 @@
+# header: 
+#   title: Eu154(g,x)Sm143m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 143
+#     nuclide: Sm143m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.266338E-09
+   9.000000E+01   4.856181E-03
+   1.000000E+02   1.366542E-01
+   1.100000E+02   2.583300E-01
+   1.200000E+02   2.195420E-01
+   1.300000E+02   1.379582E-01
+   1.400000E+02   1.001401E-01
+   1.500000E+02   8.877790E-02
+   1.600000E+02   7.856284E-02
+   1.800000E+02   6.579889E-02
+   2.000000E+02   5.931940E-02

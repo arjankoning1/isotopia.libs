@@ -1,0 +1,44 @@
+# header: 
+#   title: Se72(g,x)Co61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 61
+#     nuclide: Co61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.786349E-10
+   6.500000E+01   1.024118E-07
+   7.000000E+01   1.561371E-06
+   7.500000E+01   6.821687E-06
+   8.000000E+01   1.421197E-05
+   9.000000E+01   1.558034E-05
+   1.000000E+02   1.680031E-05
+   1.100000E+02   1.059255E-04
+   1.200000E+02   3.076309E-04
+   1.300000E+02   3.366575E-04
+   1.400000E+02   3.047716E-04
+   1.500000E+02   2.277442E-04
+   1.600000E+02   2.445027E-04
+   1.800000E+02   2.108097E-04
+   2.000000E+02   1.446473E-04

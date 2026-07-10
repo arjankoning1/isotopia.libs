@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn123(g,x)Ag111m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 123
+#   nuclide: Sn123
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 111
+#     nuclide: Ag111m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.350615E-10
+   8.000000E+01   1.294026E-06
+   9.000000E+01   4.364582E-04
+   1.000000E+02   5.868547E-03
+   1.100000E+02   2.220866E-02
+   1.200000E+02   2.502465E-02
+   1.300000E+02   1.598557E-02
+   1.400000E+02   1.303689E-02
+   1.500000E+02   1.052002E-02
+   1.600000E+02   1.049903E-02
+   1.800000E+02   6.393599E-03
+   2.000000E+02   6.565625E-03

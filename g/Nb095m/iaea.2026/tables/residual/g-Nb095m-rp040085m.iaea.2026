@@ -1,0 +1,41 @@
+# header: 
+#   title: Nb95m(g,x)Zr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.597082E-14
+   1.000000E+02   3.097961E-07
+   1.100000E+02   1.729953E-05
+   1.200000E+02   2.073997E-04
+   1.300000E+02   7.020382E-04
+   1.400000E+02   9.962523E-04
+   1.500000E+02   9.337892E-04
+   1.600000E+02   9.121364E-04
+   1.800000E+02   8.525433E-04
+   2.000000E+02   1.014037E-03

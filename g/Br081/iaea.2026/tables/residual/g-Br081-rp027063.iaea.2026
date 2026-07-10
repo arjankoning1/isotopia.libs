@@ -1,0 +1,40 @@
+# header: 
+#   title: Br81(g,x)Co63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 63
+#     nuclide: Co63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.795770E-10
+   9.000000E+01   1.774249E-07
+   1.000000E+02   1.510746E-06
+   1.100000E+02   1.597633E-06
+   1.200000E+02   1.490541E-06
+   1.300000E+02   5.775157E-06
+   1.400000E+02   1.541300E-05
+   1.500000E+02   1.865073E-05
+   1.600000E+02   1.439716E-05
+   1.800000E+02   2.949770E-05
+   2.000000E+02   3.857176E-05

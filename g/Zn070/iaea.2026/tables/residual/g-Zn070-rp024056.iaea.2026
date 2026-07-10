@@ -1,0 +1,44 @@
+# header: 
+#   title: Zn70(g,x)Cr56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 56
+#     nuclide: Cr56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.120363E-11
+   6.500000E+01   3.183618E-08
+   7.000000E+01   6.836905E-07
+   7.500000E+01   3.400508E-06
+   8.000000E+01   7.211245E-06
+   9.000000E+01   5.928127E-06
+   1.000000E+02   5.098206E-06
+   1.100000E+02   2.585922E-05
+   1.200000E+02   7.115124E-05
+   1.300000E+02   7.188631E-05
+   1.400000E+02   6.739817E-05
+   1.500000E+02   7.937937E-05
+   1.600000E+02   1.036921E-04
+   1.800000E+02   7.470309E-05
+   2.000000E+02   5.657817E-05

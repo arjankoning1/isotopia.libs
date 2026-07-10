@@ -1,0 +1,43 @@
+# header: 
+#   title: Am242m(g,x)Pu233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 95
+#   A: 242
+#   nuclide: Am242m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 233
+#     nuclide: Pu233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.138802E-12
+   7.000000E+01   6.220183E-11
+   7.500000E+01   2.490967E-10
+   8.000000E+01   1.021338E-09
+   9.000000E+01   1.977761E-08
+   1.000000E+02   1.328652E-07
+   1.100000E+02   4.350282E-07
+   1.200000E+02   7.897216E-07
+   1.300000E+02   1.653942E-06
+   1.400000E+02   2.249885E-06
+   1.500000E+02   3.114527E-06
+   1.600000E+02   3.540923E-06
+   1.800000E+02   6.112106E-06
+   2.000000E+02   1.213854E-05

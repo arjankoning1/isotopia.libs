@@ -1,0 +1,40 @@
+# header: 
+#   title: Os192(g,x)Hf176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 192
+#   nuclide: Os192
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 176
+#     nuclide: Hf176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.297880E-12
+   9.000000E+01   2.831560E-07
+   1.000000E+02   8.090549E-05
+   1.100000E+02   5.996036E-04
+   1.200000E+02   7.661419E-04
+   1.300000E+02   3.778305E-04
+   1.400000E+02   7.709765E-04
+   1.500000E+02   1.122452E-03
+   1.600000E+02   1.316253E-03
+   1.800000E+02   7.450973E-04
+   2.000000E+02   6.696936E-04

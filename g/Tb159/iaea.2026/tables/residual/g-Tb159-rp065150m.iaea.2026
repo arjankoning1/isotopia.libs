@@ -1,0 +1,43 @@
+# header: 
+#   title: Tb159(g,x)Tb150m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 65
+#   A: 159
+#   nuclide: Tb159
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 150
+#     nuclide: Tb150m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.497362E-06
+   8.000000E+01   4.223380E-03
+   9.000000E+01   5.419959E-01
+   1.000000E+02   1.088974E+00
+   1.100000E+02   5.280600E-01
+   1.200000E+02   2.246371E-01
+   1.300000E+02   1.405168E-01
+   1.400000E+02   1.101058E-01
+   1.500000E+02   9.812204E-02
+   1.600000E+02   8.265766E-02
+   1.800000E+02   6.237119E-02
+   2.000000E+02   6.253673E-02

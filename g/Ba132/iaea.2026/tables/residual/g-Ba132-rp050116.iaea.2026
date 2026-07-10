@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba132(g,x)Sn116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 116
+#     nuclide: Sn116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.796568E-10
+   8.000000E+01   2.481313E-08
+   9.000000E+01   6.626248E-06
+   1.000000E+02   4.985621E-05
+   1.100000E+02   4.842601E-05
+   1.200000E+02   3.289714E-05
+   1.300000E+02   1.202477E-04
+   1.400000E+02   2.565373E-04
+   1.500000E+02   2.211903E-04
+   1.600000E+02   1.596934E-04
+   1.800000E+02   1.988254E-04
+   2.000000E+02   9.234018E-05

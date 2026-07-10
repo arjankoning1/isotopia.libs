@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni63(g,x)Mn52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.382059E-11
+   8.000000E+01   9.003863E-07
+   9.000000E+01   2.697103E-04
+   1.000000E+02   2.485973E-03
+   1.100000E+02   8.902535E-03
+   1.200000E+02   1.197259E-02
+   1.300000E+02   1.203616E-02
+   1.400000E+02   1.446477E-02
+   1.500000E+02   1.867432E-02
+   1.600000E+02   2.051927E-02
+   1.800000E+02   1.776614E-02
+   2.000000E+02   1.785483E-02

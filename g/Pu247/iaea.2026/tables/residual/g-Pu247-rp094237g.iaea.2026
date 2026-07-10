@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu247(g,x)Pu237g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 247
+#   nuclide: Pu247
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.426237E-09
+   7.000000E+01   6.855668E-08
+   7.500000E+01   3.775316E-07
+   8.000000E+01   9.757432E-07
+   9.000000E+01   3.325068E-06
+   1.000000E+02   9.059045E-06
+   1.100000E+02   1.966043E-05
+   1.200000E+02   5.005183E-05
+   1.300000E+02   4.518396E-05
+   1.400000E+02   1.841559E-04
+   1.500000E+02   1.707132E-04
+   1.600000E+02   3.200380E-04
+   1.800000E+02   7.794189E-04
+   2.000000E+02   1.219578E-03

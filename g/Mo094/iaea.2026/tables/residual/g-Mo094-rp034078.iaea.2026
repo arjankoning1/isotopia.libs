@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo94(g,x)Se78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 78
+#     nuclide: Se78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.732608E-11
+   7.000000E+01   3.509859E-10
+   7.500000E+01   2.347567E-09
+   8.000000E+01   7.897080E-09
+   9.000000E+01   9.924324E-09
+   1.000000E+02   5.072412E-08
+   1.100000E+02   7.810307E-07
+   1.200000E+02   2.551713E-06
+   1.300000E+02   2.390469E-06
+   1.400000E+02   6.264926E-06
+   1.500000E+02   3.088530E-05
+   1.600000E+02   5.611129E-05
+   1.800000E+02   5.763859E-05
+   2.000000E+02   7.860975E-05

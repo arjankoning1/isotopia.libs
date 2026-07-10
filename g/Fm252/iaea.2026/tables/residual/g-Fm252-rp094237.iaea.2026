@@ -1,0 +1,44 @@
+# header: 
+#   title: Fm252(g,x)Pu237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.202766E-16
+   6.500000E+01   7.942192E-13
+   7.000000E+01   1.095479E-11
+   7.500000E+01   5.980704E-11
+   8.000000E+01   3.356918E-10
+   9.000000E+01   2.034616E-09
+   1.000000E+02   1.142626E-08
+   1.100000E+02   1.569957E-07
+   1.200000E+02   5.708976E-07
+   1.300000E+02   1.032742E-06
+   1.400000E+02   2.538224E-06
+   1.500000E+02   8.126535E-06
+   1.600000E+02   3.921074E-05
+   1.800000E+02   9.535882E-05
+   2.000000E+02   2.776283E-05

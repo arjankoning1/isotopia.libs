@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr88(g,x)As75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 75
+#     nuclide: As75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.923584E-09
+   8.000000E+01   1.415901E-06
+   9.000000E+01   7.607567E-05
+   1.000000E+02   1.053428E-03
+   1.100000E+02   2.175833E-03
+   1.200000E+02   4.732761E-03
+   1.300000E+02   1.785150E-02
+   1.400000E+02   2.694026E-02
+   1.500000E+02   2.320096E-02
+   1.600000E+02   1.940067E-02
+   1.800000E+02   1.819974E-02
+   2.000000E+02   1.087027E-02

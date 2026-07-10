@@ -1,0 +1,42 @@
+# header: 
+#   title: Ra224(g,x)Pb204m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 204
+#     nuclide: Pb204m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.330624E-09
+   9.000000E+01   6.475370E-09
+   1.000000E+02   6.857613E-07
+   1.100000E+02   1.289598E-05
+   1.200000E+02   6.717991E-05
+   1.300000E+02   1.320358E-04
+   1.400000E+02   1.586252E-04
+   1.500000E+02   1.376326E-04
+   1.600000E+02   2.007176E-04
+   1.800000E+02   2.674771E-04
+   2.000000E+02   1.629162E-04

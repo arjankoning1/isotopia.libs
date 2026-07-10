@@ -1,0 +1,39 @@
+# header: 
+#   title: Os187(g,x)Hf171 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 76
+#   A: 187
+#   nuclide: Os187
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.753467E-08
+   1.000000E+02   4.485376E-05
+   1.100000E+02   1.280728E-03
+   1.200000E+02   3.935347E-03
+   1.300000E+02   3.048488E-03
+   1.400000E+02   2.496445E-03
+   1.500000E+02   3.653317E-03
+   1.600000E+02   5.095983E-03
+   1.800000E+02   2.602542E-03
+   2.000000E+02   1.582367E-03

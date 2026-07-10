@@ -1,0 +1,46 @@
+# header: 
+#   title: Rh102m(g,x)Rh96m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.748279E-04
+   6.500000E+01   1.310138E-02
+   7.000000E+01   3.375791E-02
+   7.500000E+01   3.926061E-02
+   8.000000E+01   3.265640E-02
+   9.000000E+01   2.092648E-02
+   1.000000E+02   1.725399E-02
+   1.100000E+02   1.571765E-02
+   1.200000E+02   1.445994E-02
+   1.300000E+02   1.353954E-02
+   1.400000E+02   1.283295E-02
+   1.500000E+02   1.218310E-02
+   1.600000E+02   1.131729E-02
+   1.800000E+02   1.041606E-02
+   2.000000E+02   9.716301E-03

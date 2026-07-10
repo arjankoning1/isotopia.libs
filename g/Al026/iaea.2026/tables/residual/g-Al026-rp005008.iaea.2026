@@ -1,0 +1,40 @@
+# header: 
+#   title: Al26(g,x)B8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 8
+#     nuclide: B8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.701782E-11
+   9.000000E+01   3.820408E-08
+   1.000000E+02   2.497707E-07
+   1.100000E+02   4.999832E-07
+   1.200000E+02   1.011274E-06
+   1.300000E+02   2.652945E-06
+   1.400000E+02   6.216436E-06
+   1.500000E+02   1.108856E-05
+   1.600000E+02   1.749542E-05
+   1.800000E+02   4.015004E-05
+   2.000000E+02   8.307598E-05

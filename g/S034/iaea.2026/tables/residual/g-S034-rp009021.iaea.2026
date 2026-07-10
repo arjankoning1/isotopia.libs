@@ -1,0 +1,44 @@
+# header: 
+#   title: S34(g,x)F21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 21
+#     nuclide: F21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.276425E-10
+   6.500000E+01   1.187438E-07
+   7.000000E+01   8.526049E-07
+   7.500000E+01   1.974144E-06
+   8.000000E+01   2.700624E-06
+   9.000000E+01   3.180136E-06
+   1.000000E+02   2.029962E-05
+   1.100000E+02   1.324431E-04
+   1.200000E+02   3.314549E-04
+   1.300000E+02   3.748247E-04
+   1.400000E+02   4.092415E-04
+   1.500000E+02   4.678019E-04
+   1.600000E+02   5.614165E-04
+   1.800000E+02   5.053449E-04
+   2.000000E+02   5.212277E-04

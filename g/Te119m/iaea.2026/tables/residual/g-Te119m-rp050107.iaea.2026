@@ -1,0 +1,39 @@
+# header: 
+#   title: Te119m(g,x)Sn107 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 119
+#   nuclide: Te119m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 107
+#     nuclide: Sn107
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.486076E-09
+   1.000000E+02   4.640652E-05
+   1.100000E+02   1.471974E-03
+   1.200000E+02   3.697679E-03
+   1.300000E+02   3.254736E-03
+   1.400000E+02   3.584093E-03
+   1.500000E+02   7.357737E-03
+   1.600000E+02   1.225976E-02
+   1.800000E+02   1.077293E-02
+   2.000000E+02   1.082978E-02

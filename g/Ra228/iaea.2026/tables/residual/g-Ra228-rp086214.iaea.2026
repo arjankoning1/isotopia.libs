@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra228(g,x)Rn214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 88
+#   A: 228
+#   nuclide: Ra228
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 214
+#     nuclide: Rn214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.080549E-09
+   7.000000E+01   8.983742E-06
+   7.500000E+01   1.048067E-03
+   8.000000E+01   6.305102E-03
+   9.000000E+01   2.577795E-02
+   1.000000E+02   8.314817E-02
+   1.100000E+02   8.765050E-02
+   1.200000E+02   4.998572E-02
+   1.300000E+02   3.197869E-02
+   1.400000E+02   2.550847E-02
+   1.500000E+02   2.370481E-02
+   1.600000E+02   1.832168E-02
+   1.800000E+02   1.729621E-02
+   2.000000E+02   1.780366E-02

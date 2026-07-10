@@ -1,0 +1,39 @@
+# header: 
+#   title: Th230(g,x)Ra214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 214
+#     nuclide: Ra214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.460082E-12
+   1.000000E+02   6.707789E-09
+   1.100000E+02   2.997415E-07
+   1.200000E+02   2.230462E-06
+   1.300000E+02   5.402184E-06
+   1.400000E+02   1.629524E-05
+   1.500000E+02   3.632306E-05
+   1.600000E+02   1.411967E-04
+   1.800000E+02   3.580269E-04
+   2.000000E+02   5.708698E-04

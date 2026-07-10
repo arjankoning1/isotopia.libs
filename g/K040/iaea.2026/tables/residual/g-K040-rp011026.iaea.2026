@@ -1,0 +1,42 @@
+# header: 
+#   title: K40(g,x)Na26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.119146E-11
+   7.500000E+01   5.401915E-09
+   8.000000E+01   8.172062E-08
+   9.000000E+01   5.431731E-07
+   1.000000E+02   7.488648E-07
+   1.100000E+02   6.877109E-06
+   1.200000E+02   3.840420E-05
+   1.300000E+02   1.124822E-04
+   1.400000E+02   1.518651E-04
+   1.500000E+02   1.594106E-04
+   1.600000E+02   1.752877E-04
+   1.800000E+02   2.133876E-04
+   2.000000E+02   2.300321E-04

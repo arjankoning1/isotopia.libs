@@ -1,0 +1,45 @@
+# header: 
+#   title: P32(g,x)F21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 21
+#     nuclide: F21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.702587E-10
+   6.000000E+01   1.165946E-07
+   6.500000E+01   9.746908E-07
+   7.000000E+01   9.112581E-06
+   7.500000E+01   4.673550E-05
+   8.000000E+01   1.080425E-04
+   9.000000E+01   1.799628E-04
+   1.000000E+02   2.931853E-04
+   1.100000E+02   5.306422E-04
+   1.200000E+02   6.174666E-04
+   1.300000E+02   6.811490E-04
+   1.400000E+02   6.814552E-04
+   1.500000E+02   7.713227E-04
+   1.600000E+02   8.446408E-04
+   1.800000E+02   8.762604E-04
+   2.000000E+02   8.725235E-04

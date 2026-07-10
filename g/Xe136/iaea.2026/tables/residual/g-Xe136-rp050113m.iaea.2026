@@ -1,0 +1,34 @@
+# header: 
+#   title: Xe136(g,x)Sn113m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 3
+##       E             xs
+##     [MeV]          [mb]
+   1.600000E+02   2.673088E-10
+   1.800000E+02   1.107596E-05
+   2.000000E+02   4.340442E-04

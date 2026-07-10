@@ -1,0 +1,37 @@
+# header: 
+#   title: Kr81(g,x)Se69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 69
+#     nuclide: Se69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.837530E-08
+   1.200000E+02   3.218957E-06
+   1.300000E+02   1.258533E-05
+   1.400000E+02   1.703080E-05
+   1.500000E+02   1.991769E-05
+   1.600000E+02   3.189741E-05
+   1.800000E+02   6.899898E-05
+   2.000000E+02   7.642476E-05

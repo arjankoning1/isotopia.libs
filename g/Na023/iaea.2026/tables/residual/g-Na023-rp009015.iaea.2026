@@ -1,0 +1,43 @@
+# header: 
+#   title: Na23(g,x)F15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 15
+#     nuclide: F15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.660109E-11
+   7.000000E+01   1.229277E-07
+   7.500000E+01   2.196866E-06
+   8.000000E+01   8.684156E-06
+   9.000000E+01   2.508079E-05
+   1.000000E+02   3.312087E-05
+   1.100000E+02   3.993141E-05
+   1.200000E+02   5.065831E-05
+   1.300000E+02   6.279889E-05
+   1.400000E+02   7.281781E-05
+   1.500000E+02   7.596122E-05
+   1.600000E+02   7.572901E-05
+   1.800000E+02   6.935655E-05
+   2.000000E+02   6.248842E-05

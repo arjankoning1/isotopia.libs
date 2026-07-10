@@ -1,0 +1,40 @@
+# header: 
+#   title: Te119m(g,x)Te111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 119
+#   nuclide: Te119m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 111
+#     nuclide: Te111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.650481E-12
+   9.000000E+01   5.434632E-06
+   1.000000E+02   1.527792E-04
+   1.100000E+02   3.058087E-04
+   1.200000E+02   2.334142E-04
+   1.300000E+02   1.764679E-04
+   1.400000E+02   1.722335E-04
+   1.500000E+02   1.742668E-04
+   1.600000E+02   1.808176E-04
+   1.800000E+02   1.917491E-04
+   2.000000E+02   2.291467E-04

@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl37(g,x)Al26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.374395E-06
+   6.500000E+01   1.661683E-04
+   7.000000E+01   1.128334E-03
+   7.500000E+01   2.401803E-03
+   8.000000E+01   3.036174E-03
+   9.000000E+01   2.959179E-03
+   1.000000E+02   5.537664E-03
+   1.100000E+02   1.049780E-02
+   1.200000E+02   1.588757E-02
+   1.300000E+02   2.025287E-02
+   1.400000E+02   2.154522E-02
+   1.500000E+02   2.229222E-02
+   1.600000E+02   2.349185E-02
+   1.800000E+02   1.729668E-02
+   2.000000E+02   1.800960E-02

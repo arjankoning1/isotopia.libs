@@ -1,0 +1,40 @@
+# header: 
+#   title: Ce144(g,x)Te127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 127
+#     nuclide: Te127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.048035E-10
+   9.000000E+01   3.996604E-06
+   1.000000E+02   9.876652E-05
+   1.100000E+02   1.283059E-04
+   1.200000E+02   5.730949E-05
+   1.300000E+02   1.788526E-04
+   1.400000E+02   5.806392E-04
+   1.500000E+02   9.896706E-04
+   1.600000E+02   9.346201E-04
+   1.800000E+02   4.982491E-04
+   2.000000E+02   4.858815E-04

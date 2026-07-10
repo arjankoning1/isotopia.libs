@@ -1,0 +1,43 @@
+# header: 
+#   title: Cl35(g,x)Na21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 21
+#     nuclide: Na21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.765957E-10
+   7.000000E+01   1.576096E-07
+   7.500000E+01   1.611258E-06
+   8.000000E+01   4.796717E-06
+   9.000000E+01   1.244466E-05
+   1.000000E+02   6.478174E-05
+   1.100000E+02   5.031094E-04
+   1.200000E+02   1.395123E-03
+   1.300000E+02   1.914802E-03
+   1.400000E+02   2.210534E-03
+   1.500000E+02   2.497758E-03
+   1.600000E+02   3.092395E-03
+   1.800000E+02   3.767450E-03
+   2.000000E+02   3.809696E-03

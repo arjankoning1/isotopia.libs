@@ -1,0 +1,43 @@
+# header: 
+#   title: Bi206(g,x)Bi197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 197
+#     nuclide: Bi197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.409144E-10
+   8.000000E+01   4.078571E-05
+   9.000000E+01   1.260583E-01
+   1.000000E+02   1.251961E+00
+   1.100000E+02   1.223410E+00
+   1.200000E+02   5.087535E-01
+   1.300000E+02   2.759979E-01
+   1.400000E+02   2.283897E-01
+   1.500000E+02   1.929187E-01
+   1.600000E+02   1.565614E-01
+   1.800000E+02   1.185499E-01
+   2.000000E+02   1.162074E-01

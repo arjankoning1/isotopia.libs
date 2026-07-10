@@ -1,0 +1,40 @@
+# header: 
+#   title: Pa229(g,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 229
+#   nuclide: Pa229
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.178860E-11
+   9.000000E+01   1.637890E-07
+   1.000000E+02   9.637748E-06
+   1.100000E+02   3.556604E-05
+   1.200000E+02   2.990163E-05
+   1.300000E+02   2.276138E-05
+   1.400000E+02   2.798860E-05
+   1.500000E+02   2.771249E-05
+   1.600000E+02   2.187019E-05
+   1.800000E+02   1.242464E-05
+   2.000000E+02   2.375447E-05

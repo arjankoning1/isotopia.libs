@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd111(g,x)Tc97 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 97
+#     nuclide: Tc97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.424520E-09
+   8.000000E+01   4.565305E-07
+   9.000000E+01   6.136121E-05
+   1.000000E+02   2.195772E-03
+   1.100000E+02   7.395908E-03
+   1.200000E+02   7.100282E-03
+   1.300000E+02   5.956897E-03
+   1.400000E+02   1.295356E-02
+   1.500000E+02   2.091815E-02
+   1.600000E+02   1.611795E-02
+   1.800000E+02   1.016343E-02
+   2.000000E+02   4.955795E-03

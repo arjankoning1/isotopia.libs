@@ -1,0 +1,39 @@
+# header: 
+#   title: Pm151(g,x)Pr137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 61
+#   A: 151
+#   nuclide: Pm151
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 137
+#     nuclide: Pr137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.038956E-08
+   1.000000E+02   2.461967E-04
+   1.100000E+02   6.521695E-03
+   1.200000E+02   1.490452E-02
+   1.300000E+02   2.896421E-02
+   1.400000E+02   7.291041E-02
+   1.500000E+02   9.204046E-02
+   1.600000E+02   6.338594E-02
+   1.800000E+02   3.295881E-02
+   2.000000E+02   2.987856E-02

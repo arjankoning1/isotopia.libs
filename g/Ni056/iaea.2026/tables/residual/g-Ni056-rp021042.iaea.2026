@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni56(g,x)Sc42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.959952E-12
+   7.000000E+01   7.923100E-09
+   7.500000E+01   8.186093E-07
+   8.000000E+01   1.106538E-05
+   9.000000E+01   7.232268E-05
+   1.000000E+02   5.740832E-05
+   1.100000E+02   1.059632E-04
+   1.200000E+02   5.892614E-04
+   1.300000E+02   1.421378E-03
+   1.400000E+02   1.706598E-03
+   1.500000E+02   2.197932E-03
+   1.600000E+02   3.344693E-03
+   1.800000E+02   6.231961E-03
+   2.000000E+02   7.753713E-03

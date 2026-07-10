@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta183(g,x)Tm166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 73
+#   A: 183
+#   nuclide: Ta183
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 166
+#     nuclide: Tm166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.635726E-10
+   1.000000E+02   6.513348E-05
+   1.100000E+02   1.161231E-02
+   1.200000E+02   6.954923E-02
+   1.300000E+02   8.065164E-02
+   1.400000E+02   3.961636E-02
+   1.500000E+02   4.572180E-02
+   1.600000E+02   3.618612E-02
+   1.800000E+02   2.121613E-02
+   2.000000E+02   9.702865E-03

@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd103(g,x)Rb84g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 103
+#   nuclide: Pd103
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.245097E-12
+   1.000000E+02   4.772437E-09
+   1.100000E+02   2.083764E-07
+   1.200000E+02   7.308675E-07
+   1.300000E+02   7.306248E-07
+   1.400000E+02   1.618760E-06
+   1.500000E+02   7.590557E-06
+   1.600000E+02   1.302197E-05
+   1.800000E+02   2.487570E-05
+   2.000000E+02   5.951067E-05

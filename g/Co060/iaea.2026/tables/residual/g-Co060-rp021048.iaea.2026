@@ -1,0 +1,47 @@
+# header: 
+#   title: Co60(g,x)Sc48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   7.146101E-09
+   5.000000E+01   5.879730E-07
+   5.500000E+01   3.521409E-06
+   6.000000E+01   7.283557E-06
+   6.500000E+01   5.770564E-06
+   7.000000E+01   2.537576E-06
+   7.500000E+01   1.323190E-06
+   8.000000E+01   4.248293E-06
+   9.000000E+01   7.734655E-05
+   1.000000E+02   2.036687E-04
+   1.100000E+02   1.566672E-04
+   1.200000E+02   1.905691E-04
+   1.300000E+02   4.107388E-04
+   1.400000E+02   5.113484E-04
+   1.500000E+02   5.704152E-04
+   1.600000E+02   5.592754E-04
+   1.800000E+02   6.853027E-04
+   2.000000E+02   3.692805E-04

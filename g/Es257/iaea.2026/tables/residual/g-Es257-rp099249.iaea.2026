@@ -1,0 +1,45 @@
+# header: 
+#   title: Es257(g,x)Es249 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 99
+#   A: 257
+#   nuclide: Es257
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 249
+#     nuclide: Es249
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.984880E-13
+   6.000000E+01   1.083132E-11
+   6.500000E+01   7.554746E-11
+   7.000000E+01   2.925907E-10
+   7.500000E+01   1.128685E-09
+   8.000000E+01   3.025425E-09
+   9.000000E+01   6.742038E-09
+   1.000000E+02   1.774081E-08
+   1.100000E+02   1.352001E-07
+   1.200000E+02   2.965748E-08
+   1.300000E+02   8.376766E-07
+   1.400000E+02   3.789980E-07
+   1.500000E+02   1.160458E-07
+   1.600000E+02   2.867179E-08
+   1.800000E+02   1.137867E-05
+   2.000000E+02   1.680322E-06

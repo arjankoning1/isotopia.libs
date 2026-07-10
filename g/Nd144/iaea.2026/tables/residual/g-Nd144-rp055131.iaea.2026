@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd144(g,x)Cs131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 131
+#     nuclide: Cs131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.091321E-11
+   7.000000E+01   7.439349E-09
+   7.500000E+01   1.390070E-07
+   8.000000E+01   1.335426E-06
+   9.000000E+01   3.603475E-05
+   1.000000E+02   7.989911E-05
+   1.100000E+02   4.137463E-05
+   1.200000E+02   1.420283E-04
+   1.300000E+02   4.875121E-04
+   1.400000E+02   6.475702E-04
+   1.500000E+02   2.799683E-04
+   1.600000E+02   2.265994E-04
+   1.800000E+02   2.024678E-04
+   2.000000E+02   1.222588E-04

@@ -1,0 +1,50 @@
+# header: 
+#   title: Nd140(g,x)La132g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.566680E-12
+   4.500000E+01   1.676326E-08
+   5.000000E+01   1.871212E-06
+   5.500000E+01   4.983927E-05
+   6.000000E+01   1.985929E-03
+   6.500000E+01   1.049194E-02
+   7.000000E+01   1.856516E-02
+   7.500000E+01   1.667958E-02
+   8.000000E+01   1.056788E-02
+   9.000000E+01   5.146172E-03
+   1.000000E+02   7.762358E-03
+   1.100000E+02   1.108968E-02
+   1.200000E+02   9.677448E-03
+   1.300000E+02   7.765273E-03
+   1.400000E+02   7.792916E-03
+   1.500000E+02   6.772762E-03
+   1.600000E+02   6.641989E-03
+   1.800000E+02   5.615252E-03
+   2.000000E+02   3.950306E-03

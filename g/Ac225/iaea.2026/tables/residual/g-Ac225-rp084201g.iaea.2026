@@ -1,0 +1,36 @@
+# header: 
+#   title: Ac225(g,x)Po201g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 201
+#     nuclide: Po201g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   7.570995E-14
+   1.500000E+02   3.126633E-10
+   1.600000E+02   7.019291E-08
+   1.800000E+02   3.227191E-05
+   2.000000E+02   3.198358E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd115m(g,x)Ag104g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 115
+#   nuclide: Cd115m
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.384798E-11
+   1.000000E+02   1.190247E-05
+   1.100000E+02   3.904170E-04
+   1.200000E+02   3.273857E-03
+   1.300000E+02   1.152746E-02
+   1.400000E+02   1.985851E-02
+   1.500000E+02   2.358771E-02
+   1.600000E+02   2.290673E-02
+   1.800000E+02   2.273901E-02
+   2.000000E+02   2.095628E-02

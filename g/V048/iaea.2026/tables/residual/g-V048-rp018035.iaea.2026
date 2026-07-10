@@ -1,0 +1,41 @@
+# header: 
+#   title: V48(g,x)Ar35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 35
+#     nuclide: Ar35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.463280E-09
+   8.000000E+01   4.352450E-07
+   9.000000E+01   1.610068E-05
+   1.000000E+02   1.739847E-04
+   1.100000E+02   4.505888E-04
+   1.200000E+02   5.159748E-04
+   1.300000E+02   5.516760E-04
+   1.400000E+02   8.044031E-04
+   1.500000E+02   1.157136E-03
+   1.600000E+02   1.363482E-03
+   1.800000E+02   1.725959E-03
+   2.000000E+02   1.840334E-03

@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn72(g,x)Fe61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.111480E-12
+   5.500000E+01   2.353714E-07
+   6.000000E+01   2.418512E-05
+   6.500000E+01   1.574676E-04
+   7.000000E+01   3.178795E-04
+   7.500000E+01   3.313896E-04
+   8.000000E+01   2.368326E-04
+   9.000000E+01   1.217906E-04
+   1.000000E+02   3.073441E-04
+   1.100000E+02   7.070475E-04
+   1.200000E+02   8.647870E-04
+   1.300000E+02   7.765935E-04
+   1.400000E+02   7.160018E-04
+   1.500000E+02   6.418690E-04
+   1.600000E+02   6.454617E-04
+   1.800000E+02   5.269289E-04
+   2.000000E+02   4.486482E-04

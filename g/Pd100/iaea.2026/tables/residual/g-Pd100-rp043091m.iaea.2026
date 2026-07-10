@@ -1,0 +1,47 @@
+# header: 
+#   title: Pd100(g,x)Tc91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.772549E-13
+   6.000000E+01   2.163563E-08
+   6.500000E+01   2.253855E-06
+   7.000000E+01   2.352865E-05
+   7.500000E+01   4.240792E-04
+   8.000000E+01   2.093228E-03
+   9.000000E+01   3.672323E-03
+   1.000000E+02   2.128142E-03
+   1.100000E+02   2.263401E-03
+   1.200000E+02   4.627379E-03
+   1.300000E+02   5.363531E-03
+   1.400000E+02   5.124702E-03
+   1.500000E+02   4.478425E-03
+   1.600000E+02   4.604452E-03
+   1.800000E+02   5.037651E-03
+   2.000000E+02   4.470719E-03

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ga71(g,x)Mn55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 55
+#     nuclide: Mn55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.614778E-10
+   8.000000E+01   2.902707E-07
+   9.000000E+01   1.266717E-04
+   1.000000E+02   7.694497E-04
+   1.100000E+02   9.747832E-04
+   1.200000E+02   1.052640E-03
+   1.300000E+02   3.028529E-03
+   1.400000E+02   6.236615E-03
+   1.500000E+02   7.673007E-03
+   1.600000E+02   7.624833E-03
+   1.800000E+02   1.189534E-02
+   2.000000E+02   1.028628E-02

@@ -1,0 +1,51 @@
+# header: 
+#   title: Cm245(g,x)U235m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.391393E-11
+   4.000000E+01   1.102053E-08
+   4.500000E+01   1.957289E-07
+   5.000000E+01   5.319020E-07
+   5.500000E+01   6.393765E-07
+   6.000000E+01   6.716517E-07
+   6.500000E+01   6.475658E-07
+   7.000000E+01   7.390842E-07
+   7.500000E+01   8.167766E-07
+   8.000000E+01   8.099508E-07
+   9.000000E+01   8.584934E-07
+   1.000000E+02   9.449737E-07
+   1.100000E+02   8.482919E-07
+   1.200000E+02   9.727825E-07
+   1.300000E+02   1.110809E-06
+   1.400000E+02   1.245419E-06
+   1.500000E+02   1.598218E-06
+   1.600000E+02   1.133440E-06
+   1.800000E+02   1.767608E-06
+   2.000000E+02   2.102562E-06

@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe56(g,x)Ca45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 45
+#     nuclide: Ca45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.845315E-10
+   6.500000E+01   2.556097E-08
+   7.000000E+01   5.632864E-07
+   7.500000E+01   1.155343E-05
+   8.000000E+01   5.873605E-05
+   9.000000E+01   1.560172E-04
+   1.000000E+02   1.061330E-04
+   1.100000E+02   1.542336E-04
+   1.200000E+02   5.210164E-04
+   1.300000E+02   1.028211E-03
+   1.400000E+02   1.000850E-03
+   1.500000E+02   9.680651E-04
+   1.600000E+02   9.565910E-04
+   1.800000E+02   1.038662E-03
+   2.000000E+02   6.444022E-04

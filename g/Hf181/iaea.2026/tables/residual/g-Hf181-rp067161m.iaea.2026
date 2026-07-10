@@ -1,0 +1,39 @@
+# header: 
+#   title: Hf181(g,x)Ho161m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 181
+#   nuclide: Hf181
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 161
+#     nuclide: Ho161m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.261354E-12
+   1.200000E+02   2.401570E-07
+   1.300000E+02   5.301161E-05
+   1.400000E+02   8.822865E-04
+   1.500000E+02   3.083965E-03
+   1.600000E+02   7.263403E-03
+   1.800000E+02   6.738287E-03
+   2.000000E+02   4.806075E-03

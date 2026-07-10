@@ -1,0 +1,39 @@
+# header: 
+#   title: Te126(g,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.148025E-08
+   1.000000E+02   1.261561E-04
+   1.100000E+02   2.349594E-03
+   1.200000E+02   4.948864E-03
+   1.300000E+02   3.782300E-03
+   1.400000E+02   4.583308E-03
+   1.500000E+02   9.141215E-03
+   1.600000E+02   1.385306E-02
+   1.800000E+02   1.112275E-02
+   2.000000E+02   1.335282E-02

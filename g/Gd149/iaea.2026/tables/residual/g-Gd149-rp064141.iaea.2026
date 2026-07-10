@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd149(g,x)Gd141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 149
+#   nuclide: Gd149
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 141
+#     nuclide: Gd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.743229E-07
+   9.000000E+01   8.380611E-03
+   1.000000E+02   5.203521E-02
+   1.100000E+02   4.819785E-02
+   1.200000E+02   2.618548E-02
+   1.300000E+02   1.897826E-02
+   1.400000E+02   1.790518E-02
+   1.500000E+02   1.774534E-02
+   1.600000E+02   1.738788E-02
+   1.800000E+02   1.764800E-02
+   2.000000E+02   1.902005E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: Cs135(g,x)Sn120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 120
+#     nuclide: Sn120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.951218E-12
+   9.000000E+01   9.420543E-08
+   1.000000E+02   4.670118E-05
+   1.100000E+02   8.685639E-04
+   1.200000E+02   1.645364E-03
+   1.300000E+02   1.155392E-03
+   1.400000E+02   6.705928E-04
+   1.500000E+02   6.684423E-04
+   1.600000E+02   5.181566E-04
+   1.800000E+02   2.496838E-04
+   2.000000E+02   1.461902E-04

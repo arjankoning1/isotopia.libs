@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa233(g,x)Pa225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 91
+#   A: 233
+#   nuclide: Pa233
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 225
+#     nuclide: Pa225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.058926E-10
+   6.000000E+01   6.113586E-07
+   6.500000E+01   2.661968E-06
+   7.000000E+01   4.682600E-06
+   7.500000E+01   7.257653E-06
+   8.000000E+01   8.326916E-06
+   9.000000E+01   1.124795E-05
+   1.000000E+02   1.465466E-05
+   1.100000E+02   2.151583E-05
+   1.200000E+02   2.748204E-05
+   1.300000E+02   4.605113E-05
+   1.400000E+02   1.852020E-05
+   1.500000E+02   6.883029E-05
+   1.600000E+02   2.900564E-05
+   1.800000E+02   1.221685E-04
+   2.000000E+02   2.509310E-05

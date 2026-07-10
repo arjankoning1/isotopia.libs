@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge68(g,x)Mn53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.335175E-12
+   6.500000E+01   1.460606E-09
+   7.000000E+01   7.908732E-08
+   7.500000E+01   4.472516E-06
+   8.000000E+01   9.920089E-05
+   9.000000E+01   1.326491E-03
+   1.000000E+02   2.367481E-03
+   1.100000E+02   2.069657E-03
+   1.200000E+02   4.772371E-03
+   1.300000E+02   1.342806E-02
+   1.400000E+02   1.954265E-02
+   1.500000E+02   2.005367E-02
+   1.600000E+02   2.625357E-02
+   1.800000E+02   4.214493E-02
+   2.000000E+02   3.843352E-02

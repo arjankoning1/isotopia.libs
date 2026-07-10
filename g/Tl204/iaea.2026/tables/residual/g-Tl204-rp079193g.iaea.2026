@@ -1,0 +1,45 @@
+# header: 
+#   title: Tl204(g,x)Au193g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 81
+#   A: 204
+#   nuclide: Tl204
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.311647E-10
+   7.000000E+01   1.575025E-06
+   7.500000E+01   2.458840E-04
+   8.000000E+01   3.497229E-03
+   9.000000E+01   2.321996E-02
+   1.000000E+02   1.771850E-02
+   1.100000E+02   6.416312E-03
+   1.200000E+02   6.524829E-03
+   1.300000E+02   7.645354E-03
+   1.400000E+02   7.860042E-03
+   1.500000E+02   9.316188E-03
+   1.600000E+02   7.648456E-03
+   1.800000E+02   1.227319E-02
+   2.000000E+02   7.369129E-03

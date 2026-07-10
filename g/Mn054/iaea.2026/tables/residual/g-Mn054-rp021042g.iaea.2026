@@ -1,0 +1,43 @@
+# header: 
+#   title: Mn54(g,x)Sc42g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.563673E-09
+   8.000000E+01   1.398949E-06
+   9.000000E+01   2.198397E-04
+   1.000000E+02   5.046414E-04
+   1.100000E+02   3.831405E-04
+   1.200000E+02   4.833902E-04
+   1.300000E+02   1.185757E-03
+   1.400000E+02   1.936840E-03
+   1.500000E+02   1.980240E-03
+   1.600000E+02   1.953828E-03
+   1.800000E+02   2.814821E-03
+   2.000000E+02   2.988171E-03

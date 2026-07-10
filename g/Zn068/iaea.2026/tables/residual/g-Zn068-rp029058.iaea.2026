@@ -1,0 +1,38 @@
+# header: 
+#   title: Zn68(g,x)Cu58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 58
+#     nuclide: Cu58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.927371E-11
+   1.100000E+02   4.830072E-08
+   1.200000E+02   7.313171E-07
+   1.300000E+02   3.698585E-06
+   1.400000E+02   9.068389E-06
+   1.500000E+02   1.112931E-05
+   1.600000E+02   1.017237E-05
+   1.800000E+02   8.571169E-06
+   2.000000E+02   8.798538E-06

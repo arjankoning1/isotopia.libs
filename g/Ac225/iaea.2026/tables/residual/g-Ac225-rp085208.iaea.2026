@@ -1,0 +1,41 @@
+# header: 
+#   title: Ac225(g,x)At208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 208
+#     nuclide: At208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.080015E-13
+   8.000000E+01   4.339254E-10
+   9.000000E+01   3.063669E-07
+   1.000000E+02   1.527010E-05
+   1.100000E+02   1.906165E-05
+   1.200000E+02   1.844752E-05
+   1.300000E+02   1.263377E-05
+   1.400000E+02   1.829639E-05
+   1.500000E+02   2.826476E-05
+   1.600000E+02   3.151492E-05
+   1.800000E+02   2.348927E-05
+   2.000000E+02   2.283704E-05

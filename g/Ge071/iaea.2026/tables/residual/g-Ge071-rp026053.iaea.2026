@@ -1,0 +1,37 @@
+# header: 
+#   title: Ge71(g,x)Fe53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 71
+#   nuclide: Ge71
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.010478E-07
+   1.200000E+02   1.178506E-05
+   1.300000E+02   9.130202E-05
+   1.400000E+02   1.994841E-04
+   1.500000E+02   2.832569E-04
+   1.600000E+02   5.622290E-04
+   1.800000E+02   1.907608E-03
+   2.000000E+02   4.336062E-03

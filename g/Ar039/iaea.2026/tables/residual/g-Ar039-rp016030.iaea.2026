@@ -1,0 +1,42 @@
+# header: 
+#   title: Ar39(g,x)S30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 30
+#     nuclide: S30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.488869E-10
+   7.500000E+01   1.363607E-07
+   8.000000E+01   2.204110E-06
+   9.000000E+01   2.249996E-05
+   1.000000E+02   3.860921E-05
+   1.100000E+02   4.043781E-05
+   1.200000E+02   4.170121E-05
+   1.300000E+02   4.608640E-05
+   1.400000E+02   5.049022E-05
+   1.500000E+02   5.054804E-05
+   1.600000E+02   4.874218E-05
+   1.800000E+02   4.555774E-05
+   2.000000E+02   4.248222E-05

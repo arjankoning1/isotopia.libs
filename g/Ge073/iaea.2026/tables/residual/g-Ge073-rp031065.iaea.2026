@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge73(g,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.980387E-09
+   7.500000E+01   6.656236E-06
+   8.000000E+01   1.441002E-04
+   9.000000E+01   3.296172E-03
+   1.000000E+02   2.556170E-02
+   1.100000E+02   4.361005E-02
+   1.200000E+02   3.750178E-02
+   1.300000E+02   2.938108E-02
+   1.400000E+02   2.494203E-02
+   1.500000E+02   2.251913E-02
+   1.600000E+02   2.129277E-02
+   1.800000E+02   2.062217E-02
+   2.000000E+02   1.954191E-02

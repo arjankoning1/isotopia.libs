@@ -1,0 +1,44 @@
+# header: 
+#   title: Re185(g,x)Lu172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.716186E-11
+   6.500000E+01   4.857473E-08
+   7.000000E+01   4.535554E-06
+   7.500000E+01   5.971655E-05
+   8.000000E+01   2.538268E-04
+   9.000000E+01   4.890045E-04
+   1.000000E+02   1.844383E-04
+   1.100000E+02   1.368656E-04
+   1.200000E+02   3.495947E-04
+   1.300000E+02   5.503726E-04
+   1.400000E+02   7.103502E-04
+   1.500000E+02   7.634842E-04
+   1.600000E+02   5.850692E-04
+   1.800000E+02   6.126402E-04
+   2.000000E+02   7.423416E-04

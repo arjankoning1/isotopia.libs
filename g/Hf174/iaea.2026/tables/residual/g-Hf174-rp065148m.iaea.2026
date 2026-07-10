@@ -1,0 +1,35 @@
+# header: 
+#   title: Hf174(g,x)Tb148m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 72
+#   A: 174
+#   nuclide: Hf174
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 148
+#     nuclide: Tb148m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   3.818672E-13
+   1.600000E+02   9.752682E-10
+   1.800000E+02   1.363617E-05
+   2.000000E+02   1.090957E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Tm168(g,x)Tm158 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 69
+#   A: 168
+#   nuclide: Tm168
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 158
+#     nuclide: Tm158
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.218370E-04
+   1.000000E+02   1.646935E-01
+   1.100000E+02   6.895664E-01
+   1.200000E+02   6.342233E-01
+   1.300000E+02   3.190185E-01
+   1.400000E+02   1.782516E-01
+   1.500000E+02   1.332873E-01
+   1.600000E+02   1.172823E-01
+   1.800000E+02   9.458973E-02
+   2.000000E+02   7.596895E-02

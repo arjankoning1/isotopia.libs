@@ -1,0 +1,46 @@
+# header: 
+#   title: U231(g,x)U224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 92
+#   A: 231
+#   nuclide: U231
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 224
+#     nuclide: U224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.798568E-13
+   5.500000E+01   1.140394E-07
+   6.000000E+01   2.385826E-06
+   6.500000E+01   6.912071E-06
+   7.000000E+01   1.468732E-05
+   7.500000E+01   1.712439E-05
+   8.000000E+01   1.307657E-05
+   9.000000E+01   6.049267E-06
+   1.000000E+02   4.549036E-06
+   1.100000E+02   5.377985E-06
+   1.200000E+02   4.950843E-06
+   1.300000E+02   6.071180E-06
+   1.400000E+02   8.597787E-06
+   1.500000E+02   5.140787E-06
+   1.600000E+02   1.283397E-05
+   1.800000E+02   5.497396E-06
+   2.000000E+02   1.557698E-05

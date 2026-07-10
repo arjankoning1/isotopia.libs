@@ -1,0 +1,51 @@
+# header: 
+#   title: Sc45(g,x)Sc42g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 42
+#     nuclide: Sc42g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.128089E-04
+   4.000000E+01   2.687483E-02
+   4.500000E+01   4.192996E-02
+   5.000000E+01   2.959544E-02
+   5.500000E+01   2.240345E-02
+   6.000000E+01   1.931621E-02
+   6.500000E+01   1.763652E-02
+   7.000000E+01   1.666003E-02
+   7.500000E+01   1.578646E-02
+   8.000000E+01   1.488460E-02
+   9.000000E+01   1.348697E-02
+   1.000000E+02   1.190616E-02
+   1.100000E+02   1.103131E-02
+   1.200000E+02   9.267541E-03
+   1.300000E+02   8.718914E-03
+   1.400000E+02   8.214414E-03
+   1.500000E+02   6.634825E-03
+   1.600000E+02   5.858169E-03
+   1.800000E+02   4.954787E-03
+   2.000000E+02   4.272203E-03

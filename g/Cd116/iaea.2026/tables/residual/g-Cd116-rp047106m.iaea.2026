@@ -1,0 +1,42 @@
+# header: 
+#   title: Cd116(g,x)Ag106m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 106
+#     nuclide: Ag106m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.207863E-10
+   9.000000E+01   8.200442E-05
+   1.000000E+02   2.072622E-03
+   1.100000E+02   1.389017E-02
+   1.200000E+02   3.152688E-02
+   1.300000E+02   3.697190E-02
+   1.400000E+02   3.576850E-02
+   1.500000E+02   3.267971E-02
+   1.600000E+02   3.620941E-02
+   1.800000E+02   3.767282E-02
+   2.000000E+02   3.084456E-02

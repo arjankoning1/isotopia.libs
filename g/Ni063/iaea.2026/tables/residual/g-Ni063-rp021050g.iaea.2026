@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni63(g,x)Sc50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.628380E-11
+   6.500000E+01   4.312078E-09
+   7.000000E+01   4.412317E-08
+   7.500000E+01   1.445213E-07
+   8.000000E+01   1.619507E-07
+   9.000000E+01   5.708156E-08
+   1.000000E+02   2.151245E-07
+   1.100000E+02   1.767451E-06
+   1.200000E+02   2.355427E-06
+   1.300000E+02   1.862559E-06
+   1.400000E+02   2.044723E-06
+   1.500000E+02   3.707453E-06
+   1.600000E+02   4.649349E-06
+   1.800000E+02   4.562794E-06
+   2.000000E+02   8.684606E-07

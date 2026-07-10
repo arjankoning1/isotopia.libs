@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr84(g,x)Br74m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.791679E-10
+   7.500000E+01   1.487909E-06
+   8.000000E+01   5.289082E-05
+   9.000000E+01   2.252364E-03
+   1.000000E+02   1.945824E-02
+   1.100000E+02   2.562146E-02
+   1.200000E+02   2.042945E-02
+   1.300000E+02   2.501795E-02
+   1.400000E+02   3.996639E-02
+   1.500000E+02   5.042448E-02
+   1.600000E+02   3.872710E-02
+   1.800000E+02   3.523900E-02
+   2.000000E+02   3.321446E-02

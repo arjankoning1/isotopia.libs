@@ -1,0 +1,38 @@
+# header: 
+#   title: Zn65(g,x)Ca46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 46
+#     nuclide: Ca46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.099993E-10
+   1.100000E+02   2.131941E-08
+   1.200000E+02   1.479684E-07
+   1.300000E+02   2.617497E-07
+   1.400000E+02   3.489475E-07
+   1.500000E+02   1.120282E-06
+   1.600000E+02   2.851280E-06
+   1.800000E+02   6.751202E-06
+   2.000000E+02   1.425475E-05

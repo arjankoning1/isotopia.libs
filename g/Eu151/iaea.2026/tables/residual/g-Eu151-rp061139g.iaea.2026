@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu151(g,x)Pm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.857240E-12
+   8.000000E+01   1.170360E-07
+   9.000000E+01   2.281707E-03
+   1.000000E+02   3.540550E-02
+   1.100000E+02   6.306849E-02
+   1.200000E+02   4.301533E-02
+   1.300000E+02   4.485947E-02
+   1.400000E+02   8.419787E-02
+   1.500000E+02   9.668607E-02
+   1.600000E+02   6.296134E-02
+   1.800000E+02   3.615746E-02
+   2.000000E+02   2.818460E-02

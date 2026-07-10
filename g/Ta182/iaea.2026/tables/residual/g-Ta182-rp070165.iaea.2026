@@ -1,0 +1,37 @@
+# header: 
+#   title: Ta182(g,x)Yb165 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 73
+#   A: 182
+#   nuclide: Ta182
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 165
+#     nuclide: Yb165
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.417932E-10
+   1.200000E+02   2.540531E-06
+   1.300000E+02   2.353622E-04
+   1.400000E+02   3.235029E-03
+   1.500000E+02   1.491478E-02
+   1.600000E+02   2.245471E-02
+   1.800000E+02   1.409608E-02
+   2.000000E+02   1.067310E-02

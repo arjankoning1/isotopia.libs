@@ -1,0 +1,43 @@
+# header: 
+#   title: Bi207(g,x)Au193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.161597E-09
+   8.000000E+01   3.939907E-07
+   9.000000E+01   1.247890E-04
+   1.000000E+02   6.243539E-04
+   1.100000E+02   3.833120E-04
+   1.200000E+02   1.997784E-04
+   1.300000E+02   6.644967E-04
+   1.400000E+02   9.499567E-04
+   1.500000E+02   5.048350E-04
+   1.600000E+02   4.078777E-04
+   1.800000E+02   4.240376E-04
+   2.000000E+02   2.849166E-04

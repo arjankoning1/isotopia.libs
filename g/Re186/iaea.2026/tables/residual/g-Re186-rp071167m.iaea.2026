@@ -1,0 +1,39 @@
+# header: 
+#   title: Re186(g,x)Lu167m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 167
+#     nuclide: Lu167m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.412905E-13
+   1.200000E+02   1.157909E-08
+   1.300000E+02   4.412015E-06
+   1.400000E+02   9.197553E-05
+   1.500000E+02   3.611032E-04
+   1.600000E+02   5.153917E-04
+   1.800000E+02   5.099003E-04
+   2.000000E+02   4.704442E-04

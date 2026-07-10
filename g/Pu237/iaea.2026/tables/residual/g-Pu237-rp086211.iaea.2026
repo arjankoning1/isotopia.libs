@@ -1,0 +1,37 @@
+# header: 
+#   title: Pu237(g,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 94
+#   A: 237
+#   nuclide: Pu237
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.051991E-13
+   1.200000E+02   2.932522E-10
+   1.300000E+02   4.868670E-09
+   1.400000E+02   3.942442E-08
+   1.500000E+02   1.162450E-07
+   1.600000E+02   1.777544E-07
+   1.800000E+02   3.137085E-07
+   2.000000E+02   3.346865E-07

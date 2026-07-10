@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag109(g,x)Pd101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 101
+#     nuclide: Pd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.441730E-07
+   7.000000E+01   3.371309E-04
+   7.500000E+01   4.472925E-03
+   8.000000E+01   2.148170E-02
+   9.000000E+01   2.806970E-01
+   1.000000E+02   5.539668E-01
+   1.100000E+02   4.524716E-01
+   1.200000E+02   3.250707E-01
+   1.300000E+02   2.679742E-01
+   1.400000E+02   2.414372E-01
+   1.500000E+02   2.159098E-01
+   1.600000E+02   2.037914E-01
+   1.800000E+02   1.749749E-01
+   2.000000E+02   1.414686E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Yb172(g,x)Tb156m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 70
+#   A: 172
+#   nuclide: Yb172
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 156
+#     nuclide: Tb156m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.521617E-10
+   1.000000E+02   1.562713E-07
+   1.100000E+02   7.117485E-06
+   1.200000E+02   6.587600E-05
+   1.300000E+02   1.185265E-04
+   1.400000E+02   9.621400E-05
+   1.500000E+02   8.400567E-05
+   1.600000E+02   1.272516E-04
+   1.800000E+02   5.667743E-05
+   2.000000E+02   4.714924E-05

@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd146(g,x)Ce130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 130
+#     nuclide: Ce130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.944428E-11
+   8.000000E+01   1.970892E-08
+   9.000000E+01   2.993500E-05
+   1.000000E+02   5.687649E-04
+   1.100000E+02   1.060584E-03
+   1.200000E+02   1.184688E-03
+   1.300000E+02   7.449613E-03
+   1.400000E+02   1.858252E-02
+   1.500000E+02   1.692333E-02
+   1.600000E+02   1.713682E-02
+   1.800000E+02   2.751299E-02
+   2.000000E+02   1.708220E-02

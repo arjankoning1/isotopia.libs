@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn116(g,x)Rh102g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.036008E-12
+   8.000000E+01   2.303458E-09
+   9.000000E+01   3.484966E-06
+   1.000000E+02   3.232452E-04
+   1.100000E+02   2.908848E-03
+   1.200000E+02   4.256346E-03
+   1.300000E+02   2.965746E-03
+   1.400000E+02   3.556732E-03
+   1.500000E+02   5.204625E-03
+   1.600000E+02   5.373284E-03
+   1.800000E+02   3.007376E-03
+   2.000000E+02   1.711226E-03

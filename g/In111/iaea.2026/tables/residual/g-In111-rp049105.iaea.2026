@@ -1,0 +1,44 @@
+# header: 
+#   title: In111(g,x)In105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 49
+#   A: 111
+#   nuclide: In111
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 105
+#     nuclide: In105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.875837E-06
+   6.500000E+01   1.424885E-03
+   7.000000E+01   6.800672E-03
+   7.500000E+01   1.067252E-02
+   8.000000E+01   1.058912E-02
+   9.000000E+01   8.694181E-03
+   1.000000E+02   8.433094E-03
+   1.100000E+02   8.465354E-03
+   1.200000E+02   8.276895E-03
+   1.300000E+02   8.194300E-03
+   1.400000E+02   8.287529E-03
+   1.500000E+02   8.038865E-03
+   1.600000E+02   7.872838E-03
+   1.800000E+02   8.093869E-03
+   2.000000E+02   8.118324E-03

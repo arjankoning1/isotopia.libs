@@ -1,0 +1,41 @@
+# header: 
+#   title: Kr82(g,x)Ge69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 36
+#   A: 82
+#   nuclide: Kr82
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 69
+#     nuclide: Ge69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.711712E-10
+   8.000000E+01   1.374173E-06
+   9.000000E+01   1.885989E-03
+   1.000000E+02   1.406968E-02
+   1.100000E+02   1.943827E-02
+   1.200000E+02   1.858619E-02
+   1.300000E+02   5.201001E-02
+   1.400000E+02   1.250750E-01
+   1.500000E+02   1.521344E-01
+   1.600000E+02   1.416508E-01
+   1.800000E+02   1.524972E-01
+   2.000000E+02   1.042581E-01

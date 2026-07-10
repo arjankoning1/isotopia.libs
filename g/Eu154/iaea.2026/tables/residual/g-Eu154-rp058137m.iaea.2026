@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu154(g,x)Ce137m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 137
+#     nuclide: Ce137m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.462121E-09
+   1.000000E+02   3.168126E-05
+   1.100000E+02   1.281776E-03
+   1.200000E+02   6.525561E-03
+   1.300000E+02   9.484920E-03
+   1.400000E+02   8.017784E-03
+   1.500000E+02   7.312088E-03
+   1.600000E+02   7.982617E-03
+   1.800000E+02   3.850289E-03
+   2.000000E+02   1.740013E-03

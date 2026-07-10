@@ -1,0 +1,42 @@
+# header: 
+#   title: Cr53(g,x)Cr47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 47
+#     nuclide: Cr47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.945642E-12
+   7.500000E+01   5.824504E-07
+   8.000000E+01   1.324032E-05
+   9.000000E+01   8.374167E-05
+   1.000000E+02   9.465645E-05
+   1.100000E+02   7.514285E-05
+   1.200000E+02   6.266000E-05
+   1.300000E+02   5.606832E-05
+   1.400000E+02   5.264714E-05
+   1.500000E+02   4.964855E-05
+   1.600000E+02   4.645328E-05
+   1.800000E+02   4.282064E-05
+   2.000000E+02   3.930134E-05

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl36(g,x)N17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 17
+#     nuclide: N17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.752031E-12
+   1.000000E+02   1.453183E-09
+   1.100000E+02   1.449041E-08
+   1.200000E+02   7.042093E-08
+   1.300000E+02   3.179003E-07
+   1.400000E+02   1.556851E-06
+   1.500000E+02   4.563835E-06
+   1.600000E+02   8.349809E-06
+   1.800000E+02   1.338110E-05
+   2.000000E+02   2.234326E-05

@@ -1,0 +1,41 @@
+# header: 
+#   title: W188(g,x)Hf175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 74
+#   A: 188
+#   nuclide: W188
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 175
+#     nuclide: Hf175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.540871E-09
+   8.000000E+01   4.957008E-06
+   9.000000E+01   5.998506E-03
+   1.000000E+02   4.985123E-02
+   1.100000E+02   5.439691E-02
+   1.200000E+02   2.829784E-02
+   1.300000E+02   3.026914E-02
+   1.400000E+02   4.223632E-02
+   1.500000E+02   4.875470E-02
+   1.600000E+02   4.201281E-02
+   1.800000E+02   4.803212E-02
+   2.000000E+02   3.587413E-02

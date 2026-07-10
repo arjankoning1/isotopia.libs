@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe128(g,x)I120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 54
+#   A: 128
+#   nuclide: Xe128
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.931327E-08
+   7.500000E+01   9.914341E-05
+   8.000000E+01   1.634405E-03
+   9.000000E+01   3.976449E-02
+   1.000000E+02   2.517224E-01
+   1.100000E+02   2.865378E-01
+   1.200000E+02   1.879717E-01
+   1.300000E+02   1.382683E-01
+   1.400000E+02   1.223324E-01
+   1.500000E+02   1.105066E-01
+   1.600000E+02   1.102988E-01
+   1.800000E+02   9.731953E-02
+   2.000000E+02   8.210161E-02

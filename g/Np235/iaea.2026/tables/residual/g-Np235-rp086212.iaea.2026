@@ -1,0 +1,37 @@
+# header: 
+#   title: Np235(g,x)Rn212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 212
+#     nuclide: Rn212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.733971E-11
+   1.200000E+02   1.930049E-08
+   1.300000E+02   2.750888E-07
+   1.400000E+02   1.317105E-06
+   1.500000E+02   2.270348E-06
+   1.600000E+02   2.664254E-06
+   1.800000E+02   4.198164E-06
+   2.000000E+02   4.323688E-06

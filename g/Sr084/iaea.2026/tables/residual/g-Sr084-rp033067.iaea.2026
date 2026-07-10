@@ -1,0 +1,36 @@
+# header: 
+#   title: Sr84(g,x)As67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2023
+#   author: A.J. Koning
+#   year: 2023
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 67
+#     nuclide: As67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.384361E-12
+   1.300000E+02   5.780490E-09
+   1.400000E+02   2.444048E-07
+   1.500000E+02   2.460053E-06
+   1.600000E+02   1.013211E-05
+   1.800000E+02   2.863489E-05
+   2.000000E+02   8.201984E-05
