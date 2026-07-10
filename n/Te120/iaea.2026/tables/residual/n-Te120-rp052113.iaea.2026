@@ -1,0 +1,42 @@
+# header: 
+#   title: Te120(n,x)Te113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 113
+#     nuclide: Te113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.764222E-11
+   7.500000E+01   5.104429E-06
+   8.000000E+01   7.251871E-04
+   9.000000E+01   4.653702E-02
+   1.000000E+02   2.300614E-01
+   1.100000E+02   4.880831E-01
+   1.200000E+02   7.453950E-01
+   1.300000E+02   9.897191E-01
+   1.400000E+02   1.170077E+00
+   1.500000E+02   1.350327E+00
+   1.600000E+02   1.621824E+00
+   1.800000E+02   2.050519E+00
+   2.000000E+02   2.456755E+00

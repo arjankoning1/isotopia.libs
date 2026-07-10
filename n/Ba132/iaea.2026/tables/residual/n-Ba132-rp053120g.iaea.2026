@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba132(n,x)I120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.042572E-12
+   9.000000E+01   2.229700E-05
+   1.000000E+02   1.059343E-02
+   1.100000E+02   1.402745E-01
+   1.200000E+02   4.675452E-01
+   1.300000E+02   1.630775E+00
+   1.400000E+02   2.924784E+00
+   1.500000E+02   4.649928E+00
+   1.600000E+02   6.684007E+00
+   1.800000E+02   7.503137E+00
+   2.000000E+02   6.714617E+00

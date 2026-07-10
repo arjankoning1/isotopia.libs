@@ -1,0 +1,43 @@
+# header: 
+#   title: Pt192(n,x)Pt183g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 192
+#   nuclide: Pt192
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 183
+#     nuclide: Pt183g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.222824E-11
+   8.000000E+01   2.069708E-05
+   9.000000E+01   2.495691E-01
+   1.000000E+02   3.818316E+00
+   1.100000E+02   5.114087E+00
+   1.200000E+02   2.306764E+00
+   1.300000E+02   9.729716E-01
+   1.400000E+02   7.892787E-01
+   1.500000E+02   7.900127E-01
+   1.600000E+02   9.751648E-01
+   1.800000E+02   1.186748E+00
+   2.000000E+02   1.028468E+00

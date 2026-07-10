@@ -1,0 +1,39 @@
+# header: 
+#   title: Na22(n,x)O12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 12
+#     nuclide: O12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.647324E-11
+   1.000000E+02   6.032858E-07
+   1.100000E+02   1.627891E-05
+   1.200000E+02   8.093687E-05
+   1.300000E+02   2.013443E-04
+   1.400000E+02   3.565922E-04
+   1.500000E+02   5.248187E-04
+   1.600000E+02   6.687617E-04
+   1.800000E+02   8.793162E-04
+   2.000000E+02   9.652699E-04

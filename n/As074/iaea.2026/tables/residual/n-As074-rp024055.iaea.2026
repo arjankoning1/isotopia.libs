@@ -1,0 +1,39 @@
+# header: 
+#   title: As74(n,x)Cr55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 55
+#     nuclide: Cr55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.515536E-09
+   1.000000E+02   1.768348E-06
+   1.100000E+02   4.634792E-05
+   1.200000E+02   2.517283E-04
+   1.300000E+02   5.902307E-04
+   1.400000E+02   1.403513E-03
+   1.500000E+02   3.867489E-03
+   1.600000E+02   8.046338E-03
+   1.800000E+02   2.128278E-02
+   2.000000E+02   4.846200E-02

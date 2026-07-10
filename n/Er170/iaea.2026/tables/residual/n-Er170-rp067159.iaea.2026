@@ -1,0 +1,40 @@
+# header: 
+#   title: Er170(n,x)Ho159 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 159
+#     nuclide: Ho159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.604777E-11
+   9.000000E+01   6.674288E-04
+   1.000000E+02   7.199267E-02
+   1.100000E+02   5.418271E-01
+   1.200000E+02   1.918558E+00
+   1.300000E+02   3.601994E+00
+   1.400000E+02   4.752897E+00
+   1.500000E+02   5.855880E+00
+   1.600000E+02   6.871027E+00
+   1.800000E+02   7.979564E+00
+   2.000000E+02   8.727222E+00

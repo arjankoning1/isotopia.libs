@@ -1,0 +1,45 @@
+# header: 
+#   title: Au195(n,x)Au187m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 195
+#   nuclide: Au195
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 187
+#     nuclide: Au187m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.557668E-12
+   7.000000E+01   1.350874E-03
+   7.500000E+01   5.457630E-01
+   8.000000E+01   1.032346E+01
+   9.000000E+01   1.036461E+02
+   1.000000E+02   1.238714E+02
+   1.100000E+02   7.263826E+01
+   1.200000E+02   5.284715E+01
+   1.300000E+02   4.632760E+01
+   1.400000E+02   4.360411E+01
+   1.500000E+02   4.114075E+01
+   1.600000E+02   3.865141E+01
+   1.800000E+02   3.766798E+01
+   2.000000E+02   3.150125E+01

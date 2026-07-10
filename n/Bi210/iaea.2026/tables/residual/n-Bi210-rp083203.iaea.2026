@@ -1,0 +1,48 @@
+# header: 
+#   title: Bi210(n,x)Bi203 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 203
+#     nuclide: Bi203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   9.169662E-06
+   5.400000E+01   3.956795E-03
+   5.600000E+01   1.455732E-01
+   5.800000E+01   1.621302E+00
+   6.000000E+01   9.007286E+00
+   6.500000E+01   1.054372E+02
+   7.000000E+01   2.949847E+02
+   7.500000E+01   3.829763E+02
+   8.000000E+01   3.081397E+02
+   9.000000E+01   1.405571E+02
+   1.000000E+02   9.955303E+01
+   1.100000E+02   8.576843E+01
+   1.200000E+02   7.540196E+01
+   1.300000E+02   6.930128E+01
+   1.400000E+02   6.950789E+01
+   1.500000E+02   6.223588E+01
+   1.600000E+02   6.565588E+01
+   1.800000E+02   5.839776E+01
+   2.000000E+02   5.325743E+01

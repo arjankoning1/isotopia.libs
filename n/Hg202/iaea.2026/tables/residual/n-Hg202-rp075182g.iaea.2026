@@ -1,0 +1,38 @@
+# header: 
+#   title: Hg202(n,x)Re182g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 202
+#   nuclide: Hg202
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 182
+#     nuclide: Re182g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.173865E-11
+   1.300000E+02   1.172985E-06
+   1.400000E+02   3.930406E-04
+   1.500000E+02   1.296737E-02
+   1.600000E+02   7.304051E-02
+   1.800000E+02   4.359640E-01
+   2.000000E+02   9.002116E-01

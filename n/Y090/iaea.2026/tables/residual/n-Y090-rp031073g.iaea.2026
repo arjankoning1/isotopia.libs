@@ -1,0 +1,43 @@
+# header: 
+#   title: Y90(n,x)Ga73g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.112854E-10
+   8.000000E+01   2.399844E-08
+   9.000000E+01   6.836426E-06
+   1.000000E+02   7.926520E-05
+   1.100000E+02   1.854361E-04
+   1.200000E+02   3.140119E-04
+   1.300000E+02   8.897277E-04
+   1.400000E+02   1.844592E-03
+   1.500000E+02   3.649450E-03
+   1.600000E+02   5.992855E-03
+   1.800000E+02   1.230660E-02
+   2.000000E+02   2.300367E-02

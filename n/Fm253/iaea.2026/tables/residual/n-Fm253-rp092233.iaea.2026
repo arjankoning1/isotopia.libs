@@ -1,0 +1,40 @@
+# header: 
+#   title: Fm253(n,x)U233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 233
+#     nuclide: U233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.670920E-11
+   9.000000E+01   8.881476E-08
+   1.000000E+02   7.835646E-06
+   1.100000E+02   2.422313E-05
+   1.200000E+02   1.051872E-05
+   1.300000E+02   5.649143E-06
+   1.400000E+02   6.952146E-06
+   1.500000E+02   4.001026E-06
+   1.600000E+02   1.860662E-06
+   1.800000E+02   1.355136E-06
+   2.000000E+02   8.612322E-08

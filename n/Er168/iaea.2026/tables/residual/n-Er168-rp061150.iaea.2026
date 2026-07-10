@@ -1,0 +1,39 @@
+# header: 
+#   title: Er168(n,x)Pm150 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 168
+#   nuclide: Er168
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 150
+#     nuclide: Pm150
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.162922E-08
+   1.000000E+02   1.639504E-04
+   1.100000E+02   2.060246E-02
+   1.200000E+02   9.531035E-02
+   1.300000E+02   1.405636E-01
+   1.400000E+02   8.400421E-01
+   1.500000E+02   2.946977E+00
+   1.600000E+02   4.630053E+00
+   1.800000E+02   1.626317E+00
+   2.000000E+02   5.629063E-01

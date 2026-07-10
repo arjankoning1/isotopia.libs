@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe56(n,x)K38g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.758077E-09
+   1.200000E+02   4.647006E-06
+   1.300000E+02   1.586995E-04
+   1.400000E+02   1.165430E-03
+   1.500000E+02   4.076334E-03
+   1.600000E+02   1.228157E-02
+   1.800000E+02   7.362200E-02
+   2.000000E+02   2.058987E-01

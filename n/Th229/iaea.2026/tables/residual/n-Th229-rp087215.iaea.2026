@@ -1,0 +1,42 @@
+# header: 
+#   title: Th229(n,x)Fr215 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 215
+#     nuclide: Fr215
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.717712E-08
+   7.500000E+01   1.190960E-05
+   8.000000E+01   2.620094E-04
+   9.000000E+01   2.214439E-02
+   1.000000E+02   3.505980E-01
+   1.100000E+02   1.627145E+00
+   1.200000E+02   3.519787E+00
+   1.300000E+02   4.649158E+00
+   1.400000E+02   4.924745E+00
+   1.500000E+02   5.854627E+00
+   1.600000E+02   7.242255E+00
+   1.800000E+02   7.661669E+00
+   2.000000E+02   5.089719E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Co56(n,x)Mn48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 48
+#     nuclide: Mn48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.790603E-12
+   7.500000E+01   1.760609E-07
+   8.000000E+01   8.211923E-06
+   9.000000E+01   1.221255E-04
+   1.000000E+02   2.954602E-04
+   1.100000E+02   4.177198E-04
+   1.200000E+02   4.980965E-04
+   1.300000E+02   5.607598E-04
+   1.400000E+02   5.971773E-04
+   1.500000E+02   6.386135E-04
+   1.600000E+02   6.968388E-04
+   1.800000E+02   7.911969E-04
+   2.000000E+02   9.415526E-04

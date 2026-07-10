@@ -1,0 +1,40 @@
+# header: 
+#   title: Pt198(n,x)Re182g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 198
+#   nuclide: Pt198
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 182
+#     nuclide: Re182g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.289434E-11
+   1.100000E+02   9.471894E-06
+   1.200000E+02   5.297402E-03
+   1.300000E+02   2.026556E-01
+   1.400000E+02   9.449630E-01
+   1.500000E+02   1.800266E+00
+   1.600000E+02   2.029287E+00
+   1.800000E+02   2.946086E+00
+   2.000000E+02   3.505161E+00

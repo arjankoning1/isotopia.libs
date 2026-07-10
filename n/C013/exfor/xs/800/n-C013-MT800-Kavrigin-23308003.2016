@@ -1,0 +1,40 @@
+# header: 
+#   title: C13(n,p_00) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kavrigin
+#   year: 2016
+#   subentry: 23308003
+#   X4 reaction: 6-C-13(N,A)4-BE-10,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23308003
+#   level energy [MeV]:  0.00000E+00
+# target: 
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction: 
+#   type: (n,p_00)
+#   ENDF_MF: 3
+#   ENDF_MT: 800
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  5.000000E-01
+#     parity: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   1.000000E-01   1.040000E+01   1.100000E+00   1.000000E+00
+   1.700000E+01   2.000000E-01   7.100000E+00   7.000000E-01   1.000000E+00
+# reference:
+#   author: P.Kavrigin, E.Griesmayer, F.Belloni, A.J.M.Plompen, P.Schillebeeckx, C.Weiss
+#   title: 13C(n,alpha0)10Be cross section measurement with sCVD diamond detector.
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.52, p.179 (20

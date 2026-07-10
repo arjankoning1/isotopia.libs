@@ -1,0 +1,39 @@
+# header: 
+#   title: Te126(n,x)Sn113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.723207E-11
+   1.000000E+02   1.207372E-04
+   1.100000E+02   9.191636E-02
+   1.200000E+02   1.712646E+00
+   1.300000E+02   3.873372E+00
+   1.400000E+02   3.122012E+00
+   1.500000E+02   2.071973E+00
+   1.600000E+02   1.527419E+00
+   1.800000E+02   1.557460E+00
+   2.000000E+02   1.705025E+00

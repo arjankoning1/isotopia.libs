@@ -1,0 +1,43 @@
+# header: 
+#   title: P32(n,x)Al24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.117895E-12
+   7.000000E+01   2.335962E-07
+   7.500000E+01   2.261261E-05
+   8.000000E+01   2.370210E-04
+   9.000000E+01   2.293823E-03
+   1.000000E+02   5.890504E-03
+   1.100000E+02   9.627769E-03
+   1.200000E+02   1.410867E-02
+   1.300000E+02   1.978020E-02
+   1.400000E+02   2.523414E-02
+   1.500000E+02   2.914671E-02
+   1.600000E+02   3.087961E-02
+   1.800000E+02   3.092127E-02
+   2.000000E+02   3.049164E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr86(n,x)Zn70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 70
+#     nuclide: Zn70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.668373E-10
+   7.000000E+01   5.139293E-08
+   7.500000E+01   1.417072E-06
+   8.000000E+01   1.621069E-05
+   9.000000E+01   1.510748E-04
+   1.000000E+02   3.021097E-03
+   1.100000E+02   4.982565E-02
+   1.200000E+02   1.916240E-01
+   1.300000E+02   3.007697E-01
+   1.400000E+02   3.650604E-01
+   1.500000E+02   6.080775E-01
+   1.600000E+02   9.896736E-01
+   1.800000E+02   1.432662E+00
+   2.000000E+02   1.202936E+00

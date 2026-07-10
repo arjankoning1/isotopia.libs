@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti46(n,x)K36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 36
+#     nuclide: K36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.726702E-12
+   9.000000E+01   3.389033E-07
+   1.000000E+02   1.093238E-05
+   1.100000E+02   5.105179E-05
+   1.200000E+02   1.345886E-04
+   1.300000E+02   2.499908E-04
+   1.400000E+02   3.672203E-04
+   1.500000E+02   4.639520E-04
+   1.600000E+02   5.286382E-04
+   1.800000E+02   6.307695E-04
+   2.000000E+02   7.246178E-04

@@ -1,0 +1,38 @@
+# header: 
+#   title: Co56(n,x)Cl40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 40
+#     nuclide: Cl40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.454778E-11
+   1.100000E+02   1.348306E-08
+   1.200000E+02   5.487170E-07
+   1.300000E+02   6.954507E-06
+   1.400000E+02   3.906856E-05
+   1.500000E+02   8.756593E-05
+   1.600000E+02   2.215927E-04
+   1.800000E+02   6.465110E-04
+   2.000000E+02   1.089336E-03

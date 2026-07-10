@@ -1,0 +1,38 @@
+# header: 
+#   title: Tc95m(n,x)As73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 73
+#     nuclide: As73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.699379E-11
+   1.100000E+02   4.118718E-08
+   1.200000E+02   2.435732E-06
+   1.300000E+02   1.826414E-05
+   1.400000E+02   5.668730E-05
+   1.500000E+02   2.235243E-04
+   1.600000E+02   1.073215E-03
+   1.800000E+02   7.832343E-03
+   2.000000E+02   3.783469E-02

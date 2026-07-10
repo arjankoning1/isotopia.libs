@@ -1,0 +1,41 @@
+# header: 
+#   title: Te128(n,x)Cd114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 114
+#     nuclide: Cd114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.543355E-09
+   8.000000E+01   2.074200E-05
+   9.000000E+01   3.039766E-01
+   1.000000E+02   1.011773E+01
+   1.100000E+02   3.142566E+01
+   1.200000E+02   3.765138E+01
+   1.300000E+02   4.472142E+01
+   1.400000E+02   5.368041E+01
+   1.500000E+02   5.958030E+01
+   1.600000E+02   5.144460E+01
+   1.800000E+02   5.696224E+01
+   2.000000E+02   4.297819E+01

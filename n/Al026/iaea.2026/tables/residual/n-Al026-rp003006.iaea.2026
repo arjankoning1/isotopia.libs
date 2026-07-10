@@ -1,0 +1,44 @@
+# header: 
+#   title: Al26(n,x)Li6 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 6
+#     nuclide: Li6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.719450E-11
+   6.500000E+01   2.200893E-08
+   7.000000E+01   5.617407E-07
+   7.500000E+01   3.794694E-06
+   8.000000E+01   1.252547E-05
+   9.000000E+01   6.067933E-05
+   1.000000E+02   3.904342E-04
+   1.100000E+02   5.652674E-03
+   1.200000E+02   2.843777E-02
+   1.300000E+02   8.406433E-02
+   1.400000E+02   1.780747E-01
+   1.500000E+02   3.533261E-01
+   1.600000E+02   6.024905E-01
+   1.800000E+02   1.365426E+00
+   2.000000E+02   2.654385E+00

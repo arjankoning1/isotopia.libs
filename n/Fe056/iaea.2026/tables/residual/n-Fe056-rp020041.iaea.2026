@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe56(n,x)Ca41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.516880E-12
+   8.000000E+01   1.543176E-08
+   9.000000E+01   1.399905E-04
+   1.000000E+02   4.124867E-03
+   1.100000E+02   2.168737E-02
+   1.200000E+02   4.723923E-02
+   1.300000E+02   1.229921E-01
+   1.400000E+02   3.504352E-01
+   1.500000E+02   7.343109E-01
+   1.600000E+02   1.327056E+00
+   1.800000E+02   5.000072E+00
+   2.000000E+02   8.086858E+00

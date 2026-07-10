@@ -1,0 +1,43 @@
+# header: 
+#   title: Ru99(n,x)Tc92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 92
+#     nuclide: Tc92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.245378E-06
+   7.000000E+01   6.290373E-04
+   7.500000E+01   7.260312E-03
+   8.000000E+01   3.817579E-02
+   9.000000E+01   4.323539E-01
+   1.000000E+02   1.569496E+00
+   1.100000E+02   2.717065E+00
+   1.200000E+02   3.254943E+00
+   1.300000E+02   3.509328E+00
+   1.400000E+02   3.529893E+00
+   1.500000E+02   3.632888E+00
+   1.600000E+02   3.584084E+00
+   1.800000E+02   3.521174E+00
+   2.000000E+02   3.844670E+00

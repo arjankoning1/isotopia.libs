@@ -1,0 +1,36 @@
+# header: 
+#   title: Ta181(n,x)Tm162 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 162
+#     nuclide: Tm162
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.224743E-12
+   1.300000E+02   2.021389E-07
+   1.400000E+02   8.812752E-05
+   1.500000E+02   5.676010E-03
+   1.600000E+02   1.238400E-01
+   1.800000E+02   2.019527E+00
+   2.000000E+02   1.076417E+01

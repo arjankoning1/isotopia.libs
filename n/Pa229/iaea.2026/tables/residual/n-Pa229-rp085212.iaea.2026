@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa229(n,x)At212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 229
+#   nuclide: Pa229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 212
+#     nuclide: At212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.798056E-12
+   6.000000E+01   2.876641E-11
+   6.500000E+01   2.158256E-09
+   7.000000E+01   7.413104E-08
+   7.500000E+01   8.391270E-07
+   8.000000E+01   5.698589E-06
+   9.000000E+01   1.615950E-04
+   1.000000E+02   3.758798E-04
+   1.100000E+02   1.009415E-03
+   1.200000E+02   5.179646E-03
+   1.300000E+02   1.111744E-02
+   1.400000E+02   1.326692E-02
+   1.500000E+02   1.930085E-02
+   1.600000E+02   3.221954E-02
+   1.800000E+02   2.502649E-02
+   2.000000E+02   1.430805E-02

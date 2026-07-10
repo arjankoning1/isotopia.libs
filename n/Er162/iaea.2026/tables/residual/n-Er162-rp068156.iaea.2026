@@ -1,0 +1,48 @@
+# header: 
+#   title: Er162(n,x)Er156 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 162
+#   nuclide: Er162
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 156
+#     nuclide: Er156
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   6.684091E-06
+   5.400000E+01   1.179746E-02
+   5.600000E+01   4.584438E-01
+   5.800000E+01   4.190651E+00
+   6.000000E+01   1.828449E+01
+   6.500000E+01   1.187968E+02
+   7.000000E+01   2.397534E+02
+   7.500000E+01   2.900008E+02
+   8.000000E+01   2.525234E+02
+   9.000000E+01   1.247542E+02
+   1.000000E+02   7.682272E+01
+   1.100000E+02   6.350837E+01
+   1.200000E+02   5.846747E+01
+   1.300000E+02   5.489687E+01
+   1.400000E+02   5.408712E+01
+   1.500000E+02   5.406296E+01
+   1.600000E+02   5.029588E+01
+   1.800000E+02   4.725826E+01
+   2.000000E+02   4.666750E+01

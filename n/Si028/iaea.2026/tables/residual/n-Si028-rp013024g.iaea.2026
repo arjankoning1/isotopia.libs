@@ -1,0 +1,52 @@
+# header: 
+#   title: Si28(n,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 21
+##       E             xs
+##     [MeV]          [mb]
+   4.800000E+01   6.342388E-08
+   5.000000E+01   3.541105E-05
+   5.200000E+01   4.657873E-04
+   5.400000E+01   1.943288E-03
+   5.600000E+01   4.799781E-03
+   5.800000E+01   8.912189E-03
+   6.000000E+01   1.404310E-02
+   6.500000E+01   3.120343E-02
+   7.000000E+01   5.851364E-02
+   7.500000E+01   9.360630E-02
+   8.000000E+01   1.276764E-01
+   9.000000E+01   1.717405E-01
+   1.000000E+02   1.900708E-01
+   1.100000E+02   1.934678E-01
+   1.200000E+02   1.895400E-01
+   1.300000E+02   1.814505E-01
+   1.400000E+02   1.719114E-01
+   1.500000E+02   1.611601E-01
+   1.600000E+02   1.503287E-01
+   1.800000E+02   1.345684E-01
+   2.000000E+02   1.265089E-01

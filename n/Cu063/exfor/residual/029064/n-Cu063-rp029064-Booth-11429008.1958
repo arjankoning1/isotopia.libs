@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu63(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Booth
+#   year: 1958
+#   subentry: 11429008
+#   X4 reaction: 29-CU-63(N,G)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11429008
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   1.140000E+02   2.400000E+01   1.000000E+00
+# reference:
+#   author: R.Booth,W.P.Ball,M.H.Mac GRegor
+#   title: Neutron activation cross sections at 25keV.
+#   journal: Jour: Physical Review, Vol.112, p.226 (1958)

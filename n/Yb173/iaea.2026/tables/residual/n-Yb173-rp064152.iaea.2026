@@ -1,0 +1,37 @@
+# header: 
+#   title: Yb173(n,x)Gd152 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 173
+#   nuclide: Yb173
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 152
+#     nuclide: Gd152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.161111E-07
+   1.200000E+02   5.422785E-04
+   1.300000E+02   5.973825E-02
+   1.400000E+02   4.074004E-01
+   1.500000E+02   6.787792E-01
+   1.600000E+02   1.602096E+00
+   1.800000E+02   3.141450E+00
+   2.000000E+02   4.628146E+00

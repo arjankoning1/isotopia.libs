@@ -1,0 +1,38 @@
+# header: 
+#   title: Mo97(n,x)Ge75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.107272E-10
+   1.100000E+02   2.797093E-06
+   1.200000E+02   9.165316E-05
+   1.300000E+02   4.943557E-04
+   1.400000E+02   2.212968E-03
+   1.500000E+02   1.388532E-02
+   1.600000E+02   4.615470E-02
+   1.800000E+02   1.366529E-01
+   2.000000E+02   2.340895E-01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Ba133(n,x)Te121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 121
+#     nuclide: Te121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   2.401749E-12
+   5.800000E+01   2.656886E-10
+   6.000000E+01   1.474789E-08
+   6.500000E+01   2.861013E-05
+   7.000000E+01   3.235897E-03
+   7.500000E+01   5.073437E-02
+   8.000000E+01   2.374631E-01
+   9.000000E+01   7.846566E-01
+   1.000000E+02   1.063809E+00
+   1.100000E+02   1.880916E+00
+   1.200000E+02   3.602394E+00
+   1.300000E+02   5.198091E+00
+   1.400000E+02   6.180497E+00
+   1.500000E+02   7.811777E+00
+   1.600000E+02   8.551731E+00
+   1.800000E+02   9.962116E+00
+   2.000000E+02   5.876458E+00

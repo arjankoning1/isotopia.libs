@@ -1,0 +1,38 @@
+# header: 
+#   title: As75(n,p)Ge75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mitra
+#   year: 1967
+#   subentry: 30062004
+#   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30062004
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.800000E-01   1.556819E+01   4.090200E+00   1.037879E+00
+   1.480000E+01   2.000000E-02   3.425001E+01   2.692100E+00   1.037879E+00
+# reference:
+#   author: B.Mitra
+#   title: A survey of results of (n,p) cross sections of 14-MeV neutrons in low-z nuclei
+#   journal: Conf: Nucl. and Solid State Physics Symp., Kanpur 1967, p.367 (1967)

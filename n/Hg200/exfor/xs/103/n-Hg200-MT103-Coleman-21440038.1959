@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg200(n,p)Au200 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Coleman
+#   year: 1959
+#   subentry: 21440038
+#   X4 reaction: 80-HG-200(N,P)79-AU-200,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21440038
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 79
+#     A: 200
+#     nuclide: Au200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   3.630000E+00   3.630000E-01   1.000000E+00
+# reference:
+#   author: R.F.Coleman,B.E.Hawker,L.P.O'Connor,J.L.Perkin
+#   title: Cross sections for (n,p) and (n,alpha) reactions with  14.5 MeV neutrons
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.73, p.215 (1959

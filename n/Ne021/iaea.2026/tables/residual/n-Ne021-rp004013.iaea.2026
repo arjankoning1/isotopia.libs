@@ -1,0 +1,41 @@
+# header: 
+#   title: Ne21(n,x)Be13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 13
+#     nuclide: Be13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.335930E-11
+   8.000000E+01   1.369043E-08
+   9.000000E+01   9.346169E-07
+   1.000000E+02   3.938013E-06
+   1.100000E+02   7.132880E-06
+   1.200000E+02   9.884211E-06
+   1.300000E+02   1.233787E-05
+   1.400000E+02   1.438595E-05
+   1.500000E+02   1.665140E-05
+   1.600000E+02   1.803161E-05
+   1.800000E+02   1.704296E-05
+   2.000000E+02   1.442649E-05

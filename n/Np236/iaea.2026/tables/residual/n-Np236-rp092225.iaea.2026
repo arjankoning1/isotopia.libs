@@ -1,0 +1,40 @@
+# header: 
+#   title: Np236(n,x)U225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 236
+#   nuclide: Np236
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 225
+#     nuclide: U225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.165063E-10
+   9.000000E+01   2.386110E-06
+   1.000000E+02   1.095698E-04
+   1.100000E+02   5.737313E-04
+   1.200000E+02   1.341820E-03
+   1.300000E+02   1.648024E-03
+   1.400000E+02   1.341144E-03
+   1.500000E+02   3.114345E-03
+   1.600000E+02   2.107764E-03
+   1.800000E+02   7.966367E-03
+   2.000000E+02   6.550942E-03

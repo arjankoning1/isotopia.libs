@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi209(n,n'_01)Bi210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Almenramstrom
+#   year: 1975
+#   subentry: 20788028
+#   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20788028
+#   level energy [MeV]:  2.49200E+00
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  2.442920E+00
+#     spin:  5.000000E-01
+#     parity: 1
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.520000E+00   0.000000E+00   3.683159E+02   2.181493E+01   1.003585E+00
+   3.780000E+00   0.000000E+00   4.496578E+02   2.570556E+01   1.001465E+00
+   4.020000E+00   0.000000E+00   3.776973E+02   2.237247E+01   1.029148E+00
+   4.260000E+00   0.000000E+00   3.460751E+02   1.986746E+01   1.006032E+00
+   4.500000E+00   0.000000E+00   2.710894E+02   1.593112E+01   1.007767E+00
+# reference:
+#   author: E.Almen-Ramstrom
+#   title: A systematic study of neutron inelastic scattering  in the energy range 2.0 to 4.5 MeV
+#   journal: Rept: Aktiebolaget Atomenergi,Stockholm/Studsvik Repts, No.503 (1975)

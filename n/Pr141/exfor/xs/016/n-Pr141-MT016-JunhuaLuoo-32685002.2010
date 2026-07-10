@@ -1,0 +1,39 @@
+# header: 
+#   title: Pr141(n,2n)Pr140 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2010
+#   subentry: 32685002
+#   X4 reaction: 59-PR-141(N,2N)59-PR-140,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32685002
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 59
+#     A: 140
+#     nuclide: Pr140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.734694E+03   1.051020E+02   1.020408E+00
+   1.410000E+01   2.000000E-01   1.832653E+03   7.551019E+01   1.020408E+00
+   1.480000E+01   2.000000E-01   1.917347E+03   1.153061E+02   1.020408E+00
+# reference:
+#   author: Junhua Luo, Rong Liu, Li Jiang, Zhenlai Liu
+#   title: Cross-section measurements for 141Pr isotope at  neutron energies from 13.5 to 14.8 MeV
+#   journal: Jour: Radiation Physics and Chemistry, Vol.79, p.1169 (2010)

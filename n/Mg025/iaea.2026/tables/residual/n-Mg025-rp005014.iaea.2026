@@ -1,0 +1,42 @@
+# header: 
+#   title: Mg25(n,x)B14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 14
+#     nuclide: B14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.205646E-11
+   7.500000E+01   4.414557E-08
+   8.000000E+01   8.171987E-07
+   9.000000E+01   9.812313E-06
+   1.000000E+02   2.679862E-05
+   1.100000E+02   4.212793E-05
+   1.200000E+02   6.243421E-05
+   1.300000E+02   9.970520E-05
+   1.400000E+02   1.453515E-04
+   1.500000E+02   1.880691E-04
+   1.600000E+02   2.280596E-04
+   1.800000E+02   2.895265E-04
+   2.000000E+02   2.793045E-04

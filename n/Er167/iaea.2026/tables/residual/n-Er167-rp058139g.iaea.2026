@@ -1,0 +1,37 @@
+# header: 
+#   title: Er167(n,x)Ce139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 167
+#   nuclide: Er167
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 139
+#     nuclide: Ce139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.773816E-11
+   1.400000E+02   1.893476E-07
+   1.500000E+02   6.013962E-05
+   1.600000E+02   1.553092E-03
+   1.800000E+02   6.310903E-02
+   2.000000E+02   2.554181E+00

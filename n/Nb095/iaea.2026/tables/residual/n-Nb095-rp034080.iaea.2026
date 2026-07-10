@@ -1,0 +1,42 @@
+# header: 
+#   title: Nb95(n,x)Se80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 80
+#     nuclide: Se80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.422980E-10
+   7.500000E+01   2.048077E-08
+   8.000000E+01   4.192560E-07
+   9.000000E+01   3.861641E-05
+   1.000000E+02   6.841354E-04
+   1.100000E+02   2.441877E-03
+   1.200000E+02   4.120137E-03
+   1.300000E+02   8.792194E-03
+   1.400000E+02   1.865458E-02
+   1.500000E+02   2.939025E-02
+   1.600000E+02   3.605007E-02
+   1.800000E+02   5.231384E-02
+   2.000000E+02   8.700713E-02

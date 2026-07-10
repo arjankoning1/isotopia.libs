@@ -1,0 +1,42 @@
+# header: 
+#   title: Re186(n,x)Lu170g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 170
+#     nuclide: Lu170g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.505829E-09
+   9.000000E+01   8.342948E-05
+   1.000000E+02   7.163136E-03
+   1.100000E+02   1.446519E-01
+   1.200000E+02   7.851800E-01
+   1.300000E+02   1.760557E+00
+   1.400000E+02   4.127640E+00
+   1.500000E+02   6.862623E+00
+   1.600000E+02   1.063238E+01
+   1.800000E+02   1.521156E+01
+   2.000000E+02   1.227486E+01

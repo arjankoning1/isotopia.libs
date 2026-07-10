@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo92(n,x)Ge73m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 73
+#     nuclide: Ge73m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.263651E-12
+   1.000000E+02   9.790568E-11
+   1.100000E+02   2.140505E-07
+   1.200000E+02   3.747858E-05
+   1.300000E+02   5.594714E-04
+   1.400000E+02   1.935993E-03
+   1.500000E+02   4.442069E-03
+   1.600000E+02   9.783665E-03
+   1.800000E+02   2.858983E-02
+   2.000000E+02   3.562779E-02

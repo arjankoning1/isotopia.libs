@@ -1,0 +1,45 @@
+# header: 
+#   title: Sm150(n,x)Xe133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 133
+#     nuclide: Xe133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.812439E-12
+   7.000000E+01   7.060121E-10
+   7.500000E+01   3.609886E-08
+   8.000000E+01   3.632424E-07
+   9.000000E+01   5.352759E-06
+   1.000000E+02   1.612395E-05
+   1.100000E+02   1.202962E-04
+   1.200000E+02   1.123061E-03
+   1.300000E+02   3.734624E-03
+   1.400000E+02   8.026901E-03
+   1.500000E+02   1.845065E-02
+   1.600000E+02   2.705736E-02
+   1.800000E+02   2.568966E-02
+   2.000000E+02   3.833332E-02

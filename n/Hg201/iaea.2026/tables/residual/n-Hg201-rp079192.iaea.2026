@@ -1,0 +1,42 @@
+# header: 
+#   title: Hg201(n,x)Au192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 201
+#   nuclide: Hg201
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 192
+#     nuclide: Au192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.937983E-06
+   7.500000E+01   1.852093E-03
+   8.000000E+01   8.066693E-02
+   9.000000E+01   2.783817E+00
+   1.000000E+02   2.906904E+01
+   1.100000E+02   5.518948E+01
+   1.200000E+02   3.573240E+01
+   1.300000E+02   2.111557E+01
+   1.400000E+02   1.971534E+01
+   1.500000E+02   1.823820E+01
+   1.600000E+02   2.170308E+01
+   1.800000E+02   1.634737E+01
+   2.000000E+02   2.176467E+01

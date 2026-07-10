@@ -1,0 +1,40 @@
+# header: 
+#   title: Cd116(n,x)Nb100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 100
+#     nuclide: Nb100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.357917E-12
+   9.000000E+01   2.577329E-07
+   1.000000E+02   3.154017E-05
+   1.100000E+02   5.120017E-04
+   1.200000E+02   5.526603E-03
+   1.300000E+02   1.865939E-01
+   1.400000E+02   1.804996E+00
+   1.500000E+02   5.004056E+00
+   1.600000E+02   7.573238E+00
+   1.800000E+02   8.492788E+00
+   2.000000E+02   8.937568E+00

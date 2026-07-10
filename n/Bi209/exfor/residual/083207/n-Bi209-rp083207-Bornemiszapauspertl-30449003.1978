@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi209(n,x)Bi207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bornemiszapauspertl
+#   year: 1978
+#   subentry: 30449003
+#   X4 reaction: 83-BI-209(N,3N)83-BI-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30449003
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 83
+#     A: 207
+#     nuclide: Bi207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   2.000000E+00   1.000000E+00   1.000000E+00
+# reference:
+#   author: P.Bornemisza-Pauspertl, I.Toeroek, I.Uray
+#   title: Some cross sections of nuclear reactions induced by 14 MeV neutrons on Bi
+#   journal: Jour: Radiochemical and Radioanalytical Letters, Vol.32, p.277 (1978)

@@ -1,0 +1,49 @@
+# header: 
+#   title: Fm253(n,x)Am241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 241
+#     nuclide: Am241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.748750E-13
+   5.200000E+01   2.554129E-12
+   5.400000E+01   1.725735E-11
+   5.600000E+01   1.169211E-10
+   5.800000E+01   8.547808E-10
+   6.000000E+01   3.435105E-09
+   6.500000E+01   3.265420E-08
+   7.000000E+01   1.922272E-07
+   7.500000E+01   1.164506E-06
+   8.000000E+01   3.006789E-06
+   9.000000E+01   4.358323E-06
+   1.000000E+02   1.668966E-06
+   1.100000E+02   9.045726E-07
+   1.200000E+02   9.022239E-07
+   1.300000E+02   9.605152E-07
+   1.400000E+02   8.857806E-07
+   1.500000E+02   9.482426E-07
+   1.600000E+02   9.624738E-07
+   1.800000E+02   1.289229E-06
+   2.000000E+02   1.480315E-06

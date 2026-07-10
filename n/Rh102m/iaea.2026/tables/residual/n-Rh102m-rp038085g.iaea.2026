@@ -1,0 +1,41 @@
+# header: 
+#   title: Rh102m(n,x)Sr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.477846E-08
+   1.000000E+02   1.754766E-05
+   1.100000E+02   9.308824E-04
+   1.200000E+02   9.251082E-03
+   1.300000E+02   2.734148E-02
+   1.400000E+02   5.841017E-02
+   1.500000E+02   1.256886E-01
+   1.600000E+02   2.365325E-01
+   1.800000E+02   5.603007E-01
+   2.000000E+02   1.243038E+00

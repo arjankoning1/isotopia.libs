@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra225(n,x)At211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 211
+#     nuclide: At211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.058001E-10
+   7.000000E+01   1.079459E-06
+   7.500000E+01   8.227485E-05
+   8.000000E+01   1.229899E-03
+   9.000000E+01   6.516560E-02
+   1.000000E+02   7.755961E-01
+   1.100000E+02   2.544213E+00
+   1.200000E+02   3.522791E+00
+   1.300000E+02   4.821713E+00
+   1.400000E+02   5.827840E+00
+   1.500000E+02   6.864911E+00
+   1.600000E+02   8.144768E+00
+   1.800000E+02   8.471183E+00
+   2.000000E+02   8.450946E+00

@@ -1,0 +1,49 @@
+# header: 
+#   title: Zn72(n,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.009502E-06
+   5.200000E+01   5.745845E-04
+   5.400000E+01   1.860982E-02
+   5.600000E+01   1.758853E-01
+   5.800000E+01   8.459809E-01
+   6.000000E+01   2.682857E+00
+   6.500000E+01   1.616034E+01
+   7.000000E+01   3.816139E+01
+   7.500000E+01   5.557309E+01
+   8.000000E+01   6.025355E+01
+   9.000000E+01   5.177047E+01
+   1.000000E+02   4.349587E+01
+   1.100000E+02   3.800574E+01
+   1.200000E+02   3.296655E+01
+   1.300000E+02   2.964134E+01
+   1.400000E+02   2.775933E+01
+   1.500000E+02   2.595511E+01
+   1.600000E+02   2.425277E+01
+   1.800000E+02   2.223341E+01
+   2.000000E+02   2.000283E+01

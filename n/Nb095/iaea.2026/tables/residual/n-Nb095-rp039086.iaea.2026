@@ -1,0 +1,45 @@
+# header: 
+#   title: Nb95(n,x)Y86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   8.267309E-10
+   6.000000E+01   7.221459E-07
+   6.500000E+01   9.249506E-03
+   7.000000E+01   6.627048E-01
+   7.500000E+01   4.287895E+00
+   8.000000E+01   9.754491E+00
+   9.000000E+01   1.607847E+01
+   1.000000E+02   2.313391E+01
+   1.100000E+02   3.229448E+01
+   1.200000E+02   4.847769E+01
+   1.300000E+02   6.089956E+01
+   1.400000E+02   6.027369E+01
+   1.500000E+02   6.253722E+01
+   1.600000E+02   5.136797E+01
+   1.800000E+02   4.165482E+01
+   2.000000E+02   3.008703E+01

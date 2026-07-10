@@ -1,0 +1,37 @@
+# header: 
+#   title: Tb156n(n,x)Pr136 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 156
+#   nuclide: Tb156n
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 136
+#     nuclide: Pr136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.192102E-08
+   1.200000E+02   2.268003E-05
+   1.300000E+02   1.178041E-03
+   1.400000E+02   1.003234E-02
+   1.500000E+02   3.289299E-02
+   1.600000E+02   1.507874E-01
+   1.800000E+02   1.220869E+00
+   2.000000E+02   3.639029E+00

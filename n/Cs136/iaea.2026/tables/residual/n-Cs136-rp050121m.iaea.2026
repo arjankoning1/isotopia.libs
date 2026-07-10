@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs136(n,x)Sn121m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.344882E-12
+   9.000000E+01   7.401198E-07
+   1.000000E+02   9.701813E-05
+   1.100000E+02   8.986604E-04
+   1.200000E+02   2.988346E-03
+   1.300000E+02   6.013790E-03
+   1.400000E+02   1.439059E-02
+   1.500000E+02   3.401211E-02
+   1.600000E+02   6.051025E-02
+   1.800000E+02   8.102664E-02
+   2.000000E+02   1.191848E-01

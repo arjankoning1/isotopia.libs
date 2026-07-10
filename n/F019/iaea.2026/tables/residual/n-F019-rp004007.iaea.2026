@@ -1,0 +1,48 @@
+# header: 
+#   title: F19(n,x)Be7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   2.088915E-12
+   5.400000E+01   8.002984E-09
+   5.600000E+01   7.136441E-07
+   5.800000E+01   1.055881E-05
+   6.000000E+01   7.070040E-05
+   6.500000E+01   1.202119E-03
+   7.000000E+01   6.086123E-03
+   7.500000E+01   1.808313E-02
+   8.000000E+01   4.035954E-02
+   9.000000E+01   1.276744E-01
+   1.000000E+02   2.782811E-01
+   1.100000E+02   4.856979E-01
+   1.200000E+02   7.695943E-01
+   1.300000E+02   1.148128E+00
+   1.400000E+02   1.602074E+00
+   1.500000E+02   2.133695E+00
+   1.600000E+02   2.705042E+00
+   1.800000E+02   3.827645E+00
+   2.000000E+02   4.568841E+00

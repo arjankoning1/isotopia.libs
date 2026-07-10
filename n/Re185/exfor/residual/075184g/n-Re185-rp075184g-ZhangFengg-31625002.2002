@@ -1,0 +1,42 @@
+# header: 
+#   title: Re185(n,x)Re184g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ZhangFengg
+#   year: 2002
+#   subentry: 31625002
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31625002
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   1.813361E+03   7.732750E+01   9.979970E-01
+# reference:
+#   author: Zhang Feng, Kong Xiang-Zhong, Pu Zhong-Sheng,  Zhu Xue-Bin
+#   title: Measurement of cross sections for 185Re(n,2n)184g,mRe  and 191Ir(n,2n)190Ir reactions by 14 MeV neutrons
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.26, p.678 (2

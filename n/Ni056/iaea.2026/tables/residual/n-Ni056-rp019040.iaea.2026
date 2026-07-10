@@ -1,0 +1,45 @@
+# header: 
+#   title: Ni56(n,x)K40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 40
+#     nuclide: K40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   9.234056E-12
+   6.000000E+01   3.742101E-10
+   6.500000E+01   2.968774E-07
+   7.000000E+01   1.474116E-05
+   7.500000E+01   1.415330E-04
+   8.000000E+01   5.711065E-04
+   9.000000E+01   2.278585E-03
+   1.000000E+02   1.194033E-02
+   1.100000E+02   8.574004E-02
+   1.200000E+02   2.467640E-01
+   1.300000E+02   4.184464E-01
+   1.400000E+02   7.689433E-01
+   1.500000E+02   1.494202E+00
+   1.600000E+02   2.622340E+00
+   1.800000E+02   5.500364E+00
+   2.000000E+02   8.300854E+00

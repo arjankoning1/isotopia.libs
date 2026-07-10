@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs136(n,x)Sn123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.793015E-12
+   7.000000E+01   7.195003E-09
+   7.500000E+01   4.283033E-07
+   8.000000E+01   5.118133E-06
+   9.000000E+01   7.729958E-05
+   1.000000E+02   3.996904E-04
+   1.100000E+02   8.355813E-04
+   1.200000E+02   3.247745E-03
+   1.300000E+02   1.154735E-02
+   1.400000E+02   2.202970E-02
+   1.500000E+02   2.958816E-02
+   1.600000E+02   3.642802E-02
+   1.800000E+02   5.620099E-02
+   2.000000E+02   5.323357E-02

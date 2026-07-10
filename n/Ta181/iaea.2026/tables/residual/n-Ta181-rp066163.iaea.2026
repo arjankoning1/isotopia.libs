@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta181(n,x)Dy163 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 163
+#     nuclide: Dy163
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.592727E-08
+   1.000000E+02   2.082979E-04
+   1.100000E+02   1.924437E-02
+   1.200000E+02   1.743977E-01
+   1.300000E+02   6.643068E-01
+   1.400000E+02   1.615705E+00
+   1.500000E+02   2.600014E+00
+   1.600000E+02   3.263138E+00
+   1.800000E+02   7.556400E+00
+   2.000000E+02   1.085029E+01

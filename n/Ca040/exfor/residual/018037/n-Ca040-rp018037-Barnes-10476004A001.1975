@@ -1,0 +1,38 @@
+# header: 
+#   title: Ca40(n,x)Ar37 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barnes
+#   year: 1975
+#   subentry: 10476004
+#   X4 reaction: 20-CA-40(N,A)18-AR-37,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10476004
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   5.000000E-02   1.368688E+02   8.280000E+00   9.918032E-01
+   1.470000E+01   2.400000E-01   1.254301E+02   7.560000E+00   9.954768E-01
+# reference:
+#   author: J.W.Barnes,B.P.Bayhurst,B.H.Erkkila,J.S.Gilmore, N.Jarmie,R.J.Prestwood
+#   title: The 40Ca(n,alpha)37Ar cross section from 3 to 14.7 MeV
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.37, p.399 (1975)

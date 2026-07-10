@@ -1,0 +1,49 @@
+# header: 
+#   title: Pb207(n,x)Tl200 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.091121E-10
+   5.200000E+01   1.975588E-07
+   5.400000E+01   1.462105E-05
+   5.600000E+01   3.270302E-04
+   5.800000E+01   3.159934E-03
+   6.000000E+01   1.691195E-02
+   6.500000E+01   2.302982E-01
+   7.000000E+01   9.466941E-01
+   7.500000E+01   2.257663E+00
+   8.000000E+01   4.144372E+00
+   9.000000E+01   8.528187E+00
+   1.000000E+02   1.234152E+01
+   1.100000E+02   1.567253E+01
+   1.200000E+02   1.829627E+01
+   1.300000E+02   2.016828E+01
+   1.400000E+02   2.178399E+01
+   1.500000E+02   2.266706E+01
+   1.600000E+02   2.296762E+01
+   1.800000E+02   2.463457E+01
+   2.000000E+02   3.073794E+01

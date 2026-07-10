@@ -1,0 +1,42 @@
+# header: 
+#   title: Sc45(n,x)Al32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 32
+#     nuclide: Al32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.376766E-10
+   7.500000E+01   6.620191E-08
+   8.000000E+01   1.096079E-06
+   9.000000E+01   1.455032E-05
+   1.000000E+02   3.436644E-05
+   1.100000E+02   4.517485E-05
+   1.200000E+02   5.688971E-05
+   1.300000E+02   7.906238E-05
+   1.400000E+02   1.118022E-04
+   1.500000E+02   1.417631E-04
+   1.600000E+02   1.644663E-04
+   1.800000E+02   1.813354E-04
+   2.000000E+02   1.500184E-04

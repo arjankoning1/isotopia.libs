@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti50(n,p)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pai
+#   year: 1966
+#   subentry: 11630010
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11630010
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   1.790000E+01   2.000000E+00   1.000000E+00
+   1.600000E+01   5.000000E-01   1.770000E+01   2.000000E+00   1.000000E+00
+   1.730000E+01   7.000000E-01   1.820000E+01   2.000000E+00   1.000000E+00
+   1.950000E+01   2.000000E-01   1.410000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: H.L.Pai
+#   title: The (n,p) cross sections of titanium isotopes for neutron energies between 13.6 MeV and 19.5 MeV.
+#   journal: Jour: Canadian Journal of Physics, Vol.44, p.2337 (1966)

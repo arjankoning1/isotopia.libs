@@ -1,0 +1,37 @@
+# header: 
+#   title: Cr54(n,p)V54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ribansky
+#   year: 1985
+#   subentry: 30812008
+#   X4 reaction: 24-CR-54(N,P)23-V-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30812008
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 23
+#     A: 54
+#     nuclide: V54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   1.514351E+01   6.965100E-01   9.897716E-01
+# reference:
+#   author: I.Ribansky,Ts.Panteleev,L.Stoeva
+#   title: Neutron activation cross-sections for Cr isotopes at 14.6 MeV neutron energy
+#   journal: Jour: Annals of Nuclear Energy, Vol.12, p.577 (1985)

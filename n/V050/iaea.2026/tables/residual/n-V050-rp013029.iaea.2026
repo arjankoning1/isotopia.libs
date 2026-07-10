@@ -1,0 +1,39 @@
+# header: 
+#   title: V50(n,x)Al29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.578468E-09
+   1.000000E+02   1.400494E-06
+   1.100000E+02   2.649347E-05
+   1.200000E+02   1.231895E-04
+   1.300000E+02   2.864134E-04
+   1.400000E+02   8.155635E-04
+   1.500000E+02   2.139374E-03
+   1.600000E+02   4.148558E-03
+   1.800000E+02   1.843167E-02
+   2.000000E+02   5.751219E-02

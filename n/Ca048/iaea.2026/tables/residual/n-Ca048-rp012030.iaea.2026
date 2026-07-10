@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca48(n,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.087101E-11
+   1.000000E+02   8.291040E-08
+   1.100000E+02   2.430114E-06
+   1.200000E+02   1.084660E-05
+   1.300000E+02   2.296595E-05
+   1.400000E+02   5.015822E-05
+   1.500000E+02   1.215479E-04
+   1.600000E+02   2.387777E-04
+   1.800000E+02   6.727385E-04
+   2.000000E+02   1.471562E-03

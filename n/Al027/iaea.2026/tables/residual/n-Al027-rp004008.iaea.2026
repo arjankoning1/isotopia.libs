@@ -1,0 +1,43 @@
+# header: 
+#   title: Al27(n,x)Be8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 8
+#     nuclide: Be8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.637943E-10
+   7.000000E+01   4.718215E-07
+   7.500000E+01   2.122613E-05
+   8.000000E+01   1.929107E-04
+   9.000000E+01   2.537837E-03
+   1.000000E+02   1.284948E-02
+   1.100000E+02   3.796151E-02
+   1.200000E+02   9.165383E-02
+   1.300000E+02   2.098905E-01
+   1.400000E+02   4.350827E-01
+   1.500000E+02   8.062290E-01
+   1.600000E+02   1.342285E+00
+   1.800000E+02   3.106435E+00
+   2.000000E+02   5.615441E+00

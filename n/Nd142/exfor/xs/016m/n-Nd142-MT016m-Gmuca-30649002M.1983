@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd142(n,2n)Nd141m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gmuca
+#   year: 1983
+#   subentry: 30649002M
+#   X4 reaction: 60-ND-142(N,2N)60-ND-141-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30649002M
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.500000E-01   7.551746E+02   6.992358E+01   9.989083E-01
+# reference:
+#   author: S.Gmuca,I.Ribansky
+#   title: Neutron activation cross sections on Nd isotopes at 14.8 MeV
+#   journal: Jour: Acta Physica Slovaca, Vol.33, p.9 (1983)

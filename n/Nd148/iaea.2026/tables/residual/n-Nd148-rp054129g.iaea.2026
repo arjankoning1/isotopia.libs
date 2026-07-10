@@ -1,0 +1,40 @@
+# header: 
+#   title: Nd148(n,x)Xe129g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 148
+#   nuclide: Nd148
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.072258E-07
+   1.100000E+02   1.249000E-04
+   1.200000E+02   3.335654E-03
+   1.300000E+02   1.854214E-02
+   1.400000E+02   1.426220E-01
+   1.500000E+02   5.345464E-01
+   1.600000E+02   1.022969E+00
+   1.800000E+02   3.285712E+00
+   2.000000E+02   3.744179E+00

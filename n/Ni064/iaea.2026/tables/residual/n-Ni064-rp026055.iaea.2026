@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni64(n,x)Fe55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.159720E-09
+   6.500000E+01   4.061397E-05
+   7.000000E+01   5.500186E-03
+   7.500000E+01   7.080508E-02
+   8.000000E+01   3.304523E-01
+   9.000000E+01   1.504121E+00
+   1.000000E+02   2.715582E+00
+   1.100000E+02   3.876306E+00
+   1.200000E+02   6.250920E+00
+   1.300000E+02   9.116285E+00
+   1.400000E+02   1.212694E+01
+   1.500000E+02   1.331320E+01
+   1.600000E+02   1.335678E+01
+   1.800000E+02   1.358567E+01
+   2.000000E+02   1.147342E+01

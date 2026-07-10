@@ -1,0 +1,43 @@
+# header: 
+#   title: Ti44(n,x)Ti40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 40
+#     nuclide: Ti40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.775123E-11
+   7.000000E+01   2.857626E-08
+   7.500000E+01   4.871255E-07
+   8.000000E+01   2.014497E-06
+   9.000000E+01   7.372458E-06
+   1.000000E+02   1.198309E-05
+   1.100000E+02   1.502150E-05
+   1.200000E+02   1.658989E-05
+   1.300000E+02   1.812651E-05
+   1.400000E+02   1.938396E-05
+   1.500000E+02   2.030169E-05
+   1.600000E+02   2.087431E-05
+   1.800000E+02   2.188783E-05
+   2.000000E+02   2.249064E-05

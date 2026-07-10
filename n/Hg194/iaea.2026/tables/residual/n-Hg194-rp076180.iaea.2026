@@ -1,0 +1,42 @@
+# header: 
+#   title: Hg194(n,x)Os180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 194
+#   nuclide: Hg194
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 180
+#     nuclide: Os180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.084588E-11
+   7.500000E+01   3.724083E-08
+   8.000000E+01   1.408347E-05
+   9.000000E+01   1.634584E-02
+   1.000000E+02   3.134949E-01
+   1.100000E+02   7.647508E-01
+   1.200000E+02   9.586648E-01
+   1.300000E+02   2.039038E+00
+   1.400000E+02   3.096831E+00
+   1.500000E+02   4.111785E+00
+   1.600000E+02   4.364439E+00
+   1.800000E+02   5.083839E+00
+   2.000000E+02   3.327717E+00

@@ -1,0 +1,38 @@
+# header: 
+#   title: V51(n,x)S33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.217807E-08
+   1.100000E+02   5.225789E-05
+   1.200000E+02   1.249918E-03
+   1.300000E+02   8.384666E-03
+   1.400000E+02   3.365617E-02
+   1.500000E+02   1.163622E-01
+   1.600000E+02   3.314497E-01
+   1.800000E+02   1.279144E+00
+   2.000000E+02   3.321952E+00

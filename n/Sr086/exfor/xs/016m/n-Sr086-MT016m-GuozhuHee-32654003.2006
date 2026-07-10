@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr86(n,2n)Sr85m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: GuozhuHee
+#   year: 2006
+#   subentry: 32654003
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32654003
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   1.569297E+02   1.005960E+01   1.005960E+00
+   1.410000E+01   2.000000E-01   2.283528E+02   8.047700E+00   1.005960E+00
+   1.460000E+01   3.000000E-01   2.545078E+02   8.047700E+00   1.005960E+00
+# reference:
+#   author: Guozhu He, Junhua Luo, Zhongjie Liu, Xiangzhong Kong
+#   title: Cross-section measurements for (n,2n),(n,p) and (n,a) reactions on strontium at the neutron energy about 14MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.33, p.37 (2006)

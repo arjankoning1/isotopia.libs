@@ -1,0 +1,42 @@
+# header: 
+#   title: Lu177(n,x)Lu167m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 177
+#   nuclide: Lu177
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 167
+#     nuclide: Lu167m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.817527E-07
+   9.000000E+01   4.177703E-03
+   1.000000E+02   8.618858E-02
+   1.100000E+02   2.319689E-01
+   1.200000E+02   2.805495E-01
+   1.300000E+02   3.282966E-01
+   1.400000E+02   3.602821E-01
+   1.500000E+02   4.015222E-01
+   1.600000E+02   4.462844E-01
+   1.800000E+02   4.960311E-01
+   2.000000E+02   3.630066E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Se80(n,x)Ga69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 69
+#     nuclide: Ga69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.506632E-11
+   7.500000E+01   1.359255E-06
+   8.000000E+01   2.929616E-04
+   9.000000E+01   2.522048E-02
+   1.000000E+02   1.508750E-01
+   1.100000E+02   3.704664E-01
+   1.200000E+02   6.386154E-01
+   1.300000E+02   8.979386E-01
+   1.400000E+02   1.093136E+00
+   1.500000E+02   1.344122E+00
+   1.600000E+02   1.442429E+00
+   1.800000E+02   1.663150E+00
+   2.000000E+02   1.870649E+00

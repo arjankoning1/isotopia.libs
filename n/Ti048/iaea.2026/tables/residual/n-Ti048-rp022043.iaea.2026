@@ -1,0 +1,43 @@
+# header: 
+#   title: Ti48(n,x)Ti43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 43
+#     nuclide: Ti43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.964127E-07
+   7.000000E+01   9.802811E-05
+   7.500000E+01   1.017241E-03
+   8.000000E+01   3.594120E-03
+   9.000000E+01   1.173149E-02
+   1.000000E+02   1.754266E-02
+   1.100000E+02   2.012143E-02
+   1.200000E+02   2.095880E-02
+   1.300000E+02   2.049373E-02
+   1.400000E+02   2.019934E-02
+   1.500000E+02   2.015835E-02
+   1.600000E+02   2.038631E-02
+   1.800000E+02   2.106754E-02
+   2.000000E+02   2.102271E-02

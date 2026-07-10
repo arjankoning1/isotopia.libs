@@ -1,0 +1,35 @@
+# header: 
+#   title: Pt198(n,x)Os179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 198
+#   nuclide: Pt198
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 179
+#     nuclide: Os179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.378619E-11
+   1.400000E+02   2.865442E-06
+   1.500000E+02   2.856286E-03
+   1.600000E+02   1.063755E-01
+   1.800000E+02   1.253316E+00
+   2.000000E+02   8.459112E+00

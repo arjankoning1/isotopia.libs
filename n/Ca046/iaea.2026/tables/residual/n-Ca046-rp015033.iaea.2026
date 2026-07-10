@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca46(n,x)P33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 33
+#     nuclide: P33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.859755E-10
+   7.000000E+01   2.828146E-05
+   7.500000E+01   2.889005E-03
+   8.000000E+01   2.056605E-02
+   9.000000E+01   3.283088E-01
+   1.000000E+02   1.092162E+00
+   1.100000E+02   1.870542E+00
+   1.200000E+02   2.778748E+00
+   1.300000E+02   4.270399E+00
+   1.400000E+02   5.736969E+00
+   1.500000E+02   7.384800E+00
+   1.600000E+02   9.055315E+00
+   1.800000E+02   9.311851E+00
+   2.000000E+02   9.911196E+00

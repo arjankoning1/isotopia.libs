@@ -1,0 +1,44 @@
+# header: 
+#   title: Tm169(n,x)Eu154 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 154
+#     nuclide: Eu154
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.588221E-12
+   6.500000E+01   1.637837E-08
+   7.000000E+01   7.866421E-06
+   7.500000E+01   2.816782E-04
+   8.000000E+01   3.572779E-03
+   9.000000E+01   2.391353E-02
+   1.000000E+02   3.118492E-02
+   1.100000E+02   3.690085E-02
+   1.200000E+02   7.540494E-02
+   1.300000E+02   1.975084E-01
+   1.400000E+02   3.552048E-01
+   1.500000E+02   6.715871E-01
+   1.600000E+02   1.201285E+00
+   1.800000E+02   1.863200E+00
+   2.000000E+02   5.735369E-01

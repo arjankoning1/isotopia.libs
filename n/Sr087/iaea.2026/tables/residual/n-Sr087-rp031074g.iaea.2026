@@ -1,0 +1,46 @@
+# header: 
+#   title: Sr87(n,x)Ga74g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 74
+#     nuclide: Ga74g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.577039E-12
+   6.500000E+01   1.320443E-08
+   7.000000E+01   3.565385E-06
+   7.500000E+01   1.046267E-04
+   8.000000E+01   1.004305E-03
+   9.000000E+01   8.463005E-03
+   1.000000E+02   1.577020E-02
+   1.100000E+02   2.437421E-02
+   1.200000E+02   4.830709E-02
+   1.300000E+02   6.688106E-02
+   1.400000E+02   1.053744E-01
+   1.500000E+02   1.526435E-01
+   1.600000E+02   1.571743E-01
+   1.800000E+02   1.595959E-01
+   2.000000E+02   1.896408E-01

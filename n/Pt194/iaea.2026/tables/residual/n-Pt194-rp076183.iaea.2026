@@ -1,0 +1,43 @@
+# header: 
+#   title: Pt194(n,x)Os183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 194
+#   nuclide: Pt194
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 183
+#     nuclide: Os183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.611160E-08
+   7.000000E+01   4.419104E-04
+   7.500000E+01   1.633818E-01
+   8.000000E+01   4.117266E+00
+   9.000000E+01   5.460503E+01
+   1.000000E+02   8.973232E+01
+   1.100000E+02   1.050785E+02
+   1.200000E+02   1.050300E+02
+   1.300000E+02   1.119647E+02
+   1.400000E+02   1.101751E+02
+   1.500000E+02   1.104965E+02
+   1.600000E+02   8.763542E+01
+   1.800000E+02   8.351434E+01
+   2.000000E+02   4.545583E+01

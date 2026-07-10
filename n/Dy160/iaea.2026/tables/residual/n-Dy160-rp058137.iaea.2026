@@ -1,0 +1,37 @@
+# header: 
+#   title: Dy160(n,x)Ce137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 160
+#   nuclide: Dy160
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 137
+#     nuclide: Ce137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.500324E-07
+   1.200000E+02   2.364038E-03
+   1.300000E+02   2.200903E-01
+   1.400000E+02   1.794792E+00
+   1.500000E+02   3.903198E+00
+   1.600000E+02   6.261715E+00
+   1.800000E+02   1.601916E+01
+   2.000000E+02   2.696766E+01

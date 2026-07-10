@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca48(n,x)Si31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.562866E-10
+   1.000000E+02   1.399789E-05
+   1.100000E+02   7.596116E-04
+   1.200000E+02   6.127841E-03
+   1.300000E+02   1.888687E-02
+   1.400000E+02   5.672380E-02
+   1.500000E+02   1.614867E-01
+   1.600000E+02   3.548810E-01
+   1.800000E+02   1.175326E+00
+   2.000000E+02   2.564296E+00

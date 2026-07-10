@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni61(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1996
+#   subentry: 22658003
+#   X4 reaction: 28-NI-61(N,X)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22658003
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   5.063071E+01   8.152300E+00   1.002588E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,A.Kumar,Y.Kasugai
+#   title: Summary of activation cross sections measurements  at FNS
+#   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.19 (1996)

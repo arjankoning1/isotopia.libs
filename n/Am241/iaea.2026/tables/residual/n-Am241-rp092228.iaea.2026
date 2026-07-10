@@ -1,0 +1,42 @@
+# header: 
+#   title: Am241(n,x)U228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 228
+#     nuclide: U228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.316702E-11
+   7.500000E+01   1.019944E-07
+   8.000000E+01   3.449415E-05
+   9.000000E+01   1.207482E-02
+   1.000000E+02   1.366313E-01
+   1.100000E+02   5.136940E-01
+   1.200000E+02   1.006415E+00
+   1.300000E+02   1.195182E+00
+   1.400000E+02   1.175218E+00
+   1.500000E+02   1.444734E+00
+   1.600000E+02   2.052356E+00
+   1.800000E+02   1.730983E+00
+   2.000000E+02   2.251954E+00

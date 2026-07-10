@@ -1,0 +1,42 @@
+# header: 
+#   title: Fm253(n,x)Cm239 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 96
+#     A: 239
+#     nuclide: Cm239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.752728E-13
+   7.500000E+01   1.073181E-10
+   8.000000E+01   5.639889E-09
+   9.000000E+01   1.839152E-07
+   1.000000E+02   3.220114E-07
+   1.100000E+02   1.226498E-07
+   1.200000E+02   5.999821E-08
+   1.300000E+02   1.441472E-07
+   1.400000E+02   3.196459E-07
+   1.500000E+02   3.874288E-07
+   1.600000E+02   1.010628E-07
+   1.800000E+02   1.342972E-07
+   2.000000E+02   5.044074E-07

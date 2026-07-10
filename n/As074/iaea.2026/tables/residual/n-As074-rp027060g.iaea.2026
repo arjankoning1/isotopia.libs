@@ -1,0 +1,49 @@
+# header: 
+#   title: As74(n,x)Co60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.035327E-11
+   5.600000E+01   1.209138E-09
+   5.800000E+01   6.447706E-08
+   6.000000E+01   1.203470E-06
+   6.500000E+01   1.571954E-04
+   7.000000E+01   2.543766E-03
+   7.500000E+01   1.340392E-02
+   8.000000E+01   3.331513E-02
+   9.000000E+01   8.264074E-02
+   1.000000E+02   1.468548E-01
+   1.100000E+02   3.907354E-01
+   1.200000E+02   9.595292E-01
+   1.300000E+02   1.525539E+00
+   1.400000E+02   2.140945E+00
+   1.500000E+02   3.147065E+00
+   1.600000E+02   4.239449E+00
+   1.800000E+02   5.507082E+00
+   2.000000E+02   5.398024E+00

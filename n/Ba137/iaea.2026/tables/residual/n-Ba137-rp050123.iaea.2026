@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba137(n,x)Sn123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.408598E-12
+   6.000000E+01   5.059348E-11
+   6.500000E+01   1.077880E-07
+   7.000000E+01   9.962500E-06
+   7.500000E+01   2.266693E-04
+   8.000000E+01   1.260619E-03
+   9.000000E+01   8.150258E-03
+   1.000000E+02   1.062535E-01
+   1.100000E+02   9.390029E-01
+   1.200000E+02   2.873284E+00
+   1.300000E+02   4.817731E+00
+   1.400000E+02   5.822584E+00
+   1.500000E+02   6.276011E+00
+   1.600000E+02   7.058027E+00
+   1.800000E+02   7.776116E+00
+   2.000000E+02   5.458965E+00

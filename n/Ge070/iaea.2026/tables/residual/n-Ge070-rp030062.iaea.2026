@@ -1,0 +1,49 @@
+# header: 
+#   title: Ge70(n,x)Zn62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.123663E-12
+   5.200000E+01   2.152494E-09
+   5.400000E+01   1.079875E-07
+   5.600000E+01   1.898278E-06
+   5.800000E+01   2.354901E-05
+   6.000000E+01   1.834684E-04
+   6.500000E+01   5.158821E-03
+   7.000000E+01   3.578287E-02
+   7.500000E+01   1.116319E-01
+   8.000000E+01   2.339893E-01
+   9.000000E+01   4.727271E-01
+   1.000000E+02   7.065445E-01
+   1.100000E+02   1.080571E+00
+   1.200000E+02   1.523620E+00
+   1.300000E+02   1.938893E+00
+   1.400000E+02   2.234006E+00
+   1.500000E+02   2.246711E+00
+   1.600000E+02   2.521758E+00
+   1.800000E+02   2.562322E+00
+   2.000000E+02   2.274128E+00

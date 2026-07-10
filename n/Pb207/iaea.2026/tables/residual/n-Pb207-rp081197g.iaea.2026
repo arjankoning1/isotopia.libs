@@ -1,0 +1,43 @@
+# header: 
+#   title: Pb207(n,x)Tl197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 197
+#     nuclide: Tl197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.321384E-11
+   8.000000E+01   9.468320E-07
+   9.000000E+01   4.132750E-03
+   1.000000E+02   6.069792E-02
+   1.100000E+02   2.061755E-01
+   1.200000E+02   4.130179E-01
+   1.300000E+02   6.333339E-01
+   1.400000E+02   1.117147E+00
+   1.500000E+02   1.498472E+00
+   1.600000E+02   2.261643E+00
+   1.800000E+02   3.446719E+00
+   2.000000E+02   4.308152E+00

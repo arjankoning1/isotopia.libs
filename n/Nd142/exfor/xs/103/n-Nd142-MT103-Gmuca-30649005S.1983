@@ -1,0 +1,37 @@
+# header: 
+#   title: Nd142(n,p)Pr142 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gmuca
+#   year: 1983
+#   subentry: 30649005S
+#   X4 reaction: 60-ND-142(N,P)59-PR-142,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30649005S
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 59
+#     A: 142
+#     nuclide: Pr142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.500000E-01   1.380000E+01   1.100000E+00   1.000000E+00
+# reference:
+#   author: S.Gmuca,I.Ribansky
+#   title: Neutron activation cross sections on Nd isotopes at 14.8 MeV
+#   journal: Jour: Acta Physica Slovaca, Vol.33, p.9 (1983)

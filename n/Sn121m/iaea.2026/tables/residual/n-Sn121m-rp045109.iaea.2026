@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn121m(n,x)Rh109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 109
+#     nuclide: Rh109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.177560E-11
+   6.500000E+01   6.106507E-08
+   7.000000E+01   2.908227E-06
+   7.500000E+01   4.603326E-05
+   8.000000E+01   5.678892E-04
+   9.000000E+01   7.748746E-03
+   1.000000E+02   1.303674E-02
+   1.100000E+02   1.367605E-02
+   1.200000E+02   2.194854E-02
+   1.300000E+02   3.467860E-02
+   1.400000E+02   3.284035E-02
+   1.500000E+02   3.953236E-02
+   1.600000E+02   4.361190E-02
+   1.800000E+02   3.332152E-02
+   2.000000E+02   2.561774E-02

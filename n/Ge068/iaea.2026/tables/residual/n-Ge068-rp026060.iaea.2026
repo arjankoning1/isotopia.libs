@@ -1,0 +1,49 @@
+# header: 
+#   title: Ge68(n,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.830615E-11
+   5.200000E+01   2.106908E-09
+   5.400000E+01   4.471903E-08
+   5.600000E+01   5.100133E-07
+   5.800000E+01   3.548667E-06
+   6.000000E+01   1.529744E-05
+   6.500000E+01   2.330875E-04
+   7.000000E+01   1.364513E-03
+   7.500000E+01   4.002634E-03
+   8.000000E+01   7.713255E-03
+   9.000000E+01   1.435915E-02
+   1.000000E+02   1.731471E-02
+   1.100000E+02   1.771709E-02
+   1.200000E+02   1.814346E-02
+   1.300000E+02   1.718921E-02
+   1.400000E+02   1.684056E-02
+   1.500000E+02   1.570489E-02
+   1.600000E+02   1.122609E-02
+   1.800000E+02   5.907666E-03
+   2.000000E+02   4.158024E-03

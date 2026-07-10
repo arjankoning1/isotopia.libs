@@ -1,0 +1,47 @@
+# header: 
+#   title: Pt202(n,x)Re192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 202
+#   nuclide: Pt202
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 192
+#     nuclide: Re192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.601666E-11
+   5.600000E+01   9.320659E-10
+   5.800000E+01   2.528651E-08
+   6.000000E+01   4.357031E-07
+   6.500000E+01   3.410063E-05
+   7.000000E+01   3.718533E-04
+   7.500000E+01   1.714106E-03
+   8.000000E+01   5.334094E-03
+   9.000000E+01   2.326040E-02
+   1.000000E+02   3.467463E-02
+   1.100000E+02   4.351337E-02
+   1.200000E+02   4.758757E-02
+   1.300000E+02   6.622995E-02
+   1.400000E+02   1.154269E-01
+   1.500000E+02   1.839383E-01
+   1.600000E+02   2.508671E-01
+   1.800000E+02   3.028734E-01
+   2.000000E+02   3.993452E-01

@@ -1,0 +1,37 @@
+# header: 
+#   title: P31(n,x)P30 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mitra
+#   year: 1967
+#   subentry: 31070002
+#   X4 reaction: 15-P-31(N,2N)15-P-30,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31070002
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   1.660607E+01   1.477300E+00   1.037879E+00
+# reference:
+#   author: B.Mitra
+#   title: The (n,2n) reaction cross section of 31P, 64Zn, 69Ga, and 107Ag for 14.8 MeV neutrons.
+#   journal: Jour: Indian Journal of Physics, Vol.41, p.752 (1967)

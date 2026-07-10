@@ -1,0 +1,41 @@
+# header: 
+#   title: Pb210(n,x)Au197 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 210
+#   nuclide: Pb210
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 197
+#     nuclide: Au197
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.482570E-10
+   8.000000E+01   2.416255E-07
+   9.000000E+01   6.600918E-04
+   1.000000E+02   1.924452E-02
+   1.100000E+02   1.218248E-01
+   1.200000E+02   2.809581E-01
+   1.300000E+02   4.263475E-01
+   1.400000E+02   4.577734E-01
+   1.500000E+02   5.530235E-01
+   1.600000E+02   6.938246E-01
+   1.800000E+02   5.919537E-01
+   2.000000E+02   7.570597E-01

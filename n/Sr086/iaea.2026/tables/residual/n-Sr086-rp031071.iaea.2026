@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr86(n,x)Ga71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 71
+#     nuclide: Ga71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.002948E-11
+   7.500000E+01   1.898415E-08
+   8.000000E+01   8.216920E-07
+   9.000000E+01   5.548408E-04
+   1.000000E+02   1.105497E-02
+   1.100000E+02   4.174104E-02
+   1.200000E+02   2.554965E-01
+   1.300000E+02   1.044238E+00
+   1.400000E+02   2.822386E+00
+   1.500000E+02   4.138578E+00
+   1.600000E+02   5.361683E+00
+   1.800000E+02   6.217375E+00
+   2.000000E+02   7.463236E+00

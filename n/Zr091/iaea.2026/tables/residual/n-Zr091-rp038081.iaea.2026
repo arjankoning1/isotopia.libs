@@ -1,0 +1,40 @@
+# header: 
+#   title: Zr91(n,x)Sr81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 91
+#   nuclide: Zr91
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 81
+#     nuclide: Sr81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.359395E-08
+   9.000000E+01   1.022819E-03
+   1.000000E+02   3.221881E-02
+   1.100000E+02   1.287080E-01
+   1.200000E+02   2.541500E-01
+   1.300000E+02   5.983412E-01
+   1.400000E+02   1.334221E+00
+   1.500000E+02   2.142542E+00
+   1.600000E+02   3.428836E+00
+   1.800000E+02   4.970724E+00
+   2.000000E+02   5.862710E+00

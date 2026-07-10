@@ -1,0 +1,34 @@
+# header: 
+#   title: Se76(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cote
+#   year: 1964
+#   subentry: 118360052
+#   X4 reaction: 34-SE-76(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/118360052
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.760000E-04   0.000000E+00   2.500000E+06   5.200000E+05   1.000000E+00
+   8.550000E-04   0.000000E+00   2.650000E+06   6.000000E+04   1.000000E+00
+# reference:
+#   author: R.E.Cote,L.M.Bollinger,G.E.Thomas
+#   title: Neutron Resonances in Selenium.
+#   journal: Jour: Physical Review, Vol.136, p.B703 (1964)

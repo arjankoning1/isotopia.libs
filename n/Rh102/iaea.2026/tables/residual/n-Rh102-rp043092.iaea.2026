@@ -1,0 +1,42 @@
+# header: 
+#   title: Rh102(n,x)Tc92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 92
+#     nuclide: Tc92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.279450E-08
+   7.500000E+01   3.571657E-05
+   8.000000E+01   9.211096E-04
+   9.000000E+01   4.071407E-02
+   1.000000E+02   1.902243E-01
+   1.100000E+02   3.561031E-01
+   1.200000E+02   5.992412E-01
+   1.300000E+02   1.128911E+00
+   1.400000E+02   1.999130E+00
+   1.500000E+02   2.558445E+00
+   1.600000E+02   3.547543E+00
+   1.800000E+02   4.247129E+00
+   2.000000E+02   4.001250E+00

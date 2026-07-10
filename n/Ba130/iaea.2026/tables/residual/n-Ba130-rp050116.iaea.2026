@@ -1,0 +1,47 @@
+# header: 
+#   title: Ba130(n,x)Sn116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 116
+#     nuclide: Sn116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.498896E-11
+   5.600000E+01   2.291250E-10
+   5.800000E+01   2.362000E-09
+   6.000000E+01   1.793595E-08
+   6.500000E+01   1.104161E-06
+   7.000000E+01   2.480900E-05
+   7.500000E+01   2.464669E-04
+   8.000000E+01   1.575989E-03
+   9.000000E+01   1.375277E-02
+   1.000000E+02   2.717878E-02
+   1.100000E+02   6.791437E-02
+   1.200000E+02   1.404261E-01
+   1.300000E+02   3.244902E-01
+   1.400000E+02   4.680095E-01
+   1.500000E+02   7.696480E-01
+   1.600000E+02   1.299421E+00
+   1.800000E+02   1.444151E+00
+   2.000000E+02   1.687250E+00

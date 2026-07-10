@@ -1,0 +1,49 @@
+# header: 
+#   title: Si30(n,x)F19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 19
+#     nuclide: F19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.045655E-12
+   5.200000E+01   1.689224E-08
+   5.400000E+01   5.150123E-06
+   5.600000E+01   2.188579E-04
+   5.800000E+01   2.158612E-03
+   6.000000E+01   9.991236E-03
+   6.500000E+01   1.070822E-01
+   7.000000E+01   3.959691E-01
+   7.500000E+01   9.898431E-01
+   8.000000E+01   2.058058E+00
+   9.000000E+01   4.950875E+00
+   1.000000E+02   7.750269E+00
+   1.100000E+02   9.763210E+00
+   1.200000E+02   1.179005E+01
+   1.300000E+02   1.370866E+01
+   1.400000E+02   1.508042E+01
+   1.500000E+02   1.606278E+01
+   1.600000E+02   1.818974E+01
+   1.800000E+02   1.812861E+01
+   2.000000E+02   1.585772E+01

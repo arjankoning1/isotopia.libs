@@ -1,0 +1,38 @@
+# header: 
+#   title: Zr90(n,x)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Carroll
+#   year: 1966
+#   subentry: 11856003
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11856003
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   8.000000E-01   4.720000E+01   2.800000E+00   1.000000E+00
+   1.513000E+01   1.400000E+00   4.300000E+01   3.900000E+00   1.000000E+00
+# reference:
+#   author: E.E.Carroll,R.W.Stooksberry
+#   title: Zirconium (n,p) cross-section measurements.
+#   journal: Jour: Nuclear Science and Engineering, Vol.25, p.285 (1966)

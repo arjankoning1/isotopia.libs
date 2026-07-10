@@ -1,0 +1,40 @@
+# header: 
+#   title: Ni62(n,x)K46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 46
+#     nuclide: K46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.426455E-10
+   9.000000E+01   2.023599E-08
+   1.000000E+02   1.104161E-07
+   1.100000E+02   5.904443E-07
+   1.200000E+02   8.449438E-06
+   1.300000E+02   3.853929E-05
+   1.400000E+02   9.037139E-05
+   1.500000E+02   1.790651E-04
+   1.600000E+02   4.654062E-04
+   1.800000E+02   1.755008E-03
+   2.000000E+02   3.548387E-03

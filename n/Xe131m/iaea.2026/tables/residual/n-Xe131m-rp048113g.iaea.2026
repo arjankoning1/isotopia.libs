@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe131m(n,x)Cd113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 113
+#     nuclide: Cd113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.846234E-08
+   1.100000E+02   2.782486E-05
+   1.200000E+02   4.615042E-04
+   1.300000E+02   2.434274E-03
+   1.400000E+02   5.625697E-03
+   1.500000E+02   1.302365E-02
+   1.600000E+02   2.639421E-02
+   1.800000E+02   6.744090E-02
+   2.000000E+02   9.167796E-02

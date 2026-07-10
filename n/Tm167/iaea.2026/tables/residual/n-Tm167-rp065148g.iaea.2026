@@ -1,0 +1,39 @@
+# header: 
+#   title: Tm167(n,x)Tb148g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 167
+#   nuclide: Tm167
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 148
+#     nuclide: Tb148g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.460057E-12
+   1.200000E+02   2.220898E-06
+   1.300000E+02   4.204637E-04
+   1.400000E+02   2.581499E-02
+   1.500000E+02   2.445510E-01
+   1.600000E+02   9.311725E-01
+   1.800000E+02   4.843332E+00
+   2.000000E+02   1.044490E+01

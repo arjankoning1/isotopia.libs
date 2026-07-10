@@ -1,0 +1,35 @@
+# header: 
+#   title: Kr83(n,x)As68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 83
+#   nuclide: Kr83
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 68
+#     nuclide: As68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.303131E-10
+   1.400000E+02   7.372524E-07
+   1.500000E+02   1.473774E-04
+   1.600000E+02   3.779741E-03
+   1.800000E+02   8.122766E-02
+   2.000000E+02   2.258452E-01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1963
+#   subentry: 21343004
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21343004
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   3.000000E-01   7.854745E+02   4.726821E+01   1.025424E+00
+   1.410000E+01   4.000000E-01   9.413389E+02   5.664780E+01   1.025424E+00
+   1.460000E+01   4.000000E-01   9.762034E+02   4.050221E+01   1.025424E+00
+   1.520000E+01   4.000000E-01   9.608219E+02   5.782026E+01   1.025424E+00
+   1.550000E+01   4.000000E-01   9.946609E+02   5.985662E+01   1.025424E+00
+   1.590000E+01   4.000000E-01   9.987626E+02   6.010345E+01   1.025424E+00
+   1.650000E+01   4.000000E-01   9.772289E+02   4.054473E+01   1.025424E+00
+   1.750000E+01   4.000000E-01   8.634068E+02   3.582229E+01   1.025424E+00
+   1.850000E+01   4.000000E-01   8.439237E+02   3.501399E+01   1.025424E+00
+   1.870000E+01   3.000000E-01   8.305933E+02   3.446087E+01   1.025424E+00
+# reference:
+#   author: M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,  H.Neuert, H.Pollehn
+#   title: -Investigations of the energy dependence of neutron  induced reactions in the energy range of 12-19 MeV.-  (In German).
+#   journal: Jour: Zeitschrift fuer Physik, Vol.174, p.1 (1963)

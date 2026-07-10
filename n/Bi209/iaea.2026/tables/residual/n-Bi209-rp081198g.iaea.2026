@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi209(n,x)Tl198g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 198
+#     nuclide: Tl198g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.621567E-11
+   7.000000E+01   5.763827E-07
+   7.500000E+01   3.588681E-04
+   8.000000E+01   2.119836E-02
+   9.000000E+01   9.318057E-01
+   1.000000E+02   2.209541E+00
+   1.100000E+02   1.388399E+00
+   1.200000E+02   1.014078E+00
+   1.300000E+02   8.680846E-01
+   1.400000E+02   8.648225E-01
+   1.500000E+02   7.381964E-01
+   1.600000E+02   7.679828E-01
+   1.800000E+02   9.289860E-01
+   2.000000E+02   9.128839E-01

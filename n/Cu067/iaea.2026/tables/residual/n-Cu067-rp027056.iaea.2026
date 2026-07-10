@@ -1,0 +1,40 @@
+# header: 
+#   title: Cu67(n,x)Co56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.192530E-10
+   9.000000E+01   2.783762E-04
+   1.000000E+02   3.566410E-02
+   1.100000E+02   2.783681E-01
+   1.200000E+02   7.320779E-01
+   1.300000E+02   1.340080E+00
+   1.400000E+02   2.502578E+00
+   1.500000E+02   4.169645E+00
+   1.600000E+02   5.889800E+00
+   1.800000E+02   7.681943E+00
+   2.000000E+02   7.269548E+00

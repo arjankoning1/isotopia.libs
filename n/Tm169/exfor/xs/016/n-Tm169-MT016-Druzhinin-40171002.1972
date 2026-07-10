@@ -1,0 +1,37 @@
+# header: 
+#   title: Tm169(n,2n)Tm168 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Druzhinin
+#   year: 1972
+#   subentry: 40171002
+#   X4 reaction: 69-TM-169(N,2N)69-TM-168,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40171002
+# target: 
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 69
+#     A: 168
+#     nuclide: Tm168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.630000E+03   1.600000E+02   1.000000E+00
+# reference:
+#   author: A.A.Druzhinin, N.I.Ivanova, A.A.Lbov
+#   title: The (n,2n) reaction cross sections for Tm,Ir,Tl and Pb isotopes at 14.8 MeV neutron energy
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.14, p.383 (1972)

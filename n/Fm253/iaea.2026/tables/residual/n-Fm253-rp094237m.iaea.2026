@@ -1,0 +1,45 @@
+# header: 
+#   title: Fm253(n,x)Pu237m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.376731E-12
+   7.000000E+01   5.519992E-10
+   7.500000E+01   3.161320E-08
+   8.000000E+01   6.340592E-07
+   9.000000E+01   1.619224E-05
+   1.000000E+02   1.246057E-05
+   1.100000E+02   2.973004E-06
+   1.200000E+02   1.319792E-06
+   1.300000E+02   1.184237E-06
+   1.400000E+02   9.557217E-07
+   1.500000E+02   8.775659E-07
+   1.600000E+02   8.663852E-07
+   1.800000E+02   7.899152E-07
+   2.000000E+02   3.279847E-07

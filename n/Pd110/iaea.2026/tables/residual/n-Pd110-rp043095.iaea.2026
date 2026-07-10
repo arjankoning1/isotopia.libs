@@ -1,0 +1,37 @@
+# header: 
+#   title: Pd110(n,x)Tc95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.911061E-08
+   1.200000E+02   8.626657E-05
+   1.300000E+02   2.921830E-03
+   1.400000E+02   4.205956E-02
+   1.500000E+02   2.073627E-01
+   1.600000E+02   6.164548E-01
+   1.800000E+02   1.469745E+00
+   2.000000E+02   1.691029E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Cs129(n,x)Cs122g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.140068E-06
+   7.500000E+01   2.135060E-03
+   8.000000E+01   4.751083E-02
+   9.000000E+01   4.236442E-01
+   1.000000E+02   9.409963E-01
+   1.100000E+02   1.577091E+00
+   1.200000E+02   2.005881E+00
+   1.300000E+02   2.206336E+00
+   1.400000E+02   2.410750E+00
+   1.500000E+02   2.507618E+00
+   1.600000E+02   2.475319E+00
+   1.800000E+02   2.529773E+00
+   2.000000E+02   2.710213E+00

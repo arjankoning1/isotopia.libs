@@ -1,0 +1,37 @@
+# header: 
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mogharrab
+#   year: 1972
+#   subentry: 21509002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21509002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   6.894185E+01   1.199400E+00   1.004983E+00
+# reference:
+#   author: R.MOGHARRAB,H.NEUERT
+#   title: -MEASUREMENT OF SOME CROSS SECTIONS OF REACTIONS  WITH 14 MEV NEUTRONS BY THE ACTIVATION METHOD.-  IN GERMAN.-
+#   journal: Jour: Atomkernenergie, Vol.19, p.107 (1972)

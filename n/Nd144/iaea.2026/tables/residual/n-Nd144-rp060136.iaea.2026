@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd144(n,x)Nd136 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 136
+#     nuclide: Nd136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.403430E-06
+   8.000000E+01   2.500917E-03
+   9.000000E+01   3.247556E-01
+   1.000000E+02   2.094810E+00
+   1.100000E+02   4.724448E+00
+   1.200000E+02   6.860731E+00
+   1.300000E+02   7.912778E+00
+   1.400000E+02   8.417719E+00
+   1.500000E+02   8.798386E+00
+   1.600000E+02   8.070501E+00
+   1.800000E+02   7.602396E+00
+   2.000000E+02   7.590257E+00

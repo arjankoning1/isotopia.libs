@@ -1,0 +1,41 @@
+# header: 
+#   title: Te129m(n,x)Cd115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 129
+#   nuclide: Te129m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 115
+#     nuclide: Cd115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.218600E-11
+   8.000000E+01   1.616776E-07
+   9.000000E+01   1.402602E-03
+   1.000000E+02   4.955161E-02
+   1.100000E+02   1.933623E-01
+   1.200000E+02   3.352282E-01
+   1.300000E+02   6.532626E-01
+   1.400000E+02   1.104356E+00
+   1.500000E+02   1.366739E+00
+   1.600000E+02   1.691189E+00
+   1.800000E+02   1.495193E+00
+   2.000000E+02   1.105434E+00

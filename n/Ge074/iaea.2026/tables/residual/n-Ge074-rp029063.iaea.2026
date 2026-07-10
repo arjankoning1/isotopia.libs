@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge74(n,x)Cu63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.286294E-09
+   7.500000E+01   3.243681E-05
+   8.000000E+01   2.467694E-03
+   9.000000E+01   5.597010E-02
+   1.000000E+02   1.321034E-01
+   1.100000E+02   5.466421E-01
+   1.200000E+02   1.300938E+00
+   1.300000E+02   2.167897E+00
+   1.400000E+02   3.222742E+00
+   1.500000E+02   4.079929E+00
+   1.600000E+02   4.382740E+00
+   1.800000E+02   5.026268E+00
+   2.000000E+02   5.328343E+00

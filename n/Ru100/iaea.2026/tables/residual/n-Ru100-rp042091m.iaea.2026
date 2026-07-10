@@ -1,0 +1,47 @@
+# header: 
+#   title: Ru100(n,x)Mo91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.253215E-13
+   6.000000E+01   6.358562E-11
+   6.500000E+01   2.230635E-06
+   7.000000E+01   4.636653E-04
+   7.500000E+01   6.925178E-03
+   8.000000E+01   3.245991E-02
+   9.000000E+01   1.547697E-01
+   1.000000E+02   2.956807E-01
+   1.100000E+02   3.964570E-01
+   1.200000E+02   4.773217E-01
+   1.300000E+02   5.961245E-01
+   1.400000E+02   6.410023E-01
+   1.500000E+02   7.376131E-01
+   1.600000E+02   6.864246E-01
+   1.800000E+02   8.290740E-01
+   2.000000E+02   7.534472E-01

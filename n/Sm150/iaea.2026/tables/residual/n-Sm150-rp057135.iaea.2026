@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm150(n,x)La135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 135
+#     nuclide: La135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.974468E-12
+   8.000000E+01   9.250519E-09
+   9.000000E+01   8.264046E-05
+   1.000000E+02   7.712493E-03
+   1.100000E+02   1.380892E-01
+   1.200000E+02   5.913460E-01
+   1.300000E+02   1.464577E+00
+   1.400000E+02   2.702172E+00
+   1.500000E+02   4.747894E+00
+   1.600000E+02   6.206715E+00
+   1.800000E+02   9.995060E+00
+   2.000000E+02   8.293556E+00

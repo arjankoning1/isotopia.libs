@@ -1,0 +1,37 @@
+# header: 
+#   title: Mn54(n,x)Cl34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.725213E-08
+   1.200000E+02   1.105596E-05
+   1.300000E+02   2.354093E-04
+   1.400000E+02   1.219528E-03
+   1.500000E+02   4.509803E-03
+   1.600000E+02   1.454508E-02
+   1.800000E+02   9.664848E-02
+   2.000000E+02   4.461382E-01

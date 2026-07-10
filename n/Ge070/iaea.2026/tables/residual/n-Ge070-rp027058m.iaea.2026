@@ -1,0 +1,48 @@
+# header: 
+#   title: Ge70(n,x)Co58m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.049979E-10
+   5.800000E+01   8.048711E-09
+   6.000000E+01   2.379361E-07
+   6.500000E+01   7.939547E-05
+   7.000000E+01   1.884022E-03
+   7.500000E+01   1.248047E-02
+   8.000000E+01   4.624704E-02
+   9.000000E+01   3.202225E-01
+   1.000000E+02   9.913563E-01
+   1.100000E+02   1.786150E+00
+   1.200000E+02   2.492347E+00
+   1.300000E+02   3.874160E+00
+   1.400000E+02   5.087804E+00
+   1.500000E+02   5.905339E+00
+   1.600000E+02   6.241588E+00
+   1.800000E+02   7.121256E+00
+   2.000000E+02   6.491511E+00

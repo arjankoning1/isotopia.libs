@@ -1,0 +1,37 @@
+# header: 
+#   title: O17(n,p)N17 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Norman
+#   year: 1998
+#   subentry: 13693002
+#   X4 reaction: 8-O-17(N,P)7-N-17,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13693002
+# target: 
+#   Z: 8
+#   A: 17
+#   nuclide: O17
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 7
+#     A: 17
+#     nuclide: N17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   2.964590E+01   6.600000E+00   1.081967E+00
+# reference:
+#   author: E.B.NORMAN,B.SUR
+#   title: Cross sections for 17O(n,p)17N and 17O(n,d)16N  reactions for 14 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.57, p.2043 (1998)

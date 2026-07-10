@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe133(n,x)Cd113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 113
+#     nuclide: Cd113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.899406E-10
+   1.200000E+02   9.358138E-06
+   1.300000E+02   1.489784E-03
+   1.400000E+02   2.213528E-02
+   1.500000E+02   1.109323E-01
+   1.600000E+02   2.754493E-01
+   1.800000E+02   1.192246E+00
+   2.000000E+02   4.993474E+00

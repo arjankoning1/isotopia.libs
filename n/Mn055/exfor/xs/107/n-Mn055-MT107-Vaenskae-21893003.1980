@@ -1,0 +1,38 @@
+# header: 
+#   title: Mn55(n,a)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vaenskae
+#   year: 1980
+#   subentry: 21893003
+#   X4 reaction: 25-MN-55(N,A)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21893003
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   2.500000E+01   4.000000E+00   1.000000E+00
+   1.470000E+01   3.000000E-01   3.000000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: R.VAENSKAE,R.RIEPPO
+#   title: -ON THE SIMULTANEOUS USE OF A GE(LI) SEMICONDUCTOR  AND A NAI(TL) SCINTILLATION DETECTOR IN NEUTRON  ACTIVATION CROSS SECTION MEASUREMENTS
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.171, p.281 (1980)

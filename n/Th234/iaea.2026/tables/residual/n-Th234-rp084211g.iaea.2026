@@ -1,0 +1,41 @@
+# header: 
+#   title: Th234(n,x)Po211g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 211
+#     nuclide: Po211g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.140267E-13
+   1.000000E+02   8.122647E-09
+   1.100000E+02   4.456856E-06
+   1.200000E+02   1.758011E-04
+   1.300000E+02   2.018898E-03
+   1.400000E+02   7.103190E-03
+   1.500000E+02   9.818790E-03
+   1.600000E+02   7.306419E-03
+   1.800000E+02   9.909133E-03
+   2.000000E+02   1.120809E-02

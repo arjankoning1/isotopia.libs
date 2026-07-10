@@ -1,0 +1,44 @@
+# header: 
+#   title: Nb93m(n,x)Br79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.625494E-12
+   6.500000E+01   2.000181E-08
+   7.000000E+01   5.854974E-06
+   7.500000E+01   1.234041E-04
+   8.000000E+01   6.446257E-04
+   9.000000E+01   5.105719E-03
+   1.000000E+02   1.464412E-02
+   1.100000E+02   7.225548E-02
+   1.200000E+02   2.547304E-01
+   1.300000E+02   5.548376E-01
+   1.400000E+02   9.598236E-01
+   1.500000E+02   1.768440E+00
+   1.600000E+02   2.965497E+00
+   1.800000E+02   4.483730E+00
+   2.000000E+02   5.715860E+00

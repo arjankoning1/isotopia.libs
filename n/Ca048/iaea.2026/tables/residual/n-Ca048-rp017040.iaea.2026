@@ -1,0 +1,49 @@
+# header: 
+#   title: Ca48(n,x)Cl40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 40
+#     nuclide: Cl40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.127007E-08
+   5.200000E+01   1.966931E-06
+   5.400000E+01   3.432015E-05
+   5.600000E+01   2.035718E-04
+   5.800000E+01   8.168730E-04
+   6.000000E+01   2.131395E-03
+   6.500000E+01   1.120389E-02
+   7.000000E+01   4.301495E-02
+   7.500000E+01   1.251194E-01
+   8.000000E+01   2.520895E-01
+   9.000000E+01   5.457878E-01
+   1.000000E+02   7.685778E-01
+   1.100000E+02   1.210280E+00
+   1.200000E+02   1.619615E+00
+   1.300000E+02   1.974955E+00
+   1.400000E+02   1.677996E+00
+   1.500000E+02   1.350830E+00
+   1.600000E+02   1.216779E+00
+   1.800000E+02   1.033173E+00
+   2.000000E+02   8.464828E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Gd151(n,x)Eu142g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 151
+#   nuclide: Gd151
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 142
+#     nuclide: Eu142g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.042339E-08
+   8.000000E+01   1.057571E-04
+   9.000000E+01   1.516719E-01
+   1.000000E+02   2.624906E+00
+   1.100000E+02   8.134487E+00
+   1.200000E+02   1.767716E+01
+   1.300000E+02   2.467499E+01
+   1.400000E+02   2.702567E+01
+   1.500000E+02   2.489666E+01
+   1.600000E+02   2.621139E+01
+   1.800000E+02   2.383488E+01
+   2.000000E+02   2.057567E+01

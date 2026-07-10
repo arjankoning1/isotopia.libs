@@ -1,0 +1,39 @@
+# header: 
+#   title: Te126(n,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.884004E-12
+   1.000000E+02   9.744121E-05
+   1.100000E+02   5.116422E-02
+   1.200000E+02   8.196913E-01
+   1.300000E+02   3.010456E+00
+   1.400000E+02   4.613009E+00
+   1.500000E+02   4.225713E+00
+   1.600000E+02   3.136890E+00
+   1.800000E+02   3.256399E+00
+   2.000000E+02   3.660541E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ra225(n,x)Pb204g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 225
+#   nuclide: Ra225
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 204
+#     nuclide: Pb204g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.049958E-09
+   9.000000E+01   4.966170E-07
+   1.000000E+02   3.562038E-04
+   1.100000E+02   4.986585E-03
+   1.200000E+02   1.018721E-01
+   1.300000E+02   3.245384E-01
+   1.400000E+02   5.402896E-01
+   1.500000E+02   1.001388E+00
+   1.600000E+02   1.769398E+00
+   1.800000E+02   3.368190E+00
+   2.000000E+02   3.911080E+00

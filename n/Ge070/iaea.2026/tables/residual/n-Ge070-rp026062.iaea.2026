@@ -1,0 +1,46 @@
+# header: 
+#   title: Ge70(n,x)Fe62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 62
+#     nuclide: Fe62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.176330E-12
+   5.800000E+01   6.435754E-11
+   6.000000E+01   1.735898E-09
+   6.500000E+01   3.918835E-07
+   7.000000E+01   9.658797E-06
+   7.500000E+01   8.918221E-05
+   8.000000E+01   3.997775E-04
+   9.000000E+01   1.700306E-03
+   1.000000E+02   3.787035E-03
+   1.100000E+02   7.771329E-03
+   1.200000E+02   2.750408E-02
+   1.300000E+02   5.913131E-02
+   1.400000E+02   7.989092E-02
+   1.500000E+02   8.718243E-02
+   1.600000E+02   7.835942E-02
+   1.800000E+02   4.384319E-02
+   2.000000E+02   2.488032E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn112(n,x)In105m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 105
+#     nuclide: In105m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.077490E-08
+   7.000000E+01   1.235180E-05
+   7.500000E+01   3.144592E-04
+   8.000000E+01   6.998189E-03
+   9.000000E+01   1.715088E-01
+   1.000000E+02   3.344225E-01
+   1.100000E+02   2.534640E-01
+   1.200000E+02   1.712253E-01
+   1.300000E+02   1.864038E-01
+   1.400000E+02   2.083618E-01
+   1.500000E+02   2.159340E-01
+   1.600000E+02   2.376674E-01
+   1.800000E+02   2.558196E-01
+   2.000000E+02   2.483828E-01

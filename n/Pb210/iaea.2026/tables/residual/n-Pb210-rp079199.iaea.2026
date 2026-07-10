@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb210(n,x)Au199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 210
+#   nuclide: Pb210
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 199
+#     nuclide: Au199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   6.388899E-12
+   6.000000E+01   3.543787E-10
+   6.500000E+01   4.960056E-07
+   7.000000E+01   4.492995E-05
+   7.500000E+01   6.609000E-04
+   8.000000E+01   3.443445E-03
+   9.000000E+01   3.539527E-02
+   1.000000E+02   9.961107E-02
+   1.100000E+02   1.428810E-01
+   1.200000E+02   1.630401E-01
+   1.300000E+02   1.772462E-01
+   1.400000E+02   2.446906E-01
+   1.500000E+02   3.009175E-01
+   1.600000E+02   3.343337E-01
+   1.800000E+02   5.548280E-01
+   2.000000E+02   8.935406E-01

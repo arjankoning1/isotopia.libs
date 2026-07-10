@@ -1,0 +1,37 @@
+# header: 
+#   title: Ga71(n,x)Zn71 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1977
+#   subentry: 207210622
+#   X4 reaction: 31-GA-71(N,P)30-ZN-71,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/207210622
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 30
+#     A: 71
+#     nuclide: Zn71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   2.050000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: N.I.Molla,S.M.Qaim
+#   title: A systematic study of (n,p) reactions at 14.7 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)

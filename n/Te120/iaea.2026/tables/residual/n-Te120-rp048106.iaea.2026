@@ -1,0 +1,40 @@
+# header: 
+#   title: Te120(n,x)Cd106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 106
+#     nuclide: Cd106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.974984E-11
+   9.000000E+01   3.995357E-05
+   1.000000E+02   2.189367E-02
+   1.100000E+02   3.942592E-01
+   1.200000E+02   1.526154E+00
+   1.300000E+02   3.369031E+00
+   1.400000E+02   7.197808E+00
+   1.500000E+02   1.508487E+01
+   1.600000E+02   2.506574E+01
+   1.800000E+02   4.934654E+01
+   2.000000E+02   5.984740E+01

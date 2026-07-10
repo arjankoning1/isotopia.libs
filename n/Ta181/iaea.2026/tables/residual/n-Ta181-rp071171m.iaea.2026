@@ -1,0 +1,49 @@
+# header: 
+#   title: Ta181(n,x)Lu171m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 171
+#     nuclide: Lu171m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.779433E-11
+   5.600000E+01   9.270079E-10
+   5.800000E+01   3.194706E-08
+   6.000000E+01   8.105931E-07
+   6.500000E+01   4.084022E-04
+   7.000000E+01   2.233449E-02
+   7.500000E+01   2.903677E-01
+   8.000000E+01   1.698190E+00
+   9.000000E+01   1.192803E+01
+   1.000000E+02   2.239473E+01
+   1.100000E+02   2.430013E+01
+   1.200000E+02   2.739099E+01
+   1.300000E+02   2.901156E+01
+   1.400000E+02   2.819633E+01
+   1.500000E+02   1.606047E+01
+   1.600000E+02   9.919062E+00
+   1.800000E+02   5.957563E+00
+   2.000000E+02   3.251314E+00

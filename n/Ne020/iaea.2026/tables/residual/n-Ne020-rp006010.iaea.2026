@@ -1,0 +1,48 @@
+# header: 
+#   title: Ne20(n,x)C10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   2.959886E-10
+   5.400000E+01   4.156395E-08
+   5.600000E+01   1.056112E-06
+   5.800000E+01   1.026756E-05
+   6.000000E+01   5.368801E-05
+   6.500000E+01   8.320683E-04
+   7.000000E+01   4.501358E-03
+   7.500000E+01   1.345642E-02
+   8.000000E+01   2.748051E-02
+   9.000000E+01   5.856002E-02
+   1.000000E+02   9.654642E-02
+   1.100000E+02   1.833549E-01
+   1.200000E+02   3.206834E-01
+   1.300000E+02   4.685047E-01
+   1.400000E+02   6.365299E-01
+   1.500000E+02   8.378166E-01
+   1.600000E+02   1.060971E+00
+   1.800000E+02   1.346790E+00
+   2.000000E+02   1.341747E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe57(n,x)Cr49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 49
+#     nuclide: Cr49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   7.521478E-10
+   5.800000E+01   5.952010E-07
+   6.000000E+01   4.106382E-05
+   6.500000E+01   9.387232E-03
+   7.000000E+01   8.691588E-02
+   7.500000E+01   2.387798E-01
+   8.000000E+01   4.959622E-01
+   9.000000E+01   9.832225E-01
+   1.000000E+02   1.282279E+00
+   1.100000E+02   1.809534E+00
+   1.200000E+02   2.553595E+00
+   1.300000E+02   3.229140E+00
+   1.400000E+02   3.657064E+00
+   1.500000E+02   3.757079E+00
+   1.600000E+02   3.978513E+00
+   1.800000E+02   3.839641E+00
+   2.000000E+02   3.374637E+00

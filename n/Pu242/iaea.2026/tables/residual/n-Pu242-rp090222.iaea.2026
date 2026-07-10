@@ -1,0 +1,37 @@
+# header: 
+#   title: Pu242(n,x)Th222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 242
+#   nuclide: Pu242
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 222
+#     nuclide: Th222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.046527E-08
+   1.200000E+02   4.991160E-05
+   1.300000E+02   6.471336E-03
+   1.400000E+02   4.392155E-02
+   1.500000E+02   2.473785E-01
+   1.600000E+02   1.069456E-01
+   1.800000E+02   9.378324E-01
+   2.000000E+02   2.672936E-01

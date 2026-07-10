@@ -1,0 +1,37 @@
+# header: 
+#   title: Co60(n,x)Ar39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.023831E-09
+   1.200000E+02   1.975979E-06
+   1.300000E+02   6.041467E-05
+   1.400000E+02   9.674874E-04
+   1.500000E+02   4.884662E-03
+   1.600000E+02   1.721330E-02
+   1.800000E+02   9.892151E-02
+   2.000000E+02   4.258300E-01

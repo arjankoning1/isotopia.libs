@@ -1,0 +1,37 @@
+# header: 
+#   title: Se78(n,a)Ge75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ivanenko
+#   year: 1969
+#   subentry: 40227006
+#   X4 reaction: 34-SE-78(N,A)32-GE-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40227006
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   3.800000E+01   1.600000E+01   1.000000E+00
+# reference:
+#   author: V.V.Ivanenko, K.A.Petrzhak
+#   title: Cross-sections and mechanism of (n,p) reactions of selenium isotopes at the neutron energy 14.7 MeV .
+#   journal: Jour: Yadernaya Fizika, Vol.9, p.258 (1969)

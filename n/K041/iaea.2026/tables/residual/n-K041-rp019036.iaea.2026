@@ -1,0 +1,43 @@
+# header: 
+#   title: K41(n,x)K36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 36
+#     nuclide: K36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.406182E-08
+   7.000000E+01   1.421701E-06
+   7.500000E+01   1.209040E-05
+   8.000000E+01   3.905485E-05
+   9.000000E+01   1.237315E-04
+   1.000000E+02   1.987542E-04
+   1.100000E+02   2.482404E-04
+   1.200000E+02   2.744181E-04
+   1.300000E+02   2.848306E-04
+   1.400000E+02   2.850839E-04
+   1.500000E+02   2.829095E-04
+   1.600000E+02   2.819089E-04
+   1.800000E+02   2.605615E-04
+   2.000000E+02   2.490240E-04

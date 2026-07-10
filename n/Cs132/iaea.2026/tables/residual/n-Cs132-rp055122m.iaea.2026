@@ -1,0 +1,40 @@
+# header: 
+#   title: Cs132(n,x)Cs122m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.066282E-07
+   1.100000E+02   6.182505E-05
+   1.200000E+02   1.155036E-03
+   1.300000E+02   4.387799E-03
+   1.400000E+02   8.103687E-03
+   1.500000E+02   1.171356E-02
+   1.600000E+02   1.582792E-02
+   1.800000E+02   2.036763E-02
+   2.000000E+02   3.131919E-02

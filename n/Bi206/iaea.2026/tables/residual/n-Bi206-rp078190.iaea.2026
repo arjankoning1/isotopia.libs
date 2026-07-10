@@ -1,0 +1,39 @@
+# header: 
+#   title: Bi206(n,x)Pt190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 190
+#     nuclide: Pt190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.008147E-07
+   1.000000E+02   3.525115E-04
+   1.100000E+02   1.695841E-02
+   1.200000E+02   1.064289E-01
+   1.300000E+02   1.839410E-01
+   1.400000E+02   1.737318E-01
+   1.500000E+02   1.842555E-01
+   1.600000E+02   2.396972E-01
+   1.800000E+02   2.093766E-01
+   2.000000E+02   1.370412E-01

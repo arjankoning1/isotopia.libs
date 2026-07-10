@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd107(n,x)Nb94m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.966048E-13
+   6.500000E+01   3.197473E-08
+   7.000000E+01   4.206337E-05
+   7.500000E+01   1.487320E-03
+   8.000000E+01   7.824630E-03
+   9.000000E+01   9.765305E-02
+   1.000000E+02   2.949325E-01
+   1.100000E+02   7.608384E-01
+   1.200000E+02   1.267136E+00
+   1.300000E+02   1.812280E+00
+   1.400000E+02   2.821773E+00
+   1.500000E+02   3.496092E+00
+   1.600000E+02   3.886434E+00
+   1.800000E+02   3.704204E+00
+   2.000000E+02   2.960500E+00

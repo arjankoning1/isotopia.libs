@@ -1,0 +1,37 @@
+# header: 
+#   title: La139(n,a)Cs136 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Agrawal
+#   year: 2008
+#   subentry: 23031005
+#   X4 reaction: 57-LA-139(N,A)55-CS-136,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23031005
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 55
+#     A: 136
+#     nuclide: Cs136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   2.570000E+00   1.200000E-01   1.000000E+00
+# reference:
+#   author: H.M.Agrawal, Kailash Pandey, K.Surendra Babu, Ashok Kumar, R.Pepelnik
+#   title: Neutron activation cross-sections at (14.6+-0.3) MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1713 (2008)

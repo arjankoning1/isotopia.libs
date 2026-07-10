@@ -1,0 +1,40 @@
+# header: 
+#   title: Au199(n,x)Re184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.663386E-09
+   9.000000E+01   1.668893E-04
+   1.000000E+02   1.605210E-02
+   1.100000E+02   7.347169E-02
+   1.200000E+02   1.082254E-01
+   1.300000E+02   1.676021E-01
+   1.400000E+02   3.052820E-01
+   1.500000E+02   4.233658E-01
+   1.600000E+02   5.098934E-01
+   1.800000E+02   3.158898E-01
+   2.000000E+02   2.642514E-01

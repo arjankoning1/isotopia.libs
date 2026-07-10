@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo94(n,x)Rb82m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.757025E-10
+   7.000000E+01   5.096953E-07
+   7.500000E+01   2.646424E-05
+   8.000000E+01   4.384241E-04
+   9.000000E+01   5.208926E-02
+   1.000000E+02   5.201849E-01
+   1.100000E+02   1.392316E+00
+   1.200000E+02   2.435366E+00
+   1.300000E+02   4.679055E+00
+   1.400000E+02   6.961225E+00
+   1.500000E+02   8.682700E+00
+   1.600000E+02   9.528060E+00
+   1.800000E+02   1.035709E+01
+   2.000000E+02   8.900631E+00

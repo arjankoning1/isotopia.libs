@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm240(n,x)Ac222g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.394269E-11
+   1.000000E+02   1.730067E-09
+   1.100000E+02   4.764084E-08
+   1.200000E+02   2.999582E-07
+   1.300000E+02   6.673995E-07
+   1.400000E+02   1.671526E-06
+   1.500000E+02   2.511901E-06
+   1.600000E+02   4.330424E-06
+   1.800000E+02   5.149702E-06
+   2.000000E+02   5.102287E-06

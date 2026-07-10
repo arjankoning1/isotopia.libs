@@ -1,0 +1,39 @@
+# header: 
+#   title: Gd149(n,x)Pr133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 149
+#   nuclide: Gd149
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 133
+#     nuclide: Pr133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.332322E-12
+   1.000000E+02   2.140996E-06
+   1.100000E+02   2.174728E-03
+   1.200000E+02   8.380322E-02
+   1.300000E+02   7.841094E-01
+   1.400000E+02   2.525274E+00
+   1.500000E+02   5.542982E+00
+   1.600000E+02   9.793892E+00
+   1.800000E+02   2.467435E+01
+   2.000000E+02   3.079945E+01

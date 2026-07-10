@@ -1,0 +1,39 @@
+# header: 
+#   title: Ac225(n,x)Rn209 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 209
+#     nuclide: Rn209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.537655E-11
+   1.000000E+02   3.927229E-06
+   1.100000E+02   2.150584E-03
+   1.200000E+02   3.413940E-02
+   1.300000E+02   1.485251E-01
+   1.400000E+02   2.847063E-01
+   1.500000E+02   3.053382E-01
+   1.600000E+02   5.251719E-01
+   1.800000E+02   9.770512E-01
+   2.000000E+02   1.026879E+00

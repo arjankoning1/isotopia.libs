@@ -1,0 +1,37 @@
+# header: 
+#   title: Pd110(n,2n)Pd109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pasha
+#   year: 2020
+#   subentry: 33146002
+#   X4 reaction: 46-PD-110(N,2N)46-PD-109,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33146002
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.454000E+01   4.800000E-01   1.936759E+03   4.433455E+02   1.016458E+00
+# reference:
+#   author: I.Pasha, B.Rudraswamy, S.V.Suryanarayana, H.Naik, S.P.Ram, L.S.Danu, T.Patel, S.Bishnoi, M.P.Karantha
+#   title: Measurement of neutron induced reaction cross sections of palladium isotopes at the neutron energy of 14.54 +/- 0.24 MeV with covariance analysis
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.325, p.175 (

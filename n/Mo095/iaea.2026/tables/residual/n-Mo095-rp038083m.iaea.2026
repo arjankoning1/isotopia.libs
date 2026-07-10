@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo95(n,x)Sr83m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.983206E-13
+   7.000000E+01   4.050732E-08
+   7.500000E+01   2.556082E-05
+   8.000000E+01   1.375243E-03
+   9.000000E+01   5.897563E-02
+   1.000000E+02   2.753997E-01
+   1.100000E+02   5.388133E-01
+   1.200000E+02   9.696382E-01
+   1.300000E+02   1.784930E+00
+   1.400000E+02   2.566923E+00
+   1.500000E+02   3.358675E+00
+   1.600000E+02   4.296402E+00
+   1.800000E+02   5.753227E+00
+   2.000000E+02   5.284017E+00

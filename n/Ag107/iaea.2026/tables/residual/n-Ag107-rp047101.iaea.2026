@@ -1,0 +1,45 @@
+# header: 
+#   title: Ag107(n,x)Ag101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman+JEFF
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.127628E-08
+   6.000000E+01   1.807715E-06
+   6.500000E+01   3.823594E-04
+   7.000000E+01   3.684162E-03
+   7.500000E+01   1.209631E-02
+   8.000000E+01   2.498196E-02
+   9.000000E+01   6.514383E-02
+   1.000000E+02   1.126927E-01
+   1.100000E+02   1.615004E-01
+   1.200000E+02   2.087919E-01
+   1.300000E+02   2.456219E-01
+   1.400000E+02   2.684280E-01
+   1.500000E+02   2.979264E-01
+   1.600000E+02   3.172446E-01
+   1.800000E+02   3.490866E-01
+   2.000000E+02   3.901125E-01

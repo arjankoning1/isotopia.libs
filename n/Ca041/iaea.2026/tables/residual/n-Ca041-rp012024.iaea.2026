@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca41(n,x)Mg24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   3.239037E-11
+   6.000000E+01   2.075528E-09
+   6.500000E+01   1.298901E-06
+   7.000000E+01   5.056522E-05
+   7.500000E+01   4.560009E-04
+   8.000000E+01   1.756370E-03
+   9.000000E+01   7.054019E-03
+   1.000000E+02   1.284874E-02
+   1.100000E+02   2.357272E-02
+   1.200000E+02   7.179222E-02
+   1.300000E+02   2.144449E-01
+   1.400000E+02   5.415996E-01
+   1.500000E+02   1.357881E+00
+   1.600000E+02   2.941920E+00
+   1.800000E+02   7.931109E+00
+   2.000000E+02   1.276875E+01

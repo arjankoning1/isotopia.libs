@@ -1,0 +1,39 @@
+# header: 
+#   title: In113(n,x)Y92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.495187E-11
+   1.000000E+02   1.375370E-08
+   1.100000E+02   2.214549E-07
+   1.200000E+02   1.867178E-05
+   1.300000E+02   2.803670E-03
+   1.400000E+02   5.081099E-02
+   1.500000E+02   2.144761E-01
+   1.600000E+02   3.108085E-01
+   1.800000E+02   1.400904E+00
+   2.000000E+02   3.495822E+00

@@ -1,0 +1,37 @@
+# header: 
+#   title: Mo98(n,a)Zr95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lu
+#   year: 1970
+#   subentry: 10145028
+#   X4 reaction: 42-MO-98(N,A)40-ZR-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10145028
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 40
+#     A: 95
+#     nuclide: Zr95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   6.000000E-01   8.901400E+00   9.652300E-01   1.098937E+00
+# reference:
+#   author: W.D.Lu, N.RanaKumar, R.W.Fink
+#   title: Activation Cross Sections for (n,p), ((n,np)+(n,pn)+  (n,d)), and (n,alpha) Reactions in the Region of Z=40  to 58 at 14.4 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.358 (1970)

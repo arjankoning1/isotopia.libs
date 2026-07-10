@@ -1,0 +1,44 @@
+# header: 
+#   title: Ac226(n,x)Pb207m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 226
+#   nuclide: Ac226
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.000243E-13
+   7.500000E+01   4.954055E-11
+   8.000000E+01   1.702545E-07
+   9.000000E+01   4.317073E-05
+   1.000000E+02   7.711585E-04
+   1.100000E+02   4.720857E-03
+   1.200000E+02   1.039424E-02
+   1.300000E+02   1.552038E-02
+   1.400000E+02   2.472425E-02
+   1.500000E+02   3.418088E-02
+   1.600000E+02   3.584781E-02
+   1.800000E+02   2.526524E-02
+   2.000000E+02   2.051131E-02

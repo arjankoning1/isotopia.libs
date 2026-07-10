@@ -1,0 +1,41 @@
+# header: 
+#   title: Pm148(n,x)Cs130g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.497547E-09
+   1.000000E+02   2.673532E-05
+   1.100000E+02   9.749953E-04
+   1.200000E+02   5.384822E-03
+   1.300000E+02   1.225076E-02
+   1.400000E+02   2.965861E-02
+   1.500000E+02   6.672581E-02
+   1.600000E+02   1.039501E-01
+   1.800000E+02   1.652894E-01
+   2.000000E+02   1.783679E-01

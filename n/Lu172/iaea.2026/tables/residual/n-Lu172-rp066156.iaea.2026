@@ -1,0 +1,40 @@
+# header: 
+#   title: Lu172(n,x)Dy156 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 172
+#   nuclide: Lu172
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 156
+#     nuclide: Dy156
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.328644E-12
+   9.000000E+01   1.008515E-06
+   1.000000E+02   8.009347E-04
+   1.100000E+02   4.280960E-02
+   1.200000E+02   1.842920E-01
+   1.300000E+02   2.778150E-01
+   1.400000E+02   4.919803E-01
+   1.500000E+02   1.041810E+00
+   1.600000E+02   1.392671E+00
+   1.800000E+02   2.131853E+00
+   2.000000E+02   1.327783E+00

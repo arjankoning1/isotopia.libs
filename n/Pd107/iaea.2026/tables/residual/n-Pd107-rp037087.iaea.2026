@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd107(n,x)Rb87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 87
+#     nuclide: Rb87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.757836E-10
+   1.000000E+02   3.780566E-07
+   1.100000E+02   9.444541E-05
+   1.200000E+02   2.306117E-03
+   1.300000E+02   1.195270E-02
+   1.400000E+02   2.695884E-02
+   1.500000E+02   5.661526E-02
+   1.600000E+02   1.044363E-01
+   1.800000E+02   2.131394E-01
+   2.000000E+02   4.629955E-01

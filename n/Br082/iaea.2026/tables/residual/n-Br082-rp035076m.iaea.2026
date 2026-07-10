@@ -1,0 +1,47 @@
+# header: 
+#   title: Br82(n,x)Br76m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.697732E-07
+   6.000000E+01   1.543791E-04
+   6.500000E+01   1.340270E-01
+   7.000000E+01   1.810774E+00
+   7.500000E+01   5.451413E+00
+   8.000000E+01   8.529861E+00
+   9.000000E+01   1.046384E+01
+   1.000000E+02   1.112538E+01
+   1.100000E+02   1.006453E+01
+   1.200000E+02   8.898582E+00
+   1.300000E+02   8.024399E+00
+   1.400000E+02   7.463700E+00
+   1.500000E+02   7.028039E+00
+   1.600000E+02   6.670483E+00
+   1.800000E+02   6.139879E+00
+   2.000000E+02   6.041405E+00

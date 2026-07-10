@@ -1,0 +1,41 @@
+# header: 
+#   title: Rb85(n,x)Kr77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.100068E-06
+   8.000000E+01   5.061754E-03
+   9.000000E+01   8.027996E-01
+   1.000000E+02   2.882932E+00
+   1.100000E+02   4.031989E+00
+   1.200000E+02   4.430079E+00
+   1.300000E+02   5.066737E+00
+   1.400000E+02   5.293769E+00
+   1.500000E+02   5.556103E+00
+   1.600000E+02   5.704515E+00
+   1.800000E+02   5.560691E+00
+   2.000000E+02   5.335252E+00

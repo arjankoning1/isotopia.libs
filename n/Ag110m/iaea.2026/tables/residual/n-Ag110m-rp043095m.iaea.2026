@@ -1,0 +1,41 @@
+# header: 
+#   title: Ag110m(n,x)Tc95m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.348965E-07
+   1.000000E+02   1.918619E-04
+   1.100000E+02   9.529878E-03
+   1.200000E+02   5.781332E-02
+   1.300000E+02   1.405405E-01
+   1.400000E+02   3.098794E-01
+   1.500000E+02   7.176008E-01
+   1.600000E+02   1.338968E+00
+   1.800000E+02   2.934087E+00
+   2.000000E+02   4.424610E+00

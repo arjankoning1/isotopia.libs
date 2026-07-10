@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe54(n,x)Cl36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 36
+#     nuclide: Cl36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.613920E-10
+   8.000000E+01   2.778313E-08
+   9.000000E+01   1.702852E-05
+   1.000000E+02   1.868418E-03
+   1.100000E+02   1.688170E-02
+   1.200000E+02   5.600571E-02
+   1.300000E+02   1.057957E-01
+   1.400000E+02   2.319886E-01
+   1.500000E+02   4.386479E-01
+   1.600000E+02   6.994482E-01
+   1.800000E+02   1.572364E+00
+   2.000000E+02   3.580747E+00

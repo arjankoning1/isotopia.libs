@@ -1,0 +1,40 @@
+# header: 
+#   title: Fm257(n,x)Pu237m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 257
+#   nuclide: Fm257
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.849594E-10
+   1.100000E+02   4.371849E-08
+   1.200000E+02   5.320203E-07
+   1.300000E+02   3.641916E-07
+   1.400000E+02   2.438005E-07
+   1.500000E+02   2.724090E-07
+   1.600000E+02   1.842605E-07
+   1.800000E+02   2.071553E-07
+   2.000000E+02   2.917030E-07

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne21(n,x)B15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 15
+#     nuclide: B15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.744401E-12
+   6.500000E+01   9.781957E-09
+   7.000000E+01   2.124082E-07
+   7.500000E+01   9.925182E-07
+   8.000000E+01   2.424458E-06
+   9.000000E+01   6.137302E-06
+   1.000000E+02   1.159166E-05
+   1.100000E+02   2.160873E-05
+   1.200000E+02   3.385347E-05
+   1.300000E+02   4.366189E-05
+   1.400000E+02   3.242973E-05
+   1.500000E+02   3.128672E-05
+   1.600000E+02   2.949666E-05
+   1.800000E+02   2.431230E-05
+   2.000000E+02   1.971106E-05

@@ -1,0 +1,33 @@
+# header: 
+#   title: Fe56(n,xp) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brown
+#   year: 1957
+#   subentry: 21375012
+#   X4 reaction: 26-FE-56(N,X)1-H-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21375012
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,xp)
+#   ENDF_MF: 3
+#   ENDF_MT: 203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   2.000000E-01   1.200000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: G.Brown,G.C.Morrison,H.Muirhead,W.T.Morton
+#   title: -A study of protons emitted from aluminium,  iron and rhodium on bombardment with neutrons  of 13.2 MeV -.
+#   journal: Jour: Philosophical Magazine, Vol.2, p.785 (1957)

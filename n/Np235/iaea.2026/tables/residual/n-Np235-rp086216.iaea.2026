@@ -1,0 +1,40 @@
+# header: 
+#   title: Np235(n,x)Rn216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 216
+#     nuclide: Rn216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.665240E-12
+   9.000000E+01   2.854210E-09
+   1.000000E+02   6.704649E-07
+   1.100000E+02   1.299543E-05
+   1.200000E+02   9.901961E-05
+   1.300000E+02   1.871560E-04
+   1.400000E+02   1.397349E-04
+   1.500000E+02   1.945711E-04
+   1.600000E+02   1.517015E-04
+   1.800000E+02   1.222255E-04
+   2.000000E+02   7.804070E-05

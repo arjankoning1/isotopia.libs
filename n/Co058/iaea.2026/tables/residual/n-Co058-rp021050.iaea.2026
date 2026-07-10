@@ -1,0 +1,45 @@
+# header: 
+#   title: Co58(n,x)Sc50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   4.661253E-11
+   6.000000E+01   2.124720E-09
+   6.500000E+01   7.808957E-07
+   7.000000E+01   1.435268E-05
+   7.500000E+01   7.371775E-05
+   8.000000E+01   2.028075E-04
+   9.000000E+01   8.958777E-04
+   1.000000E+02   2.086528E-03
+   1.100000E+02   3.117121E-03
+   1.200000E+02   2.311957E-03
+   1.300000E+02   2.431506E-03
+   1.400000E+02   2.122877E-03
+   1.500000E+02   1.939298E-03
+   1.600000E+02   1.544394E-03
+   1.800000E+02   9.018519E-04
+   2.000000E+02   6.131083E-04

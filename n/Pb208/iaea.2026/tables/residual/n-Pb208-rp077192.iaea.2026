@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb208(n,x)Ir192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 192
+#     nuclide: Ir192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.218268E-09
+   1.000000E+02   6.827860E-05
+   1.100000E+02   1.829732E-02
+   1.200000E+02   2.659078E-01
+   1.300000E+02   6.726985E-01
+   1.400000E+02   1.488680E+00
+   1.500000E+02   2.806229E+00
+   1.600000E+02   3.947492E+00
+   1.800000E+02   9.378881E+00
+   2.000000E+02   8.970797E+00

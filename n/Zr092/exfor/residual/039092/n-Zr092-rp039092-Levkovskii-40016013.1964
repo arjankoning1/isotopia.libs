@@ -1,0 +1,37 @@
+# header: 
+#   title: Zr92(n,x)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1964
+#   subentry: 40016013
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40016013
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   2.500000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii
+#   title: Empirical behavior of the (n,p) reaction cross-  sections for 14 - 15 MeV neutrons
+#   journal: Jour: Journal of Experimental and Theoretical Physics, Vol.18, p.213 (19

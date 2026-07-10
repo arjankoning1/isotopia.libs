@@ -1,0 +1,42 @@
+# header: 
+#   title: Cu63(n,x)Sc45g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.259015E-11
+   9.000000E+01   3.211380E-06
+   1.000000E+02   1.272332E-04
+   1.100000E+02   1.523654E-03
+   1.200000E+02   5.481287E-03
+   1.300000E+02   1.479866E-02
+   1.400000E+02   5.394868E-02
+   1.500000E+02   1.277923E-01
+   1.600000E+02   2.676257E-01
+   1.800000E+02   1.319923E+00
+   2.000000E+02   3.626481E+00

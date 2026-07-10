@@ -1,0 +1,44 @@
+# header: 
+#   title: Yb175(n,x)Yb167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 175
+#   nuclide: Yb175
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 167
+#     nuclide: Yb167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.504400E-07
+   6.500000E+01   1.627899E-01
+   7.000000E+01   9.241602E+00
+   7.500000E+01   5.404691E+01
+   8.000000E+01   1.173949E+02
+   9.000000E+01   1.343988E+02
+   1.000000E+02   8.320684E+01
+   1.100000E+02   6.426089E+01
+   1.200000E+02   5.592965E+01
+   1.300000E+02   5.207386E+01
+   1.400000E+02   5.020860E+01
+   1.500000E+02   4.539253E+01
+   1.600000E+02   4.437914E+01
+   1.800000E+02   4.188373E+01
+   2.000000E+02   3.140688E+01

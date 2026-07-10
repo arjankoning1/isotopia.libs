@@ -1,0 +1,42 @@
+# header: 
+#   title: Pb202(n,x)Hg191 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 191
+#     nuclide: Hg191
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.829807E-09
+   7.500000E+01   1.561857E-05
+   8.000000E+01   6.652194E-03
+   9.000000E+01   2.693298E+00
+   1.000000E+02   1.488200E+01
+   1.100000E+02   1.690627E+01
+   1.200000E+02   1.978317E+01
+   1.300000E+02   3.775547E+01
+   1.400000E+02   5.227774E+01
+   1.500000E+02   6.171788E+01
+   1.600000E+02   4.878122E+01
+   1.800000E+02   5.669455E+01
+   2.000000E+02   3.384349E+01

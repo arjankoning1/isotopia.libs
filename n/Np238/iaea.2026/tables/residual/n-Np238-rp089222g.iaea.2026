@@ -1,0 +1,42 @@
+# header: 
+#   title: Np238(n,x)Ac222g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.086933E-11
+   9.000000E+01   3.840101E-07
+   1.000000E+02   4.526043E-06
+   1.100000E+02   1.411932E-05
+   1.200000E+02   5.733396E-05
+   1.300000E+02   1.475054E-04
+   1.400000E+02   2.557511E-04
+   1.500000E+02   6.778816E-04
+   1.600000E+02   8.777772E-04
+   1.800000E+02   9.679366E-04
+   2.000000E+02   2.849590E-03

@@ -1,0 +1,48 @@
+# header: 
+#   title: Tc99(n,x)Nb90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.263241E-11
+   5.800000E+01   1.033995E-08
+   6.000000E+01   1.153982E-06
+   6.500000E+01   1.505648E-03
+   7.000000E+01   4.751400E-02
+   7.500000E+01   2.975232E-01
+   8.000000E+01   8.752100E-01
+   9.000000E+01   2.473231E+00
+   1.000000E+02   3.730066E+00
+   1.100000E+02   4.505968E+00
+   1.200000E+02   5.296494E+00
+   1.300000E+02   5.431670E+00
+   1.400000E+02   6.350316E+00
+   1.500000E+02   5.821602E+00
+   1.600000E+02   6.283236E+00
+   1.800000E+02   5.647175E+00
+   2.000000E+02   5.826343E+00

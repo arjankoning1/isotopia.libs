@@ -1,0 +1,45 @@
+# header: 
+#   title: Fm252(n,x)Am240 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   7.807604E-13
+   6.000000E+01   2.943597E-12
+   6.500000E+01   3.138119E-11
+   7.000000E+01   3.437817E-10
+   7.500000E+01   1.357523E-09
+   8.000000E+01   3.306212E-09
+   9.000000E+01   2.359505E-08
+   1.000000E+02   1.503706E-07
+   1.100000E+02   5.866870E-07
+   1.200000E+02   1.177871E-06
+   1.300000E+02   1.478643E-06
+   1.400000E+02   1.828022E-06
+   1.500000E+02   2.321806E-06
+   1.600000E+02   2.581733E-06
+   1.800000E+02   5.010236E-07
+   2.000000E+02   1.441721E-08

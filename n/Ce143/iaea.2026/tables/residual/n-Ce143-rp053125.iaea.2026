@@ -1,0 +1,37 @@
+# header: 
+#   title: Ce143(n,x)I125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 143
+#   nuclide: Ce143
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 125
+#     nuclide: I125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.254898E-07
+   1.200000E+02   3.050597E-04
+   1.300000E+02   1.263730E-02
+   1.400000E+02   1.107712E-01
+   1.500000E+02   3.820091E-01
+   1.600000E+02   7.604449E-01
+   1.800000E+02   2.292705E+00
+   2.000000E+02   4.143071E+00

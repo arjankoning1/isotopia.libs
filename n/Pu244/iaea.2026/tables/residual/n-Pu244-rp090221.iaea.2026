@@ -1,0 +1,35 @@
+# header: 
+#   title: Pu244(n,x)Th221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 221
+#     nuclide: Th221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.269453E-10
+   1.400000E+02   2.257364E-06
+   1.500000E+02   6.231803E-04
+   1.600000E+02   1.125156E-02
+   1.800000E+02   2.111015E-01
+   2.000000E+02   4.525971E-01

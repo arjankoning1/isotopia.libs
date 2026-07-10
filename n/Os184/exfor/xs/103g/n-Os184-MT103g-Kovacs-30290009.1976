@@ -1,0 +1,42 @@
+# header: 
+#   title: Os184(n,p)Re184g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kovacs
+#   year: 1976
+#   subentry: 30290009
+#   X4 reaction: 76-OS-184(N,P)75-RE-184-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30290009
+# target: 
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   2.881944E+02   2.452535E+01   1.152778E+00
+# reference:
+#   author: P.Kovacs,I.Uray
+#   title: Activation cross-sections of osmium isotopes with fast neutrons
+#   journal: Prog: I.N.D.C. Secretariat Report Series, No.60, p.108 (1976)

@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb119(n,x)Pd105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 119
+#   nuclide: Sb119
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 105
+#     nuclide: Pd105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.353041E-09
+   8.000000E+01   1.349524E-06
+   9.000000E+01   1.215339E-03
+   1.000000E+02   3.181893E-02
+   1.100000E+02   3.580458E-01
+   1.200000E+02   1.046888E+00
+   1.300000E+02   1.972502E+00
+   1.400000E+02   2.943620E+00
+   1.500000E+02   4.644097E+00
+   1.600000E+02   4.831551E+00
+   1.800000E+02   6.440065E+00
+   2.000000E+02   4.323304E+00

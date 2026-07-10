@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe130(n,x)Xe122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 122
+#     nuclide: Xe122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.550915E-05
+   8.000000E+01   5.465639E-02
+   9.000000E+01   2.291901E+01
+   1.000000E+02   1.777580E+02
+   1.100000E+02   2.821574E+02
+   1.200000E+02   1.769532E+02
+   1.300000E+02   6.794988E+01
+   1.400000E+02   2.153918E+01
+   1.500000E+02   6.232210E+00
+   1.600000E+02   2.026284E+00
+   1.800000E+02   2.473709E-01
+   2.000000E+02   4.904027E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Gd147(n,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 147
+#   nuclide: Gd147
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.896312E-12
+   7.500000E+01   6.565232E-10
+   8.000000E+01   5.533720E-08
+   9.000000E+01   7.701676E-06
+   1.000000E+02   7.182530E-05
+   1.100000E+02   2.130507E-04
+   1.200000E+02   5.685202E-04
+   1.300000E+02   2.339853E-03
+   1.400000E+02   4.799415E-03
+   1.500000E+02   8.347549E-03
+   1.600000E+02   1.592218E-02
+   1.800000E+02   2.290791E-02
+   2.000000E+02   7.271886E-02

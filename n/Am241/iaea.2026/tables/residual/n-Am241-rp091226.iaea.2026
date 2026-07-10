@@ -1,0 +1,42 @@
+# header: 
+#   title: Am241(n,x)Pa226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 226
+#     nuclide: Pa226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.275207E-12
+   7.500000E+01   3.860019E-09
+   8.000000E+01   2.487851E-06
+   9.000000E+01   4.359631E-03
+   1.000000E+02   8.388478E-02
+   1.100000E+02   1.740646E-01
+   1.200000E+02   1.955525E-01
+   1.300000E+02   2.314629E-01
+   1.400000E+02   4.027506E-01
+   1.500000E+02   6.037776E-01
+   1.600000E+02   4.390353E-01
+   1.800000E+02   5.076900E-01
+   2.000000E+02   8.132075E-01

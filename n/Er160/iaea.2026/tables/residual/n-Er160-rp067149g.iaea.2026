@@ -1,0 +1,40 @@
+# header: 
+#   title: Er160(n,x)Ho149g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 160
+#   nuclide: Er160
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 149
+#     nuclide: Ho149g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.565191E-05
+   1.100000E+02   6.623876E-03
+   1.200000E+02   1.300382E-01
+   1.300000E+02   9.097502E-01
+   1.400000E+02   2.459920E+00
+   1.500000E+02   4.153060E+00
+   1.600000E+02   5.263120E+00
+   1.800000E+02   7.441632E+00
+   2.000000E+02   8.479230E+00

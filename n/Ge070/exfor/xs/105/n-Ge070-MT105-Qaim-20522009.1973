@@ -1,0 +1,37 @@
+# header: 
+#   title: Ge70(n,t)Ga68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1973
+#   subentry: 20522009
+#   X4 reaction: 32-GE-70(N,T)31-GA-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20522009
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   6.000000E-01   3.600000E-02   1.000000E-02   1.000000E+00
+# reference:
+#   author: S.M.Qaim, G.L.Stoecklin
+#   title: A systematic investigation of (n,t) reactions at 14  to 15 MeV on medium and heavy mass nuclei
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.35, p.19 (1973)

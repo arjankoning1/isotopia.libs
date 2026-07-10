@@ -1,0 +1,41 @@
+# header: 
+#   title: Y87(n,x)As72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 72
+#     nuclide: As72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.727722E-09
+   8.000000E+01   8.235797E-07
+   9.000000E+01   1.134561E-03
+   1.000000E+02   1.807233E-02
+   1.100000E+02   5.576462E-02
+   1.200000E+02   1.269766E-01
+   1.300000E+02   4.505308E-01
+   1.400000E+02   1.197640E+00
+   1.500000E+02   2.281457E+00
+   1.600000E+02   3.580526E+00
+   1.800000E+02   8.389228E+00
+   2.000000E+02   1.338679E+01

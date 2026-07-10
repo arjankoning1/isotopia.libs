@@ -1,0 +1,42 @@
+# header: 
+#   title: Kr80(n,x)Se71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 80
+#   nuclide: Kr80
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 71
+#     nuclide: Se71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.302880E-07
+   7.500000E+01   1.292695E-04
+   8.000000E+01   4.073647E-03
+   9.000000E+01   8.532733E-02
+   1.000000E+02   2.965768E-01
+   1.100000E+02   5.425700E-01
+   1.200000E+02   7.748458E-01
+   1.300000E+02   9.881209E-01
+   1.400000E+02   1.123861E+00
+   1.500000E+02   1.318994E+00
+   1.600000E+02   1.192075E+00
+   1.800000E+02   1.315269E+00
+   2.000000E+02   1.277570E+00

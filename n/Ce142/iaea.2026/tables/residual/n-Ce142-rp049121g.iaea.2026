@@ -1,0 +1,40 @@
+# header: 
+#   title: Ce142(n,x)In121g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 142
+#   nuclide: Ce142
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 121
+#     nuclide: In121g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.088842E-09
+   1.100000E+02   5.162423E-06
+   1.200000E+02   7.003926E-04
+   1.300000E+02   1.475298E-02
+   1.400000E+02   8.257962E-02
+   1.500000E+02   1.933677E-01
+   1.600000E+02   3.361859E-01
+   1.800000E+02   8.716448E-01
+   2.000000E+02   1.271870E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ga71(n,p)Zn71m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Demechelis
+#   year: 1968
+#   subentry: 21291006
+#   X4 reaction: 31-GA-71(N,P)30-ZN-71-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21291006
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 30
+#     A: 71
+#     nuclide: Zn71m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   2.000000E-01   1.215579E+01   4.001400E+00   1.012982E+00
+# reference:
+#   author: F.DEMECHELIS,M.GUIDETTI,E.MIRALDI,C.OLDANO
+#   title: -ISOMERIC CROSS SECTION RATIOS FOR REACTIONS PRODUCING  THE ISOMERIC PAIRS ZN-69 AND ZN-69(METASTABLE),  ZN-71 AND ZN-71(METASTABLE).
+#   journal: Jour: Nuovo Cimento B, Vol.58, Issue.1, p.177 (1968)

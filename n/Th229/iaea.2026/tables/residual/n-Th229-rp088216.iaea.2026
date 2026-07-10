@@ -1,0 +1,43 @@
+# header: 
+#   title: Th229(n,x)Ra216 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 216
+#     nuclide: Ra216
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.177494E-10
+   7.000000E+01   2.061162E-05
+   7.500000E+01   5.749897E-03
+   8.000000E+01   1.295194E-01
+   9.000000E+01   2.338935E+00
+   1.000000E+02   9.537654E+00
+   1.100000E+02   1.355403E+01
+   1.200000E+02   1.127819E+01
+   1.300000E+02   1.308478E+01
+   1.400000E+02   1.550652E+01
+   1.500000E+02   1.704014E+01
+   1.600000E+02   1.777307E+01
+   1.800000E+02   1.592081E+01
+   2.000000E+02   1.708423E+01

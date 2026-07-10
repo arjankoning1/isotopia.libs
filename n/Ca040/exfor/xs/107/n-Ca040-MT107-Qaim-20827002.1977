@@ -1,0 +1,37 @@
+# header: 
+#   title: Ca40(n,a)Ar37 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1977
+#   subentry: 20827002
+#   X4 reaction: 20-CA-40(N,A)18-AR-37,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20827002
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   4.000000E-01   1.410000E+02   2.100000E+01   1.000000E+00
+# reference:
+#   author: S.M.QAIM,A.RUSHEED,G.STOECKLIN,R.WOELFLE
+#   title: -AR37 FORMATION FROM CALCIUM IN FISSION REACTORS-.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.28, p.585 (1977)

@@ -1,0 +1,37 @@
+# header: 
+#   title: Ge70(n,x)Ti47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 47
+#     nuclide: Ti47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.451824E-09
+   1.200000E+02   3.536343E-06
+   1.300000E+02   7.940030E-05
+   1.400000E+02   6.148768E-04
+   1.500000E+02   1.523955E-03
+   1.600000E+02   5.418478E-03
+   1.800000E+02   3.577755E-02
+   2.000000E+02   1.928656E-01

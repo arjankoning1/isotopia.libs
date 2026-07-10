@@ -1,0 +1,37 @@
+# header: 
+#   title: Mo94(n,d)Nb93 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Haight
+#   year: 1981
+#   subentry: 10960012
+#   X4 reaction: 42-MO-94(N,D)41-NB-93,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10960012
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   9.000000E+00   3.000000E+00   1.000000E+00
+# reference:
+#   author: R.C.Haight,S.M.Grimes,R.G.Johnson,H.H.Barschall
+#   title: Charged particle emission in reactions of 15-MeV  neutrons with 89Y, 90Zr, and 92,94,95,96Mo.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.700 (1981)

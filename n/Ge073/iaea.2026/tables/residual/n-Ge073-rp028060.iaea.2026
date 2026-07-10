@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge73(n,x)Ni60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.567757E-08
+   7.500000E+01   4.613815E-05
+   8.000000E+01   2.444749E-03
+   9.000000E+01   8.108130E-02
+   1.000000E+02   2.114715E-01
+   1.100000E+02   2.802742E-01
+   1.200000E+02   4.659756E-01
+   1.300000E+02   7.165232E-01
+   1.400000E+02   1.156971E+00
+   1.500000E+02   1.788086E+00
+   1.600000E+02   2.676306E+00
+   1.800000E+02   4.595116E+00
+   2.000000E+02   5.039213E+00

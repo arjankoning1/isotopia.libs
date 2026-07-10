@@ -1,0 +1,39 @@
+# header: 
+#   title: Ag107(n,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman+JEFF
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.389129E-09
+   1.000000E+02   1.612007E-04
+   1.100000E+02   1.384145E-02
+   1.200000E+02   1.312464E-01
+   1.300000E+02   4.241955E-01
+   1.400000E+02   8.463763E-01
+   1.500000E+02   2.018815E+00
+   1.600000E+02   4.213830E+00
+   1.800000E+02   1.135212E+01
+   2.000000E+02   2.048418E+01

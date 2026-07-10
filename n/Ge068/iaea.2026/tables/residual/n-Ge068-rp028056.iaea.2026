@@ -1,0 +1,43 @@
+# header: 
+#   title: Ge68(n,x)Ni56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.580364E-11
+   7.000000E+01   9.203478E-08
+   7.500000E+01   9.057024E-06
+   8.000000E+01   1.581091E-04
+   9.000000E+01   2.645648E-03
+   1.000000E+02   9.007770E-03
+   1.100000E+02   1.455768E-02
+   1.200000E+02   2.272435E-02
+   1.300000E+02   3.575962E-02
+   1.400000E+02   5.766756E-02
+   1.500000E+02   8.067205E-02
+   1.600000E+02   9.589977E-02
+   1.800000E+02   1.071255E-01
+   2.000000E+02   1.822892E-01

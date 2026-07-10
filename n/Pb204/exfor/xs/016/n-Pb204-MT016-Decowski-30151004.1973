@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb204(n,2n)Pb203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Decowski
+#   year: 1973
+#   subentry: 30151004
+#   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30151004
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.298000E+01   1.500000E-01   1.966000E+03   2.420000E+02   1.000000E+00
+   1.356000E+01   1.300000E-01   1.963000E+03   2.370000E+02   1.000000E+00
+   1.418000E+01   1.500000E-01   1.856000E+03   2.240000E+02   1.000000E+00
+   1.503000E+01   2.000000E-01   1.830000E+03   2.200000E+02   1.000000E+00
+   1.541000E+01   2.700000E-01   1.759000E+03   2.110000E+02   1.000000E+00
+   1.598000E+01   1.900000E-01   1.874000E+03   2.440000E+02   1.000000E+00
+   1.659000E+01   9.000000E-02   1.998000E+03   2.460000E+02   1.000000E+00
+   1.737000E+01   2.400000E-01   2.010000E+03   2.620000E+02   1.000000E+00
+   1.783000E+01   1.300000E-01   1.896000E+03   2.360000E+02   1.000000E+00
+# reference:
+#   author: P.Decowski,W.Grochulski,A.Marcinkowski,J.Karolyi, J.Piotrowski,E.Saad,K.Siwek-Wilczynska,I.M.Turkiewicz, Z.Wilhelmi
+#   title: Cross sections for the In-113(n,n')In-113-m, Pb-204(n,n')Pb-204-m,Pb-204(n,2n)Pb-203 reactions in the neutron energy range 13-18 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.204, p.121 (1973)

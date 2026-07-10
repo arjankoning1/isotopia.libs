@@ -1,0 +1,42 @@
+# header: 
+#   title: Lu174m(n,x)Tb156m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 156
+#     nuclide: Tb156m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.849073E-14
+   9.000000E+01   9.260794E-08
+   1.000000E+02   2.472806E-04
+   1.100000E+02   6.189595E-03
+   1.200000E+02   1.497313E-02
+   1.300000E+02   2.048363E-02
+   1.400000E+02   2.968719E-02
+   1.500000E+02   7.158448E-02
+   1.600000E+02   9.767664E-02
+   1.800000E+02   9.220038E-02
+   2.000000E+02   9.191402E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Zr96(n,x)Zr88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.906952E-09
+   7.500000E+01   2.292264E-05
+   8.000000E+01   1.314707E-03
+   9.000000E+01   5.455410E-02
+   1.000000E+02   2.959217E-01
+   1.100000E+02   7.238231E-01
+   1.200000E+02   1.217526E+00
+   1.300000E+02   1.605370E+00
+   1.400000E+02   1.860310E+00
+   1.500000E+02   2.128489E+00
+   1.600000E+02   2.198896E+00
+   1.800000E+02   2.393798E+00
+   2.000000E+02   2.387902E+00

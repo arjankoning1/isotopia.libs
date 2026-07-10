@@ -1,0 +1,40 @@
+# header: 
+#   title: Cf246(n,x)Pa230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 246
+#   nuclide: Cf246
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 230
+#     nuclide: Pa230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.781507E-12
+   9.000000E+01   2.031609E-09
+   1.000000E+02   2.987712E-08
+   1.100000E+02   5.469036E-08
+   1.200000E+02   5.008549E-08
+   1.300000E+02   6.953892E-08
+   1.400000E+02   8.335167E-08
+   1.500000E+02   1.251042E-07
+   1.600000E+02   2.243805E-07
+   1.800000E+02   1.952159E-07
+   2.000000E+02   1.469767E-07

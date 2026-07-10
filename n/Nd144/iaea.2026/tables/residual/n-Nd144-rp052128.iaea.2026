@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd144(n,x)Te128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 128
+#     nuclide: Te128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.326073E-12
+   6.500000E+01   1.093760E-10
+   7.000000E+01   2.778032E-09
+   7.500000E+01   2.528920E-08
+   8.000000E+01   9.627112E-08
+   9.000000E+01   2.652226E-07
+   1.000000E+02   7.984300E-06
+   1.100000E+02   6.684799E-05
+   1.200000E+02   4.425264E-04
+   1.300000E+02   7.055559E-03
+   1.400000E+02   3.640792E-02
+   1.500000E+02   1.080116E-01
+   1.600000E+02   2.504421E-01
+   1.800000E+02   5.929130E-01
+   2.000000E+02   6.077710E-01

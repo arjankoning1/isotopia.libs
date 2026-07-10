@@ -1,0 +1,42 @@
+# header: 
+#   title: Sc45(n,x)Sc44m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tiwari
+#   year: 1966
+#   subentry: 30012002
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30012002
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   1.599304E+02   2.160423E+01   1.052174E+00
+# reference:
+#   author: P.N.Tiwari, E.Kondaiah
+#   title: Measurements of neutron reaction cross sections for isotopes of calcium and scandium at 14 MeV.
+#   journal: Conf: Nuclear and Solid State Physics Symp., Bombay 1966, p.60 (1966)

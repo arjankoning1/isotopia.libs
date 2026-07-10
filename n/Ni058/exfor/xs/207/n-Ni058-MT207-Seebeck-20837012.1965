@@ -1,0 +1,33 @@
+# header: 
+#   title: Ni58(n,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Seebeck
+#   year: 1965
+#   subentry: 20837012
+#   X4 reaction: 28-NI-58(N,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20837012
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   1.550000E+02   1.400000E+01   1.000000E+00
+# reference:
+#   author: U.SEEBECK,M.BORMANN
+#   title: -ENERGY AND ANGULAR DISTRIBUTIONS OF THE ALPHA  PARTICLES FROM 14.1 MEV NEUTRON REACTIONS IN  AL-27 AND NI-58-.
+#   journal: Jour: Nuclear Physics, Vol.68, p.387 (1965)

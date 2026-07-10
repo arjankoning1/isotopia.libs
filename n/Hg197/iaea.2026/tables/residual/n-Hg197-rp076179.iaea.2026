@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg197(n,x)Os179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 197
+#   nuclide: Hg197
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 179
+#     nuclide: Os179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.057058E-09
+   1.200000E+02   1.200135E-04
+   1.300000E+02   1.887355E-02
+   1.400000E+02   1.719670E-01
+   1.500000E+02   4.428458E-01
+   1.600000E+02   1.233744E+00
+   1.800000E+02   6.574448E+00
+   2.000000E+02   1.051124E+01

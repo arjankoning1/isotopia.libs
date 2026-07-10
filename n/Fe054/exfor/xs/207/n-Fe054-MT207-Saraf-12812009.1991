@@ -1,0 +1,34 @@
+# header: 
+#   title: Fe54(n,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Saraf
+#   year: 1991
+#   subentry: 12812009
+#   X4 reaction: 26-FE-54(N,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12812009
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   2.500000E-01   4.920000E+01   8.300000E+00   1.000000E+00
+   1.100000E+01   2.000000E-01   6.310000E+01   1.070000E+01   1.000000E+00
+# reference:
+#   author: S.K.SARAF,C.E.BRENT,P.M.EGUN,S.M.GRIMES,V.MISHRA, R.S.PEDRONI
+#   title: CROSS SECTIONS AND SPECTRA FOR THE 54FE AND 56FE  (N,XP) AND (N,X ALPHA) REACTIONS BETWEEN 8 AND 15 MEV
+#   journal: Jour: Nuclear Science and Engineering, Vol.107, p.365 (1991)

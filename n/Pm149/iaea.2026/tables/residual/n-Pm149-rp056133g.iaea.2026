@@ -1,0 +1,41 @@
+# header: 
+#   title: Pm149(n,x)Ba133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 149
+#   nuclide: Pm149
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.381267E-07
+   1.000000E+02   1.310646E-04
+   1.100000E+02   3.816440E-03
+   1.200000E+02   1.826920E-02
+   1.300000E+02   3.490317E-02
+   1.400000E+02   5.901824E-02
+   1.500000E+02   9.648418E-02
+   1.600000E+02   1.277420E-01
+   1.800000E+02   1.918153E-01
+   2.000000E+02   1.317281E-01

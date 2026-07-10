@@ -1,0 +1,38 @@
+# header: 
+#   title: Ge76(n,x)Cr56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 56
+#     nuclide: Cr56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.429453E-11
+   1.100000E+02   1.042831E-07
+   1.200000E+02   1.880964E-05
+   1.300000E+02   1.949101E-04
+   1.400000E+02   6.329759E-04
+   1.500000E+02   1.548177E-03
+   1.600000E+02   3.503682E-03
+   1.800000E+02   1.617921E-02
+   2.000000E+02   6.029201E-02

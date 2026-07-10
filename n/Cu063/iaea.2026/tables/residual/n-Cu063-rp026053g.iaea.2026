@@ -1,0 +1,44 @@
+# header: 
+#   title: Cu63(n,x)Fe53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.870314E-08
+   7.500000E+01   4.793610E-05
+   8.000000E+01   1.085789E-03
+   9.000000E+01   1.508420E-02
+   1.000000E+02   4.629500E-02
+   1.100000E+02   1.350917E-01
+   1.200000E+02   2.552418E-01
+   1.300000E+02   4.522641E-01
+   1.400000E+02   7.655762E-01
+   1.500000E+02   1.141547E+00
+   1.600000E+02   1.551741E+00
+   1.800000E+02   1.806033E+00
+   2.000000E+02   1.846129E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Co58(n,x)Co53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.059697E-11
+   6.500000E+01   1.467672E-06
+   7.000000E+01   2.861727E-05
+   7.500000E+01   1.223113E-04
+   8.000000E+01   2.749161E-04
+   9.000000E+01   5.765302E-04
+   1.000000E+02   7.592468E-04
+   1.100000E+02   8.660351E-04
+   1.200000E+02   9.175565E-04
+   1.300000E+02   9.349792E-04
+   1.400000E+02   9.305826E-04
+   1.500000E+02   9.270477E-04
+   1.600000E+02   8.983717E-04
+   1.800000E+02   8.906987E-04
+   2.000000E+02   8.959912E-04

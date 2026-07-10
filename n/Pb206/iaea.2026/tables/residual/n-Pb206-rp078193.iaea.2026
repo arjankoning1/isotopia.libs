@@ -1,0 +1,43 @@
+# header: 
+#   title: Pb206(n,x)Pt193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 193
+#     nuclide: Pt193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.499819E-11
+   7.000000E+01   1.613509E-07
+   7.500000E+01   4.186590E-05
+   8.000000E+01   1.372042E-03
+   9.000000E+01   2.929387E-02
+   1.000000E+02   6.549994E-02
+   1.100000E+02   1.227047E-01
+   1.200000E+02   5.678750E-01
+   1.300000E+02   1.312294E+00
+   1.400000E+02   1.948970E+00
+   1.500000E+02   5.463036E+00
+   1.600000E+02   7.077772E+00
+   1.800000E+02   8.319069E+00
+   2.000000E+02   8.583265E+00

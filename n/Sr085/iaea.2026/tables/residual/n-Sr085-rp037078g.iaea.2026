@@ -1,0 +1,44 @@
+# header: 
+#   title: Sr85(n,x)Rb78g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 78
+#     nuclide: Rb78g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.476952E-06
+   7.500000E+01   4.509271E-04
+   8.000000E+01   6.009069E-03
+   9.000000E+01   9.106263E-02
+   1.000000E+02   4.695590E-01
+   1.100000E+02   1.042388E+00
+   1.200000E+02   1.443117E+00
+   1.300000E+02   1.571752E+00
+   1.400000E+02   1.557968E+00
+   1.500000E+02   1.610743E+00
+   1.600000E+02   1.695057E+00
+   1.800000E+02   1.589718E+00
+   2.000000E+02   1.644694E+00

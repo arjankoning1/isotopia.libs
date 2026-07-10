@@ -1,0 +1,39 @@
+# header: 
+#   title: Fe56(n,x)Cl42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 42
+#     nuclide: Cl42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.295040E-12
+   1.000000E+02   1.426636E-08
+   1.100000E+02   4.754305E-07
+   1.200000E+02   3.816490E-06
+   1.300000E+02   8.364012E-06
+   1.400000E+02   2.173808E-05
+   1.500000E+02   5.678740E-05
+   1.600000E+02   1.139552E-04
+   1.800000E+02   3.360546E-04
+   2.000000E+02   3.895012E-04

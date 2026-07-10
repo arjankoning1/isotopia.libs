@@ -1,0 +1,41 @@
+# header: 
+#   title: Si29(n,x)C11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.773052E-12
+   8.000000E+01   3.704862E-08
+   9.000000E+01   7.162639E-05
+   1.000000E+02   1.131834E-03
+   1.100000E+02   3.850100E-03
+   1.200000E+02   1.418799E-02
+   1.300000E+02   6.507801E-02
+   1.400000E+02   1.827076E-01
+   1.500000E+02   3.740544E-01
+   1.600000E+02   6.978522E-01
+   1.800000E+02   1.958194E+00
+   2.000000E+02   3.408004E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd110(n,x)Tc93g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 93
+#     nuclide: Tc93g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.758007E-09
+   1.200000E+02   5.999382E-06
+   1.300000E+02   5.321912E-04
+   1.400000E+02   1.079977E-02
+   1.500000E+02   7.359227E-02
+   1.600000E+02   2.944164E-01
+   1.800000E+02   1.806185E+00
+   2.000000E+02   6.161326E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Es254(n,x)Cf241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 254
+#   nuclide: Es254
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 241
+#     nuclide: Cf241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.778582E-07
+   1.000000E+02   9.845898E-04
+   1.100000E+02   3.424550E-02
+   1.200000E+02   1.727748E-01
+   1.300000E+02   4.592720E-01
+   1.400000E+02   6.945511E-01
+   1.500000E+02   1.486521E+00
+   1.600000E+02   1.102482E+00
+   1.800000E+02   3.405200E+00
+   2.000000E+02   3.659610E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba136(n,x)Sn121m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.368133E-11
+   7.000000E+01   1.598447E-07
+   7.500000E+01   6.333504E-05
+   8.000000E+01   2.071518E-03
+   9.000000E+01   8.412872E-02
+   1.000000E+02   2.154431E-01
+   1.100000E+02   1.383961E-01
+   1.200000E+02   7.619630E-01
+   1.300000E+02   3.056345E+00
+   1.400000E+02   4.460035E+00
+   1.500000E+02   5.050952E+00
+   1.600000E+02   5.810802E+00
+   1.800000E+02   8.196824E+00
+   2.000000E+02   1.130181E+01

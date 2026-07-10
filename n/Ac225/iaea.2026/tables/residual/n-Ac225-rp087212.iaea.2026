@@ -1,0 +1,42 @@
+# header: 
+#   title: Ac225(n,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.519748E-11
+   7.500000E+01   1.041601E-07
+   8.000000E+01   1.975348E-05
+   9.000000E+01   7.756098E-03
+   1.000000E+02   5.786274E-02
+   1.100000E+02   9.769087E-02
+   1.200000E+02   1.592745E-01
+   1.300000E+02   3.712677E-01
+   1.400000E+02   5.879132E-01
+   1.500000E+02   7.064626E-01
+   1.600000E+02   7.389117E-01
+   1.800000E+02   9.826278E-01
+   2.000000E+02   9.197508E-01

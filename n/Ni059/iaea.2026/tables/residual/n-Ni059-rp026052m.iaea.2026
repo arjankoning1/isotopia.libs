@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni59(n,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.007649E-13
+   5.400000E+01   2.705876E-10
+   5.600000E+01   5.207023E-08
+   5.800000E+01   1.337940E-06
+   6.000000E+01   1.121863E-05
+   6.500000E+01   2.472448E-04
+   7.000000E+01   8.861804E-04
+   7.500000E+01   2.014556E-03
+   8.000000E+01   2.575739E-03
+   9.000000E+01   2.900147E-03
+   1.000000E+02   4.836968E-03
+   1.100000E+02   5.837696E-03
+   1.200000E+02   7.971211E-03
+   1.300000E+02   8.134273E-03
+   1.400000E+02   7.276817E-03
+   1.500000E+02   7.065844E-03
+   1.600000E+02   6.118412E-03
+   1.800000E+02   4.283863E-03
+   2.000000E+02   2.878973E-03

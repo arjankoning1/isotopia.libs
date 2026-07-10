@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr83(n,x)Ga68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 83
+#   nuclide: Sr83
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.050673E-10
+   7.000000E+01   1.745323E-07
+   7.500000E+01   6.603274E-06
+   8.000000E+01   7.868627E-05
+   9.000000E+01   6.093002E-03
+   1.000000E+02   6.582774E-02
+   1.100000E+02   1.797042E-01
+   1.200000E+02   5.804300E-01
+   1.300000E+02   1.796243E+00
+   1.400000E+02   3.381670E+00
+   1.500000E+02   4.517326E+00
+   1.600000E+02   5.527803E+00
+   1.800000E+02   6.540801E+00
+   2.000000E+02   5.816386E+00

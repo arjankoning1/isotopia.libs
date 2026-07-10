@@ -1,0 +1,37 @@
+# header: 
+#   title: Zn67(n,p)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ranakumar
+#   year: 1968
+#   subentry: 13044002
+#   X4 reaction: 30-ZN-67(N,P)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13044002
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 67
+#     nuclide: Cu67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   8.200000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: N.RANAKUMAR,E.KONDAIAH,R.W.FINK
+#   title: 14-MEV CROSS SECTIONS OF SILICON AND ZINC ISOTOPES
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.13, p.602(DE

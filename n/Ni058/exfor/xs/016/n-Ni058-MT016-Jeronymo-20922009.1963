@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jeronymo
+#   year: 1963
+#   subentry: 20922009
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20922009
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   2.000000E-01   1.000000E+00   1.000000E+00   1.000000E+00
+   1.355000E+01   2.000000E-01   8.000000E+00   2.000000E+00   1.000000E+00
+   1.490000E+01   2.000000E-01   1.900000E+01   3.000000E+00   1.000000E+00
+   1.650000E+01   2.000000E-01   2.400000E+01   3.000000E+00   1.000000E+00
+   1.850000E+01   2.000000E-01   3.400000E+01   4.000000E+00   1.000000E+00
+   1.960000E+01   2.000000E-01   3.900000E+01   4.000000E+00   1.000000E+00
+   2.060000E+01   2.000000E-01   4.500000E+01   4.000000E+00   1.000000E+00
+   2.100000E+01   2.000000E-01   3.800000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: J.M.F.Jeronymo, G.S.Mani, J.Olkowsky, A.Sadeghi,  C.F.Williamson
+#   title: Absolute cross sections for some (n,p), (n,alpha)  and (n,2n) reactions
+#   journal: Jour: Nuclear Physics, Vol.47, p.157 (1963)

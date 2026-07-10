@@ -1,0 +1,37 @@
+# header: 
+#   title: As75(n,p)Ge75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wagner
+#   year: 1971
+#   subentry: 21426005
+#   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21426005
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   5.000000E-01   2.551087E+01   4.611100E+00   1.004365E+00
+# reference:
+#   author: I.Wagner,M.Uhl
+#   title: Measurements of some (n,p), (n,2n) and (n,n+gamma)  cross sections of medium heavy nuclei   (in German)
+#   journal: Jour: Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Anzeiger, Vol.108, p.185 (1971)

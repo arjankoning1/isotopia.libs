@@ -1,0 +1,38 @@
+# header: 
+#   title: Hf177(n,x)Tb154g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 154
+#     nuclide: Tb154g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.174827E-12
+   1.300000E+02   1.170379E-07
+   1.400000E+02   2.948509E-05
+   1.500000E+02   1.656077E-03
+   1.600000E+02   2.774178E-02
+   1.800000E+02   7.622471E-01
+   2.000000E+02   2.305807E+00

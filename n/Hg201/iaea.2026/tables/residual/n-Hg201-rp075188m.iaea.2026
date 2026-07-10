@@ -1,0 +1,46 @@
+# header: 
+#   title: Hg201(n,x)Re188m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 201
+#   nuclide: Hg201
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 188
+#     nuclide: Re188m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.764573E-13
+   6.500000E+01   7.989515E-09
+   7.000000E+01   4.693799E-06
+   7.500000E+01   1.640690E-04
+   8.000000E+01   1.718241E-03
+   9.000000E+01   2.702258E-02
+   1.000000E+02   1.487140E-01
+   1.100000E+02   1.138160E-01
+   1.200000E+02   8.739154E-02
+   1.300000E+02   1.110346E-01
+   1.400000E+02   1.007683E-01
+   1.500000E+02   9.693028E-02
+   1.600000E+02   8.964803E-02
+   1.800000E+02   5.445817E-02
+   2.000000E+02   1.768322E-02

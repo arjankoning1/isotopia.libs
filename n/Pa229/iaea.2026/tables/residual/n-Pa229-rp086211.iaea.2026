@@ -1,0 +1,41 @@
+# header: 
+#   title: Pa229(n,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 229
+#   nuclide: Pa229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.953634E-13
+   8.000000E+01   4.680258E-11
+   9.000000E+01   1.630185E-07
+   1.000000E+02   1.397676E-05
+   1.100000E+02   5.795751E-04
+   1.200000E+02   5.787660E-03
+   1.300000E+02   2.557751E-02
+   1.400000E+02   4.296407E-02
+   1.500000E+02   5.124051E-02
+   1.600000E+02   1.079568E-01
+   1.800000E+02   1.553899E-01
+   2.000000E+02   1.902623E-01

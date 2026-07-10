@@ -1,0 +1,38 @@
+# header: 
+#   title: Er162(n,x)Ce135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 162
+#   nuclide: Er162
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.331397E-13
+   1.300000E+02   8.480608E-08
+   1.400000E+02   2.200646E-04
+   1.500000E+02   2.070835E-02
+   1.600000E+02   8.577468E-02
+   1.800000E+02   3.111427E-01
+   2.000000E+02   1.266547E+00

@@ -1,0 +1,37 @@
+# header: 
+#   title: Gd154(n,2n)Gd153 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Weigel
+#   year: 1975
+#   subentry: 21609019
+#   X4 reaction: 64-GD-154(N,2N)64-GD-153,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21609019
+# target: 
+#   Z: 64
+#   A: 154
+#   nuclide: Gd154
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 64
+#     A: 153
+#     nuclide: Gd153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   3.500000E-01   6.381985E+02   6.300000E+01   8.509312E-01
+# reference:
+#   author: H.Weigel,R.Michel,W.Herr
+#   title: Measurement  of 14MeV cross sections for (n,p),  (n,alpha),(n,2n) and (n,np+pn+d) reactions in the  elements Sc,Ni,Ge,Pd,Cd,Sm,Dy,Gd and Yb by taking into  account the "effective" n-energy spectra. (in German)
+#   journal: Jour: Radiochimica Acta, Vol.22, p.11 (1975)

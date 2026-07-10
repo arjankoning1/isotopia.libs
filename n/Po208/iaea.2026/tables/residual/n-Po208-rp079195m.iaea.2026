@@ -1,0 +1,46 @@
+# header: 
+#   title: Po208(n,x)Au195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 208
+#   nuclide: Po208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 195
+#     nuclide: Au195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.943248E-12
+   6.500000E+01   4.794405E-09
+   7.000000E+01   7.303677E-07
+   7.500000E+01   2.489808E-05
+   8.000000E+01   2.345439E-04
+   9.000000E+01   3.747868E-03
+   1.000000E+02   1.693788E-02
+   1.100000E+02   2.168808E-02
+   1.200000E+02   2.227419E-02
+   1.300000E+02   2.976181E-02
+   1.400000E+02   3.214789E-02
+   1.500000E+02   2.458521E-02
+   1.600000E+02   2.244189E-02
+   1.800000E+02   1.261477E-02
+   2.000000E+02   9.613857E-03

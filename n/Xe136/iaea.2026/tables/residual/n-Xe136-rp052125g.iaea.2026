@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe136(n,x)Te125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.961108E-07
+   7.500000E+01   1.291560E-03
+   8.000000E+01   2.025642E-01
+   9.000000E+01   1.614168E+01
+   1.000000E+02   4.701812E+01
+   1.100000E+02   4.008870E+01
+   1.200000E+02   2.721149E+01
+   1.300000E+02   1.919384E+01
+   1.400000E+02   1.782804E+01
+   1.500000E+02   1.738500E+01
+   1.600000E+02   1.593856E+01
+   1.800000E+02   1.581915E+01
+   2.000000E+02   1.366690E+01

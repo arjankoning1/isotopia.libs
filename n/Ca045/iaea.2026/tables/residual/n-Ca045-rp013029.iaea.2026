@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca45(n,x)Al29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.971423E-12
+   7.500000E+01   9.694674E-08
+   8.000000E+01   3.439870E-05
+   9.000000E+01   6.320590E-03
+   1.000000E+02   4.622743E-02
+   1.100000E+02   1.001849E-01
+   1.200000E+02   1.607520E-01
+   1.300000E+02   2.573451E-01
+   1.400000E+02   4.702429E-01
+   1.500000E+02   7.735084E-01
+   1.600000E+02   9.702413E-01
+   1.800000E+02   2.083409E+00
+   2.000000E+02   3.405153E+00

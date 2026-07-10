@@ -1,0 +1,37 @@
+# header: 
+#   title: Ne21(n,a)O18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Abramov
+#   year: 1961
+#   subentry: 40794002
+#   X4 reaction: 10-NE-21(N,A)8-O-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40794002
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 8
+#     A: 18
+#     nuclide: O18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   9.600000E+04   3.300000E+04   1.000000E+00
+# reference:
+#   author: A.I.ABRAMOV,M.G.JUTKIN
+#   title: THE NE-21(N,ALPHA)O-18 REACTION BY SLOW NEUTRONS.
+#   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.41, Issue.4, p.102

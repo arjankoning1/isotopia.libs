@@ -1,0 +1,44 @@
+# header: 
+#   title: Tb161(n,x)Tb152g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 161
+#   nuclide: Tb161
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 152
+#     nuclide: Tb152g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.591061E-12
+   7.500000E+01   1.140188E-03
+   8.000000E+01   1.896796E-01
+   9.000000E+01   8.641053E+00
+   1.000000E+02   1.778307E+01
+   1.100000E+02   1.310400E+01
+   1.200000E+02   1.016067E+01
+   1.300000E+02   1.049943E+01
+   1.400000E+02   9.633464E+00
+   1.500000E+02   9.742534E+00
+   1.600000E+02   7.130424E+00
+   1.800000E+02   6.422827E+00
+   2.000000E+02   5.617326E+00

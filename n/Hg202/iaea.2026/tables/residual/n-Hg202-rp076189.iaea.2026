@@ -1,0 +1,44 @@
+# header: 
+#   title: Hg202(n,x)Os189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 202
+#   nuclide: Hg202
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 189
+#     nuclide: Os189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.383296E-12
+   6.500000E+01   2.269207E-07
+   7.000000E+01   2.291711E-04
+   7.500000E+01   2.454855E-02
+   8.000000E+01   3.319989E-01
+   9.000000E+01   3.091459E+00
+   1.000000E+02   7.700716E+00
+   1.100000E+02   2.641366E+01
+   1.200000E+02   8.631181E+01
+   1.300000E+02   6.491123E+01
+   1.400000E+02   5.851279E+01
+   1.500000E+02   6.375250E+01
+   1.600000E+02   4.483630E+01
+   1.800000E+02   4.073851E+01
+   2.000000E+02   6.294569E+01

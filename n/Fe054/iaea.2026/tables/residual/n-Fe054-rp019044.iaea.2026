@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe54(n,x)K44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 44
+#     nuclide: K44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.260140E-12
+   6.500000E+01   2.265799E-08
+   7.000000E+01   5.100302E-06
+   7.500000E+01   1.800103E-04
+   8.000000E+01   1.575066E-03
+   9.000000E+01   1.145098E-02
+   1.000000E+02   2.360442E-02
+   1.100000E+02   4.178043E-02
+   1.200000E+02   8.340755E-02
+   1.300000E+02   1.373361E-01
+   1.400000E+02   1.961507E-01
+   1.500000E+02   2.914900E-01
+   1.600000E+02   3.505747E-01
+   1.800000E+02   3.937231E-01
+   2.000000E+02   3.674105E-01

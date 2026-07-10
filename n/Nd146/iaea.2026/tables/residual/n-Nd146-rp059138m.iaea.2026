@@ -1,0 +1,46 @@
+# header: 
+#   title: Nd146(n,x)Pr138m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 138
+#     nuclide: Pr138m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.086673E-09
+   6.500000E+01   9.769174E-05
+   7.000000E+01   7.478682E-03
+   7.500000E+01   4.152108E-02
+   8.000000E+01   9.841824E-02
+   9.000000E+01   3.030805E-01
+   1.000000E+02   6.103967E-01
+   1.100000E+02   9.481027E-01
+   1.200000E+02   1.331872E+00
+   1.300000E+02   1.568766E+00
+   1.400000E+02   1.916996E+00
+   1.500000E+02   2.011123E+00
+   1.600000E+02   2.223408E+00
+   1.800000E+02   2.753947E+00
+   2.000000E+02   2.371861E+00

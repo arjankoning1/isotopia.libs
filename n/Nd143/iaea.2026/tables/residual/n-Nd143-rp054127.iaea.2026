@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd143(n,x)Xe127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.108191E-09
+   8.000000E+01   1.773338E-06
+   9.000000E+01   2.925841E-03
+   1.000000E+02   3.984448E-02
+   1.100000E+02   6.088802E-02
+   1.200000E+02   5.336449E-02
+   1.300000E+02   1.005127E-01
+   1.400000E+02   1.926904E-01
+   1.500000E+02   1.790012E-01
+   1.600000E+02   2.572037E-01
+   1.800000E+02   4.772646E-01
+   2.000000E+02   3.030863E-01

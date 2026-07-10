@@ -1,0 +1,38 @@
+# header: 
+#   title: Ni60(n,2n)Ni59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wallner
+#   year: 2007
+#   subentry: 23050002
+#   X4 reaction: 28-NI-60(N,2N)28-NI-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23050002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 59
+#     nuclide: Ni59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.700000E+01   2.300000E-01   6.010000E+02   8.200000E+01   1.000000E+00
+   1.900000E+01   2.700000E-01   7.790000E+02   7.800000E+01   1.000000E+00
+# reference:
+#   author: A.Wallner, K.Knie, T.Faestermann, G.Korschinek, W.Kutschera, W.Rochow, G.Rugel, H.Vonach
+#   title: Study of the Ni-60(n,2n)Ni-59 reaction from threshold to 20 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.2, p.100

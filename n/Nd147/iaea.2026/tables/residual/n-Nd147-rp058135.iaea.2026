@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd147(n,x)Ce135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 147
+#   nuclide: Nd147
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.225767E-08
+   8.000000E+01   2.842517E-04
+   9.000000E+01   8.796908E-01
+   1.000000E+02   1.389220E+01
+   1.100000E+02   2.454523E+01
+   1.200000E+02   2.265314E+01
+   1.300000E+02   3.230905E+01
+   1.400000E+02   4.768081E+01
+   1.500000E+02   5.961940E+01
+   1.600000E+02   6.435169E+01
+   1.800000E+02   5.407554E+01
+   2.000000E+02   4.090543E+01

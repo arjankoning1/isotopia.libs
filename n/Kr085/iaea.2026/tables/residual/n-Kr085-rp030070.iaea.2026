@@ -1,0 +1,42 @@
+# header: 
+#   title: Kr85(n,x)Zn70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 85
+#   nuclide: Kr85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 70
+#     nuclide: Zn70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.743326E-10
+   7.500000E+01   5.694357E-07
+   8.000000E+01   4.542847E-05
+   9.000000E+01   2.313980E-03
+   1.000000E+02   7.663671E-03
+   1.100000E+02   1.667662E-02
+   1.200000E+02   3.377389E-02
+   1.300000E+02   7.243174E-02
+   1.400000E+02   1.236101E-01
+   1.500000E+02   1.642758E-01
+   1.600000E+02   2.043515E-01
+   1.800000E+02   3.395391E-01
+   2.000000E+02   4.023567E-01

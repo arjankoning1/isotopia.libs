@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe131(n,x)Sb116g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 116
+#     nuclide: Sb116g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.731572E-08
+   1.200000E+02   2.118534E-04
+   1.300000E+02   1.412046E-02
+   1.400000E+02   1.393817E-01
+   1.500000E+02   5.985701E-01
+   1.600000E+02   1.491515E+00
+   1.800000E+02   3.762167E+00
+   2.000000E+02   5.784854E+00

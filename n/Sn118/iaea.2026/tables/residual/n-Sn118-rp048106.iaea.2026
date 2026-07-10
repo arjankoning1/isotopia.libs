@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn118(n,x)Cd106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 106
+#     nuclide: Cd106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.071874E-07
+   1.000000E+02   5.317436E-03
+   1.100000E+02   2.719383E-01
+   1.200000E+02   1.713838E+00
+   1.300000E+02   4.140963E+00
+   1.400000E+02   7.669025E+00
+   1.500000E+02   1.529334E+01
+   1.600000E+02   2.323623E+01
+   1.800000E+02   3.723737E+01
+   2.000000E+02   3.982309E+01

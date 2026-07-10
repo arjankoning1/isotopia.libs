@@ -1,0 +1,39 @@
+# header: 
+#   title: Fm253(n,x)Es242 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 242
+#     nuclide: Es242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.792248E-12
+   1.000000E+02   4.551342E-10
+   1.100000E+02   2.696297E-09
+   1.200000E+02   6.589246E-09
+   1.300000E+02   2.479724E-08
+   1.400000E+02   3.196994E-08
+   1.500000E+02   9.303713E-08
+   1.600000E+02   5.209803E-08
+   1.800000E+02   1.952553E-07
+   2.000000E+02   1.677788E-07

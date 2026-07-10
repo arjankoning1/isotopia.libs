@@ -1,0 +1,39 @@
+# header: 
+#   title: Al26(n,x)C18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 18
+#     nuclide: C18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.990515E-12
+   1.000000E+02   1.466308E-09
+   1.100000E+02   2.809919E-08
+   1.200000E+02   2.468321E-07
+   1.300000E+02   8.800744E-07
+   1.400000E+02   1.789539E-06
+   1.500000E+02   2.692039E-06
+   1.600000E+02   3.329457E-06
+   1.800000E+02   3.351099E-06
+   2.000000E+02   2.801039E-06

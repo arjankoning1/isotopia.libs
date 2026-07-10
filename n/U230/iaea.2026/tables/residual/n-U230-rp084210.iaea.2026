@@ -1,0 +1,46 @@
+# header: 
+#   title: U230(n,x)Po210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.883112E-13
+   5.800000E+01   4.110509E-13
+   6.000000E+01   9.215782E-13
+   6.500000E+01   7.426967E-11
+   7.000000E+01   4.301403E-09
+   7.500000E+01   1.041641E-07
+   8.000000E+01   1.080103E-06
+   9.000000E+01   5.099556E-06
+   1.000000E+02   1.126003E-05
+   1.100000E+02   1.533161E-05
+   1.200000E+02   1.369613E-05
+   1.300000E+02   3.341677E-05
+   1.400000E+02   7.723130E-05
+   1.500000E+02   1.344684E-04
+   1.600000E+02   2.185297E-04
+   1.800000E+02   3.084168E-04
+   2.000000E+02   2.957118E-04

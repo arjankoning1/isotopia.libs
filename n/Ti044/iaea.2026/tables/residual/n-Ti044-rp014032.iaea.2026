@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti44(n,x)Si32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 32
+#     nuclide: Si32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.713849E-12
+   6.500000E+01   1.136837E-07
+   7.000000E+01   2.003314E-05
+   7.500000E+01   3.967684E-04
+   8.000000E+01   2.400111E-03
+   9.000000E+01   1.838741E-02
+   1.000000E+02   4.023723E-02
+   1.100000E+02   5.686085E-02
+   1.200000E+02   9.117269E-02
+   1.300000E+02   1.668324E-01
+   1.400000E+02   2.415256E-01
+   1.500000E+02   2.931803E-01
+   1.600000E+02   2.825833E-01
+   1.800000E+02   2.021376E-01
+   2.000000E+02   1.405880E-01

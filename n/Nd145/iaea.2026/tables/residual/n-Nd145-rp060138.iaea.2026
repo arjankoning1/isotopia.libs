@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd145(n,x)Nd138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 138
+#     nuclide: Nd138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   5.422795E-08
+   6.000000E+01   2.371740E-05
+   6.500000E+01   2.044600E-02
+   7.000000E+01   2.722622E-01
+   7.500000E+01   7.909979E-01
+   8.000000E+01   1.309261E+00
+   9.000000E+01   2.383495E+00
+   1.000000E+02   3.608703E+00
+   1.100000E+02   4.601893E+00
+   1.200000E+02   5.238731E+00
+   1.300000E+02   5.528969E+00
+   1.400000E+02   5.779969E+00
+   1.500000E+02   6.110504E+00
+   1.600000E+02   6.300968E+00
+   1.800000E+02   6.438661E+00
+   2.000000E+02   6.256809E+00

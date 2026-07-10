@@ -1,0 +1,38 @@
+# header: 
+#   title: Pa229(n,x)Tl203 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 229
+#   nuclide: Pa229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 203
+#     nuclide: Tl203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.937300E-11
+   1.100000E+02   1.684070E-09
+   1.200000E+02   6.558017E-08
+   1.300000E+02   9.931736E-07
+   1.400000E+02   5.752938E-06
+   1.500000E+02   1.647490E-05
+   1.600000E+02   5.761594E-05
+   1.800000E+02   7.583125E-04
+   2.000000E+02   3.643035E-03

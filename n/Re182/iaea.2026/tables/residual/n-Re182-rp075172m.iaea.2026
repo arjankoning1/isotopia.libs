@@ -1,0 +1,41 @@
+# header: 
+#   title: Re182(n,x)Re172m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 182
+#   nuclide: Re182
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 172
+#     nuclide: Re172m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.996658E-09
+   1.000000E+02   1.697920E-04
+   1.100000E+02   5.294442E-03
+   1.200000E+02   1.398653E-02
+   1.300000E+02   1.674212E-02
+   1.400000E+02   2.715935E-02
+   1.500000E+02   3.757429E-02
+   1.600000E+02   4.189689E-02
+   1.800000E+02   5.162192E-02
+   2.000000E+02   8.208177E-02

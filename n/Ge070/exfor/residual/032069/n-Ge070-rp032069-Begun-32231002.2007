@@ -1,0 +1,37 @@
+# header: 
+#   title: Ge70(n,x)Ge69 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Begun
+#   year: 2007
+#   subentry: 32231002
+#   X4 reaction: 32-GE-70(N,2N)32-GE-69,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32231002
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 32
+#     A: 69
+#     nuclide: Ge69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.396000E+01   6.000000E-02   4.226054E+02   2.975997E+01   1.006203E+00
+# reference:
+#   author: S.V.Begun,O.G.Druzheruchenko,O.O.Pupirina, V.K.Tarakanov
+#   title: Determination of the cross sections of (n,2n),(n,gamma) nuclear reactions on germanium isotopes at the energy of neutrons 13.96 MeV
+#   journal: Prep: Cornell University Web Reports, No.0701039 (2007)

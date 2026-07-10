@@ -1,0 +1,45 @@
+# header: 
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Andreev
+#   year: 1968
+#   subentry: 40212005
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40212005
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.387000E+01   2.600000E-01   4.068050E+02   9.000000E+00   1.009442E+00
+   1.510000E+01   2.500000E-01   5.551929E+02   1.200000E+01   1.009442E+00
+   1.547000E+01   4.000000E-02   7.187225E+02   1.600000E+01   1.009442E+00
+   1.582000E+01   1.500000E-01   6.773354E+02   1.400000E+01   1.009442E+00
+   1.600000E+01   5.000000E-02   6.107122E+02   1.300000E+01   1.009442E+00
+   1.604000E+01   6.000000E-02   7.156942E+02   1.600000E+01   1.009442E+00
+   1.653000E+01   7.000000E-02   7.591001E+02   1.600000E+01   1.009442E+00
+   1.698000E+01   8.000000E-02   7.732322E+02   1.600000E+01   1.009442E+00
+   1.740000E+01   8.000000E-02   8.549972E+02   1.900000E+01   1.009442E+00
+# reference:
+#   author: M.F.Andreev,V.I.Serov
+#   title: Cross section for the reaction Fe-54(n,2n)Fe-53
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.7, p.454 (1968)

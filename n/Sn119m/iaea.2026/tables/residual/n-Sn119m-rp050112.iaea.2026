@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn119m(n,x)Sn112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 112
+#     nuclide: Sn112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.217645E-08
+   6.500000E+01   8.937236E-04
+   7.000000E+01   6.284860E-02
+   7.500000E+01   5.489014E-01
+   8.000000E+01   1.678153E+00
+   9.000000E+01   4.320908E+00
+   1.000000E+02   6.529669E+00
+   1.100000E+02   7.936395E+00
+   1.200000E+02   8.762146E+00
+   1.300000E+02   8.760504E+00
+   1.400000E+02   8.753193E+00
+   1.500000E+02   8.807429E+00
+   1.600000E+02   8.644664E+00
+   1.800000E+02   8.391794E+00
+   2.000000E+02   8.127141E+00

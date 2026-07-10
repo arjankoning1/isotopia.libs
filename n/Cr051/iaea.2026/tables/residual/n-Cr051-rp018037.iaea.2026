@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr51(n,x)Ar37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.755033E-12
+   6.500000E+01   1.748394E-07
+   7.000000E+01   5.461296E-05
+   7.500000E+01   1.512205E-03
+   8.000000E+01   1.043858E-02
+   9.000000E+01   7.420531E-02
+   1.000000E+02   1.717751E-01
+   1.100000E+02   2.876837E-01
+   1.200000E+02   5.755246E-01
+   1.300000E+02   1.154712E+00
+   1.400000E+02   2.264719E+00
+   1.500000E+02   3.681925E+00
+   1.600000E+02   5.484594E+00
+   1.800000E+02   1.036837E+01
+   2.000000E+02   1.694117E+01

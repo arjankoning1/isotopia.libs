@@ -1,0 +1,42 @@
+# header: 
+#   title: Cm244(n,x)Am234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 244
+#   nuclide: Cm244
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 234
+#     nuclide: Am234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.716173E-10
+   7.500000E+01   2.258490E-06
+   8.000000E+01   1.925798E-04
+   9.000000E+01   7.191299E-03
+   1.000000E+02   3.032210E-02
+   1.100000E+02   6.787206E-02
+   1.200000E+02   9.183129E-02
+   1.300000E+02   1.202832E-01
+   1.400000E+02   1.738033E-01
+   1.500000E+02   1.688947E-01
+   1.600000E+02   3.648626E-01
+   1.800000E+02   2.335851E-01
+   2.000000E+02   6.487499E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Re189(n,x)W181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 189
+#   nuclide: Re189
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 181
+#     nuclide: W181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   2.649782E-09
+   5.400000E+01   1.554862E-06
+   5.600000E+01   1.297604E-04
+   5.800000E+01   2.777606E-03
+   6.000000E+01   2.356457E-02
+   6.500000E+01   4.962579E-01
+   7.000000E+01   2.461588E+00
+   7.500000E+01   8.279206E+00
+   8.000000E+01   2.210992E+01
+   9.000000E+01   5.600057E+01
+   1.000000E+02   6.496532E+01
+   1.100000E+02   6.500974E+01
+   1.200000E+02   6.851527E+01
+   1.300000E+02   6.514732E+01
+   1.400000E+02   6.266189E+01
+   1.500000E+02   6.198019E+01
+   1.600000E+02   6.119816E+01
+   1.800000E+02   4.982071E+01
+   2.000000E+02   5.482759E+01

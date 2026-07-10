@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd113(n,x)Mo93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.808497E-14
+   1.200000E+02   7.492249E-09
+   1.300000E+02   5.369893E-06
+   1.400000E+02   2.719323E-04
+   1.500000E+02   3.209292E-03
+   1.600000E+02   1.141218E-02
+   1.800000E+02   6.220855E-02
+   2.000000E+02   1.939001E-01

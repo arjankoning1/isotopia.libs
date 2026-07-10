@@ -1,0 +1,40 @@
+# header: 
+#   title: Ac226(n,x)Pb205 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 226
+#   nuclide: Ac226
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 205
+#     nuclide: Pb205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.177258E-11
+   9.000000E+01   5.357546E-10
+   1.000000E+02   9.665209E-06
+   1.100000E+02   9.621431E-04
+   1.200000E+02   1.245015E-02
+   1.300000E+02   5.681084E-02
+   1.400000E+02   1.522724E-01
+   1.500000E+02   1.864275E-01
+   1.600000E+02   2.821929E-01
+   1.800000E+02   6.634489E-01
+   2.000000E+02   1.059657E+00

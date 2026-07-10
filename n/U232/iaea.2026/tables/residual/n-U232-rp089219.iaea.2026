@@ -1,0 +1,42 @@
+# header: 
+#   title: U232(n,x)Ac219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 219
+#     nuclide: Ac219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.029389E-12
+   7.500000E+01   5.082167E-10
+   8.000000E+01   1.078362E-07
+   9.000000E+01   1.843208E-05
+   1.000000E+02   1.054519E-04
+   1.100000E+02   1.840606E-04
+   1.200000E+02   1.797222E-04
+   1.300000E+02   1.426297E-04
+   1.400000E+02   1.900841E-04
+   1.500000E+02   2.012458E-04
+   1.600000E+02   2.405795E-04
+   1.800000E+02   3.318466E-04
+   2.000000E+02   3.368739E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba136(n,x)In120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 120
+#     nuclide: In120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.695386E-12
+   8.000000E+01   6.872640E-09
+   9.000000E+01   5.203186E-05
+   1.000000E+02   4.511253E-03
+   1.100000E+02   3.721285E-02
+   1.200000E+02   4.789071E-02
+   1.300000E+02   5.701555E-02
+   1.400000E+02   2.598968E-01
+   1.500000E+02   6.348648E-01
+   1.600000E+02   8.340452E-01
+   1.800000E+02   1.048895E+00
+   2.000000E+02   1.910795E+00

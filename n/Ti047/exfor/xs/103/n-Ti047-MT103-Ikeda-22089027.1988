@@ -1,0 +1,42 @@
+# header: 
+#   title: Ti47(n,p)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089027
+#   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089027
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.449231E+02   9.728400E+00   1.002928E+00
+   1.356000E+01   0.000000E+00   1.443214E+02   9.728400E+00   1.002928E+00
+   1.398000E+01   0.000000E+00   1.358968E+02   9.226939E+00   1.002928E+00
+   1.442000E+01   0.000000E+00   1.308821E+02   8.926100E+00   1.002928E+00
+   1.465000E+01   0.000000E+00   1.274722E+02   8.725500E+00   1.002928E+00
+   1.491000E+01   0.000000E+00   1.218558E+02   8.424600E+00   1.002928E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)

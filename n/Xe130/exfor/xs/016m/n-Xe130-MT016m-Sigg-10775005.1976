@@ -1,0 +1,42 @@
+# header: 
+#   title: Xe130(n,2n)Xe129m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sigg
+#   year: 1976
+#   subentry: 10775005
+#   X4 reaction: 54-XE-130(N,2N)54-XE-129-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10775005
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   4.000000E-01   2.027167E+03   1.630759E+02   9.981124E-01
+# reference:
+#   author: R.A.Sigg,P.K.Kuroda
+#   title: 14.6-MeV Neutron Activation Cross Sections for the  Xenon Isotopes.
+#   journal: Jour: Nuclear Science and Engineering, Vol.60, p.235 (1976)

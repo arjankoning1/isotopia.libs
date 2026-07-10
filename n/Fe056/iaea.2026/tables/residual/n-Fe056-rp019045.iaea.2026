@@ -1,0 +1,43 @@
+# header: 
+#   title: Fe56(n,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.787277E-12
+   7.000000E+01   5.209377E-09
+   7.500000E+01   4.497160E-07
+   8.000000E+01   4.916107E-06
+   9.000000E+01   5.147673E-05
+   1.000000E+02   5.227425E-04
+   1.100000E+02   2.120866E-03
+   1.200000E+02   4.551777E-03
+   1.300000E+02   9.559513E-03
+   1.400000E+02   1.607439E-02
+   1.500000E+02   2.538965E-02
+   1.600000E+02   2.562117E-02
+   1.800000E+02   3.456891E-02
+   2.000000E+02   2.221015E-02

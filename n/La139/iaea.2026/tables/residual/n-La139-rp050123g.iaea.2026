@@ -1,0 +1,43 @@
+# header: 
+#   title: La139(n,x)Sn123g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.144843E-09
+   8.000000E+01   5.482794E-07
+   9.000000E+01   1.219764E-02
+   1.000000E+02   1.724841E+00
+   1.100000E+02   5.330607E+00
+   1.200000E+02   4.626071E+00
+   1.300000E+02   7.873051E+00
+   1.400000E+02   1.037134E+01
+   1.500000E+02   8.563078E+00
+   1.600000E+02   9.254977E+00
+   1.800000E+02   9.982085E+00
+   2.000000E+02   9.355270E+00

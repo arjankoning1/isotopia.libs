@@ -1,0 +1,45 @@
+# header: 
+#   title: Sr87(n,x)Br77g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 77
+#     nuclide: Br77g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.377615E-12
+   7.000000E+01   4.865119E-07
+   7.500000E+01   2.458770E-04
+   8.000000E+01   5.465511E-03
+   9.000000E+01   1.146914E-01
+   1.000000E+02   7.722490E-01
+   1.100000E+02   1.929034E+00
+   1.200000E+02   2.886993E+00
+   1.300000E+02   3.601412E+00
+   1.400000E+02   3.794546E+00
+   1.500000E+02   3.959010E+00
+   1.600000E+02   3.859703E+00
+   1.800000E+02   3.449575E+00
+   2.000000E+02   3.067652E+00

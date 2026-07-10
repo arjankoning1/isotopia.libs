@@ -1,0 +1,43 @@
+# header: 
+#   title: Ar37(n,x)F21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 37
+#   nuclide: Ar37
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 21
+#     nuclide: F21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.629101E-09
+   7.000000E+01   4.065121E-07
+   7.500000E+01   6.492915E-06
+   8.000000E+01   3.240897E-05
+   9.000000E+01   1.465536E-04
+   1.000000E+02   4.778514E-04
+   1.100000E+02   2.421897E-03
+   1.200000E+02   6.538747E-03
+   1.300000E+02   1.135426E-02
+   1.400000E+02   1.986626E-02
+   1.500000E+02   3.961709E-02
+   1.600000E+02   7.367392E-02
+   1.800000E+02   1.681270E-01
+   2.000000E+02   2.851964E-01

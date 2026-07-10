@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Purser
+#   year: 1959
+#   subentry: 31038003
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31038003
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   3.800000E+01   8.000000E+00   1.000000E+00
+# reference:
+#   author: K.H.Purser,F.W.Titterton
+#   title: The 58Ni(n,p)58Co, 58Ni(n,2n)57Ni and 58Ni(n,np)57Co cross sections at 14.1 MeV
+#   journal: Jour: Australian Journal of Physics, Vol.12, p.103 (1959)

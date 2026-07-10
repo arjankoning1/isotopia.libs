@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd150(n,x)Gd141m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 150
+#   nuclide: Gd150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 141
+#     nuclide: Gd141m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.296081E-07
+   1.000000E+02   4.319572E-03
+   1.100000E+02   5.572027E-02
+   1.200000E+02   2.860464E-01
+   1.300000E+02   5.546259E-01
+   1.400000E+02   7.096815E-01
+   1.500000E+02   8.167721E-01
+   1.600000E+02   9.105008E-01
+   1.800000E+02   9.770664E-01
+   2.000000E+02   1.278845E+00

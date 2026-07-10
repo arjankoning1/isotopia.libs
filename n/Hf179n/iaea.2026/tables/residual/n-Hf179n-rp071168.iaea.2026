@@ -1,0 +1,40 @@
+# header: 
+#   title: Hf179n(n,x)Lu168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 179
+#   nuclide: Hf179n
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 168
+#     nuclide: Lu168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.353731E-11
+   9.000000E+01   1.926958E-03
+   1.000000E+02   4.106722E-01
+   1.100000E+02   5.832326E+00
+   1.200000E+02   2.140536E+01
+   1.300000E+02   3.029328E+01
+   1.400000E+02   3.019822E+01
+   1.500000E+02   3.524941E+01
+   1.600000E+02   3.933279E+01
+   1.800000E+02   3.299675E+01
+   2.000000E+02   3.790134E+01

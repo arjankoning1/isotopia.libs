@@ -1,0 +1,38 @@
+# header: 
+#   title: Ni58(n,t)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2004
+#   subentry: 22745004
+#   X4 reaction: 28-NI-58(N,T)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22745004
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.780000E+01   0.000000E+00   3.560000E-01   4.685200E-02   1.000001E+00
+   1.950000E+01   0.000000E+00   6.284300E-01   6.820500E-02   1.000001E+00
+# reference:
+#   author: V.SEMKOVA, A.J.M.PLOMPEN, D.L.SMITH
+#   title: Measurement of the Ni-58(n,t)Co-59, Co-59(n,p)Fe-59  and Cu-63(n,alpha)Co-60 Reaction Cross Sections from  14 to 20 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.1, p.1019

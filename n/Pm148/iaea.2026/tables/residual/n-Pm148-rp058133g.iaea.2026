@@ -1,0 +1,40 @@
+# header: 
+#   title: Pm148(n,x)Ce133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.124141E-09
+   1.100000E+02   9.869673E-05
+   1.200000E+02   1.240931E-02
+   1.300000E+02   2.319255E-01
+   1.400000E+02   1.365382E+00
+   1.500000E+02   3.761036E+00
+   1.600000E+02   7.935955E+00
+   1.800000E+02   1.964067E+01
+   2.000000E+02   2.277942E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Cd116(n,x)Mo102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 102
+#     nuclide: Mo102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.463909E-12
+   6.500000E+01   1.104135E-08
+   7.000000E+01   2.600181E-06
+   7.500000E+01   6.844712E-05
+   8.000000E+01   5.239292E-04
+   9.000000E+01   4.389741E-03
+   1.000000E+02   5.027879E-02
+   1.100000E+02   5.682606E-01
+   1.200000E+02   1.853261E+00
+   1.300000E+02   3.048513E+00
+   1.400000E+02   3.237521E+00
+   1.500000E+02   2.933180E+00
+   1.600000E+02   3.215887E+00
+   1.800000E+02   2.488588E+00
+   2.000000E+02   8.815590E-01

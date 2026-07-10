@@ -1,0 +1,37 @@
+# header: 
+#   title: W186(n,x)W187 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Magnusson
+#   year: 1980
+#   subentry: 21004004
+#   X4 reaction: 74-W-186(N,G)74-W-187,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21004004
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   8.335700E-01   1.974100E-01   1.004301E+00
+# reference:
+#   author: G.MAGNUSSON,P.ANDERSSON,I.BERQUIST
+#   title: -14.7 MEV NEUTRON CAPTURE CROSS SECTION MEASUREMENTS  WITH ACTIVATION TECHNIQUE-
+#   journal: Jour: Physica Scripta, Vol.21, Issue.1, p.21 (1980)

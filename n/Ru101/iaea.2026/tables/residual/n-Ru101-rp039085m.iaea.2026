@@ -1,0 +1,40 @@
+# header: 
+#   title: Ru101(n,x)Y85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 85
+#     nuclide: Y85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   7.226310E-10
+   1.100000E+02   1.968880E-05
+   1.200000E+02   1.670730E-03
+   1.300000E+02   2.388713E-02
+   1.400000E+02   1.452866E-01
+   1.500000E+02   4.440841E-01
+   1.600000E+02   8.647307E-01
+   1.800000E+02   1.940907E+00
+   2.000000E+02   3.194514E+00

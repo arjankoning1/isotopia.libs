@@ -1,0 +1,44 @@
+# header: 
+#   title: Kr85(n,x)Ga73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 85
+#   nuclide: Kr85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.255715E-11
+   6.500000E+01   4.691526E-07
+   7.000000E+01   4.319021E-05
+   7.500000E+01   4.450648E-04
+   8.000000E+01   1.981272E-03
+   9.000000E+01   1.699586E-02
+   1.000000E+02   4.194698E-02
+   1.100000E+02   7.817663E-02
+   1.200000E+02   1.344124E-01
+   1.300000E+02   2.524813E-01
+   1.400000E+02   3.353859E-01
+   1.500000E+02   3.697741E-01
+   1.600000E+02   4.379458E-01
+   1.800000E+02   3.322088E-01
+   2.000000E+02   3.768605E-01

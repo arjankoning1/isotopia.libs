@@ -1,0 +1,37 @@
+# header: 
+#   title: K39(n,a)Cl36 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1960
+#   subentry: 21668009
+#   X4 reaction: 19-K-39(N,A)17-CL-36,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21668009
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 17
+#     A: 36
+#     nuclide: Cl36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.500000E-01   1.100000E+02   1.600000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,H.Jeremie,G.Andersson-Lindstroem,  H.Neuert,H.Pollehn
+#   title: -Cross sections for 14 MeV neutrons in the  scintillation crystals NaI(Tl), KI(Tl), CsI(Tl) and  Li-6I(Eu) component nuclear reactions -. (in German)
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.15, p.200 (1960)

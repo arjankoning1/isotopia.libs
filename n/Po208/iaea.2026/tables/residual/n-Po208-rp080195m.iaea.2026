@@ -1,0 +1,46 @@
+# header: 
+#   title: Po208(n,x)Hg195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 208
+#   nuclide: Po208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.485864E-12
+   6.500000E+01   2.012185E-08
+   7.000000E+01   1.755742E-05
+   7.500000E+01   1.373292E-03
+   8.000000E+01   2.488103E-02
+   9.000000E+01   3.460421E-01
+   1.000000E+02   6.732753E-01
+   1.100000E+02   9.692206E-01
+   1.200000E+02   2.411959E+00
+   1.300000E+02   3.399451E+00
+   1.400000E+02   4.318169E+00
+   1.500000E+02   3.927801E+00
+   1.600000E+02   3.670954E+00
+   1.800000E+02   3.061807E+00
+   2.000000E+02   1.566267E+00

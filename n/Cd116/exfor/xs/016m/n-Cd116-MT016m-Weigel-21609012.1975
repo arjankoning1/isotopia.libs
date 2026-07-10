@@ -1,0 +1,42 @@
+# header: 
+#   title: Cd116(n,2n)Cd115m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Weigel
+#   year: 1975
+#   subentry: 21609012
+#   X4 reaction: 48-CD-116(N,2N)48-CD-115-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21609012
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 48
+#     A: 115
+#     nuclide: Cd115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   5.000000E-01   6.235815E+02   1.000000E+02   8.660854E-01
+# reference:
+#   author: H.Weigel,R.Michel,W.Herr
+#   title: Measurement  of 14MeV cross sections for (n,p),  (n,alpha),(n,2n) and (n,np+pn+d) reactions in the  elements Sc,Ni,Ge,Pd,Cd,Sm,Dy,Gd and Yb by taking into  account the "effective" n-energy spectra. (in German)
+#   journal: Jour: Radiochimica Acta, Vol.22, p.11 (1975)

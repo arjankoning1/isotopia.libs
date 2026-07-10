@@ -1,0 +1,43 @@
+# header: 
+#   title: Fe56(n,x)Sc44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.382139E-12
+   7.000000E+01   4.904440E-07
+   7.500000E+01   2.129383E-04
+   8.000000E+01   4.122105E-03
+   9.000000E+01   7.599096E-02
+   1.000000E+02   5.472917E-01
+   1.100000E+02   1.540801E+00
+   1.200000E+02   2.893193E+00
+   1.300000E+02   5.715255E+00
+   1.400000E+02   1.027512E+01
+   1.500000E+02   1.434400E+01
+   1.600000E+02   1.697743E+01
+   1.800000E+02   2.360756E+01
+   2.000000E+02   2.032279E+01

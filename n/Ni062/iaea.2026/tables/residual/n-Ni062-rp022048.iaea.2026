@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni62(n,x)Ti48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.842459E-09
+   7.000000E+01   4.073162E-06
+   7.500000E+01   1.697761E-04
+   8.000000E+01   1.506550E-03
+   9.000000E+01   1.461353E-02
+   1.000000E+02   4.225056E-02
+   1.100000E+02   1.371392E-01
+   1.200000E+02   4.775795E-01
+   1.300000E+02   1.079277E+00
+   1.400000E+02   2.069100E+00
+   1.500000E+02   3.816856E+00
+   1.600000E+02   6.973675E+00
+   1.800000E+02   1.337377E+01
+   2.000000E+02   2.026496E+01

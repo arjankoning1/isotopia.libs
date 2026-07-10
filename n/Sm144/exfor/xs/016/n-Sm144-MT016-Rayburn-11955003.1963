@@ -1,0 +1,49 @@
+# header: 
+#   title: Sm144(n,2n)Sm143 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Rayburn
+#   year: 1963
+#   subentry: 11955003
+#   X4 reaction: 62-SM-144(N,2N)62-SM-143,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11955003
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 62
+#     A: 143
+#     nuclide: Sm143
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.290000E+01   4.000000E-01   7.690000E+02   7.690000E+01   1.000000E+00
+   1.330000E+01   4.000000E-01   9.530000E+02   9.530000E+01   1.000000E+00
+   1.380000E+01   5.000000E-01   1.247000E+03   1.247000E+02   1.000000E+00
+   1.410000E+01   6.000000E-01   1.544000E+03   1.544000E+02   1.000000E+00
+   1.440000E+01   6.000000E-01   1.508000E+03   1.508000E+02   1.000000E+00
+   1.490000E+01   6.000000E-01   1.569000E+03   1.569000E+02   1.000000E+00
+   1.520000E+01   6.000000E-01   1.670000E+03   1.670000E+02   1.000000E+00
+   1.570000E+01   6.000000E-01   1.516000E+03   1.516000E+02   1.000000E+00
+   1.600000E+01   6.000000E-01   1.650000E+03   1.650000E+02   1.000000E+00
+   1.640000E+01   7.000000E-01   1.631000E+03   1.631000E+02   1.000000E+00
+   1.720000E+01   6.000000E-01   1.634000E+03   1.634000E+02   1.000000E+00
+   1.750000E+01   5.000000E-01   2.000000E+03   2.000000E+02   1.000000E+00
+   1.780000E+01   2.000000E-01   2.336000E+03   2.336000E+02   1.000000E+00
+# reference:
+#   author: L.A.RAYBURN
+#   title: (N,2N) REACTIONS IN SN112 AND SM144.
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.8, p.121(M13

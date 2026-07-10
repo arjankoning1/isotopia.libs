@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr87(n,x)Ge72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 72
+#     nuclide: Ge72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.469744E-11
+   7.500000E+01   5.069619E-07
+   8.000000E+01   1.755448E-04
+   9.000000E+01   7.400387E-02
+   1.000000E+02   9.154484E-01
+   1.100000E+02   2.522080E+00
+   1.200000E+02   4.571242E+00
+   1.300000E+02   8.147965E+00
+   1.400000E+02   1.396186E+01
+   1.500000E+02   1.790092E+01
+   1.600000E+02   2.230217E+01
+   1.800000E+02   2.852518E+01
+   2.000000E+02   2.744817E+01

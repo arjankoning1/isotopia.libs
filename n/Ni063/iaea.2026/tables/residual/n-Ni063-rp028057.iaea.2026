@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni63(n,x)Ni57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.886812E-11
+   6.500000E+01   2.796479E-05
+   7.000000E+01   1.341831E-03
+   7.500000E+01   9.510998E-03
+   8.000000E+01   3.049904E-02
+   9.000000E+01   9.988791E-02
+   1.000000E+02   1.601082E-01
+   1.100000E+02   1.936731E-01
+   1.200000E+02   2.060274E-01
+   1.300000E+02   2.091861E-01
+   1.400000E+02   2.097348E-01
+   1.500000E+02   2.070194E-01
+   1.600000E+02   2.177883E-01
+   1.800000E+02   2.026883E-01
+   2.000000E+02   2.000460E-01

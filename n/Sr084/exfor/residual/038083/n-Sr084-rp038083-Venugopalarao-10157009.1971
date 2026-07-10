@@ -1,0 +1,37 @@
+# header: 
+#   title: Sr84(n,x)Sr83 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Venugopalarao
+#   year: 1971
+#   subentry: 10157009
+#   X4 reaction: 38-SR-84(N,2N)38-SR-83,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10157009
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   6.632724E+02   1.028915E+02   1.376084E+00
+# reference:
+#   author: P.VENUGOPALA RAO,R.E.WOOD,J.M.PALMS,R.W.FINK
+#   title: Neutron Activation Cross Sections for As, Br, Rb and  Sr Isotopes at 14.4 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.3, p.629 (1971)

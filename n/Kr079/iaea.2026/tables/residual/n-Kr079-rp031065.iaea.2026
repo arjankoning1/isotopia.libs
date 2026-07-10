@@ -1,0 +1,40 @@
+# header: 
+#   title: Kr79(n,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 79
+#   nuclide: Kr79
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.887033E-09
+   9.000000E+01   6.492087E-05
+   1.000000E+02   6.391928E-03
+   1.100000E+02   1.458936E-01
+   1.200000E+02   8.760889E-01
+   1.300000E+02   2.127178E+00
+   1.400000E+02   4.525434E+00
+   1.500000E+02   8.451241E+00
+   1.600000E+02   1.476032E+01
+   1.800000E+02   2.375714E+01
+   2.000000E+02   2.474428E+01

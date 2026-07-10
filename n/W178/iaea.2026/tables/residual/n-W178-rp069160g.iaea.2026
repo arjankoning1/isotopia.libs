@@ -1,0 +1,39 @@
+# header: 
+#   title: W178(n,x)Tm160g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 178
+#   nuclide: W178
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 160
+#     nuclide: Tm160g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.889195E-08
+   1.200000E+02   2.838167E-04
+   1.300000E+02   1.466186E-02
+   1.400000E+02   2.139189E-01
+   1.500000E+02   1.111518E+00
+   1.600000E+02   2.186648E+00
+   1.800000E+02   5.459555E+00
+   2.000000E+02   9.713976E+00

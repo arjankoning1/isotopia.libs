@@ -1,0 +1,36 @@
+# header: 
+#   title: Bk247(n,x)U226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 247
+#   nuclide: Bk247
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 226
+#     nuclide: U226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.523273E-11
+   1.300000E+02   8.778161E-08
+   1.400000E+02   1.267592E-05
+   1.500000E+02   6.572147E-05
+   1.600000E+02   2.635794E-04
+   1.800000E+02   3.193072E-04
+   2.000000E+02   2.236631E-03

@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu152(n,x)La136 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 152
+#   nuclide: Eu152
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 136
+#     nuclide: La136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.356880E-12
+   7.000000E+01   5.181278E-09
+   7.500000E+01   8.588178E-07
+   8.000000E+01   1.980453E-05
+   9.000000E+01   5.033533E-04
+   1.000000E+02   1.555969E-03
+   1.100000E+02   2.334020E-03
+   1.200000E+02   7.384431E-03
+   1.300000E+02   2.080626E-02
+   1.400000E+02   3.483472E-02
+   1.500000E+02   5.810228E-02
+   1.600000E+02   9.254590E-02
+   1.800000E+02   9.511127E-02
+   2.000000E+02   1.184713E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sc46(n,x)Ca38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 38
+#     nuclide: Ca38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.907745E-07
+   1.000000E+02   1.667020E-05
+   1.100000E+02   1.239391E-04
+   1.200000E+02   3.814641E-04
+   1.300000E+02   7.142694E-04
+   1.400000E+02   9.771100E-04
+   1.500000E+02   1.133834E-03
+   1.600000E+02   1.220241E-03
+   1.800000E+02   1.246848E-03
+   2.000000E+02   1.216148E-03

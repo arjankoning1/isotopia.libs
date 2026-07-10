@@ -1,0 +1,43 @@
+# header: 
+#   title: Al27(n,2n)Al26g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ZhaoQiangg
+#   year: 1998
+#   subentry: 32764002
+#   X4 reaction: 13-AL-27(N,2N)13-AL-26-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32764002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   5.400001E+01   4.300000E+00   1.000000E+00
+   1.490000E+01   0.000000E+00   7.750001E+01   5.300000E+00   1.000000E+00
+# reference:
+#   author: Zhao Qiang,Lu Xiang-Yang,Guo Zhi-Yu,Shi Zhao-Min, Wang Jian-Jun,Liu Ke-Xin,Li Bin,Li Kun,Chen Jia-Er, Lu Han-Lin
+#   title: Measurement of the 27Al(n,2n)26Al cross section using accelerator mass spectrometry
+#   journal: Jour: Chinese Physics Letters, Vol.15, p.8 (1998)

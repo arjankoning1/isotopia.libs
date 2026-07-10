@@ -1,0 +1,42 @@
+# header: 
+#   title: K39(n,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.017189E-11
+   7.500000E+01   5.650173E-08
+   8.000000E+01   1.554154E-06
+   9.000000E+01   3.465567E-05
+   1.000000E+02   1.273637E-04
+   1.100000E+02   2.460660E-04
+   1.200000E+02   3.276218E-04
+   1.300000E+02   3.871362E-04
+   1.400000E+02   4.097319E-04
+   1.500000E+02   4.217847E-04
+   1.600000E+02   4.264579E-04
+   1.800000E+02   4.432311E-04
+   2.000000E+02   4.538014E-04

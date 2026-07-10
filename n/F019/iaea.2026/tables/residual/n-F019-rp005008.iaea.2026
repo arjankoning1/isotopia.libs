@@ -1,0 +1,43 @@
+# header: 
+#   title: F19(n,x)B8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 8
+#     nuclide: B8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.122447E-10
+   7.000000E+01   5.462306E-07
+   7.500000E+01   2.362384E-05
+   8.000000E+01   2.071623E-04
+   9.000000E+01   2.240251E-03
+   1.000000E+02   7.701568E-03
+   1.100000E+02   1.707539E-02
+   1.200000E+02   3.450884E-02
+   1.300000E+02   6.267541E-02
+   1.400000E+02   1.017617E-01
+   1.500000E+02   1.525911E-01
+   1.600000E+02   2.134502E-01
+   1.800000E+02   3.461631E-01
+   2.000000E+02   4.522146E-01

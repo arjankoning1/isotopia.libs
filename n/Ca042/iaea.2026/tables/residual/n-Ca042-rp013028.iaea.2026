@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca42(n,x)Al28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.306053E-12
+   5.400000E+01   1.638275E-10
+   5.600000E+01   5.390267E-09
+   5.800000E+01   6.771081E-08
+   6.000000E+01   4.196139E-07
+   6.500000E+01   1.014761E-05
+   7.000000E+01   2.827578E-04
+   7.500000E+01   4.310149E-03
+   8.000000E+01   2.623917E-02
+   9.000000E+01   1.682552E-01
+   1.000000E+02   4.057170E-01
+   1.100000E+02   8.729466E-01
+   1.200000E+02   1.534545E+00
+   1.300000E+02   2.237974E+00
+   1.400000E+02   3.282150E+00
+   1.500000E+02   5.429213E+00
+   1.600000E+02   8.335481E+00
+   1.800000E+02   1.245780E+01
+   2.000000E+02   1.354045E+01

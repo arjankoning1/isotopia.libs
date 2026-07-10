@@ -1,0 +1,45 @@
+# header: 
+#   title: Pd110(n,x)Ru100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 100
+#     nuclide: Ru100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.163607E-12
+   6.000000E+01   2.019138E-09
+   6.500000E+01   1.754137E-04
+   7.000000E+01   5.419788E-02
+   7.500000E+01   1.105338E+00
+   8.000000E+01   6.209277E+00
+   9.000000E+01   2.492707E+01
+   1.000000E+02   3.538953E+01
+   1.100000E+02   4.106947E+01
+   1.200000E+02   4.179899E+01
+   1.300000E+02   4.013068E+01
+   1.400000E+02   4.128539E+01
+   1.500000E+02   3.699557E+01
+   1.600000E+02   3.427719E+01
+   1.800000E+02   3.015107E+01
+   2.000000E+02   2.670061E+01

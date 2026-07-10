@@ -1,0 +1,37 @@
+# header: 
+#   title: Ga69(n,x)Ga68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Viktorov
+#   year: 1972
+#   subentry: 40107002
+#   X4 reaction: 31-GA-69(N,2N)31-GA-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40107002
+# target: 
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   3.000000E-01   9.890001E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: D.V.Viktorov,V.L.Zyablin
+#   title: Cross-sections for (n,2n) reactions on Ga,As,Sm,Gd for 14.1 MeV neutrons
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.15, p.608 (1972)

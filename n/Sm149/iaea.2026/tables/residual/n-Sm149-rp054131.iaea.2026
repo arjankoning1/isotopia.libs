@@ -1,0 +1,42 @@
+# header: 
+#   title: Sm149(n,x)Xe131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 149
+#   nuclide: Sm149
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 131
+#     nuclide: Xe131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.681055E-10
+   7.500000E+01   1.925628E-07
+   8.000000E+01   7.707279E-06
+   9.000000E+01   3.648435E-04
+   1.000000E+02   9.794019E-04
+   1.100000E+02   3.877766E-03
+   1.200000E+02   2.792349E-02
+   1.300000E+02   6.049912E-02
+   1.400000E+02   1.642509E-01
+   1.500000E+02   4.176304E-01
+   1.600000E+02   6.314390E-01
+   1.800000E+02   1.247706E+00
+   2.000000E+02   1.962073E+00

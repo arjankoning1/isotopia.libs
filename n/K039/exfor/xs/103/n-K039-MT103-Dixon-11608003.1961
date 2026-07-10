@@ -1,0 +1,37 @@
+# header: 
+#   title: K39(n,p)Ar39 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dixon
+#   year: 1961
+#   subentry: 11608003
+#   X4 reaction: 19-K-39(N,P)18-AR-39,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11608003
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.460000E+00   1.000000E-01   9.600000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: W.R.Dixon,J.H.Aitken
+#   title: Absolute cross section of the K39(n,p)A39 reaction for 2.5-MeV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.24, p.456 (1961)

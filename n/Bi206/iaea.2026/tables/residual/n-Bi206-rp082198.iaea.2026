@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi206(n,x)Pb198 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 198
+#     nuclide: Pb198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.256789E-09
+   6.000000E+01   2.027233E-07
+   6.500000E+01   5.610091E-04
+   7.000000E+01   4.184849E-02
+   7.500000E+01   4.769779E-01
+   8.000000E+01   2.104613E+00
+   9.000000E+01   1.597081E+01
+   1.000000E+02   3.765738E+01
+   1.100000E+02   5.161956E+01
+   1.200000E+02   5.472464E+01
+   1.300000E+02   5.650483E+01
+   1.400000E+02   5.796792E+01
+   1.500000E+02   5.202950E+01
+   1.600000E+02   5.061479E+01
+   1.800000E+02   4.580356E+01
+   2.000000E+02   3.599155E+01

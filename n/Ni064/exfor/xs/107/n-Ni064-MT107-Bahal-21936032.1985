@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni64(n,a)Fe61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bahal
+#   year: 1985
+#   subentry: 21936032
+#   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21936032
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   6.000000E-01   3.853400E+00   2.082900E-01   1.041463E+00
+# reference:
+#   author: B.M.Bahal, R.Pepelnik
+#   title: Cross section measurements of Cr,Mn,Fe,Co,Ni for an  accurate determination of these elements in natural  and synthetic samples using a 14 MeV neutron generator
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-11 (1985

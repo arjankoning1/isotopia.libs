@@ -1,0 +1,37 @@
+# header: 
+#   title: Ru103(n,x)Rb83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 103
+#   nuclide: Ru103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.755342E-12
+   1.200000E+02   1.197771E-07
+   1.300000E+02   2.601200E-05
+   1.400000E+02   7.933562E-04
+   1.500000E+02   6.994515E-03
+   1.600000E+02   3.342497E-02
+   1.800000E+02   1.984519E-01
+   2.000000E+02   7.573054E-01

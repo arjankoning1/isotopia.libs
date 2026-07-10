@@ -1,0 +1,40 @@
+# header: 
+#   title: Mn55(n,x)K38g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.719271E-11
+   1.100000E+02   1.323816E-06
+   1.200000E+02   9.675830E-05
+   1.300000E+02   8.346292E-04
+   1.400000E+02   2.805927E-03
+   1.500000E+02   8.249002E-03
+   1.600000E+02   2.446823E-02
+   1.800000E+02   1.038520E-01
+   2.000000E+02   2.455508E-01

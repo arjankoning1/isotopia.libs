@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni61(n,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.724286E-12
+   7.500000E+01   6.706758E-10
+   8.000000E+01   2.269114E-08
+   9.000000E+01   7.397504E-07
+   1.000000E+02   2.438584E-06
+   1.100000E+02   5.921442E-06
+   1.200000E+02   5.339339E-05
+   1.300000E+02   2.622077E-04
+   1.400000E+02   7.923548E-04
+   1.500000E+02   1.634760E-03
+   1.600000E+02   3.584485E-03
+   1.800000E+02   1.066175E-02
+   2.000000E+02   1.588141E-02

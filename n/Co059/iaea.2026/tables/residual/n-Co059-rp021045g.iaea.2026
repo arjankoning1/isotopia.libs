@@ -1,0 +1,45 @@
+# header: 
+#   title: Co59(n,x)Sc45g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.471831E-10
+   7.000000E+01   3.395404E-06
+   7.500000E+01   4.451043E-04
+   8.000000E+01   6.095433E-03
+   9.000000E+01   8.597881E-02
+   1.000000E+02   2.802414E-01
+   1.100000E+02   4.742137E-01
+   1.200000E+02   1.146607E+00
+   1.300000E+02   2.495997E+00
+   1.400000E+02   4.183114E+00
+   1.500000E+02   6.009297E+00
+   1.600000E+02   9.966799E+00
+   1.800000E+02   1.660057E+01
+   2.000000E+02   2.294675E+01

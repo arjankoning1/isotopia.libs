@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba134(n,x)Cd117g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 117
+#     nuclide: Cd117g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.040922E-12
+   7.500000E+01   3.513864E-09
+   8.000000E+01   4.219438E-07
+   9.000000E+01   1.023743E-04
+   1.000000E+02   6.284534E-04
+   1.100000E+02   1.591754E-03
+   1.200000E+02   2.975031E-02
+   1.300000E+02   2.073435E-01
+   1.400000E+02   3.758660E-01
+   1.500000E+02   3.738066E-01
+   1.600000E+02   4.154112E-01
+   1.800000E+02   5.608925E-01
+   2.000000E+02   2.299526E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: W185(n,x)W176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 185
+#   nuclide: W185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 176
+#     nuclide: W176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.784158E-05
+   7.500000E+01   1.394227E-01
+   8.000000E+01   4.478078E+00
+   9.000000E+01   8.781598E+01
+   1.000000E+02   1.634905E+02
+   1.100000E+02   1.097132E+02
+   1.200000E+02   6.992322E+01
+   1.300000E+02   5.874929E+01
+   1.400000E+02   5.296672E+01
+   1.500000E+02   4.976390E+01
+   1.600000E+02   4.691734E+01
+   1.800000E+02   4.219756E+01
+   2.000000E+02   4.174844E+01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Th231(n,x)Fr220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 231
+#   nuclide: Th231
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 220
+#     nuclide: Fr220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.022275E-12
+   5.800000E+01   4.940564E-12
+   6.000000E+01   1.758580E-11
+   6.500000E+01   1.803656E-10
+   7.000000E+01   1.310957E-09
+   7.500000E+01   1.200374E-08
+   8.000000E+01   3.748394E-08
+   9.000000E+01   6.903377E-08
+   1.000000E+02   5.697097E-08
+   1.100000E+02   4.360866E-08
+   1.200000E+02   4.879975E-08
+   1.300000E+02   4.931816E-08
+   1.400000E+02   7.010809E-08
+   1.500000E+02   4.928855E-08
+   1.600000E+02   4.257691E-08
+   1.800000E+02   7.600168E-07
+   2.000000E+02   2.310409E-06

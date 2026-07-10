@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb208(n,x)Tl195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 195
+#     nuclide: Tl195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.747212E-08
+   1.200000E+02   7.656662E-05
+   1.300000E+02   2.917727E-03
+   1.400000E+02   2.033928E-02
+   1.500000E+02   7.570954E-02
+   1.600000E+02   1.675985E-01
+   1.800000E+02   3.668439E-01
+   2.000000E+02   6.193932E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn112(n,np)In111m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gopych
+#   year: 1987
+#   subentry: 41032033
+#   X4 reaction: 50-SN-112(N,X)49-IN-111-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41032033
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 49
+#     A: 111
+#     nuclide: In111m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   2.700000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: P.M.Gopych, M.N.Demchenko, I.I.Zalyubovskiy,  P.S.Kizim, V.V.Sotnikov, A.F.Shchus'
+#   title: Neutron cross-sections for tin, tellurium,silicon  and phosphorus nuclei at the neutron energy 14.6  MeV
+#   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.3, p.295 (

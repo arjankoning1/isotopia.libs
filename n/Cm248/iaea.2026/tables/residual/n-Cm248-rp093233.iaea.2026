@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm248(n,x)Np233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 248
+#   nuclide: Cm248
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 233
+#     nuclide: Np233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.553006E-07
+   1.000000E+02   4.711380E-04
+   1.100000E+02   9.002366E-03
+   1.200000E+02   2.785014E-02
+   1.300000E+02   5.903752E-02
+   1.400000E+02   7.283404E-02
+   1.500000E+02   1.031022E-01
+   1.600000E+02   7.160619E-02
+   1.800000E+02   3.392429E-02
+   2.000000E+02   1.216964E-02

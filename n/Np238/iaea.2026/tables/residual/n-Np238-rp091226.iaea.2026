@@ -1,0 +1,43 @@
+# header: 
+#   title: Np238(n,x)Pa226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 226
+#     nuclide: Pa226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.059726E-13
+   7.000000E+01   1.478290E-09
+   7.500000E+01   2.051380E-07
+   8.000000E+01   4.082218E-06
+   9.000000E+01   1.981754E-05
+   1.000000E+02   1.166456E-04
+   1.100000E+02   1.389244E-04
+   1.200000E+02   6.402301E-04
+   1.300000E+02   1.828467E-03
+   1.400000E+02   2.547189E-03
+   1.500000E+02   1.181743E-03
+   1.600000E+02   9.254529E-03
+   1.800000E+02   7.110741E-03
+   2.000000E+02   5.270289E-03

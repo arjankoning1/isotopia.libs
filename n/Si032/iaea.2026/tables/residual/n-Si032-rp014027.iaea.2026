@@ -1,0 +1,47 @@
+# header: 
+#   title: Si32(n,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.693638E-12
+   5.600000E+01   3.996179E-07
+   5.800000E+01   2.870466E-05
+   6.000000E+01   2.932830E-04
+   6.500000E+01   6.214576E-03
+   7.000000E+01   2.689510E-02
+   7.500000E+01   6.806354E-02
+   8.000000E+01   1.192820E-01
+   9.000000E+01   1.929023E-01
+   1.000000E+02   2.131085E-01
+   1.100000E+02   2.079190E-01
+   1.200000E+02   1.963859E-01
+   1.300000E+02   1.839267E-01
+   1.400000E+02   1.748590E-01
+   1.500000E+02   1.689189E-01
+   1.600000E+02   1.588791E-01
+   1.800000E+02   1.427518E-01
+   2.000000E+02   1.314971E-01

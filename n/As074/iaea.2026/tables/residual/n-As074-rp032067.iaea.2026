@@ -1,0 +1,44 @@
+# header: 
+#   title: As74(n,x)Ge67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 67
+#     nuclide: Ge67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.015819E-11
+   6.500000E+01   2.888786E-05
+   7.000000E+01   3.071435E-03
+   7.500000E+01   3.031287E-02
+   8.000000E+01   1.127266E-01
+   9.000000E+01   6.515821E-01
+   1.000000E+02   1.697652E+00
+   1.100000E+02   2.541957E+00
+   1.200000E+02   2.992378E+00
+   1.300000E+02   3.014777E+00
+   1.400000E+02   3.050286E+00
+   1.500000E+02   2.995859E+00
+   1.600000E+02   3.009043E+00
+   1.800000E+02   3.028904E+00
+   2.000000E+02   2.946461E+00

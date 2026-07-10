@@ -1,0 +1,41 @@
+# header: 
+#   title: Na23(n,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.310067E-10
+   8.000000E+01   7.779626E-08
+   9.000000E+01   3.038889E-06
+   1.000000E+02   1.062534E-05
+   1.100000E+02   2.004216E-05
+   1.200000E+02   3.579367E-05
+   1.300000E+02   5.522452E-05
+   1.400000E+02   7.648869E-05
+   1.500000E+02   1.062194E-04
+   1.600000E+02   1.459185E-04
+   1.800000E+02   2.257895E-04
+   2.000000E+02   3.677028E-04

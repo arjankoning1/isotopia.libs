@@ -1,0 +1,41 @@
+# header: 
+#   title: Ce136(n,x)Cs123m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 136
+#   nuclide: Ce136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 123
+#     nuclide: Cs123m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.251797E-13
+   1.000000E+02   9.432007E-06
+   1.100000E+02   1.394206E-02
+   1.200000E+02   1.331019E+00
+   1.300000E+02   1.783480E+01
+   1.400000E+02   4.335424E+01
+   1.500000E+02   4.590052E+01
+   1.600000E+02   2.720539E+01
+   1.800000E+02   7.040494E+00
+   2.000000E+02   5.404113E+00

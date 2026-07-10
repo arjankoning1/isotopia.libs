@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti46(n,x)Cl42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 42
+#     nuclide: Cl42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.393283E-10
+   6.500000E+01   6.146186E-07
+   7.000000E+01   1.891744E-05
+   7.500000E+01   1.116351E-04
+   8.000000E+01   3.015592E-04
+   9.000000E+01   6.124097E-04
+   1.000000E+02   5.744888E-04
+   1.100000E+02   4.026374E-04
+   1.200000E+02   2.874003E-04
+   1.300000E+02   1.774664E-04
+   1.400000E+02   1.227941E-04
+   1.500000E+02   9.990013E-05
+   1.600000E+02   6.728977E-05
+   1.800000E+02   3.953058E-05
+   2.000000E+02   2.769136E-05

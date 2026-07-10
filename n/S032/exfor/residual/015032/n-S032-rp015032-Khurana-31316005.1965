@@ -1,0 +1,37 @@
+# header: 
+#   title: S32(n,x)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Khurana
+#   year: 1965
+#   subentry: 31316005
+#   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31316005
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   3.520000E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: C.S.Khurana, I.M.Govil
+#   title: The (n,a),(n,p) and (n,t) cross-sections at 14.8 MeV
+#   journal: Jour: Nuclear Physics, Vol.69, p.153 (1965)

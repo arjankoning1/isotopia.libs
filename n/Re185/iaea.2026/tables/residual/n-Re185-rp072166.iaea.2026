@@ -1,0 +1,35 @@
+# header: 
+#   title: Re185(n,x)Hf166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 166
+#     nuclide: Hf166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   4.006812E-12
+   1.400000E+02   1.647543E-06
+   1.500000E+02   4.093448E-03
+   1.600000E+02   2.066097E-01
+   1.800000E+02   4.082488E+00
+   2.000000E+02   7.303875E+00

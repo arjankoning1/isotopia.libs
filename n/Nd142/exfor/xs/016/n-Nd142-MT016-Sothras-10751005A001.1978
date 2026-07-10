@@ -1,0 +1,37 @@
+# header: 
+#   title: Nd142(n,2n)Nd141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sothras
+#   year: 1978
+#   subentry: 10751005
+#   X4 reaction: 60-ND-142(N,2N)60-ND-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10751005
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   1.874000E+03   1.720000E+02   1.000000E+00
+# reference:
+#   author: S.L.Sothras,G.N.Salaita
+#   title: (n,2n) cross sections at 14.8-MeV on some closed  shell nuclides
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.40, p.585 (1978)

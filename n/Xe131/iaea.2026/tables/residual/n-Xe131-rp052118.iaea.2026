@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe131(n,x)Te118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 118
+#     nuclide: Te118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.775965E-11
+   1.000000E+02   5.078463E-05
+   1.100000E+02   2.513572E-02
+   1.200000E+02   1.751736E-01
+   1.300000E+02   9.028519E-01
+   1.400000E+02   2.005755E+00
+   1.500000E+02   3.248412E+00
+   1.600000E+02   4.151962E+00
+   1.800000E+02   6.119371E+00
+   2.000000E+02   6.846940E+00

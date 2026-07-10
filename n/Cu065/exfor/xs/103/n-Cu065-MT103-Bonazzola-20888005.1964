@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu65(n,p)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bonazzola
+#   year: 1964
+#   subentry: 20888005
+#   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20888005
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   2.600000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: C.G.BONAZZOLA,P.BROVETTO,E.CHIAVASSA,R.SPINOGLIO,  A.PASQUARELLI
+#   title: -THE MEASUREMENT BY ACTIVATION OF CROSS SECTIONS  FOR 14.7 MEV NEUTRONS-
+#   journal: Jour: Nuclear Physics, Vol.51, p.337 (1964)

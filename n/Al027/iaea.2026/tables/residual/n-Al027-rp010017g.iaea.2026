@@ -1,0 +1,41 @@
+# header: 
+#   title: Al27(n,x)Ne17g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.879462E-09
+   1.000000E+02   1.459785E-06
+   1.100000E+02   1.994139E-05
+   1.200000E+02   9.330898E-05
+   1.300000E+02   2.576290E-04
+   1.400000E+02   5.512289E-04
+   1.500000E+02   9.750690E-04
+   1.600000E+02   1.482400E-03
+   1.800000E+02   2.495598E-03
+   2.000000E+02   3.287476E-03

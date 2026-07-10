@@ -1,0 +1,40 @@
+# header: 
+#   title: Cs136(n,x)In117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 117
+#     nuclide: In117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.404397E-13
+   1.100000E+02   6.017500E-08
+   1.200000E+02   2.810981E-05
+   1.300000E+02   6.589537E-04
+   1.400000E+02   3.049566E-03
+   1.500000E+02   7.730683E-03
+   1.600000E+02   1.720376E-02
+   1.800000E+02   5.014125E-02
+   2.000000E+02   7.315449E-02

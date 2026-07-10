@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar42(n,x)Ne24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 24
+#     nuclide: Ne24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.217495E-10
+   9.000000E+01   3.909551E-07
+   1.000000E+02   1.318559E-05
+   1.100000E+02   6.654589E-05
+   1.200000E+02   1.513103E-04
+   1.300000E+02   3.168669E-04
+   1.400000E+02   7.628333E-04
+   1.500000E+02   1.600531E-03
+   1.600000E+02   2.927365E-03
+   1.800000E+02   8.304898E-03
+   2.000000E+02   1.861911E-02

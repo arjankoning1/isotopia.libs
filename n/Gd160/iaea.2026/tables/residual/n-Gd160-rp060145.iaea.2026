@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd160(n,x)Nd145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 160
+#   nuclide: Gd160
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 145
+#     nuclide: Nd145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.321769E-09
+   8.000000E+01   7.292651E-06
+   9.000000E+01   2.844332E-02
+   1.000000E+02   7.167140E-01
+   1.100000E+02   2.294648E+00
+   1.200000E+02   4.207533E+00
+   1.300000E+02   6.859497E+00
+   1.400000E+02   1.061525E+01
+   1.500000E+02   1.419431E+01
+   1.600000E+02   1.559395E+01
+   1.800000E+02   1.205824E+01
+   2.000000E+02   1.210811E+01

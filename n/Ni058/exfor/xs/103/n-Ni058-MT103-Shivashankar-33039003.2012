@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shivashankar
+#   year: 2012
+#   subentry: 33039003
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33039003
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.700000E+00   3.000000E-01   3.162546E+02   3.591535E+01   9.976487E-01
+# reference:
+#   author: B.S.Shivashankar, H.Naik, S.V.Suryanarayana, P.M.Prajapati, V.K.Mulik, K.C.Jagadeesan, S.V.Thakare, A.Goswami, S.Ganesan
+#   title: Measurement of reaction cross-sections for 64Ni(n,gamma)65Ni at En = 0.025 eV and 58Ni(n,p)58Co at En = 3.7 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.292, p.745 (

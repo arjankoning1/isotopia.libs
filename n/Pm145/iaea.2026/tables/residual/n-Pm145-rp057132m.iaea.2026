@@ -1,0 +1,45 @@
+# header: 
+#   title: Pm145(n,x)La132m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.183517E-12
+   7.000000E+01   2.194919E-08
+   7.500000E+01   2.670391E-05
+   8.000000E+01   2.250721E-03
+   9.000000E+01   1.339960E-01
+   1.000000E+02   4.613197E-01
+   1.100000E+02   6.438496E-01
+   1.200000E+02   8.865137E-01
+   1.300000E+02   1.256196E+00
+   1.400000E+02   1.792799E+00
+   1.500000E+02   2.640845E+00
+   1.600000E+02   4.175876E+00
+   1.800000E+02   6.513063E+00
+   2.000000E+02   4.688498E+00

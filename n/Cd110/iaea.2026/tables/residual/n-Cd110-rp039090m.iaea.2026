@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd110(n,x)Y90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.350732E-12
+   1.000000E+02   4.181590E-08
+   1.100000E+02   8.061371E-06
+   1.200000E+02   1.905374E-04
+   1.300000E+02   1.971948E-03
+   1.400000E+02   1.822162E-02
+   1.500000E+02   1.314256E-01
+   1.600000E+02   5.071937E-01
+   1.800000E+02   1.533565E+00
+   2.000000E+02   3.113774E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn113(n,x)Nb93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.604855E-11
+   1.000000E+02   5.602757E-08
+   1.100000E+02   5.119206E-06
+   1.200000E+02   1.173703E-04
+   1.300000E+02   6.930238E-04
+   1.400000E+02   2.381400E-03
+   1.500000E+02   1.054619E-02
+   1.600000E+02   3.114599E-02
+   1.800000E+02   8.475605E-02
+   2.000000E+02   1.978255E-01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Pt196(n,x)Lu176g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 196
+#   nuclide: Pt196
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.586374E-09
+   1.100000E+02   3.427682E-05
+   1.200000E+02   5.769360E-03
+   1.300000E+02   1.115839E-01
+   1.400000E+02   3.948334E-01
+   1.500000E+02   6.677562E-01
+   1.600000E+02   3.978371E-01
+   1.800000E+02   3.654282E-01
+   2.000000E+02   3.159460E-01

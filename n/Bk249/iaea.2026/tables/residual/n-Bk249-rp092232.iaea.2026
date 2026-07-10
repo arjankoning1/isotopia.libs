@@ -1,0 +1,40 @@
+# header: 
+#   title: Bk249(n,x)U232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 249
+#   nuclide: Bk249
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 232
+#     nuclide: U232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.489181E-12
+   9.000000E+01   6.147567E-07
+   1.000000E+02   2.829443E-04
+   1.100000E+02   2.777027E-03
+   1.200000E+02   1.070210E-02
+   1.300000E+02   2.129885E-02
+   1.400000E+02   2.645283E-02
+   1.500000E+02   2.789872E-02
+   1.600000E+02   3.189836E-02
+   1.800000E+02   3.691149E-02
+   2.000000E+02   1.740268E-02

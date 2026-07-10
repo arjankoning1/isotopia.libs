@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh99(n,x)Y85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 85
+#     nuclide: Y85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   3.989859E-12
+   6.000000E+01   2.280736E-10
+   6.500000E+01   7.380078E-07
+   7.000000E+01   1.295212E-04
+   7.500000E+01   2.487518E-03
+   8.000000E+01   1.797948E-02
+   9.000000E+01   1.255500E-01
+   1.000000E+02   2.856736E-01
+   1.100000E+02   6.821963E-01
+   1.200000E+02   2.090234E+00
+   1.300000E+02   4.635353E+00
+   1.400000E+02   7.431370E+00
+   1.500000E+02   1.314147E+01
+   1.600000E+02   1.918470E+01
+   1.800000E+02   2.969810E+01
+   2.000000E+02   4.303088E+01

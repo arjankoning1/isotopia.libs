@@ -1,0 +1,43 @@
+# header: 
+#   title: F19(n,n'_03)F20 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grace
+#   year: 1951
+#   subentry: 21381002
+#   X4 reaction: 9-F-19(N,INL)9-F-19,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21381002
+#   level energy [MeV]:  1.30000E+00
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,n'_03)
+#   ENDF_MF: 3
+#   ENDF_MT: 53
+#   level: 
+#     number: 3
+#     energy [MeV]:  1.345670E+00
+#     spin:  2.500000E+00
+#     parity: -1
+#   residual: 
+#     Z: 9
+#     A: 20
+#     nuclide: F20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   2.000000E-01   5.200000E+02   1.800000E+02   1.000000E+00
+# reference:
+#   author: M.A.GRACE,L.E.BEGHIAN,G.PRESTON,H.HALBAN
+#   title: -THE INELASTIC SCATTERING OF FAST NEUTRONS -.
+#   journal: Jour: Physical Review, Vol.82, p.969 (1951)

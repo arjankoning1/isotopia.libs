@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba137(n,x)Xe125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.746282E-13
+   9.000000E+01   5.132607E-05
+   1.000000E+02   5.602521E-02
+   1.100000E+02   1.076422E+00
+   1.200000E+02   4.029341E+00
+   1.300000E+02   7.077638E+00
+   1.400000E+02   8.782418E+00
+   1.500000E+02   9.246151E+00
+   1.600000E+02   9.123704E+00
+   1.800000E+02   8.360851E+00
+   2.000000E+02   6.943112E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Kr82(n,x)Zn65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 82
+#   nuclide: Kr82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.146390E-09
+   1.000000E+02   2.502127E-04
+   1.100000E+02   6.730916E-02
+   1.200000E+02   7.553970E-01
+   1.300000E+02   1.634173E+00
+   1.400000E+02   1.346574E+00
+   1.500000E+02   1.467939E+00
+   1.600000E+02   2.228959E+00
+   1.800000E+02   3.720486E+00
+   2.000000E+02   5.041727E+00

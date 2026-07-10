@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl36(n,x)O21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 21
+#     nuclide: O21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.175146E-08
+   1.000000E+02   6.065436E-07
+   1.100000E+02   3.437336E-06
+   1.200000E+02   9.471434E-06
+   1.300000E+02   1.956182E-05
+   1.400000E+02   4.064664E-05
+   1.500000E+02   8.940194E-05
+   1.600000E+02   1.774445E-04
+   1.800000E+02   5.082770E-04
+   2.000000E+02   8.920890E-04

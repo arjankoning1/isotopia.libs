@@ -1,0 +1,41 @@
+# header: 
+#   title: Ru104(n,x)Nb91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.380863E-06
+   1.000000E+02   4.970802E-03
+   1.100000E+02   9.121460E-02
+   1.200000E+02   4.586548E-01
+   1.300000E+02   7.342783E-01
+   1.400000E+02   6.136858E-01
+   1.500000E+02   7.943060E-01
+   1.600000E+02   9.452704E-01
+   1.800000E+02   1.257380E+00
+   2.000000E+02   1.208632E+00

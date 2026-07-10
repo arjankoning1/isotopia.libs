@@ -1,0 +1,40 @@
+# header: 
+#   title: Zr93(n,x)Ge73m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 93
+#   nuclide: Zr93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 73
+#     nuclide: Ge73m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.006810E-09
+   1.100000E+02   1.520918E-05
+   1.200000E+02   1.662844E-03
+   1.300000E+02   1.532857E-02
+   1.400000E+02   4.467480E-02
+   1.500000E+02   8.686954E-02
+   1.600000E+02   1.574866E-01
+   1.800000E+02   3.267592E-01
+   2.000000E+02   6.350747E-01

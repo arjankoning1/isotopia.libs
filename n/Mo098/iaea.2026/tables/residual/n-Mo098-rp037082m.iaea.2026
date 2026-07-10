@@ -1,0 +1,40 @@
+# header: 
+#   title: Mo98(n,x)Rb82m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.082526E-09
+   1.100000E+02   2.316437E-05
+   1.200000E+02   2.036757E-03
+   1.300000E+02   2.342346E-02
+   1.400000E+02   1.313195E-01
+   1.500000E+02   3.833739E-01
+   1.600000E+02   7.492010E-01
+   1.800000E+02   2.117010E+00
+   2.000000E+02   4.649165E+00

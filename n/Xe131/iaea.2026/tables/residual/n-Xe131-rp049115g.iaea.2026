@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe131(n,x)In115g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.763702E-11
+   1.000000E+02   1.610704E-05
+   1.100000E+02   4.070686E-03
+   1.200000E+02   5.768898E-02
+   1.300000E+02   2.865384E-01
+   1.400000E+02   7.533787E-01
+   1.500000E+02   1.229326E+00
+   1.600000E+02   1.859118E+00
+   1.800000E+02   2.321020E+00
+   2.000000E+02   1.985971E+00

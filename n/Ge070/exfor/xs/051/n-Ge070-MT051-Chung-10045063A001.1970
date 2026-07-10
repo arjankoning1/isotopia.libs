@@ -1,0 +1,45 @@
+# header: 
+#   title: Ge70(n,n'_01)Ge71 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chung
+#   year: 1970
+#   subentry: 10045063
+#   X4 reaction: 32-GE-70(N,INL)32-GE-70,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10045063
+#   level energy [MeV]:  1.04000E+00
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.039506E+00
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 32
+#     A: 71
+#     nuclide: Ge71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+00   5.500000E-02   6.820000E+02   0.000000E+00   1.000000E+00
+   2.130000E+00   5.500000E-02   7.090001E+02   0.000000E+00   1.000000E+00
+   2.550000E+00   5.500000E-02   9.330000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: K.C.CHUNG,A.MITTLER,J.D.BRANDENBERGER,M.T.MCELLISTREM
+#   title: Ge(n,n'gamma) Reactions and Low-Lying States of Ge  Isotopes.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.2, p.139 (1970)

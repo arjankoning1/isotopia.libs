@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba135(n,x)I120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.749657E-09
+   1.200000E+02   2.739070E-04
+   1.300000E+02   4.198773E-02
+   1.400000E+02   7.322112E-01
+   1.500000E+02   4.262722E+00
+   1.600000E+02   9.592848E+00
+   1.800000E+02   1.175665E+01
+   2.000000E+02   9.689308E+00

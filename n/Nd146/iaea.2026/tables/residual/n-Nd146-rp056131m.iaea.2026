@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd146(n,x)Ba131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.905739E-11
+   9.000000E+01   4.615142E-05
+   1.000000E+02   2.750875E-02
+   1.100000E+02   2.344018E-01
+   1.200000E+02   4.481811E-01
+   1.300000E+02   6.424711E-01
+   1.400000E+02   7.094783E-01
+   1.500000E+02   1.239824E+00
+   1.600000E+02   2.171834E+00
+   1.800000E+02   4.276945E+00
+   2.000000E+02   7.911767E+00

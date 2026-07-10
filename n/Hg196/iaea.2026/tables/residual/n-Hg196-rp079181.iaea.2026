@@ -1,0 +1,35 @@
+# header: 
+#   title: Hg196(n,x)Au181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 181
+#     nuclide: Au181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.603932E-10
+   1.400000E+02   6.643967E-06
+   1.500000E+02   5.883970E-04
+   1.600000E+02   2.520133E-02
+   1.800000E+02   9.249229E-01
+   2.000000E+02   3.673478E+00

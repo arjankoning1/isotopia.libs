@@ -1,0 +1,37 @@
+# header: 
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barrall
+#   year: 1969
+#   subentry: 10031006
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10031006
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   3.000720E+02   2.000480E+01   1.000240E+00
+# reference:
+#   author: R.C.BARRALL,M.SILBERGELD,D.G.GARDNER
+#   title: Cross sections of some reactions of Al, S, Mn, Fe, Ni, In, and I with 14.8 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Section A, Vol.138, p.387 (1969)

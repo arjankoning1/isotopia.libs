@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni61(n,x)Ni56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.390205E-11
+   5.400000E+01   5.009458E-07
+   5.600000E+01   2.851236E-05
+   5.800000E+01   2.599194E-04
+   6.000000E+01   1.069043E-03
+   6.500000E+01   8.575326E-03
+   7.000000E+01   2.621856E-02
+   7.500000E+01   5.006756E-02
+   8.000000E+01   7.192818E-02
+   9.000000E+01   9.714236E-02
+   1.000000E+02   1.015545E-01
+   1.100000E+02   1.033278E-01
+   1.200000E+02   1.003364E-01
+   1.300000E+02   9.646230E-02
+   1.400000E+02   9.031282E-02
+   1.500000E+02   8.964958E-02
+   1.600000E+02   8.443268E-02
+   1.800000E+02   8.004450E-02
+   2.000000E+02   7.387622E-02

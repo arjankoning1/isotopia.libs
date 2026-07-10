@@ -1,0 +1,46 @@
+# header: 
+#   title: Zn68(n,a)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Herman
+#   year: 1980
+#   subentry: 30552005
+#   X4 reaction: 30-ZN-68(N,A)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30552005
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   1.000000E+01   2.000000E+00   1.000000E+00
+   1.340000E+01   2.000000E-01   1.000000E+01   1.000000E+00   1.000000E+00
+   1.390000E+01   3.000000E-01   7.000000E+00   1.000000E+00   1.000000E+00
+   1.450000E+01   3.000000E-01   8.000000E+00   1.000000E+00   1.000000E+00
+   1.500000E+01   3.000000E-01   8.000000E+00   1.000000E+00   1.000000E+00
+   1.540000E+01   2.000000E-01   8.000000E+00   1.000000E+00   1.000000E+00
+   1.590000E+01   5.000000E-01   8.000000E+00   2.000000E+00   1.000000E+00
+   1.660000E+01   1.000000E-01   6.000000E+00   1.000000E+00   1.000000E+00
+   1.740000E+01   4.000000E-01   6.000000E+00   2.000000E+00   1.000000E+00
+   1.790000E+01   1.000000E-01   5.000000E+00   1.000000E+00   1.000000E+00
+# reference:
+#   author: M.Herman,A.Marcinkowski,J.Dresler,U.Garuska
+#   title: Cross sections for the fast neutron induced reactions on Si and Zn isotopes.
+#   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1871/I/PL/A, p

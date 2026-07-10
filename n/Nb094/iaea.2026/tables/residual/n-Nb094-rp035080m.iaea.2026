@@ -1,0 +1,46 @@
+# header: 
+#   title: Nb94(n,x)Br80m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 94
+#   nuclide: Nb94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.842210E-11
+   6.500000E+01   3.835748E-07
+   7.000000E+01   7.758796E-05
+   7.500000E+01   9.309112E-04
+   8.000000E+01   2.783027E-03
+   9.000000E+01   1.785350E-02
+   1.000000E+02   3.324257E-02
+   1.100000E+02   7.736350E-02
+   1.200000E+02   2.343829E-01
+   1.300000E+02   4.374461E-01
+   1.400000E+02   6.172476E-01
+   1.500000E+02   9.006830E-01
+   1.600000E+02   1.402859E+00
+   1.800000E+02   1.973674E+00
+   2.000000E+02   1.783115E+00

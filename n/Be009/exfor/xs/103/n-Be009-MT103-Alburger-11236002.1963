@@ -1,0 +1,37 @@
+# header: 
+#   title: Be9(n,p)Li9 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Alburger
+#   year: 1963
+#   subentry: 11236002
+#   X4 reaction: 4-BE-9(N,P)3-LI-9,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11236002
+# target: 
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 3
+#     A: 9
+#     nuclide: Li9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+01   0.000000E+00   7.000000E-01   3.500000E-01   1.000000E+00
+# reference:
+#   author: D.E.ALBURGER
+#   title: BETA DECAY OF LI-9.
+#   journal: Jour: Physical Review, Vol.132, p.328 (1963)

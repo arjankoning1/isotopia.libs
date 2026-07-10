@@ -1,0 +1,41 @@
+# header: 
+#   title: Pb206(n,x)Ir190g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 190
+#     nuclide: Ir190g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.939141E-10
+   1.000000E+02   5.532229E-05
+   1.100000E+02   1.553192E-02
+   1.200000E+02   3.781688E-01
+   1.300000E+02   2.159025E+00
+   1.400000E+02   4.016933E+00
+   1.500000E+02   7.790160E+00
+   1.600000E+02   9.689500E+00
+   1.800000E+02   1.050873E+01
+   2.000000E+02   1.574832E+01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Ta182(n,x)Lu167m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 182
+#   nuclide: Ta182
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 167
+#     nuclide: Lu167m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.341204E-08
+   1.100000E+02   8.646697E-05
+   1.200000E+02   4.525567E-03
+   1.300000E+02   2.469563E-02
+   1.400000E+02   4.554595E-02
+   1.500000E+02   9.237058E-02
+   1.600000E+02   1.351396E-01
+   1.800000E+02   3.097798E-01
+   2.000000E+02   3.055358E-01

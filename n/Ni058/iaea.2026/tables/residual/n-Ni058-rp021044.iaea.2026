@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni58(n,x)Sc44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.347210E-11
+   6.500000E+01   1.610450E-07
+   7.000000E+01   1.578608E-05
+   7.500000E+01   2.394721E-04
+   8.000000E+01   2.385090E-03
+   9.000000E+01   5.976921E-02
+   1.000000E+02   2.404525E-01
+   1.100000E+02   4.754271E-01
+   1.200000E+02   1.127677E+00
+   1.300000E+02   2.495343E+00
+   1.400000E+02   4.665816E+00
+   1.500000E+02   6.782956E+00
+   1.600000E+02   1.136728E+01
+   1.800000E+02   1.744945E+01
+   2.000000E+02   2.961125E+01

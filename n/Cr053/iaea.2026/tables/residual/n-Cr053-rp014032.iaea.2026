@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr53(n,x)Si32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 32
+#     nuclide: Si32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.833660E-10
+   1.000000E+02   1.212221E-07
+   1.100000E+02   2.732351E-06
+   1.200000E+02   1.175492E-05
+   1.300000E+02   2.794501E-05
+   1.400000E+02   1.057477E-04
+   1.500000E+02   3.970810E-04
+   1.600000E+02   1.120921E-03
+   1.800000E+02   5.187190E-03
+   2.000000E+02   1.704412E-02

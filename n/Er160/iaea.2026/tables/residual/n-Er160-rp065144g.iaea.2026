@@ -1,0 +1,38 @@
+# header: 
+#   title: Er160(n,x)Tb144g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 160
+#   nuclide: Er160
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 144
+#     nuclide: Tb144g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.039212E-11
+   1.300000E+02   7.533134E-08
+   1.400000E+02   5.024402E-06
+   1.500000E+02   6.645714E-05
+   1.600000E+02   3.731971E-04
+   1.800000E+02   2.127315E-03
+   2.000000E+02   5.727065E-03

@@ -1,0 +1,34 @@
+# header: 
+#   title: Pm143(n,x)Xe120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 143
+#   nuclide: Pm143
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 120
+#     nuclide: Xe120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   2.018006E-11
+   1.500000E+02   3.417371E-07
+   1.600000E+02   1.145929E-04
+   1.800000E+02   3.472796E-02
+   2.000000E+02   4.716924E-01

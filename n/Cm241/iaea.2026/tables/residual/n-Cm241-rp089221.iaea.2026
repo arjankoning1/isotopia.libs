@@ -1,0 +1,38 @@
+# header: 
+#   title: Cm241(n,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.682390E-12
+   1.100000E+02   1.364683E-09
+   1.200000E+02   6.526169E-08
+   1.300000E+02   5.335968E-07
+   1.400000E+02   6.959517E-07
+   1.500000E+02   8.993939E-07
+   1.600000E+02   2.890773E-06
+   1.800000E+02   3.605287E-06
+   2.000000E+02   6.346145E-06

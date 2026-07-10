@@ -1,0 +1,39 @@
+# header: 
+#   title: Nd144(n,x)Nd133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 133
+#     nuclide: Nd133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.225364E-09
+   1.200000E+02   2.369654E-05
+   1.300000E+02   9.842145E-04
+   1.400000E+02   6.028643E-03
+   1.500000E+02   1.732088E-02
+   1.600000E+02   3.453878E-02
+   1.800000E+02   6.917155E-02
+   2.000000E+02   1.061689E-01

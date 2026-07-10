@@ -1,0 +1,40 @@
+# header: 
+#   title: Cu63(n,x)Ca48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 48
+#     nuclide: Ca48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.685702E-11
+   9.000000E+01   2.579281E-08
+   1.000000E+02   8.940231E-07
+   1.100000E+02   7.822459E-06
+   1.200000E+02   3.051788E-05
+   1.300000E+02   6.618468E-05
+   1.400000E+02   2.009373E-04
+   1.500000E+02   5.403319E-04
+   1.600000E+02   1.099581E-03
+   1.800000E+02   2.831582E-03
+   2.000000E+02   2.817026E-03

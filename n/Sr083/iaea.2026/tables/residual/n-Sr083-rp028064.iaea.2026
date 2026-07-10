@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr83(n,x)Ni64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 83
+#   nuclide: Sr83
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.401504E-12
+   7.500000E+01   5.781558E-11
+   8.000000E+01   3.187952E-10
+   9.000000E+01   1.664100E-08
+   1.000000E+02   6.147826E-06
+   1.100000E+02   1.232311E-04
+   1.200000E+02   4.594623E-04
+   1.300000E+02   9.209171E-04
+   1.400000E+02   2.662841E-03
+   1.500000E+02   1.087839E-02
+   1.600000E+02   2.898876E-02
+   1.800000E+02   4.846567E-02
+   2.000000E+02   5.628806E-02

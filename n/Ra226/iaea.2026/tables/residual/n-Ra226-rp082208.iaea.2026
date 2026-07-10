@@ -1,0 +1,46 @@
+# header: 
+#   title: Ra226(n,x)Pb208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 208
+#     nuclide: Pb208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.364266E-12
+   5.800000E+01   8.943800E-12
+   6.000000E+01   6.614246E-11
+   6.500000E+01   1.681470E-09
+   7.000000E+01   3.809955E-08
+   7.500000E+01   7.600292E-07
+   8.000000E+01   6.166952E-06
+   9.000000E+01   1.679795E-04
+   1.000000E+02   2.358726E-03
+   1.100000E+02   7.621450E-03
+   1.200000E+02   1.569419E-02
+   1.300000E+02   2.756179E-02
+   1.400000E+02   4.851249E-02
+   1.500000E+02   1.126142E-01
+   1.600000E+02   1.186653E-01
+   1.800000E+02   1.020019E-01
+   2.000000E+02   1.380897E-01

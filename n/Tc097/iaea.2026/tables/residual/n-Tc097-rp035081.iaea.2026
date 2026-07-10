@@ -1,0 +1,43 @@
+# header: 
+#   title: Tc97(n,x)Br81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 97
+#   nuclide: Tc97
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 81
+#     nuclide: Br81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.895728E-10
+   7.000000E+01   7.244148E-09
+   7.500000E+01   7.967461E-08
+   8.000000E+01   3.813645E-07
+   9.000000E+01   3.481828E-06
+   1.000000E+02   1.752034E-04
+   1.100000E+02   1.692688E-03
+   1.200000E+02   4.340141E-03
+   1.300000E+02   9.426613E-03
+   1.400000E+02   2.095046E-02
+   1.500000E+02   6.247924E-02
+   1.600000E+02   1.097265E-01
+   1.800000E+02   1.365076E-01
+   2.000000E+02   2.486011E-01

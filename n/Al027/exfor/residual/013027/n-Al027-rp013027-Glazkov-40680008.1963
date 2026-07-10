@@ -1,0 +1,37 @@
+# header: 
+#   title: Al27(n,x)Al27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glazkov
+#   year: 1963
+#   subentry: 40680008
+#   X4 reaction: 13-AL-27(N,INL)13-AL-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40680008
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 13
+#     A: 27
+#     nuclide: Al27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+00   0.000000E+00   1.800000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: N.P.Glazkov
+#   title: Cross sections of the inelastic scattering of neutrons with energies of 0.4-1.2 MeV on medium and light nuclei
+#   journal: Jour: Atomnaya Energiya, Vol.15, p.416 (1963)

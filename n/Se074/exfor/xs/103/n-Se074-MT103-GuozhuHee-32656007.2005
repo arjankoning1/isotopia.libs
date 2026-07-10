@@ -1,0 +1,37 @@
+# header: 
+#   title: Se74(n,p)As74 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: GuozhuHee
+#   year: 2005
+#   subentry: 32656007
+#   X4 reaction: 34-SE-74(N,P)33-AS-74,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32656007
+# target: 
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 33
+#     A: 74
+#     nuclide: As74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   9.630001E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: Guozhu He,Zhongjie Liu, Junhua Luo, Xiangzhong Kong
+#   title: Cross-section measurements of (n,2n),(n,p) and (n,a) reactions on some selenium isotopes near En=14MeV
+#   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.43, p.729 (2005)

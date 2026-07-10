@@ -1,0 +1,46 @@
+# header: 
+#   title: Pa230(n,x)Ra218 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 218
+#     nuclide: Ra218
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.638025E-11
+   5.800000E+01   1.400516E-09
+   6.000000E+01   3.760677E-08
+   6.500000E+01   4.540512E-06
+   7.000000E+01   7.819852E-05
+   7.500000E+01   1.109487E-03
+   8.000000E+01   6.917146E-03
+   9.000000E+01   1.015593E-01
+   1.000000E+02   3.832905E-01
+   1.100000E+02   6.007924E-01
+   1.200000E+02   1.072972E+00
+   1.300000E+02   2.408056E+00
+   1.400000E+02   3.719306E+00
+   1.500000E+02   3.823114E+00
+   1.600000E+02   4.143931E+00
+   1.800000E+02   2.424937E+00
+   2.000000E+02   1.792535E+00

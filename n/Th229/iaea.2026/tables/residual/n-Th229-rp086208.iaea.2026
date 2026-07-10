@@ -1,0 +1,37 @@
+# header: 
+#   title: Th229(n,x)Rn208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 208
+#     nuclide: Rn208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.666023E-11
+   1.200000E+02   1.464775E-06
+   1.300000E+02   4.120077E-04
+   1.400000E+02   1.846908E-02
+   1.500000E+02   1.656079E-01
+   1.600000E+02   4.041181E-01
+   1.800000E+02   1.859916E+00
+   2.000000E+02   5.905665E+00

@@ -1,0 +1,33 @@
+# header: 
+#   title: Zr90(n,xp) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Haight
+#   year: 1981
+#   subentry: 10960005
+#   X4 reaction: 40-ZR-90(N,X)1-H-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10960005
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,xp)
+#   ENDF_MF: 3
+#   ENDF_MT: 203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.660000E+02   2.000000E+01   1.000000E+00
+# reference:
+#   author: R.C.Haight,S.M.Grimes,R.G.Johnson,H.H.Barschall
+#   title: Charged particle emission in reactions of 15-MeV  neutrons with 89Y, 90Zr, and 92,94,95,96Mo.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.700 (1981)

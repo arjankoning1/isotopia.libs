@@ -1,0 +1,37 @@
+# header: 
+#   title: Mn55(n,a)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pasha
+#   year: 2020
+#   subentry: 33151007
+#   X4 reaction: 25-MN-55(N,A)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33151007
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.454000E+01   4.800000E-01   2.774360E+01   1.475800E+00   1.005203E+00
+# reference:
+#   author: I.Pasha, B.Rudraswamy, S.Y.Santhi, S.V.Suryanarayana, H.Naik, C.V.Midhun, T.Patel
+#   title: Measurement of 14.54 MeV neutron induced reaction cross sections of Cr and Mn with covariance analysis
+#   journal: Jour: Radiochimica Acta, Vol.108, p.679 (2020)

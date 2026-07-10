@@ -1,0 +1,47 @@
+# header: 
+#   title: Sr90(n,x)Kr81m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.214856E-12
+   6.000000E+01   3.864300E-09
+   6.500000E+01   2.126056E-04
+   7.000000E+01   3.108811E-02
+   7.500000E+01   2.897584E-01
+   8.000000E+01   8.357149E-01
+   9.000000E+01   1.840036E+00
+   1.000000E+02   2.255992E+00
+   1.100000E+02   3.164153E+00
+   1.200000E+02   5.025561E+00
+   1.300000E+02   6.601566E+00
+   1.400000E+02   7.389709E+00
+   1.500000E+02   6.753376E+00
+   1.600000E+02   6.382879E+00
+   1.800000E+02   4.543962E+00
+   2.000000E+02   4.030248E+00

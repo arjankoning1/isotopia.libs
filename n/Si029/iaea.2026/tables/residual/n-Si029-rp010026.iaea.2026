@@ -1,0 +1,48 @@
+# header: 
+#   title: Si29(n,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.107322E-11
+   5.400000E+01   6.641425E-10
+   5.600000E+01   8.355211E-09
+   5.800000E+01   5.046742E-08
+   6.000000E+01   1.977326E-07
+   6.500000E+01   1.607258E-06
+   7.000000E+01   4.953667E-06
+   7.500000E+01   8.979134E-06
+   8.000000E+01   1.193759E-05
+   9.000000E+01   1.318393E-05
+   1.000000E+02   1.164079E-05
+   1.100000E+02   9.631750E-06
+   1.200000E+02   7.955793E-06
+   1.300000E+02   6.418822E-06
+   1.400000E+02   5.314680E-06
+   1.500000E+02   4.450023E-06
+   1.600000E+02   3.690103E-06
+   1.800000E+02   2.769473E-06
+   2.000000E+02   2.203532E-06

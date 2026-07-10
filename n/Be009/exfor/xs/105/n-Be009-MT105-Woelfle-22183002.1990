@@ -1,0 +1,39 @@
+# header: 
+#   title: Be9(n,t)Li7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woelfle
+#   year: 1990
+#   subentry: 22183002
+#   X4 reaction: 4-BE-9(N,T)3-LI-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22183002
+# target: 
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.632000E+01   5.800000E-01   3.010542E+01   3.100000E+00   1.000180E+00
+   1.768000E+01   7.700000E-01   3.076470E+01   2.400000E+00   1.011997E+00
+   1.902000E+01   5.600000E-01   3.025221E+01   2.700000E+00   1.001729E+00
+# reference:
+#   author: R.Woelfle,S.M.Qaim,H.Liskien,R.Widera
+#   title: Systematic studies of excitation functions of (n,t)  reactions on medium and heavy mass nuclei
+#   journal: Jour: Radiochimica Acta, Vol.50, p.5 (1990)

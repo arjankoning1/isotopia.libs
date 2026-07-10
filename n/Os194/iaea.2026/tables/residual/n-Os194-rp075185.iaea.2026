@@ -1,0 +1,44 @@
+# header: 
+#   title: Os194(n,x)Re185 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 194
+#   nuclide: Os194
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 185
+#     nuclide: Re185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.143853E-09
+   6.500000E+01   1.525473E-04
+   7.000000E+01   2.638978E-02
+   7.500000E+01   3.505657E-01
+   8.000000E+01   1.581593E+00
+   9.000000E+01   1.142865E+01
+   1.000000E+02   3.285712E+01
+   1.100000E+02   4.729154E+01
+   1.200000E+02   5.349269E+01
+   1.300000E+02   5.078219E+01
+   1.400000E+02   5.756176E+01
+   1.500000E+02   4.925610E+01
+   1.600000E+02   5.419839E+01
+   1.800000E+02   3.963441E+01
+   2.000000E+02   4.841653E+01

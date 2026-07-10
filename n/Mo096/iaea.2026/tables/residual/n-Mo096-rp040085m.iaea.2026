@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo96(n,x)Zr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.018909E-09
+   1.000000E+02   1.272781E-05
+   1.100000E+02   1.835384E-04
+   1.200000E+02   7.090217E-04
+   1.300000E+02   1.635228E-03
+   1.400000E+02   2.879456E-03
+   1.500000E+02   4.627064E-03
+   1.600000E+02   8.068801E-03
+   1.800000E+02   1.426817E-02
+   2.000000E+02   1.760245E-02

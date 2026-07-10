@@ -1,0 +1,37 @@
+# header: 
+#   title: W186(n,x)W187 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beghian
+#   year: 1949
+#   subentry: 22580014
+#   X4 reaction: 74-W-186(N,G)74-W-187,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22580014
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E-01   1.300000E-02   4.200000E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: L.E.Beghian, H.H.Halban
+#   title: Absolute cross-sections for the capture of neutrons  of 200 and 900 keV energy.
+#   journal: Jour: Nature (London), Vol.163, p.366 (1949)

@@ -1,0 +1,43 @@
+# header: 
+#   title: I129(n,x)I122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 122
+#     nuclide: I122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.280550E-06
+   7.000000E+01   3.173925E-03
+   7.500000E+01   6.149665E-02
+   8.000000E+01   3.264030E-01
+   9.000000E+01   1.674955E+00
+   1.000000E+02   3.452944E+00
+   1.100000E+02   4.958807E+00
+   1.200000E+02   6.203619E+00
+   1.300000E+02   7.147602E+00
+   1.400000E+02   7.709888E+00
+   1.500000E+02   8.649170E+00
+   1.600000E+02   8.902184E+00
+   1.800000E+02   9.290963E+00
+   2.000000E+02   9.444958E+00

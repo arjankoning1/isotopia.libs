@@ -1,0 +1,37 @@
+# header: 
+#   title: Al27(n,d)Mg26 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glover
+#   year: 1961
+#   subentry: 30406016
+#   X4 reaction: 13-AL-27(N,D)12-MG-26,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30406016
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   3.000000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: R.N.Glover,E.Weigold
+#   title: Protons and deuterons from Al-27 bombarded by 14.8 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.24, p.630 (1961)

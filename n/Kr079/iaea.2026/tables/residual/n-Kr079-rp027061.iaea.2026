@@ -1,0 +1,41 @@
+# header: 
+#   title: Kr79(n,x)Co61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 79
+#   nuclide: Kr79
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 61
+#     nuclide: Co61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.313297E-11
+   8.000000E+01   1.692049E-09
+   9.000000E+01   2.241086E-06
+   1.000000E+02   1.389706E-04
+   1.100000E+02   1.108426E-03
+   1.200000E+02   3.794687E-03
+   1.300000E+02   1.994960E-02
+   1.400000E+02   6.362736E-02
+   1.500000E+02   1.002609E-01
+   1.600000E+02   1.496136E-01
+   1.800000E+02   3.280154E-01
+   2.000000E+02   4.370907E-01

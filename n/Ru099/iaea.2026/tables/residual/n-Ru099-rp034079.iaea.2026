@@ -1,0 +1,40 @@
+# header: 
+#   title: Ru99(n,x)Se79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.510829E-10
+   9.000000E+01   1.228220E-06
+   1.000000E+02   8.025131E-05
+   1.100000E+02   4.711403E-04
+   1.200000E+02   8.834406E-04
+   1.300000E+02   3.443259E-03
+   1.400000E+02   2.866933E-02
+   1.500000E+02   8.762731E-02
+   1.600000E+02   1.945181E-01
+   1.800000E+02   9.749984E-01
+   2.000000E+02   2.902203E+00

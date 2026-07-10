@@ -1,0 +1,42 @@
+# header: 
+#   title: Mn55(n,x)Cl41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 41
+#     nuclide: Cl41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.396201E-12
+   7.500000E+01   2.526295E-09
+   8.000000E+01   1.527460E-07
+   9.000000E+01   1.390948E-05
+   1.000000E+02   1.482042E-04
+   1.100000E+02   4.736572E-04
+   1.200000E+02   9.150743E-04
+   1.300000E+02   2.409932E-03
+   1.400000E+02   6.054611E-03
+   1.500000E+02   1.188448E-02
+   1.600000E+02   1.247869E-02
+   1.800000E+02   2.416062E-02
+   2.000000E+02   4.111921E-02

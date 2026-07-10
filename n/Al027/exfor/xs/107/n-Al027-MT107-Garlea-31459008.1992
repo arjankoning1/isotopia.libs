@@ -1,0 +1,37 @@
+# header: 
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Garlea
+#   year: 1992
+#   subentry: 31459008
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31459008
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.475800E+01   3.000000E-01   1.172310E+02   3.700000E+00   1.015866E+00
+# reference:
+#   author: I.Garlea, C.Miron-Garlea, H.N.Rosu, G.Fodor, V.Raducu
+#   title: Integral neutron cross sections measured around 14 MeV
+#   journal: Jour: Revue Roumaine de Physique, Vol.37, p.19 (1992)

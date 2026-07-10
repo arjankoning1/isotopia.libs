@@ -1,0 +1,43 @@
+# header: 
+#   title: Pb207(n,x)Os192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 192
+#     nuclide: Os192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.112072E-08
+   7.000000E+01   2.267214E-05
+   7.500000E+01   3.982211E-03
+   8.000000E+01   1.536603E-01
+   9.000000E+01   5.018507E+00
+   1.000000E+02   9.040304E+00
+   1.100000E+02   7.855705E+00
+   1.200000E+02   5.801382E+00
+   1.300000E+02   4.490226E+00
+   1.400000E+02   5.316626E+00
+   1.500000E+02   6.871167E+00
+   1.600000E+02   8.298389E+00
+   1.800000E+02   4.366620E+00
+   2.000000E+02   2.362185E+00

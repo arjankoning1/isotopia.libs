@@ -1,0 +1,46 @@
+# header: 
+#   title: Te125(n,x)Pd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 111
+#     nuclide: Pd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   5.137109E-12
+   5.800000E+01   4.173774E-10
+   6.000000E+01   3.244114E-08
+   6.500000E+01   4.079036E-05
+   7.000000E+01   5.110068E-03
+   7.500000E+01   6.912695E-02
+   8.000000E+01   2.358280E-01
+   9.000000E+01   5.647977E-01
+   1.000000E+02   5.445804E-01
+   1.100000E+02   7.938201E-01
+   1.200000E+02   1.339647E+00
+   1.300000E+02   2.230237E+00
+   1.400000E+02   3.098429E+00
+   1.500000E+02   3.237221E+00
+   1.600000E+02   3.769530E+00
+   1.800000E+02   5.701882E+00
+   2.000000E+02   5.266495E+00

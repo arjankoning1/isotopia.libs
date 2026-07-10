@@ -1,0 +1,40 @@
+# header: 
+#   title: Y87(n,x)Rb77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 77
+#     nuclide: Rb77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.163796E-10
+   9.000000E+01   3.217388E-04
+   1.000000E+02   2.340250E-02
+   1.100000E+02   1.214423E-01
+   1.200000E+02   2.391895E-01
+   1.300000E+02   4.144063E-01
+   1.400000E+02   7.394398E-01
+   1.500000E+02   1.107626E+00
+   1.600000E+02   1.633656E+00
+   1.800000E+02   1.865504E+00
+   2.000000E+02   2.811475E+00

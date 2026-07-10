@@ -1,0 +1,36 @@
+# header: 
+#   title: Xe130(n,x)Ru105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 105
+#     nuclide: Ru105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.511383E-11
+   1.300000E+02   3.443335E-06
+   1.400000E+02   2.627202E-03
+   1.500000E+02   7.058889E-02
+   1.600000E+02   3.702492E-01
+   1.800000E+02   1.955714E+00
+   2.000000E+02   7.706211E+00

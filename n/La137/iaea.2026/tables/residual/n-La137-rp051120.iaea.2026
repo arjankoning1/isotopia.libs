@@ -1,0 +1,39 @@
+# header: 
+#   title: La137(n,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 137
+#   nuclide: La137
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.189522E-08
+   1.000000E+02   1.294481E-04
+   1.100000E+02   2.710042E-03
+   1.200000E+02   8.849761E-03
+   1.300000E+02   2.232588E-02
+   1.400000E+02   6.407767E-02
+   1.500000E+02   1.705444E-01
+   1.600000E+02   2.361234E-01
+   1.800000E+02   6.094084E-01
+   2.000000E+02   5.333908E-01

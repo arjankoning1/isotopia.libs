@@ -1,0 +1,39 @@
+# header: 
+#   title: As72(n,x)Fe54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 72
+#   nuclide: As72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 54
+#     nuclide: Fe54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.562884E-11
+   1.000000E+02   6.194347E-06
+   1.100000E+02   9.966999E-04
+   1.200000E+02   1.906646E-02
+   1.300000E+02   1.283275E-01
+   1.400000E+02   3.934844E-01
+   1.500000E+02   8.211619E-01
+   1.600000E+02   1.415483E+00
+   1.800000E+02   4.042209E+00
+   2.000000E+02   8.037735E+00

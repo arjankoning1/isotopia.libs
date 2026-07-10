@@ -1,0 +1,33 @@
+# header: 
+#   title: Al27(n,xp) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Takagi
+#   year: 1999
+#   subentry: 22634012
+#   X4 reaction: 13-AL-27(N,X)1-H-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22634012
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,xp)
+#   ENDF_MF: 3
+#   ENDF_MT: 203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   2.862000E+02   5.800000E+00   1.000000E+00
+# reference:
+#   author: H.Takagi,Kokooo,I.Murata,A.Takahashi
+#   title: Measurement of double-differential cross sections of  charged particle emission reactions for nat-Zr, 27Al,  and nat-Ti by incident dt neutrons
+#   journal: Conf: JAERI Conference proceedings, No.99-002, p.204 (1999)

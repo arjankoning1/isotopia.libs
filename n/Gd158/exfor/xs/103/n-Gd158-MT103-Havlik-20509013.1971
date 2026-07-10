@@ -1,0 +1,37 @@
+# header: 
+#   title: Gd158(n,p)Eu158 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Havlik
+#   year: 1971
+#   subentry: 20509013
+#   X4 reaction: 64-GD-158(N,P)63-EU-158,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20509013
+# target: 
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 63
+#     A: 158
+#     nuclide: Eu158
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   2.611300E+00   6.019000E-01   1.004365E+00
+# reference:
+#   author: E.Havlik
+#   title: -Measurement of (N,P), (N,A) and (N,2N) cross-sections  of heavy nuclei.- (In German)
+#   journal: Jour: Acta Physica Austriaca, Vol.34, p.209 (1971)

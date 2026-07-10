@@ -1,0 +1,42 @@
+# header: 
+#   title: Pd105(n,x)Mo91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.182579E-12
+   9.000000E+01   1.138506E-05
+   1.000000E+02   6.745018E-03
+   1.100000E+02   6.461393E-02
+   1.200000E+02   1.407659E-01
+   1.300000E+02   9.572728E-02
+   1.400000E+02   1.898970E-01
+   1.500000E+02   3.888847E-01
+   1.600000E+02   7.101934E-01
+   1.800000E+02   1.247523E+00
+   2.000000E+02   1.758761E+00

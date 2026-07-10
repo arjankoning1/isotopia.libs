@@ -1,0 +1,43 @@
+# header: 
+#   title: V50(n,x)Ca40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 40
+#     nuclide: Ca40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.345990E-09
+   7.000000E+01   1.997466E-05
+   7.500000E+01   8.300506E-04
+   8.000000E+01   6.119710E-03
+   9.000000E+01   5.680959E-02
+   1.000000E+02   2.137043E-01
+   1.100000E+02   4.547265E-01
+   1.200000E+02   6.931894E-01
+   1.300000E+02   9.736107E-01
+   1.400000E+02   1.270752E+00
+   1.500000E+02   1.475442E+00
+   1.600000E+02   1.643508E+00
+   1.800000E+02   2.129123E+00
+   2.000000E+02   2.208425E+00

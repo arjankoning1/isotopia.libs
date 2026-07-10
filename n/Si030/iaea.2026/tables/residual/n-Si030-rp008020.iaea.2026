@@ -1,0 +1,49 @@
+# header: 
+#   title: Si30(n,x)O20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 20
+#     nuclide: O20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.907488E-11
+   5.200000E+01   1.393621E-08
+   5.400000E+01   5.974905E-07
+   5.600000E+01   7.194164E-06
+   5.800000E+01   3.896975E-05
+   6.000000E+01   1.370596E-04
+   6.500000E+01   9.892205E-04
+   7.000000E+01   2.950039E-03
+   7.500000E+01   6.113988E-03
+   8.000000E+01   1.076447E-02
+   9.000000E+01   2.175250E-02
+   1.000000E+02   3.016301E-02
+   1.100000E+02   4.046564E-02
+   1.200000E+02   5.399917E-02
+   1.300000E+02   6.738497E-02
+   1.400000E+02   7.845266E-02
+   1.500000E+02   8.463072E-02
+   1.600000E+02   8.763535E-02
+   1.800000E+02   9.265646E-02
+   2.000000E+02   7.356760E-02

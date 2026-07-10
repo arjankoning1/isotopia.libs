@@ -1,0 +1,43 @@
+# header: 
+#   title: Gd146(n,x)Eu139 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 139
+#     nuclide: Eu139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.120068E-09
+   7.000000E+01   9.786444E-05
+   7.500000E+01   4.283706E-03
+   8.000000E+01   4.960786E-02
+   9.000000E+01   7.797953E-01
+   1.000000E+02   1.889253E+00
+   1.100000E+02   3.264413E+00
+   1.200000E+02   4.188464E+00
+   1.300000E+02   4.423873E+00
+   1.400000E+02   4.754489E+00
+   1.500000E+02   5.052421E+00
+   1.600000E+02   5.426473E+00
+   1.800000E+02   5.973637E+00
+   2.000000E+02   5.979326E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Rb87(n,2n)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1972
+#   subentry: 20797005
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20797005
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   1.200000E-01   1.453000E+03   2.170000E+02   1.000000E+00
+   1.456000E+01   1.500000E-01   1.832000E+03   2.760000E+02   1.000000E+00
+   1.562000E+01   1.600000E-01   1.998000E+03   7.200000E+02   1.000000E+00
+   1.712000E+01   1.500000E-01   1.731000E+03   3.010000E+02   1.000000E+00
+# reference:
+#   author: M.BORMANN, H.K.FEDDERSEN, H.H.HOLSCHER, H.WAGNER,  W.SCOBEL
+#   title: -EXCITATION FUNCTIONS OF SOME (N,2N) AND (N,ALPHA)  REACTIONS BETWEEN 13 AND 18 MEV NEUTRON ENERGIES.
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.150, p.30 (19

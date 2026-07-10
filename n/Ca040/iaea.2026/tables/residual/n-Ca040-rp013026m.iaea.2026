@@ -1,0 +1,49 @@
+# header: 
+#   title: Ca40(n,x)Al26m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.956880E-12
+   5.600000E+01   2.692161E-10
+   5.800000E+01   7.721153E-09
+   6.000000E+01   1.318953E-07
+   6.500000E+01   1.120480E-05
+   7.000000E+01   1.191248E-04
+   7.500000E+01   6.299604E-04
+   8.000000E+01   3.072123E-03
+   9.000000E+01   2.764880E-02
+   1.000000E+02   7.212017E-02
+   1.100000E+02   1.076884E-01
+   1.200000E+02   1.835558E-01
+   1.300000E+02   3.456594E-01
+   1.400000E+02   5.546403E-01
+   1.500000E+02   7.894050E-01
+   1.600000E+02   1.121460E+00
+   1.800000E+02   1.999926E+00
+   2.000000E+02   2.886609E+00

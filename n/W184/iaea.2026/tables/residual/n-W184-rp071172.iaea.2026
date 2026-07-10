@@ -1,0 +1,42 @@
+# header: 
+#   title: W184(n,x)Lu172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 184
+#   nuclide: W184
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.783117E-08
+   7.500000E+01   2.614900E-05
+   8.000000E+01   3.110881E-03
+   9.000000E+01   3.871894E-01
+   1.000000E+02   3.561074E+00
+   1.100000E+02   8.436304E+00
+   1.200000E+02   1.039487E+01
+   1.300000E+02   1.227002E+01
+   1.400000E+02   1.568395E+01
+   1.500000E+02   1.585966E+01
+   1.600000E+02   1.781393E+01
+   1.800000E+02   1.720379E+01
+   2.000000E+02   1.466645E+01

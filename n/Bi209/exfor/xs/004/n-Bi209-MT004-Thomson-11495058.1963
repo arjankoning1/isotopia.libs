@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi209(n,n')Bi209 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Thomson
+#   year: 1963
+#   subentry: 11495058
+#   X4 reaction: 83-BI-209(N,INL)83-BI-209,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11495058
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 83
+#     A: 209
+#     nuclide: Bi209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E+00   1.000000E-01   2.410000E+03   2.600000E+02   1.000000E+00
+# reference:
+#   author: D.B.THOMSON
+#   title: NUCLEAR LEVEL DENSITIES AND REACTION MECHANISMS FROM INELASTIC NEUTRON SCATTERING.
+#   journal: Jour: Physical Review, Vol.129, p.1649 (1963)

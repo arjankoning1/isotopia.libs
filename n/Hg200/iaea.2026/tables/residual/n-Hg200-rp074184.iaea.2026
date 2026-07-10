@@ -1,0 +1,42 @@
+# header: 
+#   title: Hg200(n,x)W184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 184
+#     nuclide: W184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.834082E-12
+   7.500000E+01   1.583024E-08
+   8.000000E+01   2.913865E-06
+   9.000000E+01   1.107185E-03
+   1.000000E+02   1.454196E-02
+   1.100000E+02   5.753515E-02
+   1.200000E+02   4.147052E-01
+   1.300000E+02   1.146320E+00
+   1.400000E+02   5.807133E-01
+   1.500000E+02   3.681163E-01
+   1.600000E+02   3.531693E-01
+   1.800000E+02   3.071652E-01
+   2.000000E+02   6.603381E-02

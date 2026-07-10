@@ -1,0 +1,42 @@
+# header: 
+#   title: Nb91m(n,x)Nb85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 85
+#     nuclide: Nb85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.593771E-12
+   7.500000E+01   7.698934E-06
+   8.000000E+01   2.880973E-04
+   9.000000E+01   3.967699E-03
+   1.000000E+02   8.073644E-03
+   1.100000E+02   9.883620E-03
+   1.200000E+02   1.046158E-02
+   1.300000E+02   1.028332E-02
+   1.400000E+02   1.064841E-02
+   1.500000E+02   1.047709E-02
+   1.600000E+02   1.185326E-02
+   1.800000E+02   1.343636E-02
+   2.000000E+02   1.677664E-02

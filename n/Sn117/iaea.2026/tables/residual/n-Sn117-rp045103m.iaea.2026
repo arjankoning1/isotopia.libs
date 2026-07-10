@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn117(n,x)Rh103m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.204603E-10
+   8.000000E+01   1.593239E-06
+   9.000000E+01   2.127259E-03
+   1.000000E+02   2.227551E-02
+   1.100000E+02   9.463369E-02
+   1.200000E+02   3.604711E-01
+   1.300000E+02   8.432224E-01
+   1.400000E+02   1.567229E+00
+   1.500000E+02   3.245510E+00
+   1.600000E+02   4.282354E+00
+   1.800000E+02   7.090793E+00
+   2.000000E+02   4.889563E+00

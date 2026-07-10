@@ -1,0 +1,49 @@
+# header: 
+#   title: Kr82(n,x)Cu70m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 82
+#   nuclide: Kr82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 70
+#     nuclide: Cu70m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.377946E-12
+   5.600000E+01   2.524627E-11
+   5.800000E+01   2.464637E-10
+   6.000000E+01   1.477696E-09
+   6.500000E+01   3.253945E-08
+   7.000000E+01   1.850683E-07
+   7.500000E+01   4.726230E-07
+   8.000000E+01   8.819408E-07
+   9.000000E+01   1.268042E-05
+   1.000000E+02   1.200604E-04
+   1.100000E+02   2.727177E-04
+   1.200000E+02   6.630420E-04
+   1.300000E+02   3.184693E-03
+   1.400000E+02   8.162166E-03
+   1.500000E+02   1.320620E-02
+   1.600000E+02   1.897748E-02
+   1.800000E+02   3.527157E-02
+   2.000000E+02   1.761678E-02

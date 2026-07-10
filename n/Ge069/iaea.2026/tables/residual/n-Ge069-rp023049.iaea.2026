@@ -1,0 +1,39 @@
+# header: 
+#   title: Ge69(n,x)V49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 69
+#   nuclide: Ge69
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 49
+#     nuclide: V49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.684446E-12
+   1.000000E+02   6.355544E-07
+   1.100000E+02   1.686038E-04
+   1.200000E+02   9.548678E-03
+   1.300000E+02   8.455832E-02
+   1.400000E+02   3.231842E-01
+   1.500000E+02   6.707469E-01
+   1.600000E+02   1.420004E+00
+   1.800000E+02   4.186874E+00
+   2.000000E+02   8.214682E+00

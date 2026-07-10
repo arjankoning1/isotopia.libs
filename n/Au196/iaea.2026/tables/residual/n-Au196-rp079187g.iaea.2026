@@ -1,0 +1,43 @@
+# header: 
+#   title: Au196(n,x)Au187g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 187
+#     nuclide: Au187g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.117060E-07
+   8.000000E+01   2.952409E-03
+   9.000000E+01   2.265975E+00
+   1.000000E+02   2.111151E+01
+   1.100000E+02   2.855427E+01
+   1.200000E+02   1.633483E+01
+   1.300000E+02   1.059627E+01
+   1.400000E+02   9.694846E+00
+   1.500000E+02   8.629667E+00
+   1.600000E+02   8.186477E+00
+   1.800000E+02   6.004888E+00
+   2.000000E+02   6.106991E+00

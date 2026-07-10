@@ -1,0 +1,43 @@
+# header: 
+#   title: Co58(n,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.153984E-12
+   7.000000E+01   1.348206E-09
+   7.500000E+01   4.743297E-08
+   8.000000E+01   3.695504E-07
+   9.000000E+01   2.171945E-06
+   1.000000E+02   4.509348E-06
+   1.100000E+02   4.248287E-05
+   1.200000E+02   2.481503E-04
+   1.300000E+02   6.411928E-04
+   1.400000E+02   1.373269E-03
+   1.500000E+02   2.311809E-03
+   1.600000E+02   4.328086E-03
+   1.800000E+02   6.758261E-03
+   2.000000E+02   6.053588E-03

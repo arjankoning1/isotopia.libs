@@ -1,0 +1,43 @@
+# header: 
+#   title: Te118(n,x)Pd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.505280E-10
+   7.000000E+01   2.915426E-07
+   7.500000E+01   5.097373E-05
+   8.000000E+01   1.286848E-03
+   9.000000E+01   3.670470E-02
+   1.000000E+02   1.590155E-01
+   1.100000E+02   2.552840E-01
+   1.200000E+02   6.667210E-01
+   1.300000E+02   1.936288E+00
+   1.400000E+02   3.735128E+00
+   1.500000E+02   5.739514E+00
+   1.600000E+02   9.530018E+00
+   1.800000E+02   1.606735E+01
+   2.000000E+02   1.314112E+01

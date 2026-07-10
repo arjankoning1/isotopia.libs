@@ -1,0 +1,42 @@
+# header: 
+#   title: Pb205(n,x)Pt191 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 191
+#     nuclide: Pt191
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.424475E-12
+   7.500000E+01   2.229344E-08
+   8.000000E+01   1.541848E-05
+   9.000000E+01   2.609889E-02
+   1.000000E+02   4.335934E-01
+   1.100000E+02   5.738999E-01
+   1.200000E+02   3.842263E-01
+   1.300000E+02   3.620605E-01
+   1.400000E+02   5.166186E-01
+   1.500000E+02   4.352565E-01
+   1.600000E+02   4.268004E-01
+   1.800000E+02   2.344161E-01
+   2.000000E+02   1.985551E-01

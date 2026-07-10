@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu65(n,x)V47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 47
+#     nuclide: V47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.170177E-09
+   1.200000E+02   2.532998E-05
+   1.300000E+02   1.300960E-03
+   1.400000E+02   5.334089E-03
+   1.500000E+02   9.087875E-03
+   1.600000E+02   2.292040E-02
+   1.800000E+02   1.365916E-01
+   2.000000E+02   5.520636E-01

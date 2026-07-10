@@ -1,0 +1,41 @@
+# header: 
+#   title: Bk249(n,x)Pa231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 249
+#   nuclide: Bk249
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 231
+#     nuclide: Pa231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.008402E-12
+   8.000000E+01   1.794091E-09
+   9.000000E+01   4.170102E-05
+   1.000000E+02   1.104514E-03
+   1.100000E+02   3.370911E-03
+   1.200000E+02   4.500112E-03
+   1.300000E+02   5.813524E-03
+   1.400000E+02   7.075858E-03
+   1.500000E+02   6.988670E-03
+   1.600000E+02   5.310253E-03
+   1.800000E+02   3.404945E-03
+   2.000000E+02   1.473507E-03

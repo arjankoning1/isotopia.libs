@@ -1,0 +1,37 @@
+# header: 
+#   title: Er167(n,x)Sm145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 167
+#   nuclide: Er167
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 145
+#     nuclide: Sm145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.115041E-08
+   1.200000E+02   2.563679E-04
+   1.300000E+02   2.535676E-03
+   1.400000E+02   9.148634E-02
+   1.500000E+02   2.261115E-01
+   1.600000E+02   9.645122E-01
+   1.800000E+02   2.143555E+01
+   2.000000E+02   4.610228E+01

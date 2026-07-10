@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni60(n,x)Ni59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: MingHee
+#   year: 2015
+#   subentry: 32736002
+#   X4 reaction: 28-NI-60(N,2N)28-NI-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32736002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 59
+#     nuclide: Ni59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   4.000000E-01   4.260000E+02   5.300000E+01   1.000000E+00
+# reference:
+#   author: Ming He,Yongning Xu,Yongjing Guan,Hongtao Shen, Liang Du,Hongtao Chen,Kejun Dong,Shan Jiang, Xuran Yang,Xiaoming Wang,Xiangdong Ruan, Jiancheng Liu,Shaoyong Wu,Qingzhang Zhao,Li Cai, Fangfang Pang
+#   title: Determination of cross sections of 60Ni(n,2n)59Ni induced by 14 MeV neutrons with accelerator mass spectrometry
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.361, p.517 (20

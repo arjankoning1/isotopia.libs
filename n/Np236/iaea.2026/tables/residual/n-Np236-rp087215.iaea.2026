@@ -1,0 +1,38 @@
+# header: 
+#   title: Np236(n,x)Fr215 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 236
+#   nuclide: Np236
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 215
+#     nuclide: Fr215
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.635897E-13
+   1.100000E+02   1.171997E-09
+   1.200000E+02   6.641876E-08
+   1.300000E+02   7.606319E-07
+   1.400000E+02   1.247387E-05
+   1.500000E+02   7.304543E-05
+   1.600000E+02   1.623013E-04
+   1.800000E+02   7.316598E-04
+   2.000000E+02   1.708941E-03

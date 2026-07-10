@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr90(n,x)Kr79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 79
+#     nuclide: Kr79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.016419E-10
+   6.500000E+01   6.574179E-06
+   7.000000E+01   2.258693E-03
+   7.500000E+01   4.477425E-02
+   8.000000E+01   2.241801E-01
+   9.000000E+01   1.012919E+00
+   1.000000E+02   1.793327E+00
+   1.100000E+02   3.484983E+00
+   1.200000E+02   8.909170E+00
+   1.300000E+02   1.735957E+01
+   1.400000E+02   2.305565E+01
+   1.500000E+02   2.864880E+01
+   1.600000E+02   2.843525E+01
+   1.800000E+02   3.034771E+01
+   2.000000E+02   2.522469E+01

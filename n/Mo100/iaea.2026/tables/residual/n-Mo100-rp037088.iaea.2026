@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo100(n,x)Rb88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 88
+#     nuclide: Rb88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.472656E-11
+   5.600000E+01   7.945105E-10
+   5.800000E+01   1.688522E-08
+   6.000000E+01   2.325155E-07
+   6.500000E+01   1.375498E-05
+   7.000000E+01   2.834951E-04
+   7.500000E+01   6.356628E-03
+   8.000000E+01   4.045725E-02
+   9.000000E+01   1.638564E-01
+   1.000000E+02   2.712291E-01
+   1.100000E+02   3.158988E-01
+   1.200000E+02   4.187978E-01
+   1.300000E+02   5.494046E-01
+   1.400000E+02   6.289469E-01
+   1.500000E+02   6.619070E-01
+   1.600000E+02   5.785982E-01
+   1.800000E+02   5.290076E-01
+   2.000000E+02   4.145537E-01

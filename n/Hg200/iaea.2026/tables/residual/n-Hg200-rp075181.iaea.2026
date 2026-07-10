@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg200(n,x)Re181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.188323E-12
+   1.200000E+02   8.918375E-07
+   1.300000E+02   1.139265E-03
+   1.400000E+02   3.324926E-02
+   1.500000E+02   1.423225E-01
+   1.600000E+02   3.724218E-01
+   1.800000E+02   2.191591E+00
+   2.000000E+02   6.128011E+00

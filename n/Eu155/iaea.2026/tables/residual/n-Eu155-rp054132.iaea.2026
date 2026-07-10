@@ -1,0 +1,37 @@
+# header: 
+#   title: Eu155(n,x)Xe132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: JEFF-4.0_RRR_evaluation_group
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 132
+#     nuclide: Xe132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.822843E-09
+   1.200000E+02   2.314559E-05
+   1.300000E+02   1.845913E-03
+   1.400000E+02   1.261279E-02
+   1.500000E+02   7.687860E-02
+   1.600000E+02   1.902639E-01
+   1.800000E+02   8.584868E-01
+   2.000000E+02   2.184846E+00

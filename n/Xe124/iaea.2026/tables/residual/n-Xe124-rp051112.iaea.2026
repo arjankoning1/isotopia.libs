@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe124(n,x)Sb112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 112
+#     nuclide: Sb112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.604110E-12
+   9.000000E+01   2.148399E-05
+   1.000000E+02   1.075017E-02
+   1.100000E+02   2.245923E-01
+   1.200000E+02   1.012137E+00
+   1.300000E+02   1.324331E+00
+   1.400000E+02   2.898320E+00
+   1.500000E+02   4.708522E+00
+   1.600000E+02   6.514898E+00
+   1.800000E+02   9.958806E+00
+   2.000000E+02   1.041956E+01

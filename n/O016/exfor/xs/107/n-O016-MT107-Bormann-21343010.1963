@@ -1,0 +1,37 @@
+# header: 
+#   title: O16(n,a)C13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1963
+#   subentry: 21343010
+#   X4 reaction: 8-O-16(N,A)6-C-13,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21343010
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   3.280000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,  H.Neuert, H.Pollehn
+#   title: -Investigations of the energy dependence of neutron  induced reactions in the energy range of 12-19 MeV.-  (In German).
+#   journal: Jour: Zeitschrift fuer Physik, Vol.174, p.1 (1963)

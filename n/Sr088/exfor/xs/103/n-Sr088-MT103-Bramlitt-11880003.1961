@@ -1,0 +1,37 @@
+# header: 
+#   title: Sr88(n,p)Rb88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bramlitt
+#   year: 1961
+#   subentry: 11880003
+#   X4 reaction: 38-SR-88(N,P)37-RB-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11880003
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 37
+#     A: 88
+#     nuclide: Rb88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.120000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: E.Bramlitt,D.G.Gardner
+#   title: Absolute activation cross sections for 14.8 MeV  neutrons, identification of new nuclear species.
+#   journal: Prog: Oak Ridge Operations Office, contract report, No.367, p.2 (1961)

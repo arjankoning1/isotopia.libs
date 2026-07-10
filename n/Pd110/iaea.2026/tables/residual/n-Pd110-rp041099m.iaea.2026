@@ -1,0 +1,52 @@
+# header: 
+#   title: Pd110(n,x)Nb99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 99
+#     nuclide: Nb99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 21
+##       E             xs
+##     [MeV]          [mb]
+   4.800000E+01   1.248168E-13
+   5.000000E+01   1.952603E-11
+   5.200000E+01   7.617190E-10
+   5.400000E+01   1.820118E-08
+   5.600000E+01   2.051786E-07
+   5.800000E+01   1.432508E-06
+   6.000000E+01   6.865575E-06
+   6.500000E+01   9.670630E-05
+   7.000000E+01   6.346977E-04
+   7.500000E+01   2.674266E-03
+   8.000000E+01   8.140380E-03
+   9.000000E+01   2.214936E-02
+   1.000000E+02   3.394530E-02
+   1.100000E+02   6.778317E-02
+   1.200000E+02   9.647046E-02
+   1.300000E+02   1.282034E-01
+   1.400000E+02   1.520352E-01
+   1.500000E+02   2.033976E-01
+   1.600000E+02   3.170719E-01
+   1.800000E+02   3.777792E-01
+   2.000000E+02   1.793550E-01

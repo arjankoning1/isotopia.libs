@@ -1,0 +1,37 @@
+# header: 
+#   title: Pd105(n,p)Rh105 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lu
+#   year: 1970
+#   subentry: 10145012
+#   X4 reaction: 46-PD-105(N,P)45-RH-105,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10145012
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 45
+#     A: 105
+#     nuclide: Rh105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   6.000000E-01   4.678136E+01   2.488370E+00   1.244185E+00
+# reference:
+#   author: W.D.Lu, N.RanaKumar, R.W.Fink
+#   title: Activation Cross Sections for (n,p), ((n,np)+(n,pn)+  (n,d)), and (n,alpha) Reactions in the Region of Z=40  to 58 at 14.4 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.358 (1970)

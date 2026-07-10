@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs133(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brazos
+#   year: 1966
+#   subentry: 12087002
+#   X4 reaction: 55-CS-133(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12087002
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.800000E-08   0.000000E+00   3.040000E+04   3.000000E+02   1.000000E+00
+   3.700000E-08   0.000000E+00   2.740000E+04   3.000000E+02   1.000000E+00
+   4.900000E-08   0.000000E+00   2.430000E+04   2.000000E+02   1.000000E+00
+   6.499999E-08   0.000000E+00   2.120000E+04   2.000000E+02   1.000000E+00
+   9.000000E-08   0.000000E+00   1.880000E+04   2.000000E+02   1.000000E+00
+   1.600000E-07   0.000000E+00   1.540000E+04   2.000000E+02   1.000000E+00
+   3.000000E-07   0.000000E+00   1.310000E+04   2.000000E+02   1.000000E+00
+# reference:
+#   author: N.BRAZOS
+#   title:
+#   journal: Priv.Comm: Hickman (1966)

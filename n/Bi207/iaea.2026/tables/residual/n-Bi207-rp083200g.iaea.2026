@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi207(n,x)Bi200g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 200
+#     nuclide: Bi200g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   2.851782E-07
+   6.000000E+01   3.607856E-04
+   6.500000E+01   8.471882E-01
+   7.000000E+01   1.717749E+01
+   7.500000E+01   5.549507E+01
+   8.000000E+01   7.433491E+01
+   9.000000E+01   4.169522E+01
+   1.000000E+02   2.480261E+01
+   1.100000E+02   2.267205E+01
+   1.200000E+02   2.258190E+01
+   1.300000E+02   2.206374E+01
+   1.400000E+02   2.157310E+01
+   1.500000E+02   2.140574E+01
+   1.600000E+02   2.129440E+01
+   1.800000E+02   1.798781E+01
+   2.000000E+02   2.008111E+01

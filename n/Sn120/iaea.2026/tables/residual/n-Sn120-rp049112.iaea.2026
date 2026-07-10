@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn120(n,x)In112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.508597E-10
+   7.000000E+01   2.218582E-05
+   7.500000E+01   3.619106E-03
+   8.000000E+01   5.405905E-02
+   9.000000E+01   7.936738E-01
+   1.000000E+02   3.163452E+00
+   1.100000E+02   6.512034E+00
+   1.200000E+02   9.370012E+00
+   1.300000E+02   1.091350E+01
+   1.400000E+02   1.248582E+01
+   1.500000E+02   1.285133E+01
+   1.600000E+02   1.328110E+01
+   1.800000E+02   1.323194E+01
+   2.000000E+02   1.333375E+01

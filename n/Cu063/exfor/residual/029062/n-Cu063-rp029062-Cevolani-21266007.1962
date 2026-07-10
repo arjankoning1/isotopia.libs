@@ -1,0 +1,37 @@
+# header: 
+#   title: Cu63(n,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cevolani
+#   year: 1962
+#   subentry: 21266007
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21266007
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.413000E+01   1.000000E-01   4.090000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: M.CEVOLANI,S.PETRALIA
+#   title: -CROSS SECTION MEASUREMENT OF (N,2N)-REACTIONS ON  14.1 MEV NEUTRONS.-
+#   journal: Jour: Nuovo Cimento, Vol.26, p.1328 (1962)

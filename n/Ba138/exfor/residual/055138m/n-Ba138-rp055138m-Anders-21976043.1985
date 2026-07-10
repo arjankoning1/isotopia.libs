@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba138(n,x)Cs138m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anders
+#   year: 1985
+#   subentry: 21976043
+#   X4 reaction: 56-BA-138(N,P)55-CS-138-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21976043
+# target: 
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 55
+#     A: 138
+#     nuclide: Cs138m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.710700E+00   2.631800E-01   1.315923E+00
+# reference:
+#   author: B.Anders,B.M.Bahal,R.Pepelnik
+#   title: Measurements of 14 MeV neutron activation  cross section at KORONA
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985

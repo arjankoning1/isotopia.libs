@@ -1,0 +1,39 @@
+# header: 
+#   title: In113(n,x)In112 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2017
+#   subentry: 327750023
+#   X4 reaction: 49-IN-113(N,2N)49-IN-112,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327750023
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.393916E+03   7.988619E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   1.474548E+03   9.380431E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   1.496626E+03   9.714552E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Suyuan Li
+#   title: Activation cross section and isomeric cross-section ratio for the (n,2n) reaction on 113,115In
+#   journal: Jour: Nuclear Science and Engineering, Vol.188, p.198 (2017)

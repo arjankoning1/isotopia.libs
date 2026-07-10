@@ -1,0 +1,47 @@
+# header: 
+#   title: Si32(n,x)Na23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   3.625678E-09
+   5.600000E+01   5.535972E-06
+   5.800000E+01   2.993039E-04
+   6.000000E+01   3.180334E-03
+   6.500000E+01   6.454792E-02
+   7.000000E+01   2.470149E-01
+   7.500000E+01   7.555205E-01
+   8.000000E+01   1.975147E+00
+   9.000000E+01   6.985051E+00
+   1.000000E+02   1.346788E+01
+   1.100000E+02   1.761191E+01
+   1.200000E+02   2.223701E+01
+   1.300000E+02   2.777535E+01
+   1.400000E+02   3.192970E+01
+   1.500000E+02   3.456828E+01
+   1.600000E+02   3.444906E+01
+   1.800000E+02   3.138761E+01
+   2.000000E+02   2.992357E+01

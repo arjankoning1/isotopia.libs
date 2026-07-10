@@ -1,0 +1,33 @@
+# header: 
+#   title: U235(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brooks
+#   year: 1966
+#   subentry: 20938007
+#   X4 reaction: 92-U-235(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20938007
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.736000E-05   0.000000E+00   1.912000E+04   1.030000E+03   1.000000E+00
+# reference:
+#   author: F.D.Brooks,J.E.Jolly,M.G.Schomberg,M.G.Sowerby
+#   title: Eta and neutron cross sections of U-235 from 0.03 to  200 eV
+#   journal: Rept: A.E.R.E. Harwell Reports, No.1670 (1966)

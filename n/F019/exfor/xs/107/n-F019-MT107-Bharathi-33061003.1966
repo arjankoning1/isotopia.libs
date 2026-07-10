@@ -1,0 +1,37 @@
+# header: 
+#   title: F19(n,a)N16 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bharathi
+#   year: 1966
+#   subentry: 33061003
+#   X4 reaction: 9-F-19(N,A)7-N-16,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33061003
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.700000E+00   5.000000E-02   1.750000E+02   1.800000E+01   1.000000E+00
+# reference:
+#   author: S.M.Bharathi, U.T.Raheja, E.Kondaiah
+#   title: Angular distribution of the 19F(n,a)16N reaction at En = 4.7 MeV
+#   journal: Jour: Nuclear Physics, Vol.83, p.407 (1966)

@@ -1,0 +1,37 @@
+# header: 
+#   title: Pu238(n,x)Np224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 224
+#     nuclide: Np224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.090923E-10
+   1.200000E+02   6.006366E-06
+   1.300000E+02   9.352423E-04
+   1.400000E+02   1.375426E-02
+   1.500000E+02   5.885400E-02
+   1.600000E+02   1.413947E-01
+   1.800000E+02   4.199896E-01
+   2.000000E+02   1.178238E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd150(n,x)Cs135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 135
+#     nuclide: Cs135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.784767E-10
+   7.500000E+01   7.816121E-07
+   8.000000E+01   9.839089E-05
+   9.000000E+01   1.605601E-02
+   1.000000E+02   9.061879E-02
+   1.100000E+02   2.693940E-01
+   1.200000E+02   6.273973E-01
+   1.300000E+02   1.553715E+00
+   1.400000E+02   2.649949E+00
+   1.500000E+02   3.577836E+00
+   1.600000E+02   3.929289E+00
+   1.800000E+02   2.185029E+00
+   2.000000E+02   1.450210E+00

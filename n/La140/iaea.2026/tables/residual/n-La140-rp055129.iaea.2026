@@ -1,0 +1,42 @@
+# header: 
+#   title: La140(n,x)Cs129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 129
+#     nuclide: Cs129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.206426E-07
+   7.500000E+01   1.977126E-03
+   8.000000E+01   2.518992E-01
+   9.000000E+01   1.620157E+01
+   1.000000E+02   3.959356E+01
+   1.100000E+02   2.891986E+01
+   1.200000E+02   2.852097E+01
+   1.300000E+02   4.061843E+01
+   1.400000E+02   4.846140E+01
+   1.500000E+02   4.820657E+01
+   1.600000E+02   4.963817E+01
+   1.800000E+02   3.657756E+01
+   2.000000E+02   2.990614E+01

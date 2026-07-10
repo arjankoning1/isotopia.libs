@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce139(n,x)I124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 139
+#   nuclide: Ce139
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 124
+#     nuclide: I124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.818338E-07
+   1.000000E+02   3.706935E-04
+   1.100000E+02   1.568942E-02
+   1.200000E+02   1.970771E-01
+   1.300000E+02   6.554125E-01
+   1.400000E+02   1.563017E+00
+   1.500000E+02   2.785998E+00
+   1.600000E+02   5.167044E+00
+   1.800000E+02   6.226890E+00
+   2.000000E+02   4.767180E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: U232(n,x)Po208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 208
+#     nuclide: Po208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.893520E-12
+   1.000000E+02   2.481717E-08
+   1.100000E+02   3.649498E-06
+   1.200000E+02   3.718059E-04
+   1.300000E+02   6.485759E-04
+   1.400000E+02   1.181823E-03
+   1.500000E+02   6.301950E-04
+   1.600000E+02   5.156383E-04
+   1.800000E+02   8.779316E-04
+   2.000000E+02   1.608016E-03

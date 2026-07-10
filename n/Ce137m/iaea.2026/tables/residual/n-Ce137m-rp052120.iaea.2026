@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce137m(n,x)Te120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 137
+#   nuclide: Ce137m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 120
+#     nuclide: Te120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.861414E-07
+   1.000000E+02   3.163771E-04
+   1.100000E+02   6.506849E-03
+   1.200000E+02   3.752014E-02
+   1.300000E+02   1.748781E-01
+   1.400000E+02   9.100781E-01
+   1.500000E+02   1.997548E+00
+   1.600000E+02   2.786951E+00
+   1.800000E+02   6.120461E+00
+   2.000000E+02   6.533363E+00

@@ -1,0 +1,38 @@
+# header: 
+#   title: Zr89(n,x)Zn67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 67
+#     nuclide: Zn67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.141254E-10
+   1.100000E+02   1.043125E-06
+   1.200000E+02   5.089613E-05
+   1.300000E+02   3.720847E-04
+   1.400000E+02   9.155050E-04
+   1.500000E+02   1.909282E-03
+   1.600000E+02   4.432057E-03
+   1.800000E+02   1.527369E-02
+   2.000000E+02   3.301157E-02

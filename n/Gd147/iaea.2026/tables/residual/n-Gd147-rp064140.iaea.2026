@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd147(n,x)Gd140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 147
+#   nuclide: Gd147
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 140
+#     nuclide: Gd140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.848758E-05
+   8.000000E+01   3.650692E-03
+   9.000000E+01   6.146109E-02
+   1.000000E+02   1.427569E-01
+   1.100000E+02   2.417641E-01
+   1.200000E+02   2.999274E-01
+   1.300000E+02   3.429348E-01
+   1.400000E+02   3.440114E-01
+   1.500000E+02   3.858294E-01
+   1.600000E+02   4.192012E-01
+   1.800000E+02   5.183445E-01
+   2.000000E+02   6.261036E-01

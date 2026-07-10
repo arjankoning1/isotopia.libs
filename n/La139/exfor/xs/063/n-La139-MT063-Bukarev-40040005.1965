@@ -1,0 +1,44 @@
+# header: 
+#   title: La139(n,n'_13)La140 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bukarev
+#   year: 1965
+#   subentry: 40040005
+#   X4 reaction: 57-LA-139(N,INL)57-LA-139,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40040005
+#   level energy [MeV]:  1.57000E+00
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,n'_13)
+#   ENDF_MF: 3
+#   ENDF_MT: 63
+#   level: 
+#     number: 13
+#     energy [MeV]:  1.536388E+00
+#     spin:  3.500000E+00
+#     parity: 1
+#   residual: 
+#     Z: 57
+#     A: 140
+#     nuclide: La140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.770000E+00   0.000000E+00   1.800000E+02   4.500000E+01   1.000000E+00
+   1.970000E+00   0.000000E+00   2.100000E+02   5.250000E+01   1.000000E+00
+# reference:
+#   author: V.A.Bukarev,V.I.Popov
+#   title: Excitation of the levels of La-139 and Pr-141 in inelastic neutron scattering
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.1, p.316 (1965)

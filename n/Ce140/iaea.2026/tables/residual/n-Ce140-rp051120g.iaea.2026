@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce140(n,x)Sb120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.658359E-10
+   1.200000E+02   1.661281E-05
+   1.300000E+02   3.071434E-03
+   1.400000E+02   7.509904E-02
+   1.500000E+02   4.110594E-01
+   1.600000E+02   9.899758E-01
+   1.800000E+02   1.466419E+00
+   2.000000E+02   4.702861E+00

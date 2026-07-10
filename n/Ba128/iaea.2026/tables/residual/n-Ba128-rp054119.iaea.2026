@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba128(n,x)Xe119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 119
+#     nuclide: Xe119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   3.418046E-12
+   6.000000E+01   2.372321E-09
+   6.500000E+01   8.213415E-05
+   7.000000E+01   2.897853E-02
+   7.500000E+01   5.758905E-01
+   8.000000E+01   2.329191E+00
+   9.000000E+01   5.813399E+00
+   1.000000E+02   9.184123E+00
+   1.100000E+02   1.380927E+01
+   1.200000E+02   2.666487E+01
+   1.300000E+02   4.258372E+01
+   1.400000E+02   4.978934E+01
+   1.500000E+02   5.618092E+01
+   1.600000E+02   5.333015E+01
+   1.800000E+02   5.018406E+01
+   2.000000E+02   3.547847E+01

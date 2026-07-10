@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni66(n,x)Sc50m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 66
+#   nuclide: Ni66
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.946485E-11
+   9.000000E+01   1.299237E-07
+   1.000000E+02   3.593434E-06
+   1.100000E+02   4.262861E-05
+   1.200000E+02   1.921315E-04
+   1.300000E+02   2.589336E-04
+   1.400000E+02   4.788876E-04
+   1.500000E+02   7.571044E-04
+   1.600000E+02   1.114740E-03
+   1.800000E+02   2.101416E-03
+   2.000000E+02   2.347701E-03

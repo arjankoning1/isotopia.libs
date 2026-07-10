@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn68(n,x)Mn56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   2.189969E-11
+   6.000000E+01   2.489599E-09
+   6.500000E+01   4.178964E-06
+   7.000000E+01   1.756325E-04
+   7.500000E+01   1.556953E-03
+   8.000000E+01   1.017630E-02
+   9.000000E+01   1.726340E-01
+   1.000000E+02   6.200785E-01
+   1.100000E+02   9.339991E-01
+   1.200000E+02   1.370077E+00
+   1.300000E+02   2.122136E+00
+   1.400000E+02   3.087564E+00
+   1.500000E+02   3.261990E+00
+   1.600000E+02   3.663965E+00
+   1.800000E+02   3.953593E+00
+   2.000000E+02   3.022789E+00

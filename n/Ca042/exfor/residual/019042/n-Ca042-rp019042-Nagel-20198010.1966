@@ -1,0 +1,37 @@
+# header: 
+#   title: Ca42(n,x)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nagel
+#   year: 1966
+#   subentry: 20198010
+#   X4 reaction: 20-CA-42(N,P)19-K-42,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20198010
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   1.873523E+02   2.104490E+01   9.657336E-01
+# reference:
+#   author: W.Nagel
+#   title: - Some nuclear reactions induced by d+t neutrons -
+#   journal: Thesis: Nagel (1966)

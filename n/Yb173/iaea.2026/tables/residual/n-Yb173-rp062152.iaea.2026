@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb173(n,x)Sm152 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 173
+#   nuclide: Yb173
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 152
+#     nuclide: Sm152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.096856E-09
+   1.000000E+02   1.183941E-04
+   1.100000E+02   7.240555E-02
+   1.200000E+02   1.015729E+00
+   1.300000E+02   2.228443E+00
+   1.400000E+02   3.313943E+00
+   1.500000E+02   5.131461E+00
+   1.600000E+02   4.666694E+00
+   1.800000E+02   5.430903E+00
+   2.000000E+02   6.830149E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr82(n,x)Ni62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 62
+#     nuclide: Ni62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.123585E-10
+   7.500000E+01   2.091396E-08
+   8.000000E+01   6.654416E-07
+   9.000000E+01   4.752184E-05
+   1.000000E+02   3.522758E-04
+   1.100000E+02   7.447793E-04
+   1.200000E+02   1.462208E-03
+   1.300000E+02   4.219907E-03
+   1.400000E+02   1.103506E-02
+   1.500000E+02   1.845794E-02
+   1.600000E+02   3.906387E-02
+   1.800000E+02   1.276904E-01
+   2.000000E+02   3.538252E-01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Pu236(n,x)Th223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 223
+#     nuclide: Th223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   5.572289E-14
+   5.800000E+01   2.850573E-13
+   6.000000E+01   7.496609E-12
+   6.500000E+01   5.925442E-09
+   7.000000E+01   9.883407E-07
+   7.500000E+01   4.977393E-05
+   8.000000E+01   4.721105E-04
+   9.000000E+01   1.107408E-03
+   1.000000E+02   6.140518E-04
+   1.100000E+02   3.446262E-04
+   1.200000E+02   3.767266E-04
+   1.300000E+02   5.883283E-04
+   1.400000E+02   9.291280E-04
+   1.500000E+02   7.219840E-04
+   1.600000E+02   5.406123E-04
+   1.800000E+02   2.776458E-04
+   2.000000E+02   2.157402E-04

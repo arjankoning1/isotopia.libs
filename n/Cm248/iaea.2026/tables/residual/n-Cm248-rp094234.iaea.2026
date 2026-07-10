@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm248(n,x)Pu234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 248
+#   nuclide: Cm248
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 234
+#     nuclide: Pu234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.350511E-13
+   8.000000E+01   1.015281E-08
+   9.000000E+01   5.428022E-04
+   1.000000E+02   3.114153E-02
+   1.100000E+02   1.242822E-01
+   1.200000E+02   1.057937E-01
+   1.300000E+02   1.742999E-01
+   1.400000E+02   1.816344E-01
+   1.500000E+02   1.766397E-01
+   1.600000E+02   3.539122E-01
+   1.800000E+02   1.027599E+00
+   2.000000E+02   6.264284E-01

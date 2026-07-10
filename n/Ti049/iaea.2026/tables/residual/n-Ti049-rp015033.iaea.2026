@@ -1,0 +1,42 @@
+# header: 
+#   title: Ti49(n,x)P33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 33
+#     nuclide: P33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.550118E-12
+   7.500000E+01   1.953170E-07
+   8.000000E+01   4.270890E-05
+   9.000000E+01   6.097665E-03
+   1.000000E+02   6.867967E-02
+   1.100000E+02   2.087003E-01
+   1.200000E+02   4.080053E-01
+   1.300000E+02   8.653637E-01
+   1.400000E+02   1.636928E+00
+   1.500000E+02   2.623199E+00
+   1.600000E+02   3.810259E+00
+   1.800000E+02   5.380665E+00
+   2.000000E+02   7.198319E+00

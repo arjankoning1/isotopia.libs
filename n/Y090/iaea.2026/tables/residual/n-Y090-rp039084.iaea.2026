@@ -1,0 +1,43 @@
+# header: 
+#   title: Y90(n,x)Y84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 84
+#     nuclide: Y84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.551432E-04
+   7.000000E+01   1.624837E-01
+   7.500000E+01   1.260267E+00
+   8.000000E+01   2.650911E+00
+   9.000000E+01   7.341582E+00
+   1.000000E+02   9.541421E+00
+   1.100000E+02   9.233097E+00
+   1.200000E+02   8.345562E+00
+   1.300000E+02   7.460318E+00
+   1.400000E+02   6.903046E+00
+   1.500000E+02   6.423147E+00
+   1.600000E+02   5.878978E+00
+   1.800000E+02   6.113635E+00
+   2.000000E+02   5.509506E+00

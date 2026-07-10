@@ -1,0 +1,36 @@
+# header: 
+#   title: Ba133(n,x)Xe118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 118
+#     nuclide: Xe118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.955376E-10
+   1.300000E+02   9.559574E-06
+   1.400000E+02   1.954800E-03
+   1.500000E+02   3.699792E-02
+   1.600000E+02   2.234377E-01
+   1.800000E+02   1.644799E+00
+   2.000000E+02   3.923501E+00

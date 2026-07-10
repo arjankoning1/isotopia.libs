@@ -1,0 +1,39 @@
+# header: 
+#   title: Tb156(n,x)Gd143m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 156
+#   nuclide: Tb156
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 143
+#     nuclide: Gd143m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.507198E-07
+   1.200000E+02   4.635913E-04
+   1.300000E+02   4.422043E-02
+   1.400000E+02   4.175330E-01
+   1.500000E+02   1.369278E+00
+   1.600000E+02   2.591030E+00
+   1.800000E+02   4.794736E+00
+   2.000000E+02   6.533048E+00

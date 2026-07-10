@@ -1,0 +1,49 @@
+# header: 
+#   title: Sr90(n,x)Se79g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.858191E-11
+   5.600000E+01   7.215838E-09
+   5.800000E+01   4.994212E-07
+   6.000000E+01   1.384164E-05
+   6.500000E+01   2.532151E-03
+   7.000000E+01   2.987499E-02
+   7.500000E+01   1.138849E-01
+   8.000000E+01   2.310444E-01
+   9.000000E+01   3.761511E-01
+   1.000000E+02   6.172147E-01
+   1.100000E+02   1.346832E+00
+   1.200000E+02   2.278342E+00
+   1.300000E+02   2.785712E+00
+   1.400000E+02   3.017612E+00
+   1.500000E+02   3.356716E+00
+   1.600000E+02   3.539132E+00
+   1.800000E+02   2.989449E+00
+   2.000000E+02   1.868966E+00

@@ -1,0 +1,49 @@
+# header: 
+#   title: Co57(n,x)Mn50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.806722E-10
+   5.200000E+01   3.042678E-07
+   5.400000E+01   1.976015E-05
+   5.600000E+01   2.960925E-04
+   5.800000E+01   1.808193E-03
+   6.000000E+01   6.310096E-03
+   6.500000E+01   3.863749E-02
+   7.000000E+01   9.089717E-02
+   7.500000E+01   1.338724E-01
+   8.000000E+01   1.559903E-01
+   9.000000E+01   1.799772E-01
+   1.000000E+02   2.423282E-01
+   1.100000E+02   3.217065E-01
+   1.200000E+02   3.797364E-01
+   1.300000E+02   4.045942E-01
+   1.400000E+02   4.034586E-01
+   1.500000E+02   3.861917E-01
+   1.600000E+02   3.451549E-01
+   1.800000E+02   3.515991E-01
+   2.000000E+02   3.601185E-01

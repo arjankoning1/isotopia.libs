@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe131(n,x)Pd113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 113
+#     nuclide: Pd113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.383367E-09
+   9.000000E+01   9.143932E-05
+   1.000000E+02   1.051164E-02
+   1.100000E+02   5.504968E-02
+   1.200000E+02   1.248293E-01
+   1.300000E+02   2.592546E-01
+   1.400000E+02   5.699276E-01
+   1.500000E+02   1.071353E+00
+   1.600000E+02   1.493194E+00
+   1.800000E+02   2.576254E+00
+   2.000000E+02   3.730138E+00

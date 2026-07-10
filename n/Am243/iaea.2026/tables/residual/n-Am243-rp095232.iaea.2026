@@ -1,0 +1,40 @@
+# header: 
+#   title: Am243(n,x)Am232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 243
+#   nuclide: Am243
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 232
+#     nuclide: Am232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.519894E-12
+   9.000000E+01   5.303175E-06
+   1.000000E+02   6.225599E-04
+   1.100000E+02   2.532855E-03
+   1.200000E+02   3.789317E-03
+   1.300000E+02   2.412990E-03
+   1.400000E+02   4.006108E-03
+   1.500000E+02   1.521192E-03
+   1.600000E+02   2.776160E-03
+   1.800000E+02   1.211285E-02
+   2.000000E+02   2.063508E-02

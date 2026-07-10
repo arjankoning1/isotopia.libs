@@ -1,0 +1,37 @@
+# header: 
+#   title: La137(n,x)I118g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 137
+#   nuclide: La137
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 118
+#     nuclide: I118g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   4.011362E-12
+   1.400000E+02   1.360136E-07
+   1.500000E+02   5.478709E-05
+   1.600000E+02   1.571170E-03
+   1.800000E+02   5.247883E-02
+   2.000000E+02   6.933062E-01

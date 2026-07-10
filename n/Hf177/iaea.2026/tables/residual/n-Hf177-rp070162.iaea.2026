@@ -1,0 +1,38 @@
+# header: 
+#   title: Hf177(n,x)Yb162 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 162
+#     nuclide: Yb162
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.653820E-09
+   1.100000E+02   8.862333E-04
+   1.200000E+02   1.967672E-01
+   1.300000E+02   1.328706E+00
+   1.400000E+02   3.199961E+00
+   1.500000E+02   7.483551E+00
+   1.600000E+02   1.279804E+01
+   1.800000E+02   2.840440E+01
+   2.000000E+02   3.817955E+01

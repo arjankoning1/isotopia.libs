@@ -1,0 +1,40 @@
+# header: 
+#   title: Zn70(n,x)Fe56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.392152E-09
+   9.000000E+01   1.456558E-04
+   1.000000E+02   2.308726E-02
+   1.100000E+02   2.474796E-01
+   1.200000E+02   7.964444E-01
+   1.300000E+02   1.674399E+00
+   1.400000E+02   3.653427E+00
+   1.500000E+02   7.069743E+00
+   1.600000E+02   1.158234E+01
+   1.800000E+02   2.257592E+01
+   2.000000E+02   3.187219E+01

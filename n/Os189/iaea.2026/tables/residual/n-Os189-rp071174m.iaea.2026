@@ -1,0 +1,43 @@
+# header: 
+#   title: Os189(n,x)Lu174m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 189
+#   nuclide: Os189
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 174
+#     nuclide: Lu174m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.980847E-11
+   8.000000E+01   9.557231E-09
+   9.000000E+01   4.538061E-05
+   1.000000E+02   3.405555E-03
+   1.100000E+02   6.352954E-02
+   1.200000E+02   2.201880E-01
+   1.300000E+02   3.814406E-01
+   1.400000E+02   7.652948E-01
+   1.500000E+02   1.221555E+00
+   1.600000E+02   1.282023E+00
+   1.800000E+02   1.726060E+00
+   2.000000E+02   1.754188E+00

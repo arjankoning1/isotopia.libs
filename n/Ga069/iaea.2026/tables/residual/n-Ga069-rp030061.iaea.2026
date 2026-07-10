@@ -1,0 +1,41 @@
+# header: 
+#   title: Ga69(n,x)Zn61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 61
+#     nuclide: Zn61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.645953E-11
+   8.000000E+01   9.443972E-07
+   9.000000E+01   7.930020E-04
+   1.000000E+02   7.208986E-03
+   1.100000E+02   3.723298E-02
+   1.200000E+02   9.768069E-02
+   1.300000E+02   1.577193E-01
+   1.400000E+02   1.986041E-01
+   1.500000E+02   2.152024E-01
+   1.600000E+02   2.196042E-01
+   1.800000E+02   2.340210E-01
+   2.000000E+02   2.410885E-01

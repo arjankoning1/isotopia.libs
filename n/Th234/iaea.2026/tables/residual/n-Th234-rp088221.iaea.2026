@@ -1,0 +1,43 @@
+# header: 
+#   title: Th234(n,x)Ra221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 221
+#     nuclide: Ra221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.025070E-09
+   7.000000E+01   1.338077E-05
+   7.500000E+01   7.571150E-03
+   8.000000E+01   4.121198E-01
+   9.000000E+01   1.361084E+01
+   1.000000E+02   2.268736E+01
+   1.100000E+02   1.299214E+01
+   1.200000E+02   1.185216E+01
+   1.300000E+02   1.748106E+01
+   1.400000E+02   2.094801E+01
+   1.500000E+02   2.465285E+01
+   1.600000E+02   2.413768E+01
+   1.800000E+02   1.831098E+01
+   2.000000E+02   1.777053E+01

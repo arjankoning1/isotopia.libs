@@ -1,0 +1,42 @@
+# header: 
+#   title: Mo94(n,x)Se80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 80
+#     nuclide: Se80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.052373E-10
+   7.500000E+01   1.015650E-08
+   8.000000E+01   4.055734E-07
+   9.000000E+01   2.912692E-05
+   1.000000E+02   1.187284E-04
+   1.100000E+02   1.261371E-03
+   1.200000E+02   2.951592E-02
+   1.300000E+02   1.410196E-01
+   1.400000E+02   2.888248E-01
+   1.500000E+02   4.121828E-01
+   1.600000E+02   9.253994E-01
+   1.800000E+02   1.896450E+00
+   2.000000E+02   2.885612E+00

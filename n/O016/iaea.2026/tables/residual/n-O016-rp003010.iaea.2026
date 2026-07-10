@@ -1,0 +1,43 @@
+# header: 
+#   title: O16(n,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.819640E-08
+   7.000000E+01   1.741124E-06
+   7.500000E+01   1.048566E-05
+   8.000000E+01   2.543841E-05
+   9.000000E+01   1.334006E-04
+   1.000000E+02   4.411482E-04
+   1.100000E+02   1.116150E-03
+   1.200000E+02   1.972454E-03
+   1.300000E+02   2.660526E-03
+   1.400000E+02   3.049099E-03
+   1.500000E+02   3.110855E-03
+   1.600000E+02   2.986203E-03
+   1.800000E+02   2.435829E-03
+   2.000000E+02   1.822764E-03

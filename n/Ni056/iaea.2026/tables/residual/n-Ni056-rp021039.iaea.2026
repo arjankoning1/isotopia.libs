@@ -1,0 +1,36 @@
+# header: 
+#   title: Ni56(n,x)Sc39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 39
+#     nuclide: Sc39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.513839E-10
+   1.300000E+02   5.967796E-09
+   1.400000E+02   3.596240E-08
+   1.500000E+02   1.312509E-07
+   1.600000E+02   3.902782E-07
+   1.800000E+02   3.598326E-06
+   2.000000E+02   1.612095E-05

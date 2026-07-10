@@ -1,0 +1,37 @@
+# header: 
+#   title: P31(n,2n)P30 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shani
+#   year: 1976
+#   subentry: 30447003
+#   X4 reaction: 15-P-31(N,2N)15-P-30,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30447003
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.510000E+01   0.000000E+00   1.040000E+01   9.999999E-02   1.000000E+00
+# reference:
+#   author: G.Shani
+#   title: (n,2n) cross-section measurement of light elements with 15.1 MeV neutrons.
+#   journal: Rept: INIS microfiche, No.3663, p.83 (1976)

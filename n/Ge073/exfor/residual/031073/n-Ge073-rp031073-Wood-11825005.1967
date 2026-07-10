@@ -1,0 +1,37 @@
+# header: 
+#   title: Ge73(n,x)Ga73 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wood
+#   year: 1967
+#   subentry: 11825005
+#   X4 reaction: 32-GE-73(N,P)31-GA-73,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11825005
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   3.209022E+01   3.160400E+00   1.215539E+00
+# reference:
+#   author: R.E.Wood,W.S.Cook,J.R.Goodgame,R.W.Fink
+#   title: Activation Cross Sections of Germanium for 14.4-MeV Neutrons
+#   journal: Jour: Physical Review, Vol.154, p.1108 (1967)

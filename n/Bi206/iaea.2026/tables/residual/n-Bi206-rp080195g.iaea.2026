@@ -1,0 +1,46 @@
+# header: 
+#   title: Bi206(n,x)Hg195g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.032003E-12
+   6.500000E+01   1.015104E-07
+   7.000000E+01   7.807047E-05
+   7.500000E+01   3.962959E-03
+   8.000000E+01   4.380327E-02
+   9.000000E+01   1.276267E+00
+   1.000000E+02   5.135526E+00
+   1.100000E+02   4.845523E+00
+   1.200000E+02   3.672299E+00
+   1.300000E+02   3.962960E+00
+   1.400000E+02   3.833415E+00
+   1.500000E+02   4.092370E+00
+   1.600000E+02   3.000783E+00
+   1.800000E+02   2.626600E+00
+   2.000000E+02   1.352362E+00

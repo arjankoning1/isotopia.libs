@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd146(n,x)Ce135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.467709E-13
+   7.000000E+01   6.237802E-07
+   7.500000E+01   2.908519E-03
+   8.000000E+01   3.518119E-01
+   9.000000E+01   1.560233E+01
+   1.000000E+02   3.853713E+01
+   1.100000E+02   4.230965E+01
+   1.200000E+02   4.216980E+01
+   1.300000E+02   4.692439E+01
+   1.400000E+02   5.024781E+01
+   1.500000E+02   5.789266E+01
+   1.600000E+02   6.486431E+01
+   1.800000E+02   7.111513E+01
+   2.000000E+02   7.061914E+01

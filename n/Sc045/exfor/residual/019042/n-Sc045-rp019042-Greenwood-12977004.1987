@@ -1,0 +1,38 @@
+# header: 
+#   title: Sc45(n,x)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Greenwood
+#   year: 1987
+#   subentry: 12977004
+#   X4 reaction: 21-SC-45(N,A)19-K-42,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12977004
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   4.000000E-01   5.706662E+01   5.239900E+00   9.839072E-01
+   1.490000E+01   4.000000E-01   5.313100E+01   4.878500E+00   9.839072E-01
+# reference:
+#   author: L.R.Greenwood
+#   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
+#   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198

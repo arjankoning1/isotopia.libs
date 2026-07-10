@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm145(n,x)Xe125g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.660913E-12
+   1.000000E+02   2.228212E-08
+   1.100000E+02   7.215183E-06
+   1.200000E+02   1.486955E-04
+   1.300000E+02   5.700174E-04
+   1.400000E+02   1.311165E-03
+   1.500000E+02   3.755109E-03
+   1.600000E+02   7.358834E-03
+   1.800000E+02   2.468229E-02
+   2.000000E+02   3.605941E-02

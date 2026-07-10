@@ -1,0 +1,40 @@
+# header: 
+#   title: Ra226(n,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.683540E-11
+   9.000000E+01   7.240183E-07
+   1.000000E+02   7.723009E-05
+   1.100000E+02   4.374540E-03
+   1.200000E+02   6.022311E-02
+   1.300000E+02   3.230019E-01
+   1.400000E+02   7.707508E-01
+   1.500000E+02   1.608286E+00
+   1.600000E+02   2.581286E+00
+   1.800000E+02   4.725387E+00
+   2.000000E+02   5.307078E+00

@@ -1,0 +1,35 @@
+# header: 
+#   title: Hg204(n,x)W181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 181
+#     nuclide: W181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.127267E-08
+   1.400000E+02   1.151758E-04
+   1.500000E+02   1.053363E-02
+   1.600000E+02   1.353721E-01
+   1.800000E+02   5.442764E-01
+   2.000000E+02   8.299630E-01

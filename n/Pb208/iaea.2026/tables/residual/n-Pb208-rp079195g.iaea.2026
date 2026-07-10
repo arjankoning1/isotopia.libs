@@ -1,0 +1,42 @@
+# header: 
+#   title: Pb208(n,x)Au195g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 195
+#     nuclide: Au195g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.800986E-10
+   9.000000E+01   1.287350E-04
+   1.000000E+02   9.942678E-03
+   1.100000E+02   2.386607E-01
+   1.200000E+02   1.202141E+00
+   1.300000E+02   2.583183E+00
+   1.400000E+02   3.986096E+00
+   1.500000E+02   6.918370E+00
+   1.600000E+02   9.517589E+00
+   1.800000E+02   1.220575E+01
+   2.000000E+02   1.085212E+01

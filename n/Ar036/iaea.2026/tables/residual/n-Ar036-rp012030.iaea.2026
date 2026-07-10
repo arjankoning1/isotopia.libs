@@ -1,0 +1,41 @@
+# header: 
+#   title: Ar36(n,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.940292E-10
+   8.000000E+01   1.523642E-07
+   9.000000E+01   3.323196E-05
+   1.000000E+02   3.015638E-04
+   1.100000E+02   7.471876E-04
+   1.200000E+02   1.037017E-03
+   1.300000E+02   9.721373E-04
+   1.400000E+02   8.466491E-04
+   1.500000E+02   6.960164E-04
+   1.600000E+02   5.579233E-04
+   1.800000E+02   3.402196E-04
+   2.000000E+02   2.317258E-04

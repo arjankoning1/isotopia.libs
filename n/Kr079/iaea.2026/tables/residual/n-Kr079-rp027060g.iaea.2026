@@ -1,0 +1,42 @@
+# header: 
+#   title: Kr79(n,x)Co60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 79
+#   nuclide: Kr79
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.200929E-12
+   9.000000E+01   2.116719E-08
+   1.000000E+02   1.560904E-05
+   1.100000E+02   7.429614E-04
+   1.200000E+02   5.810659E-03
+   1.300000E+02   1.769587E-02
+   1.400000E+02   5.041441E-02
+   1.500000E+02   1.504648E-01
+   1.600000E+02   2.900706E-01
+   1.800000E+02   5.857103E-01
+   2.000000E+02   8.711351E-01

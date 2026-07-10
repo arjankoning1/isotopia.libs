@@ -1,0 +1,42 @@
+# header: 
+#   title: Br79(n,n')Br79m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Broadhead
+#   year: 1967
+#   subentry: 11850014
+#   X4 reaction: 35-BR-79(N,INL)35-BR-79-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11850014
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.800000E+00   7.000000E-02   2.973777E+02   3.865910E+01   1.254758E+00
+# reference:
+#   author: K.G.Broadhead,D.E.Shanks
+#   title: The application of 2.8 MeV (D,d) neutrons to activation analysis.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.18, p.279 (1967)

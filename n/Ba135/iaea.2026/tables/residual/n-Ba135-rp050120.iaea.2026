@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba135(n,x)Sn120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 120
+#     nuclide: Sn120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.205048E-10
+   7.000000E+01   2.607016E-07
+   7.500000E+01   3.516458E-05
+   8.000000E+01   1.126445E-03
+   9.000000E+01   3.673956E-02
+   1.000000E+02   9.404739E-02
+   1.100000E+02   1.201564E-01
+   1.200000E+02   8.765766E-01
+   1.300000E+02   2.362101E+00
+   1.400000E+02   3.030522E+00
+   1.500000E+02   4.847586E+00
+   1.600000E+02   8.417309E+00
+   1.800000E+02   1.180341E+01
+   2.000000E+02   1.413697E+01

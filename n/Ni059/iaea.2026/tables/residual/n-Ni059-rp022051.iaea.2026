@@ -1,0 +1,47 @@
+# header: 
+#   title: Ni59(n,x)Ti51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   4.171915E-11
+   5.600000E+01   2.493232E-09
+   5.800000E+01   6.219923E-08
+   6.000000E+01   8.099581E-07
+   6.500000E+01   5.257445E-05
+   7.000000E+01   6.650593E-04
+   7.500000E+01   3.277163E-03
+   8.000000E+01   8.818931E-03
+   9.000000E+01   2.555806E-02
+   1.000000E+02   4.247255E-02
+   1.100000E+02   6.440296E-02
+   1.200000E+02   9.963084E-02
+   1.300000E+02   1.419744E-01
+   1.400000E+02   1.679678E-01
+   1.500000E+02   1.617021E-01
+   1.600000E+02   1.206735E-01
+   1.800000E+02   7.099158E-02
+   2.000000E+02   4.652825E-02

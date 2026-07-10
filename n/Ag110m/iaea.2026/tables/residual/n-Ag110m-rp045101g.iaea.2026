@@ -1,0 +1,51 @@
+# header: 
+#   title: Ag110m(n,x)Rh101g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   5.183506E-12
+   5.200000E+01   9.180256E-09
+   5.400000E+01   1.483919E-06
+   5.600000E+01   5.712856E-05
+   5.800000E+01   9.642886E-04
+   6.000000E+01   1.021493E-02
+   6.500000E+01   3.180880E-01
+   7.000000E+01   1.780150E+00
+   7.500000E+01   4.110350E+00
+   8.000000E+01   5.791357E+00
+   9.000000E+01   6.300504E+00
+   1.000000E+02   7.344568E+00
+   1.100000E+02   1.068730E+01
+   1.200000E+02   1.347719E+01
+   1.300000E+02   1.545450E+01
+   1.400000E+02   1.504362E+01
+   1.500000E+02   1.374090E+01
+   1.600000E+02   1.183782E+01
+   1.800000E+02   1.000746E+01
+   2.000000E+02   6.747737E+00

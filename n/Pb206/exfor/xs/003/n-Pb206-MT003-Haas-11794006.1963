@@ -1,0 +1,33 @@
+# header: 
+#   title: Pb206(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Haas
+#   year: 1963
+#   subentry: 11794006
+#   X4 reaction: 82-PB-206(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11794006
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.398000E+01   5.000000E-02   2.500000E+03   5.000000E+01   1.000000E+00
+# reference:
+#   author: G.M.HAAS,P.L.OKHUYSEN
+#   title: NONELASTIC CROSS SECTIONS FOR PB 206 AND PB 208 FOR  14-MEV NEUTRONS.
+#   journal: Jour: Physical Review, Vol.132, p.1211 (1963)

@@ -1,0 +1,41 @@
+# header: 
+#   title: Yb175(n,x)Tb158m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 175
+#   nuclide: Yb175
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 158
+#     nuclide: Tb158m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.849795E-11
+   1.000000E+02   3.633635E-06
+   1.100000E+02   7.553173E-04
+   1.200000E+02   7.248226E-03
+   1.300000E+02   1.973479E-02
+   1.400000E+02   1.866112E-02
+   1.500000E+02   1.811974E-02
+   1.600000E+02   2.699334E-02
+   1.800000E+02   3.027386E-02
+   2.000000E+02   2.571503E-02

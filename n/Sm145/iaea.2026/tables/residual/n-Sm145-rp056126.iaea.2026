@@ -1,0 +1,37 @@
+# header: 
+#   title: Sm145(n,x)Ba126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 126
+#     nuclide: Ba126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.881060E-08
+   1.200000E+02   7.588700E-05
+   1.300000E+02   4.486748E-03
+   1.400000E+02   4.089710E-02
+   1.500000E+02   1.248573E-01
+   1.600000E+02   3.226229E-01
+   1.800000E+02   1.638597E+00
+   2.000000E+02   3.495188E+00

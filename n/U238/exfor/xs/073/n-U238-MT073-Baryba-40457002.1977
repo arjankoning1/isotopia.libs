@@ -1,0 +1,43 @@
+# header: 
+#   title: U238(n,n'_23)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Baryba
+#   year: 1977
+#   subentry: 40457002
+#   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40457002
+#   level energy [MeV]:  1.12500E+00
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,n'_23)
+#   ENDF_MF: 3
+#   ENDF_MT: 73
+#   level: 
+#     number: 23
+#     energy [MeV]:  1.076700E+00
+#     spin:  1.200000E+01
+#     parity: 1
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.470000E+00   1.000000E-01   3.800000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: V.Ya.Baryba,B.V.Zhuravlev,N.V.Kornilov, O.A.Sal'nikov
+#   title: Energy and angular distributions of neutrons produced in the bombardment of U-238 with 2.47 MeV neutrons
+#   journal: Jour: Atomnaya Energiya, Vol.43, p.266 (1977)

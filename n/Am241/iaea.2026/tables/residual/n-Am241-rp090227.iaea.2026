@@ -1,0 +1,44 @@
+# header: 
+#   title: Am241(n,x)Th227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 227
+#     nuclide: Th227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.897699E-13
+   6.500000E+01   9.343122E-10
+   7.000000E+01   3.385035E-07
+   7.500000E+01   1.203321E-05
+   8.000000E+01   1.846677E-04
+   9.000000E+01   2.315280E-03
+   1.000000E+02   9.870972E-03
+   1.100000E+02   1.465184E-02
+   1.200000E+02   1.461148E-02
+   1.300000E+02   1.956557E-02
+   1.400000E+02   2.573513E-02
+   1.500000E+02   2.913382E-02
+   1.600000E+02   1.718409E-02
+   1.800000E+02   1.061977E-02
+   2.000000E+02   1.020068E-02

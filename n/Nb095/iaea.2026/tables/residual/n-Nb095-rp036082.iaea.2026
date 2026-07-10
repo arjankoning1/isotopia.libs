@@ -1,0 +1,43 @@
+# header: 
+#   title: Nb95(n,x)Kr82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 82
+#     nuclide: Kr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.682345E-11
+   7.000000E+01   1.595585E-07
+   7.500000E+01   3.226422E-05
+   8.000000E+01   7.044832E-04
+   9.000000E+01   2.137314E-02
+   1.000000E+02   2.016831E-01
+   1.100000E+02   6.306748E-01
+   1.200000E+02   1.039724E+00
+   1.300000E+02   1.750191E+00
+   1.400000E+02   2.950053E+00
+   1.500000E+02   4.429549E+00
+   1.600000E+02   5.999697E+00
+   1.800000E+02   7.565859E+00
+   2.000000E+02   8.755588E+00

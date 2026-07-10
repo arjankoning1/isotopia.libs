@@ -1,0 +1,40 @@
+# header: 
+#   title: U238(n,x)Ra221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 221
+#     nuclide: Ra221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.042391E-11
+   9.000000E+01   1.040848E-05
+   1.000000E+02   8.956218E-03
+   1.100000E+02   2.109427E-01
+   1.200000E+02   6.472593E-01
+   1.300000E+02   7.656693E-01
+   1.400000E+02   9.872533E-01
+   1.500000E+02   2.268247E+00
+   1.600000E+02   2.719618E+00
+   1.800000E+02   3.076433E+00
+   2.000000E+02   2.396713E+00

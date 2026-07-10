@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd116(n,x)Rh104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.070270E-12
+   8.000000E+01   7.468073E-08
+   9.000000E+01   1.453620E-03
+   1.000000E+02   7.036330E-02
+   1.100000E+02   4.956257E-01
+   1.200000E+02   1.777366E+00
+   1.300000E+02   3.696482E+00
+   1.400000E+02   5.741247E+00
+   1.500000E+02   5.952659E+00
+   1.600000E+02   7.681762E+00
+   1.800000E+02   6.505956E+00
+   2.000000E+02   6.414260E+00

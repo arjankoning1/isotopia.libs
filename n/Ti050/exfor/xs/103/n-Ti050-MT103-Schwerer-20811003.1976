@@ -1,0 +1,37 @@
+# header: 
+#   title: Ti50(n,p)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Schwerer
+#   year: 1976
+#   subentry: 20811003
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20811003
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   9.881300E+00   1.192500E+00   9.981124E-01
+# reference:
+#   author: O.SCHWERER,M.WINKLER-ROHATSCH,G.WINKLER
+#   title: -MEASUREMENTS OF (N,2N),(N,P) AND (N,ALPHA) CROSS  SECTIONS FOR 14 MEV NEUTRONS-. IN GERMAN.
+#   journal: Jour: Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Anzeiger, Vol.113, p.153 (1976)

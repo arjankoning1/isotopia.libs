@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb87(n,2n)Rb86m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 327820031
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327820031
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   3.887928E+02   2.212893E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   4.208709E+02   2.636403E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   4.494883E+02   2.772688E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Long He
+#   title: Measurement of cross sections and isomeric cross- section ratios for the (n,2n) reactions on 85,87Rb in energies between 13 and 15 MeV
+#   journal: Jour: Radiochimica Acta, Vol.106, p.709 (2018)

@@ -1,0 +1,37 @@
+# header: 
+#   title: Tc99(n,a)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1973
+#   subentry: 20350009
+#   X4 reaction: 43-TC-99(N,A)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20350009
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   7.120000E+00   1.000000E+00   1.000000E+00
+# reference:
+#   author: S.M.QAIM
+#   title: -NUCLEAR REACTION CROSS-SECTIONS FOR 14.7 MEV NEUTRONS  ON TC-99.-
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.35, p.3669 (1973)

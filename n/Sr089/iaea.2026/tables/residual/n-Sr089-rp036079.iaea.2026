@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr89(n,x)Kr79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 79
+#     nuclide: Kr79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.273268E-12
+   7.500000E+01   5.350065E-06
+   8.000000E+01   4.267615E-03
+   9.000000E+01   5.160641E-01
+   1.000000E+02   3.711194E+00
+   1.100000E+02   8.221256E+00
+   1.200000E+02   1.350948E+01
+   1.300000E+02   2.169412E+01
+   1.400000E+02   3.081764E+01
+   1.500000E+02   3.796671E+01
+   1.600000E+02   3.865185E+01
+   1.800000E+02   3.311203E+01
+   2.000000E+02   3.107530E+01

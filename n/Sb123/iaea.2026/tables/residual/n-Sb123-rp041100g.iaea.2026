@@ -1,0 +1,39 @@
+# header: 
+#   title: Sb123(n,x)Nb100g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 100
+#     nuclide: Nb100g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.182463E-12
+   1.200000E+02   3.351099E-08
+   1.300000E+02   2.434079E-06
+   1.400000E+02   7.964021E-05
+   1.500000E+02   1.082178E-02
+   1.600000E+02   3.196016E-01
+   1.800000E+02   6.086910E+00
+   2.000000E+02   5.723907E+00

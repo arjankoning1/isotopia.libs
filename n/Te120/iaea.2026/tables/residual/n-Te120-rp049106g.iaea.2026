@@ -1,0 +1,39 @@
+# header: 
+#   title: Te120(n,x)In106g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 106
+#     nuclide: In106g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.624619E-10
+   1.200000E+02   1.591165E-06
+   1.300000E+02   3.011847E-04
+   1.400000E+02   8.590003E-03
+   1.500000E+02   5.676305E-02
+   1.600000E+02   1.720493E-01
+   1.800000E+02   6.224943E-01
+   2.000000E+02   1.120173E+00

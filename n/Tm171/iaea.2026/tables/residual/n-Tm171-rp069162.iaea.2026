@@ -1,0 +1,41 @@
+# header: 
+#   title: Tm171(n,x)Tm162 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 171
+#   nuclide: Tm171
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 162
+#     nuclide: Tm162
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.228753E-04
+   8.000000E+01   2.096440E-01
+   9.000000E+01   2.502877E+01
+   1.000000E+02   6.304052E+01
+   1.100000E+02   4.909723E+01
+   1.200000E+02   3.737095E+01
+   1.300000E+02   3.389334E+01
+   1.400000E+02   3.116760E+01
+   1.500000E+02   3.179588E+01
+   1.600000E+02   2.826493E+01
+   1.800000E+02   2.273225E+01
+   2.000000E+02   2.485199E+01

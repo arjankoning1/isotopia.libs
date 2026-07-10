@@ -1,0 +1,39 @@
+# header: 
+#   title: Te121m(n,x)Rh101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.552228E-09
+   1.200000E+02   1.442114E-05
+   1.300000E+02   1.653262E-03
+   1.400000E+02   2.329853E-02
+   1.500000E+02   1.154167E-01
+   1.600000E+02   3.211085E-01
+   1.800000E+02   1.300203E+00
+   2.000000E+02   3.408771E+00

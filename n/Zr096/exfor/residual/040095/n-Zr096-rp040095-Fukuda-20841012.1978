@@ -1,0 +1,37 @@
+# header: 
+#   title: Zr96(n,x)Zr95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fukuda
+#   year: 1978
+#   subentry: 20841012
+#   X4 reaction: 40-ZR-96(N,2N)40-ZR-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20841012
+# target: 
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 40
+#     A: 95
+#     nuclide: Zr95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   1.645631E+03   1.285179E+02   1.004046E+00
+# reference:
+#   author: K.Fukuda,K.Matsuo,S.Shirahama,I.Kumabe
+#   title: Activation cross sections on Fe,Co,Ni,Zr and Mo  for 14.6 MeV neutrons
+#   journal: Prog: Japanese report to NEANDC, No.56, p.44 (1978)

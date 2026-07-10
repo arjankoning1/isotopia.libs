@@ -1,0 +1,40 @@
+# header: 
+#   title: Fm253(n,x)Np235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.049889E-13
+   9.000000E+01   2.173312E-09
+   1.000000E+02   1.319635E-07
+   1.100000E+02   1.960223E-06
+   1.200000E+02   3.744409E-06
+   1.300000E+02   1.873313E-06
+   1.400000E+02   1.282687E-06
+   1.500000E+02   1.097375E-06
+   1.600000E+02   1.059321E-06
+   1.800000E+02   1.302744E-06
+   2.000000E+02   1.081438E-06

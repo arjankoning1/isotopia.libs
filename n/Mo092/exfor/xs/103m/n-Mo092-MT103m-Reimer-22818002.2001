@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo92(n,p)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Reimer
+#   year: 2001
+#   subentry: 22818002
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22818002
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.622000E+01   5.000000E-03   4.306522E+01   2.897660E+00   9.991931E-01
+   1.800000E+01   5.000000E-03   3.426233E+01   3.107490E+00   9.991931E-01
+   1.927000E+01   5.000000E-03   4.089697E+01   5.445600E+00   9.991931E-01
+   2.051000E+01   5.000000E-03   3.966797E+01   6.704600E+00   9.991931E-01
+# reference:
+#   author: P.Reimer, M.Hult, A.J.M.Plompen, P.N.Johnston, V.Avrigeanu, S.M.Qaim
+#   title: Fast neutron induced reactions leading to activation  products: selected cases relevant to development of  low activation materials, transmutation and hazard  assessment of nuclear wastes
+#   journal: Thesis: Reimer (2001)

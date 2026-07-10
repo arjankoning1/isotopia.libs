@@ -1,0 +1,38 @@
+# header: 
+#   title: Ni60(n,p)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LiTingyann
+#   year: 1992
+#   subentry: 32593003
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32593003
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.409000E+01   1.400000E-01   1.620318E+02   8.001600E+00   1.000196E+00
+   1.477000E+01   2.800000E-01   1.420279E+02   5.001000E+00   1.000196E+00
+# reference:
+#   author: Li Tingyan,Shi Zhaomin,Lu Hanlin,Zhao Wenrong, Yu Weixiang,Yuan Xialin
+#   title: The cross-section measurements and evaluations for Ni-58(n,p), Ni-60(n,p),Ni-62(n,alpha) and Fe-54(n,p) reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.16, Issue.2,

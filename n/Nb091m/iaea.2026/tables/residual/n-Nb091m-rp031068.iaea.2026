@@ -1,0 +1,37 @@
+# header: 
+#   title: Nb91m(n,x)Ga68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.721259E-12
+   1.200000E+02   2.232462E-08
+   1.300000E+02   2.124667E-06
+   1.400000E+02   2.239057E-05
+   1.500000E+02   9.036495E-05
+   1.600000E+02   5.025705E-04
+   1.800000E+02   1.023300E-02
+   2.000000E+02   6.828671E-02

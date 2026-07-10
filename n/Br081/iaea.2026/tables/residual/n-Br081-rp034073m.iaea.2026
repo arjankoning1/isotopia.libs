@@ -1,0 +1,44 @@
+# header: 
+#   title: Br81(n,x)Se73m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.087040E-12
+   7.500000E+01   2.214665E-06
+   8.000000E+01   6.025608E-04
+   9.000000E+01   6.305279E-02
+   1.000000E+02   5.461940E-01
+   1.100000E+02   1.350775E+00
+   1.200000E+02   1.962684E+00
+   1.300000E+02   2.596709E+00
+   1.400000E+02   2.897058E+00
+   1.500000E+02   3.036164E+00
+   1.600000E+02   2.962227E+00
+   1.800000E+02   2.903409E+00
+   2.000000E+02   2.805254E+00

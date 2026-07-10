@@ -1,0 +1,40 @@
+# header: 
+#   title: Ge72(n,x)Ge71 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dzysiuk
+#   year: 2007
+#   subentry: 32218004
+#   X4 reaction: 32-GE-72(N,2N)32-GE-71,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32218004
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 32
+#     A: 71
+#     nuclide: Ge71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   6.530001E+02   6.600001E+01   1.000000E+00
+   1.369000E+01   0.000000E+00   7.170001E+02   5.100000E+01   1.000000E+00
+   1.436000E+01   0.000000E+00   7.400001E+02   4.500000E+01   1.000000E+00
+   1.474000E+01   0.000000E+00   9.170001E+02   7.700001E+01   1.000000E+00
+# reference:
+#   author: N.R.Dzysiuk, I.M.Kadenko, V.K.Maydanyuk, G.I.Primenko,  A.M.Berlizov
+#   title: Determination of cross sections for nuclear reactions  (n,x) at germanium isotopes
+#   journal: Jour: Yaderna Fizika ta Energetika, Vol.8, Issue.4/22, p.68 (2007)

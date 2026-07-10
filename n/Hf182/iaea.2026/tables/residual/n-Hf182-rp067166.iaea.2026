@@ -1,0 +1,40 @@
+# header: 
+#   title: Hf182(n,x)Ho166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 182
+#   nuclide: Hf182
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 166
+#     nuclide: Ho166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.966016E-10
+   9.000000E+01   3.859412E-05
+   1.000000E+02   1.057041E-02
+   1.100000E+02   2.141518E-01
+   1.200000E+02   1.262843E+00
+   1.300000E+02   1.990696E+00
+   1.400000E+02   1.778330E+00
+   1.500000E+02   1.582128E+00
+   1.600000E+02   1.371054E+00
+   1.800000E+02   1.726251E+00
+   2.000000E+02   1.174447E+00

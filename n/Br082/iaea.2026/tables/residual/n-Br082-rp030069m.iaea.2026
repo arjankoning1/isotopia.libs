@@ -1,0 +1,45 @@
+# header: 
+#   title: Br82(n,x)Zn69m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.602681E-11
+   7.000000E+01   2.742499E-07
+   7.500000E+01   5.157989E-05
+   8.000000E+01   6.230184E-04
+   9.000000E+01   6.947496E-03
+   1.000000E+02   5.939095E-02
+   1.100000E+02   1.962826E-01
+   1.200000E+02   3.459699E-01
+   1.300000E+02   5.578099E-01
+   1.400000E+02   8.991783E-01
+   1.500000E+02   1.158409E+00
+   1.600000E+02   1.459218E+00
+   1.800000E+02   1.391400E+00
+   2.000000E+02   1.273095E+00

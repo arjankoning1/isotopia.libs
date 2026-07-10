@@ -1,0 +1,37 @@
+# header: 
+#   title: Y89(n,x)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Booth
+#   year: 1958
+#   subentry: 11429013
+#   X4 reaction: 39-Y-89(N,G)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11429013
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   2.800000E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: R.Booth,W.P.Ball,M.H.Mac GRegor
+#   title: Neutron activation cross sections at 25keV.
+#   journal: Jour: Physical Review, Vol.112, p.226 (1958)

@@ -1,0 +1,38 @@
+# header: 
+#   title: Te123m(n,x)In109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.232287E-07
+   1.100000E+02   7.282938E-04
+   1.200000E+02   4.241115E-02
+   1.300000E+02   4.407511E-01
+   1.400000E+02   1.722679E+00
+   1.500000E+02   4.600101E+00
+   1.600000E+02   8.162913E+00
+   1.800000E+02   1.854704E+01
+   2.000000E+02   2.603374E+01

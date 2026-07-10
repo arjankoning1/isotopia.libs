@@ -1,0 +1,39 @@
+# header: 
+#   title: Mn54(n,x)K38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.601006E-09
+   1.000000E+02   1.928027E-05
+   1.100000E+02   8.810003E-04
+   1.200000E+02   5.299145E-03
+   1.300000E+02   1.587880E-02
+   1.400000E+02   4.881847E-02
+   1.500000E+02   1.387100E-01
+   1.600000E+02   3.222117E-01
+   1.800000E+02   1.109579E+00
+   2.000000E+02   3.038392E+00

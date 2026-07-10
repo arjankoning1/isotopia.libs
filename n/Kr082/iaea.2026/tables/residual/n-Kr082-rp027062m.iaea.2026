@@ -1,0 +1,40 @@
+# header: 
+#   title: Kr82(n,x)Co62m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 82
+#   nuclide: Kr82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 62
+#     nuclide: Co62m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.952918E-08
+   1.100000E+02   2.423030E-05
+   1.200000E+02   1.470978E-03
+   1.300000E+02   1.219558E-02
+   1.400000E+02   4.464225E-02
+   1.500000E+02   1.023263E-01
+   1.600000E+02   2.350374E-01
+   1.800000E+02   7.383614E-01
+   2.000000E+02   2.022446E+00

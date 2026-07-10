@@ -1,0 +1,44 @@
+# header: 
+#   title: K40(n,x)Ne24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 24
+#     nuclide: Ne24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.697390E-12
+   6.500000E+01   6.609072E-09
+   7.000000E+01   3.362743E-07
+   7.500000E+01   3.631042E-06
+   8.000000E+01   1.681564E-05
+   9.000000E+01   7.971116E-05
+   1.000000E+02   1.596656E-04
+   1.100000E+02   4.693927E-04
+   1.200000E+02   1.289889E-03
+   1.300000E+02   2.502125E-03
+   1.400000E+02   4.236755E-03
+   1.500000E+02   8.411612E-03
+   1.600000E+02   1.634419E-02
+   1.800000E+02   3.835907E-02
+   2.000000E+02   5.426273E-02

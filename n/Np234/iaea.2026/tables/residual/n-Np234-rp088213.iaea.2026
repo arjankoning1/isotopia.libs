@@ -1,0 +1,37 @@
+# header: 
+#   title: Np234(n,x)Ra213 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 234
+#   nuclide: Np234
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 213
+#     nuclide: Ra213
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.907351E-13
+   1.200000E+02   9.467022E-10
+   1.300000E+02   8.281526E-08
+   1.400000E+02   6.381214E-07
+   1.500000E+02   7.291949E-06
+   1.600000E+02   6.034045E-06
+   1.800000E+02   2.174116E-04
+   2.000000E+02   4.253978E-04

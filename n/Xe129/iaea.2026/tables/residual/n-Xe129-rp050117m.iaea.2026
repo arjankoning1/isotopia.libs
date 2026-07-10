@@ -1,0 +1,48 @@
+# header: 
+#   title: Xe129(n,x)Sn117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 117
+#     nuclide: Sn117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   9.801310E-12
+   5.800000E+01   8.472149E-10
+   6.000000E+01   2.616052E-08
+   6.500000E+01   3.712285E-05
+   7.000000E+01   2.381939E-03
+   7.500000E+01   2.666492E-02
+   8.000000E+01   1.072413E-01
+   9.000000E+01   2.736736E-01
+   1.000000E+02   3.287270E-01
+   1.100000E+02   4.770170E-01
+   1.200000E+02   1.037570E+00
+   1.300000E+02   1.518286E+00
+   1.400000E+02   1.813854E+00
+   1.500000E+02   2.318398E+00
+   1.600000E+02   2.698322E+00
+   1.800000E+02   2.008907E+00
+   2.000000E+02   1.788403E+00

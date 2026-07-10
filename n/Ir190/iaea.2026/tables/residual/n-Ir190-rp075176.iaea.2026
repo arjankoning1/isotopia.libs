@@ -1,0 +1,39 @@
+# header: 
+#   title: Ir190(n,x)Re176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 190
+#   nuclide: Ir190
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 176
+#     nuclide: Re176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.505176E-08
+   1.000000E+02   3.115469E-04
+   1.100000E+02   1.142401E-02
+   1.200000E+02   3.393010E-01
+   1.300000E+02   1.962616E+00
+   1.400000E+02   2.006394E+00
+   1.500000E+02   4.754148E+00
+   1.600000E+02   8.074040E+00
+   1.800000E+02   1.224989E+01
+   2.000000E+02   1.138510E+01

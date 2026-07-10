@@ -1,0 +1,48 @@
+# header: 
+#   title: Si28(n,x)Si25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 25
+#     nuclide: Si25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   3.717472E-09
+   5.400000E+01   3.986458E-06
+   5.600000E+01   4.076364E-05
+   5.800000E+01   1.516289E-04
+   6.000000E+01   3.653997E-04
+   6.500000E+01   1.195221E-03
+   7.000000E+01   2.248924E-03
+   7.500000E+01   3.221762E-03
+   8.000000E+01   3.897378E-03
+   9.000000E+01   4.575258E-03
+   1.000000E+02   4.857581E-03
+   1.100000E+02   4.968567E-03
+   1.200000E+02   4.926449E-03
+   1.300000E+02   4.769219E-03
+   1.400000E+02   4.578491E-03
+   1.500000E+02   4.318027E-03
+   1.600000E+02   4.053867E-03
+   1.800000E+02   3.661106E-03
+   2.000000E+02   3.547165E-03

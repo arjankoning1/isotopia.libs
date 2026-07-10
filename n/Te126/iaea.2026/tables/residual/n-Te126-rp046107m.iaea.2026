@@ -1,0 +1,40 @@
+# header: 
+#   title: Te126(n,x)Pd107m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 107
+#     nuclide: Pd107m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.055930E-11
+   1.100000E+02   1.721836E-05
+   1.200000E+02   2.205441E-02
+   1.300000E+02   3.816396E-01
+   1.400000E+02   1.127523E+00
+   1.500000E+02   2.497160E+00
+   1.600000E+02   6.019517E+00
+   1.800000E+02   1.189324E+01
+   2.000000E+02   1.632018E+01

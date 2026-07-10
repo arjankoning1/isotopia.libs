@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo92(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bhike
+#   year: 2009
+#   subentry: 142510031
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/142510031
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.600000E+00   3.000000E-02   1.498700E-01   5.987400E-02   9.991198E-01
+   3.700000E+00   3.000000E-02   2.364237E+01   2.881600E+00   1.014694E+00
+# reference:
+#   author: M.Bhike,A.Saxena,B.J.Roy,R.K.Choudhury,S.Kailas, S.Ganesan
+#   title: Measurement of 67Zn(n,p)67Cu, 92Mo(n,p)92mNb,and 98Mo(n,g)99Mo Reaction Cross Sections at Incident Neutron Energies of En = 1.6 and 3.7 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.163, p.175 (2009)

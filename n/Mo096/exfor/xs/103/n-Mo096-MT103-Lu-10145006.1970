@@ -1,0 +1,37 @@
+# header: 
+#   title: Mo96(n,p)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lu
+#   year: 1970
+#   subentry: 10145006
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10145006
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   6.000000E-01   2.357207E+01   9.056100E-01   1.106670E+00
+# reference:
+#   author: W.D.Lu, N.RanaKumar, R.W.Fink
+#   title: Activation Cross Sections for (n,p), ((n,np)+(n,pn)+  (n,d)), and (n,alpha) Reactions in the Region of Z=40  to 58 at 14.4 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.358 (1970)

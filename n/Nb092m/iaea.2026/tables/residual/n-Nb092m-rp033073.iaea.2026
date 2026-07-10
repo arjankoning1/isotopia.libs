@@ -1,0 +1,39 @@
+# header: 
+#   title: Nb92m(n,x)As73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 73
+#     nuclide: As73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.818529E-11
+   1.000000E+02   6.823958E-07
+   1.100000E+02   8.886387E-05
+   1.200000E+02   8.594214E-04
+   1.300000E+02   2.589107E-03
+   1.400000E+02   5.963215E-03
+   1.500000E+02   2.045343E-02
+   1.600000E+02   5.783524E-02
+   1.800000E+02   2.678589E-01
+   2.000000E+02   8.063873E-01

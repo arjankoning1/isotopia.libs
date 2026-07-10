@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe54(n,x)Ca48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 48
+#     nuclide: Ca48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.317304E-09
+   7.500000E+01   1.947375E-07
+   8.000000E+01   1.909811E-06
+   9.000000E+01   3.152564E-05
+   1.000000E+02   1.378735E-04
+   1.100000E+02   2.327981E-04
+   1.200000E+02   2.938623E-04
+   1.300000E+02   2.499094E-04
+   1.400000E+02   2.254522E-04
+   1.500000E+02   2.012369E-04
+   1.600000E+02   1.283715E-04
+   1.800000E+02   8.601111E-05
+   2.000000E+02   6.370044E-05

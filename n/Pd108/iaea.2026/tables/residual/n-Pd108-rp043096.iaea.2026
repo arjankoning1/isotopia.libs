@@ -1,0 +1,40 @@
+# header: 
+#   title: Pd108(n,x)Tc96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 96
+#     nuclide: Tc96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.246438E-08
+   9.000000E+01   7.228261E-04
+   1.000000E+02   3.704283E-02
+   1.100000E+02   3.412059E-01
+   1.200000E+02   1.392888E+00
+   1.300000E+02   3.011953E+00
+   1.400000E+02   4.414773E+00
+   1.500000E+02   6.247853E+00
+   1.600000E+02   7.343913E+00
+   1.800000E+02   8.960240E+00
+   2.000000E+02   9.089411E+00

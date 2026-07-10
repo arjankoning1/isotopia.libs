@@ -1,0 +1,42 @@
+# header: 
+#   title: Ce143(n,x)Cs130m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 143
+#   nuclide: Ce143
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.709540E-10
+   9.000000E+01   4.363887E-04
+   1.000000E+02   1.038618E-01
+   1.100000E+02   1.323916E+00
+   1.200000E+02   4.794035E+00
+   1.300000E+02   9.280568E+00
+   1.400000E+02   1.492560E+01
+   1.500000E+02   2.053331E+01
+   1.600000E+02   2.575347E+01
+   1.800000E+02   2.582943E+01
+   2.000000E+02   1.822836E+01

@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf177(n,x)Sm152 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 152
+#     nuclide: Sm152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.322797E-08
+   1.200000E+02   7.710763E-05
+   1.300000E+02   2.523262E-03
+   1.400000E+02   6.424029E-03
+   1.500000E+02   2.728517E-02
+   1.600000E+02   5.266939E-02
+   1.800000E+02   4.855512E-01
+   2.000000E+02   2.193393E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Br81(n,x)Ni64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.339882E-11
+   9.000000E+01   4.790225E-06
+   1.000000E+02   1.729878E-03
+   1.100000E+02   4.179799E-02
+   1.200000E+02   1.818743E-01
+   1.300000E+02   4.954434E-01
+   1.400000E+02   1.034718E+00
+   1.500000E+02   2.078483E+00
+   1.600000E+02   3.826616E+00
+   1.800000E+02   9.649160E+00
+   2.000000E+02   2.100836E+01

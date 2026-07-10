@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd108(n,x)Y92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.174209E-10
+   8.000000E+01   2.877368E-07
+   9.000000E+01   4.371647E-04
+   1.000000E+02   4.693645E-02
+   1.100000E+02   4.186402E-01
+   1.200000E+02   1.058148E+00
+   1.300000E+02   2.066856E+00
+   1.400000E+02   3.972251E+00
+   1.500000E+02   6.074267E+00
+   1.600000E+02   7.901321E+00
+   1.800000E+02   8.577724E+00
+   2.000000E+02   8.575715E+00

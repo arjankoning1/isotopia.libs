@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu151(n,x)Nd137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: JEFF-4.0_RRR_evaluation_group
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.774485E-11
+   1.000000E+02   5.578463E-05
+   1.100000E+02   2.220221E-02
+   1.200000E+02   4.320726E-01
+   1.300000E+02   2.417895E+00
+   1.400000E+02   6.522987E+00
+   1.500000E+02   1.250739E+01
+   1.600000E+02   1.940079E+01
+   1.800000E+02   3.865615E+01
+   2.000000E+02   3.635250E+01

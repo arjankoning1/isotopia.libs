@@ -1,0 +1,36 @@
+# header: 
+#   title: Lu169(n,x)Dy149 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 169
+#   nuclide: Lu169
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 149
+#     nuclide: Dy149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.051604E-10
+   1.300000E+02   8.208793E-07
+   1.400000E+02   3.948514E-04
+   1.500000E+02   1.801012E-02
+   1.600000E+02   1.538501E-01
+   1.800000E+02   2.424932E+00
+   2.000000E+02   6.718953E+00

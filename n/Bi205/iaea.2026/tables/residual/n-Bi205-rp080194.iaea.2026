@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi205(n,x)Hg194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 194
+#     nuclide: Hg194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.510477E-11
+   6.500000E+01   8.121901E-07
+   7.000000E+01   4.685843E-04
+   7.500000E+01   2.713780E-02
+   8.000000E+01   3.030837E-01
+   9.000000E+01   5.377400E+00
+   1.000000E+02   1.945287E+01
+   1.100000E+02   1.531770E+01
+   1.200000E+02   8.813356E+00
+   1.300000E+02   9.682137E+00
+   1.400000E+02   1.173155E+01
+   1.500000E+02   1.129239E+01
+   1.600000E+02   1.059597E+01
+   1.800000E+02   1.033385E+01
+   2.000000E+02   6.298985E+00

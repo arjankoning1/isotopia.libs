@@ -1,0 +1,42 @@
+# header: 
+#   title: I124(n,x)Ag107m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 107
+#     nuclide: Ag107m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.739577E-12
+   9.000000E+01   4.194555E-06
+   1.000000E+02   2.222556E-03
+   1.100000E+02   6.470999E-02
+   1.200000E+02   3.378818E-01
+   1.300000E+02   7.126973E-01
+   1.400000E+02   1.275005E+00
+   1.500000E+02   2.372114E+00
+   1.600000E+02   2.984380E+00
+   1.800000E+02   4.993374E+00
+   2.000000E+02   3.753267E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Greenwood
+#   year: 1987
+#   subentry: 12977014
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12977014
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   4.000000E-01   3.136483E+01   1.746500E-01   9.475780E-01
+   1.465000E+01   4.000000E-01   3.619748E+01   2.015600E-01   9.475780E-01
+   1.480000E+01   4.000000E-01   3.790312E+01   2.110600E-01   9.475780E-01
+   1.485000E+01   4.000000E-01   3.904021E+01   2.173900E-01   9.475780E-01
+   1.490000E+01   4.000000E-01   3.875594E+01   2.158000E-01   9.475780E-01
+# reference:
+#   author: L.R.Greenwood
+#   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
+#   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198

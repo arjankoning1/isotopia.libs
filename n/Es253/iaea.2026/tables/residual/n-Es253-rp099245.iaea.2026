@@ -1,0 +1,47 @@
+# header: 
+#   title: Es253(n,x)Es245 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 253
+#   nuclide: Es253
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 245
+#     nuclide: Es245
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   7.970172E-12
+   5.600000E+01   1.232368E-08
+   5.800000E+01   8.305892E-07
+   6.000000E+01   1.230145E-05
+   6.500000E+01   5.917336E-04
+   7.000000E+01   5.053653E-03
+   7.500000E+01   2.146928E-02
+   8.000000E+01   6.066758E-02
+   9.000000E+01   2.349285E-01
+   1.000000E+02   3.969141E-01
+   1.100000E+02   5.033551E-01
+   1.200000E+02   6.152074E-01
+   1.300000E+02   6.140513E-01
+   1.400000E+02   8.482650E-01
+   1.500000E+02   7.461879E-01
+   1.600000E+02   1.189636E+00
+   1.800000E+02   1.027175E+00
+   2.000000E+02   1.731949E+00

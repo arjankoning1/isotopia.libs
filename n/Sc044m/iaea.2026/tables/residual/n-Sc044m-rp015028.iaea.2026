@@ -1,0 +1,38 @@
+# header: 
+#   title: Sc44m(n,x)P28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 28
+#     nuclide: P28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.680813E-08
+   1.100000E+02   3.516879E-06
+   1.200000E+02   3.756941E-05
+   1.300000E+02   1.445994E-04
+   1.400000E+02   4.191003E-04
+   1.500000E+02   1.145884E-03
+   1.600000E+02   2.593129E-03
+   1.800000E+02   9.026377E-03
+   2.000000E+02   2.274486E-02

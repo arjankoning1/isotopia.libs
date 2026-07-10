@@ -1,0 +1,36 @@
+# header: 
+#   title: Ho166m(n,x)Sm145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 67
+#   A: 166
+#   nuclide: Ho166m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 145
+#     nuclide: Sm145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.488350E-10
+   1.300000E+02   1.592112E-05
+   1.400000E+02   9.806410E-04
+   1.500000E+02   3.604952E-02
+   1.600000E+02   3.041672E-01
+   1.800000E+02   2.976143E+00
+   2.000000E+02   9.644200E+00

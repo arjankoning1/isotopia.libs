@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm145(n,x)La128g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 128
+#     nuclide: La128g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.502450E-08
+   1.200000E+02   8.826701E-05
+   1.300000E+02   7.818052E-03
+   1.400000E+02   1.176046E-01
+   1.500000E+02   6.448922E-01
+   1.600000E+02   1.648762E+00
+   1.800000E+02   6.606230E+00
+   2.000000E+02   1.394814E+01

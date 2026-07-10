@@ -1,0 +1,44 @@
+# header: 
+#   title: Al26(n,x)Ne17m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.331102E-13
+   7.500000E+01   3.644182E-08
+   8.000000E+01   3.262379E-06
+   9.000000E+01   1.110150E-04
+   1.000000E+02   5.077879E-04
+   1.100000E+02   1.224277E-03
+   1.200000E+02   2.064160E-03
+   1.300000E+02   3.098475E-03
+   1.400000E+02   4.041027E-03
+   1.500000E+02   4.955146E-03
+   1.600000E+02   5.345361E-03
+   1.800000E+02   5.016050E-03
+   2.000000E+02   4.731820E-03

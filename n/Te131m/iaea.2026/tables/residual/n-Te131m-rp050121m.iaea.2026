@@ -1,0 +1,48 @@
+# header: 
+#   title: Te131m(n,x)Sn121m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 131
+#   nuclide: Te131m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   4.818462E-12
+   5.800000E+01   1.780637E-09
+   6.000000E+01   2.122079E-07
+   6.500000E+01   4.518006E-04
+   7.000000E+01   3.193631E-02
+   7.500000E+01   3.349883E-01
+   8.000000E+01   1.191598E+00
+   9.000000E+01   3.416131E+00
+   1.000000E+02   4.837287E+00
+   1.100000E+02   7.440318E+00
+   1.200000E+02   1.099228E+01
+   1.300000E+02   1.316710E+01
+   1.400000E+02   1.282900E+01
+   1.500000E+02   1.234805E+01
+   1.600000E+02   1.267010E+01
+   1.800000E+02   8.333631E+00
+   2.000000E+02   8.872290E+00

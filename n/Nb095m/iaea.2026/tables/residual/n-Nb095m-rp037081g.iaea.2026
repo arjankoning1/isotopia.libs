@@ -1,0 +1,41 @@
+# header: 
+#   title: Nb95m(n,x)Rb81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.624450E-06
+   1.000000E+02   3.401136E-03
+   1.100000E+02   8.431483E-02
+   1.200000E+02   3.680349E-01
+   1.300000E+02   7.952245E-01
+   1.400000E+02   1.492058E+00
+   1.500000E+02   2.717880E+00
+   1.600000E+02   4.362458E+00
+   1.800000E+02   8.278201E+00
+   2.000000E+02   1.216385E+01

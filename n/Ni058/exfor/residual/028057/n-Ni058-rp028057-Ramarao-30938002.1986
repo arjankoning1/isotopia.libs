@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ramarao
+#   year: 1986
+#   subentry: 30938002
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30938002
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   2.000000E+01   1.500000E+00   1.000000E+00
+# reference:
+#   author: J.Rama Rao,N.L.Singh,S.Singhal,A.V.Mohan Rao, S.Mukherjee,L.Chaturvedi
+#   title: Simulation technique for the measurement of fast neutron reaction cross section
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.17, p.368 (198

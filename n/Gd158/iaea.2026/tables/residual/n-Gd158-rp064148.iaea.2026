@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd158(n,x)Gd148 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 148
+#     nuclide: Gd148
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.770788E-07
+   9.000000E+01   1.526360E-02
+   1.000000E+02   4.214092E-01
+   1.100000E+02   1.669525E+00
+   1.200000E+02   2.730467E+00
+   1.300000E+02   3.457205E+00
+   1.400000E+02   3.973090E+00
+   1.500000E+02   4.151457E+00
+   1.600000E+02   4.428687E+00
+   1.800000E+02   5.281456E+00
+   2.000000E+02   4.609630E+00

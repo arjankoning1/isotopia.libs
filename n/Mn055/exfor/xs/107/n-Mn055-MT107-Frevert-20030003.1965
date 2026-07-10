@@ -1,0 +1,37 @@
+# header: 
+#   title: Mn55(n,a)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Frevert
+#   year: 1965
+#   subentry: 20030003
+#   X4 reaction: 25-MN-55(N,A)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20030003
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.298057E+01   1.785400E+00   9.406214E-01
+# reference:
+#   author: E.Frevert
+#   title: (n,He-3) cross-section measurements on Mn-55,Co-59,  As-75 and Rh-103 for 14.8 neutrons
+#   journal: Jour: Acta Physica Austriaca, Vol.20, p.304 (1965)

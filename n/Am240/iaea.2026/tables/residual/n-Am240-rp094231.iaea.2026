@@ -1,0 +1,44 @@
+# header: 
+#   title: Am240(n,x)Pu231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 231
+#     nuclide: Pu231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.642616E-13
+   6.500000E+01   1.314313E-08
+   7.000000E+01   2.585525E-06
+   7.500000E+01   2.872074E-05
+   8.000000E+01   9.079300E-05
+   9.000000E+01   3.460936E-04
+   1.000000E+02   6.090247E-04
+   1.100000E+02   1.416887E-03
+   1.200000E+02   8.582906E-04
+   1.300000E+02   1.776977E-03
+   1.400000E+02   2.721656E-03
+   1.500000E+02   7.323669E-03
+   1.600000E+02   1.504543E-02
+   1.800000E+02   4.848061E-03
+   2.000000E+02   2.530769E-03

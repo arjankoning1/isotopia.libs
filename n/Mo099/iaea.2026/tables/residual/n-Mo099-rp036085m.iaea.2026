@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo99(n,x)Kr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   6.317288E-13
+   5.800000E+01   3.404535E-11
+   6.000000E+01   6.631015E-10
+   6.500000E+01   1.637529E-07
+   7.000000E+01   3.687491E-06
+   7.500000E+01   2.259489E-05
+   8.000000E+01   6.448667E-05
+   9.000000E+01   1.690625E-04
+   1.000000E+02   2.781105E-04
+   1.100000E+02   7.439112E-04
+   1.200000E+02   1.964968E-03
+   1.300000E+02   3.814742E-03
+   1.400000E+02   6.014497E-03
+   1.500000E+02   1.101225E-02
+   1.600000E+02   1.458366E-02
+   1.800000E+02   1.248163E-02
+   2.000000E+02   1.833209E-02

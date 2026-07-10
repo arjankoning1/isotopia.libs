@@ -1,0 +1,40 @@
+# header: 
+#   title: Se74(n,x)Co57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.588706E-12
+   9.000000E+01   1.628290E-06
+   1.000000E+02   5.668597E-04
+   1.100000E+02   1.057760E-02
+   1.200000E+02   7.591481E-02
+   1.300000E+02   2.612837E-01
+   1.400000E+02   6.539626E-01
+   1.500000E+02   1.311353E+00
+   1.600000E+02   2.448317E+00
+   1.800000E+02   6.273583E+00
+   2.000000E+02   1.006940E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Pd102(n,x)Y86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.155044E-10
+   9.000000E+01   9.238861E-06
+   1.000000E+02   4.514802E-03
+   1.100000E+02   1.277424E-01
+   1.200000E+02   6.303042E-01
+   1.300000E+02   1.187720E+00
+   1.400000E+02   2.034557E+00
+   1.500000E+02   3.570539E+00
+   1.600000E+02   5.186865E+00
+   1.800000E+02   8.670365E+00
+   2.000000E+02   1.323048E+01

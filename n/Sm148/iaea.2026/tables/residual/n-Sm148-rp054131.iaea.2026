@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm148(n,x)Xe131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 148
+#   nuclide: Sm148
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 131
+#     nuclide: Xe131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.324746E-11
+   7.000000E+01   1.706485E-08
+   7.500000E+01   5.207027E-07
+   8.000000E+01   5.496663E-06
+   9.000000E+01   7.159121E-05
+   1.000000E+02   1.914685E-04
+   1.100000E+02   4.341121E-04
+   1.200000E+02   1.422325E-03
+   1.300000E+02   3.492957E-03
+   1.400000E+02   1.375906E-02
+   1.500000E+02   4.246058E-02
+   1.600000E+02   9.714434E-02
+   1.800000E+02   3.641121E-01
+   2.000000E+02   7.781380E-01

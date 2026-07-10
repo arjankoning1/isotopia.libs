@@ -1,0 +1,39 @@
+# header: 
+#   title: Bk248(n,x)U230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 248
+#   nuclide: Bk248
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 230
+#     nuclide: U230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.343856E-09
+   1.000000E+02   2.537754E-05
+   1.100000E+02   2.552144E-03
+   1.200000E+02   1.248930E-02
+   1.300000E+02   1.362539E-02
+   1.400000E+02   1.045948E-02
+   1.500000E+02   1.017515E-02
+   1.600000E+02   1.340494E-02
+   1.800000E+02   7.314160E-03
+   2.000000E+02   6.138802E-03

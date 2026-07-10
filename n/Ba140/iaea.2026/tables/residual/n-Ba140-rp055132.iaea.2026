@@ -1,0 +1,46 @@
+# header: 
+#   title: Ba140(n,x)Cs132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 140
+#   nuclide: Ba140
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 132
+#     nuclide: Cs132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.623995E-12
+   5.800000E+01   2.328716E-08
+   6.000000E+01   9.388853E-06
+   6.500000E+01   2.399288E-02
+   7.000000E+01   6.507801E-01
+   7.500000E+01   3.220201E+00
+   8.000000E+01   1.067689E+01
+   9.000000E+01   6.247110E+01
+   1.000000E+02   7.795149E+01
+   1.100000E+02   6.118249E+01
+   1.200000E+02   5.628456E+01
+   1.300000E+02   5.094611E+01
+   1.400000E+02   5.204912E+01
+   1.500000E+02   4.439128E+01
+   1.600000E+02   4.714651E+01
+   1.800000E+02   3.948893E+01
+   2.000000E+02   3.658175E+01

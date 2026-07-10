@@ -1,0 +1,44 @@
+# header: 
+#   title: Gd152(n,x)Eu144 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 152
+#   nuclide: Gd152
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 144
+#     nuclide: Eu144
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.649147E-12
+   6.500000E+01   4.904383E-05
+   7.000000E+01   3.435224E-02
+   7.500000E+01   6.796873E-01
+   8.000000E+01   2.883358E+00
+   9.000000E+01   1.086650E+01
+   1.000000E+02   1.476889E+01
+   1.100000E+02   1.218285E+01
+   1.200000E+02   8.753361E+00
+   1.300000E+02   6.975712E+00
+   1.400000E+02   5.895971E+00
+   1.500000E+02   5.325946E+00
+   1.600000E+02   5.599342E+00
+   1.800000E+02   5.171661E+00
+   2.000000E+02   5.470552E+00

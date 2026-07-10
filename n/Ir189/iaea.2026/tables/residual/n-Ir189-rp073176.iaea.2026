@@ -1,0 +1,45 @@
+# header: 
+#   title: Ir189(n,x)Ta176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 189
+#   nuclide: Ir189
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 176
+#     nuclide: Ta176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   6.371416E-12
+   6.000000E+01   1.834111E-10
+   6.500000E+01   3.087319E-07
+   7.000000E+01   6.544563E-05
+   7.500000E+01   2.502915E-03
+   8.000000E+01   2.314324E-02
+   9.000000E+01   1.937047E-01
+   1.000000E+02   2.952662E-01
+   1.100000E+02   3.643376E-01
+   1.200000E+02   5.217365E-01
+   1.300000E+02   8.252619E-01
+   1.400000E+02   7.927367E-01
+   1.500000E+02   1.008638E+00
+   1.600000E+02   1.250304E+00
+   1.800000E+02   8.107768E-01
+   2.000000E+02   7.052160E-01

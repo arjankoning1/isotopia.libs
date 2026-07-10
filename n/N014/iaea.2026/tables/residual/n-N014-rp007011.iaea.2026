@@ -1,0 +1,49 @@
+# header: 
+#   title: N14(n,x)N11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 11
+#     nuclide: N11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.656253E-07
+   5.200000E+01   2.313798E-05
+   5.400000E+01   2.323533E-04
+   5.600000E+01   9.437943E-04
+   5.800000E+01   2.363872E-03
+   6.000000E+01   4.461943E-03
+   6.500000E+01   1.388997E-02
+   7.000000E+01   3.172377E-02
+   7.500000E+01   3.996728E-02
+   8.000000E+01   3.616463E-02
+   9.000000E+01   2.122609E-02
+   1.000000E+02   1.058983E-02
+   1.100000E+02   6.295612E-03
+   1.200000E+02   4.662864E-03
+   1.300000E+02   4.005282E-03
+   1.400000E+02   3.649379E-03
+   1.500000E+02   3.407875E-03
+   1.600000E+02   3.204045E-03
+   1.800000E+02   2.788955E-03
+   2.000000E+02   2.344447E-03

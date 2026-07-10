@@ -1,0 +1,35 @@
+# header: 
+#   title: Pm143(n,x)Nd130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 143
+#   nuclide: Pm143
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 130
+#     nuclide: Nd130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.685155E-08
+   1.400000E+02   2.593644E-05
+   1.500000E+02   6.956201E-04
+   1.600000E+02   6.248288E-03
+   1.800000E+02   6.593004E-02
+   2.000000E+02   1.836643E-01

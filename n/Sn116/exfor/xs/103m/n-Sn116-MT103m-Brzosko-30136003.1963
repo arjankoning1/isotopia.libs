@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn116(n,p)In116m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brzosko
+#   year: 1963
+#   subentry: 30136003
+#   X4 reaction: 50-SN-116(N,P)49-IN-116-M1+M2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30136003
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 49
+#     A: 116
+#     nuclide: In116m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   4.000000E-01   9.989700E+00   1.541400E+00   9.081532E-01
+# reference:
+#   author: J.Brzosko, P.Decowski, Z.Wilhelmi
+#   title: The cross sections of (n,p) reactions producing  isomeric and ground states of indium and antimony  isotopes
+#   journal: Jour: Nuclear Physics, Vol.45, p.579 (1963)

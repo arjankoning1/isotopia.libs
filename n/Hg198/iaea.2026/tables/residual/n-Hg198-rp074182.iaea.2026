@@ -1,0 +1,42 @@
+# header: 
+#   title: Hg198(n,x)W182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 182
+#     nuclide: W182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.081836E-10
+   7.500000E+01   1.329962E-07
+   8.000000E+01   2.485277E-05
+   9.000000E+01   5.469971E-03
+   1.000000E+02   3.389544E-02
+   1.100000E+02   3.833494E-02
+   1.200000E+02   9.402741E-02
+   1.300000E+02   4.226982E-01
+   1.400000E+02   5.623719E-01
+   1.500000E+02   6.619095E-01
+   1.600000E+02   4.151018E-01
+   1.800000E+02   4.167136E-01
+   2.000000E+02   2.855576E-01

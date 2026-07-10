@@ -1,0 +1,42 @@
+# header: 
+#   title: Bi210m(n,x)Pb200 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 200
+#     nuclide: Pb200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.317262E-10
+   7.500000E+01   1.062069E-05
+   8.000000E+01   2.671703E-03
+   9.000000E+01   5.565922E-01
+   1.000000E+02   5.725751E+00
+   1.100000E+02   2.102498E+01
+   1.200000E+02   3.517361E+01
+   1.300000E+02   4.175218E+01
+   1.400000E+02   4.582904E+01
+   1.500000E+02   4.012936E+01
+   1.600000E+02   4.304501E+01
+   1.800000E+02   4.115737E+01
+   2.000000E+02   2.930249E+01

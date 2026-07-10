@@ -1,0 +1,40 @@
+# header: 
+#   title: Zn72(n,x)Cr56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 56
+#     nuclide: Cr56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.445338E-11
+   9.000000E+01   7.218410E-07
+   1.000000E+02   1.012329E-04
+   1.100000E+02   9.508587E-04
+   1.200000E+02   2.563103E-03
+   1.300000E+02   4.406897E-03
+   1.400000E+02   9.167015E-03
+   1.500000E+02   1.421521E-02
+   1.600000E+02   1.752061E-02
+   1.800000E+02   3.119511E-02
+   2.000000E+02   3.775674E-02

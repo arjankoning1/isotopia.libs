@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb94(n,x)Br78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 94
+#   nuclide: Nb94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.449741E-12
+   9.000000E+01   5.644426E-06
+   1.000000E+02   2.242040E-03
+   1.100000E+02   2.432964E-02
+   1.200000E+02   7.295843E-02
+   1.300000E+02   1.693051E-01
+   1.400000E+02   4.126831E-01
+   1.500000E+02   1.035582E+00
+   1.600000E+02   1.547196E+00
+   1.800000E+02   4.222970E+00
+   2.000000E+02   6.744487E+00

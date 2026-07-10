@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni62(n,x)Sc45m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.948192E-12
+   1.000000E+02   8.817985E-07
+   1.100000E+02   1.375842E-04
+   1.200000E+02   1.875685E-03
+   1.300000E+02   1.033380E-02
+   1.400000E+02   3.723938E-02
+   1.500000E+02   1.182399E-01
+   1.600000E+02   3.195383E-01
+   1.800000E+02   1.293774E+00
+   2.000000E+02   2.789842E+00

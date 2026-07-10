@@ -1,0 +1,43 @@
+# header: 
+#   title: Zn65(n,x)Sc49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 49
+#     nuclide: Sc49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.456866E-10
+   7.000000E+01   7.169632E-08
+   7.500000E+01   1.047757E-06
+   8.000000E+01   6.474483E-06
+   9.000000E+01   6.284912E-05
+   1.000000E+02   1.614396E-04
+   1.100000E+02   2.624518E-04
+   1.200000E+02   1.232722E-03
+   1.300000E+02   3.641014E-03
+   1.400000E+02   7.785897E-03
+   1.500000E+02   1.500052E-02
+   1.600000E+02   2.835590E-02
+   1.800000E+02   3.694563E-02
+   2.000000E+02   4.728629E-02

@@ -1,0 +1,36 @@
+# header: 
+#   title: Re186m(n,x)Er164 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 164
+#     nuclide: Er164
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.581926E-08
+   1.300000E+02   1.169256E-05
+   1.400000E+02   5.097436E-04
+   1.500000E+02   8.382866E-03
+   1.600000E+02   4.346055E-02
+   1.800000E+02   3.147777E-01
+   2.000000E+02   6.979617E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Rn222(n,x)Tl204 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 204
+#     nuclide: Tl204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.345516E-09
+   8.000000E+01   2.363100E-07
+   9.000000E+01   1.222026E-03
+   1.000000E+02   3.859915E-03
+   1.100000E+02   2.363537E-01
+   1.200000E+02   5.924265E-01
+   1.300000E+02   1.234818E+00
+   1.400000E+02   1.596733E+00
+   1.500000E+02   1.902353E+00
+   1.600000E+02   1.677803E+00
+   1.800000E+02   2.411088E+00
+   2.000000E+02   3.394635E+00

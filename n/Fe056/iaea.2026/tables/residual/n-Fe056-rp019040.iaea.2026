@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe56(n,x)K40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: Koning,Rochman,Raffuzzi,Sublet
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 40
+#     nuclide: K40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.556858E-12
+   9.000000E+01   6.974686E-06
+   1.000000E+02   1.231212E-03
+   1.100000E+02   1.663991E-02
+   1.200000E+02   9.415586E-02
+   1.300000E+02   3.020482E-01
+   1.400000E+02   7.239087E-01
+   1.500000E+02   1.563994E+00
+   1.600000E+02   2.893094E+00
+   1.800000E+02   8.400256E+00
+   2.000000E+02   1.377714E+01

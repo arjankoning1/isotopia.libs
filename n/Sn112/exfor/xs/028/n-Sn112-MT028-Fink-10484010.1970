@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn112(n,np)In111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fink
+#   year: 1970
+#   subentry: 10484010
+#   X4 reaction: 50-SN-112(N,X)49-IN-111,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10484010
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 49
+#     A: 111
+#     nuclide: In111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   4.000000E-01   1.680000E+02   5.900000E+01   1.000000E+00
+# reference:
+#   author: R.W.Fink,W.-D.Lu
+#   title: Some (n,2n), (n,p), and ((n,np)+(n,pn)+(nd))  Activation Cross Sections of Ni58, Cd106, and Sn112  at  14.4 MeV.
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.15, p.1372(E

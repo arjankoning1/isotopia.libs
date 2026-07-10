@@ -1,0 +1,43 @@
+# header: 
+#   title: I129(n,x)Sn118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 118
+#     nuclide: Sn118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.949217E-10
+   7.000000E+01   1.871107E-06
+   7.500000E+01   2.070758E-04
+   8.000000E+01   4.138271E-03
+   9.000000E+01   9.368534E-02
+   1.000000E+02   4.109026E-01
+   1.100000E+02   8.800222E-01
+   1.200000E+02   1.350078E+00
+   1.300000E+02   1.744898E+00
+   1.400000E+02   2.171295E+00
+   1.500000E+02   2.367782E+00
+   1.600000E+02   2.352799E+00
+   1.800000E+02   2.668766E+00
+   2.000000E+02   2.392076E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Po206(n,x)Au193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 206
+#   nuclide: Po206
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.095587E-13
+   6.500000E+01   8.262721E-10
+   7.000000E+01   1.568524E-07
+   7.500000E+01   5.837177E-06
+   8.000000E+01   1.663562E-04
+   9.000000E+01   1.231430E-02
+   1.000000E+02   6.528806E-02
+   1.100000E+02   9.292758E-02
+   1.200000E+02   1.070397E-01
+   1.300000E+02   1.446640E-01
+   1.400000E+02   1.865076E-01
+   1.500000E+02   2.220257E-01
+   1.600000E+02   1.469189E-01
+   1.800000E+02   1.181992E-01
+   2.000000E+02   4.633731E-02

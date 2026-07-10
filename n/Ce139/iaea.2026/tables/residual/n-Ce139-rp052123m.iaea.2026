@@ -1,0 +1,43 @@
+# header: 
+#   title: Ce139(n,x)Te123m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 139
+#   nuclide: Ce139
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.488683E-11
+   8.000000E+01   7.379928E-08
+   9.000000E+01   2.936926E-04
+   1.000000E+02   8.620418E-03
+   1.100000E+02   2.859629E-02
+   1.200000E+02   5.555797E-02
+   1.300000E+02   1.284130E-01
+   1.400000E+02   2.488544E-01
+   1.500000E+02   2.763409E-01
+   1.600000E+02   3.718997E-01
+   1.800000E+02   3.776568E-01
+   2.000000E+02   3.439336E-01

@@ -1,0 +1,51 @@
+# header: 
+#   title: Xe133m(n,x)Xe127m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.442186E-05
+   5.200000E+01   1.674288E-02
+   5.400000E+01   4.041625E-01
+   5.600000E+01   3.078759E+00
+   5.800000E+01   1.198102E+01
+   6.000000E+01   3.040180E+01
+   6.500000E+01   1.047254E+02
+   7.000000E+01   1.553303E+02
+   7.500000E+01   1.476994E+02
+   8.000000E+01   1.110658E+02
+   9.000000E+01   6.333575E+01
+   1.000000E+02   4.886922E+01
+   1.100000E+02   4.337397E+01
+   1.200000E+02   3.891158E+01
+   1.300000E+02   3.563334E+01
+   1.400000E+02   3.238380E+01
+   1.500000E+02   3.080136E+01
+   1.600000E+02   2.788697E+01
+   1.800000E+02   2.552189E+01
+   2.000000E+02   2.350908E+01

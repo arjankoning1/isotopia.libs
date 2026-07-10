@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb202(n,x)Au191m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 191
+#     nuclide: Au191m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.423989E-10
+   7.000000E+01   1.115325E-06
+   7.500000E+01   2.816420E-04
+   8.000000E+01   7.823057E-03
+   9.000000E+01   3.892151E-01
+   1.000000E+02   3.189882E+00
+   1.100000E+02   4.458869E+00
+   1.200000E+02   4.420978E+00
+   1.300000E+02   4.875474E+00
+   1.400000E+02   6.316555E+00
+   1.500000E+02   5.685628E+00
+   1.600000E+02   5.700807E+00
+   1.800000E+02   4.111983E+00
+   2.000000E+02   3.392018E+00

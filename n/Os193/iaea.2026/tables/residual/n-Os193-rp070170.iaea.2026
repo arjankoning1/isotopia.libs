@@ -1,0 +1,36 @@
+# header: 
+#   title: Os193(n,x)Yb170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 193
+#   nuclide: Os193
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 170
+#     nuclide: Yb170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.689857E-12
+   1.300000E+02   5.688332E-08
+   1.400000E+02   1.527037E-05
+   1.500000E+02   3.871276E-04
+   1.600000E+02   2.368101E-03
+   1.800000E+02   1.815125E-02
+   2.000000E+02   1.041367E-01

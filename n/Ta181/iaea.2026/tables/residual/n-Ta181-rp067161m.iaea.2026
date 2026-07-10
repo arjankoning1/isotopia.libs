@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta181(n,x)Ho161m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 161
+#     nuclide: Ho161m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.947444E-09
+   1.200000E+02   9.766286E-06
+   1.300000E+02   7.648321E-04
+   1.400000E+02   1.906305E-02
+   1.500000E+02   1.289187E-01
+   1.600000E+02   4.159981E-01
+   1.800000E+02   1.713320E+00
+   2.000000E+02   4.805006E+00

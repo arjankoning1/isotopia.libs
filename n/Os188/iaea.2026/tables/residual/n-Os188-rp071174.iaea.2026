@@ -1,0 +1,42 @@
+# header: 
+#   title: Os188(n,x)Lu174 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 174
+#     nuclide: Lu174
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.796907E-10
+   7.500000E+01   7.789019E-08
+   8.000000E+01   3.972576E-06
+   9.000000E+01   3.537707E-04
+   1.000000E+02   7.055700E-03
+   1.100000E+02   2.464449E-02
+   1.200000E+02   1.348716E-01
+   1.300000E+02   7.518302E-01
+   1.400000E+02   1.942586E+00
+   1.500000E+02   2.874467E+00
+   1.600000E+02   2.320024E+00
+   1.800000E+02   2.206898E+00
+   2.000000E+02   1.727732E+00

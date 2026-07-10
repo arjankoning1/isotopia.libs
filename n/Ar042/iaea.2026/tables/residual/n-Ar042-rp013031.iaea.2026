@@ -1,0 +1,49 @@
+# header: 
+#   title: Ar42(n,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.815637E-11
+   5.200000E+01   4.344399E-09
+   5.400000E+01   1.599502E-07
+   5.600000E+01   1.807086E-06
+   5.800000E+01   9.995181E-06
+   6.000000E+01   3.222097E-05
+   6.500000E+01   2.178390E-04
+   7.000000E+01   9.153090E-04
+   7.500000E+01   3.008425E-03
+   8.000000E+01   7.461762E-03
+   9.000000E+01   2.087847E-02
+   1.000000E+02   3.258215E-02
+   1.100000E+02   4.913817E-02
+   1.200000E+02   7.347882E-02
+   1.300000E+02   9.910233E-02
+   1.400000E+02   1.108511E-01
+   1.500000E+02   1.218449E-01
+   1.600000E+02   1.395684E-01
+   1.800000E+02   1.274414E-01
+   2.000000E+02   1.176570E-01

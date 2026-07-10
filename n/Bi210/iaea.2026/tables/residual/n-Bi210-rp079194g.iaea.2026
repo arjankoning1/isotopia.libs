@@ -1,0 +1,41 @@
+# header: 
+#   title: Bi210(n,x)Au194g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.298032E-09
+   1.000000E+02   5.330677E-05
+   1.100000E+02   3.479790E-03
+   1.200000E+02   1.521693E-02
+   1.300000E+02   1.950485E-02
+   1.400000E+02   2.254790E-02
+   1.500000E+02   3.520826E-02
+   1.600000E+02   3.929108E-02
+   1.800000E+02   4.496350E-02
+   2.000000E+02   2.944332E-02

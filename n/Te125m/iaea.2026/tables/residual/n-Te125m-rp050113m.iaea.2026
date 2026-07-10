@@ -1,0 +1,42 @@
+# header: 
+#   title: Te125m(n,x)Sn113m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.670063E-10
+   9.000000E+01   3.770814E-04
+   1.000000E+02   6.505547E-02
+   1.100000E+02   3.559642E-01
+   1.200000E+02   7.152950E-01
+   1.300000E+02   1.285249E+00
+   1.400000E+02   2.162915E+00
+   1.500000E+02   3.291853E+00
+   1.600000E+02   5.161014E+00
+   1.800000E+02   6.343916E+00
+   2.000000E+02   6.432273E+00

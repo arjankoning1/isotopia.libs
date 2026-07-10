@@ -1,0 +1,44 @@
+# header: 
+#   title: Zn64(n,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1963
+#   subentry: 21343005
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21343005
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   3.000000E-01   4.280470E+01   5.735510E+00   9.512154E-01
+   1.400000E+01   4.000000E-01   9.702397E+01   1.423783E+01   9.512154E-01
+   1.520000E+01   4.000000E-01   1.740724E+02   1.172391E+01   9.512154E-01
+   1.600000E+01   5.000000E-01   2.282917E+02   2.211187E+01   9.512154E-01
+   1.710000E+01   4.000000E-01   2.701452E+02   2.429646E+01   9.512154E-01
+   1.850000E+01   4.000000E-01   2.863159E+02   2.570623E+01   9.512154E-01
+   1.930000E+01   4.000000E-01   2.710964E+02   1.885397E+01   9.512154E-01
+   1.960000E+01   3.000000E-01   2.568282E+02   2.006245E+01   9.512154E-01
+# reference:
+#   author: M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,  H.Neuert, H.Pollehn
+#   title: -Investigations of the energy dependence of neutron  induced reactions in the energy range of 12-19 MeV.-  (In German).
+#   journal: Jour: Zeitschrift fuer Physik, Vol.174, p.1 (1963)

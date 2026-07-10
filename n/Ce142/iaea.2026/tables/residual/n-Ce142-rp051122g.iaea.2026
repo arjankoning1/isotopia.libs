@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce142(n,x)Sb122g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 142
+#   nuclide: Ce142
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.518575E-08
+   1.200000E+02   1.778297E-04
+   1.300000E+02   1.412233E-02
+   1.400000E+02   1.745859E-01
+   1.500000E+02   9.889954E-01
+   1.600000E+02   2.101361E+00
+   1.800000E+02   7.672473E+00
+   2.000000E+02   1.222011E+01

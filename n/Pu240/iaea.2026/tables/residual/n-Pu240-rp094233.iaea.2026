@@ -1,0 +1,49 @@
+# header: 
+#   title: Pu240(n,x)Pu233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 233
+#     nuclide: Pu233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.950816E-10
+   5.200000E+01   4.580864E-08
+   5.400000E+01   1.091220E-06
+   5.600000E+01   9.412021E-06
+   5.800000E+01   4.470503E-05
+   6.000000E+01   1.417601E-04
+   6.500000E+01   9.494034E-04
+   7.000000E+01   2.997344E-03
+   7.500000E+01   6.111190E-03
+   8.000000E+01   9.451836E-03
+   9.000000E+01   1.695248E-02
+   1.000000E+02   2.314978E-02
+   1.100000E+02   3.104497E-02
+   1.200000E+02   4.100337E-02
+   1.300000E+02   3.806307E-02
+   1.400000E+02   5.720958E-02
+   1.500000E+02   6.987310E-02
+   1.600000E+02   9.082440E-02
+   1.800000E+02   1.422263E-01
+   2.000000E+02   8.900835E-02

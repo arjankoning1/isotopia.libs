@@ -1,0 +1,44 @@
+# header: 
+#   title: Es252(n,x)Pu237m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 252
+#   nuclide: Es252
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.784101E-13
+   7.500000E+01   1.563054E-10
+   8.000000E+01   1.206544E-08
+   9.000000E+01   2.147716E-06
+   1.000000E+02   8.391683E-06
+   1.100000E+02   1.478959E-05
+   1.200000E+02   7.363064E-06
+   1.300000E+02   1.143143E-05
+   1.400000E+02   7.036753E-06
+   1.500000E+02   5.227722E-06
+   1.600000E+02   5.768178E-06
+   1.800000E+02   5.441115E-06
+   2.000000E+02   4.521126E-06

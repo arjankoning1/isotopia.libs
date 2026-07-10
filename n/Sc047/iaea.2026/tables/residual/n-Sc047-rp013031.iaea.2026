@@ -1,0 +1,43 @@
+# header: 
+#   title: Sc47(n,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.560393E-10
+   7.000000E+01   5.077010E-08
+   7.500000E+01   6.668560E-07
+   8.000000E+01   3.059271E-06
+   9.000000E+01   1.238616E-05
+   1.000000E+02   2.325426E-05
+   1.100000E+02   1.010432E-04
+   1.200000E+02   4.203667E-04
+   1.300000E+02   1.030830E-03
+   1.400000E+02   1.737305E-03
+   1.500000E+02   2.813896E-03
+   1.600000E+02   4.467576E-03
+   1.800000E+02   7.468982E-03
+   2.000000E+02   1.195539E-02

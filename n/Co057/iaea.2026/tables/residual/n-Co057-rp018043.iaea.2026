@@ -1,0 +1,39 @@
+# header: 
+#   title: Co57(n,x)Ar43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 43
+#     nuclide: Ar43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.463974E-10
+   1.000000E+02   4.661950E-08
+   1.100000E+02   2.744914E-07
+   1.200000E+02   1.029488E-06
+   1.300000E+02   7.045395E-06
+   1.400000E+02   2.514189E-05
+   1.500000E+02   5.058840E-05
+   1.600000E+02   8.075743E-05
+   1.800000E+02   2.078339E-04
+   2.000000E+02   3.584163E-04

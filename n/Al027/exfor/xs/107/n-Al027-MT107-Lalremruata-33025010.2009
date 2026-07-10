@@ -1,0 +1,37 @@
+# header: 
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lalremruata
+#   year: 2009
+#   subentry: 33025010
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33025010
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.477000E+01   0.000000E+00   1.150000E+02   1.793967E+01   1.000000E+00
+# reference:
+#   author: B.Lalremruata,S.D.Dhole,S.Ganesan,V.N.Bhoraskar
+#   title: Double differential cross-sections of (n,alpha) reaction in aluminium and nickel at 14.77 MeV neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.821, p.23 (2009)

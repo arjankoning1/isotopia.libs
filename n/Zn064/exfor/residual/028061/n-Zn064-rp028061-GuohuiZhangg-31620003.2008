@@ -1,0 +1,39 @@
+# header: 
+#   title: Zn64(n,x)Ni61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: GuohuiZhangg
+#   year: 2008
+#   subentry: 31620003
+#   X4 reaction: 30-ZN-64(N,A)28-NI-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31620003
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.540000E+00   0.000000E+00   1.183051E+01   1.111300E+00   1.002585E+00
+   4.000000E+00   0.000000E+00   5.993744E+01   3.684200E+00   1.005662E+00
+   5.500000E+00   0.000000E+00   7.066673E+01   4.089500E+00   1.002365E+00
+# reference:
+#   author: Guohui Zhang, Jiaguo Zhang, Rongtai Cao, Lian Guo,  Jinxiang Chen, Yu.M.Gledenov, M.V.Sedysheva,  G.Khuukhenkhuu
+#   title: Measurement of Differential Cross Section for the  64Zn(n,a) 61Ni Reaction at 2.54, 4.00, and 5.50 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.160, p.123 (2008)

@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh99(n,x)Mo89g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 89
+#     nuclide: Mo89g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.855167E-12
+   7.000000E+01   1.644337E-07
+   7.500000E+01   7.598056E-05
+   8.000000E+01   1.700527E-03
+   9.000000E+01   4.060014E-02
+   1.000000E+02   3.244436E-01
+   1.100000E+02   8.697221E-01
+   1.200000E+02   1.458198E+00
+   1.300000E+02   2.166721E+00
+   1.400000E+02   2.954856E+00
+   1.500000E+02   3.995061E+00
+   1.600000E+02   4.813983E+00
+   1.800000E+02   6.800060E+00
+   2.000000E+02   5.066329E+00

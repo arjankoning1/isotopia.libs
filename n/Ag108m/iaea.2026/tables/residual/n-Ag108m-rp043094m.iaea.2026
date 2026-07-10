@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag108m(n,x)Tc94m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 108
+#   nuclide: Ag108m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 94
+#     nuclide: Tc94m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.732420E-12
+   8.000000E+01   1.957842E-08
+   9.000000E+01   1.317478E-04
+   1.000000E+02   1.365189E-02
+   1.100000E+02   1.001641E-01
+   1.200000E+02   2.276304E-01
+   1.300000E+02   4.829117E-01
+   1.400000E+02   1.268920E+00
+   1.500000E+02   2.264404E+00
+   1.600000E+02   4.499265E+00
+   1.800000E+02   8.404309E+00
+   2.000000E+02   1.232301E+01

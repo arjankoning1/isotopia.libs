@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr85(n,x)Se72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 72
+#     nuclide: Se72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.614736E-12
+   8.000000E+01   5.318931E-08
+   9.000000E+01   2.255640E-03
+   1.000000E+02   1.347740E-01
+   1.100000E+02   7.520697E-01
+   1.200000E+02   1.600614E+00
+   1.300000E+02   3.137924E+00
+   1.400000E+02   6.571532E+00
+   1.500000E+02   1.224940E+01
+   1.600000E+02   1.562816E+01
+   1.800000E+02   2.878465E+01
+   2.000000E+02   3.695041E+01

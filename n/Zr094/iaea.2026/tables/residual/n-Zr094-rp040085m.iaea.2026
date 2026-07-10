@@ -1,0 +1,41 @@
+# header: 
+#   title: Zr94(n,x)Zr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 94
+#   nuclide: Zr94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.207490E-14
+   1.000000E+02   1.647242E-07
+   1.100000E+02   1.098663E-05
+   1.200000E+02   8.527442E-05
+   1.300000E+02   2.782686E-04
+   1.400000E+02   6.291456E-04
+   1.500000E+02   9.515220E-04
+   1.600000E+02   1.217892E-03
+   1.800000E+02   1.669681E-03
+   2.000000E+02   2.120442E-03

@@ -1,0 +1,38 @@
+# header: 
+#   title: Si30(n,x)Na19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 19
+#     nuclide: Na19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.236794E-11
+   1.100000E+02   1.687358E-07
+   1.200000E+02   3.915452E-06
+   1.300000E+02   1.960217E-05
+   1.400000E+02   5.061914E-05
+   1.500000E+02   9.627410E-05
+   1.600000E+02   1.516875E-04
+   1.800000E+02   2.654041E-04
+   2.000000E+02   3.715029E-04

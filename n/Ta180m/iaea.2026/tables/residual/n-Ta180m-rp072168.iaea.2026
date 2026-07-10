@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta180m(n,x)Hf168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 180
+#   nuclide: Ta180m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 168
+#     nuclide: Hf168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.305702E-11
+   1.000000E+02   2.794652E-04
+   1.100000E+02   8.113564E-02
+   1.200000E+02   1.285257E+00
+   1.300000E+02   5.999688E+00
+   1.400000E+02   1.261807E+01
+   1.500000E+02   2.187449E+01
+   1.600000E+02   3.118439E+01
+   1.800000E+02   3.349348E+01
+   2.000000E+02   3.288783E+01

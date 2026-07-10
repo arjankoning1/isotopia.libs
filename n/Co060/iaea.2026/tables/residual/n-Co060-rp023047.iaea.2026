@@ -1,0 +1,40 @@
+# header: 
+#   title: Co60(n,x)V47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 47
+#     nuclide: V47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.932753E-11
+   9.000000E+01   3.745803E-05
+   1.000000E+02   4.032448E-03
+   1.100000E+02   2.637153E-02
+   1.200000E+02   6.668825E-02
+   1.300000E+02   1.838744E-01
+   1.400000E+02   5.289910E-01
+   1.500000E+02   1.206697E+00
+   1.600000E+02   2.069866E+00
+   1.800000E+02   4.428428E+00
+   2.000000E+02   6.200587E+00

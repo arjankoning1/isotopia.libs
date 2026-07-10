@@ -1,0 +1,37 @@
+# header: 
+#   title: Ca48(n,2n)Ca47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tiwari
+#   year: 1968
+#   subentry: 30011009
+#   X4 reaction: 20-CA-48(N,2N)20-CA-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30011009
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   9.361564E+02   1.047873E+02   1.040174E+00
+# reference:
+#   author: P.N.Tiwari,E.Kondaiah
+#   title: Activation cross sections of calcium, potassium, and aluminum for 14.2-MeV neutrons.
+#   journal: Jour: Physical Review, Vol.167, p.1091 (1968)

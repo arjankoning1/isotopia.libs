@@ -1,0 +1,46 @@
+# header: 
+#   title: Ru100(n,x)Sr86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 86
+#     nuclide: Sr86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   1.211216E-12
+   5.800000E+01   6.003124E-11
+   6.000000E+01   3.479920E-09
+   6.500000E+01   3.840174E-06
+   7.000000E+01   3.281326E-04
+   7.500000E+01   4.960964E-03
+   8.000000E+01   2.419077E-02
+   9.000000E+01   1.173476E-01
+   1.000000E+02   2.163246E-01
+   1.100000E+02   4.597797E-01
+   1.200000E+02   1.220639E+00
+   1.300000E+02   2.763383E+00
+   1.400000E+02   6.006032E+00
+   1.500000E+02   1.270117E+01
+   1.600000E+02   1.958639E+01
+   1.800000E+02   3.798853E+01
+   2.000000E+02   4.631801E+01

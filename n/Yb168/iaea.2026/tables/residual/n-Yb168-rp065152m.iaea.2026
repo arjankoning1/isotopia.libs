@@ -1,0 +1,41 @@
+# header: 
+#   title: Yb168(n,x)Tb152m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 168
+#   nuclide: Yb168
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 152
+#     nuclide: Tb152m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.762372E-09
+   1.000000E+02   1.053554E-04
+   1.100000E+02   2.016392E-02
+   1.200000E+02   4.702566E-01
+   1.300000E+02   1.673291E+00
+   1.400000E+02   1.380000E+00
+   1.500000E+02   2.522497E+00
+   1.600000E+02   4.464629E+00
+   1.800000E+02   8.170212E+00
+   2.000000E+02   9.624572E+00

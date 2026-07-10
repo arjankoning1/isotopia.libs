@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca40(n,x)Al29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.606784E-10
+   5.400000E+01   1.722119E-08
+   5.600000E+01   5.721162E-07
+   5.800000E+01   6.803508E-06
+   6.000000E+01   4.725084E-05
+   6.500000E+01   9.987173E-04
+   7.000000E+01   5.612388E-03
+   7.500000E+01   1.674480E-02
+   8.000000E+01   3.520091E-02
+   9.000000E+01   8.058364E-02
+   1.000000E+02   1.321338E-01
+   1.100000E+02   2.454465E-01
+   1.200000E+02   5.383322E-01
+   1.300000E+02   8.884822E-01
+   1.400000E+02   1.031183E+00
+   1.500000E+02   1.328290E+00
+   1.600000E+02   1.861031E+00
+   1.800000E+02   2.706790E+00
+   2.000000E+02   2.719628E+00

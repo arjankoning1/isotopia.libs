@@ -1,0 +1,40 @@
+# header: 
+#   title: Eu150(n,x)Eu141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 150
+#   nuclide: Eu150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 141
+#     nuclide: Eu141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.613397E-09
+   9.000000E+01   4.252590E-02
+   1.000000E+02   1.060469E+00
+   1.100000E+02   1.947036E+00
+   1.200000E+02   3.971460E+00
+   1.300000E+02   5.309844E+00
+   1.400000E+02   5.860360E+00
+   1.500000E+02   6.183347E+00
+   1.600000E+02   6.443040E+00
+   1.800000E+02   7.343692E+00
+   2.000000E+02   8.400045E+00

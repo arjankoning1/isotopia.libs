@@ -1,0 +1,36 @@
+# header: 
+#   title: U238(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Degtjarev
+#   year: 1961
+#   subentry: 40645008
+#   X4 reaction: 92-U-238(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40645008
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.790000E+03   1.000000E+02   1.000000E+00
+   1.540000E+01   0.000000E+00   2.680000E+03   6.000000E+01   1.000000E+00
+   1.680000E+01   0.000000E+00   2.620000E+03   6.000000E+01   1.000000E+00
+   1.840000E+01   0.000000E+00   2.660000E+03   6.000000E+01   1.000000E+00
+# reference:
+#   author: JU.G.DEGTJAREV,V.G.NADTOCHIJ
+#   title: MEASUREMENT OF THE CROSS SECTION FOR INELASTIC INTERACTION OF NEUTRONS WITH AN ENERGY OF 13-20 MEV USING CERTAIN ISOTOPES.
+#   journal: Jour: Atomnaya Energiya, Vol.11, Issue.4, p.397 (1961)

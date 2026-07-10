@@ -1,0 +1,41 @@
+# header: 
+#   title: La137(n,x)Cs126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 137
+#   nuclide: La137
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 126
+#     nuclide: Cs126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.623185E-09
+   8.000000E+01   1.046044E-04
+   9.000000E+01   6.633133E-01
+   1.000000E+02   9.197749E+00
+   1.100000E+02   1.395927E+01
+   1.200000E+02   1.440840E+01
+   1.300000E+02   2.223828E+01
+   1.400000E+02   2.881587E+01
+   1.500000E+02   3.764898E+01
+   1.600000E+02   3.604372E+01
+   1.800000E+02   3.390126E+01
+   2.000000E+02   2.530537E+01

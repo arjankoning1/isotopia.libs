@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni66(n,x)Cr54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 66
+#   nuclide: Ni66
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 54
+#     nuclide: Cr54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.208948E-10
+   6.500000E+01   1.037280E-05
+   7.000000E+01   1.751389E-03
+   7.500000E+01   2.669021E-02
+   8.000000E+01   1.211781E-01
+   9.000000E+01   4.767959E-01
+   1.000000E+02   7.563427E-01
+   1.100000E+02   1.168002E+00
+   1.200000E+02   2.122051E+00
+   1.300000E+02   3.527005E+00
+   1.400000E+02   4.870728E+00
+   1.500000E+02   5.680003E+00
+   1.600000E+02   6.982336E+00
+   1.800000E+02   8.822267E+00
+   2.000000E+02   6.991600E+00

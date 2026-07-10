@@ -1,0 +1,37 @@
+# header: 
+#   title: Ti50(n,x)Ca47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Osman
+#   year: 1996
+#   subentry: 31464009
+#   X4 reaction: 22-TI-50(N,A)20-CA-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31464009
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   1.250713E+01   2.273400E+00   1.137012E+00
+# reference:
+#   author: K.T.Osman,F.I.Habbani
+#   title: Measurement and study of (n,p) reaction cross sections for Cr, Ti, Ni, Co, Zr and Mo isotopes using 14.7 MeV neutrons
+#   journal: Rept: Sudanese report to the I.N.D.C., No.001 (1996)

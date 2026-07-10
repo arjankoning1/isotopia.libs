@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca45(n,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.088219E-11
+   6.000000E+01   7.551641E-11
+   6.500000E+01   1.887031E-09
+   7.000000E+01   1.609813E-08
+   7.500000E+01   5.060437E-08
+   8.000000E+01   9.193396E-08
+   9.000000E+01   2.032239E-07
+   1.000000E+02   2.289640E-06
+   1.100000E+02   1.028218E-05
+   1.200000E+02   2.261139E-05
+   1.300000E+02   4.510115E-05
+   1.400000E+02   1.061562E-04
+   1.500000E+02   2.123102E-04
+   1.600000E+02   3.427543E-04
+   1.800000E+02   7.399595E-04
+   2.000000E+02   1.213851E-03

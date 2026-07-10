@@ -1,0 +1,43 @@
+# header: 
+#   title: Ne20(n,x)Li9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 9
+#     nuclide: Li9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.279854E-08
+   7.000000E+01   5.451287E-06
+   7.500000E+01   7.558294E-05
+   8.000000E+01   3.026787E-04
+   9.000000E+01   1.121665E-03
+   1.000000E+02   2.168191E-03
+   1.100000E+02   4.158465E-03
+   1.200000E+02   7.446714E-03
+   1.300000E+02   1.322566E-02
+   1.400000E+02   2.234477E-02
+   1.500000E+02   3.304736E-02
+   1.600000E+02   4.604736E-02
+   1.800000E+02   7.925097E-02
+   2.000000E+02   1.145153E-01

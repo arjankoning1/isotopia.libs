@@ -1,0 +1,39 @@
+# header: 
+#   title: Lu170(n,x)Ho154 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 170
+#   nuclide: Lu170
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 154
+#     nuclide: Ho154
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.010507E-09
+   1.000000E+02   2.131758E-04
+   1.100000E+02   5.896132E-02
+   1.200000E+02   4.545611E-01
+   1.300000E+02   1.846774E+00
+   1.400000E+02   4.587319E+00
+   1.500000E+02   7.569611E+00
+   1.600000E+02   1.485079E+01
+   1.800000E+02   1.953958E+01
+   2.000000E+02   2.285069E+01

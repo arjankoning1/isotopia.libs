@@ -1,0 +1,39 @@
+# header: 
+#   title: Ag110m(n,x)Mo94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 94
+#     nuclide: Mo94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.098756E-09
+   1.000000E+02   7.954240E-05
+   1.100000E+02   1.024646E-02
+   1.200000E+02   1.482441E-01
+   1.300000E+02   8.826092E-01
+   1.400000E+02   2.128176E+00
+   1.500000E+02   4.202156E+00
+   1.600000E+02   6.569825E+00
+   1.800000E+02   1.272999E+01
+   2.000000E+02   1.857449E+01

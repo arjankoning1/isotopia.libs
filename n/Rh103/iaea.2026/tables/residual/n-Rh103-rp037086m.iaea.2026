@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh103(n,x)Rb86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.994089E-10
+   7.000000E+01   3.227809E-07
+   7.500000E+01   9.246651E-06
+   8.000000E+01   7.368301E-05
+   9.000000E+01   8.556455E-04
+   1.000000E+02   2.475780E-03
+   1.100000E+02   4.510855E-03
+   1.200000E+02   1.144540E-02
+   1.300000E+02   2.882987E-02
+   1.400000E+02   8.921726E-02
+   1.500000E+02   2.865729E-01
+   1.600000E+02   5.999223E-01
+   1.800000E+02   1.040086E+00
+   2.000000E+02   1.578368E+00

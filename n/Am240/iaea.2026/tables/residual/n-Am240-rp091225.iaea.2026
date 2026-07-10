@@ -1,0 +1,42 @@
+# header: 
+#   title: Am240(n,x)Pa225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 225
+#     nuclide: Pa225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.613412E-12
+   7.500000E+01   5.026135E-09
+   8.000000E+01   2.381679E-06
+   9.000000E+01   4.251350E-03
+   1.000000E+02   7.245899E-02
+   1.100000E+02   1.849885E-01
+   1.200000E+02   2.174293E-01
+   1.300000E+02   2.533083E-01
+   1.400000E+02   4.766505E-01
+   1.500000E+02   7.058064E-01
+   1.600000E+02   5.635020E-01
+   1.800000E+02   8.648994E-01
+   2.000000E+02   8.166817E-01

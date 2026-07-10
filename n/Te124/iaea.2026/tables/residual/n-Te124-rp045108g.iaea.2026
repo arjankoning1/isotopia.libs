@@ -1,0 +1,42 @@
+# header: 
+#   title: Te124(n,x)Rh108g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 108
+#     nuclide: Rh108g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.234936E-10
+   9.000000E+01   1.615317E-06
+   1.000000E+02   9.784620E-05
+   1.100000E+02   7.137182E-04
+   1.200000E+02   3.970467E-03
+   1.300000E+02   5.127795E-02
+   1.400000E+02   2.260432E-01
+   1.500000E+02   3.963718E-01
+   1.600000E+02   5.472421E-01
+   1.800000E+02   6.199619E-01
+   2.000000E+02   5.119247E-01

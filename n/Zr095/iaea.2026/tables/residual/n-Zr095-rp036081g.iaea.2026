@@ -1,0 +1,42 @@
+# header: 
+#   title: Zr95(n,x)Kr81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 95
+#   nuclide: Zr95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.900240E-10
+   9.000000E+01   3.501203E-04
+   1.000000E+02   3.169830E-02
+   1.100000E+02   2.923245E-01
+   1.200000E+02   7.598181E-01
+   1.300000E+02   1.452964E+00
+   1.400000E+02   3.055190E+00
+   1.500000E+02   5.673473E+00
+   1.600000E+02   9.082227E+00
+   1.800000E+02   1.472960E+01
+   2.000000E+02   2.414783E+01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Co58(n,x)Mn50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.045712E-10
+   6.500000E+01   3.651465E-06
+   7.000000E+01   2.995767E-04
+   7.500000E+01   2.468395E-03
+   8.000000E+01   7.674967E-03
+   9.000000E+01   1.977324E-02
+   1.000000E+02   2.903642E-02
+   1.100000E+02   4.143991E-02
+   1.200000E+02   6.719293E-02
+   1.300000E+02   9.563907E-02
+   1.400000E+02   1.038328E-01
+   1.500000E+02   1.048435E-01
+   1.600000E+02   1.090897E-01
+   1.800000E+02   1.121735E-01
+   2.000000E+02   1.443046E-01

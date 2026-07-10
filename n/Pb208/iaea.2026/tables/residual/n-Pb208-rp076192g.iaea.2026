@@ -1,0 +1,44 @@
+# header: 
+#   title: Pb208(n,x)Os192g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 192
+#     nuclide: Os192g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.858787E-12
+   7.500000E+01   1.958193E-08
+   8.000000E+01   1.084910E-05
+   9.000000E+01   1.443116E-02
+   1.000000E+02   1.364021E-01
+   1.100000E+02   5.595178E-01
+   1.200000E+02   1.166149E+00
+   1.300000E+02   1.779157E+00
+   1.400000E+02   2.214659E+00
+   1.500000E+02   3.190076E+00
+   1.600000E+02   4.516572E+00
+   1.800000E+02   6.102193E+00
+   2.000000E+02   2.343871E+00

@@ -1,0 +1,40 @@
+# header: 
+#   title: Ta182(n,x)Tm164g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 182
+#   nuclide: Ta182
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 164
+#     nuclide: Tm164g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.091588E-10
+   1.100000E+02   1.909685E-04
+   1.200000E+02   7.419964E-02
+   1.300000E+02   1.020152E+00
+   1.400000E+02   1.592766E+00
+   1.500000E+02   2.096731E+00
+   1.600000E+02   5.457820E+00
+   1.800000E+02   1.469190E+01
+   2.000000E+02   1.848369E+01

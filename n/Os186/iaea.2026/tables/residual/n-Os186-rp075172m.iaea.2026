@@ -1,0 +1,38 @@
+# header: 
+#   title: Os186(n,x)Re172m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 172
+#     nuclide: Re172m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.613176E-14
+   1.300000E+02   1.176327E-09
+   1.400000E+02   2.990922E-07
+   1.500000E+02   6.761046E-06
+   1.600000E+02   4.496012E-05
+   1.800000E+02   3.939179E-04
+   2.000000E+02   1.314665E-03

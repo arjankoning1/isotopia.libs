@@ -1,0 +1,37 @@
+# header: 
+#   title: Ti50(n,p)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bramlitt
+#   year: 1963
+#   subentry: 11590010
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11590010
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   4.000000E-01   2.970960E+01   1.200000E+01   1.061057E+00
+# reference:
+#   author: E.T.Bramlitt,R.W.Fink
+#   title: Rare nuclear reactions induced by 14.7-MeV neutrons.
+#   journal: Jour: Physical Review, Vol.131, p.2649 (1963)

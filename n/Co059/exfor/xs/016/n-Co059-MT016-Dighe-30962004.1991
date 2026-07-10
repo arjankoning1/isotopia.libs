@@ -1,0 +1,37 @@
+# header: 
+#   title: Co59(n,2n)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dighe
+#   year: 1991
+#   subentry: 30962004
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30962004
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   7.395452E+02   2.279065E+01   1.002094E+00
+# reference:
+#   author: P.M.Dighe, F.R.Pansare, R.Sarkar, V.H.Bhoraskar
+#   title: Cross-sections of (n,2n) reactions induced by 14.7 MeV neutrons in 46Ti, 50Cr and 59Co
+#   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.29, p.665 (1991)

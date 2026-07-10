@@ -1,0 +1,43 @@
+# header: 
+#   title: Es255(n,x)Cf246 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 246
+#     nuclide: Cf246
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.633287E-12
+   7.000000E+01   1.193314E-11
+   7.500000E+01   3.813044E-11
+   8.000000E+01   1.313085E-10
+   9.000000E+01   8.562410E-10
+   1.000000E+02   5.997174E-09
+   1.100000E+02   4.136525E-08
+   1.200000E+02   5.050671E-08
+   1.300000E+02   1.835722E-07
+   1.400000E+02   3.541030E-07
+   1.500000E+02   6.294433E-07
+   1.600000E+02   4.039342E-07
+   1.800000E+02   7.661407E-06
+   2.000000E+02   4.073965E-06

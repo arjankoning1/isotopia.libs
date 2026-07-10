@@ -1,0 +1,45 @@
+# header: 
+#   title: Am241(n,x)Np230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 230
+#     nuclide: Np230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   4.425999E-13
+   6.000000E+01   1.024746E-11
+   6.500000E+01   6.789241E-08
+   7.000000E+01   3.747970E-05
+   7.500000E+01   2.794157E-03
+   8.000000E+01   4.404029E-02
+   9.000000E+01   5.743133E-01
+   1.000000E+02   8.171970E-01
+   1.100000E+02   7.148255E-01
+   1.200000E+02   6.287010E-01
+   1.300000E+02   1.087669E+00
+   1.400000E+02   1.198613E+00
+   1.500000E+02   1.521617E+00
+   1.600000E+02   1.606259E+00
+   1.800000E+02   2.031852E+00
+   2.000000E+02   2.605339E+00

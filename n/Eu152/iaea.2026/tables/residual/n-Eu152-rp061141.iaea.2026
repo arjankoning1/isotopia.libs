@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu152(n,x)Pm141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 152
+#   nuclide: Eu152
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 141
+#     nuclide: Pm141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.983419E-08
+   7.000000E+01   2.781501E-04
+   7.500000E+01   4.494467E-02
+   8.000000E+01   7.369080E-01
+   9.000000E+01   8.025791E+00
+   1.000000E+02   1.292323E+01
+   1.100000E+02   1.492470E+01
+   1.200000E+02   2.415201E+01
+   1.300000E+02   3.744998E+01
+   1.400000E+02   4.850955E+01
+   1.500000E+02   5.501843E+01
+   1.600000E+02   4.941329E+01
+   1.800000E+02   4.784636E+01
+   2.000000E+02   3.538162E+01

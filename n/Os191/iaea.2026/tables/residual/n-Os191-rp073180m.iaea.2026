@@ -1,0 +1,47 @@
+# header: 
+#   title: Os191(n,x)Ta180m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 191
+#   nuclide: Os191
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 180
+#     nuclide: Ta180m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   4.298763E-11
+   6.000000E+01   2.228630E-09
+   6.500000E+01   3.251024E-06
+   7.000000E+01   2.315429E-04
+   7.500000E+01   2.857161E-03
+   8.000000E+01   1.481017E-02
+   9.000000E+01   1.557401E-01
+   1.000000E+02   3.760976E-01
+   1.100000E+02   4.991088E-01
+   1.200000E+02   5.991226E-01
+   1.300000E+02   6.068302E-01
+   1.400000E+02   6.508880E-01
+   1.500000E+02   7.960029E-01
+   1.600000E+02   6.204872E-01
+   1.800000E+02   6.316828E-01
+   2.000000E+02   9.027620E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Sr82(n,x)Cu66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.939224E-12
+   6.000000E+01   3.561876E-11
+   6.500000E+01   7.844745E-09
+   7.000000E+01   3.361729E-07
+   7.500000E+01   4.055127E-06
+   8.000000E+01   2.062779E-05
+   9.000000E+01   1.013009E-04
+   1.000000E+02   1.626550E-04
+   1.100000E+02   3.889901E-04
+   1.200000E+02   1.749478E-03
+   1.300000E+02   4.810343E-03
+   1.400000E+02   1.228696E-02
+   1.500000E+02   2.988413E-02
+   1.600000E+02   5.610011E-02
+   1.800000E+02   5.927403E-02
+   2.000000E+02   6.939956E-02

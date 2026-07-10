@@ -1,0 +1,48 @@
+# header: 
+#   title: U232(n,x)U225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 225
+#     nuclide: U225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   1.406414E-10
+   5.400000E+01   4.900980E-08
+   5.600000E+01   1.522004E-06
+   5.800000E+01   1.257795E-05
+   6.000000E+01   5.152949E-05
+   6.500000E+01   6.793682E-04
+   7.000000E+01   4.232535E-03
+   7.500000E+01   7.739905E-03
+   8.000000E+01   7.466600E-03
+   9.000000E+01   3.912333E-03
+   1.000000E+02   2.781400E-03
+   1.100000E+02   2.750919E-03
+   1.200000E+02   2.866301E-03
+   1.300000E+02   3.052544E-03
+   1.400000E+02   2.639181E-03
+   1.500000E+02   4.103101E-03
+   1.600000E+02   2.868022E-03
+   1.800000E+02   6.898982E-03
+   2.000000E+02   2.191316E-03

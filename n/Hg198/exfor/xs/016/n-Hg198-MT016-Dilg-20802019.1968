@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg198(n,2n)Hg197 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dilg
+#   year: 1968
+#   subentry: 20802019
+#   X4 reaction: 80-HG-198(N,2N)80-HG-197,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20802019
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   2.360753E+03   2.193301E+02   1.008869E+00
+# reference:
+#   author: W.Dilg, H.Vonach, G.Winkler, P.Hille
+#   title: Measurement of (n,2n) reactions cross-sections on heavy nuclei.
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.9 (1968)

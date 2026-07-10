@@ -1,0 +1,41 @@
+# header: 
+#   title: Tc98(n,x)Mo89g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 98
+#   nuclide: Tc98
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 89
+#     nuclide: Mo89g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.172785E-05
+   1.000000E+02   3.824272E-03
+   1.100000E+02   2.969977E-02
+   1.200000E+02   1.101086E-01
+   1.300000E+02   2.252503E-01
+   1.400000E+02   3.348906E-01
+   1.500000E+02   4.081625E-01
+   1.600000E+02   4.267847E-01
+   1.800000E+02   5.395937E-01
+   2.000000E+02   6.697792E-01

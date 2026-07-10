@@ -1,0 +1,43 @@
+# header: 
+#   title: Am240(n,x)Pa226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 226
+#     nuclide: Pa226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.491296E-11
+   7.000000E+01   8.761166E-08
+   7.500000E+01   3.337186E-05
+   8.000000E+01   9.955472E-04
+   9.000000E+01   3.682236E-02
+   1.000000E+02   1.086286E-01
+   1.100000E+02   9.987014E-02
+   1.200000E+02   1.341231E-01
+   1.300000E+02   2.532365E-01
+   1.400000E+02   3.684322E-01
+   1.500000E+02   3.097796E-01
+   1.600000E+02   3.278753E-01
+   1.800000E+02   5.094226E-01
+   2.000000E+02   5.906096E-01

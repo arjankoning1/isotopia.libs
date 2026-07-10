@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb85(n,x)Cu68m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.637073E-11
+   7.500000E+01   2.757856E-08
+   8.000000E+01   2.692518E-06
+   9.000000E+01   4.123368E-04
+   1.000000E+02   1.774365E-03
+   1.100000E+02   2.271349E-03
+   1.200000E+02   6.804205E-03
+   1.300000E+02   2.987570E-02
+   1.400000E+02   8.270609E-02
+   1.500000E+02   1.414727E-01
+   1.600000E+02   2.213507E-01
+   1.800000E+02   4.599139E-01
+   2.000000E+02   8.550072E-01

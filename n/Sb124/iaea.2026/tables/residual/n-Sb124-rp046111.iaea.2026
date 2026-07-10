@@ -1,0 +1,43 @@
+# header: 
+#   title: Sb124(n,x)Pd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 124
+#   nuclide: Sb124
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 111
+#     nuclide: Pd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.967126E-12
+   7.000000E+01   3.365436E-08
+   7.500000E+01   3.608380E-06
+   8.000000E+01   5.636255E-05
+   9.000000E+01   1.063271E-03
+   1.000000E+02   6.525269E-03
+   1.100000E+02   1.136799E-02
+   1.200000E+02   1.604184E-02
+   1.300000E+02   2.535914E-02
+   1.400000E+02   4.129105E-02
+   1.500000E+02   5.178401E-02
+   1.600000E+02   3.668032E-02
+   1.800000E+02   3.182580E-02
+   2.000000E+02   2.799116E-02

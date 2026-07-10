@@ -1,0 +1,40 @@
+# header: 
+#   title: Gd155(n,x)Pm142 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 155
+#   nuclide: Gd155
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 142
+#     nuclide: Pm142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.050523E-08
+   9.000000E+01   7.446496E-04
+   1.000000E+02   7.848278E-02
+   1.100000E+02   7.018056E-01
+   1.200000E+02   2.267824E+00
+   1.300000E+02   4.075786E+00
+   1.400000E+02   5.832738E+00
+   1.500000E+02   7.421649E+00
+   1.600000E+02   7.657309E+00
+   1.800000E+02   9.457001E+00
+   2.000000E+02   1.012014E+01

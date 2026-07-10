@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn67(n,x)Ca47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.898054E-12
+   8.000000E+01   8.446198E-09
+   9.000000E+01   9.687014E-06
+   1.000000E+02   1.504552E-04
+   1.100000E+02   3.559981E-04
+   1.200000E+02   4.246407E-04
+   1.300000E+02   1.182595E-03
+   1.400000E+02   4.072450E-03
+   1.500000E+02   1.011847E-02
+   1.600000E+02   2.313872E-02
+   1.800000E+02   1.118518E-01
+   2.000000E+02   3.093086E-01

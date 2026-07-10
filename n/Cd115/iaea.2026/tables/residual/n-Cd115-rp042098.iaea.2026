@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd115(n,x)Mo98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 115
+#   nuclide: Cd115
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 98
+#     nuclide: Mo98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.158133E-07
+   1.000000E+02   3.094806E-04
+   1.100000E+02   5.378386E-03
+   1.200000E+02   1.778523E-02
+   1.300000E+02   3.864058E-02
+   1.400000E+02   1.019595E-01
+   1.500000E+02   1.738951E-01
+   1.600000E+02   2.534901E-01
+   1.800000E+02   3.207054E-01
+   2.000000E+02   4.320567E-01

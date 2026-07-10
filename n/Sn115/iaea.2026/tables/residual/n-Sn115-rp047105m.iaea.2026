@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn115(n,x)Ag105m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.078333E-10
+   6.500000E+01   6.571628E-07
+   7.000000E+01   1.229440E-04
+   7.500000E+01   2.173587E-03
+   8.000000E+01   1.262276E-02
+   9.000000E+01   1.854358E-01
+   1.000000E+02   1.200386E+00
+   1.100000E+02   2.540522E+00
+   1.200000E+02   3.900953E+00
+   1.300000E+02   5.623125E+00
+   1.400000E+02   7.935188E+00
+   1.500000E+02   9.338079E+00
+   1.600000E+02   8.890139E+00
+   1.800000E+02   9.310800E+00
+   2.000000E+02   6.256926E+00

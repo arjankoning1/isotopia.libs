@@ -1,0 +1,42 @@
+# header: 
+#   title: O18(n,x)O18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Extermann
+#   year: 1964
+#   subentry: 20977003
+#   X4 reaction: 8-O-18(N,INL)8-O-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20977003
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 8
+#     A: 18
+#     nuclide: O18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.250000E+00   5.000000E-02   2.000000E+02   2.000000E+02   1.000000E+00
+   3.350000E+00   5.000000E-02   7.000000E+02   2.000000E+02   1.000000E+00
+   3.390000E+00   5.000000E-02   9.000000E+02   2.000000E+02   1.000000E+00
+   3.680000E+00   5.000000E-02   7.000000E+02   2.000000E+02   1.000000E+00
+   3.820000E+00   5.000000E-02   7.000000E+02   2.000000E+02   1.000000E+00
+   3.950000E+00   5.000000E-02   7.000000E+02   2.000000E+02   1.000000E+00
+# reference:
+#   author: P.EXTERMANN,E.BAUMGARTNER,P.HUBER
+#   title: -MEASUREMENT OF THE DIFFERENTIAL SCATTERING CROSS  SECTIONS OF O-18 FOR NEUTRONS IN THE ENERGY RANGE  FROM 2.9 TO 4.1 MEV- (IN GERMAN)
+#   journal: Jour: Helvetica Physica Acta, Vol.37, p.505 (1964)

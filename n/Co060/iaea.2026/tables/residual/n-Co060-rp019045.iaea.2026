@@ -1,0 +1,47 @@
+# header: 
+#   title: Co60(n,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.467104E-12
+   5.600000E+01   2.767706E-11
+   5.800000E+01   2.706562E-10
+   6.000000E+01   1.458625E-09
+   6.500000E+01   3.279288E-08
+   7.000000E+01   1.784636E-07
+   7.500000E+01   4.051415E-07
+   8.000000E+01   5.846859E-07
+   9.000000E+01   8.912399E-07
+   1.000000E+02   1.323328E-05
+   1.100000E+02   1.890979E-04
+   1.200000E+02   8.481574E-04
+   1.300000E+02   2.067921E-03
+   1.400000E+02   3.773788E-03
+   1.500000E+02   8.084645E-03
+   1.600000E+02   1.070939E-02
+   1.800000E+02   2.217772E-02
+   2.000000E+02   2.220610E-02

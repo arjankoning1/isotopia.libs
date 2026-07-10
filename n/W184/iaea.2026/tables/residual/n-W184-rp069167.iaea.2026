@@ -1,0 +1,39 @@
+# header: 
+#   title: W184(n,x)Tm167 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 184
+#   nuclide: W184
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 167
+#     nuclide: Tm167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.313667E-11
+   1.000000E+02   7.985812E-06
+   1.100000E+02   4.113756E-03
+   1.200000E+02   7.435009E-02
+   1.300000E+02   2.558515E-01
+   1.400000E+02   6.163556E-01
+   1.500000E+02   1.275797E+00
+   1.600000E+02   2.899709E+00
+   1.800000E+02   7.609789E+00
+   2.000000E+02   6.249380E+00

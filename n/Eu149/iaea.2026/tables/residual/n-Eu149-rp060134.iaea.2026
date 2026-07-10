@@ -1,0 +1,37 @@
+# header: 
+#   title: Eu149(n,x)Nd134 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 149
+#   nuclide: Eu149
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 134
+#     nuclide: Nd134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.037524E-07
+   1.200000E+02   4.799970E-04
+   1.300000E+02   3.392844E-02
+   1.400000E+02   4.231265E-01
+   1.500000E+02   2.108118E+00
+   1.600000E+02   5.709949E+00
+   1.800000E+02   2.032768E+01
+   2.000000E+02   4.055788E+01

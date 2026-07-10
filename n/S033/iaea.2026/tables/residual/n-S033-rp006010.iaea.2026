@@ -1,0 +1,36 @@
+# header: 
+#   title: S33(n,x)C10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 33
+#   nuclide: S33
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.653562E-09
+   1.300000E+02   1.478925E-07
+   1.400000E+02   1.858270E-06
+   1.500000E+02   9.353712E-06
+   1.600000E+02   4.286093E-05
+   1.800000E+02   6.525808E-04
+   2.000000E+02   5.492167E-03

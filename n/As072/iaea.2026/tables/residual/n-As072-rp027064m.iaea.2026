@@ -1,0 +1,49 @@
+# header: 
+#   title: As72(n,x)Co64m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 72
+#   nuclide: As72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 64
+#     nuclide: Co64m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   4.534904E-13
+   5.600000E+01   1.605176E-11
+   5.800000E+01   2.476389E-10
+   6.000000E+01   2.285357E-09
+   6.500000E+01   1.036957E-07
+   7.000000E+01   1.193102E-06
+   7.500000E+01   5.868211E-06
+   8.000000E+01   1.480121E-05
+   9.000000E+01   2.980097E-05
+   1.000000E+02   4.321761E-05
+   1.100000E+02   1.111182E-04
+   1.200000E+02   3.152638E-04
+   1.300000E+02   6.010673E-04
+   1.400000E+02   7.827020E-04
+   1.500000E+02   6.042718E-04
+   1.600000E+02   6.014965E-04
+   1.800000E+02   1.376278E-04
+   2.000000E+02   3.640552E-05

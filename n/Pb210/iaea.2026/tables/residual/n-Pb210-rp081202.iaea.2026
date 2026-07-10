@@ -1,0 +1,48 @@
+# header: 
+#   title: Pb210(n,x)Tl202 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 210
+#   nuclide: Pb210
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 202
+#     nuclide: Tl202
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   5.200000E+01   8.440454E-10
+   5.400000E+01   2.957146E-07
+   5.600000E+01   2.119757E-05
+   5.800000E+01   5.075022E-04
+   6.000000E+01   5.165122E-03
+   6.500000E+01   1.948341E-01
+   7.000000E+01   1.223234E+00
+   7.500000E+01   4.131797E+00
+   8.000000E+01   1.130504E+01
+   9.000000E+01   3.582571E+01
+   1.000000E+02   5.262615E+01
+   1.100000E+02   5.910265E+01
+   1.200000E+02   5.863502E+01
+   1.300000E+02   6.137129E+01
+   1.400000E+02   5.889539E+01
+   1.500000E+02   5.850703E+01
+   1.600000E+02   5.614467E+01
+   1.800000E+02   5.145324E+01
+   2.000000E+02   5.093699E+01

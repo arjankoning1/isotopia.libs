@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni60(n,n')Ni60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ShiXiaminn
+#   year: 1982
+#   subentry: 30656023
+#   X4 reaction: 28-NI-60(N,INL)28-NI-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30656023
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   1.000000E-01   7.660000E+02   7.200000E+01   1.000000E+00
+# reference:
+#   author: Shi Xiamin,Shen Ronglin,Xing Jinqiang,Wu Yongshun, Ding Dazhao
+#   title: -Measurements of the induced gamma ray cross-sections by 14.2 MeV neutrons with Fe,Ni and Cu.  (And data for Bi and Pb from another ref.).-
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Antwerp 1982, p.373 (1982)

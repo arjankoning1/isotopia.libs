@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn115(n,x)Rh102m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.017595E-13
+   7.000000E+01   1.197672E-08
+   7.500000E+01   4.612942E-06
+   8.000000E+01   1.538799E-04
+   9.000000E+01   5.074766E-03
+   1.000000E+02   6.249817E-02
+   1.100000E+02   2.931059E-01
+   1.200000E+02   6.530099E-01
+   1.300000E+02   1.120494E+00
+   1.400000E+02   2.170875E+00
+   1.500000E+02   3.028396E+00
+   1.600000E+02   3.354367E+00
+   1.800000E+02   3.824454E+00
+   2.000000E+02   2.450507E+00

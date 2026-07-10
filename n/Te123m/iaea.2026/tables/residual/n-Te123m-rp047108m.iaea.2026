@@ -1,0 +1,41 @@
+# header: 
+#   title: Te123m(n,x)Ag108m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.655133E-06
+   1.000000E+02   3.046832E-03
+   1.100000E+02   5.604060E-02
+   1.200000E+02   3.496059E-01
+   1.300000E+02   9.242458E-01
+   1.400000E+02   1.911674E+00
+   1.500000E+02   2.830026E+00
+   1.600000E+02   4.421803E+00
+   1.800000E+02   5.405765E+00
+   2.000000E+02   5.092585E+00

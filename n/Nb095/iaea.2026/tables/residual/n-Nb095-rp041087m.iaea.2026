@@ -1,0 +1,42 @@
+# header: 
+#   title: Nb95(n,x)Nb87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 87
+#     nuclide: Nb87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.204885E-10
+   9.000000E+01   5.852723E-04
+   1.000000E+02   2.637654E-02
+   1.100000E+02   1.304440E-01
+   1.200000E+02   2.509052E-01
+   1.300000E+02   3.283736E-01
+   1.400000E+02   3.699644E-01
+   1.500000E+02   3.972673E-01
+   1.600000E+02   3.994540E-01
+   1.800000E+02   4.275766E-01
+   2.000000E+02   4.772291E-01

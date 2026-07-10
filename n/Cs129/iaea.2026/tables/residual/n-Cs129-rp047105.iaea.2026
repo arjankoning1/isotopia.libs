@@ -1,0 +1,35 @@
+# header: 
+#   title: Cs129(n,x)Ag105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.360909E-11
+   1.400000E+02   2.795615E-07
+   1.500000E+02   1.044530E-04
+   1.600000E+02   2.680294E-03
+   1.800000E+02   6.984086E-02
+   2.000000E+02   4.724722E-01

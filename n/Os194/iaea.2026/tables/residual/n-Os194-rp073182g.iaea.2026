@@ -1,0 +1,45 @@
+# header: 
+#   title: Os194(n,x)Ta182g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 194
+#   nuclide: Os194
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.044015E-12
+   7.000000E+01   4.107857E-08
+   7.500000E+01   1.029193E-05
+   8.000000E+01   2.863238E-04
+   9.000000E+01   7.426244E-03
+   1.000000E+02   4.519472E-02
+   1.100000E+02   1.011029E-01
+   1.200000E+02   1.315546E-01
+   1.300000E+02   1.678467E-01
+   1.400000E+02   1.958860E-01
+   1.500000E+02   2.165315E-01
+   1.600000E+02   2.211109E-01
+   1.800000E+02   2.331643E-01
+   2.000000E+02   3.671721E-01

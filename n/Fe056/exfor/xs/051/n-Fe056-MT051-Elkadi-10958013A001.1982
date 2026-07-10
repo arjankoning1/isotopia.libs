@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe56(n,n'_01)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Elkadi
+#   year: 1982
+#   subentry: 10958013
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10958013
+#   level energy [MeV]:  8.47000E-01
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.960000E+00   1.000000E-01   1.520000E+02   9.208301E+00   1.000000E+00
+   9.940000E+00   1.000000E-01   1.110000E+02   1.245347E+01   1.000000E+00
+   1.193000E+01   1.000000E-01   1.000000E+02   9.486800E+00   1.000000E+00
+   1.392000E+01   1.000000E-01   8.300000E+01   3.109984E+01   1.000000E+00
+# reference:
+#   author: S.M.El-Kadi,C.E.Nelson,F.O.Purser,R.L.Walter, A.Beyerle,C.R.Gould,L.W.Seagondollar
+#   title: Elastic and inelastic scattering of neutrons from  54-,56-Fe and 63-,65-Cu  (part I)
+#   journal: Jour: Nuclear Physics, Section A, Vol.390, p.509 (1982)

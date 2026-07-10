@@ -1,0 +1,47 @@
+# header: 
+#   title: Ni56(n,x)Ca42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 42
+#     nuclide: Ca42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   3.148684E-11
+   5.600000E+01   1.184868E-09
+   5.800000E+01   2.187330E-08
+   6.000000E+01   2.388564E-07
+   6.500000E+01   1.823364E-05
+   7.000000E+01   3.289601E-04
+   7.500000E+01   2.502411E-03
+   8.000000E+01   1.103980E-02
+   9.000000E+01   7.135476E-02
+   1.000000E+02   1.834354E-01
+   1.100000E+02   7.362649E-01
+   1.200000E+02   3.142164E+00
+   1.300000E+02   6.379105E+00
+   1.400000E+02   1.012722E+01
+   1.500000E+02   1.362308E+01
+   1.600000E+02   1.747013E+01
+   1.800000E+02   2.776780E+01
+   2.000000E+02   3.428691E+01

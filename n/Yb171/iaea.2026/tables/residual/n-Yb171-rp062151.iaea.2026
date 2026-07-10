@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb171(n,x)Sm151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 171
+#   nuclide: Yb171
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 151
+#     nuclide: Sm151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.547021E-10
+   1.000000E+02   5.062363E-07
+   1.100000E+02   4.090372E-05
+   1.200000E+02   1.893650E-04
+   1.300000E+02   1.550476E-03
+   1.400000E+02   7.483169E-02
+   1.500000E+02   3.239354E-01
+   1.600000E+02   9.261414E-01
+   1.800000E+02   4.145953E+00
+   2.000000E+02   8.160181E+00

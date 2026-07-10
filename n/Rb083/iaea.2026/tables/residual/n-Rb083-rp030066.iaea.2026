@@ -1,0 +1,40 @@
+# header: 
+#   title: Rb83(n,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 83
+#   nuclide: Rb83
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.184321E-10
+   9.000000E+01   8.062540E-06
+   1.000000E+02   1.438702E-03
+   1.100000E+02   2.314972E-02
+   1.200000E+02   1.233861E-01
+   1.300000E+02   3.255540E-01
+   1.400000E+02   6.443323E-01
+   1.500000E+02   1.277514E+00
+   1.600000E+02   2.363195E+00
+   1.800000E+02   4.545691E+00
+   2.000000E+02   8.214053E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Se72(n,x)Ge64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 64
+#     nuclide: Ge64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   3.158875E-11
+   6.000000E+01   3.365848E-09
+   6.500000E+01   2.943420E-06
+   7.000000E+01   7.474639E-05
+   7.500000E+01   3.950216E-04
+   8.000000E+01   9.079254E-04
+   9.000000E+01   1.738444E-03
+   1.000000E+02   2.221610E-03
+   1.100000E+02   3.321881E-03
+   1.200000E+02   4.670812E-03
+   1.300000E+02   5.977386E-03
+   1.400000E+02   6.856400E-03
+   1.500000E+02   7.329723E-03
+   1.600000E+02   7.279817E-03
+   1.800000E+02   7.651261E-03
+   2.000000E+02   7.893699E-03

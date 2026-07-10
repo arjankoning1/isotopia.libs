@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca42(n,x)K36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 36
+#     nuclide: K36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.336967E-12
+   7.000000E+01   5.659102E-08
+   7.500000E+01   1.898130E-06
+   8.000000E+01   1.022243E-05
+   9.000000E+01   4.811254E-05
+   1.000000E+02   1.017915E-04
+   1.100000E+02   1.635397E-04
+   1.200000E+02   2.147373E-04
+   1.300000E+02   2.524808E-04
+   1.400000E+02   2.786677E-04
+   1.500000E+02   2.938049E-04
+   1.600000E+02   3.044433E-04
+   1.800000E+02   3.278824E-04
+   2.000000E+02   3.407536E-04

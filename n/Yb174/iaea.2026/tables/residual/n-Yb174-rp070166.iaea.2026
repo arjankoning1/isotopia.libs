@@ -1,0 +1,43 @@
+# header: 
+#   title: Yb174(n,x)Yb166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 174
+#   nuclide: Yb174
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 166
+#     nuclide: Yb166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.327169E-03
+   7.000000E+01   2.271060E+00
+   7.500000E+01   2.930768E+01
+   8.000000E+01   1.040503E+02
+   9.000000E+01   1.939398E+02
+   1.000000E+02   1.142826E+02
+   1.100000E+02   5.224427E+01
+   1.200000E+02   3.712057E+01
+   1.300000E+02   3.405050E+01
+   1.400000E+02   3.314862E+01
+   1.500000E+02   2.953999E+01
+   1.600000E+02   3.361845E+01
+   1.800000E+02   3.167299E+01
+   2.000000E+02   2.908431E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Te131m(n,x)Cd117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 131
+#   nuclide: Te131m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 117
+#     nuclide: Cd117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.885686E-11
+   8.000000E+01   1.677155E-07
+   9.000000E+01   1.480036E-03
+   1.000000E+02   6.743758E-02
+   1.100000E+02   2.861604E-01
+   1.200000E+02   5.915006E-01
+   1.300000E+02   1.223795E+00
+   1.400000E+02   2.164314E+00
+   1.500000E+02   2.765082E+00
+   1.600000E+02   2.881772E+00
+   1.800000E+02   1.767308E+00
+   2.000000E+02   1.597777E+00

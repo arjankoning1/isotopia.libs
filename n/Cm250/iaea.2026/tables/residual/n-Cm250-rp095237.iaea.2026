@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm250(n,x)Am237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 237
+#     nuclide: Am237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.202465E-12
+   1.000000E+02   2.024862E-09
+   1.100000E+02   2.722723E-08
+   1.200000E+02   1.096907E-07
+   1.300000E+02   2.490364E-07
+   1.400000E+02   7.116749E-07
+   1.500000E+02   9.740204E-07
+   1.600000E+02   1.518290E-06
+   1.800000E+02   5.108987E-06
+   2.000000E+02   6.120272E-06

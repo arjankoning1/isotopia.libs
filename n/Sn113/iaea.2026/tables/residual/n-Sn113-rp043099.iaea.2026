@@ -1,0 +1,47 @@
+# header: 
+#   title: Sn113(n,x)Tc99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   2.484196E-12
+   5.600000E+01   2.717485E-11
+   5.800000E+01   2.147871E-10
+   6.000000E+01   1.279054E-09
+   6.500000E+01   1.885272E-07
+   7.000000E+01   2.093518E-05
+   7.500000E+01   3.518692E-04
+   8.000000E+01   1.572328E-03
+   9.000000E+01   2.571473E-03
+   1.000000E+02   4.984932E-03
+   1.100000E+02   1.244727E-02
+   1.200000E+02   3.208633E-02
+   1.300000E+02   5.011884E-02
+   1.400000E+02   7.568374E-02
+   1.500000E+02   9.604324E-02
+   1.600000E+02   8.082262E-02
+   1.800000E+02   1.027231E-01
+   2.000000E+02   1.402273E-01

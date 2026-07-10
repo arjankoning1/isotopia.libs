@@ -1,0 +1,44 @@
+# header: 
+#   title: Hg196(n,x)Au187g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 187
+#     nuclide: Au187g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.638458E-11
+   7.500000E+01   1.311535E-05
+   8.000000E+01   4.457501E-03
+   9.000000E+01   7.233339E-01
+   1.000000E+02   7.153166E+00
+   1.100000E+02   2.186078E+01
+   1.200000E+02   2.294178E+01
+   1.300000E+02   1.932117E+01
+   1.400000E+02   1.717704E+01
+   1.500000E+02   1.672168E+01
+   1.600000E+02   1.678358E+01
+   1.800000E+02   1.495464E+01
+   2.000000E+02   9.837898E+00

@@ -1,0 +1,52 @@
+# header: 
+#   title: Bi209(n,x)Bi203m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 203
+#     nuclide: Bi203m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 21
+##       E             xs
+##     [MeV]          [mb]
+   4.800000E+01   1.521669E-07
+   5.000000E+01   2.012929E-04
+   5.200000E+01   1.065389E-02
+   5.400000E+01   1.412447E-01
+   5.600000E+01   8.382425E-01
+   5.800000E+01   2.962030E+00
+   6.000000E+01   7.229373E+00
+   6.500000E+01   2.348812E+01
+   7.000000E+01   3.298902E+01
+   7.500000E+01   2.911089E+01
+   8.000000E+01   2.067531E+01
+   9.000000E+01   1.203936E+01
+   1.000000E+02   1.001175E+01
+   1.100000E+02   8.799206E+00
+   1.200000E+02   8.117917E+00
+   1.300000E+02   7.599610E+00
+   1.400000E+02   6.820809E+00
+   1.500000E+02   7.237395E+00
+   1.600000E+02   6.289873E+00
+   1.800000E+02   6.811709E+00
+   2.000000E+02   6.344793E+00

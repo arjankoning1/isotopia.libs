@@ -1,0 +1,38 @@
+# header: 
+#   title: Ba132(n,x)Pd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 111
+#     nuclide: Pd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.049514E-10
+   1.100000E+02   3.641334E-08
+   1.200000E+02   6.079594E-07
+   1.300000E+02   6.337804E-05
+   1.400000E+02   6.219780E-04
+   1.500000E+02   2.075221E-03
+   1.600000E+02   9.929650E-03
+   1.800000E+02   3.349799E-01
+   2.000000E+02   8.890551E-01

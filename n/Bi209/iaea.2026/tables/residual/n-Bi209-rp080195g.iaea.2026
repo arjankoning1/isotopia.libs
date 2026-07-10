@@ -1,0 +1,41 @@
+# header: 
+#   title: Bi209(n,x)Hg195g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.967903E-10
+   1.000000E+02   1.132825E-05
+   1.100000E+02   1.838990E-03
+   1.200000E+02   1.889161E-02
+   1.300000E+02   1.010291E-01
+   1.400000E+02   2.840560E-01
+   1.500000E+02   7.417577E-01
+   1.600000E+02   1.522801E+00
+   1.800000E+02   2.902766E+00
+   2.000000E+02   5.013576E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Tm172(n,x)Ho161 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 172
+#   nuclide: Tm172
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 161
+#     nuclide: Ho161
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.513427E-10
+   6.500000E+01   2.098752E-05
+   7.000000E+01   2.598923E-02
+   7.500000E+01   1.085142E+00
+   8.000000E+01   7.720758E+00
+   9.000000E+01   3.330661E+01
+   1.000000E+02   3.077752E+01
+   1.100000E+02   2.475445E+01
+   1.200000E+02   3.583276E+01
+   1.300000E+02   4.215678E+01
+   1.400000E+02   4.380889E+01
+   1.500000E+02   4.539889E+01
+   1.600000E+02   4.178349E+01
+   1.800000E+02   2.611317E+01
+   2.000000E+02   2.527909E+01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Mo92(n,x)Br76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.090725E-12
+   9.000000E+01   3.240103E-06
+   1.000000E+02   1.315203E-03
+   1.100000E+02   4.269414E-02
+   1.200000E+02   3.180243E-01
+   1.300000E+02   8.686153E-01
+   1.400000E+02   1.706450E+00
+   1.500000E+02   4.480922E+00
+   1.600000E+02   7.860823E+00
+   1.800000E+02   1.407509E+01
+   2.000000E+02   1.571511E+01

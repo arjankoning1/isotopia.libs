@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm250(n,x)Np236 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 236
+#     nuclide: Np236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.139758E-13
+   8.000000E+01   2.147190E-10
+   9.000000E+01   3.177078E-07
+   1.000000E+02   6.130635E-06
+   1.100000E+02   3.249957E-05
+   1.200000E+02   4.622405E-05
+   1.300000E+02   1.003714E-04
+   1.400000E+02   1.339584E-04
+   1.500000E+02   1.974703E-04
+   1.600000E+02   2.138181E-04
+   1.800000E+02   2.242022E-04
+   2.000000E+02   4.079396E-04

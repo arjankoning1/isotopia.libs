@@ -1,0 +1,43 @@
+# header: 
+#   title: Se76(n,x)Cu63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.069237E-10
+   7.000000E+01   9.939681E-07
+   7.500000E+01   7.647873E-05
+   8.000000E+01   6.161729E-04
+   9.000000E+01   2.218863E-02
+   1.000000E+02   3.119643E-01
+   1.100000E+02   1.327402E+00
+   1.200000E+02   2.697604E+00
+   1.300000E+02   4.054539E+00
+   1.400000E+02   5.574401E+00
+   1.500000E+02   7.404417E+00
+   1.600000E+02   9.900189E+00
+   1.800000E+02   1.168402E+01
+   2.000000E+02   1.131438E+01

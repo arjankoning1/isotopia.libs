@@ -1,0 +1,47 @@
+# header: 
+#   title: Hg198(n,x)Hg191m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 191
+#     nuclide: Hg191m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.061550E-10
+   6.000000E+01   2.377027E-06
+   6.500000E+01   1.497860E-02
+   7.000000E+01   5.396582E-01
+   7.500000E+01   3.220890E+00
+   8.000000E+01   7.129345E+00
+   9.000000E+01   7.761013E+00
+   1.000000E+02   5.535405E+00
+   1.100000E+02   5.015577E+00
+   1.200000E+02   4.682081E+00
+   1.300000E+02   4.476670E+00
+   1.400000E+02   4.545810E+00
+   1.500000E+02   4.491999E+00
+   1.600000E+02   4.578035E+00
+   1.800000E+02   4.269131E+00
+   2.000000E+02   3.523033E+00

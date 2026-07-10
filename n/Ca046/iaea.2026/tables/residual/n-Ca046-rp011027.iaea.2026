@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca46(n,x)Na27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 27
+#     nuclide: Na27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.700303E-12
+   1.000000E+02   1.970357E-08
+   1.100000E+02   7.914294E-07
+   1.200000E+02   4.616300E-06
+   1.300000E+02   1.441809E-05
+   1.400000E+02   3.164196E-05
+   1.500000E+02   7.618074E-05
+   1.600000E+02   1.782495E-04
+   1.800000E+02   5.835365E-04
+   2.000000E+02   1.626199E-03

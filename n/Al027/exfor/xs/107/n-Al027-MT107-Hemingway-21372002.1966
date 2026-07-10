@@ -1,0 +1,38 @@
+# header: 
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hemingway
+#   year: 1966
+#   subentry: 21372002
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21372002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   1.000000E-01   1.181000E+02   6.000000E+00   1.000000E+00
+   1.480000E+01   1.000000E-01   1.036000E+02   5.500000E+00   1.000000E+00
+# reference:
+#   author: J.D.HEMINGWAY,R.H.JAMES,E.B.M.MARTIN,G.R.MARTIN
+#   title: -THE DETERMINATION OF THE CROSS SECTIONS FOR THE  REACTIONS AL-27(N,A) AND FE-56(N,P) FOR 14 MEV  NEUTRONS BY AN ABSOLUTE METHOD -.
+#   journal: Jour: Proc. Royal Society (London), Series A, Vol.292, p.180 (1966)

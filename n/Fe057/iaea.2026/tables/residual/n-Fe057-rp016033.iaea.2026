@@ -1,0 +1,36 @@
+# header: 
+#   title: Fe57(n,x)S33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.740569E-11
+   1.300000E+02   2.914039E-08
+   1.400000E+02   1.634157E-06
+   1.500000E+02   1.517669E-05
+   1.600000E+02   1.140675E-04
+   1.800000E+02   4.630252E-03
+   2.000000E+02   5.344952E-02

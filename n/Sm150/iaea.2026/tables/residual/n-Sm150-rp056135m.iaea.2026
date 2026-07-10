@@ -1,0 +1,47 @@
+# header: 
+#   title: Sm150(n,x)Ba135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 135
+#     nuclide: Ba135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   2.905095E-12
+   6.000000E+01   8.688165E-11
+   6.500000E+01   1.633316E-07
+   7.000000E+01   2.087876E-05
+   7.500000E+01   7.805276E-04
+   8.000000E+01   6.021916E-03
+   9.000000E+01   5.158850E-02
+   1.000000E+02   1.081847E-01
+   1.100000E+02   1.768420E-01
+   1.200000E+02   2.569824E-01
+   1.300000E+02   3.769154E-01
+   1.400000E+02   4.863140E-01
+   1.500000E+02   5.156624E-01
+   1.600000E+02   5.350345E-01
+   1.800000E+02   5.209882E-01
+   2.000000E+02   6.025236E-01

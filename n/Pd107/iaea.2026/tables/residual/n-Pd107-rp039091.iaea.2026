@@ -1,0 +1,42 @@
+# header: 
+#   title: Pd107(n,x)Y91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 91
+#     nuclide: Y91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.661536E-09
+   7.500000E+01   1.684211E-06
+   8.000000E+01   8.417667E-05
+   9.000000E+01   5.949481E-03
+   1.000000E+02   8.338669E-02
+   1.100000E+02   5.132185E-01
+   1.200000E+02   1.149616E+00
+   1.300000E+02   1.991056E+00
+   1.400000E+02   3.705085E+00
+   1.500000E+02   5.683253E+00
+   1.600000E+02   7.478659E+00
+   1.800000E+02   1.091308E+01
+   2.000000E+02   1.346546E+01

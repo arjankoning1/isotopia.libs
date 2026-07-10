@@ -1,0 +1,41 @@
+# header: 
+#   title: Na22(n,x)Ne16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 16
+#     nuclide: Ne16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.751104E-12
+   8.000000E+01   1.683358E-08
+   9.000000E+01   2.592639E-06
+   1.000000E+02   2.012016E-05
+   1.100000E+02   6.295161E-05
+   1.200000E+02   1.265165E-04
+   1.300000E+02   1.770645E-04
+   1.400000E+02   2.147949E-04
+   1.500000E+02   2.419838E-04
+   1.600000E+02   2.508950E-04
+   1.800000E+02   2.527180E-04
+   2.000000E+02   2.473046E-04

@@ -1,0 +1,37 @@
+# header: 
+#   title: Rb85(n,2n)Rb84 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bari
+#   year: 1971
+#   subentry: 10431030
+#   X4 reaction: 37-RB-85(N,2N)37-RB-84,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10431030
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   1.396001E+03   5.911389E+01   1.045694E+00
+# reference:
+#   author: A.Bari
+#   title: 14.8 MeV neutron activation cross sections of rubidium,  strontium,zirconium,niobium and rare-earth nuclides.
+#   journal: Thesis: Bari (1971)

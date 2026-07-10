@@ -1,0 +1,44 @@
+# header: 
+#   title: Sm149(n,x)Sm141g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 149
+#   nuclide: Sm149
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 141
+#     nuclide: Sm141g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.647211E-08
+   7.500000E+01   9.997140E-05
+   8.000000E+01   1.611563E-03
+   9.000000E+01   1.268733E-02
+   1.000000E+02   3.760070E-02
+   1.100000E+02   8.927686E-02
+   1.200000E+02   1.384710E-01
+   1.300000E+02   1.998534E-01
+   1.400000E+02   2.412484E-01
+   1.500000E+02   2.868854E-01
+   1.600000E+02   3.029529E-01
+   1.800000E+02   3.527520E-01
+   2.000000E+02   3.523968E-01

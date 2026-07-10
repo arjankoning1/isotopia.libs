@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu145(n,x)Nd132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 132
+#     nuclide: Nd132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.339324E-12
+   1.000000E+02   2.052963E-06
+   1.100000E+02   2.465182E-03
+   1.200000E+02   9.797747E-02
+   1.300000E+02   7.717065E-01
+   1.400000E+02   2.627844E+00
+   1.500000E+02   5.393395E+00
+   1.600000E+02   9.954295E+00
+   1.800000E+02   2.377989E+01
+   2.000000E+02   3.065009E+01

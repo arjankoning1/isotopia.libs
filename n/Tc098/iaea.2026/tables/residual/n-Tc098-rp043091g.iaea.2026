@@ -1,0 +1,44 @@
+# header: 
+#   title: Tc98(n,x)Tc91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 98
+#   nuclide: Tc98
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.409979E-09
+   7.500000E+01   1.585340E-05
+   8.000000E+01   2.144834E-04
+   9.000000E+01   3.277926E-03
+   1.000000E+02   9.030828E-03
+   1.100000E+02   1.423995E-02
+   1.200000E+02   1.856423E-02
+   1.300000E+02   2.209979E-02
+   1.400000E+02   2.699134E-02
+   1.500000E+02   2.939319E-02
+   1.600000E+02   3.033381E-02
+   1.800000E+02   3.765309E-02
+   2.000000E+02   4.818866E-02

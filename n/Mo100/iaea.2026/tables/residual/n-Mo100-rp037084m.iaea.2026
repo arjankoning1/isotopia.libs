@@ -1,0 +1,40 @@
+# header: 
+#   title: Mo100(n,x)Rb84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.931952E-07
+   1.100000E+02   1.718699E-04
+   1.200000E+02   3.891027E-03
+   1.300000E+02   3.455822E-02
+   1.400000E+02   1.368976E-01
+   1.500000E+02   2.787824E-01
+   1.600000E+02   4.974637E-01
+   1.800000E+02   1.391837E+00
+   2.000000E+02   2.179879E+00

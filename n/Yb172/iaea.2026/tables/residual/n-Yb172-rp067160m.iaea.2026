@@ -1,0 +1,44 @@
+# header: 
+#   title: Yb172(n,x)Ho160m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 172
+#   nuclide: Yb172
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 160
+#     nuclide: Ho160m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.736215E-13
+   7.500000E+01   1.134472E-08
+   8.000000E+01   5.256716E-06
+   9.000000E+01   2.575504E-03
+   1.000000E+02   6.161615E-02
+   1.100000E+02   2.931381E-01
+   1.200000E+02   5.411097E-01
+   1.300000E+02   6.496310E-01
+   1.400000E+02   6.507105E-01
+   1.500000E+02   8.380152E-01
+   1.600000E+02   9.206914E-01
+   1.800000E+02   1.040894E+00
+   2.000000E+02   8.533433E-01

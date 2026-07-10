@@ -1,0 +1,40 @@
+# header: 
+#   title: Pd102(n,x)Tc91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 91
+#     nuclide: Tc91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.292547E-09
+   9.000000E+01   1.373483E-04
+   1.000000E+02   6.891364E-03
+   1.100000E+02   1.133348E-01
+   1.200000E+02   4.639434E-01
+   1.300000E+02   1.015457E+00
+   1.400000E+02   1.611013E+00
+   1.500000E+02   2.440913E+00
+   1.600000E+02   3.370329E+00
+   1.800000E+02   4.896210E+00
+   2.000000E+02   4.970278E+00

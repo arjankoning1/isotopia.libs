@@ -1,0 +1,38 @@
+# header: 
+#   title: Cd114(n,x)Mo95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 114
+#   nuclide: Cd114
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 95
+#     nuclide: Mo95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.517089E-12
+   1.100000E+02   3.948945E-06
+   1.200000E+02   2.206687E-03
+   1.300000E+02   5.226616E-02
+   1.400000E+02   2.168351E-01
+   1.500000E+02   3.814245E-01
+   1.600000E+02   5.274313E-01
+   1.800000E+02   1.697927E+00
+   2.000000E+02   3.893406E+00

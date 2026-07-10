@@ -1,0 +1,48 @@
+# header: 
+#   title: Br77(n,x)Br72m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 77
+#   nuclide: Br77
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 72
+#     nuclide: Br72m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   9.935488E-12
+   5.800000E+01   1.470885E-07
+   6.000000E+01   9.780620E-06
+   6.500000E+01   9.758282E-04
+   7.000000E+01   6.673873E-03
+   7.500000E+01   1.914309E-02
+   8.000000E+01   3.153291E-02
+   9.000000E+01   4.273320E-02
+   1.000000E+02   4.324459E-02
+   1.100000E+02   4.226901E-02
+   1.200000E+02   4.193785E-02
+   1.300000E+02   4.063665E-02
+   1.400000E+02   4.066446E-02
+   1.500000E+02   4.044439E-02
+   1.600000E+02   4.123549E-02
+   1.800000E+02   4.078262E-02
+   2.000000E+02   4.486080E-02

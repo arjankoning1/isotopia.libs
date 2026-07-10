@@ -1,0 +1,37 @@
+# header: 
+#   title: Li6(n,t)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Goldberg
+#   year: 1985
+#   subentry: 12954002
+#   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12954002
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.492000E+01   5.000000E-02   3.200000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: E.GOLDBERG,R.L.BARBER,P.E.BARRY,N.A.BONNER, J.E.FONTANILLA,C.M.GRIFFITH,R.C.HAIGHT,D.R.NETHAWAY, G.B.HUDSON
+#   title: MEASUREMENTS OF 6 LI AND 7 LI NEUTRON-INDUCED TRITIUM PRODUCTION CROSS SECTIONS AT 15 MEV.
+#   journal: Jour: Nuclear Science and Engineering, Vol.91, p.173 (1985)

@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb123(n,x)Ag108g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.511644E-08
+   1.000000E+02   7.337137E-04
+   1.100000E+02   1.131424E-01
+   1.200000E+02   8.343059E-01
+   1.300000E+02   1.426692E+00
+   1.400000E+02   1.240236E+00
+   1.500000E+02   1.640243E+00
+   1.600000E+02   2.032789E+00
+   1.800000E+02   1.276633E+00
+   2.000000E+02   7.244973E-01

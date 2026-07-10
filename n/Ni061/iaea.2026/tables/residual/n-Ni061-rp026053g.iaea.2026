@@ -1,0 +1,49 @@
+# header: 
+#   title: Ni61(n,x)Fe53g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   5.400000E+01   1.817403E-12
+   5.600000E+01   4.007613E-09
+   5.800000E+01   7.185805E-07
+   6.000000E+01   2.158442E-05
+   6.500000E+01   2.398106E-03
+   7.000000E+01   2.385155E-02
+   7.500000E+01   8.840734E-02
+   8.000000E+01   1.869246E-01
+   9.000000E+01   3.818808E-01
+   1.000000E+02   4.875609E-01
+   1.100000E+02   6.271101E-01
+   1.200000E+02   8.555980E-01
+   1.300000E+02   1.116676E+00
+   1.400000E+02   1.301034E+00
+   1.500000E+02   1.406064E+00
+   1.600000E+02   1.468111E+00
+   1.800000E+02   1.428431E+00
+   2.000000E+02   1.521085E+00

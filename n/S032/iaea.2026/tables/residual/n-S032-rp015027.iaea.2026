@@ -1,0 +1,43 @@
+# header: 
+#   title: S32(n,x)P27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 27
+#     nuclide: P27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.433313E-07
+   7.000000E+01   2.255067E-05
+   7.500000E+01   1.276082E-04
+   8.000000E+01   3.382043E-04
+   9.000000E+01   1.071719E-03
+   1.000000E+02   2.346791E-03
+   1.100000E+02   4.257724E-03
+   1.200000E+02   6.391879E-03
+   1.300000E+02   8.588826E-03
+   1.400000E+02   1.056631E-02
+   1.500000E+02   1.218126E-02
+   1.600000E+02   1.349408E-02
+   1.800000E+02   1.542907E-02
+   2.000000E+02   1.670087E-02

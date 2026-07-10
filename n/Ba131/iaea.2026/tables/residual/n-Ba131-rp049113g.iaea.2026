@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba131(n,x)In113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 113
+#     nuclide: In113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.183697E-11
+   1.000000E+02   6.792599E-08
+   1.100000E+02   1.225240E-05
+   1.200000E+02   3.531616E-04
+   1.300000E+02   2.924735E-03
+   1.400000E+02   1.074517E-02
+   1.500000E+02   4.610394E-02
+   1.600000E+02   1.183614E-01
+   1.800000E+02   2.885097E-01
+   2.000000E+02   2.706058E-01

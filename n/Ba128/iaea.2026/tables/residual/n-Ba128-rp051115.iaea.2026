@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba128(n,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.648814E-09
+   7.000000E+01   1.595258E-06
+   7.500000E+01   9.693236E-05
+   8.000000E+01   1.329607E-03
+   9.000000E+01   4.846348E-02
+   1.000000E+02   4.602318E-01
+   1.100000E+02   1.414768E+00
+   1.200000E+02   2.480766E+00
+   1.300000E+02   4.440744E+00
+   1.400000E+02   7.288300E+00
+   1.500000E+02   9.085598E+00
+   1.600000E+02   9.837424E+00
+   1.800000E+02   1.426473E+01
+   2.000000E+02   8.359248E+00

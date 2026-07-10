@@ -1,0 +1,37 @@
+# header: 
+#   title: In115(n,x)Pd100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 100
+#     nuclide: Pd100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.521430E-08
+   1.200000E+02   1.105774E-04
+   1.300000E+02   7.326588E-03
+   1.400000E+02   5.202380E-02
+   1.500000E+02   2.880153E-01
+   1.600000E+02   8.446555E-01
+   1.800000E+02   2.908923E+00
+   2.000000E+02   4.784824E+00

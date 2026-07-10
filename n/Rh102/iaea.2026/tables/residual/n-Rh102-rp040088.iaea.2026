@@ -1,0 +1,41 @@
+# header: 
+#   title: Rh102(n,x)Zr88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.325621E-10
+   8.000000E+01   5.826502E-07
+   9.000000E+01   7.816459E-04
+   1.000000E+02   4.176809E-02
+   1.100000E+02   4.764985E-01
+   1.200000E+02   1.604196E+00
+   1.300000E+02   3.183455E+00
+   1.400000E+02   5.774846E+00
+   1.500000E+02   1.097507E+01
+   1.600000E+02   1.771012E+01
+   1.800000E+02   3.353912E+01
+   2.000000E+02   4.305330E+01

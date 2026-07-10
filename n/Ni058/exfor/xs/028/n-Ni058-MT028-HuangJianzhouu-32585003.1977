@@ -1,0 +1,49 @@
+# header: 
+#   title: Ni58(n,np)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: HuangJianzhouu
+#   year: 1977
+#   subentry: 32585003
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32585003
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.279000E+01   2.900000E-01   3.500000E+02   2.200000E+01   1.000000E+00
+   1.286000E+01   2.100000E-01   3.360000E+02   2.400000E+01   1.000000E+00
+   1.364000E+01   3.100000E-01   4.300000E+02   2.700000E+01   1.000000E+00
+   1.368000E+01   3.500000E-01   4.640000E+02   2.800000E+01   1.000000E+00
+   1.458000E+01   2.000000E-01   5.280001E+02   2.800000E+01   1.000000E+00
+   1.568000E+01   3.600000E-01   5.940000E+02   4.000000E+01   1.000000E+00
+   1.605000E+01   4.300000E-01   6.230000E+02   4.100000E+01   1.000000E+00
+   1.663000E+01   3.300000E-01   6.440001E+02   4.200000E+01   1.000000E+00
+   1.718000E+01   3.800000E-01   6.680000E+02   4.300000E+01   1.000000E+00
+   1.730000E+01   2.600000E-01   6.750000E+02   4.500000E+01   1.000000E+00
+   1.754000E+01   2.200000E-01   6.770000E+02   4.500000E+01   1.000000E+00
+   1.797000E+01   2.700000E-01   6.480001E+02   4.400000E+01   1.000000E+00
+   1.826000E+01   2.100000E-01   6.580001E+02   4.600000E+01   1.000000E+00
+# reference:
+#   author: Huang Jianzhou,Ciu Yunfeng,Zhao Wenrong,Chem Baolin
+#   title: Activation function of fast neutron induced nuclear reaction for Ni-58 and Nb-93.
+#   journal: Jour: Atomic Energy Science and Technology, Vol.11, Issue.3, p.211 (1977

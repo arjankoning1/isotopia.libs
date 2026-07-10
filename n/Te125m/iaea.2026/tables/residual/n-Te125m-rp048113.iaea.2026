@@ -1,0 +1,45 @@
+# header: 
+#   title: Te125m(n,x)Cd113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125m
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 113
+#     nuclide: Cd113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.546430E-10
+   6.000000E+01   1.397749E-08
+   6.500000E+01   3.288729E-05
+   7.000000E+01   4.190583E-03
+   7.500000E+01   5.583924E-02
+   8.000000E+01   2.324788E-01
+   9.000000E+01   8.323091E-01
+   1.000000E+02   1.185824E+00
+   1.100000E+02   1.967613E+00
+   1.200000E+02   3.486561E+00
+   1.300000E+02   4.071690E+00
+   1.400000E+02   4.475003E+00
+   1.500000E+02   4.059271E+00
+   1.600000E+02   4.173858E+00
+   1.800000E+02   2.429679E+00
+   2.000000E+02   1.889396E+00

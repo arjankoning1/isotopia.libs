@@ -1,0 +1,51 @@
+# header: 
+#   title: Rh99(n,x)Rb84m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.097612E-12
+   5.200000E+01   1.254961E-11
+   5.400000E+01   1.022188E-10
+   5.600000E+01   6.085153E-10
+   5.800000E+01   2.802128E-09
+   6.000000E+01   1.036524E-08
+   6.500000E+01   1.347767E-07
+   7.000000E+01   7.168743E-07
+   7.500000E+01   1.804586E-06
+   8.000000E+01   3.083847E-06
+   9.000000E+01   2.659005E-05
+   1.000000E+02   2.714764E-04
+   1.100000E+02   9.458090E-04
+   1.200000E+02   1.794605E-03
+   1.300000E+02   3.060195E-03
+   1.400000E+02   5.996757E-03
+   1.500000E+02   9.035767E-03
+   1.600000E+02   1.028356E-02
+   1.800000E+02   3.302699E-02
+   2.000000E+02   4.904824E-02

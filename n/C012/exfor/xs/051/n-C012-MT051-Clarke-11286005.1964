@@ -1,0 +1,43 @@
+# header: 
+#   title: C12(n,n'_01)C13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Clarke
+#   year: 1964
+#   subentry: 11286005
+#   X4 reaction: 6-C-12(N,INL)6-C-12,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11286005
+#   level energy [MeV]:  4.43000E+00
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  4.439820E+00
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.500000E-01   2.260000E+02   2.200000E+01   1.000000E+00
+# reference:
+#   author: R.L.Clarke,W.G.Cross
+#   title: Elastic and inelastic scattering of 14.1 MeV Neutrons from C, Mg, Si and S.
+#   journal: Jour: Nuclear Physics, Vol.53, p.177 (1964)

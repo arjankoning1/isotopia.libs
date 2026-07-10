@@ -1,0 +1,43 @@
+# header: 
+#   title: P31(n,x)N17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 17
+#     nuclide: N17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.591535E-10
+   7.000000E+01   1.150595E-07
+   7.500000E+01   2.884311E-06
+   8.000000E+01   3.198985E-05
+   9.000000E+01   9.470565E-04
+   1.000000E+02   4.577255E-03
+   1.100000E+02   8.809424E-03
+   1.200000E+02   1.429425E-02
+   1.300000E+02   2.332256E-02
+   1.400000E+02   3.609498E-02
+   1.500000E+02   4.593086E-02
+   1.600000E+02   5.559647E-02
+   1.800000E+02   8.343188E-02
+   2.000000E+02   9.780774E-02

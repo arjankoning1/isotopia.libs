@@ -1,0 +1,46 @@
+# header: 
+#   title: Ne20(n,x)C17 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 17
+#     nuclide: C17
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.600000E+01   2.774071E-12
+   5.800000E+01   7.536256E-10
+   6.000000E+01   2.013475E-08
+   6.500000E+01   1.181083E-06
+   7.000000E+01   6.168820E-06
+   7.500000E+01   1.340347E-05
+   8.000000E+01   1.893173E-05
+   9.000000E+01   2.123450E-05
+   1.000000E+02   1.600513E-05
+   1.100000E+02   1.270817E-05
+   1.200000E+02   1.004443E-05
+   1.300000E+02   7.911863E-06
+   1.400000E+02   6.145842E-06
+   1.500000E+02   5.008334E-06
+   1.600000E+02   4.160491E-06
+   1.800000E+02   3.222021E-06
+   2.000000E+02   2.499876E-06

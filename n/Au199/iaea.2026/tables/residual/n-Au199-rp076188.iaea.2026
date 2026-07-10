@@ -1,0 +1,45 @@
+# header: 
+#   title: Au199(n,x)Os188 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 188
+#     nuclide: Os188
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.800000E+01   1.256140E-12
+   6.000000E+01   9.384296E-11
+   6.500000E+01   5.106988E-07
+   7.000000E+01   1.114860E-04
+   7.500000E+01   2.457082E-03
+   8.000000E+01   1.550830E-02
+   9.000000E+01   1.634492E-01
+   1.000000E+02   5.031579E-01
+   1.100000E+02   7.335629E-01
+   1.200000E+02   7.669919E-01
+   1.300000E+02   8.349593E-01
+   1.400000E+02   9.499689E-01
+   1.500000E+02   1.050065E+00
+   1.600000E+02   9.071274E-01
+   1.800000E+02   9.989160E-01
+   2.000000E+02   1.591371E+00

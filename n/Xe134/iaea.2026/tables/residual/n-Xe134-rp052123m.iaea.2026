@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe134(n,x)Te123m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning and D. Rochman
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 134
+#   nuclide: Xe134
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.054283E-12
+   7.500000E+01   1.711502E-07
+   8.000000E+01   1.250689E-04
+   9.000000E+01   4.633516E-02
+   1.000000E+02   4.490960E-01
+   1.100000E+02   1.036774E+00
+   1.200000E+02   1.705323E+00
+   1.300000E+02   2.602460E+00
+   1.400000E+02   3.474942E+00
+   1.500000E+02   4.732817E+00
+   1.600000E+02   5.387641E+00
+   1.800000E+02   6.887050E+00
+   2.000000E+02   7.364288E+00
