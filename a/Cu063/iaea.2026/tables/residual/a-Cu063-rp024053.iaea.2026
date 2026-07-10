@@ -1,0 +1,45 @@
+# header: 
+#   title: Cu63(a,x)Cr53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 53
+#     nuclide: Cr53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.733973E-12
+   6.000000E+01   2.213145E-07
+   6.500000E+01   1.082862E-04
+   7.000000E+01   4.532290E-03
+   7.500000E+01   4.100319E-02
+   8.000000E+01   1.492568E-01
+   9.000000E+01   4.195301E-01
+   1.000000E+02   5.624465E-01
+   1.100000E+02   7.050313E-01
+   1.200000E+02   1.543643E+00
+   1.300000E+02   3.952679E+00
+   1.400000E+02   6.539269E+00
+   1.500000E+02   8.331125E+00
+   1.600000E+02   9.348655E+00
+   1.800000E+02   1.312578E+01
+   2.000000E+02   1.439362E+01

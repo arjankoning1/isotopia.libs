@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe126(a,x)Cs122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 126
+#   nuclide: Xe126
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.982137E-05
+   8.000000E+01   1.624944E-02
+   9.000000E+01   1.886711E+00
+   1.000000E+02   3.315614E+01
+   1.100000E+02   1.169894E+02
+   1.200000E+02   1.436899E+02
+   1.300000E+02   1.198882E+02
+   1.400000E+02   1.040202E+02
+   1.500000E+02   9.441432E+01
+   1.600000E+02   7.967371E+01
+   1.800000E+02   5.247581E+01
+   2.000000E+02   3.630349E+01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn72(a,x)Co64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 72
+#   nuclide: Zn72
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 64
+#     nuclide: Co64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.775776E-10
+   6.000000E+01   3.182217E-07
+   6.500000E+01   1.462208E-05
+   7.000000E+01   1.507178E-04
+   7.500000E+01   1.093282E-03
+   8.000000E+01   6.176042E-03
+   9.000000E+01   3.810810E-02
+   1.000000E+02   6.320641E-02
+   1.100000E+02   5.798597E-02
+   1.200000E+02   6.455272E-02
+   1.300000E+02   9.519131E-02
+   1.400000E+02   1.350679E-01
+   1.500000E+02   1.653199E-01
+   1.600000E+02   1.945005E-01
+   1.800000E+02   9.691222E-02
+   2.000000E+02   5.941581E-02

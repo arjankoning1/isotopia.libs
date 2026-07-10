@@ -1,0 +1,37 @@
+# header: 
+#   title: Se78(a,x)Ni60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.064520E-10
+   1.200000E+02   1.065929E-05
+   1.300000E+02   2.495876E-03
+   1.400000E+02   6.248162E-02
+   1.500000E+02   3.863536E-01
+   1.600000E+02   1.110044E+00
+   1.800000E+02   3.750413E+00
+   2.000000E+02   1.422423E+01

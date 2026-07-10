@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf181(a,x)Tm166 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 181
+#   nuclide: Hf181
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 166
+#     nuclide: Tm166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.962102E-09
+   1.200000E+02   4.684922E-05
+   1.300000E+02   1.389854E-02
+   1.400000E+02   3.508115E-01
+   1.500000E+02   2.499812E+00
+   1.600000E+02   6.749095E+00
+   1.800000E+02   1.398486E+01
+   2.000000E+02   1.688019E+01

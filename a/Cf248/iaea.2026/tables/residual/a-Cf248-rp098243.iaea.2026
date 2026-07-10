@@ -1,0 +1,44 @@
+# header: 
+#   title: Cf248(a,x)Cf243 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 248
+#   nuclide: Cf248
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 243
+#     nuclide: Cf243
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.902886E-12
+   6.500000E+01   1.063934E-10
+   7.000000E+01   1.320568E-09
+   7.500000E+01   4.251334E-09
+   8.000000E+01   7.875811E-09
+   9.000000E+01   1.662143E-08
+   1.000000E+02   1.807570E-08
+   1.100000E+02   2.692012E-08
+   1.200000E+02   4.438867E-08
+   1.300000E+02   6.328692E-08
+   1.400000E+02   8.792242E-08
+   1.500000E+02   4.893392E-07
+   1.600000E+02   1.371763E-06
+   1.800000E+02   3.921619E-06
+   2.000000E+02   5.067380E-05

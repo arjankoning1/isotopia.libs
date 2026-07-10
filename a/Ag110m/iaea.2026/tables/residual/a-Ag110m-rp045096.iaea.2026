@@ -1,0 +1,36 @@
+# header: 
+#   title: Ag110m(a,x)Rh96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.643572E-10
+   1.300000E+02   2.906974E-05
+   1.400000E+02   8.455724E-03
+   1.500000E+02   1.745910E-01
+   1.600000E+02   1.100386E+00
+   1.800000E+02   5.269513E+00
+   2.000000E+02   1.689047E+01

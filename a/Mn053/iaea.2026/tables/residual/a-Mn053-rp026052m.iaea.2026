@@ -1,0 +1,48 @@
+# header: 
+#   title: Mn53(a,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 53
+#   nuclide: Mn53
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   9.747360E-06
+   5.500000E+01   8.766429E-04
+   6.000000E+01   3.710013E-03
+   6.500000E+01   2.672096E-02
+   7.000000E+01   4.455172E-02
+   7.500000E+01   4.679645E-02
+   8.000000E+01   6.769978E-02
+   9.000000E+01   8.180513E-02
+   1.000000E+02   7.146215E-02
+   1.100000E+02   5.490746E-02
+   1.200000E+02   4.078352E-02
+   1.300000E+02   2.963755E-02
+   1.400000E+02   2.221393E-02
+   1.500000E+02   1.709091E-02
+   1.600000E+02   1.291547E-02
+   1.800000E+02   7.678058E-03
+   2.000000E+02   5.242452E-03

@@ -1,0 +1,46 @@
+# header: 
+#   title: Tl204(a,x)Bi201m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 204
+#   nuclide: Tl204
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 201
+#     nuclide: Bi201m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.292145E-08
+   6.500000E+01   4.139934E-02
+   7.000000E+01   6.545391E+00
+   7.500000E+01   6.168227E+01
+   8.000000E+01   1.494030E+02
+   9.000000E+01   1.281324E+02
+   1.000000E+02   2.748668E+01
+   1.100000E+02   1.015639E+01
+   1.200000E+02   7.543877E+00
+   1.300000E+02   5.672250E+00
+   1.400000E+02   4.339990E+00
+   1.500000E+02   3.321771E+00
+   1.600000E+02   2.513410E+00
+   1.800000E+02   1.453207E+00
+   2.000000E+02   8.537099E-01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe126(a,x)I120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 126
+#   nuclide: Xe126
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.036688E-12
+   6.500000E+01   2.445965E-07
+   7.000000E+01   3.216009E-04
+   7.500000E+01   1.635018E-02
+   8.000000E+01   1.597117E-01
+   9.000000E+01   7.851179E+00
+   1.000000E+02   4.047783E+01
+   1.100000E+02   4.933156E+01
+   1.200000E+02   4.037178E+01
+   1.300000E+02   5.924371E+01
+   1.400000E+02   8.024464E+01
+   1.500000E+02   9.918935E+01
+   1.600000E+02   1.070637E+02
+   1.800000E+02   7.746355E+01
+   2.000000E+02   5.500657E+01

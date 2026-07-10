@@ -1,0 +1,41 @@
+# header: 
+#   title: As73(a,x)Cu61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 73
+#   nuclide: As73
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.601767E-09
+   8.000000E+01   9.524542E-07
+   9.000000E+01   8.069985E-04
+   1.000000E+02   1.229439E-02
+   1.100000E+02   4.564118E-02
+   1.200000E+02   1.099553E-01
+   1.300000E+02   8.690247E-01
+   1.400000E+02   5.813117E+00
+   1.500000E+02   1.764277E+01
+   1.600000E+02   3.521637E+01
+   1.800000E+02   6.832117E+01
+   2.000000E+02   1.020075E+02

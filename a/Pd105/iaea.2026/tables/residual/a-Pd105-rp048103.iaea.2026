@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd105(a,x)Cd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 103
+#     nuclide: Cd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.961213E-02
+   6.500000E+01   1.636907E+00
+   7.000000E+01   8.884166E+00
+   7.500000E+01   1.739492E+01
+   8.000000E+01   2.133256E+01
+   9.000000E+01   1.910087E+01
+   1.000000E+02   1.574972E+01
+   1.100000E+02   1.283557E+01
+   1.200000E+02   1.001258E+01
+   1.300000E+02   7.235811E+00
+   1.400000E+02   5.276371E+00
+   1.500000E+02   3.959906E+00
+   1.600000E+02   3.089061E+00
+   1.800000E+02   1.848086E+00
+   2.000000E+02   1.187392E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr83(a,x)Zn65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 83
+#   nuclide: Sr83
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.111353E-11
+   1.000000E+02   9.519328E-08
+   1.100000E+02   9.578475E-06
+   1.200000E+02   9.168105E-05
+   1.300000E+02   2.776845E-04
+   1.400000E+02   1.250702E-03
+   1.500000E+02   1.250966E-02
+   1.600000E+02   6.692973E-02
+   1.800000E+02   3.233218E-01
+   2.000000E+02   1.260893E+00

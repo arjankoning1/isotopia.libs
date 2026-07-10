@@ -1,0 +1,47 @@
+# header: 
+#   title: Sn112(a,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   5.813331E-12
+   5.000000E+01   1.949262E-08
+   5.500000E+01   2.375577E-06
+   6.000000E+01   6.862319E-05
+   6.500000E+01   1.732303E-03
+   7.000000E+01   1.630499E-02
+   7.500000E+01   7.113145E-02
+   8.000000E+01   1.831044E-01
+   9.000000E+01   4.182801E-01
+   1.000000E+02   4.986337E-01
+   1.100000E+02   4.345599E-01
+   1.200000E+02   3.382260E-01
+   1.300000E+02   2.492996E-01
+   1.400000E+02   1.943739E-01
+   1.500000E+02   1.282513E-01
+   1.600000E+02   9.167781E-02
+   1.800000E+02   5.447760E-02
+   2.000000E+02   3.234968E-02

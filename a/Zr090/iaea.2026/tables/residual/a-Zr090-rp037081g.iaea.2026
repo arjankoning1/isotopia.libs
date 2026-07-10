@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr90(a,x)Rb81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.941313E-12
+   7.500000E+01   9.694402E-08
+   8.000000E+01   2.664949E-05
+   9.000000E+01   7.962565E-03
+   1.000000E+02   3.210489E-01
+   1.100000E+02   1.876706E+00
+   1.200000E+02   2.305232E+00
+   1.300000E+02   3.458545E+00
+   1.400000E+02   5.645869E+00
+   1.500000E+02   1.021044E+01
+   1.600000E+02   1.612729E+01
+   1.800000E+02   2.293892E+01
+   2.000000E+02   2.567436E+01

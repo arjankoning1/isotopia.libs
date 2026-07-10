@@ -1,0 +1,40 @@
+# header: 
+#   title: Sm145(a,x)Sm138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 138
+#     nuclide: Sm138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.518552E-08
+   9.000000E+01   3.840482E-02
+   1.000000E+02   1.127012E+01
+   1.100000E+02   1.035451E+02
+   1.200000E+02   1.570482E+02
+   1.300000E+02   1.220435E+02
+   1.400000E+02   1.297982E+02
+   1.500000E+02   1.709543E+02
+   1.600000E+02   2.065673E+02
+   1.800000E+02   2.151021E+02
+   2.000000E+02   1.469423E+02

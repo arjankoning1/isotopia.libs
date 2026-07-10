@@ -1,0 +1,41 @@
+# header: 
+#   title: Er170(a,x)Ho160m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 160
+#     nuclide: Ho160m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.034636E-08
+   1.000000E+02   3.796194E-04
+   1.100000E+02   3.942266E-02
+   1.200000E+02   6.050678E-01
+   1.300000E+02   2.159483E+00
+   1.400000E+02   3.235278E+00
+   1.500000E+02   2.285842E+00
+   1.600000E+02   1.991814E+00
+   1.800000E+02   1.661251E+00
+   2.000000E+02   1.380139E+00

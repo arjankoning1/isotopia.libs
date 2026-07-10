@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn64(a,x)Zn59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 59
+#     nuclide: Zn59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.961921E-08
+   8.000000E+01   5.634270E-06
+   9.000000E+01   6.445135E-04
+   1.000000E+02   2.341248E-03
+   1.100000E+02   3.908194E-03
+   1.200000E+02   4.560774E-03
+   1.300000E+02   5.735316E-03
+   1.400000E+02   7.801567E-03
+   1.500000E+02   9.450957E-03
+   1.600000E+02   9.792935E-03
+   1.800000E+02   8.574649E-03
+   2.000000E+02   6.440043E-03

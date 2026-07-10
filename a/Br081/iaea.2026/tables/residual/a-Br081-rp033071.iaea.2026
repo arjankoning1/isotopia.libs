@@ -1,0 +1,40 @@
+# header: 
+#   title: Br81(a,x)As71 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 71
+#     nuclide: As71
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.834429E-12
+   9.000000E+01   9.521627E-05
+   1.000000E+02   2.883632E-02
+   1.100000E+02   4.376003E-01
+   1.200000E+02   1.490822E+00
+   1.300000E+02   3.065072E+00
+   1.400000E+02   6.993954E+00
+   1.500000E+02   1.931839E+01
+   1.600000E+02   4.348437E+01
+   1.800000E+02   8.585781E+01
+   2.000000E+02   1.227314E+02

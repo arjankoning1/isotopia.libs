@@ -1,0 +1,46 @@
+# header: 
+#   title: Ca42(a,x)S32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 32
+#     nuclide: S32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.158361E-10
+   5.500000E+01   1.090585E-05
+   6.000000E+01   2.880483E-03
+   6.500000E+01   5.036148E-02
+   7.000000E+01   2.310696E-01
+   7.500000E+01   4.941911E-01
+   8.000000E+01   6.520056E-01
+   9.000000E+01   7.213466E-01
+   1.000000E+02   1.008026E+00
+   1.100000E+02   2.272006E+00
+   1.200000E+02   5.883274E+00
+   1.300000E+02   1.169597E+01
+   1.400000E+02   1.785667E+01
+   1.500000E+02   2.693337E+01
+   1.600000E+02   4.100185E+01
+   1.800000E+02   7.455521E+01
+   2.000000E+02   9.740872E+01

@@ -1,0 +1,48 @@
+# header: 
+#   title: K40(a,x)Cl34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.838676E-07
+   4.500000E+01   2.253126E-03
+   5.000000E+01   1.049584E-01
+   5.500000E+01   5.734500E-01
+   6.000000E+01   1.261216E+00
+   6.500000E+01   1.698718E+00
+   7.000000E+01   1.753949E+00
+   7.500000E+01   1.809046E+00
+   8.000000E+01   1.884383E+00
+   9.000000E+01   3.263113E+00
+   1.000000E+02   9.952314E+00
+   1.100000E+02   2.209830E+01
+   1.200000E+02   3.046255E+01
+   1.300000E+02   3.635111E+01
+   1.400000E+02   3.841690E+01
+   1.500000E+02   4.007326E+01
+   1.600000E+02   4.495335E+01
+   1.800000E+02   4.296522E+01
+   2.000000E+02   3.043211E+01

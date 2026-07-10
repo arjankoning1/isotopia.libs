@@ -1,0 +1,42 @@
+# header: 
+#   title: As75(a,x)Zn65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.781816E-10
+   7.500000E+01   1.679390E-06
+   8.000000E+01   2.846849E-04
+   9.000000E+01   4.296347E-02
+   1.000000E+02   6.654381E-01
+   1.100000E+02   5.758076E+00
+   1.200000E+02   1.699637E+01
+   1.300000E+02   2.911946E+01
+   1.400000E+02   3.533877E+01
+   1.500000E+02   4.908982E+01
+   1.600000E+02   6.776492E+01
+   1.800000E+02   9.141669E+01
+   2.000000E+02   9.294466E+01

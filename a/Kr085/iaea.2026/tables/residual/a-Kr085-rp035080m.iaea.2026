@@ -1,0 +1,48 @@
+# header: 
+#   title: Kr85(a,x)Br80m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 85
+#   nuclide: Kr85
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.878448E-09
+   5.500000E+01   8.254870E-05
+   6.000000E+01   5.523748E-03
+   6.500000E+01   1.368189E-01
+   7.000000E+01   2.270916E+00
+   7.500000E+01   1.136966E+01
+   8.000000E+01   2.638578E+01
+   9.000000E+01   4.384027E+01
+   1.000000E+02   4.485513E+01
+   1.100000E+02   4.228960E+01
+   1.200000E+02   4.095393E+01
+   1.300000E+02   4.404311E+01
+   1.400000E+02   4.171471E+01
+   1.500000E+02   3.944577E+01
+   1.600000E+02   3.193754E+01
+   1.800000E+02   2.210518E+01
+   2.000000E+02   1.122166E+01

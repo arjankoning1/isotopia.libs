@@ -1,0 +1,41 @@
+# header: 
+#   title: Rb84(a,x)Br74m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.635888E-08
+   1.000000E+02   1.835644E-03
+   1.100000E+02   1.398090E-01
+   1.200000E+02   9.580930E-01
+   1.300000E+02   2.163273E+00
+   1.400000E+02   3.446583E+00
+   1.500000E+02   6.425600E+00
+   1.600000E+02   1.415247E+01
+   1.800000E+02   3.669142E+01
+   2.000000E+02   4.278832E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: S32(a,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.181287E-09
+   6.500000E+01   2.395074E-05
+   7.000000E+01   1.688138E-03
+   7.500000E+01   1.319628E-02
+   8.000000E+01   4.179828E-02
+   9.000000E+01   1.718872E-01
+   1.000000E+02   3.983048E-01
+   1.100000E+02   5.573494E-01
+   1.200000E+02   5.757767E-01
+   1.300000E+02   5.047050E-01
+   1.400000E+02   4.091522E-01
+   1.500000E+02   3.196922E-01
+   1.600000E+02   2.478333E-01
+   1.800000E+02   1.505079E-01
+   2.000000E+02   9.630012E-02

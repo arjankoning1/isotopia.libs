@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr87(a,x)Se76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 76
+#     nuclide: Se76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.075226E-12
+   7.000000E+01   3.742482E-09
+   7.500000E+01   1.969783E-06
+   8.000000E+01   1.343788E-04
+   9.000000E+01   9.943974E-03
+   1.000000E+02   4.378201E-02
+   1.100000E+02   9.754797E-02
+   1.200000E+02   1.831501E-01
+   1.300000E+02   5.052884E-01
+   1.400000E+02   1.202145E+00
+   1.500000E+02   1.911783E+00
+   1.600000E+02   2.878855E+00
+   1.800000E+02   6.455652E+00
+   2.000000E+02   9.055048E+00

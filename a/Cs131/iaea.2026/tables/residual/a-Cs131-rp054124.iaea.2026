@@ -1,0 +1,43 @@
+# header: 
+#   title: Cs131(a,x)Xe124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 124
+#     nuclide: Xe124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.227140E-11
+   7.000000E+01   2.752585E-06
+   7.500000E+01   1.964288E-03
+   8.000000E+01   9.402123E-02
+   9.000000E+01   5.193463E+00
+   1.000000E+02   5.808866E+01
+   1.100000E+02   1.558178E+02
+   1.200000E+02   1.601279E+02
+   1.300000E+02   1.410652E+02
+   1.400000E+02   1.508758E+02
+   1.500000E+02   1.515953E+02
+   1.600000E+02   1.474567E+02
+   1.800000E+02   1.027643E+02
+   2.000000E+02   8.034462E+01

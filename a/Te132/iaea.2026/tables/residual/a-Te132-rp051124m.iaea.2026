@@ -1,0 +1,44 @@
+# header: 
+#   title: Te132(a,x)Sb124m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 132
+#   nuclide: Te132
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 124
+#     nuclide: Sb124m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.877507E-13
+   7.500000E+01   1.983869E-08
+   8.000000E+01   1.189609E-05
+   9.000000E+01   3.556264E-03
+   1.000000E+02   4.267790E-02
+   1.100000E+02   2.119430E-01
+   1.200000E+02   4.419199E-01
+   1.300000E+02   6.353734E-01
+   1.400000E+02   8.195708E-01
+   1.500000E+02   1.022108E+00
+   1.600000E+02   1.110490E+00
+   1.800000E+02   1.246525E+00
+   2.000000E+02   9.633152E-01

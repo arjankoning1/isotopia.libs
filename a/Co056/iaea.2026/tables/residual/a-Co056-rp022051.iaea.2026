@@ -1,0 +1,42 @@
+# header: 
+#   title: Co56(a,x)Ti51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.018420E-12
+   7.500000E+01   6.087317E-09
+   8.000000E+01   6.258019E-07
+   9.000000E+01   8.045420E-05
+   1.000000E+02   6.318743E-04
+   1.100000E+02   1.415571E-03
+   1.200000E+02   1.831330E-03
+   1.300000E+02   2.024519E-03
+   1.400000E+02   2.411482E-03
+   1.500000E+02   2.961965E-03
+   1.600000E+02   3.348199E-03
+   1.800000E+02   2.362774E-03
+   2.000000E+02   1.588260E-03

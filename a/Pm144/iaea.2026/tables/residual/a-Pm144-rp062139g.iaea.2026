@@ -1,0 +1,42 @@
+# header: 
+#   title: Pm144(a,x)Sm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 144
+#   nuclide: Pm144
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 139
+#     nuclide: Sm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.488078E-08
+   9.000000E+01   1.399461E-02
+   1.000000E+02   1.341835E+00
+   1.100000E+02   2.413919E+01
+   1.200000E+02   7.626272E+01
+   1.300000E+02   7.819643E+01
+   1.400000E+02   5.621748E+01
+   1.500000E+02   4.636568E+01
+   1.600000E+02   4.119900E+01
+   1.800000E+02   2.886871E+01
+   2.000000E+02   1.692050E+01

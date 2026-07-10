@@ -1,0 +1,39 @@
+# header: 
+#   title: Ne20(a,x)Be11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 11
+#     nuclide: Be11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.213754E-08
+   1.000000E+02   2.664843E-05
+   1.100000E+02   2.821934E-04
+   1.200000E+02   1.048003E-03
+   1.300000E+02   3.010553E-03
+   1.400000E+02   6.304841E-03
+   1.500000E+02   1.163480E-02
+   1.600000E+02   2.221953E-02
+   1.800000E+02   7.966173E-02
+   2.000000E+02   1.955513E-01

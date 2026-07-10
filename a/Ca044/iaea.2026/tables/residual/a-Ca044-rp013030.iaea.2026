@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca44(a,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.936431E-11
+   9.000000E+01   2.185256E-07
+   1.000000E+02   1.543072E-05
+   1.100000E+02   9.577189E-05
+   1.200000E+02   2.133566E-04
+   1.300000E+02   5.401428E-04
+   1.400000E+02   2.515773E-03
+   1.500000E+02   9.438313E-03
+   1.600000E+02   2.246443E-02
+   1.800000E+02   5.790699E-02
+   2.000000E+02   1.122072E-01

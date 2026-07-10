@@ -1,0 +1,51 @@
+# header: 
+#   title: Ag110m(a,x)In110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.637818E+00
+   4.000000E+01   1.093904E+02
+   4.500000E+01   2.364409E+02
+   5.000000E+01   2.466859E+02
+   5.500000E+01   1.778535E+02
+   6.000000E+01   1.076587E+02
+   6.500000E+01   6.872108E+01
+   7.000000E+01   4.956389E+01
+   7.500000E+01   3.915419E+01
+   8.000000E+01   3.175034E+01
+   9.000000E+01   2.152263E+01
+   1.000000E+02   1.491789E+01
+   1.100000E+02   1.027857E+01
+   1.200000E+02   7.294196E+00
+   1.300000E+02   4.801454E+00
+   1.400000E+02   3.274709E+00
+   1.500000E+02   2.363327E+00
+   1.600000E+02   1.580826E+00
+   1.800000E+02   8.314078E-01
+   2.000000E+02   4.955124E-01

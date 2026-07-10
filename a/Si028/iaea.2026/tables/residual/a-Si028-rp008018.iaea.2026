@@ -1,0 +1,43 @@
+# header: 
+#   title: Si28(a,x)O18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 18
+#     nuclide: O18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.850819E-08
+   7.000000E+01   1.012186E-05
+   7.500000E+01   2.865465E-04
+   8.000000E+01   1.992651E-03
+   9.000000E+01   1.083340E-02
+   1.000000E+02   2.243869E-02
+   1.100000E+02   4.440633E-02
+   1.200000E+02   1.759250E-01
+   1.300000E+02   6.388475E-01
+   1.400000E+02   1.491116E+00
+   1.500000E+02   2.425260E+00
+   1.600000E+02   3.322686E+00
+   1.800000E+02   5.250357E+00
+   2.000000E+02   7.424208E+00

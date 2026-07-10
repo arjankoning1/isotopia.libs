@@ -1,0 +1,42 @@
+# header: 
+#   title: I124(a,x)Sn114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 114
+#     nuclide: Sn114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.418396E-10
+   7.500000E+01   2.191703E-07
+   8.000000E+01   9.849200E-06
+   9.000000E+01   2.287343E-03
+   1.000000E+02   1.265035E-01
+   1.100000E+02   9.102206E-01
+   1.200000E+02   1.603569E+00
+   1.300000E+02   1.870357E+00
+   1.400000E+02   2.223700E+00
+   1.500000E+02   3.578861E+00
+   1.600000E+02   4.930301E+00
+   1.800000E+02   5.380563E+00
+   2.000000E+02   5.008821E+00

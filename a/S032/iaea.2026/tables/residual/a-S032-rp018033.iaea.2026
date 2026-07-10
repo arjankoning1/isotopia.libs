@@ -1,0 +1,47 @@
+# header: 
+#   title: S32(a,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   7.928606E-06
+   5.000000E+01   1.031222E-03
+   5.500000E+01   6.612543E-03
+   6.000000E+01   1.410820E-02
+   6.500000E+01   1.857187E-02
+   7.000000E+01   1.959006E-02
+   7.500000E+01   1.852972E-02
+   8.000000E+01   1.652894E-02
+   9.000000E+01   1.178169E-02
+   1.000000E+02   7.602312E-03
+   1.100000E+02   4.973412E-03
+   1.200000E+02   3.306156E-03
+   1.300000E+02   2.242196E-03
+   1.400000E+02   1.556940E-03
+   1.500000E+02   1.105474E-03
+   1.600000E+02   8.038105E-04
+   1.800000E+02   4.488999E-04
+   2.000000E+02   2.735748E-04

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti48(a,x)S35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.119160E-11
+   6.500000E+01   7.859079E-08
+   7.000000E+01   7.354358E-06
+   7.500000E+01   5.172495E-05
+   8.000000E+01   7.242600E-05
+   9.000000E+01   1.953068E-04
+   1.000000E+02   4.315277E-04
+   1.100000E+02   2.889860E-03
+   1.200000E+02   2.432768E-02
+   1.300000E+02   1.079446E-01
+   1.400000E+02   2.267137E-01
+   1.500000E+02   3.970699E-01
+   1.600000E+02   6.617508E-01
+   1.800000E+02   1.669482E+00
+   2.000000E+02   3.107010E+00

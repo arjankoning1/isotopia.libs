@@ -1,0 +1,39 @@
+# header: 
+#   title: I131(a,x)I120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.226489E-11
+   1.200000E+02   5.396534E-05
+   1.300000E+02   4.459237E-02
+   1.400000E+02   1.061827E+00
+   1.500000E+02   3.568757E+00
+   1.600000E+02   5.173988E+00
+   1.800000E+02   2.725370E+01
+   2.000000E+02   6.029834E+01

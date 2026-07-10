@@ -1,0 +1,42 @@
+# header: 
+#   title: Cl37(a,x)Ne24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 24
+#     nuclide: Ne24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.661707E-10
+   7.500000E+01   5.029591E-08
+   8.000000E+01   1.249481E-06
+   9.000000E+01   8.588978E-06
+   1.000000E+02   3.646567E-05
+   1.100000E+02   6.904365E-05
+   1.200000E+02   1.538843E-04
+   1.300000E+02   6.444273E-04
+   1.400000E+02   2.141920E-03
+   1.500000E+02   4.509530E-03
+   1.600000E+02   7.608823E-03
+   1.800000E+02   2.015157E-02
+   2.000000E+02   4.758197E-02

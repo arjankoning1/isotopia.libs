@@ -1,0 +1,41 @@
+# header: 
+#   title: Ti48(a,x)Cl41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 41
+#     nuclide: Cl41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.930457E-09
+   8.000000E+01   1.423512E-07
+   9.000000E+01   1.941039E-05
+   1.000000E+02   1.691111E-04
+   1.100000E+02   3.666070E-04
+   1.200000E+02   5.235935E-04
+   1.300000E+02   5.981395E-04
+   1.400000E+02   9.208083E-04
+   1.500000E+02   1.511192E-03
+   1.600000E+02   2.363797E-03
+   1.800000E+02   1.578342E-03
+   2.000000E+02   1.765785E-03

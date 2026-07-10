@@ -1,0 +1,43 @@
+# header: 
+#   title: U235(a,x)Ac226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 226
+#     nuclide: Ac226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.239213E-10
+   7.000000E+01   2.306747E-07
+   7.500000E+01   1.667227E-05
+   8.000000E+01   3.953236E-04
+   9.000000E+01   3.129145E-02
+   1.000000E+02   3.388258E-01
+   1.100000E+02   4.614861E-01
+   1.200000E+02   3.234583E-01
+   1.300000E+02   3.527845E-01
+   1.400000E+02   4.097510E-01
+   1.500000E+02   4.763081E-01
+   1.600000E+02   2.339245E-01
+   1.800000E+02   2.218927E-01
+   2.000000E+02   1.180276E-01

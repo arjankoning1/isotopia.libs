@@ -1,0 +1,43 @@
+# header: 
+#   title: Ac227(a,x)Th222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 222
+#     nuclide: Th222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.148901E-06
+   7.000000E+01   4.132642E-03
+   7.500000E+01   9.336571E-02
+   8.000000E+01   7.724026E-01
+   9.000000E+01   1.023709E+01
+   1.000000E+02   3.038929E+01
+   1.100000E+02   5.004301E+01
+   1.200000E+02   4.031145E+01
+   1.300000E+02   2.346591E+01
+   1.400000E+02   1.415889E+01
+   1.500000E+02   9.915147E+00
+   1.600000E+02   5.440659E+00
+   1.800000E+02   2.905120E+00
+   2.000000E+02   1.120258E+00

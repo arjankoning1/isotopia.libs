@@ -1,0 +1,45 @@
+# header: 
+#   title: N14(a,x)B8 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 8
+#     nuclide: B8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.025461E-09
+   6.000000E+01   5.140829E-05
+   6.500000E+01   5.334786E-03
+   7.000000E+01   3.253582E-02
+   7.500000E+01   7.382873E-02
+   8.000000E+01   1.233315E-01
+   9.000000E+01   2.568225E-01
+   1.000000E+02   4.109551E-01
+   1.100000E+02   7.103474E-01
+   1.200000E+02   1.300702E+00
+   1.300000E+02   2.233690E+00
+   1.400000E+02   3.328128E+00
+   1.500000E+02   4.462901E+00
+   1.600000E+02   5.599515E+00
+   1.800000E+02   7.734540E+00
+   2.000000E+02   1.004146E+01

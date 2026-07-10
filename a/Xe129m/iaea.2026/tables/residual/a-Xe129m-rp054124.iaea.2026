@@ -1,0 +1,46 @@
+# header: 
+#   title: Xe129m(a,x)Xe124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 124
+#     nuclide: Xe124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   5.881446E-12
+   5.500000E+01   1.758456E-05
+   6.000000E+01   4.319383E-02
+   6.500000E+01   3.620975E+00
+   7.000000E+01   3.785266E+01
+   7.500000E+01   1.266881E+02
+   8.000000E+01   2.205581E+02
+   9.000000E+01   2.112508E+02
+   1.000000E+02   1.513022E+02
+   1.100000E+02   2.077603E+02
+   1.200000E+02   2.633452E+02
+   1.300000E+02   2.587489E+02
+   1.400000E+02   2.487726E+02
+   1.500000E+02   2.324235E+02
+   1.600000E+02   2.039862E+02
+   1.800000E+02   1.274280E+02
+   2.000000E+02   8.406394E+01

@@ -1,0 +1,43 @@
+# header: 
+#   title: V48(a,x)V44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 44
+#     nuclide: V44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.838127E-10
+   7.000000E+01   9.904892E-07
+   7.500000E+01   2.703189E-05
+   8.000000E+01   1.272238E-04
+   9.000000E+01   4.319186E-04
+   1.000000E+02   5.715112E-04
+   1.100000E+02   6.249438E-04
+   1.200000E+02   8.976567E-04
+   1.300000E+02   1.567471E-03
+   1.400000E+02   2.339050E-03
+   1.500000E+02   2.824735E-03
+   1.600000E+02   2.879892E-03
+   1.800000E+02   2.161819E-03
+   2.000000E+02   1.510539E-03

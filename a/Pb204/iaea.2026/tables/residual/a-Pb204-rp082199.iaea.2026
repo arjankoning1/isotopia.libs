@@ -1,0 +1,46 @@
+# header: 
+#   title: Pb204(a,x)Pb199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 199
+#     nuclide: Pb199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.051594E-08
+   5.500000E+01   3.112263E-04
+   6.000000E+01   2.445987E-02
+   6.500000E+01   7.254878E-01
+   7.000000E+01   7.576316E+00
+   7.500000E+01   2.546957E+01
+   8.000000E+01   4.835577E+01
+   9.000000E+01   4.909815E+01
+   1.000000E+02   3.721679E+01
+   1.100000E+02   4.246373E+01
+   1.200000E+02   4.555490E+01
+   1.300000E+02   4.586129E+01
+   1.400000E+02   4.678587E+01
+   1.500000E+02   4.501826E+01
+   1.600000E+02   4.405468E+01
+   1.800000E+02   3.846224E+01
+   2.000000E+02   3.725927E+01

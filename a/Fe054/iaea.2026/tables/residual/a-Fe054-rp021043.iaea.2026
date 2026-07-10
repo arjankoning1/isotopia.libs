@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe54(a,x)Sc43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 43
+#     nuclide: Sc43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.400266E-09
+   7.500000E+01   9.542638E-07
+   8.000000E+01   2.525023E-05
+   9.000000E+01   4.336881E-03
+   1.000000E+02   8.065411E-02
+   1.100000E+02   2.905891E-01
+   1.200000E+02   5.536585E-01
+   1.300000E+02   1.207164E+00
+   1.400000E+02   3.789319E+00
+   1.500000E+02   9.644984E+00
+   1.600000E+02   1.922667E+01
+   1.800000E+02   4.012238E+01
+   2.000000E+02   8.238136E+01

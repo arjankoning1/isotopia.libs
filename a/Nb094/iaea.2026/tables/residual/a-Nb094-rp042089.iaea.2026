@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb94(a,x)Mo89 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 94
+#   nuclide: Nb94
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 89
+#     nuclide: Mo89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.215215E-11
+   9.000000E+01   5.489038E-04
+   1.000000E+02   2.578886E-02
+   1.100000E+02   2.420684E-01
+   1.200000E+02   9.520969E-01
+   1.300000E+02   2.079882E+00
+   1.400000E+02   2.681986E+00
+   1.500000E+02   3.116713E+00
+   1.600000E+02   2.810369E+00
+   1.800000E+02   2.708207E+00
+   2.000000E+02   2.104576E+00

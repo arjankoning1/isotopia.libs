@@ -1,0 +1,39 @@
+# header: 
+#   title: Te131m(a,x)Sn119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 131
+#   nuclide: Te131m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 119
+#     nuclide: Sn119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.295596E-10
+   1.000000E+02   8.243191E-05
+   1.100000E+02   2.070777E-02
+   1.200000E+02   2.697585E-01
+   1.300000E+02   6.014334E-01
+   1.400000E+02   5.997022E-01
+   1.500000E+02   7.052085E-01
+   1.600000E+02   1.010698E+00
+   1.800000E+02   1.875072E+00
+   2.000000E+02   1.777766E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Te118(a,x)Sb111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 111
+#     nuclide: Sb111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.962736E-08
+   8.000000E+01   3.267719E-05
+   9.000000E+01   2.511784E-02
+   1.000000E+02   1.890933E+00
+   1.100000E+02   2.033091E+01
+   1.200000E+02   4.455258E+01
+   1.300000E+02   4.849408E+01
+   1.400000E+02   5.188606E+01
+   1.500000E+02   7.166236E+01
+   1.600000E+02   8.054523E+01
+   1.800000E+02   1.018658E+02
+   2.000000E+02   1.058985E+02

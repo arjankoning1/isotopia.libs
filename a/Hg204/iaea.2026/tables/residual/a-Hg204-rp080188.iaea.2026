@@ -1,0 +1,33 @@
+# header: 
+#   title: Hg204(a,x)Hg188 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 188
+#     nuclide: Hg188
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   1.093978E-09
+   1.600000E+02   4.824387E-05
+   1.800000E+02   1.581406E+00
+   2.000000E+02   2.071735E+01

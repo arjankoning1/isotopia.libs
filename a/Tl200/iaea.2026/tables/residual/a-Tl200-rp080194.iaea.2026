@@ -1,0 +1,45 @@
+# header: 
+#   title: Tl200(a,x)Hg194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 200
+#   nuclide: Tl200
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 194
+#     nuclide: Hg194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.546204E-12
+   6.000000E+01   1.987516E-08
+   6.500000E+01   6.922412E-06
+   7.000000E+01   4.328695E-04
+   7.500000E+01   7.905493E-03
+   8.000000E+01   1.094157E-01
+   9.000000E+01   3.775905E+00
+   1.000000E+02   9.723830E+00
+   1.100000E+02   9.057774E+00
+   1.200000E+02   8.426622E+00
+   1.300000E+02   1.159402E+01
+   1.400000E+02   1.420316E+01
+   1.500000E+02   1.226827E+01
+   1.600000E+02   1.168191E+01
+   1.800000E+02   1.006117E+01
+   2.000000E+02   6.731343E+00

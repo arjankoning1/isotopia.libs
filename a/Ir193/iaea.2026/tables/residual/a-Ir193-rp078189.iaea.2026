@@ -1,0 +1,44 @@
+# header: 
+#   title: Ir193(a,x)Pt189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 189
+#     nuclide: Pt189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.827909E-08
+   6.500000E+01   1.472827E-03
+   7.000000E+01   1.325286E-01
+   7.500000E+01   1.317393E+00
+   8.000000E+01   6.148011E+00
+   9.000000E+01   5.925099E+01
+   1.000000E+02   1.380317E+02
+   1.100000E+02   1.420591E+02
+   1.200000E+02   1.298673E+02
+   1.300000E+02   1.167504E+02
+   1.400000E+02   9.506008E+01
+   1.500000E+02   9.121249E+01
+   1.600000E+02   6.939291E+01
+   1.800000E+02   4.772042E+01
+   2.000000E+02   4.569391E+01

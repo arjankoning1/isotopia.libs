@@ -1,0 +1,39 @@
+# header: 
+#   title: Er160(a,x)Yb155 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 160
+#   nuclide: Er160
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 155
+#     nuclide: Yb155
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.111362E-07
+   1.000000E+02   3.302283E-01
+   1.100000E+02   7.105072E+00
+   1.200000E+02   1.749699E+01
+   1.300000E+02   1.586560E+01
+   1.400000E+02   1.217861E+01
+   1.500000E+02   1.069834E+01
+   1.600000E+02   1.017617E+01
+   1.800000E+02   8.212542E+00
+   2.000000E+02   5.472394E+00

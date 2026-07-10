@@ -1,0 +1,48 @@
+# header: 
+#   title: Ga67(a,x)Cu67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 67
+#     nuclide: Cu67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.385492E-09
+   4.500000E+01   7.449807E-06
+   5.000000E+01   2.290636E-04
+   5.500000E+01   2.124365E-03
+   6.000000E+01   8.252464E-03
+   6.500000E+01   1.551518E-02
+   7.000000E+01   1.911740E-02
+   7.500000E+01   1.943107E-02
+   8.000000E+01   1.890601E-02
+   9.000000E+01   1.605628E-02
+   1.000000E+02   1.144622E-02
+   1.100000E+02   7.895945E-03
+   1.200000E+02   5.343705E-03
+   1.300000E+02   3.744244E-03
+   1.400000E+02   2.696223E-03
+   1.500000E+02   2.044620E-03
+   1.600000E+02   1.449854E-03
+   1.800000E+02   9.468272E-04
+   2.000000E+02   6.870813E-04

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta181(a,x)Hf171 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.346712E-09
+   1.000000E+02   3.619934E-04
+   1.100000E+02   5.609480E-02
+   1.200000E+02   1.126230E+00
+   1.300000E+02   7.116882E+00
+   1.400000E+02   1.411127E+01
+   1.500000E+02   1.613866E+01
+   1.600000E+02   1.296824E+01
+   1.800000E+02   1.308017E+01
+   2.000000E+02   1.076863E+01

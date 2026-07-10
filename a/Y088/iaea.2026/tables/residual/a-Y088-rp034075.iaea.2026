@@ -1,0 +1,39 @@
+# header: 
+#   title: Y88(a,x)Se75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.152838E-08
+   1.000000E+02   4.001489E-05
+   1.100000E+02   2.699495E-03
+   1.200000E+02   4.186260E-02
+   1.300000E+02   1.886828E-01
+   1.400000E+02   3.752519E-01
+   1.500000E+02   6.193154E-01
+   1.600000E+02   1.085994E+00
+   1.800000E+02   3.415052E+00
+   2.000000E+02   5.756628E+00

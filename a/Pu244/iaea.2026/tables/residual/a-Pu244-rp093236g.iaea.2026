@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu244(a,x)Np236g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 236
+#     nuclide: Np236g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.201449E-11
+   7.500000E+01   7.736760E-08
+   8.000000E+01   9.761183E-06
+   9.000000E+01   1.394840E-03
+   1.000000E+02   6.193181E-03
+   1.100000E+02   1.321154E-02
+   1.200000E+02   1.929626E-02
+   1.300000E+02   1.956966E-02
+   1.400000E+02   1.813526E-02
+   1.500000E+02   2.932536E-02
+   1.600000E+02   2.731325E-02
+   1.800000E+02   3.323356E-02
+   2.000000E+02   7.130350E-02

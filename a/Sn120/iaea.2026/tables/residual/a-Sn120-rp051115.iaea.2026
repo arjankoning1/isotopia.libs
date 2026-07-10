@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn120(a,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.083043E-07
+   8.000000E+01   1.513662E-03
+   9.000000E+01   1.022565E+00
+   1.000000E+02   1.926061E+01
+   1.100000E+02   1.292784E+02
+   1.200000E+02   2.740245E+02
+   1.300000E+02   2.878126E+02
+   1.400000E+02   2.623818E+02
+   1.500000E+02   2.329826E+02
+   1.600000E+02   1.956589E+02
+   1.800000E+02   1.274317E+02
+   2.000000E+02   8.085513E+01

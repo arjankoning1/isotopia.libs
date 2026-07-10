@@ -1,0 +1,43 @@
+# header: 
+#   title: Nb93(a,x)Kr81m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.966671E-12
+   8.000000E+01   3.006518E-09
+   9.000000E+01   3.915017E-06
+   1.000000E+02   3.462731E-04
+   1.100000E+02   2.470036E-03
+   1.200000E+02   2.966064E-03
+   1.300000E+02   5.505287E-03
+   1.400000E+02   9.541736E-03
+   1.500000E+02   2.660871E-02
+   1.600000E+02   5.686652E-02
+   1.800000E+02   1.323220E-01
+   2.000000E+02   2.322906E-01

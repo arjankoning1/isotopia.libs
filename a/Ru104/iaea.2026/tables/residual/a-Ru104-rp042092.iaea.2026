@@ -1,0 +1,39 @@
+# header: 
+#   title: Ru104(a,x)Mo92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 92
+#     nuclide: Mo92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.594713E-12
+   1.000000E+02   3.256126E-05
+   1.100000E+02   5.326824E-02
+   1.200000E+02   1.579445E+00
+   1.300000E+02   6.148993E+00
+   1.400000E+02   1.583113E+01
+   1.500000E+02   2.752704E+01
+   1.600000E+02   4.110072E+01
+   1.800000E+02   1.023434E+02
+   2.000000E+02   1.439572E+02

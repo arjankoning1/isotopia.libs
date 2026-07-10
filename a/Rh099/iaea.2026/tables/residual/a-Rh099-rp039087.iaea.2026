@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh99(a,x)Y87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.158700E-10
+   6.000000E+01   1.358846E-07
+   6.500000E+01   4.473859E-06
+   7.000000E+01   4.808684E-05
+   7.500000E+01   2.641346E-04
+   8.000000E+01   7.300649E-04
+   9.000000E+01   9.357385E-04
+   1.000000E+02   2.609548E-03
+   1.100000E+02   1.582920E-02
+   1.200000E+02   6.382286E-02
+   1.300000E+02   1.136729E-01
+   1.400000E+02   1.970225E-01
+   1.500000E+02   3.667330E-01
+   1.600000E+02   8.485385E-01
+   1.800000E+02   1.654423E+00
+   2.000000E+02   2.685966E+00

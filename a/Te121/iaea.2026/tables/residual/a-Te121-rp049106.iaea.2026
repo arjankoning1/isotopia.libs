@@ -1,0 +1,35 @@
+# header: 
+#   title: Te121(a,x)In106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 106
+#     nuclide: In106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.145774E-09
+   1.400000E+02   3.257535E-06
+   1.500000E+02   4.031690E-04
+   1.600000E+02   1.097354E-02
+   1.800000E+02   6.347098E-01
+   2.000000E+02   4.139622E+00

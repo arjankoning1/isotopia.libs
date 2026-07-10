@@ -1,0 +1,45 @@
+# header: 
+#   title: Nd140(a,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.147446E-12
+   6.000000E+01   3.239764E-09
+   6.500000E+01   1.023002E-06
+   7.000000E+01   4.712487E-05
+   7.500000E+01   1.005922E-03
+   8.000000E+01   1.779906E-02
+   9.000000E+01   3.390263E-01
+   1.000000E+02   6.854929E-01
+   1.100000E+02   4.986242E-01
+   1.200000E+02   6.413859E-01
+   1.300000E+02   1.228433E+00
+   1.400000E+02   1.626188E+00
+   1.500000E+02   1.413701E+00
+   1.600000E+02   1.486264E+00
+   1.800000E+02   1.336640E+00
+   2.000000E+02   5.867159E-01

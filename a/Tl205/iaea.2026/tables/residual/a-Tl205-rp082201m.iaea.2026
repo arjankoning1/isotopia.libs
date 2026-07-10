@@ -1,0 +1,46 @@
+# header: 
+#   title: Tl205(a,x)Pb201m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 201
+#     nuclide: Pb201m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.042879E-10
+   6.500000E+01   8.137885E-05
+   7.000000E+01   2.344570E-02
+   7.500000E+01   3.749293E-01
+   8.000000E+01   1.972674E+00
+   9.000000E+01   2.084709E+01
+   1.000000E+02   5.791798E+01
+   1.100000E+02   7.357722E+01
+   1.200000E+02   7.619977E+01
+   1.300000E+02   7.168835E+01
+   1.400000E+02   6.478204E+01
+   1.500000E+02   5.804491E+01
+   1.600000E+02   4.532135E+01
+   1.800000E+02   3.613613E+01
+   2.000000E+02   2.957973E+01

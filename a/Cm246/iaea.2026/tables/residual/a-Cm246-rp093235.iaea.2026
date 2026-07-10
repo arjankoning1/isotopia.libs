@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm246(a,x)Np235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 246
+#   nuclide: Cm246
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.741058E-08
+   1.000000E+02   4.441179E-06
+   1.100000E+02   8.113284E-05
+   1.200000E+02   2.207598E-04
+   1.300000E+02   2.884572E-04
+   1.400000E+02   5.450011E-04
+   1.500000E+02   4.425424E-04
+   1.600000E+02   4.849073E-04
+   1.800000E+02   6.798852E-04
+   2.000000E+02   6.528173E-05

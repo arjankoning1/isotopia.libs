@@ -1,0 +1,44 @@
+# header: 
+#   title: Po206(a,x)At203 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 206
+#   nuclide: Po206
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 203
+#     nuclide: At203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.869591E-08
+   6.500000E+01   7.390056E-04
+   7.000000E+01   6.810050E-02
+   7.500000E+01   8.451115E-01
+   8.000000E+01   6.009869E+00
+   9.000000E+01   7.251077E+01
+   1.000000E+02   1.187511E+02
+   1.100000E+02   9.872638E+01
+   1.200000E+02   8.936072E+01
+   1.300000E+02   8.201115E+01
+   1.400000E+02   7.173276E+01
+   1.500000E+02   6.492506E+01
+   1.600000E+02   5.370302E+01
+   1.800000E+02   3.972754E+01
+   2.000000E+02   3.065772E+01

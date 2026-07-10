@@ -1,0 +1,48 @@
+# header: 
+#   title: Y90(a,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   9.206129E+01
+   4.500000E+01   4.024242E+02
+   5.000000E+01   5.968262E+02
+   5.500000E+01   5.682319E+02
+   6.000000E+01   4.005734E+02
+   6.500000E+01   2.569641E+02
+   7.000000E+01   1.778205E+02
+   7.500000E+01   1.374319E+02
+   8.000000E+01   1.119296E+02
+   9.000000E+01   7.734044E+01
+   1.000000E+02   5.389655E+01
+   1.100000E+02   3.706298E+01
+   1.200000E+02   2.449801E+01
+   1.300000E+02   1.634800E+01
+   1.400000E+02   1.113433E+01
+   1.500000E+02   7.727708E+00
+   1.600000E+02   5.391078E+00
+   1.800000E+02   2.907016E+00
+   2.000000E+02   1.604733E+00

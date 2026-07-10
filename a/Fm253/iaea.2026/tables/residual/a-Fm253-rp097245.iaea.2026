@@ -1,0 +1,42 @@
+# header: 
+#   title: Fm253(a,x)Bk245 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 253
+#   nuclide: Fm253
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 97
+#     A: 245
+#     nuclide: Bk245
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.606309E-12
+   7.500000E+01   3.925653E-11
+   8.000000E+01   1.894026E-10
+   9.000000E+01   3.369747E-09
+   1.000000E+02   1.071864E-08
+   1.100000E+02   3.337606E-08
+   1.200000E+02   4.536636E-08
+   1.300000E+02   5.092914E-08
+   1.400000E+02   4.777278E-08
+   1.500000E+02   4.180821E-08
+   1.600000E+02   1.107372E-07
+   1.800000E+02   2.653675E-06
+   2.000000E+02   7.269684E-06

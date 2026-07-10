@@ -1,0 +1,37 @@
+# header: 
+#   title: Sm146(a,x)Pm136 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 146
+#   nuclide: Sm146
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 136
+#     nuclide: Pm136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.303934E-06
+   1.200000E+02   1.088579E-02
+   1.300000E+02   1.080886E+00
+   1.400000E+02   1.717003E+01
+   1.500000E+02   5.356655E+01
+   1.600000E+02   7.145316E+01
+   1.800000E+02   1.037753E+02
+   2.000000E+02   1.435983E+02

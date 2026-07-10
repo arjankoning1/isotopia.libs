@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca45(a,x)Si33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 33
+#     nuclide: Si33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.388310E-09
+   6.000000E+01   3.289934E-07
+   6.500000E+01   6.046408E-06
+   7.000000E+01   2.879433E-05
+   7.500000E+01   6.419680E-05
+   8.000000E+01   7.242976E-05
+   9.000000E+01   9.709164E-05
+   1.000000E+02   2.094602E-04
+   1.100000E+02   9.304732E-04
+   1.200000E+02   2.825435E-03
+   1.300000E+02   4.674029E-03
+   1.400000E+02   6.709128E-03
+   1.500000E+02   1.121715E-02
+   1.600000E+02   1.950149E-02
+   1.800000E+02   4.487240E-02
+   2.000000E+02   6.925468E-02

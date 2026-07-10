@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb127(a,x)In117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 127
+#   nuclide: Sb127
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 117
+#     nuclide: In117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.046077E-08
+   8.000000E+01   1.067781E-05
+   9.000000E+01   1.930598E-02
+   1.000000E+02   4.155044E-01
+   1.100000E+02   1.212840E+00
+   1.200000E+02   1.564129E+00
+   1.300000E+02   1.975291E+00
+   1.400000E+02   3.168367E+00
+   1.500000E+02   4.278937E+00
+   1.600000E+02   4.437236E+00
+   1.800000E+02   4.338479E+00
+   2.000000E+02   3.161029E+00

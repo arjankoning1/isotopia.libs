@@ -1,0 +1,39 @@
+# header: 
+#   title: Es257(a,x)Am242m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 257
+#   nuclide: Es257
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.413526E-10
+   1.200000E+02   2.007730E-08
+   1.300000E+02   7.632257E-08
+   1.400000E+02   1.608075E-07
+   1.500000E+02   1.242104E-06
+   1.600000E+02   2.418199E-06
+   1.800000E+02   2.774387E-06
+   2.000000E+02   3.776776E-06

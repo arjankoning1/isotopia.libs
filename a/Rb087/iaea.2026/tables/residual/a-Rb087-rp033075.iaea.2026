@@ -1,0 +1,40 @@
+# header: 
+#   title: Rb87(a,x)As75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 75
+#     nuclide: As75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.788596E-09
+   9.000000E+01   4.363316E-04
+   1.000000E+02   2.535905E-02
+   1.100000E+02   9.024888E-02
+   1.200000E+02   1.620334E-01
+   1.300000E+02   2.889913E-01
+   1.400000E+02   7.855102E-01
+   1.500000E+02   1.871914E+00
+   1.600000E+02   3.186394E+00
+   1.800000E+02   5.682085E+00
+   2.000000E+02   1.121321E+01

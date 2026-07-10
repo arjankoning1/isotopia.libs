@@ -1,0 +1,50 @@
+# header: 
+#   title: Na23(a,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.874988E-02
+   4.500000E+01   3.550715E-01
+   5.000000E+01   9.425417E-01
+   5.500000E+01   1.337405E+00
+   6.000000E+01   1.461007E+00
+   6.500000E+01   1.397452E+00
+   7.000000E+01   1.242288E+00
+   7.500000E+01   1.044499E+00
+   8.000000E+01   8.572078E-01
+   9.000000E+01   5.543721E-01
+   1.000000E+02   3.525358E-01
+   1.100000E+02   2.269878E-01
+   1.200000E+02   1.484820E-01
+   1.300000E+02   9.891241E-02
+   1.400000E+02   6.700863E-02
+   1.500000E+02   4.631382E-02
+   1.600000E+02   3.249723E-02
+   1.800000E+02   1.689435E-02
+   2.000000E+02   9.233976E-03

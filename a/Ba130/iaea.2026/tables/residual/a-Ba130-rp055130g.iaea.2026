@@ -1,0 +1,51 @@
+# header: 
+#   title: Ba130(a,x)Cs130g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   2.820144E-10
+   4.000000E+01   9.498885E-07
+   4.500000E+01   8.643767E-05
+   5.000000E+01   1.233664E-03
+   5.500000E+01   6.901746E-03
+   6.000000E+01   2.280809E-02
+   6.500000E+01   4.949695E-02
+   7.000000E+01   7.184560E-02
+   7.500000E+01   7.981809E-02
+   8.000000E+01   8.007761E-02
+   9.000000E+01   8.250345E-02
+   1.000000E+02   8.521964E-02
+   1.100000E+02   8.464623E-02
+   1.200000E+02   8.089563E-02
+   1.300000E+02   7.819598E-02
+   1.400000E+02   7.701933E-02
+   1.500000E+02   7.515466E-02
+   1.600000E+02   6.789980E-02
+   1.800000E+02   6.845597E-02
+   2.000000E+02   5.799238E-02

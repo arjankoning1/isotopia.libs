@@ -1,0 +1,42 @@
+# header: 
+#   title: Cl37(a,x)Al32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 32
+#     nuclide: Al32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.064665E-12
+   7.500000E+01   1.147581E-08
+   8.000000E+01   5.865451E-07
+   9.000000E+01   1.618161E-05
+   1.000000E+02   1.144327E-04
+   1.100000E+02   4.039226E-04
+   1.200000E+02   7.605315E-04
+   1.300000E+02   9.922964E-04
+   1.400000E+02   1.146025E-03
+   1.500000E+02   1.375224E-03
+   1.600000E+02   1.699861E-03
+   1.800000E+02   2.116516E-03
+   2.000000E+02   1.870595E-03

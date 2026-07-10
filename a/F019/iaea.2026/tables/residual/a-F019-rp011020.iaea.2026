@@ -1,0 +1,48 @@
+# header: 
+#   title: F19(a,x)Na20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 20
+#     nuclide: Na20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.013683E-02
+   4.500000E+01   1.963780E-01
+   5.000000E+01   5.246828E-01
+   5.500000E+01   7.488966E-01
+   6.000000E+01   8.089330E-01
+   6.500000E+01   7.648625E-01
+   7.000000E+01   6.745688E-01
+   7.500000E+01   5.721273E-01
+   8.000000E+01   4.752545E-01
+   9.000000E+01   3.193036E-01
+   1.000000E+02   2.085022E-01
+   1.100000E+02   1.345149E-01
+   1.200000E+02   8.808953E-02
+   1.300000E+02   5.871646E-02
+   1.400000E+02   3.996076E-02
+   1.500000E+02   2.746813E-02
+   1.600000E+02   1.935413E-02
+   1.800000E+02   9.996852E-03
+   2.000000E+02   5.512529E-03

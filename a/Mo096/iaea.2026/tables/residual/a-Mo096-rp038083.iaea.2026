@@ -1,0 +1,39 @@
+# header: 
+#   title: Mo96(a,x)Sr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.033931E-11
+   1.000000E+02   2.653102E-05
+   1.100000E+02   6.084089E-03
+   1.200000E+02   5.595396E-02
+   1.300000E+02   1.326417E-01
+   1.400000E+02   3.216761E-01
+   1.500000E+02   1.057293E+00
+   1.600000E+02   3.377809E+00
+   1.800000E+02   1.085582E+01
+   2.000000E+02   2.651429E+01

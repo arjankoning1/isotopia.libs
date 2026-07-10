@@ -1,0 +1,48 @@
+# header: 
+#   title: Ne20(a,x)C14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.580606E-08
+   4.500000E+01   8.238824E-04
+   5.000000E+01   5.805334E-02
+   5.500000E+01   4.107458E-01
+   6.000000E+01   1.046097E+00
+   6.500000E+01   1.646293E+00
+   7.000000E+01   1.955101E+00
+   7.500000E+01   2.005985E+00
+   8.000000E+01   2.165005E+00
+   9.000000E+01   4.099278E+00
+   1.000000E+02   7.965692E+00
+   1.100000E+02   1.238031E+01
+   1.200000E+02   1.687213E+01
+   1.300000E+02   2.048037E+01
+   1.400000E+02   2.502400E+01
+   1.500000E+02   2.742608E+01
+   1.600000E+02   3.190582E+01
+   1.800000E+02   3.132226E+01
+   2.000000E+02   2.899632E+01

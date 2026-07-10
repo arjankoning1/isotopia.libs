@@ -1,0 +1,43 @@
+# header: 
+#   title: Na23(a,x)C15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 15
+#     nuclide: C15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.407031E-08
+   7.000000E+01   3.214432E-05
+   7.500000E+01   8.198245E-04
+   8.000000E+01   4.644869E-03
+   9.000000E+01   6.569590E-02
+   1.000000E+02   2.725673E-01
+   1.100000E+02   5.232459E-01
+   1.200000E+02   7.696285E-01
+   1.300000E+02   1.089157E+00
+   1.400000E+02   1.559623E+00
+   1.500000E+02   2.116118E+00
+   1.600000E+02   2.626836E+00
+   1.800000E+02   3.252631E+00
+   2.000000E+02   4.105880E+00

@@ -1,0 +1,43 @@
+# header: 
+#   title: Mg24(a,x)Si24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 24
+#     nuclide: Si24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.133023E-09
+   7.000000E+01   3.115247E-06
+   7.500000E+01   3.310823E-05
+   8.000000E+01   1.290277E-04
+   9.000000E+01   4.321562E-04
+   1.000000E+02   6.074294E-04
+   1.100000E+02   5.951912E-04
+   1.200000E+02   4.931561E-04
+   1.300000E+02   3.818506E-04
+   1.400000E+02   2.887974E-04
+   1.500000E+02   2.179721E-04
+   1.600000E+02   1.660787E-04
+   1.800000E+02   1.012068E-04
+   2.000000E+02   6.634371E-05

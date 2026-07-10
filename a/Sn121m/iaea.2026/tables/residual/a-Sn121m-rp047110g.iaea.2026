@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn121m(a,x)Ag110g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.681700E-13
+   9.000000E+01   1.839957E-06
+   1.000000E+02   1.560316E-03
+   1.100000E+02   4.679142E-02
+   1.200000E+02   3.617650E-01
+   1.300000E+02   7.330099E-01
+   1.400000E+02   8.597926E-01
+   1.500000E+02   9.874197E-01
+   1.600000E+02   1.103002E+00
+   1.800000E+02   1.490205E+00
+   2.000000E+02   9.756769E-01

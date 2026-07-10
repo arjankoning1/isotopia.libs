@@ -1,0 +1,47 @@
+# header: 
+#   title: Al26(a,x)Na26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.174447E-07
+   5.000000E+01   4.287980E-04
+   5.500000E+01   1.258046E-02
+   6.000000E+01   7.114588E-02
+   6.500000E+01   1.819241E-01
+   7.000000E+01   3.022984E-01
+   7.500000E+01   3.917193E-01
+   8.000000E+01   4.304035E-01
+   9.000000E+01   4.001334E-01
+   1.000000E+02   3.063695E-01
+   1.100000E+02   2.296089E-01
+   1.200000E+02   1.474441E-01
+   1.300000E+02   1.041691E-01
+   1.400000E+02   7.700751E-02
+   1.500000E+02   5.796249E-02
+   1.600000E+02   3.350174E-02
+   1.800000E+02   1.803692E-02
+   2.000000E+02   1.116978E-02

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr82(a,x)Ga70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.337346E-09
+   1.000000E+02   3.322044E-06
+   1.100000E+02   2.518152E-04
+   1.200000E+02   2.542473E-03
+   1.300000E+02   6.532756E-03
+   1.400000E+02   1.062463E-02
+   1.500000E+02   1.309167E-02
+   1.600000E+02   2.198253E-02
+   1.800000E+02   4.798033E-02
+   2.000000E+02   6.242424E-02

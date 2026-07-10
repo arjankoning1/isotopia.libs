@@ -1,0 +1,43 @@
+# header: 
+#   title: Na22(a,x)O21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 21
+#     nuclide: O21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.806504E-11
+   7.000000E+01   2.095498E-07
+   7.500000E+01   1.259716E-05
+   8.000000E+01   1.159153E-04
+   9.000000E+01   9.987153E-04
+   1.000000E+02   2.339193E-03
+   1.100000E+02   3.042938E-03
+   1.200000E+02   3.004292E-03
+   1.300000E+02   2.554583E-03
+   1.400000E+02   1.997586E-03
+   1.500000E+02   1.510951E-03
+   1.600000E+02   1.129820E-03
+   1.800000E+02   6.182230E-04
+   2.000000E+02   3.453676E-04

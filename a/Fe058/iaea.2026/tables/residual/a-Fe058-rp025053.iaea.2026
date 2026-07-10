@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe58(a,x)Mn53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   9.234623E-08
+   5.500000E+01   1.480468E-03
+   6.000000E+01   6.084644E-02
+   6.500000E+01   3.874633E-01
+   7.000000E+01   2.318416E+00
+   7.500000E+01   1.092015E+01
+   8.000000E+01   2.602625E+01
+   9.000000E+01   4.447968E+01
+   1.000000E+02   4.759626E+01
+   1.100000E+02   6.166151E+01
+   1.200000E+02   9.045666E+01
+   1.300000E+02   1.439565E+02
+   1.400000E+02   1.726710E+02
+   1.500000E+02   1.958787E+02
+   1.600000E+02   1.800314E+02
+   1.800000E+02   1.347720E+02
+   2.000000E+02   9.754391E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca45(a,x)S34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 34
+#     nuclide: S34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.092770E-08
+   6.500000E+01   1.190613E-04
+   7.000000E+01   4.365597E-03
+   7.500000E+01   2.801471E-02
+   8.000000E+01   6.090315E-02
+   9.000000E+01   2.178058E-01
+   1.000000E+02   4.421104E-01
+   1.100000E+02   1.051803E+00
+   1.200000E+02   3.455504E+00
+   1.300000E+02   9.344620E+00
+   1.400000E+02   1.984166E+01
+   1.500000E+02   3.033364E+01
+   1.600000E+02   4.405038E+01
+   1.800000E+02   8.487185E+01
+   2.000000E+02   1.184151E+02

@@ -1,0 +1,44 @@
+# header: 
+#   title: Rh103(a,x)Ag100m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 100
+#     nuclide: Ag100m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.297747E-06
+   7.500000E+01   1.986861E-03
+   8.000000E+01   1.667823E-02
+   9.000000E+01   7.881147E-02
+   1.000000E+02   1.233822E-01
+   1.100000E+02   1.337699E-01
+   1.200000E+02   1.164848E-01
+   1.300000E+02   9.414839E-02
+   1.400000E+02   7.850008E-02
+   1.500000E+02   7.046432E-02
+   1.600000E+02   5.975257E-02
+   1.800000E+02   4.016790E-02
+   2.000000E+02   3.072296E-02

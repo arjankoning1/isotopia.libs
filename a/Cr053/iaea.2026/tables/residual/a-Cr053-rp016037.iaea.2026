@@ -1,0 +1,40 @@
+# header: 
+#   title: Cr53(a,x)S37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 37
+#     nuclide: S37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.742248E-12
+   9.000000E+01   1.187860E-09
+   1.000000E+02   1.585028E-08
+   1.100000E+02   4.185587E-08
+   1.200000E+02   2.070874E-07
+   1.300000E+02   6.196734E-06
+   1.400000E+02   4.952585E-05
+   1.500000E+02   1.468645E-04
+   1.600000E+02   2.620694E-04
+   1.800000E+02   8.607011E-04
+   2.000000E+02   2.408568E-03

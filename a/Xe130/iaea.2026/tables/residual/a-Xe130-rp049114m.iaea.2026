@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe130(a,x)In114m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 130
+#   nuclide: Xe130
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 114
+#     nuclide: In114m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.893151E-12
+   1.200000E+02   2.431353E-07
+   1.300000E+02   6.205845E-05
+   1.400000E+02   1.120491E-03
+   1.500000E+02   7.038631E-03
+   1.600000E+02   1.737170E-02
+   1.800000E+02   8.146415E-02
+   2.000000E+02   4.564364E-01

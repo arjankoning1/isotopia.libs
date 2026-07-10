@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb92(a,x)Y83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 83
+#     nuclide: Y83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.682851E-08
+   9.000000E+01   1.005431E-02
+   1.000000E+02   5.270123E-01
+   1.100000E+02   2.339556E+00
+   1.200000E+02   4.856093E+00
+   1.300000E+02   7.324888E+00
+   1.400000E+02   1.592049E+01
+   1.500000E+02   3.502721E+01
+   1.600000E+02   6.043134E+01
+   1.800000E+02   1.065378E+02
+   2.000000E+02   1.347803E+02

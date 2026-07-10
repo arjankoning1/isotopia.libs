@@ -1,0 +1,46 @@
+# header: 
+#   title: Cs137(a,x)I130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 130
+#     nuclide: I130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.704442E-09
+   5.500000E+01   1.809584E-05
+   6.000000E+01   2.136909E-03
+   6.500000E+01   2.357731E-02
+   7.000000E+01   8.215681E-02
+   7.500000E+01   1.327676E-01
+   8.000000E+01   1.259799E-01
+   9.000000E+01   5.699030E-02
+   1.000000E+02   6.121116E-02
+   1.100000E+02   1.029006E-01
+   1.200000E+02   1.130357E-01
+   1.300000E+02   1.054769E-01
+   1.400000E+02   9.634086E-02
+   1.500000E+02   1.015493E-01
+   1.600000E+02   1.144984E-01
+   1.800000E+02   1.470529E-01
+   2.000000E+02   2.894647E-01

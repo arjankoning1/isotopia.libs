@@ -1,0 +1,33 @@
+# header: 
+#   title: Sb120m(a,x)Ag101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   3.595817E-09
+   1.600000E+02   1.224419E-05
+   1.800000E+02   3.266432E-02
+   2.000000E+02   7.572176E-01

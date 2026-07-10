@@ -1,0 +1,49 @@
+# header: 
+#   title: Te120(a,x)Sn113m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.429804E-11
+   5.000000E+01   7.141827E-07
+   5.500000E+01   4.628035E-04
+   6.000000E+01   3.141730E-02
+   6.500000E+01   3.575477E-01
+   7.000000E+01   1.378077E+00
+   7.500000E+01   2.755195E+00
+   8.000000E+01   3.343420E+00
+   9.000000E+01   2.279218E+00
+   1.000000E+02   4.531057E+00
+   1.100000E+02   1.668220E+01
+   1.200000E+02   2.500663E+01
+   1.300000E+02   2.394737E+01
+   1.400000E+02   2.482884E+01
+   1.500000E+02   2.541222E+01
+   1.600000E+02   2.506416E+01
+   1.800000E+02   2.531937E+01
+   2.000000E+02   1.308311E+01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Bi210m(a,x)At208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 208
+#     nuclide: At208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   5.812650E-05
+   5.500000E+01   1.235839E+01
+   6.000000E+01   3.387294E+02
+   6.500000E+01   1.105689E+03
+   7.000000E+01   1.392903E+03
+   7.500000E+01   9.862252E+02
+   8.000000E+01   4.793190E+02
+   9.000000E+01   9.850873E+01
+   1.000000E+02   5.602052E+01
+   1.100000E+02   4.056009E+01
+   1.200000E+02   2.968391E+01
+   1.300000E+02   2.137258E+01
+   1.400000E+02   1.587611E+01
+   1.500000E+02   1.117283E+01
+   1.600000E+02   8.285893E+00
+   1.800000E+02   4.678514E+00
+   2.000000E+02   3.006755E+00

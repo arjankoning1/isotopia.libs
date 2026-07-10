@@ -1,0 +1,46 @@
+# header: 
+#   title: Am241(a,x)Np238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.457460E-11
+   5.500000E+01   9.845801E-10
+   6.000000E+01   1.928806E-08
+   6.500000E+01   1.021595E-07
+   7.000000E+01   2.756071E-07
+   7.500000E+01   5.289796E-07
+   8.000000E+01   8.734164E-07
+   9.000000E+01   1.285013E-06
+   1.000000E+02   1.819206E-06
+   1.100000E+02   6.498418E-06
+   1.200000E+02   6.004944E-05
+   1.300000E+02   2.479994E-04
+   1.400000E+02   7.912036E-04
+   1.500000E+02   1.905140E-03
+   1.600000E+02   3.525732E-03
+   1.800000E+02   1.166441E-02
+   2.000000E+02   1.575659E-02

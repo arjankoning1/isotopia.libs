@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn116(a,x)In107m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 107
+#     nuclide: In107m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.094050E-13
+   1.000000E+02   1.119734E-06
+   1.100000E+02   8.014659E-04
+   1.200000E+02   2.718528E-02
+   1.300000E+02   2.868411E-01
+   1.400000E+02   7.355208E-01
+   1.500000E+02   9.434712E-01
+   1.600000E+02   1.481168E+00
+   1.800000E+02   3.349061E+00
+   2.000000E+02   5.453268E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar42(a,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.871242E-11
+   6.500000E+01   8.572550E-09
+   7.000000E+01   1.748499E-07
+   7.500000E+01   9.827389E-07
+   8.000000E+01   2.316218E-06
+   9.000000E+01   2.324485E-06
+   1.000000E+02   7.511219E-07
+   1.100000E+02   3.374499E-06
+   1.200000E+02   1.726817E-05
+   1.300000E+02   4.839359E-05
+   1.400000E+02   8.894700E-05
+   1.500000E+02   1.470922E-04
+   1.600000E+02   2.539553E-04
+   1.800000E+02   6.203701E-04
+   2.000000E+02   9.790583E-04

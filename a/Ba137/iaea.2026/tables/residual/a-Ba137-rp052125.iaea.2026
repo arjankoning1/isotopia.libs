@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba137(a,x)Te125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.674412E-11
+   8.000000E+01   9.743323E-08
+   9.000000E+01   2.916572E-04
+   1.000000E+02   7.105737E-03
+   1.100000E+02   1.894465E-02
+   1.200000E+02   2.365828E-02
+   1.300000E+02   4.013716E-02
+   1.400000E+02   9.461263E-02
+   1.500000E+02   1.505973E-01
+   1.600000E+02   1.997778E-01
+   1.800000E+02   1.379020E-01
+   2.000000E+02   1.329167E-01

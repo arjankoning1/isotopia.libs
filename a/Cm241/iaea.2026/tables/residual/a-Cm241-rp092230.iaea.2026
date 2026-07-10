@@ -1,0 +1,42 @@
+# header: 
+#   title: Cm241(a,x)U230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 230
+#     nuclide: U230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.037301E-11
+   7.500000E+01   1.238344E-09
+   8.000000E+01   3.169313E-08
+   9.000000E+01   6.052583E-06
+   1.000000E+02   2.500000E-05
+   1.100000E+02   2.452615E-05
+   1.200000E+02   2.542364E-05
+   1.300000E+02   3.119706E-05
+   1.400000E+02   2.613602E-05
+   1.500000E+02   2.770069E-05
+   1.600000E+02   2.712407E-05
+   1.800000E+02   1.923267E-05
+   2.000000E+02   7.466498E-06

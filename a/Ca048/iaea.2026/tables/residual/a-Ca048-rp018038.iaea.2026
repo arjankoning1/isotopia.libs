@@ -1,0 +1,41 @@
+# header: 
+#   title: Ca48(a,x)Ar38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 38
+#     nuclide: Ar38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.020461E-11
+   8.000000E+01   4.476177E-06
+   9.000000E+01   2.893011E-02
+   1.000000E+02   7.097726E-01
+   1.100000E+02   2.972945E+00
+   1.200000E+02   5.330084E+00
+   1.300000E+02   9.054984E+00
+   1.400000E+02   1.651007E+01
+   1.500000E+02   3.118216E+01
+   1.600000E+02   5.254862E+01
+   1.800000E+02   9.452367E+01
+   2.000000E+02   1.242328E+02

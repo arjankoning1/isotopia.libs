@@ -1,0 +1,40 @@
+# header: 
+#   title: P31(a,x)Cl30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 30
+#     nuclide: Cl30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.088065E-10
+   9.000000E+01   6.859856E-07
+   1.000000E+02   6.491377E-06
+   1.100000E+02   1.409596E-05
+   1.200000E+02   1.741494E-05
+   1.300000E+02   1.681112E-05
+   1.400000E+02   1.452175E-05
+   1.500000E+02   1.195552E-05
+   1.600000E+02   9.666243E-06
+   1.800000E+02   6.391092E-06
+   2.000000E+02   4.397150E-06

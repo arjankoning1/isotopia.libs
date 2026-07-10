@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti50(a,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.908714E-08
+   6.500000E+01   3.867691E-03
+   7.000000E+01   9.359387E-02
+   7.500000E+01   3.947287E-01
+   8.000000E+01   8.675404E-01
+   9.000000E+01   1.613328E+00
+   1.000000E+02   1.812605E+00
+   1.100000E+02   1.594932E+00
+   1.200000E+02   1.255244E+00
+   1.300000E+02   9.279609E-01
+   1.400000E+02   6.893260E-01
+   1.500000E+02   5.136292E-01
+   1.600000E+02   3.814535E-01
+   1.800000E+02   2.229228E-01
+   2.000000E+02   1.428860E-01

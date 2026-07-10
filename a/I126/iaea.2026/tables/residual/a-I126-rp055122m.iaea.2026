@@ -1,0 +1,43 @@
+# header: 
+#   title: I126(a,x)Cs122m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.487059E-12
+   8.000000E+01   1.147145E-05
+   9.000000E+01   2.465317E-02
+   1.000000E+02   1.561052E-01
+   1.100000E+02   2.247833E-01
+   1.200000E+02   2.119686E-01
+   1.300000E+02   1.969609E-01
+   1.400000E+02   1.745575E-01
+   1.500000E+02   1.484588E-01
+   1.600000E+02   1.227492E-01
+   1.800000E+02   9.036250E-02
+   2.000000E+02   6.630369E-02

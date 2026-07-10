@@ -1,0 +1,39 @@
+# header: 
+#   title: K41(a,x)Al26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.397604E-08
+   1.000000E+02   3.348221E-05
+   1.100000E+02   6.015782E-04
+   1.200000E+02   2.555614E-03
+   1.300000E+02   6.521611E-03
+   1.400000E+02   2.109084E-02
+   1.500000E+02   8.118825E-02
+   1.600000E+02   2.203100E-01
+   1.800000E+02   9.439763E-01
+   2.000000E+02   3.598264E+00

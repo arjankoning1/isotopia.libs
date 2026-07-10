@@ -1,0 +1,43 @@
+# header: 
+#   title: K41(a,x)Cl33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 33
+#     nuclide: Cl33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.871057E-11
+   7.000000E+01   1.084795E-06
+   7.500000E+01   1.013954E-04
+   8.000000E+01   1.303277E-03
+   9.000000E+01   1.579102E-02
+   1.000000E+02   4.083550E-02
+   1.100000E+02   7.386478E-02
+   1.200000E+02   1.979024E-01
+   1.300000E+02   5.500081E-01
+   1.400000E+02   1.102356E+00
+   1.500000E+02   1.605080E+00
+   1.600000E+02   2.024879E+00
+   1.800000E+02   2.360724E+00
+   2.000000E+02   2.676133E+00

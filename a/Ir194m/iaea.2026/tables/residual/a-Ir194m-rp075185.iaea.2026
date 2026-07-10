@@ -1,0 +1,44 @@
+# header: 
+#   title: Ir194m(a,x)Re185 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 194
+#   nuclide: Ir194m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 185
+#     nuclide: Re185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.035898E-11
+   6.500000E+01   2.871349E-08
+   7.000000E+01   9.803782E-06
+   7.500000E+01   5.495474E-04
+   8.000000E+01   5.991616E-03
+   9.000000E+01   4.444985E-02
+   1.000000E+02   5.492696E-02
+   1.100000E+02   5.494998E-02
+   1.200000E+02   8.913945E-02
+   1.300000E+02   9.483506E-02
+   1.400000E+02   1.158745E-01
+   1.500000E+02   1.191343E-01
+   1.600000E+02   7.337613E-02
+   1.800000E+02   4.081100E-01
+   2.000000E+02   1.673764E-01

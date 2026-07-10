@@ -1,0 +1,43 @@
+# header: 
+#   title: Pd100(a,x)Y87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.506488E-12
+   7.000000E+01   1.552812E-09
+   7.500000E+01   1.079563E-07
+   8.000000E+01   2.133035E-06
+   9.000000E+01   8.081012E-05
+   1.000000E+02   3.971764E-04
+   1.100000E+02   7.147862E-04
+   1.200000E+02   3.530502E-03
+   1.300000E+02   2.123063E-02
+   1.400000E+02   5.633411E-02
+   1.500000E+02   1.144208E-01
+   1.600000E+02   1.713597E-01
+   1.800000E+02   5.765029E-01
+   2.000000E+02   1.130193E+00

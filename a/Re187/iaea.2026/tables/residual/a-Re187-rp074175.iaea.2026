@@ -1,0 +1,37 @@
+# header: 
+#   title: Re187(a,x)W175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 187
+#   nuclide: Re187
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 175
+#     nuclide: W175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.006479E-08
+   1.200000E+02   6.446053E-04
+   1.300000E+02   9.382913E-02
+   1.400000E+02   2.289837E+00
+   1.500000E+02   1.614911E+01
+   1.600000E+02   4.176177E+01
+   1.800000E+02   4.939843E+01
+   2.000000E+02   6.585740E+01

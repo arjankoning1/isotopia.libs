@@ -1,0 +1,39 @@
+# header: 
+#   title: Co58(a,x)V46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 46
+#     nuclide: V46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.703843E-10
+   1.000000E+02   1.708739E-05
+   1.100000E+02   1.238863E-03
+   1.200000E+02   8.134366E-03
+   1.300000E+02   2.020840E-02
+   1.400000E+02   4.871082E-02
+   1.500000E+02   1.591766E-01
+   1.600000E+02   4.479069E-01
+   1.800000E+02   1.690782E+00
+   2.000000E+02   4.231224E+00

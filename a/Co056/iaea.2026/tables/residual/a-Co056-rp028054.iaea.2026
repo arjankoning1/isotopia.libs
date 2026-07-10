@@ -1,0 +1,43 @@
+# header: 
+#   title: Co56(a,x)Ni54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 54
+#     nuclide: Ni54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.450065E-07
+   7.000000E+01   9.845336E-06
+   7.500000E+01   6.455476E-05
+   8.000000E+01   2.345360E-04
+   9.000000E+01   1.853448E-03
+   1.000000E+02   4.976950E-03
+   1.100000E+02   6.672644E-03
+   1.200000E+02   6.547607E-03
+   1.300000E+02   5.635029E-03
+   1.400000E+02   4.578362E-03
+   1.500000E+02   3.664285E-03
+   1.600000E+02   2.959944E-03
+   1.800000E+02   2.060141E-03
+   2.000000E+02   1.498025E-03

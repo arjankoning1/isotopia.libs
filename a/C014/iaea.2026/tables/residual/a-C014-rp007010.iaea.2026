@@ -1,0 +1,36 @@
+# header: 
+#   title: C14(a,x)N10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 6
+#   A: 14
+#   nuclide: C14
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 10
+#     nuclide: N10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.133820E-11
+   1.300000E+02   6.408756E-08
+   1.400000E+02   1.635462E-06
+   1.500000E+02   9.077233E-06
+   1.600000E+02   2.658948E-05
+   1.800000E+02   9.135536E-05
+   2.000000E+02   1.634019E-04

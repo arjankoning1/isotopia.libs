@@ -1,0 +1,43 @@
+# header: 
+#   title: Se82(a,x)Br78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.134069E-07
+   7.000000E+01   1.432860E-02
+   7.500000E+01   6.066449E-01
+   8.000000E+01   3.550485E+00
+   9.000000E+01   2.606564E+01
+   1.000000E+02   9.276749E+01
+   1.100000E+02   1.650270E+02
+   1.200000E+02   2.019589E+02
+   1.300000E+02   1.986522E+02
+   1.400000E+02   1.682400E+02
+   1.500000E+02   1.314688E+02
+   1.600000E+02   1.128924E+02
+   1.800000E+02   7.021709E+01
+   2.000000E+02   4.367718E+01

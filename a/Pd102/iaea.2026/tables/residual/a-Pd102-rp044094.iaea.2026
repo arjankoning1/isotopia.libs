@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd102(a,x)Ru94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 94
+#     nuclide: Ru94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.985874E-10
+   6.500000E+01   3.975974E-06
+   7.000000E+01   1.103485E-03
+   7.500000E+01   4.229699E-02
+   8.000000E+01   3.280357E-01
+   9.000000E+01   1.410882E+00
+   1.000000E+02   1.389812E+00
+   1.100000E+02   2.973370E+00
+   1.200000E+02   1.538422E+01
+   1.300000E+02   5.180777E+01
+   1.400000E+02   8.477015E+01
+   1.500000E+02   1.139453E+02
+   1.600000E+02   1.234617E+02
+   1.800000E+02   1.305941E+02
+   2.000000E+02   1.203452E+02

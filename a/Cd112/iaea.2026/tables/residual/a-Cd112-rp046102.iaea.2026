@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd112(a,x)Pd102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 102
+#     nuclide: Pd102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.903309E-12
+   8.000000E+01   1.095969E-07
+   9.000000E+01   4.502555E-03
+   1.000000E+02   4.579595E-01
+   1.100000E+02   3.358784E+00
+   1.200000E+02   7.583979E+00
+   1.300000E+02   1.312848E+01
+   1.400000E+02   2.839223E+01
+   1.500000E+02   6.222236E+01
+   1.600000E+02   9.962438E+01
+   1.800000E+02   1.303780E+02
+   2.000000E+02   1.123757E+02

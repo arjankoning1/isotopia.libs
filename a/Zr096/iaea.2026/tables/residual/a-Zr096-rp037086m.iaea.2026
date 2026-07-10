@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr96(a,x)Rb86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.483534E-12
+   7.500000E+01   4.080455E-08
+   8.000000E+01   5.723701E-06
+   9.000000E+01   1.128578E-03
+   1.000000E+02   4.315828E-02
+   1.100000E+02   2.768385E-01
+   1.200000E+02   5.731487E-01
+   1.300000E+02   6.739123E-01
+   1.400000E+02   9.336930E-01
+   1.500000E+02   1.240757E+00
+   1.600000E+02   1.806265E+00
+   1.800000E+02   2.568627E+00
+   2.000000E+02   2.082073E+00

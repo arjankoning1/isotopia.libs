@@ -1,0 +1,43 @@
+# header: 
+#   title: Cr52(a,x)Sc50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.403100E-10
+   7.000000E+01   7.530420E-08
+   7.500000E+01   1.736433E-06
+   8.000000E+01   1.452399E-05
+   9.000000E+01   6.749857E-04
+   1.000000E+02   5.249417E-03
+   1.100000E+02   1.316809E-02
+   1.200000E+02   1.393149E-02
+   1.300000E+02   1.360724E-02
+   1.400000E+02   1.165957E-02
+   1.500000E+02   9.602156E-03
+   1.600000E+02   7.658386E-03
+   1.800000E+02   1.992722E-03
+   2.000000E+02   9.409409E-04

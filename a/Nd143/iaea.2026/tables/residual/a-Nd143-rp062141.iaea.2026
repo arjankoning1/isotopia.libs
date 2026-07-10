@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd143(a,x)Sm141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 141
+#     nuclide: Sm141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.860282E-01
+   6.500000E+01   1.420802E+01
+   7.000000E+01   8.227257E+01
+   7.500000E+01   1.520037E+02
+   8.000000E+01   1.705543E+02
+   9.000000E+01   9.104877E+01
+   1.000000E+02   4.414590E+01
+   1.100000E+02   3.172249E+01
+   1.200000E+02   2.460479E+01
+   1.300000E+02   1.912093E+01
+   1.400000E+02   1.481749E+01
+   1.500000E+02   1.159966E+01
+   1.600000E+02   9.088786E+00
+   1.800000E+02   5.197307E+00
+   2.000000E+02   3.111374E+00

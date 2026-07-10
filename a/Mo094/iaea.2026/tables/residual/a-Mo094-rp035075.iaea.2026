@@ -1,0 +1,35 @@
+# header: 
+#   title: Mo94(a,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.347087E-10
+   1.400000E+02   7.134029E-07
+   1.500000E+02   9.694536E-05
+   1.600000E+02   1.962062E-03
+   1.800000E+02   6.239731E-02
+   2.000000E+02   4.124833E-01

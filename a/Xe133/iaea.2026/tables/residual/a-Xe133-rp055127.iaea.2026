@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe133(a,x)Cs127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 127
+#     nuclide: Cs127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.957390E-09
+   9.000000E+01   2.916605E-02
+   1.000000E+02   2.421160E+00
+   1.100000E+02   2.291125E+01
+   1.200000E+02   8.614981E+01
+   1.300000E+02   1.408912E+02
+   1.400000E+02   1.560524E+02
+   1.500000E+02   1.643317E+02
+   1.600000E+02   1.530749E+02
+   1.800000E+02   1.040648E+02
+   2.000000E+02   6.934300E+01

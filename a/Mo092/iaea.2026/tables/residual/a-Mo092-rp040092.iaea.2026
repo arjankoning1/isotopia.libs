@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo92(a,x)Zr92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 92
+#     nuclide: Zr92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.293332E-08
+   4.500000E+01   3.359889E-05
+   5.000000E+01   5.596717E-04
+   5.500000E+01   3.668996E-03
+   6.000000E+01   1.574925E-02
+   6.500000E+01   4.045609E-02
+   7.000000E+01   5.668049E-02
+   7.500000E+01   5.302741E-02
+   8.000000E+01   4.260313E-02
+   9.000000E+01   3.125840E-02
+   1.000000E+02   2.352008E-02
+   1.100000E+02   1.597640E-02
+   1.200000E+02   1.133220E-02
+   1.300000E+02   7.157253E-03
+   1.400000E+02   5.161613E-03
+   1.500000E+02   3.523979E-03
+   1.600000E+02   2.379358E-03
+   1.800000E+02   1.244122E-03
+   2.000000E+02   7.567491E-04

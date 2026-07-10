@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd142(a,x)Ce133m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.686420E-11
+   7.500000E+01   1.373549E-06
+   8.000000E+01   9.772151E-04
+   9.000000E+01   7.603645E-01
+   1.000000E+02   5.771352E+00
+   1.100000E+02   6.019910E+00
+   1.200000E+02   3.511271E+00
+   1.300000E+02   7.514185E+00
+   1.400000E+02   1.216834E+01
+   1.500000E+02   1.390428E+01
+   1.600000E+02   1.343193E+01
+   1.800000E+02   1.233152E+01
+   2.000000E+02   8.846863E+00

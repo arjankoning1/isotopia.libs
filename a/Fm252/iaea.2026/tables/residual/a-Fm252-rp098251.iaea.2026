@@ -1,0 +1,41 @@
+# header: 
+#   title: Fm252(a,x)Cf251 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 251
+#     nuclide: Cf251
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.771016E-13
+   8.000000E+01   1.214563E-10
+   9.000000E+01   9.265590E-08
+   1.000000E+02   1.967691E-06
+   1.100000E+02   1.200354E-05
+   1.200000E+02   3.435311E-05
+   1.300000E+02   4.565355E-05
+   1.400000E+02   8.192207E-05
+   1.500000E+02   1.398536E-04
+   1.600000E+02   2.172173E-04
+   1.800000E+02   1.312346E-04
+   2.000000E+02   1.167303E-04

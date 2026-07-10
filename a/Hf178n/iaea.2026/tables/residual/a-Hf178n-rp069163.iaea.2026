@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf178n(a,x)Tm163 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178n
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 163
+#     nuclide: Tm163
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.912461E-10
+   1.200000E+02   2.204441E-05
+   1.300000E+02   1.178540E-02
+   1.400000E+02   3.957021E-01
+   1.500000E+02   3.089218E+00
+   1.600000E+02   9.295715E+00
+   1.800000E+02   1.577466E+01
+   2.000000E+02   1.885638E+01

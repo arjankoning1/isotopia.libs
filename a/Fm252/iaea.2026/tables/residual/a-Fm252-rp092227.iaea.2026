@@ -1,0 +1,33 @@
+# header: 
+#   title: Fm252(a,x)U227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 227
+#     nuclide: U227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   2.628999E-13
+   1.600000E+02   1.189839E-09
+   1.800000E+02   2.433108E-06
+   2.000000E+02   2.647244E-07

@@ -1,0 +1,51 @@
+# header: 
+#   title: Ra226(a,x)Fr224m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 224
+#     nuclide: Fr224m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.442706E-11
+   4.000000E+01   4.295777E-08
+   4.500000E+01   8.000486E-06
+   5.000000E+01   1.817873E-04
+   5.500000E+01   8.821759E-04
+   6.000000E+01   1.646986E-03
+   6.500000E+01   2.010871E-03
+   7.000000E+01   1.835868E-03
+   7.500000E+01   1.710247E-03
+   8.000000E+01   2.154733E-03
+   9.000000E+01   5.371575E-03
+   1.000000E+02   1.534928E-02
+   1.100000E+02   2.789841E-02
+   1.200000E+02   4.457466E-02
+   1.300000E+02   6.128240E-02
+   1.400000E+02   9.146222E-02
+   1.500000E+02   1.319140E-01
+   1.600000E+02   1.180995E-01
+   1.800000E+02   1.932990E-01
+   2.000000E+02   3.251205E-01

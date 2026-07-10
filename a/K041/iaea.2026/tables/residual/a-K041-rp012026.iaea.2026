@@ -1,0 +1,41 @@
+# header: 
+#   title: K41(a,x)Mg26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.708756E-10
+   8.000000E+01   3.239570E-08
+   9.000000E+01   1.091506E-05
+   1.000000E+02   6.512742E-04
+   1.100000E+02   5.749746E-03
+   1.200000E+02   1.875421E-02
+   1.300000E+02   3.840062E-02
+   1.400000E+02   8.553685E-02
+   1.500000E+02   2.143855E-01
+   1.600000E+02   4.790398E-01
+   1.800000E+02   1.503253E+00
+   2.000000E+02   4.302907E+00

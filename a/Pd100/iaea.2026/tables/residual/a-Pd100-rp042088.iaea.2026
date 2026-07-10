@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd100(a,x)Mo88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 88
+#     nuclide: Mo88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.248970E-08
+   1.000000E+02   1.997370E-04
+   1.100000E+02   4.561693E-03
+   1.200000E+02   1.487208E-02
+   1.300000E+02   4.202558E-02
+   1.400000E+02   2.518272E-01
+   1.500000E+02   1.178822E+00
+   1.600000E+02   3.752576E+00
+   1.800000E+02   9.865742E+00
+   2.000000E+02   2.499539E+01

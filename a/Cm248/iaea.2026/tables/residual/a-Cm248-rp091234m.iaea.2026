@@ -1,0 +1,40 @@
+# header: 
+#   title: Cm248(a,x)Pa234m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 248
+#   nuclide: Cm248
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 234
+#     nuclide: Pa234m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.143601E-10
+   1.100000E+02   9.545658E-08
+   1.200000E+02   1.828166E-06
+   1.300000E+02   5.606958E-06
+   1.400000E+02   1.258424E-05
+   1.500000E+02   1.866809E-05
+   1.600000E+02   1.284863E-05
+   1.800000E+02   1.461526E-05
+   2.000000E+02   2.121582E-05

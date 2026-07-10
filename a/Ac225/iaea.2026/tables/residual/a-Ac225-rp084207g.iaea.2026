@@ -1,0 +1,39 @@
+# header: 
+#   title: Ac225(a,x)Po207g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.354152E-10
+   1.200000E+02   3.033306E-06
+   1.300000E+02   6.557214E-04
+   1.400000E+02   1.615834E-02
+   1.500000E+02   9.537388E-02
+   1.600000E+02   2.861270E-01
+   1.800000E+02   6.269398E-01
+   2.000000E+02   5.405917E-01

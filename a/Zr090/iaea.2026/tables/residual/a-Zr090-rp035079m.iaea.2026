@@ -1,0 +1,44 @@
+# header: 
+#   title: Zr90(a,x)Br79m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.430660E-11
+   7.500000E+01   2.328779E-09
+   8.000000E+01   1.016609E-07
+   9.000000E+01   1.208631E-04
+   1.000000E+02   2.745417E-03
+   1.100000E+02   8.192899E-03
+   1.200000E+02   8.685830E-03
+   1.300000E+02   1.150103E-02
+   1.400000E+02   2.638822E-02
+   1.500000E+02   6.003812E-02
+   1.600000E+02   1.134914E-01
+   1.800000E+02   1.761105E-01
+   2.000000E+02   3.068181E-01

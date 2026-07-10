@@ -1,0 +1,36 @@
+# header: 
+#   title: Hf180(a,x)W170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 180
+#   nuclide: Hf180
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 170
+#     nuclide: W170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   9.930333E-10
+   1.300000E+02   7.246049E-04
+   1.400000E+02   3.564179E-01
+   1.500000E+02   8.675718E+00
+   1.600000E+02   4.082488E+01
+   1.800000E+02   6.414646E+01
+   2.000000E+02   5.445718E+01

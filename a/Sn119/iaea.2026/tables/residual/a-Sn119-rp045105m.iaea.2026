@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn119(a,x)Rh105m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 105
+#     nuclide: Rh105m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.255672E-12
+   1.000000E+02   1.230082E-07
+   1.100000E+02   3.002791E-05
+   1.200000E+02   5.842850E-04
+   1.300000E+02   3.337768E-03
+   1.400000E+02   7.101805E-03
+   1.500000E+02   1.103868E-02
+   1.600000E+02   1.323296E-02
+   1.800000E+02   2.917278E-02
+   2.000000E+02   2.825535E-02

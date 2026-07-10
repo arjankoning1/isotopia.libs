@@ -1,0 +1,45 @@
+# header: 
+#   title: Nb93(a,x)Rb86 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.346132E-10
+   6.000000E+01   1.760916E-08
+   6.500000E+01   1.458995E-06
+   7.000000E+01   6.181430E-05
+   7.500000E+01   6.058037E-04
+   8.000000E+01   2.241918E-03
+   9.000000E+01   5.792338E-03
+   1.000000E+02   4.598562E-03
+   1.100000E+02   6.557288E-03
+   1.200000E+02   2.288915E-02
+   1.300000E+02   6.029154E-02
+   1.400000E+02   9.766404E-02
+   1.500000E+02   9.290556E-02
+   1.600000E+02   9.856294E-02
+   1.800000E+02   8.229499E-02
+   2.000000E+02   6.179246E-02

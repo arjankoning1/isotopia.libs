@@ -1,0 +1,40 @@
+# header: 
+#   title: Rh99(a,x)Pd95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 95
+#     nuclide: Pd95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.515123E-08
+   9.000000E+01   1.734475E-04
+   1.000000E+02   1.961856E-03
+   1.100000E+02   8.395386E-03
+   1.200000E+02   1.808292E-02
+   1.300000E+02   2.355408E-02
+   1.400000E+02   2.451847E-02
+   1.500000E+02   2.354627E-02
+   1.600000E+02   2.169341E-02
+   1.800000E+02   1.977239E-02
+   2.000000E+02   1.678372E-02

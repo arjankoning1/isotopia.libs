@@ -1,0 +1,45 @@
+# header: 
+#   title: Sb121(a,x)Ag110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.920952E-12
+   7.000000E+01   2.357141E-08
+   7.500000E+01   7.432321E-06
+   8.000000E+01   3.033059E-04
+   9.000000E+01   8.595894E-03
+   1.000000E+02   2.017311E-02
+   1.100000E+02   1.640433E-02
+   1.200000E+02   2.037509E-02
+   1.300000E+02   4.333333E-02
+   1.400000E+02   6.381733E-02
+   1.500000E+02   8.160153E-02
+   1.600000E+02   9.517333E-02
+   1.800000E+02   9.392245E-02
+   2.000000E+02   1.090040E-01

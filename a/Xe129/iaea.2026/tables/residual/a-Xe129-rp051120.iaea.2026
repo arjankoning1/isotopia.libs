@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe129(a,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.151760E-10
+   7.000000E+01   5.537505E-07
+   7.500000E+01   3.928313E-05
+   8.000000E+01   5.064039E-04
+   9.000000E+01   1.495360E-02
+   1.000000E+02   1.065543E-01
+   1.100000E+02   1.701711E-01
+   1.200000E+02   1.801226E-01
+   1.300000E+02   2.945440E-01
+   1.400000E+02   7.762301E-01
+   1.500000E+02   1.081185E+00
+   1.600000E+02   1.440063E+00
+   1.800000E+02   1.279875E+00
+   2.000000E+02   1.176279E+00

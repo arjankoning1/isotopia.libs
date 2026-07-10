@@ -1,0 +1,39 @@
+# header: 
+#   title: Ru102(a,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 102
+#   nuclide: Ru102
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.736057E-11
+   1.000000E+02   1.749180E-06
+   1.100000E+02   3.131019E-04
+   1.200000E+02   1.105005E-02
+   1.300000E+02   6.409778E-02
+   1.400000E+02   2.059320E-01
+   1.500000E+02   4.175406E-01
+   1.600000E+02   7.020482E-01
+   1.800000E+02   2.339944E+00
+   2.000000E+02   3.936628E+00

@@ -1,0 +1,51 @@
+# header: 
+#   title: I125(a,x)Te125m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 125
+#   nuclide: I125
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.707571E-09
+   4.000000E+01   2.028093E-06
+   4.500000E+01   6.016858E-05
+   5.000000E+01   4.276396E-04
+   5.500000E+01   1.696553E-03
+   6.000000E+01   4.628832E-03
+   6.500000E+01   8.890059E-03
+   7.000000E+01   1.411821E-02
+   7.500000E+01   2.104812E-02
+   8.000000E+01   2.902500E-02
+   9.000000E+01   4.400908E-02
+   1.000000E+02   5.624531E-02
+   1.100000E+02   6.496918E-02
+   1.200000E+02   6.982119E-02
+   1.300000E+02   7.184844E-02
+   1.400000E+02   7.497850E-02
+   1.500000E+02   7.437737E-02
+   1.600000E+02   7.182870E-02
+   1.800000E+02   7.523367E-02
+   2.000000E+02   7.378427E-02

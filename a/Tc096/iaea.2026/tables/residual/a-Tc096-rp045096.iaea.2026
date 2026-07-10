@@ -1,0 +1,48 @@
+# header: 
+#   title: Tc96(a,x)Rh96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 96
+#   nuclide: Tc96
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 96
+#     nuclide: Rh96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.561181E+00
+   4.500000E+01   7.661443E+01
+   5.000000E+01   1.547291E+02
+   5.500000E+01   1.384428E+02
+   6.000000E+01   9.423233E+01
+   6.500000E+01   6.528571E+01
+   7.000000E+01   4.959402E+01
+   7.500000E+01   4.038409E+01
+   8.000000E+01   3.371300E+01
+   9.000000E+01   2.372775E+01
+   1.000000E+02   1.667491E+01
+   1.100000E+02   1.137758E+01
+   1.200000E+02   7.464238E+00
+   1.300000E+02   5.039429E+00
+   1.400000E+02   3.499582E+00
+   1.500000E+02   2.513200E+00
+   1.600000E+02   1.763233E+00
+   1.800000E+02   9.838536E-01
+   2.000000E+02   5.786846E-01

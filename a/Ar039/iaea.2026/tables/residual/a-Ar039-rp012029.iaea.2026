@@ -1,0 +1,42 @@
+# header: 
+#   title: Ar39(a,x)Mg29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 29
+#     nuclide: Mg29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.441392E-10
+   7.500000E+01   1.056455E-07
+   8.000000E+01   2.797330E-06
+   9.000000E+01   6.167161E-05
+   1.000000E+02   1.953874E-04
+   1.100000E+02   2.917386E-04
+   1.200000E+02   4.421527E-04
+   1.300000E+02   1.092477E-03
+   1.400000E+02   2.457545E-03
+   1.500000E+02   4.030407E-03
+   1.600000E+02   5.472293E-03
+   1.800000E+02   8.722000E-03
+   2.000000E+02   1.195957E-02

@@ -1,0 +1,36 @@
+# header: 
+#   title: Es254m(a,x)Np235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 254
+#   nuclide: Es254m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   7.482331E-11
+   1.300000E+02   8.746017E-08
+   1.400000E+02   7.709164E-07
+   1.500000E+02   1.675235E-06
+   1.600000E+02   3.606252E-06
+   1.800000E+02   1.188076E-05
+   2.000000E+02   8.959214E-07

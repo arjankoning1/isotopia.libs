@@ -1,0 +1,36 @@
+# header: 
+#   title: Hg196(a,x)Os179 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 179
+#     nuclide: Os179
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   7.511902E-11
+   1.300000E+02   1.573371E-06
+   1.400000E+02   8.226778E-04
+   1.500000E+02   1.996016E-02
+   1.600000E+02   6.880165E-02
+   1.800000E+02   7.184967E-01
+   2.000000E+02   1.872818E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: P33(a,x)Al32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 33
+#   nuclide: P33
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 32
+#     nuclide: Al32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.397364E-11
+   6.000000E+01   7.584504E-07
+   6.500000E+01   2.125842E-05
+   7.000000E+01   1.052137E-04
+   7.500000E+01   2.941486E-04
+   8.000000E+01   7.082254E-04
+   9.000000E+01   2.046826E-03
+   1.000000E+02   3.542302E-03
+   1.100000E+02   3.974186E-03
+   1.200000E+02   3.621249E-03
+   1.300000E+02   2.991499E-03
+   1.400000E+02   2.375365E-03
+   1.500000E+02   1.869429E-03
+   1.600000E+02   1.472828E-03
+   1.800000E+02   9.500237E-04
+   2.000000E+02   6.542255E-04

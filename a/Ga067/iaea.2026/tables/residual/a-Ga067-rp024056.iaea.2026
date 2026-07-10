@@ -1,0 +1,40 @@
+# header: 
+#   title: Ga67(a,x)Cr56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 56
+#     nuclide: Cr56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.187813E-11
+   9.000000E+01   1.132299E-07
+   1.000000E+02   7.332137E-06
+   1.100000E+02   6.721708E-05
+   1.200000E+02   1.776472E-04
+   1.300000E+02   2.938503E-04
+   1.400000E+02   3.912809E-04
+   1.500000E+02   7.540807E-04
+   1.600000E+02   1.361843E-03
+   1.800000E+02   2.352088E-03
+   2.000000E+02   3.512271E-03

@@ -1,0 +1,51 @@
+# header: 
+#   title: Am241(a,x)Pu237m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.271422E-16
+   4.000000E+01   3.993120E-14
+   4.500000E+01   4.596619E-11
+   5.000000E+01   3.083923E-09
+   5.500000E+01   1.127208E-07
+   6.000000E+01   6.377180E-07
+   6.500000E+01   3.324885E-06
+   7.000000E+01   1.009270E-05
+   7.500000E+01   1.894729E-05
+   8.000000E+01   2.947194E-05
+   9.000000E+01   4.315662E-04
+   1.000000E+02   4.476043E-04
+   1.100000E+02   4.018783E-04
+   1.200000E+02   1.682419E-04
+   1.300000E+02   8.465543E-05
+   1.400000E+02   1.193797E-04
+   1.500000E+02   1.796832E-04
+   1.600000E+02   2.928166E-04
+   1.800000E+02   2.368425E-03
+   2.000000E+02   3.587515E-03

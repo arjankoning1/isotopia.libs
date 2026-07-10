@@ -1,0 +1,44 @@
+# header: 
+#   title: Br77(a,x)Cu64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 77
+#   nuclide: Br77
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.916128E-10
+   6.500000E+01   1.437832E-07
+   7.000000E+01   8.814664E-06
+   7.500000E+01   9.784305E-05
+   8.000000E+01   3.466648E-04
+   9.000000E+01   3.300638E-04
+   1.000000E+02   5.868637E-04
+   1.100000E+02   5.942873E-03
+   1.200000E+02   7.055191E-02
+   1.300000E+02   2.582165E-01
+   1.400000E+02   4.639181E-01
+   1.500000E+02   6.850541E-01
+   1.600000E+02   1.372159E+00
+   1.800000E+02   3.676816E+00
+   2.000000E+02   4.622001E+00

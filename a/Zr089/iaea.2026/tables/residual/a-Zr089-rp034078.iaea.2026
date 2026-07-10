@@ -1,0 +1,41 @@
+# header: 
+#   title: Zr89(a,x)Se78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 78
+#     nuclide: Se78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.916174E-11
+   8.000000E+01   1.027452E-08
+   9.000000E+01   2.353291E-06
+   1.000000E+02   2.072528E-05
+   1.100000E+02   7.805326E-05
+   1.200000E+02   1.387821E-04
+   1.300000E+02   2.934973E-04
+   1.400000E+02   6.154113E-04
+   1.500000E+02   1.796920E-03
+   1.600000E+02   3.193451E-03
+   1.800000E+02   4.767132E-03
+   2.000000E+02   7.763158E-03

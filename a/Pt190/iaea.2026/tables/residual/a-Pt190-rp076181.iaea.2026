@@ -1,0 +1,43 @@
+# header: 
+#   title: Pt190(a,x)Os181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 190
+#   nuclide: Pt190
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 181
+#     nuclide: Os181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.358833E-10
+   7.000000E+01   3.074865E-07
+   7.500000E+01   9.840722E-05
+   8.000000E+01   5.382886E-03
+   9.000000E+01   3.613986E-01
+   1.000000E+02   1.300389E+00
+   1.100000E+02   1.185324E+00
+   1.200000E+02   1.658432E+00
+   1.300000E+02   4.341582E+00
+   1.400000E+02   5.539840E+00
+   1.500000E+02   4.428583E+00
+   1.600000E+02   2.942137E+00
+   1.800000E+02   3.027803E+00
+   2.000000E+02   1.598430E+00

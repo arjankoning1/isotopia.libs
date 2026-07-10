@@ -1,0 +1,46 @@
+# header: 
+#   title: Br81(a,x)Rb80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 80
+#     nuclide: Rb80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.123016E-01
+   5.500000E+01   2.783920E+01
+   6.000000E+01   1.200474E+02
+   6.500000E+01   1.936903E+02
+   7.000000E+01   1.988857E+02
+   7.500000E+01   1.642786E+02
+   8.000000E+01   1.304950E+02
+   9.000000E+01   9.237551E+01
+   1.000000E+02   6.958078E+01
+   1.100000E+02   4.763137E+01
+   1.200000E+02   3.246852E+01
+   1.300000E+02   2.259471E+01
+   1.400000E+02   1.575296E+01
+   1.500000E+02   1.120875E+01
+   1.600000E+02   8.096344E+00
+   1.800000E+02   4.414690E+00
+   2.000000E+02   2.543782E+00

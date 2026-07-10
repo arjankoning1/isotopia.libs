@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd111(a,x)Cd104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 104
+#     nuclide: Cd104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.838255E-08
+   8.000000E+01   8.597417E-05
+   9.000000E+01   3.884254E-01
+   1.000000E+02   7.737413E+00
+   1.100000E+02   1.971171E+01
+   1.200000E+02   2.297283E+01
+   1.300000E+02   2.702616E+01
+   1.400000E+02   3.543496E+01
+   1.500000E+02   4.894418E+01
+   1.600000E+02   5.569706E+01
+   1.800000E+02   5.672842E+01
+   2.000000E+02   5.145592E+01

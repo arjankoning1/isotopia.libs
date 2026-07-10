@@ -1,0 +1,44 @@
+# header: 
+#   title: Es255(a,x)Bk253 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 97
+#     A: 253
+#     nuclide: Bk253
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.111819E-13
+   6.500000E+01   6.183515E-13
+   7.000000E+01   2.083948E-12
+   7.500000E+01   2.767444E-12
+   8.000000E+01   1.711786E-12
+   9.000000E+01   2.007925E-10
+   1.000000E+02   1.022234E-07
+   1.100000E+02   1.294347E-06
+   1.200000E+02   7.224104E-06
+   1.300000E+02   3.045157E-05
+   1.400000E+02   8.607266E-05
+   1.500000E+02   1.955690E-04
+   1.600000E+02   3.734433E-04
+   1.800000E+02   9.953466E-04
+   2.000000E+02   9.255208E-04

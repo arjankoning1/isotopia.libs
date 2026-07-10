@@ -1,0 +1,37 @@
+# header: 
+#   title: Re186(a,x)Os177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 177
+#     nuclide: Os177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.203020E-06
+   1.200000E+02   1.614733E-02
+   1.300000E+02   1.289499E+00
+   1.400000E+02   1.783504E+01
+   1.500000E+02   9.202313E+01
+   1.600000E+02   1.797691E+02
+   1.800000E+02   1.943417E+02
+   2.000000E+02   1.712728E+02

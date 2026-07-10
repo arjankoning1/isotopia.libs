@@ -1,0 +1,38 @@
+# header: 
+#   title: Pt188(a,x)Hg182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 188
+#   nuclide: Pt188
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 182
+#     nuclide: Hg182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.951558E-07
+   1.100000E+02   9.669542E-03
+   1.200000E+02   9.559717E-01
+   1.300000E+02   5.456824E+00
+   1.400000E+02   6.946101E+00
+   1.500000E+02   4.610885E+00
+   1.600000E+02   3.238229E+00
+   1.800000E+02   3.085485E+00
+   2.000000E+02   2.717862E+00

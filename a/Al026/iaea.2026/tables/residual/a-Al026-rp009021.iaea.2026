@@ -1,0 +1,44 @@
+# header: 
+#   title: Al26(a,x)F21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 21
+#     nuclide: F21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.109780E-09
+   6.500000E+01   9.135458E-06
+   7.000000E+01   4.003548E-04
+   7.500000E+01   2.912262E-03
+   8.000000E+01   1.055931E-02
+   9.000000E+01   7.456937E-02
+   1.000000E+02   2.648518E-01
+   1.100000E+02   5.091343E-01
+   1.200000E+02   6.775421E-01
+   1.300000E+02   7.614416E-01
+   1.400000E+02   8.063473E-01
+   1.500000E+02   8.364511E-01
+   1.600000E+02   8.433708E-01
+   1.800000E+02   7.393296E-01
+   2.000000E+02   5.764233E-01

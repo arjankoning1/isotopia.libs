@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe58(a,x)Sc48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.137179E-12
+   6.500000E+01   2.658050E-08
+   7.000000E+01   1.600629E-05
+   7.500000E+01   6.273024E-04
+   8.000000E+01   4.552244E-03
+   9.000000E+01   2.022538E-02
+   1.000000E+02   1.368234E-02
+   1.100000E+02   2.124493E-02
+   1.200000E+02   4.513717E-02
+   1.300000E+02   1.515290E-01
+   1.400000E+02   3.054989E-01
+   1.500000E+02   4.432986E-01
+   1.600000E+02   6.715775E-01
+   1.800000E+02   1.728747E+00
+   2.000000E+02   1.763027E+00

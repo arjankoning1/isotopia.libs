@@ -1,0 +1,42 @@
+# header: 
+#   title: K39(a,x)Mg24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.466543E-12
+   7.500000E+01   1.307676E-08
+   8.000000E+01   1.356792E-06
+   9.000000E+01   1.634240E-04
+   1.000000E+02   2.415750E-03
+   1.100000E+02   1.608922E-02
+   1.200000E+02   4.823488E-02
+   1.300000E+02   9.783387E-02
+   1.400000E+02   2.028028E-01
+   1.500000E+02   5.011066E-01
+   1.600000E+02   1.163734E+00
+   1.800000E+02   4.148558E+00
+   2.000000E+02   1.194496E+01

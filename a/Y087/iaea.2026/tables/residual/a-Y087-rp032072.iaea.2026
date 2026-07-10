@@ -1,0 +1,39 @@
+# header: 
+#   title: Y87(a,x)Ge72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 72
+#     nuclide: Ge72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.378819E-10
+   1.000000E+02   5.134623E-07
+   1.100000E+02   3.682523E-05
+   1.200000E+02   4.395621E-04
+   1.300000E+02   1.460176E-03
+   1.400000E+02   2.948350E-03
+   1.500000E+02   4.917316E-03
+   1.600000E+02   1.248062E-02
+   1.800000E+02   4.036769E-02
+   2.000000E+02   7.844990E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: Cd116(a,x)Cd108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 108
+#     nuclide: Cd108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.216120E-07
+   9.000000E+01   3.303591E-02
+   1.000000E+02   4.010267E+00
+   1.100000E+02   2.983714E+01
+   1.200000E+02   6.467941E+01
+   1.300000E+02   8.722375E+01
+   1.400000E+02   1.173499E+02
+   1.500000E+02   1.418462E+02
+   1.600000E+02   1.912044E+02
+   1.800000E+02   2.093988E+02
+   2.000000E+02   1.430145E+02

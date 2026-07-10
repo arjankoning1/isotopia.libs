@@ -1,0 +1,45 @@
+# header: 
+#   title: Nb92(a,x)Tc90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 90
+#     nuclide: Tc90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.217293E-09
+   7.000000E+01   4.768870E-04
+   7.500000E+01   9.634442E-03
+   8.000000E+01   3.335628E-02
+   9.000000E+01   6.454145E-02
+   1.000000E+02   6.470991E-02
+   1.100000E+02   5.988561E-02
+   1.200000E+02   4.890475E-02
+   1.300000E+02   3.840940E-02
+   1.400000E+02   2.986343E-02
+   1.500000E+02   2.312976E-02
+   1.600000E+02   1.772484E-02
+   1.800000E+02   1.219240E-02
+   2.000000E+02   8.359186E-03

@@ -1,0 +1,38 @@
+# header: 
+#   title: Xe127(a,x)In110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 127
+#   nuclide: Xe127
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.595847E-10
+   1.300000E+02   1.834035E-06
+   1.400000E+02   2.403675E-04
+   1.500000E+02   6.312467E-04
+   1.600000E+02   7.158255E-03
+   1.800000E+02   9.834807E-02
+   2.000000E+02   5.654846E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: O18(a,x)B9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 9
+#     nuclide: B9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.318171E-10
+   7.000000E+01   1.016372E-06
+   7.500000E+01   5.085311E-05
+   8.000000E+01   8.014823E-04
+   9.000000E+01   2.126405E-02
+   1.000000E+02   2.067006E-01
+   1.100000E+02   1.112832E+00
+   1.200000E+02   3.495906E+00
+   1.300000E+02   7.149771E+00
+   1.400000E+02   1.081218E+01
+   1.500000E+02   1.453477E+01
+   1.600000E+02   1.903524E+01
+   1.800000E+02   2.995164E+01
+   2.000000E+02   4.387948E+01

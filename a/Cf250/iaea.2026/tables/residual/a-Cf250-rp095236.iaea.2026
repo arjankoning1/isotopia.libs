@@ -1,0 +1,36 @@
+# header: 
+#   title: Cf250(a,x)Am236 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 250
+#   nuclide: Cf250
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   9.655499E-10
+   1.300000E+02   4.869788E-08
+   1.400000E+02   4.741742E-07
+   1.500000E+02   1.689265E-06
+   1.600000E+02   3.652741E-06
+   1.800000E+02   2.651045E-05
+   2.000000E+02   6.128459E-06

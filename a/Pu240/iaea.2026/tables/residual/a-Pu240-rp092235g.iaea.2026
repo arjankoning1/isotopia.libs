@@ -1,0 +1,51 @@
+# header: 
+#   title: Pu240(a,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   6.571726E-13
+   4.000000E+01   9.040000E-10
+   4.500000E+01   2.300426E-07
+   5.000000E+01   6.197672E-06
+   5.500000E+01   3.151475E-05
+   6.000000E+01   4.926497E-05
+   6.500000E+01   6.008648E-05
+   7.000000E+01   5.862814E-05
+   7.500000E+01   6.940893E-05
+   8.000000E+01   8.363554E-05
+   9.000000E+01   1.311997E-04
+   1.000000E+02   2.520921E-04
+   1.100000E+02   2.493210E-04
+   1.200000E+02   3.117554E-04
+   1.300000E+02   3.441514E-04
+   1.400000E+02   4.387922E-04
+   1.500000E+02   7.229790E-04
+   1.600000E+02   1.119011E-03
+   1.800000E+02   8.690444E-03
+   2.000000E+02   7.522292E-03

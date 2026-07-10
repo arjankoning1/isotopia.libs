@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu152(a,x)Pr139 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 152
+#   nuclide: Eu152
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 139
+#     nuclide: Pr139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.644305E-11
+   8.000000E+01   1.769102E-08
+   9.000000E+01   5.891813E-05
+   1.000000E+02   2.094753E-03
+   1.100000E+02   7.263130E-03
+   1.200000E+02   3.521078E-02
+   1.300000E+02   1.985093E-01
+   1.400000E+02   4.749673E-01
+   1.500000E+02   7.221563E-01
+   1.600000E+02   9.618416E-01
+   1.800000E+02   1.164680E+00
+   2.000000E+02   1.197624E+00

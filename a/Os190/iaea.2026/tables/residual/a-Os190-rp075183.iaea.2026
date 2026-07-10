@@ -1,0 +1,44 @@
+# header: 
+#   title: Os190(a,x)Re183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 183
+#     nuclide: Re183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.656932E-12
+   6.500000E+01   1.548935E-08
+   7.000000E+01   5.347845E-06
+   7.500000E+01   2.971526E-04
+   8.000000E+01   3.745078E-03
+   9.000000E+01   1.374631E-01
+   1.000000E+02   9.770035E-01
+   1.100000E+02   1.738803E+00
+   1.200000E+02   1.611712E+00
+   1.300000E+02   1.627695E+00
+   1.400000E+02   1.566120E+00
+   1.500000E+02   1.753821E+00
+   1.600000E+02   1.734248E+00
+   1.800000E+02   1.778086E+00
+   2.000000E+02   2.528075E+00

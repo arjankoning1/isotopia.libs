@@ -1,0 +1,39 @@
+# header: 
+#   title: Te130(a,x)I123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 123
+#     nuclide: I123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.418267E-06
+   1.000000E+02   1.364275E-01
+   1.100000E+02   6.232977E+00
+   1.200000E+02   3.871092E+01
+   1.300000E+02   1.235765E+02
+   1.400000E+02   2.020668E+02
+   1.500000E+02   2.373625E+02
+   1.600000E+02   2.297451E+02
+   1.800000E+02   1.737206E+02
+   2.000000E+02   1.297639E+02

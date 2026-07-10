@@ -1,0 +1,38 @@
+# header: 
+#   title: Tc98(a,x)Kr82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 98
+#   nuclide: Tc98
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 82
+#     nuclide: Kr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.168551E-10
+   1.100000E+02   5.296584E-07
+   1.200000E+02   3.197783E-05
+   1.300000E+02   3.304194E-04
+   1.400000E+02   9.415097E-04
+   1.500000E+02   1.803975E-03
+   1.600000E+02   5.951950E-03
+   1.800000E+02   4.014699E-02
+   2.000000E+02   1.049848E-01

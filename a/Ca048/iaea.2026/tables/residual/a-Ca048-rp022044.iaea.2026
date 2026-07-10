@@ -1,0 +1,41 @@
+# header: 
+#   title: Ca48(a,x)Ti44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 44
+#     nuclide: Ti44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.618761E-12
+   8.000000E+01   1.481984E-05
+   9.000000E+01   3.264761E-02
+   1.000000E+02   3.902557E-01
+   1.100000E+02   1.055459E+00
+   1.200000E+02   1.659050E+00
+   1.300000E+02   1.890329E+00
+   1.400000E+02   1.812774E+00
+   1.500000E+02   1.605858E+00
+   1.600000E+02   1.235315E+00
+   1.800000E+02   8.062405E-01
+   2.000000E+02   5.653621E-01

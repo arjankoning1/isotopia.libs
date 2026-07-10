@@ -1,0 +1,43 @@
+# header: 
+#   title: S36(a,x)S31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 36
+#   nuclide: S36
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 31
+#     nuclide: S31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.332559E-08
+   7.000000E+01   5.677876E-05
+   7.500000E+01   1.849267E-03
+   8.000000E+01   1.431173E-02
+   9.000000E+01   1.116387E-01
+   1.000000E+02   2.232874E-01
+   1.100000E+02   3.305725E-01
+   1.200000E+02   5.600458E-01
+   1.300000E+02   9.229683E-01
+   1.400000E+02   1.257349E+00
+   1.500000E+02   1.430725E+00
+   1.600000E+02   1.468069E+00
+   1.800000E+02   1.199508E+00
+   2.000000E+02   8.319727E-01

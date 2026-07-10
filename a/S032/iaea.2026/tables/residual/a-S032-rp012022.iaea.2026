@@ -1,0 +1,42 @@
+# header: 
+#   title: S32(a,x)Mg22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 22
+#     nuclide: Mg22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.998189E-08
+   7.500000E+01   1.623988E-05
+   8.000000E+01   3.622965E-04
+   9.000000E+01   5.078740E-03
+   1.000000E+02   1.860417E-02
+   1.100000E+02   3.320087E-02
+   1.200000E+02   6.930615E-02
+   1.300000E+02   1.729286E-01
+   1.400000E+02   3.505095E-01
+   1.500000E+02   5.858689E-01
+   1.600000E+02   9.091538E-01
+   1.800000E+02   1.788145E+00
+   2.000000E+02   2.700765E+00

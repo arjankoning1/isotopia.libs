@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar40(a,x)S40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 40
+#     nuclide: S40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.217387E-08
+   6.000000E+01   1.402795E-06
+   6.500000E+01   1.546050E-05
+   7.000000E+01   6.435500E-05
+   7.500000E+01   1.536210E-04
+   8.000000E+01   2.394988E-04
+   9.000000E+01   3.506480E-04
+   1.000000E+02   3.425308E-04
+   1.100000E+02   2.555930E-04
+   1.200000E+02   2.186201E-04
+   1.300000E+02   1.286966E-04
+   1.400000E+02   1.042727E-04
+   1.500000E+02   8.950384E-05
+   1.600000E+02   4.917159E-05
+   1.800000E+02   3.001358E-05
+   2.000000E+02   2.250084E-05

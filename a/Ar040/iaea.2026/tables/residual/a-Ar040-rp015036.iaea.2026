@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar40(a,x)P36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 36
+#     nuclide: P36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.248487E-08
+   6.000000E+01   1.110559E-05
+   6.500000E+01   8.359063E-05
+   7.000000E+01   2.972177E-04
+   7.500000E+01   1.049727E-03
+   8.000000E+01   2.958487E-03
+   9.000000E+01   8.106642E-03
+   1.000000E+02   1.101078E-02
+   1.100000E+02   1.135218E-02
+   1.200000E+02   1.163424E-02
+   1.300000E+02   1.362776E-02
+   1.400000E+02   1.625801E-02
+   1.500000E+02   1.810776E-02
+   1.600000E+02   1.792920E-02
+   1.800000E+02   1.198752E-02
+   2.000000E+02   7.743218E-03

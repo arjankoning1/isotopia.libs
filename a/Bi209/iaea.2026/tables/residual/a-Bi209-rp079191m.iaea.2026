@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi209(a,x)Au191m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 191
+#     nuclide: Au191m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.216681E-08
+   1.400000E+02   9.972845E-05
+   1.500000E+02   1.862822E-02
+   1.600000E+02   1.887476E-01
+   1.800000E+02   3.668230E-01
+   2.000000E+02   5.964904E-01

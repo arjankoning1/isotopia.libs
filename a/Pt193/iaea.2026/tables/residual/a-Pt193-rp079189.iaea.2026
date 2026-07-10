@@ -1,0 +1,43 @@
+# header: 
+#   title: Pt193(a,x)Au189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 193
+#   nuclide: Pt193
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 189
+#     nuclide: Au189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.922057E-06
+   7.000000E+01   1.441290E-02
+   7.500000E+01   5.411877E-01
+   8.000000E+01   4.086663E+00
+   9.000000E+01   7.474423E+01
+   1.000000E+02   3.012397E+02
+   1.100000E+02   3.111048E+02
+   1.200000E+02   2.082315E+02
+   1.300000E+02   1.712525E+02
+   1.400000E+02   1.521679E+02
+   1.500000E+02   1.320719E+02
+   1.600000E+02   9.987665E+01
+   1.800000E+02   7.146594E+01
+   2.000000E+02   6.790772E+01

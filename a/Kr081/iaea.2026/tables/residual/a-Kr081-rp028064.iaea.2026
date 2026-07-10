@@ -1,0 +1,40 @@
+# header: 
+#   title: Kr81(a,x)Ni64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.763538E-11
+   9.000000E+01   1.517258E-07
+   1.000000E+02   4.061014E-06
+   1.100000E+02   3.672230E-05
+   1.200000E+02   1.044787E-04
+   1.300000E+02   1.860399E-04
+   1.400000E+02   5.105160E-04
+   1.500000E+02   1.761408E-03
+   1.600000E+02   3.875294E-03
+   1.800000E+02   1.473520E-02
+   2.000000E+02   4.389411E-02

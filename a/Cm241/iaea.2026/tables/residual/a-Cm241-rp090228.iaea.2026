@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm241(a,x)Th228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 228
+#     nuclide: Th228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.341259E-12
+   8.000000E+01   9.548413E-11
+   9.000000E+01   5.282516E-08
+   1.000000E+02   1.071180E-06
+   1.100000E+02   1.226228E-06
+   1.200000E+02   4.775547E-06
+   1.300000E+02   3.705163E-05
+   1.400000E+02   7.143313E-05
+   1.500000E+02   5.703077E-05
+   1.600000E+02   2.472689E-05
+   1.800000E+02   2.332598E-05
+   2.000000E+02   1.579940E-05

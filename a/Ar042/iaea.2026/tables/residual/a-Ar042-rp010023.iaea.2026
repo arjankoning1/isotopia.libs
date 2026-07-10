@@ -1,0 +1,37 @@
+# header: 
+#   title: Ar42(a,x)Ne23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.119910E-08
+   1.200000E+02   1.877367E-06
+   1.300000E+02   2.690521E-05
+   1.400000E+02   1.135485E-04
+   1.500000E+02   2.741240E-04
+   1.600000E+02   6.430360E-04
+   1.800000E+02   3.898195E-03
+   2.000000E+02   1.617283E-02

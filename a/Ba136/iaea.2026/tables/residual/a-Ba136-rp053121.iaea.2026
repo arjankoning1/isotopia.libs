@@ -1,0 +1,36 @@
+# header: 
+#   title: Ba136(a,x)I121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 121
+#     nuclide: I121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.689881E-12
+   1.300000E+02   1.224800E-06
+   1.400000E+02   9.367263E-04
+   1.500000E+02   3.896626E-02
+   1.600000E+02   3.874474E-01
+   1.800000E+02   4.385924E+00
+   2.000000E+02   1.623385E+01

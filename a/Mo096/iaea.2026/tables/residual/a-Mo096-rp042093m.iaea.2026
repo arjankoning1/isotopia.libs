@@ -1,0 +1,51 @@
+# header: 
+#   title: Mo96(a,x)Mo93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   3.774946E-08
+   4.000000E+01   1.102256E-01
+   4.500000E+01   8.094665E+00
+   5.000000E+01   3.294976E+01
+   5.500000E+01   4.658479E+01
+   6.000000E+01   4.156170E+01
+   6.500000E+01   2.654684E+01
+   7.000000E+01   1.657768E+01
+   7.500000E+01   1.505324E+01
+   8.000000E+01   2.623692E+01
+   9.000000E+01   7.515118E+01
+   1.000000E+02   8.657234E+01
+   1.100000E+02   7.706503E+01
+   1.200000E+02   6.808598E+01
+   1.300000E+02   5.403090E+01
+   1.400000E+02   4.205352E+01
+   1.500000E+02   3.105207E+01
+   1.600000E+02   2.370918E+01
+   1.800000E+02   1.410105E+01
+   2.000000E+02   8.320795E+00

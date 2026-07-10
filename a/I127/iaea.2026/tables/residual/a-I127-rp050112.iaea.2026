@@ -1,0 +1,36 @@
+# header: 
+#   title: I127(a,x)Sn112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 112
+#     nuclide: Sn112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.819432E-09
+   1.300000E+02   4.021739E-05
+   1.400000E+02   6.671614E-03
+   1.500000E+02   6.856614E-02
+   1.600000E+02   4.148329E-01
+   1.800000E+02   2.715923E+00
+   2.000000E+02   1.066139E+01

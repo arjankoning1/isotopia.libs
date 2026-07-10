@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb124(a,x)In109m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 124
+#   nuclide: Sb124
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.808809E-08
+   1.400000E+02   3.564185E-05
+   1.500000E+02   2.301085E-03
+   1.600000E+02   3.526343E-02
+   1.800000E+02   4.405068E-01
+   2.000000E+02   1.992060E+00

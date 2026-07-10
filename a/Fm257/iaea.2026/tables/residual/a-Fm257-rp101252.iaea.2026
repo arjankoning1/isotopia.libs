@@ -1,0 +1,40 @@
+# header: 
+#   title: Fm257(a,x)Md252 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 257
+#   nuclide: Fm257
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 101
+#     A: 252
+#     nuclide: Md252
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.104410E-11
+   9.000000E+01   1.747646E-10
+   1.000000E+02   9.363121E-10
+   1.100000E+02   2.914495E-09
+   1.200000E+02   6.144866E-09
+   1.300000E+02   1.610167E-08
+   1.400000E+02   6.484229E-08
+   1.500000E+02   6.625189E-08
+   1.600000E+02   1.350837E-07
+   1.800000E+02   3.239699E-07
+   2.000000E+02   2.350725E-06

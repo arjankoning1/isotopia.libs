@@ -1,0 +1,33 @@
+# header: 
+#   title: Te123(a,x)Ag103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   2.304954E-10
+   1.600000E+02   2.024340E-06
+   1.800000E+02   1.765196E-02
+   2.000000E+02   1.023134E+00

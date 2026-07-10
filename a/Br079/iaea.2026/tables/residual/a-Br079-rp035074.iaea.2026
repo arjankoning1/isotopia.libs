@@ -1,0 +1,44 @@
+# header: 
+#   title: Br79(a,x)Br74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.129577E-11
+   6.500000E+01   2.720366E-05
+   7.000000E+01   2.617413E-02
+   7.500000E+01   6.430373E-01
+   8.000000E+01   3.302286E+00
+   9.000000E+01   9.721406E+00
+   1.000000E+02   1.207026E+01
+   1.100000E+02   1.423718E+01
+   1.200000E+02   1.969012E+01
+   1.300000E+02   3.213042E+01
+   1.400000E+02   4.660188E+01
+   1.500000E+02   5.622926E+01
+   1.600000E+02   4.886801E+01
+   1.800000E+02   4.310978E+01
+   2.000000E+02   3.642822E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne20(a,x)Be9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 9
+#     nuclide: Be9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.362302E-07
+   6.500000E+01   2.413841E-04
+   7.000000E+01   6.117546E-03
+   7.500000E+01   3.004068E-02
+   8.000000E+01   7.281367E-02
+   9.000000E+01   1.794120E-01
+   1.000000E+02   2.867690E-01
+   1.100000E+02   4.050348E-01
+   1.200000E+02   4.595224E-01
+   1.300000E+02   6.353201E-01
+   1.400000E+02   9.530212E-01
+   1.500000E+02   1.575931E+00
+   1.600000E+02   2.337239E+00
+   1.800000E+02   4.607411E+00
+   2.000000E+02   7.585907E+00

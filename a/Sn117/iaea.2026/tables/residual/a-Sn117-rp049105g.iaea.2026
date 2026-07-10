@@ -1,0 +1,38 @@
+# header: 
+#   title: Sn117(a,x)In105g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 105
+#     nuclide: In105g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.237655E-10
+   1.300000E+02   1.497346E-06
+   1.400000E+02   7.288626E-05
+   1.500000E+02   1.454119E-03
+   1.600000E+02   2.503722E-02
+   1.800000E+02   4.333090E-01
+   2.000000E+02   1.562224E+00

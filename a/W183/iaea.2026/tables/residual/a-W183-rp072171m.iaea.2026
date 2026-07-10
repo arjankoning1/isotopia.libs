@@ -1,0 +1,41 @@
+# header: 
+#   title: W183(a,x)Hf171m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 183
+#   nuclide: W183
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.161982E-10
+   1.000000E+02   2.291183E-05
+   1.100000E+02   8.571375E-03
+   1.200000E+02   1.560501E-01
+   1.300000E+02   4.377045E-01
+   1.400000E+02   4.611935E-01
+   1.500000E+02   5.755227E-01
+   1.600000E+02   1.003244E+00
+   1.800000E+02   1.211213E+00
+   2.000000E+02   1.374720E+00

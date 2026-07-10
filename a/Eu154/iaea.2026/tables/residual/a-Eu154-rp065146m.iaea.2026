@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu154(a,x)Tb146m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 154
+#   nuclide: Eu154
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 146
+#     nuclide: Tb146m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.449694E-05
+   1.200000E+02   8.275083E-02
+   1.300000E+02   1.064343E+00
+   1.400000E+02   2.133172E+00
+   1.500000E+02   2.125653E+00
+   1.600000E+02   2.245728E+00
+   1.800000E+02   2.350060E+00
+   2.000000E+02   1.901797E+00

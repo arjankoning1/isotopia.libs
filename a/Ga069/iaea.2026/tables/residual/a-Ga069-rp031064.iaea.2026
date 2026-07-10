@@ -1,0 +1,44 @@
+# header: 
+#   title: Ga69(a,x)Ga64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 64
+#     nuclide: Ga64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.511173E-12
+   6.500000E+01   6.728405E-07
+   7.000000E+01   4.499444E-04
+   7.500000E+01   1.200176E-02
+   8.000000E+01   6.226932E-02
+   9.000000E+01   1.913250E-01
+   1.000000E+02   2.089868E-01
+   1.100000E+02   3.133499E-01
+   1.200000E+02   7.576035E-01
+   1.300000E+02   1.986547E+00
+   1.400000E+02   3.454069E+00
+   1.500000E+02   4.239949E+00
+   1.600000E+02   4.680682E+00
+   1.800000E+02   4.710806E+00
+   2.000000E+02   3.797915E+00

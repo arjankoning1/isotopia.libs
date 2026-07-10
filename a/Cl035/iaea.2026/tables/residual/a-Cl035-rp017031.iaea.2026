@@ -1,0 +1,42 @@
+# header: 
+#   title: Cl35(a,x)Cl31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 31
+#     nuclide: Cl31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.431800E-08
+   7.500000E+01   7.006689E-06
+   8.000000E+01   7.012925E-05
+   9.000000E+01   5.293337E-04
+   1.000000E+02   1.013569E-03
+   1.100000E+02   1.220598E-03
+   1.200000E+02   1.504313E-03
+   1.300000E+02   2.004860E-03
+   1.400000E+02   2.586395E-03
+   1.500000E+02   2.911391E-03
+   1.600000E+02   2.983273E-03
+   1.800000E+02   2.586507E-03
+   2.000000E+02   2.048852E-03

@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca48(a,x)K48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 48
+#     nuclide: K48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.616398E-11
+   4.500000E+01   3.005090E-06
+   5.000000E+01   5.532720E-05
+   5.500000E+01   1.957405E-04
+   6.000000E+01   5.319206E-04
+   6.500000E+01   1.551509E-03
+   7.000000E+01   3.250019E-03
+   7.500000E+01   5.198943E-03
+   8.000000E+01   7.067259E-03
+   9.000000E+01   1.031745E-02
+   1.000000E+02   1.119010E-02
+   1.100000E+02   1.112217E-02
+   1.200000E+02   1.090343E-02
+   1.300000E+02   9.869130E-03
+   1.400000E+02   8.935555E-03
+   1.500000E+02   7.903423E-03
+   1.600000E+02   7.184397E-03
+   1.800000E+02   5.949559E-03
+   2.000000E+02   5.173782E-03

@@ -1,0 +1,44 @@
+# header: 
+#   title: S35(a,x)Na24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.235284E-12
+   6.500000E+01   2.272917E-07
+   7.000000E+01   3.482253E-05
+   7.500000E+01   4.564130E-04
+   8.000000E+01   2.299934E-03
+   9.000000E+01   2.937882E-02
+   1.000000E+02   1.754762E-01
+   1.100000E+02   3.864076E-01
+   1.200000E+02   6.308743E-01
+   1.300000E+02   1.016482E+00
+   1.400000E+02   2.112869E+00
+   1.500000E+02   3.996321E+00
+   1.600000E+02   6.435622E+00
+   1.800000E+02   1.280357E+01
+   2.000000E+02   2.178799E+01

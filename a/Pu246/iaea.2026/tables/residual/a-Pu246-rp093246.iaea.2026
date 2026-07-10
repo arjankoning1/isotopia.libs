@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu246(a,x)Np246 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 246
+#   nuclide: Pu246
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 246
+#     nuclide: Np246
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.608028E-13
+   6.000000E+01   6.563453E-11
+   6.500000E+01   5.591437E-09
+   7.000000E+01   2.798037E-07
+   7.500000E+01   3.934972E-06
+   8.000000E+01   2.373040E-05
+   9.000000E+01   2.219330E-04
+   1.000000E+02   7.482142E-04
+   1.100000E+02   1.308092E-03
+   1.200000E+02   2.433577E-03
+   1.300000E+02   4.200812E-03
+   1.400000E+02   3.312141E-03
+   1.500000E+02   4.460258E-03
+   1.600000E+02   6.027639E-03
+   1.800000E+02   9.796879E-03
+   2.000000E+02   4.082732E-03

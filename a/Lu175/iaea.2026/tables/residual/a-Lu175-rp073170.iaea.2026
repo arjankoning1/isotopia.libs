@@ -1,0 +1,40 @@
+# header: 
+#   title: Lu175(a,x)Ta170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 170
+#     nuclide: Ta170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.000644E-05
+   9.000000E+01   6.335705E+00
+   1.000000E+02   1.525758E+02
+   1.100000E+02   3.319700E+02
+   1.200000E+02   2.258184E+02
+   1.300000E+02   1.180186E+02
+   1.400000E+02   7.892461E+01
+   1.500000E+02   6.173464E+01
+   1.600000E+02   5.263095E+01
+   1.800000E+02   3.161964E+01
+   2.000000E+02   1.744357E+01

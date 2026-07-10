@@ -1,0 +1,45 @@
+# header: 
+#   title: Cs132(a,x)Ba129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 129
+#     nuclide: Ba129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.720283E-06
+   6.000000E+01   1.664394E-02
+   6.500000E+01   5.020742E-01
+   7.000000E+01   3.067869E+00
+   7.500000E+01   1.563030E+01
+   8.000000E+01   5.434364E+01
+   9.000000E+01   1.774320E+02
+   1.000000E+02   2.090000E+02
+   1.100000E+02   1.914657E+02
+   1.200000E+02   1.636501E+02
+   1.300000E+02   1.401258E+02
+   1.400000E+02   1.166837E+02
+   1.500000E+02   9.551579E+01
+   1.600000E+02   7.597510E+01
+   1.800000E+02   4.862404E+01
+   2.000000E+02   3.246821E+01

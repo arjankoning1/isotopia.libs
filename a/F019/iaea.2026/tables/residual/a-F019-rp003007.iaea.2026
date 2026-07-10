@@ -1,0 +1,48 @@
+# header: 
+#   title: F19(a,x)Li7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.855713E-10
+   4.500000E+01   2.443553E-05
+   5.000000E+01   7.689084E-04
+   5.500000E+01   3.682989E-03
+   6.000000E+01   8.427311E-03
+   6.500000E+01   1.253659E-02
+   7.000000E+01   1.402812E-02
+   7.500000E+01   1.308672E-02
+   8.000000E+01   1.172697E-02
+   9.000000E+01   1.313345E-02
+   1.000000E+02   3.219035E-02
+   1.100000E+02   8.953539E-02
+   1.200000E+02   1.929637E-01
+   1.300000E+02   3.683408E-01
+   1.400000E+02   7.606126E-01
+   1.500000E+02   1.500756E+00
+   1.600000E+02   2.814915E+00
+   1.800000E+02   6.976694E+00
+   2.000000E+02   1.272869E+01

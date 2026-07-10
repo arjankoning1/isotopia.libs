@@ -1,0 +1,44 @@
+# header: 
+#   title: Ar36(a,x)Al28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.240573E-08
+   6.500000E+01   1.682094E-05
+   7.000000E+01   7.857122E-04
+   7.500000E+01   6.742896E-03
+   8.000000E+01   2.646340E-02
+   9.000000E+01   3.663909E-01
+   1.000000E+02   1.617137E+00
+   1.100000E+02   3.213430E+00
+   1.200000E+02   4.513755E+00
+   1.300000E+02   7.547805E+00
+   1.400000E+02   1.331079E+01
+   1.500000E+02   1.826548E+01
+   1.600000E+02   2.550158E+01
+   1.800000E+02   3.500999E+01
+   2.000000E+02   4.120976E+01

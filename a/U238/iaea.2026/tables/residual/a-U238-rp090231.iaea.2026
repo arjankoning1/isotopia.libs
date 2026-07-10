@@ -1,0 +1,47 @@
+# header: 
+#   title: U238(a,x)Th231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 231
+#     nuclide: Th231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.423548E-12
+   5.000000E+01   1.094300E-08
+   5.500000E+01   9.030483E-06
+   6.000000E+01   8.729911E-04
+   6.500000E+01   8.956831E-03
+   7.000000E+01   3.643062E-02
+   7.500000E+01   6.738961E-02
+   8.000000E+01   8.895588E-02
+   9.000000E+01   6.716962E-02
+   1.000000E+02   9.340643E-02
+   1.100000E+02   1.287750E-01
+   1.200000E+02   9.735032E-02
+   1.300000E+02   9.125506E-02
+   1.400000E+02   1.062729E-01
+   1.500000E+02   1.259899E-01
+   1.600000E+02   4.818993E-02
+   1.800000E+02   3.525146E-02
+   2.000000E+02   6.560422E-02

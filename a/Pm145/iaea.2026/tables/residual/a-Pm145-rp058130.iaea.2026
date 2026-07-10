@@ -1,0 +1,36 @@
+# header: 
+#   title: Pm145(a,x)Ce130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 130
+#     nuclide: Ce130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.149277E-12
+   1.300000E+02   1.419504E-06
+   1.400000E+02   1.578770E-03
+   1.500000E+02   8.201609E-02
+   1.600000E+02   9.338698E-01
+   1.800000E+02   7.569492E+00
+   2.000000E+02   2.527509E+01

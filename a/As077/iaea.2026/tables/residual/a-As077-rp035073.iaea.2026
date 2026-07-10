@@ -1,0 +1,40 @@
+# header: 
+#   title: As77(a,x)Br73 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 77
+#   nuclide: As77
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 73
+#     nuclide: Br73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.460637E-08
+   9.000000E+01   3.917682E-03
+   1.000000E+02   1.175862E-01
+   1.100000E+02   5.252096E-01
+   1.200000E+02   9.306226E-01
+   1.300000E+02   1.080739E+00
+   1.400000E+02   1.040303E+00
+   1.500000E+02   8.682615E-01
+   1.600000E+02   7.382508E-01
+   1.800000E+02   5.217192E-01
+   2.000000E+02   3.354397E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Kr81(a,x)Ga67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.644158E-11
+   1.000000E+02   1.565219E-06
+   1.100000E+02   3.483464E-04
+   1.200000E+02   2.068429E-02
+   1.300000E+02   2.274908E-01
+   1.400000E+02   8.177598E-01
+   1.500000E+02   1.723683E+00
+   1.600000E+02   4.199066E+00
+   1.800000E+02   2.093071E+01
+   2.000000E+02   4.286059E+01

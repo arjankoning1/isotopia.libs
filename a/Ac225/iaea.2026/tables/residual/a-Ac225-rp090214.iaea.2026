@@ -1,0 +1,36 @@
+# header: 
+#   title: Ac225(a,x)Th214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 214
+#     nuclide: Th214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   3.515610E-10
+   1.300000E+02   1.990786E-05
+   1.400000E+02   6.595242E-03
+   1.500000E+02   1.749765E-01
+   1.600000E+02   1.111461E+00
+   1.800000E+02   5.799433E+00
+   2.000000E+02   6.274051E+00

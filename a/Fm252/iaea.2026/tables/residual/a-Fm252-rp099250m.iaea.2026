@@ -1,0 +1,51 @@
+# header: 
+#   title: Fm252(a,x)Es250m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 252
+#   nuclide: Fm252
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 99
+#     A: 250
+#     nuclide: Es250m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.679432E-12
+   4.000000E+01   6.126605E-12
+   4.500000E+01   5.867208E-11
+   5.000000E+01   8.859041E-10
+   5.500000E+01   3.510164E-09
+   6.000000E+01   5.989778E-09
+   6.500000E+01   8.644406E-09
+   7.000000E+01   7.103782E-09
+   7.500000E+01   7.928855E-09
+   8.000000E+01   8.160596E-09
+   9.000000E+01   1.267595E-07
+   1.000000E+02   3.254764E-06
+   1.100000E+02   1.282173E-05
+   1.200000E+02   5.050912E-05
+   1.300000E+02   1.296817E-04
+   1.400000E+02   2.588037E-04
+   1.500000E+02   4.583584E-04
+   1.600000E+02   2.980247E-04
+   1.800000E+02   5.399033E-04
+   2.000000E+02   1.250631E-03

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm245(a,x)Am236m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.071671E-11
+   1.000000E+02   2.396561E-08
+   1.100000E+02   2.841001E-07
+   1.200000E+02   1.329037E-06
+   1.300000E+02   2.894131E-06
+   1.400000E+02   3.945823E-06
+   1.500000E+02   1.718882E-06
+   1.600000E+02   1.389170E-06
+   1.800000E+02   6.161893E-06
+   2.000000E+02   2.820699E-07

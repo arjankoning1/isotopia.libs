@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe58(a,x)Cr51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.182398E-11
+   5.500000E+01   1.173450E-04
+   6.000000E+01   9.105727E-02
+   6.500000E+01   2.032511E+00
+   7.000000E+01   8.445244E+00
+   7.500000E+01   1.667236E+01
+   8.000000E+01   2.027629E+01
+   9.000000E+01   1.146314E+01
+   1.000000E+02   8.801020E+00
+   1.100000E+02   2.149494E+01
+   1.200000E+02   4.644440E+01
+   1.300000E+02   6.975869E+01
+   1.400000E+02   8.815306E+01
+   1.500000E+02   1.082400E+02
+   1.600000E+02   1.255050E+02
+   1.800000E+02   1.549195E+02
+   2.000000E+02   1.305893E+02

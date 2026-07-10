@@ -1,0 +1,44 @@
+# header: 
+#   title: Se79(a,x)Br76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 79
+#   nuclide: Se79
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.877433E-04
+   6.500000E+01   9.204875E-02
+   7.000000E+01   1.001080E+00
+   7.500000E+01   4.363589E+00
+   8.000000E+01   1.761087E+01
+   9.000000E+01   8.792627E+01
+   1.000000E+02   1.539374E+02
+   1.100000E+02   1.924083E+02
+   1.200000E+02   1.811088E+02
+   1.300000E+02   1.508929E+02
+   1.400000E+02   1.208916E+02
+   1.500000E+02   9.489665E+01
+   1.600000E+02   7.425063E+01
+   1.800000E+02   4.752385E+01
+   2.000000E+02   3.208340E+01

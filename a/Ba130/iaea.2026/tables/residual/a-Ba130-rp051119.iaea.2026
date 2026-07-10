@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba130(a,x)Sb119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 119
+#     nuclide: Sb119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.104196E-12
+   7.000000E+01   2.048426E-10
+   7.500000E+01   2.044870E-08
+   8.000000E+01   1.312066E-06
+   9.000000E+01   2.329315E-04
+   1.000000E+02   1.928053E-03
+   1.100000E+02   2.142594E-03
+   1.200000E+02   3.261475E-03
+   1.300000E+02   1.172227E-02
+   1.400000E+02   2.333255E-02
+   1.500000E+02   3.481312E-02
+   1.600000E+02   4.163658E-02
+   1.800000E+02   3.226731E-02
+   2.000000E+02   4.245849E-02

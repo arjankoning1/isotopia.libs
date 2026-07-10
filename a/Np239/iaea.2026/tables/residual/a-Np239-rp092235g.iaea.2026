@@ -1,0 +1,49 @@
+# header: 
+#   title: Np239(a,x)U235g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 239
+#   nuclide: Np239
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   6.715744E-10
+   5.000000E+01   1.503024E-07
+   5.500000E+01   4.274397E-06
+   6.000000E+01   4.653945E-05
+   6.500000E+01   3.639800E-04
+   7.000000E+01   1.250133E-03
+   7.500000E+01   2.655583E-03
+   8.000000E+01   3.417427E-03
+   9.000000E+01   4.488553E-03
+   1.000000E+02   5.475386E-03
+   1.100000E+02   6.353978E-03
+   1.200000E+02   8.063428E-03
+   1.300000E+02   1.548647E-02
+   1.400000E+02   2.017137E-02
+   1.500000E+02   2.843897E-02
+   1.600000E+02   6.247148E-02
+   1.800000E+02   7.101321E-02
+   2.000000E+02   1.418538E-01

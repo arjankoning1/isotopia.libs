@@ -1,0 +1,40 @@
+# header: 
+#   title: Mg26(a,x)Ne17g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.980258E-10
+   1.100000E+02   2.599520E-06
+   1.200000E+02   9.412254E-05
+   1.300000E+02   5.734733E-04
+   1.400000E+02   1.553055E-03
+   1.500000E+02   2.927962E-03
+   1.600000E+02   5.022384E-03
+   1.800000E+02   1.283482E-02
+   2.000000E+02   2.383914E-02

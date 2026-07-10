@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu239(a,x)Np233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 233
+#     nuclide: Np233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.567693E-09
+   6.500000E+01   1.666653E-06
+   7.000000E+01   8.805742E-05
+   7.500000E+01   6.506686E-04
+   8.000000E+01   1.776302E-03
+   9.000000E+01   8.544397E-03
+   1.000000E+02   1.683340E-02
+   1.100000E+02   1.341967E-02
+   1.200000E+02   1.064665E-02
+   1.300000E+02   1.292511E-02
+   1.400000E+02   1.527160E-02
+   1.500000E+02   2.392002E-02
+   1.600000E+02   6.922069E-03
+   1.800000E+02   4.755122E-04
+   2.000000E+02   7.637180E-04

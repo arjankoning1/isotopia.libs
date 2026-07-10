@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr87(a,x)Br78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.731683E-10
+   7.500000E+01   1.830417E-06
+   8.000000E+01   1.385228E-04
+   9.000000E+01   1.161222E-02
+   1.000000E+02   1.860340E-01
+   1.100000E+02   9.678616E-01
+   1.200000E+02   1.828894E+00
+   1.300000E+02   2.844453E+00
+   1.400000E+02   4.857148E+00
+   1.500000E+02   1.021746E+01
+   1.600000E+02   1.406378E+01
+   1.800000E+02   1.902699E+01
+   2.000000E+02   1.863985E+01

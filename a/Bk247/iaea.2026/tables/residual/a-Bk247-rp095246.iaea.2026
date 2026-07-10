@@ -1,0 +1,41 @@
+# header: 
+#   title: Bk247(a,x)Am246 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 247
+#   nuclide: Bk247
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 246
+#     nuclide: Am246
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.608060E-14
+   8.000000E+01   6.822010E-12
+   9.000000E+01   5.207279E-09
+   1.000000E+02   1.966308E-07
+   1.100000E+02   8.779569E-07
+   1.200000E+02   3.285347E-06
+   1.300000E+02   8.930570E-06
+   1.400000E+02   1.763219E-05
+   1.500000E+02   2.712519E-05
+   1.600000E+02   3.294578E-05
+   1.800000E+02   2.609623E-06
+   2.000000E+02   3.943725E-08

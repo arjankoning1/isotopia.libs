@@ -1,0 +1,36 @@
+# header: 
+#   title: Ba137(a,x)Sb118g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   5.540820E-10
+   1.500000E+02   1.800233E-06
+   1.600000E+02   1.560176E-04
+   1.800000E+02   2.374369E-02
+   2.000000E+02   2.509715E-01

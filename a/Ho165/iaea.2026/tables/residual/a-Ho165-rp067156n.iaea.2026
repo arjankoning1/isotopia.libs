@@ -1,0 +1,41 @@
+# header: 
+#   title: Ho165(a,x)Ho156n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 67
+#   A: 165
+#   nuclide: Ho165
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 156
+#     nuclide: Ho156n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.371196E-06
+   1.000000E+02   1.110984E-01
+   1.100000E+02   5.708004E+00
+   1.200000E+02   1.971019E+01
+   1.300000E+02   2.095672E+01
+   1.400000E+02   1.807354E+01
+   1.500000E+02   2.209048E+01
+   1.600000E+02   2.326506E+01
+   1.800000E+02   2.442289E+01
+   2.000000E+02   2.309398E+01

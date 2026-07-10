@@ -1,0 +1,43 @@
+# header: 
+#   title: O18(a,x)Be7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.685919E-12
+   7.000000E+01   6.913891E-08
+   7.500000E+01   8.489681E-06
+   8.000000E+01   4.215265E-04
+   9.000000E+01   1.635761E-02
+   1.000000E+02   7.740060E-02
+   1.100000E+02   2.201300E-01
+   1.200000E+02   5.476066E-01
+   1.300000E+02   1.249170E+00
+   1.400000E+02   2.401292E+00
+   1.500000E+02   4.014281E+00
+   1.600000E+02   5.972270E+00
+   1.800000E+02   1.078505E+01
+   2.000000E+02   1.851346E+01

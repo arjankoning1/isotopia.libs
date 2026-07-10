@@ -1,0 +1,42 @@
+# header: 
+#   title: Cd109(a,x)Ag101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.165266E-12
+   9.000000E+01   2.113664E-05
+   1.000000E+02   6.342663E-03
+   1.100000E+02   2.428743E-01
+   1.200000E+02   1.052937E+00
+   1.300000E+02   2.487728E+00
+   1.400000E+02   4.354308E+00
+   1.500000E+02   5.006700E+00
+   1.600000E+02   7.041217E+00
+   1.800000E+02   8.295802E+00
+   2.000000E+02   8.950916E+00

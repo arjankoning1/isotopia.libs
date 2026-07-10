@@ -1,0 +1,40 @@
+# header: 
+#   title: Zn67(a,x)Mn54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.552335E-10
+   9.000000E+01   1.205760E-05
+   1.000000E+02   7.627314E-04
+   1.100000E+02   4.060779E-02
+   1.200000E+02   3.519293E-01
+   1.300000E+02   1.120773E+00
+   1.400000E+02   1.981377E+00
+   1.500000E+02   3.544875E+00
+   1.600000E+02   6.799012E+00
+   1.800000E+02   1.839930E+01
+   2.000000E+02   3.316327E+01

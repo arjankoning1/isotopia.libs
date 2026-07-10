@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca48(a,x)Cl38g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 38
+#     nuclide: Cl38g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.187031E-10
+   8.000000E+01   1.985268E-06
+   9.000000E+01   2.210744E-03
+   1.000000E+02   3.949134E-02
+   1.100000E+02   2.543521E-01
+   1.200000E+02   8.506250E-01
+   1.300000E+02   1.415298E+00
+   1.400000E+02   2.059033E+00
+   1.500000E+02   2.964603E+00
+   1.600000E+02   4.711478E+00
+   1.800000E+02   1.062233E+01
+   2.000000E+02   8.301044E+00

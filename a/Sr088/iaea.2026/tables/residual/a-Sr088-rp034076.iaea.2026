@@ -1,0 +1,40 @@
+# header: 
+#   title: Sr88(a,x)Se76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 76
+#     nuclide: Se76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.001798E-10
+   9.000000E+01   1.709385E-05
+   1.000000E+02   4.415587E-03
+   1.100000E+02   4.840994E-02
+   1.200000E+02   1.226215E-01
+   1.300000E+02   2.059503E-01
+   1.400000E+02   4.528632E-01
+   1.500000E+02   1.229957E+00
+   1.600000E+02   2.302547E+00
+   1.800000E+02   5.365027E+00
+   2.000000E+02   1.242073E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge71(a,x)Cu61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 71
+#   nuclide: Ge71
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.760326E-12
+   7.500000E+01   6.422867E-08
+   8.000000E+01   2.674580E-05
+   9.000000E+01   6.490021E-03
+   1.000000E+02   6.627396E-02
+   1.100000E+02   8.580502E-01
+   1.200000E+02   3.119669E+00
+   1.300000E+02   6.441099E+00
+   1.400000E+02   1.299641E+01
+   1.500000E+02   2.648483E+01
+   1.600000E+02   4.763787E+01
+   1.800000E+02   8.465470E+01
+   2.000000E+02   1.118637E+02

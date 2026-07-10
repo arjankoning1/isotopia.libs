@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn68(a,x)Cu64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.731664E-06
+   4.500000E+01   2.104841E-03
+   5.000000E+01   4.076754E-02
+   5.500000E+01   3.594407E-01
+   6.000000E+01   4.518691E+00
+   6.500000E+01   2.005879E+01
+   7.000000E+01   4.140276E+01
+   7.500000E+01   5.565503E+01
+   8.000000E+01   5.783337E+01
+   9.000000E+01   4.726979E+01
+   1.000000E+02   4.943605E+01
+   1.100000E+02   7.663145E+01
+   1.200000E+02   1.049999E+02
+   1.300000E+02   1.133175E+02
+   1.400000E+02   1.038901E+02
+   1.500000E+02   8.417978E+01
+   1.600000E+02   7.227563E+01
+   1.800000E+02   4.209459E+01
+   2.000000E+02   3.050260E+01

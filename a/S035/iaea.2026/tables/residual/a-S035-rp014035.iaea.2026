@@ -1,0 +1,45 @@
+# header: 
+#   title: S35(a,x)Si35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 35
+#     nuclide: Si35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.624118E-09
+   6.000000E+01   9.667265E-07
+   6.500000E+01   1.689495E-05
+   7.000000E+01   7.287393E-05
+   7.500000E+01   1.575348E-04
+   8.000000E+01   2.353829E-04
+   9.000000E+01   3.036335E-04
+   1.000000E+02   2.687236E-04
+   1.100000E+02   2.038398E-04
+   1.200000E+02   1.443596E-04
+   1.300000E+02   1.026379E-04
+   1.400000E+02   7.256472E-05
+   1.500000E+02   5.023506E-05
+   1.600000E+02   3.697231E-05
+   1.800000E+02   1.944648E-05
+   2.000000E+02   1.121332E-05

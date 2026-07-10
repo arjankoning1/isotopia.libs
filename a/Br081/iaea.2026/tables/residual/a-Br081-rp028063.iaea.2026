@@ -1,0 +1,37 @@
+# header: 
+#   title: Br81(a,x)Ni63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.035810E-10
+   1.200000E+02   1.708967E-06
+   1.300000E+02   1.016833E-04
+   1.400000E+02   1.117255E-03
+   1.500000E+02   5.529303E-03
+   1.600000E+02   1.672497E-02
+   1.800000E+02   6.607540E-02
+   2.000000E+02   3.282167E-01

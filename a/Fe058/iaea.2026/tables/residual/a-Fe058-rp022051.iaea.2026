@@ -1,0 +1,45 @@
+# header: 
+#   title: Fe58(a,x)Ti51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.224241E-09
+   6.000000E+01   6.119872E-07
+   6.500000E+01   2.600040E-05
+   7.000000E+01   1.112595E-03
+   7.500000E+01   1.147409E-02
+   8.000000E+01   4.362511E-02
+   9.000000E+01   9.610185E-02
+   1.000000E+02   7.661525E-02
+   1.100000E+02   9.992357E-02
+   1.200000E+02   1.576174E-01
+   1.300000E+02   2.543530E-01
+   1.400000E+02   3.659277E-01
+   1.500000E+02   4.004913E-01
+   1.600000E+02   3.730243E-01
+   1.800000E+02   3.790581E-01
+   2.000000E+02   2.764013E-01

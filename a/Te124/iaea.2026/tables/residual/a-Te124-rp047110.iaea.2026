@@ -1,0 +1,38 @@
+# header: 
+#   title: Te124(a,x)Ag110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.261103E-08
+   1.100000E+02   7.963721E-06
+   1.200000E+02   3.564010E-04
+   1.300000E+02   4.339933E-03
+   1.400000E+02   1.355857E-02
+   1.500000E+02   2.478257E-02
+   1.600000E+02   3.174079E-02
+   1.800000E+02   8.491648E-02
+   2.000000E+02   9.793781E-02

@@ -1,0 +1,44 @@
+# header: 
+#   title: Zn65(a,x)Co63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 63
+#     nuclide: Co63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.443603E-10
+   6.500000E+01   1.311671E-07
+   7.000000E+01   2.758254E-06
+   7.500000E+01   2.491008E-05
+   8.000000E+01   1.281485E-04
+   9.000000E+01   1.235477E-03
+   1.000000E+02   4.065245E-03
+   1.100000E+02   6.425079E-03
+   1.200000E+02   6.471461E-03
+   1.300000E+02   5.462307E-03
+   1.400000E+02   4.694501E-03
+   1.500000E+02   3.512956E-03
+   1.600000E+02   2.569644E-03
+   1.800000E+02   2.172140E-03
+   2.000000E+02   9.920604E-04

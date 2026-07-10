@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca43(a,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.614008E-07
+   6.500000E+01   4.275320E-05
+   7.000000E+01   4.063904E-04
+   7.500000E+01   1.228385E-03
+   8.000000E+01   2.158397E-03
+   9.000000E+01   3.176060E-03
+   1.000000E+02   3.001928E-03
+   1.100000E+02   2.372624E-03
+   1.200000E+02   1.764160E-03
+   1.300000E+02   1.289504E-03
+   1.400000E+02   9.452513E-04
+   1.500000E+02   7.046240E-04
+   1.600000E+02   5.299161E-04
+   1.800000E+02   3.227548E-04
+   2.000000E+02   2.065678E-04

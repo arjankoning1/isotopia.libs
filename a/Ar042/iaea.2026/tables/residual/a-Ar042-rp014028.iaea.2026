@@ -1,0 +1,39 @@
+# header: 
+#   title: Ar42(a,x)Si28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 28
+#     nuclide: Si28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.808319E-10
+   1.000000E+02   1.907360E-05
+   1.100000E+02   3.737774E-03
+   1.200000E+02   6.295397E-02
+   1.300000E+02   2.690554E-01
+   1.400000E+02   6.501290E-01
+   1.500000E+02   1.461235E+00
+   1.600000E+02   3.779334E+00
+   1.800000E+02   1.432110E+01
+   2.000000E+02   3.425540E+01

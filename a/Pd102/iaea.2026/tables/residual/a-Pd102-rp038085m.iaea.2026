@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd102(a,x)Sr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.308760E-11
+   1.000000E+02   4.977898E-08
+   1.100000E+02   8.685753E-07
+   1.200000E+02   7.901946E-07
+   1.300000E+02   2.552724E-06
+   1.400000E+02   3.926027E-05
+   1.500000E+02   2.968192E-04
+   1.600000E+02   8.953393E-04
+   1.800000E+02   3.129106E-03
+   2.000000E+02   2.065226E-02

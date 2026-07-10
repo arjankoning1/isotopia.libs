@@ -1,0 +1,44 @@
+# header: 
+#   title: Nb92(a,x)Br80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.611198E-11
+   6.500000E+01   3.063773E-09
+   7.000000E+01   9.432426E-08
+   7.500000E+01   9.137598E-07
+   8.000000E+01   4.024653E-06
+   9.000000E+01   1.321124E-05
+   1.000000E+02   8.073370E-06
+   1.100000E+02   9.168486E-05
+   1.200000E+02   7.170834E-04
+   1.300000E+02   1.813550E-03
+   1.400000E+02   2.485317E-03
+   1.500000E+02   4.244722E-03
+   1.600000E+02   9.903784E-03
+   1.800000E+02   1.709026E-02
+   2.000000E+02   3.903413E-02

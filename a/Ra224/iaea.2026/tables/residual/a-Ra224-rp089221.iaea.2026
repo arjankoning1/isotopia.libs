@@ -1,0 +1,46 @@
+# header: 
+#   title: Ra224(a,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.732601E-06
+   5.500000E+01   3.323533E-02
+   6.000000E+01   2.954989E+00
+   6.500000E+01   2.428714E+01
+   7.000000E+01   6.351180E+01
+   7.500000E+01   1.079611E+02
+   8.000000E+01   1.514355E+02
+   9.000000E+01   1.827459E+02
+   1.000000E+02   1.384445E+02
+   1.100000E+02   9.256260E+01
+   1.200000E+02   7.432192E+01
+   1.300000E+02   5.954752E+01
+   1.400000E+02   5.222435E+01
+   1.500000E+02   4.672027E+01
+   1.600000E+02   3.810920E+01
+   1.800000E+02   2.623546E+01
+   2.000000E+02   2.518801E+01

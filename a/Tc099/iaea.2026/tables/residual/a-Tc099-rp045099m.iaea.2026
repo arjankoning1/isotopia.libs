@@ -1,0 +1,51 @@
+# header: 
+#   title: Tc99(a,x)Rh99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   4.059776E+00
+   4.000000E+01   1.934865E+02
+   4.500000E+01   4.206211E+02
+   5.000000E+01   4.631744E+02
+   5.500000E+01   3.539954E+02
+   6.000000E+01   2.134942E+02
+   6.500000E+01   1.393695E+02
+   7.000000E+01   1.042306E+02
+   7.500000E+01   8.390955E+01
+   8.000000E+01   6.891170E+01
+   9.000000E+01   4.690909E+01
+   1.000000E+02   3.219352E+01
+   1.100000E+02   2.202280E+01
+   1.200000E+02   1.503857E+01
+   1.300000E+02   9.862514E+00
+   1.400000E+02   6.718132E+00
+   1.500000E+02   4.664136E+00
+   1.600000E+02   3.262925E+00
+   1.800000E+02   1.703167E+00
+   2.000000E+02   9.007737E-01

@@ -1,0 +1,33 @@
+# header: 
+#   title: Th230(a,x)Ac213 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 213
+#     nuclide: Ac213
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   7.187961E-08
+   1.600000E+02   1.208462E-04
+   1.800000E+02   1.994693E-01
+   2.000000E+02   3.103583E+00

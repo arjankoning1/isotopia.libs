@@ -1,0 +1,37 @@
+# header: 
+#   title: Re184m(a,x)Ir174m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 184
+#   nuclide: Re184m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 174
+#     nuclide: Ir174m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   3.434241E-13
+   1.400000E+02   1.865816E-06
+   1.500000E+02   1.989994E-03
+   1.600000E+02   9.208255E-02
+   1.800000E+02   1.264105E+00
+   2.000000E+02   1.356050E+00

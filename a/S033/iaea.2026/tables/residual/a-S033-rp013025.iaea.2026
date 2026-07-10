@@ -1,0 +1,44 @@
+# header: 
+#   title: S33(a,x)Al25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 33
+#   nuclide: S33
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 25
+#     nuclide: Al25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.379014E-10
+   6.500000E+01   4.665771E-06
+   7.000000E+01   2.582088E-04
+   7.500000E+01   2.134707E-03
+   8.000000E+01   9.309730E-03
+   9.000000E+01   1.260267E-01
+   1.000000E+02   5.681698E-01
+   1.100000E+02   1.113249E+00
+   1.200000E+02   1.682444E+00
+   1.300000E+02   2.768950E+00
+   1.400000E+02   4.637578E+00
+   1.500000E+02   7.008182E+00
+   1.600000E+02   9.447906E+00
+   1.800000E+02   1.368316E+01
+   2.000000E+02   1.647692E+01

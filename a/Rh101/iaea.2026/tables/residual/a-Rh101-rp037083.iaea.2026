@@ -1,0 +1,38 @@
+# header: 
+#   title: Rh101(a,x)Rb83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.925298E-10
+   1.100000E+02   8.055912E-08
+   1.200000E+02   1.423973E-06
+   1.300000E+02   1.032299E-05
+   1.400000E+02   2.881592E-05
+   1.500000E+02   2.258999E-04
+   1.600000E+02   1.710809E-03
+   1.800000E+02   1.006821E-02
+   2.000000E+02   4.107888E-02

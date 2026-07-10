@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd106(a,x)Mo91g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.358849E-08
+   1.200000E+02   7.245388E-05
+   1.300000E+02   5.344308E-03
+   1.400000E+02   6.138727E-02
+   1.500000E+02   2.379543E-01
+   1.600000E+02   6.546156E-01
+   1.800000E+02   7.822392E+00
+   2.000000E+02   2.721327E+01

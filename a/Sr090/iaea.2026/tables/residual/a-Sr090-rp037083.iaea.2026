@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr90(a,x)Rb83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.801671E-08
+   7.500000E+01   1.385748E-04
+   8.000000E+01   1.246088E-02
+   9.000000E+01   8.101429E-01
+   1.000000E+02   9.765389E+00
+   1.100000E+02   3.233867E+01
+   1.200000E+02   4.413651E+01
+   1.300000E+02   4.926374E+01
+   1.400000E+02   5.531693E+01
+   1.500000E+02   7.447677E+01
+   1.600000E+02   8.107017E+01
+   1.800000E+02   9.834392E+01
+   2.000000E+02   6.311727E+01

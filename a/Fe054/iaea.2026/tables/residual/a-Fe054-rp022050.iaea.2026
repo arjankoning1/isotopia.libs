@@ -1,0 +1,45 @@
+# header: 
+#   title: Fe54(a,x)Ti50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.793491E-08
+   6.000000E+01   3.692215E-05
+   6.500000E+01   1.093290E-03
+   7.000000E+01   4.975344E-03
+   7.500000E+01   1.059629E-02
+   8.000000E+01   1.808793E-02
+   9.000000E+01   2.905956E-02
+   1.000000E+02   3.348448E-02
+   1.100000E+02   6.372051E-02
+   1.200000E+02   1.318788E-01
+   1.300000E+02   2.718511E-01
+   1.400000E+02   2.519228E-01
+   1.500000E+02   3.268391E-01
+   1.600000E+02   1.943851E-01
+   1.800000E+02   1.799806E-01
+   2.000000E+02   8.102660E-02

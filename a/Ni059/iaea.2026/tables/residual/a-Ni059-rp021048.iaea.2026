@@ -1,0 +1,40 @@
+# header: 
+#   title: Ni59(a,x)Sc48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.143176E-11
+   9.000000E+01   2.351503E-07
+   1.000000E+02   2.593771E-05
+   1.100000E+02   2.206542E-04
+   1.200000E+02   6.088022E-04
+   1.300000E+02   1.056466E-03
+   1.400000E+02   2.595747E-03
+   1.500000E+02   5.901178E-03
+   1.600000E+02   1.144319E-02
+   1.800000E+02   2.761954E-02
+   2.000000E+02   5.181491E-02

@@ -1,0 +1,37 @@
+# header: 
+#   title: Cd114(a,x)Tc98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 114
+#   nuclide: Cd114
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.841529E-09
+   1.200000E+02   1.508540E-05
+   1.300000E+02   1.118663E-03
+   1.400000E+02   8.053083E-03
+   1.500000E+02   5.941002E-02
+   1.600000E+02   1.629830E-01
+   1.800000E+02   4.822544E-01
+   2.000000E+02   1.470796E+00

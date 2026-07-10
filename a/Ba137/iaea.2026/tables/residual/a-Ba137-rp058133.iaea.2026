@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba137(a,x)Ce133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 133
+#     nuclide: Ce133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.476889E-10
+   7.500000E+01   7.920688E-03
+   8.000000E+01   1.870731E+00
+   9.000000E+01   1.391408E+02
+   1.000000E+02   4.401146E+02
+   1.100000E+02   3.625542E+02
+   1.200000E+02   2.009952E+02
+   1.300000E+02   1.405281E+02
+   1.400000E+02   1.076206E+02
+   1.500000E+02   8.344646E+01
+   1.600000E+02   6.551041E+01
+   1.800000E+02   3.364252E+01
+   2.000000E+02   1.969588E+01

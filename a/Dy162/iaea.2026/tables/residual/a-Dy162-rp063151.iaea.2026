@@ -1,0 +1,41 @@
+# header: 
+#   title: Dy162(a,x)Eu151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 162
+#   nuclide: Dy162
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 151
+#     nuclide: Eu151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.362292E-12
+   8.000000E+01   6.462380E-09
+   9.000000E+01   1.677095E-04
+   1.000000E+02   1.752468E-02
+   1.100000E+02   1.763202E-01
+   1.200000E+02   5.491765E-01
+   1.300000E+02   7.740411E-01
+   1.400000E+02   1.195546E+00
+   1.500000E+02   1.242134E+00
+   1.600000E+02   1.458813E+00
+   1.800000E+02   1.315274E+00
+   2.000000E+02   9.061397E-01

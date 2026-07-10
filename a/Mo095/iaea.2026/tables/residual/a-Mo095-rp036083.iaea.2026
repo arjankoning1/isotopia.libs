@@ -1,0 +1,44 @@
+# header: 
+#   title: Mo95(a,x)Kr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 83
+#     nuclide: Kr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.799949E-12
+   6.500000E+01   3.586959E-10
+   7.000000E+01   7.252081E-09
+   7.500000E+01   6.805756E-08
+   8.000000E+01   2.943858E-07
+   9.000000E+01   5.917042E-07
+   1.000000E+02   4.144371E-06
+   1.100000E+02   1.209228E-04
+   1.200000E+02   5.279494E-04
+   1.300000E+02   1.147147E-03
+   1.400000E+02   1.849866E-03
+   1.500000E+02   5.834270E-03
+   1.600000E+02   1.879137E-02
+   1.800000E+02   4.286097E-02
+   2.000000E+02   1.220421E-01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Pm146(a,x)Pm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 146
+#   nuclide: Pm146
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.137900E-11
+   7.500000E+01   2.091149E-06
+   8.000000E+01   2.438751E-03
+   9.000000E+01   2.387582E+00
+   1.000000E+02   2.685995E+01
+   1.100000E+02   4.181038E+01
+   1.200000E+02   2.912610E+01
+   1.300000E+02   4.798140E+01
+   1.400000E+02   8.015034E+01
+   1.500000E+02   9.374154E+01
+   1.600000E+02   8.236207E+01
+   1.800000E+02   7.496969E+01
+   2.000000E+02   4.572941E+01

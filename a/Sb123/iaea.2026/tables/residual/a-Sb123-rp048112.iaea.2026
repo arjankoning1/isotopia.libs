@@ -1,0 +1,40 @@
+# header: 
+#   title: Sb123(a,x)Cd112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 123
+#   nuclide: Sb123
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 112
+#     nuclide: Cd112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.383628E-11
+   9.000000E+01   7.894021E-06
+   1.000000E+02   2.369679E-03
+   1.100000E+02   8.621418E-02
+   1.200000E+02   6.467635E-01
+   1.300000E+02   1.243654E+00
+   1.400000E+02   1.428473E+00
+   1.500000E+02   1.728644E+00
+   1.600000E+02   2.381975E+00
+   1.800000E+02   4.009896E+00
+   2.000000E+02   2.668627E+00

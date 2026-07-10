@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe54(a,x)Ni55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 55
+#     nuclide: Ni55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.478843E-02
+   4.500000E+01   7.770252E-02
+   5.000000E+01   1.198386E-01
+   5.500000E+01   1.184637E-01
+   6.000000E+01   1.053986E-01
+   6.500000E+01   9.116726E-02
+   7.000000E+01   7.703708E-02
+   7.500000E+01   6.399790E-02
+   8.000000E+01   5.261308E-02
+   9.000000E+01   3.237657E-02
+   1.000000E+02   2.008200E-02
+   1.100000E+02   1.293006E-02
+   1.200000E+02   8.566513E-03
+   1.300000E+02   5.829654E-03
+   1.400000E+02   4.082472E-03
+   1.500000E+02   2.925534E-03
+   1.600000E+02   2.151174E-03
+   1.800000E+02   1.242462E-03
+   2.000000E+02   7.704940E-04

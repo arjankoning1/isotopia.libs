@@ -1,0 +1,44 @@
+# header: 
+#   title: K41(a,x)Sc40 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 40
+#     nuclide: Sc40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.128007E-09
+   6.500000E+01   1.000384E-05
+   7.000000E+01   1.266240E-04
+   7.500000E+01   4.037225E-04
+   8.000000E+01   7.418864E-04
+   9.000000E+01   1.142768E-03
+   1.000000E+02   1.099536E-03
+   1.100000E+02   8.713537E-04
+   1.200000E+02   6.473656E-04
+   1.300000E+02   4.711379E-04
+   1.400000E+02   3.432409E-04
+   1.500000E+02   2.537193E-04
+   1.600000E+02   1.896086E-04
+   1.800000E+02   1.130647E-04
+   2.000000E+02   7.077583E-05

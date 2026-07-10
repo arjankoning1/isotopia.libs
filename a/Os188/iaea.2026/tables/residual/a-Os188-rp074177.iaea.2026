@@ -1,0 +1,40 @@
+# header: 
+#   title: Os188(a,x)W177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 177
+#     nuclide: W177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.005836E-10
+   9.000000E+01   2.025612E-05
+   1.000000E+02   2.059612E-02
+   1.100000E+02   4.372875E-01
+   1.200000E+02   1.251151E+00
+   1.300000E+02   1.161278E+00
+   1.400000E+02   1.797942E+00
+   1.500000E+02   4.561567E+00
+   1.600000E+02   5.044029E+00
+   1.800000E+02   5.076253E+00
+   2.000000E+02   2.905872E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: Mg24(a,x)Al23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 23
+#     nuclide: Al23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.394164E-08
+   6.500000E+01   2.350253E-04
+   7.000000E+01   1.705431E-03
+   7.500000E+01   4.701894E-03
+   8.000000E+01   1.160413E-02
+   9.000000E+01   3.859439E-02
+   1.000000E+02   6.452733E-02
+   1.100000E+02   7.379334E-02
+   1.200000E+02   6.853300E-02
+   1.300000E+02   5.746756E-02
+   1.400000E+02   4.616297E-02
+   1.500000E+02   3.645330E-02
+   1.600000E+02   2.884690E-02
+   1.800000E+02   1.853219E-02
+   2.000000E+02   1.255394E-02

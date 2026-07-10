@@ -1,0 +1,41 @@
+# header: 
+#   title: Rh105(a,x)Tc95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.446067E-08
+   8.000000E+01   3.807060E-05
+   9.000000E+01   1.207718E-01
+   1.000000E+02   1.932334E+00
+   1.100000E+02   3.935487E+00
+   1.200000E+02   3.613275E+00
+   1.300000E+02   6.865644E+00
+   1.400000E+02   1.707557E+01
+   1.500000E+02   4.196810E+01
+   1.600000E+02   6.886958E+01
+   1.800000E+02   9.363058E+01
+   2.000000E+02   9.617495E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe134(a,x)Sb122m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 134
+#   nuclide: Xe134
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.170709E-11
+   1.000000E+02   4.800273E-06
+   1.100000E+02   1.126128E-03
+   1.200000E+02   1.971587E-02
+   1.300000E+02   1.113853E-01
+   1.400000E+02   2.062736E-01
+   1.500000E+02   2.190749E-01
+   1.600000E+02   2.606775E-01
+   1.800000E+02   2.919919E-01
+   2.000000E+02   2.767997E-01

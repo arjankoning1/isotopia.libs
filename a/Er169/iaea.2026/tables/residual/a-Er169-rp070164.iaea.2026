@@ -1,0 +1,41 @@
+# header: 
+#   title: Er169(a,x)Yb164 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 169
+#   nuclide: Er169
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 164
+#     nuclide: Yb164
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.535280E-04
+   8.000000E+01   3.633094E-01
+   9.000000E+01   7.204452E+01
+   1.000000E+02   3.460153E+02
+   1.100000E+02   3.689880E+02
+   1.200000E+02   2.043515E+02
+   1.300000E+02   1.234946E+02
+   1.400000E+02   9.347059E+01
+   1.500000E+02   7.341908E+01
+   1.600000E+02   6.015519E+01
+   1.800000E+02   3.833874E+01
+   2.000000E+02   1.769989E+01

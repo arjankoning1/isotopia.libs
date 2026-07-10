@@ -1,0 +1,41 @@
+# header: 
+#   title: Hg195m(a,x)Tl189g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 195
+#   nuclide: Hg195m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 189
+#     nuclide: Tl189g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.168621E-06
+   1.000000E+02   3.840566E-02
+   1.100000E+02   1.818311E+00
+   1.200000E+02   1.183150E+01
+   1.300000E+02   2.641616E+01
+   1.400000E+02   2.384287E+01
+   1.500000E+02   1.790496E+01
+   1.600000E+02   1.527690E+01
+   1.800000E+02   1.490769E+01
+   2.000000E+02   1.311073E+01

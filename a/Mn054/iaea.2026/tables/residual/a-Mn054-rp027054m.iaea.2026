@@ -1,0 +1,49 @@
+# header: 
+#   title: Mn54(a,x)Co54m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.014171E-02
+   5.000000E+01   2.330687E-01
+   5.500000E+01   3.191911E-01
+   6.000000E+01   2.997461E-01
+   6.500000E+01   2.645648E-01
+   7.000000E+01   2.339903E-01
+   7.500000E+01   2.055385E-01
+   8.000000E+01   1.718335E-01
+   9.000000E+01   1.125028E-01
+   1.000000E+02   7.311888E-02
+   1.100000E+02   4.834234E-02
+   1.200000E+02   3.223911E-02
+   1.300000E+02   2.240906E-02
+   1.400000E+02   1.592515E-02
+   1.500000E+02   1.137924E-02
+   1.600000E+02   8.640400E-03
+   1.800000E+02   5.121660E-03
+   2.000000E+02   3.278437E-03

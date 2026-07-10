@@ -1,0 +1,32 @@
+# header: 
+#   title: Yb172(a,x)Tb150 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 172
+#   nuclide: Yb172
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 150
+#     nuclide: Tb150
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 3
+##       E             xs
+##     [MeV]          [mb]
+   1.600000E+02   5.262919E-08
+   1.800000E+02   1.456301E-02
+   2.000000E+02   4.900195E-01

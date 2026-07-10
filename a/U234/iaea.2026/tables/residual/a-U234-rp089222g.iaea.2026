@@ -1,0 +1,41 @@
+# header: 
+#   title: U234(a,x)Ac222g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 234
+#   nuclide: U234
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.860151E-06
+   1.000000E+02   5.875652E-03
+   1.100000E+02   2.103203E-01
+   1.200000E+02   1.547908E+00
+   1.300000E+02   3.896111E+00
+   1.400000E+02   4.971272E+00
+   1.500000E+02   5.953457E+00
+   1.600000E+02   4.630626E+00
+   1.800000E+02   3.568051E+00
+   2.000000E+02   4.807155E+00

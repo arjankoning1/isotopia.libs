@@ -1,0 +1,36 @@
+# header: 
+#   title: Gd160(a,x)Dy150 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 160
+#   nuclide: Gd160
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 150
+#     nuclide: Dy150
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.941378E-06
+   1.300000E+02   2.628182E-02
+   1.400000E+02   1.171068E+00
+   1.500000E+02   5.378664E+00
+   1.600000E+02   8.606672E+00
+   1.800000E+02   1.051450E+01
+   2.000000E+02   1.083040E+01

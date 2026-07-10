@@ -1,0 +1,44 @@
+# header: 
+#   title: Cd109(a,x)Mo96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 96
+#     nuclide: Mo96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.190406E-11
+   6.500000E+01   1.427889E-08
+   7.000000E+01   1.731639E-06
+   7.500000E+01   5.199760E-05
+   8.000000E+01   4.290932E-04
+   9.000000E+01   2.959173E-03
+   1.000000E+02   2.086220E-03
+   1.100000E+02   1.835575E-03
+   1.200000E+02   9.260460E-03
+   1.300000E+02   2.621902E-02
+   1.400000E+02   4.901639E-02
+   1.500000E+02   7.406401E-02
+   1.600000E+02   1.322950E-01
+   1.800000E+02   3.106872E-01
+   2.000000E+02   4.417000E-01

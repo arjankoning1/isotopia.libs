@@ -1,0 +1,40 @@
+# header: 
+#   title: Cs133(a,x)Te122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 122
+#     nuclide: Te122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.053992E-12
+   9.000000E+01   1.527564E-06
+   1.000000E+02   1.629928E-03
+   1.100000E+02   1.450181E-01
+   1.200000E+02   1.406471E+00
+   1.300000E+02   3.274354E+00
+   1.400000E+02   4.349609E+00
+   1.500000E+02   5.215833E+00
+   1.600000E+02   6.839334E+00
+   1.800000E+02   9.468872E+00
+   2.000000E+02   6.115840E+00

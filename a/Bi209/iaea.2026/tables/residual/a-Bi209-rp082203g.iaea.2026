@@ -1,0 +1,47 @@
+# header: 
+#   title: Bi209(a,x)Pb203g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.838517E-10
+   6.000000E+01   3.883010E-07
+   6.500000E+01   1.437830E-05
+   7.000000E+01   1.848376E-04
+   7.500000E+01   1.322207E-03
+   8.000000E+01   7.921221E-03
+   9.000000E+01   8.203671E-02
+   1.000000E+02   1.516203E-01
+   1.100000E+02   1.390352E-01
+   1.200000E+02   1.308419E-01
+   1.300000E+02   1.270787E-01
+   1.400000E+02   1.680967E-01
+   1.500000E+02   2.367873E-01
+   1.600000E+02   3.045872E-01
+   1.800000E+02   4.885774E-01
+   2.000000E+02   7.209042E-01

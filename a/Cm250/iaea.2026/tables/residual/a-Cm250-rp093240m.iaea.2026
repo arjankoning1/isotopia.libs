@@ -1,0 +1,43 @@
+# header: 
+#   title: Cm250(a,x)Np240m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 240
+#     nuclide: Np240m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.500516E-12
+   8.000000E+01   8.311715E-10
+   9.000000E+01   3.130527E-07
+   1.000000E+02   7.273271E-06
+   1.100000E+02   2.155192E-05
+   1.200000E+02   4.623742E-05
+   1.300000E+02   4.365269E-05
+   1.400000E+02   4.524173E-05
+   1.500000E+02   5.667053E-05
+   1.600000E+02   6.036755E-05
+   1.800000E+02   3.840882E-05
+   2.000000E+02   5.885637E-05

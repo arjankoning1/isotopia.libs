@@ -1,0 +1,43 @@
+# header: 
+#   title: Ru99(a,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.054734E-10
+   7.000000E+01   1.402966E-08
+   7.500000E+01   2.623613E-06
+   8.000000E+01   1.091970E-04
+   9.000000E+01   5.912051E-03
+   1.000000E+02   2.589113E-02
+   1.100000E+02   3.566819E-02
+   1.200000E+02   4.674061E-02
+   1.300000E+02   1.440519E-01
+   1.400000E+02   3.740629E-01
+   1.500000E+02   6.733903E-01
+   1.600000E+02   8.130332E-01
+   1.800000E+02   1.562458E+00
+   2.000000E+02   1.887636E+00

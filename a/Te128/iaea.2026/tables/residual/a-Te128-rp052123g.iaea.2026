@@ -1,0 +1,48 @@
+# header: 
+#   title: Te128(a,x)Te123g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.750679E-11
+   5.500000E+01   2.854648E-05
+   6.000000E+01   3.113368E-02
+   6.500000E+01   1.161139E+00
+   7.000000E+01   7.354620E+00
+   7.500000E+01   1.851216E+01
+   8.000000E+01   2.559611E+01
+   9.000000E+01   1.869629E+01
+   1.000000E+02   1.525450E+01
+   1.100000E+02   2.127023E+01
+   1.200000E+02   2.724810E+01
+   1.300000E+02   2.857661E+01
+   1.400000E+02   2.587472E+01
+   1.500000E+02   2.485521E+01
+   1.600000E+02   1.838664E+01
+   1.800000E+02   1.547638E+01
+   2.000000E+02   9.671410E+00

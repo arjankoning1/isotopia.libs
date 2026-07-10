@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn117(a,x)In110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.125051E-08
+   7.500000E+01   6.301582E-05
+   8.000000E+01   6.797273E-03
+   9.000000E+01   4.951269E-01
+   1.000000E+02   8.382191E+00
+   1.100000E+02   2.895697E+01
+   1.200000E+02   3.630400E+01
+   1.300000E+02   3.426569E+01
+   1.400000E+02   3.349834E+01
+   1.500000E+02   3.675325E+01
+   1.600000E+02   3.745304E+01
+   1.800000E+02   2.956611E+01
+   2.000000E+02   2.451639E+01

@@ -1,0 +1,47 @@
+# header: 
+#   title: Cs137(a,x)Xe131m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 131
+#     nuclide: Xe131m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.695092E-10
+   6.000000E+01   4.671199E-06
+   6.500000E+01   7.724147E-04
+   7.000000E+01   1.162787E-02
+   7.500000E+01   8.329687E-02
+   8.000000E+01   4.916647E-01
+   9.000000E+01   3.413399E+00
+   1.000000E+02   4.550609E+00
+   1.100000E+02   3.623104E+00
+   1.200000E+02   3.434183E+00
+   1.300000E+02   3.406993E+00
+   1.400000E+02   2.955001E+00
+   1.500000E+02   3.175745E+00
+   1.600000E+02   3.293728E+00
+   1.800000E+02   2.147024E+00
+   2.000000E+02   2.660054E+00

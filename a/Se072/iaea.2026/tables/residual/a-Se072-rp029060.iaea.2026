@@ -1,0 +1,42 @@
+# header: 
+#   title: Se72(a,x)Cu60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.771128E-11
+   7.500000E+01   6.869234E-08
+   8.000000E+01   5.335417E-06
+   9.000000E+01   5.818892E-04
+   1.000000E+02   1.117701E-02
+   1.100000E+02   8.482902E-02
+   1.200000E+02   2.211321E-01
+   1.300000E+02   4.045094E-01
+   1.400000E+02   1.107002E+00
+   1.500000E+02   3.824669E+00
+   1.600000E+02   7.704695E+00
+   1.800000E+02   2.047200E+01
+   2.000000E+02   4.084560E+01

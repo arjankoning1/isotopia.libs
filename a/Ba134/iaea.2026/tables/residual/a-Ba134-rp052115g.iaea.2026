@@ -1,0 +1,35 @@
+# header: 
+#   title: Ba134(a,x)Te115g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   5.732095E-10
+   1.600000E+02   1.884555E-06
+   1.800000E+02   8.846398E-03
+   2.000000E+02   4.602901E-01

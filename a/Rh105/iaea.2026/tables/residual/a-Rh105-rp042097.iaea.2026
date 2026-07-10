@@ -1,0 +1,46 @@
+# header: 
+#   title: Rh105(a,x)Mo97 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 97
+#     nuclide: Mo97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.490750E-12
+   5.500000E+01   9.112547E-09
+   6.000000E+01   2.096102E-06
+   6.500000E+01   1.179921E-04
+   7.000000E+01   6.132145E-03
+   7.500000E+01   6.999112E-02
+   8.000000E+01   3.231921E-01
+   9.000000E+01   1.009019E+00
+   1.000000E+02   7.922146E-01
+   1.100000E+02   6.370395E-01
+   1.200000E+02   6.864170E-01
+   1.300000E+02   1.140042E+00
+   1.400000E+02   1.318255E+00
+   1.500000E+02   1.417509E+00
+   1.600000E+02   1.332329E+00
+   1.800000E+02   8.284888E-01
+   2.000000E+02   8.464100E-01

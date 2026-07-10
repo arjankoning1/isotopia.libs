@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr84(a,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.577779E-12
+   1.000000E+02   1.380301E-08
+   1.100000E+02   2.183740E-06
+   1.200000E+02   3.807462E-05
+   1.300000E+02   1.635966E-04
+   1.400000E+02   5.596037E-04
+   1.500000E+02   3.604424E-03
+   1.600000E+02   1.844916E-02
+   1.800000E+02   9.820477E-02
+   2.000000E+02   3.652307E-01

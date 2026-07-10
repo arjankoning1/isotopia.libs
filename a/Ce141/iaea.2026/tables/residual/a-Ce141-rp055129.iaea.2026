@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce141(a,x)Cs129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 141
+#   nuclide: Ce141
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 129
+#     nuclide: Cs129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.473224E-11
+   1.000000E+02   5.645015E-06
+   1.100000E+02   2.289638E-03
+   1.200000E+02   9.828863E-02
+   1.300000E+02   7.364222E-01
+   1.400000E+02   1.375937E+00
+   1.500000E+02   1.424054E+00
+   1.600000E+02   2.302055E+00
+   1.800000E+02   5.154066E+00
+   2.000000E+02   7.203759E+00

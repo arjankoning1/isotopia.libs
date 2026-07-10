@@ -1,0 +1,45 @@
+# header: 
+#   title: Co58(a,x)Sc45m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.180352E-12
+   7.000000E+01   1.124373E-08
+   7.500000E+01   6.441419E-07
+   8.000000E+01   3.184014E-06
+   9.000000E+01   4.810430E-05
+   1.000000E+02   1.848052E-04
+   1.100000E+02   2.035782E-03
+   1.200000E+02   2.790829E-02
+   1.300000E+02   1.398720E-01
+   1.400000E+02   3.439392E-01
+   1.500000E+02   6.413045E-01
+   1.600000E+02   1.122751E+00
+   1.800000E+02   3.350657E+00
+   2.000000E+02   6.611441E+00

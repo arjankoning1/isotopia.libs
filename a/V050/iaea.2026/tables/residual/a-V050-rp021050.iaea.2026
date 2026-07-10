@@ -1,0 +1,47 @@
+# header: 
+#   title: V50(a,x)Sc50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.196622E-09
+   5.000000E+01   2.113007E-06
+   5.500000E+01   5.069130E-05
+   6.000000E+01   2.589938E-04
+   6.500000E+01   6.986549E-04
+   7.000000E+01   1.155340E-03
+   7.500000E+01   1.469015E-03
+   8.000000E+01   1.600027E-03
+   9.000000E+01   1.321852E-03
+   1.000000E+02   1.092310E-03
+   1.100000E+02   9.104438E-04
+   1.200000E+02   4.871920E-04
+   1.300000E+02   3.509644E-04
+   1.400000E+02   2.720261E-04
+   1.500000E+02   2.359141E-04
+   1.600000E+02   1.835973E-04
+   1.800000E+02   1.365652E-04
+   2.000000E+02   3.766910E-05

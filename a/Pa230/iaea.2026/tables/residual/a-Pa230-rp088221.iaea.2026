@@ -1,0 +1,45 @@
+# header: 
+#   title: Pa230(a,x)Ra221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 221
+#     nuclide: Ra221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.370128E-12
+   6.000000E+01   5.417772E-10
+   6.500000E+01   1.346680E-07
+   7.000000E+01   1.280722E-05
+   7.500000E+01   3.480262E-04
+   8.000000E+01   4.730519E-03
+   9.000000E+01   2.075268E-01
+   1.000000E+02   2.169852E+00
+   1.100000E+02   1.899449E+00
+   1.200000E+02   1.393401E+00
+   1.300000E+02   1.523734E+00
+   1.400000E+02   1.807177E+00
+   1.500000E+02   1.324442E+00
+   1.600000E+02   1.366123E+00
+   1.800000E+02   1.222141E+00
+   2.000000E+02   3.139851E-01

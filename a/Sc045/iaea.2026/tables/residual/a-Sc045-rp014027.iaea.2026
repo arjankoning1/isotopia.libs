@@ -1,0 +1,36 @@
+# header: 
+#   title: Sc45(a,x)Si27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.014084E-09
+   1.300000E+02   1.313618E-06
+   1.400000E+02   3.957953E-05
+   1.500000E+02   3.082917E-04
+   1.600000E+02   1.229518E-03
+   1.800000E+02   9.405196E-03
+   2.000000E+02   6.271758E-02

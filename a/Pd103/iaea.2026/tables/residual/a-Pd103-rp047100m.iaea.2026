@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd103(a,x)Ag100m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 103
+#   nuclide: Pd103
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 100
+#     nuclide: Ag100m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.406536E-12
+   6.500000E+01   1.404127E-05
+   7.000000E+01   1.181797E-03
+   7.500000E+01   8.224601E-03
+   8.000000E+01   4.696539E-02
+   9.000000E+01   4.490572E-01
+   1.000000E+02   1.012463E+00
+   1.100000E+02   1.290951E+00
+   1.200000E+02   1.261184E+00
+   1.300000E+02   1.117279E+00
+   1.400000E+02   1.072835E+00
+   1.500000E+02   9.151258E-01
+   1.600000E+02   7.824122E-01
+   1.800000E+02   5.621265E-01
+   2.000000E+02   4.588758E-01

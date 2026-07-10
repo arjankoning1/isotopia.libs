@@ -1,0 +1,45 @@
+# header: 
+#   title: O16(a,x)Li6 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 6
+#     nuclide: Li6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.814826E-12
+   6.000000E+01   4.688587E-06
+   6.500000E+01   1.032906E-03
+   7.000000E+01   1.266793E-02
+   7.500000E+01   6.599763E-02
+   8.000000E+01   2.538477E-01
+   9.000000E+01   1.820370E+00
+   1.000000E+02   4.982706E+00
+   1.100000E+02   7.812537E+00
+   1.200000E+02   1.046147E+01
+   1.300000E+02   1.370005E+01
+   1.400000E+02   1.775315E+01
+   1.500000E+02   2.205788E+01
+   1.600000E+02   2.638419E+01
+   1.800000E+02   3.515776E+01
+   2.000000E+02   4.650264E+01

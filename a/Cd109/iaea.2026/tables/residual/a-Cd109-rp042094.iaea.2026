@@ -1,0 +1,40 @@
+# header: 
+#   title: Cd109(a,x)Mo94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 94
+#     nuclide: Mo94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.214967E-09
+   9.000000E+01   3.329006E-05
+   1.000000E+02   4.229965E-03
+   1.100000E+02   2.254437E-02
+   1.200000E+02   9.487886E-03
+   1.300000E+02   1.290541E-02
+   1.400000E+02   1.040752E-01
+   1.500000E+02   4.490086E-01
+   1.600000E+02   8.557674E-01
+   1.800000E+02   2.572492E+00
+   2.000000E+02   4.779785E+00

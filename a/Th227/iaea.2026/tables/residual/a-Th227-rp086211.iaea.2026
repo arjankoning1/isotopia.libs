@@ -1,0 +1,39 @@
+# header: 
+#   title: Th227(a,x)Rn211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 227
+#   nuclide: Th227
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 211
+#     nuclide: Rn211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.997868E-09
+   1.000000E+02   1.691786E-06
+   1.100000E+02   4.353158E-04
+   1.200000E+02   2.472966E-02
+   1.300000E+02   4.013649E-01
+   1.400000E+02   1.155996E+00
+   1.500000E+02   1.315887E+00
+   1.600000E+02   1.868758E+00
+   1.800000E+02   3.100571E+00
+   2.000000E+02   3.674293E+00

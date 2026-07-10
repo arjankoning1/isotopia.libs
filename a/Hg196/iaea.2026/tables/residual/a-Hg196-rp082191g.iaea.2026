@@ -1,0 +1,41 @@
+# header: 
+#   title: Hg196(a,x)Pb191g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 191
+#     nuclide: Pb191g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.445840E-05
+   1.000000E+02   5.075585E-01
+   1.100000E+02   1.272362E+01
+   1.200000E+02   2.353833E+01
+   1.300000E+02   1.162172E+01
+   1.400000E+02   5.780993E+00
+   1.500000E+02   4.610619E+00
+   1.600000E+02   4.173330E+00
+   1.800000E+02   3.322012E+00
+   2.000000E+02   2.340366E+00

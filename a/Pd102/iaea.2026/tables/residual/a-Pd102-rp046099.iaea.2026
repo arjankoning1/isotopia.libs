@@ -1,0 +1,48 @@
+# header: 
+#   title: Pd102(a,x)Pd99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 99
+#     nuclide: Pd99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.423087E-04
+   4.500000E+01   2.298340E-01
+   5.000000E+01   7.350308E+00
+   5.500000E+01   2.409486E+01
+   6.000000E+01   3.188109E+01
+   6.500000E+01   2.882615E+01
+   7.000000E+01   2.113393E+01
+   7.500000E+01   1.619180E+01
+   8.000000E+01   1.640325E+01
+   9.000000E+01   4.819814E+01
+   1.000000E+02   8.843818E+01
+   1.100000E+02   1.036872E+02
+   1.200000E+02   1.031704E+02
+   1.300000E+02   8.761982E+01
+   1.400000E+02   7.485418E+01
+   1.500000E+02   6.146079E+01
+   1.600000E+02   4.949393E+01
+   1.800000E+02   3.586082E+01
+   2.000000E+02   2.599781E+01

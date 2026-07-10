@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb208(a,x)Tl202 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 202
+#     nuclide: Tl202
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.531152E-09
+   6.000000E+01   1.759046E-04
+   6.500000E+01   8.092368E-03
+   7.000000E+01   5.788894E-02
+   7.500000E+01   4.753561E-01
+   8.000000E+01   1.619861E+00
+   9.000000E+01   1.778746E+00
+   1.000000E+02   1.216493E+00
+   1.100000E+02   1.205794E+00
+   1.200000E+02   1.035170E+00
+   1.300000E+02   9.605504E-01
+   1.400000E+02   8.198106E-01
+   1.500000E+02   8.897606E-01
+   1.600000E+02   1.135707E+00
+   1.800000E+02   1.086956E+00
+   2.000000E+02   1.588093E+00

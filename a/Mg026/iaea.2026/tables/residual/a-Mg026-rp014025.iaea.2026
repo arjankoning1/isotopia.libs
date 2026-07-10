@@ -1,0 +1,42 @@
+# header: 
+#   title: Mg26(a,x)Si25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 25
+#     nuclide: Si25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.920116E-07
+   7.500000E+01   3.975005E-05
+   8.000000E+01   3.777422E-04
+   9.000000E+01   2.957416E-03
+   1.000000E+02   6.358434E-03
+   1.100000E+02   7.783379E-03
+   1.200000E+02   7.341974E-03
+   1.300000E+02   6.101328E-03
+   1.400000E+02   4.750622E-03
+   1.500000E+02   3.606529E-03
+   1.600000E+02   2.717701E-03
+   1.800000E+02   1.556939E-03
+   2.000000E+02   9.323767E-04

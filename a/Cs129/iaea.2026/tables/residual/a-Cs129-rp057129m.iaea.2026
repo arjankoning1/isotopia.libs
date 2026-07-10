@@ -1,0 +1,50 @@
+# header: 
+#   title: Cs129(a,x)La129m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 129
+#     nuclide: La129m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.256365E+00
+   4.500000E+01   1.313470E+02
+   5.000000E+01   3.497706E+02
+   5.500000E+01   4.070002E+02
+   6.000000E+01   3.025864E+02
+   6.500000E+01   1.698927E+02
+   7.000000E+01   1.017331E+02
+   7.500000E+01   7.558585E+01
+   8.000000E+01   6.211413E+01
+   9.000000E+01   4.417735E+01
+   1.000000E+02   3.125534E+01
+   1.100000E+02   2.153481E+01
+   1.200000E+02   1.495233E+01
+   1.300000E+02   1.068881E+01
+   1.400000E+02   7.636918E+00
+   1.500000E+02   5.403471E+00
+   1.600000E+02   3.843433E+00
+   1.800000E+02   1.911668E+00
+   2.000000E+02   9.971944E-01

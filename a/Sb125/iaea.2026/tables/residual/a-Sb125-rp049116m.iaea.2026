@@ -1,0 +1,45 @@
+# header: 
+#   title: Sb125(a,x)In116m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 116
+#     nuclide: In116m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.784434E-11
+   7.000000E+01   3.155997E-07
+   7.500000E+01   1.745544E-04
+   8.000000E+01   7.208035E-03
+   9.000000E+01   2.448039E-01
+   1.000000E+02   6.135153E-01
+   1.100000E+02   5.247496E-01
+   1.200000E+02   5.921519E-01
+   1.300000E+02   9.374905E-01
+   1.400000E+02   1.316950E+00
+   1.500000E+02   1.284709E+00
+   1.600000E+02   1.390322E+00
+   1.800000E+02   1.474857E+00
+   2.000000E+02   9.914308E-01

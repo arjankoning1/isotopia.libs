@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca41(a,x)S31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 31
+#     nuclide: S31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.433856E-08
+   6.500000E+01   2.075149E-05
+   7.000000E+01   5.124537E-04
+   7.500000E+01   3.217435E-03
+   8.000000E+01   1.179839E-02
+   9.000000E+01   4.163963E-02
+   1.000000E+02   6.416151E-02
+   1.100000E+02   1.002256E-01
+   1.200000E+02   2.689916E-01
+   1.300000E+02   6.675774E-01
+   1.400000E+02   1.217313E+00
+   1.500000E+02   1.807401E+00
+   1.600000E+02   2.728018E+00
+   1.800000E+02   6.369686E+00
+   2.000000E+02   9.971373E+00

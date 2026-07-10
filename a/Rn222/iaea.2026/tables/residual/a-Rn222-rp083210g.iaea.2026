@@ -1,0 +1,46 @@
+# header: 
+#   title: Rn222(a,x)Bi210g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.623827E-10
+   6.500000E+01   2.296140E-08
+   7.000000E+01   2.580546E-07
+   7.500000E+01   8.971430E-06
+   8.000000E+01   1.214495E-04
+   9.000000E+01   2.667404E-03
+   1.000000E+02   5.941721E-02
+   1.100000E+02   3.073942E-01
+   1.200000E+02   6.676570E-01
+   1.300000E+02   7.454835E-01
+   1.400000E+02   6.218551E-01
+   1.500000E+02   4.788360E-01
+   1.600000E+02   5.380563E-01
+   1.800000E+02   6.122524E-01
+   2.000000E+02   2.195611E-01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Os191(a,x)W182 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 191
+#   nuclide: Os191
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 182
+#     nuclide: W182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.713523E-11
+   6.500000E+01   2.057476E-07
+   7.000000E+01   6.611524E-05
+   7.500000E+01   2.947917E-03
+   8.000000E+01   2.848744E-02
+   9.000000E+01   1.975745E-01
+   1.000000E+02   2.022460E-01
+   1.100000E+02   1.474197E-01
+   1.200000E+02   1.778607E-01
+   1.300000E+02   1.890671E-01
+   1.400000E+02   2.112956E-01
+   1.500000E+02   2.002856E-01
+   1.600000E+02   1.299654E-01
+   1.800000E+02   1.539886E-01
+   2.000000E+02   2.645215E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ar40(a,x)Cl34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.306346E-06
+   7.000000E+01   1.522453E-03
+   7.500000E+01   2.360352E-02
+   8.000000E+01   1.061082E-01
+   9.000000E+01   8.857976E-01
+   1.000000E+02   4.544570E+00
+   1.100000E+02   1.058497E+01
+   1.200000E+02   1.527625E+01
+   1.300000E+02   1.678319E+01
+   1.400000E+02   1.796236E+01
+   1.500000E+02   2.020976E+01
+   1.600000E+02   2.308804E+01
+   1.800000E+02   2.221812E+01
+   2.000000E+02   1.911241E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Bk245(a,x)Am236 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 245
+#   nuclide: Bk245
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.399767E-10
+   8.000000E+01   1.264654E-08
+   9.000000E+01   8.351515E-07
+   1.000000E+02   8.257443E-06
+   1.100000E+02   1.012636E-05
+   1.200000E+02   1.239173E-05
+   1.300000E+02   1.473527E-05
+   1.400000E+02   2.231157E-05
+   1.500000E+02   4.194268E-05
+   1.600000E+02   1.216441E-04
+   1.800000E+02   9.609896E-06
+   2.000000E+02   2.047169E-07

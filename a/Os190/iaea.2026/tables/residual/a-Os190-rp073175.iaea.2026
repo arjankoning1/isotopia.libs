@@ -1,0 +1,37 @@
+# header: 
+#   title: Os190(a,x)Ta175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 175
+#     nuclide: Ta175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.564002E-12
+   1.200000E+02   1.834777E-07
+   1.300000E+02   2.046120E-04
+   1.400000E+02   1.162707E-02
+   1.500000E+02   1.468658E-01
+   1.600000E+02   5.993326E-01
+   1.800000E+02   1.604546E+00
+   2.000000E+02   1.731970E+00

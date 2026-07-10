@@ -1,0 +1,43 @@
+# header: 
+#   title: Tc95m(a,x)Sr83m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.972956E-12
+   8.000000E+01   2.976033E-09
+   9.000000E+01   1.663151E-05
+   1.000000E+02   3.979543E-03
+   1.100000E+02   2.664140E-02
+   1.200000E+02   7.308457E-02
+   1.300000E+02   1.270622E-01
+   1.400000E+02   2.430261E-01
+   1.500000E+02   5.523638E-01
+   1.600000E+02   1.201159E+00
+   1.800000E+02   2.242235E+00
+   2.000000E+02   4.013577E+00

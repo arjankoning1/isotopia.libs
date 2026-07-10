@@ -1,0 +1,44 @@
+# header: 
+#   title: Ra224(a,x)Th220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 220
+#     nuclide: Th220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.242550E-12
+   6.500000E+01   5.357900E-05
+   7.000000E+01   1.446654E-02
+   7.500000E+01   4.190978E-01
+   8.000000E+01   4.090457E+00
+   9.000000E+01   4.337038E+01
+   1.000000E+02   8.291669E+01
+   1.100000E+02   6.052765E+01
+   1.200000E+02   2.736734E+01
+   1.300000E+02   1.338684E+01
+   1.400000E+02   8.164642E+00
+   1.500000E+02   7.081351E+00
+   1.600000E+02   6.198922E+00
+   1.800000E+02   3.523554E+00
+   2.000000E+02   2.060933E+00

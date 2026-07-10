@@ -1,0 +1,39 @@
+# header: 
+#   title: Po208(a,x)At200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 84
+#   A: 208
+#   nuclide: Po208
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 200
+#     nuclide: At200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.670857E-08
+   1.200000E+02   2.215221E-03
+   1.300000E+02   1.738065E-01
+   1.400000E+02   2.242597E+00
+   1.500000E+02   9.098291E+00
+   1.600000E+02   1.301264E+01
+   1.800000E+02   1.472093E+01
+   2.000000E+02   2.062487E+01

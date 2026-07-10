@@ -1,0 +1,45 @@
+# header: 
+#   title: Pu239(a,x)Am236 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 236
+#     nuclide: Am236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.926727E-09
+   6.000000E+01   8.394883E-06
+   6.500000E+01   1.948204E-04
+   7.000000E+01   5.449794E-04
+   7.500000E+01   7.183928E-04
+   8.000000E+01   6.981567E-04
+   9.000000E+01   6.860683E-04
+   1.000000E+02   8.362311E-04
+   1.100000E+02   1.251207E-03
+   1.200000E+02   9.904399E-04
+   1.300000E+02   1.524490E-03
+   1.400000E+02   2.101052E-03
+   1.500000E+02   2.357760E-03
+   1.600000E+02   1.396542E-03
+   1.800000E+02   2.250610E-03
+   2.000000E+02   6.188838E-03

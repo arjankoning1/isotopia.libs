@@ -1,0 +1,33 @@
+# header: 
+#   title: Sb119(a,x)Cd102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 119
+#   nuclide: Sb119
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 102
+#     nuclide: Cd102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 4
+##       E             xs
+##     [MeV]          [mb]
+   1.500000E+02   4.596763E-11
+   1.600000E+02   6.194275E-07
+   1.800000E+02   4.951007E-03
+   2.000000E+02   3.219471E-01

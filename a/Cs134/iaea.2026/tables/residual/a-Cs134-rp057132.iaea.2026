@@ -1,0 +1,45 @@
+# header: 
+#   title: Cs134(a,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.682806E-01
+   6.000000E+01   5.268955E+01
+   6.500000E+01   3.268846E+02
+   7.000000E+01   6.628306E+02
+   7.500000E+01   7.599491E+02
+   8.000000E+01   6.118480E+02
+   9.000000E+01   2.641115E+02
+   1.000000E+02   1.582894E+02
+   1.100000E+02   1.137862E+02
+   1.200000E+02   8.347527E+01
+   1.300000E+02   6.067734E+01
+   1.400000E+02   4.429423E+01
+   1.500000E+02   3.254124E+01
+   1.600000E+02   2.285518E+01
+   1.800000E+02   1.143890E+01
+   2.000000E+02   6.696122E+00

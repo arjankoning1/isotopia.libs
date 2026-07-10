@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm240(a,x)Th227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 227
+#     nuclide: Th227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.753668E-12
+   8.000000E+01   2.589267E-10
+   9.000000E+01   1.445778E-07
+   1.000000E+02   1.539369E-06
+   1.100000E+02   4.091161E-06
+   1.200000E+02   2.477469E-05
+   1.300000E+02   1.105182E-04
+   1.400000E+02   2.645665E-04
+   1.500000E+02   2.465288E-04
+   1.600000E+02   1.483155E-04
+   1.800000E+02   1.603665E-04
+   2.000000E+02   3.778362E-05

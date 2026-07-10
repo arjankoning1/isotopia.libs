@@ -1,0 +1,46 @@
+# header: 
+#   title: Zr92(a,x)Zr87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 87
+#     nuclide: Zr87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.151388E-09
+   6.500000E+01   1.476987E-04
+   7.000000E+01   1.980473E-02
+   7.500000E+01   2.493092E-01
+   8.000000E+01   8.847724E-01
+   9.000000E+01   1.925246E+00
+   1.000000E+02   1.613052E+00
+   1.100000E+02   2.133317E+00
+   1.200000E+02   4.241038E+00
+   1.300000E+02   6.853525E+00
+   1.400000E+02   9.020358E+00
+   1.500000E+02   9.819039E+00
+   1.600000E+02   8.672002E+00
+   1.800000E+02   6.516920E+00
+   2.000000E+02   4.695669E+00

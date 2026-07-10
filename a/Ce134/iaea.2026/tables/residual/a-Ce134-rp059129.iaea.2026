@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce134(a,x)Pr129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 129
+#     nuclide: Pr129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.095254E-06
+   1.000000E+02   1.354258E-02
+   1.100000E+02   6.178666E-01
+   1.200000E+02   6.296565E+00
+   1.300000E+02   1.479949E+01
+   1.400000E+02   1.940254E+01
+   1.500000E+02   2.197735E+01
+   1.600000E+02   2.335350E+01
+   1.800000E+02   1.969396E+01
+   2.000000E+02   1.659893E+01

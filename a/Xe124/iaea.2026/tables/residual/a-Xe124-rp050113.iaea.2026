@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe124(a,x)Sn113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.227597E-12
+   6.500000E+01   8.739555E-09
+   7.000000E+01   3.278455E-06
+   7.500000E+01   2.137613E-04
+   8.000000E+01   3.827535E-03
+   9.000000E+01   8.313321E-02
+   1.000000E+02   1.917232E-01
+   1.100000E+02   1.495007E-01
+   1.200000E+02   4.674308E-01
+   1.300000E+02   1.562079E+00
+   1.400000E+02   2.154007E+00
+   1.500000E+02   2.500051E+00
+   1.600000E+02   2.828238E+00
+   1.800000E+02   5.815100E+00
+   2.000000E+02   3.852035E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu149(a,x)Ce135m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 149
+#   nuclide: Eu149
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.329285E-10
+   1.000000E+02   2.080035E-06
+   1.100000E+02   2.618266E-04
+   1.200000E+02   6.155333E-03
+   1.300000E+02   2.584089E-02
+   1.400000E+02   3.068276E-02
+   1.500000E+02   3.494453E-02
+   1.600000E+02   5.483910E-02
+   1.800000E+02   9.597263E-02
+   2.000000E+02   1.876681E-01

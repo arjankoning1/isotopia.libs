@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi205(a,x)Bi199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 199
+#     nuclide: Bi199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.327015E-10
+   6.500000E+01   3.047369E-06
+   7.000000E+01   1.715467E-03
+   7.500000E+01   1.569602E-01
+   8.000000E+01   3.358455E+00
+   9.000000E+01   4.684598E+01
+   1.000000E+02   6.395540E+01
+   1.100000E+02   3.606883E+01
+   1.200000E+02   3.702243E+01
+   1.300000E+02   4.771192E+01
+   1.400000E+02   4.540129E+01
+   1.500000E+02   4.856173E+01
+   1.600000E+02   3.844013E+01
+   1.800000E+02   4.212145E+01
+   2.000000E+02   2.550627E+01

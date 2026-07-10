@@ -1,0 +1,44 @@
+# header: 
+#   title: Cu67(a,x)Fe58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 58
+#     nuclide: Fe58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.854257E-09
+   6.500000E+01   5.074318E-06
+   7.000000E+01   4.042679E-04
+   7.500000E+01   5.378942E-03
+   8.000000E+01   3.351128E-02
+   9.000000E+01   4.500655E-01
+   1.000000E+02   1.041487E+00
+   1.100000E+02   1.789533E+00
+   1.200000E+02   2.585677E+00
+   1.300000E+02   4.059323E+00
+   1.400000E+02   8.533017E+00
+   1.500000E+02   1.486559E+01
+   1.600000E+02   1.875945E+01
+   1.800000E+02   2.482358E+01
+   2.000000E+02   2.605648E+01

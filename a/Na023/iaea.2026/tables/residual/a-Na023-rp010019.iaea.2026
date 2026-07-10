@@ -1,0 +1,47 @@
+# header: 
+#   title: Na23(a,x)Ne19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 19
+#     nuclide: Ne19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.263435E-07
+   5.000000E+01   1.068245E-02
+   5.500000E+01   1.391548E-01
+   6.000000E+01   4.252575E-01
+   6.500000E+01   1.003434E+00
+   7.000000E+01   2.426381E+00
+   7.500000E+01   5.164535E+00
+   8.000000E+01   8.765627E+00
+   9.000000E+01   1.489161E+01
+   1.000000E+02   1.705711E+01
+   1.100000E+02   1.729840E+01
+   1.200000E+02   1.848271E+01
+   1.300000E+02   2.053404E+01
+   1.400000E+02   2.203000E+01
+   1.500000E+02   2.175484E+01
+   1.600000E+02   2.035610E+01
+   1.800000E+02   1.527074E+01
+   2.000000E+02   1.091885E+01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Mn54(a,x)Cr47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 47
+#     nuclide: Cr47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.565217E-07
+   1.000000E+02   7.210720E-05
+   1.100000E+02   1.464216E-03
+   1.200000E+02   1.212014E-02
+   1.300000E+02   3.644997E-02
+   1.400000E+02   6.489943E-02
+   1.500000E+02   9.006014E-02
+   1.600000E+02   1.180961E-01
+   1.800000E+02   1.598553E-01
+   2.000000E+02   1.408987E-01

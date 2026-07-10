@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr85(a,x)Kr75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 75
+#     nuclide: Kr75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.081274E-11
+   1.000000E+02   2.880030E-05
+   1.100000E+02   7.105849E-03
+   1.200000E+02   8.481454E-02
+   1.300000E+02   2.737695E-01
+   1.400000E+02   5.376905E-01
+   1.500000E+02   1.219189E+00
+   1.600000E+02   3.589459E+00
+   1.800000E+02   1.276019E+01
+   2.000000E+02   2.998531E+01

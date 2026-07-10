@@ -1,0 +1,39 @@
+# header: 
+#   title: Np238(a,x)Th225 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 225
+#     nuclide: Th225
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.422055E-12
+   1.000000E+02   5.503070E-06
+   1.100000E+02   1.257071E-02
+   1.200000E+02   2.825682E-01
+   1.300000E+02   2.144344E+00
+   1.400000E+02   5.419646E+00
+   1.500000E+02   7.250240E+00
+   1.600000E+02   7.966063E+00
+   1.800000E+02   7.240004E+00
+   2.000000E+02   5.289819E+00

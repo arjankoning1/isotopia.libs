@@ -1,0 +1,39 @@
+# header: 
+#   title: Ir193m(a,x)W179m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 179
+#     nuclide: W179m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.382707E-08
+   1.200000E+02   3.240577E-05
+   1.300000E+02   1.295156E-03
+   1.400000E+02   1.657444E-02
+   1.500000E+02   4.754153E-02
+   1.600000E+02   7.008683E-02
+   1.800000E+02   5.953291E-02
+   2.000000E+02   4.168411E-02

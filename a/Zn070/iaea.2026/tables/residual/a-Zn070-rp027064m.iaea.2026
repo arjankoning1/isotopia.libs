@@ -1,0 +1,49 @@
+# header: 
+#   title: Zn70(a,x)Co64m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 64
+#     nuclide: Co64m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.356476E-12
+   5.000000E+01   7.180248E-09
+   5.500000E+01   1.037820E-06
+   6.000000E+01   2.153415E-05
+   6.500000E+01   1.561489E-04
+   7.000000E+01   4.548159E-04
+   7.500000E+01   6.942598E-04
+   8.000000E+01   6.338353E-04
+   9.000000E+01   5.442432E-04
+   1.000000E+02   9.365184E-04
+   1.100000E+02   2.524828E-03
+   1.200000E+02   4.023926E-03
+   1.300000E+02   5.432567E-03
+   1.400000E+02   4.873661E-03
+   1.500000E+02   5.309922E-03
+   1.600000E+02   6.321483E-03
+   1.800000E+02   1.773046E-03
+   2.000000E+02   7.775021E-04

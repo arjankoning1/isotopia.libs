@@ -1,0 +1,45 @@
+# header: 
+#   title: Nb92(a,x)Rb85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 85
+#     nuclide: Rb85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.621873E-10
+   6.000000E+01   3.320558E-08
+   6.500000E+01   2.676789E-06
+   7.000000E+01   7.566224E-05
+   7.500000E+01   7.142594E-04
+   8.000000E+01   3.179418E-03
+   9.000000E+01   1.399001E-02
+   1.000000E+02   1.578522E-02
+   1.100000E+02   1.467531E-02
+   1.200000E+02   2.529635E-02
+   1.300000E+02   4.937720E-02
+   1.400000E+02   7.712267E-02
+   1.500000E+02   7.967613E-02
+   1.600000E+02   8.263745E-02
+   1.800000E+02   1.412559E-01
+   2.000000E+02   9.323950E-02

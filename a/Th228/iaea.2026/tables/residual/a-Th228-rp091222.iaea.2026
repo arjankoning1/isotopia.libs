@@ -1,0 +1,40 @@
+# header: 
+#   title: Th228(a,x)Pa222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 228
+#   nuclide: Th228
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 222
+#     nuclide: Pa222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.170933E-08
+   9.000000E+01   5.283445E-03
+   1.000000E+02   3.560134E-01
+   1.100000E+02   1.646359E+00
+   1.200000E+02   3.125729E+00
+   1.300000E+02   3.658308E+00
+   1.400000E+02   3.767385E+00
+   1.500000E+02   2.515425E+00
+   1.600000E+02   2.435112E+00
+   1.800000E+02   3.004370E+00
+   2.000000E+02   4.472691E+00

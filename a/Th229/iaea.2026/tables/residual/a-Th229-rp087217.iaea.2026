@@ -1,0 +1,41 @@
+# header: 
+#   title: Th229(a,x)Fr217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 217
+#     nuclide: Fr217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.020943E-10
+   8.000000E+01   2.647350E-08
+   9.000000E+01   1.030547E-04
+   1.000000E+02   5.067042E-02
+   1.100000E+02   1.094438E+00
+   1.200000E+02   3.482826E+00
+   1.300000E+02   7.260477E+00
+   1.400000E+02   6.256014E+00
+   1.500000E+02   2.998190E+00
+   1.600000E+02   2.981748E+00
+   1.800000E+02   2.573844E+00
+   2.000000E+02   2.758331E+00

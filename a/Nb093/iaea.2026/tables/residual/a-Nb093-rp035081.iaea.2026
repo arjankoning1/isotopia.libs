@@ -1,0 +1,44 @@
+# header: 
+#   title: Nb93(a,x)Br81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 81
+#     nuclide: Br81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.493787E-11
+   6.500000E+01   3.510276E-09
+   7.000000E+01   9.488505E-08
+   7.500000E+01   9.973066E-07
+   8.000000E+01   4.772142E-06
+   9.000000E+01   9.862231E-06
+   1.000000E+02   6.882209E-06
+   1.100000E+02   1.087836E-04
+   1.200000E+02   5.190718E-04
+   1.300000E+02   1.622406E-03
+   1.400000E+02   2.371238E-03
+   1.500000E+02   5.375169E-03
+   1.600000E+02   1.503763E-02
+   1.800000E+02   4.493018E-02
+   2.000000E+02   4.498094E-02

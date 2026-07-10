@@ -1,0 +1,43 @@
+# header: 
+#   title: Sr87(a,x)Y83g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 83
+#     nuclide: Y83g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   5.656188E-07
+   8.000000E+01   1.467358E-03
+   9.000000E+01   2.129593E-01
+   1.000000E+02   2.829041E+00
+   1.100000E+02   1.536578E+01
+   1.200000E+02   3.309490E+01
+   1.300000E+02   4.196230E+01
+   1.400000E+02   4.372321E+01
+   1.500000E+02   3.948532E+01
+   1.600000E+02   3.201409E+01
+   1.800000E+02   2.416243E+01
+   2.000000E+02   1.658980E+01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Au198(a,x)Au192g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 192
+#     nuclide: Au192g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.668095E-09
+   6.500000E+01   1.918211E-05
+   7.000000E+01   6.225350E-03
+   7.500000E+01   1.916040E-01
+   8.000000E+01   1.329124E+00
+   9.000000E+01   5.126001E+00
+   1.000000E+02   7.625905E+00
+   1.100000E+02   1.012679E+01
+   1.200000E+02   1.180257E+01
+   1.300000E+02   1.432184E+01
+   1.400000E+02   1.341014E+01
+   1.500000E+02   1.577531E+01
+   1.600000E+02   1.435977E+01
+   1.800000E+02   1.206289E+01
+   2.000000E+02   1.408098E+01

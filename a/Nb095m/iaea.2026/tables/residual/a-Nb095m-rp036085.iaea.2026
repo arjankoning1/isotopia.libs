@@ -1,0 +1,44 @@
+# header: 
+#   title: Nb95m(a,x)Kr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.140128E-11
+   6.500000E+01   1.070824E-08
+   7.000000E+01   1.274615E-06
+   7.500000E+01   2.242286E-05
+   8.000000E+01   1.485022E-04
+   9.000000E+01   7.663285E-04
+   1.000000E+02   7.781639E-04
+   1.100000E+02   8.401898E-04
+   1.200000E+02   1.923371E-03
+   1.300000E+02   5.026416E-03
+   1.400000E+02   8.283511E-03
+   1.500000E+02   1.180816E-02
+   1.600000E+02   1.674185E-02
+   1.800000E+02   2.482321E-02
+   2.000000E+02   4.227244E-02

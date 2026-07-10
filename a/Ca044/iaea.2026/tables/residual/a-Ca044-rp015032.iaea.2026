@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca44(a,x)P32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.983810E-08
+   7.500000E+01   1.738260E-05
+   8.000000E+01   3.844834E-04
+   9.000000E+01   6.347347E-03
+   1.000000E+02   8.654253E-02
+   1.100000E+02   3.799728E-01
+   1.200000E+02   8.179765E-01
+   1.300000E+02   1.201813E+00
+   1.400000E+02   2.058076E+00
+   1.500000E+02   4.167329E+00
+   1.600000E+02   8.160732E+00
+   1.800000E+02   1.815311E+01
+   2.000000E+02   3.118785E+01

@@ -1,0 +1,45 @@
+# header: 
+#   title: K39(a,x)Si32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 32
+#     nuclide: Si32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.920425E-09
+   6.000000E+01   5.267819E-06
+   6.500000E+01   2.676919E-04
+   7.000000E+01   2.148996E-03
+   7.500000E+01   6.761738E-03
+   8.000000E+01   1.431124E-02
+   9.000000E+01   3.811291E-02
+   1.000000E+02   4.709386E-02
+   1.100000E+02   5.553767E-02
+   1.200000E+02   8.635253E-02
+   1.300000E+02   1.435491E-01
+   1.400000E+02   1.996692E-01
+   1.500000E+02   2.369785E-01
+   1.600000E+02   2.512694E-01
+   1.800000E+02   2.939904E-01
+   2.000000E+02   2.681992E-01

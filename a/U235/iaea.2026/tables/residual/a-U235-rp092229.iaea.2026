@@ -1,0 +1,44 @@
+# header: 
+#   title: U235(a,x)U229 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 229
+#     nuclide: U229
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.480197E-09
+   6.500000E+01   2.985671E-06
+   7.000000E+01   4.515968E-04
+   7.500000E+01   8.849249E-03
+   8.000000E+01   4.940693E-02
+   9.000000E+01   2.408303E-01
+   1.000000E+02   3.477254E-01
+   1.100000E+02   2.777087E-01
+   1.200000E+02   3.226896E-01
+   1.300000E+02   6.072188E-01
+   1.400000E+02   7.328459E-01
+   1.500000E+02   5.714619E-01
+   1.600000E+02   3.291775E-01
+   1.800000E+02   1.882304E+00
+   2.000000E+02   2.990904E+00

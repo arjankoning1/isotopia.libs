@@ -1,0 +1,46 @@
+# header: 
+#   title: Ru98(a,x)Ru93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 98
+#   nuclide: Ru98
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 93
+#     nuclide: Ru93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.382833E-16
+   6.500000E+01   4.904233E-09
+   7.000000E+01   1.588217E-05
+   7.500000E+01   3.675416E-04
+   8.000000E+01   1.173268E-03
+   9.000000E+01   2.347126E-03
+   1.000000E+02   3.276752E-03
+   1.100000E+02   8.085793E-03
+   1.200000E+02   2.586656E-02
+   1.300000E+02   5.336211E-02
+   1.400000E+02   7.794498E-02
+   1.500000E+02   7.990817E-02
+   1.600000E+02   8.159691E-02
+   1.800000E+02   5.937585E-02
+   2.000000E+02   5.857565E-02

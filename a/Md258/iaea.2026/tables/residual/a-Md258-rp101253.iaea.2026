@@ -1,0 +1,44 @@
+# header: 
+#   title: Md258(a,x)Md253 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 101
+#   A: 258
+#   nuclide: Md258
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 101
+#     A: 253
+#     nuclide: Md253
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.326152E-11
+   6.500000E+01   2.409322E-10
+   7.000000E+01   1.154075E-09
+   7.500000E+01   2.240823E-09
+   8.000000E+01   3.815840E-09
+   9.000000E+01   4.815139E-09
+   1.000000E+02   8.206961E-09
+   1.100000E+02   1.315575E-08
+   1.200000E+02   1.482938E-08
+   1.300000E+02   5.138232E-08
+   1.400000E+02   2.541496E-07
+   1.500000E+02   5.043218E-07
+   1.600000E+02   1.001796E-06
+   1.800000E+02   1.530903E-05
+   2.000000E+02   2.605568E-07

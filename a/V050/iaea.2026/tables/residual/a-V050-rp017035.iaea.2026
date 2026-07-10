@@ -1,0 +1,40 @@
+# header: 
+#   title: V50(a,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.508230E-12
+   9.000000E+01   1.450130E-06
+   1.000000E+02   2.757019E-04
+   1.100000E+02   2.935198E-03
+   1.200000E+02   9.824990E-03
+   1.300000E+02   2.550364E-02
+   1.400000E+02   1.160030E-01
+   1.500000E+02   4.210275E-01
+   1.600000E+02   1.088073E+00
+   1.800000E+02   4.079989E+00
+   2.000000E+02   1.236502E+01

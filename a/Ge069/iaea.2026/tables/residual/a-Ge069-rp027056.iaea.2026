@@ -1,0 +1,40 @@
+# header: 
+#   title: Ge69(a,x)Co56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 69
+#   nuclide: Ge69
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.098566E-10
+   9.000000E+01   7.611974E-06
+   1.000000E+02   1.073998E-03
+   1.100000E+02   4.160085E-02
+   1.200000E+02   3.796448E-01
+   1.300000E+02   1.128221E+00
+   1.400000E+02   2.038225E+00
+   1.500000E+02   3.290681E+00
+   1.600000E+02   7.024193E+00
+   1.800000E+02   2.047903E+01
+   2.000000E+02   4.208563E+01

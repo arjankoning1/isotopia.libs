@@ -1,0 +1,47 @@
+# header: 
+#   title: Ni61(a,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.242977E-08
+   5.000000E+01   9.972839E-06
+   5.500000E+01   2.423766E-04
+   6.000000E+01   1.964568E-03
+   6.500000E+01   1.119035E-02
+   7.000000E+01   4.403735E-02
+   7.500000E+01   1.159781E-01
+   8.000000E+01   2.024769E-01
+   9.000000E+01   3.191847E-01
+   1.000000E+02   3.220992E-01
+   1.100000E+02   2.562602E-01
+   1.200000E+02   1.888721E-01
+   1.300000E+02   1.442801E-01
+   1.400000E+02   1.014694E-01
+   1.500000E+02   8.222959E-02
+   1.600000E+02   5.739597E-02
+   1.800000E+02   3.835653E-02
+   2.000000E+02   2.509304E-02

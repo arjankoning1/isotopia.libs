@@ -1,0 +1,40 @@
+# header: 
+#   title: Pm145(a,x)Pr133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 133
+#     nuclide: Pr133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.724143E-09
+   1.100000E+02   6.025340E-04
+   1.200000E+02   2.406452E-01
+   1.300000E+02   3.342900E+00
+   1.400000E+02   8.011262E+00
+   1.500000E+02   8.520575E+00
+   1.600000E+02   1.195959E+01
+   1.800000E+02   3.197063E+01
+   2.000000E+02   5.341500E+01

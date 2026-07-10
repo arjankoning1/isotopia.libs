@@ -1,0 +1,50 @@
+# header: 
+#   title: Mn55(a,x)Mn52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.408797E-06
+   4.500000E+01   3.062151E-02
+   5.000000E+01   8.065066E-01
+   5.500000E+01   2.755819E+00
+   6.000000E+01   4.097650E+00
+   6.500000E+01   4.335966E+00
+   7.000000E+01   4.071953E+00
+   7.500000E+01   3.877307E+00
+   8.000000E+01   4.169563E+00
+   9.000000E+01   9.164191E+00
+   1.000000E+02   2.093346E+01
+   1.100000E+02   2.967593E+01
+   1.200000E+02   3.112471E+01
+   1.300000E+02   2.773544E+01
+   1.400000E+02   2.349995E+01
+   1.500000E+02   1.939845E+01
+   1.600000E+02   1.537973E+01
+   1.800000E+02   1.123769E+01
+   2.000000E+02   8.287260E+00
