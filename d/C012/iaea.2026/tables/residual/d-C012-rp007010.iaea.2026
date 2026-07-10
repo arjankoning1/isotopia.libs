@@ -1,0 +1,42 @@
+# header: 
+#   title: C12(d,x)N10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 10
+#     nuclide: N10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.775903E-10
+   7.500000E+01   2.439011E-07
+   8.000000E+01   2.012379E-06
+   9.000000E+01   1.101552E-05
+   1.000000E+02   2.140053E-05
+   1.100000E+02   3.088785E-05
+   1.200000E+02   4.038606E-05
+   1.300000E+02   5.479678E-05
+   1.400000E+02   7.251411E-05
+   1.500000E+02   9.269149E-05
+   1.600000E+02   1.141719E-04
+   1.800000E+02   1.446196E-04
+   2.000000E+02   1.577894E-04

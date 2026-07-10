@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca42(d,x)Ar33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 33
+#     nuclide: Ar33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.090997E-12
+   9.000000E+01   7.610118E-08
+   1.000000E+02   2.484379E-06
+   1.100000E+02   1.858841E-05
+   1.200000E+02   6.711458E-05
+   1.300000E+02   1.406676E-04
+   1.400000E+02   2.091046E-04
+   1.500000E+02   2.726299E-04
+   1.600000E+02   3.464635E-04
+   1.800000E+02   5.112062E-04
+   2.000000E+02   7.666087E-04

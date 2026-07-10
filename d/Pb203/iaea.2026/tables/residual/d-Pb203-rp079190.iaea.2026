@@ -1,0 +1,42 @@
+# header: 
+#   title: Pb203(d,x)Au190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 190
+#     nuclide: Au190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.914875E-12
+   7.500000E+01   3.257652E-08
+   8.000000E+01   2.684933E-05
+   9.000000E+01   7.750088E-02
+   1.000000E+02   1.969338E+00
+   1.100000E+02   4.093581E+00
+   1.200000E+02   2.752776E+00
+   1.300000E+02   2.400971E+00
+   1.400000E+02   3.570377E+00
+   1.500000E+02   2.931480E+00
+   1.600000E+02   2.674383E+00
+   1.800000E+02   2.689161E+00
+   2.000000E+02   4.411424E+00

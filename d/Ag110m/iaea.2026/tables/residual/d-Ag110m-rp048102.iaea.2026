@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag110m(d,x)Cd102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 102
+#     nuclide: Cd102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.575174E-10
+   9.000000E+01   7.070419E-04
+   1.000000E+02   5.384579E-02
+   1.100000E+02   1.987276E-01
+   1.200000E+02   1.953007E-01
+   1.300000E+02   3.013884E-01
+   1.400000E+02   4.040815E-01
+   1.500000E+02   5.988108E-01
+   1.600000E+02   9.591020E-01
+   1.800000E+02   2.221109E+00
+   2.000000E+02   3.249976E+00

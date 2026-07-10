@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca47(d,x)Al28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.588979E-12
+   1.000000E+02   1.061642E-07
+   1.100000E+02   1.608706E-05
+   1.200000E+02   1.850184E-04
+   1.300000E+02   8.851598E-04
+   1.400000E+02   3.418998E-03
+   1.500000E+02   1.436330E-02
+   1.600000E+02   5.556782E-02
+   1.800000E+02   2.381102E-01
+   2.000000E+02   6.221040E-01

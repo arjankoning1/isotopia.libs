@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd154(d,x)Pm139m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 154
+#   nuclide: Gd154
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.220437E-09
+   1.000000E+02   2.061597E-04
+   1.100000E+02   2.609056E-02
+   1.200000E+02   1.604359E-01
+   1.300000E+02   6.394806E-01
+   1.400000E+02   1.365609E+00
+   1.500000E+02   1.170159E+00
+   1.600000E+02   2.871216E+00
+   1.800000E+02   7.659512E+00
+   2.000000E+02   9.677064E+00

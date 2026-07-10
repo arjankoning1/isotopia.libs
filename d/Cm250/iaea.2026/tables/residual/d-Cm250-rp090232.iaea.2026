@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm250(d,x)Th232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 250
+#   nuclide: Cm250
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 232
+#     nuclide: Th232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.162654E-09
+   1.000000E+02   3.607215E-06
+   1.100000E+02   1.427290E-04
+   1.200000E+02   6.005460E-04
+   1.300000E+02   1.512999E-03
+   1.400000E+02   2.542923E-03
+   1.500000E+02   2.523953E-03
+   1.600000E+02   2.022938E-03
+   1.800000E+02   8.440755E-04
+   2.000000E+02   9.612672E-04

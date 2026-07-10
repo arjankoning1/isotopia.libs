@@ -1,0 +1,38 @@
+# header: 
+#   title: Ag107(d,x)Y87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.015909E-09
+   1.100000E+02   4.572577E-07
+   1.200000E+02   1.088211E-05
+   1.300000E+02   1.247590E-04
+   1.400000E+02   7.286234E-04
+   1.500000E+02   2.027397E-03
+   1.600000E+02   5.155870E-03
+   1.800000E+02   3.416304E-02
+   2.000000E+02   1.089390E-01

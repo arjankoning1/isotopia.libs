@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd142(d,x)Cs128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 128
+#     nuclide: Cs128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.136081E-11
+   7.000000E+01   1.777846E-07
+   7.500000E+01   2.574560E-05
+   8.000000E+01   7.835762E-04
+   9.000000E+01   1.901439E-02
+   1.000000E+02   3.662096E-02
+   1.100000E+02   1.975940E-02
+   1.200000E+02   4.004780E-02
+   1.300000E+02   7.164539E-02
+   1.400000E+02   5.586250E-02
+   1.500000E+02   6.864991E-02
+   1.600000E+02   8.333808E-02
+   1.800000E+02   9.745400E-02
+   2.000000E+02   1.367712E-01

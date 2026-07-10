@@ -1,0 +1,40 @@
+# header: 
+#   title: Kr81(d,x)Cu63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.803552E-10
+   9.000000E+01   1.507232E-06
+   1.000000E+02   1.557278E-05
+   1.100000E+02   1.321074E-04
+   1.200000E+02   6.455085E-04
+   1.300000E+02   1.027641E-02
+   1.400000E+02   9.075923E-02
+   1.500000E+02   3.519238E-01
+   1.600000E+02   7.911916E-01
+   1.800000E+02   1.678475E+00
+   2.000000E+02   2.811678E+00

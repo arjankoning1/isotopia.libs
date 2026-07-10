@@ -1,0 +1,40 @@
+# header: 
+#   title: Y87(d,x)Kr75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 75
+#     nuclide: Kr75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.607987E-10
+   9.000000E+01   1.096496E-04
+   1.000000E+02   5.441519E-03
+   1.100000E+02   2.232582E-02
+   1.200000E+02   5.984450E-02
+   1.300000E+02   1.213333E-01
+   1.400000E+02   3.157711E-01
+   1.500000E+02   7.646337E-01
+   1.600000E+02   1.688272E+00
+   1.800000E+02   4.144268E+00
+   2.000000E+02   6.065594E+00

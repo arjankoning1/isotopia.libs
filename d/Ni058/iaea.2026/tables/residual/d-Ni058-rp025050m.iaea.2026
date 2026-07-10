@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni58(d,x)Mn50m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.045960E-07
+   4.500000E+01   2.282341E-03
+   5.000000E+01   6.123581E-02
+   5.500000E+01   1.629470E-01
+   6.000000E+01   1.557425E-01
+   6.500000E+01   9.086496E-02
+   7.000000E+01   4.825633E-02
+   7.500000E+01   3.756176E-02
+   8.000000E+01   4.592269E-02
+   9.000000E+01   1.348765E-01
+   1.000000E+02   2.890063E-01
+   1.100000E+02   4.241074E-01
+   1.200000E+02   5.615106E-01
+   1.300000E+02   7.282334E-01
+   1.400000E+02   1.083533E+00
+   1.500000E+02   1.355704E+00
+   1.600000E+02   1.618974E+00
+   1.800000E+02   2.939394E+00
+   2.000000E+02   2.543359E+00

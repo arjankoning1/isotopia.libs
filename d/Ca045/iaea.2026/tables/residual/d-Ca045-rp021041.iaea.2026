@@ -1,0 +1,46 @@
+# header: 
+#   title: Ca45(d,x)Sc41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 41
+#     nuclide: Sc41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.906029E-11
+   5.500000E+01   3.632212E-05
+   6.000000E+01   1.280891E-03
+   6.500000E+01   6.286095E-03
+   7.000000E+01   1.327714E-02
+   7.500000E+01   1.903362E-02
+   8.000000E+01   2.423390E-02
+   9.000000E+01   3.113784E-02
+   1.000000E+02   3.903881E-02
+   1.100000E+02   4.974957E-02
+   1.200000E+02   6.102851E-02
+   1.300000E+02   6.789014E-02
+   1.400000E+02   7.025508E-02
+   1.500000E+02   6.816071E-02
+   1.600000E+02   5.933355E-02
+   1.800000E+02   4.323030E-02
+   2.000000E+02   2.614626E-02

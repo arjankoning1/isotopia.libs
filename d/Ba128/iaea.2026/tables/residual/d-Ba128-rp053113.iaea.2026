@@ -1,0 +1,37 @@
+# header: 
+#   title: Ba128(d,x)I113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 113
+#     nuclide: I113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.960119E-11
+   1.200000E+02   5.341499E-07
+   1.300000E+02   9.934974E-06
+   1.400000E+02   1.797593E-04
+   1.500000E+02   9.956115E-04
+   1.600000E+02   2.769122E-03
+   1.800000E+02   1.440712E-02
+   2.000000E+02   6.375436E-02

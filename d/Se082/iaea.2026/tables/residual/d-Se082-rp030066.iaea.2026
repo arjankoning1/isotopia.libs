@@ -1,0 +1,38 @@
+# header: 
+#   title: Se82(d,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.063565E-08
+   1.100000E+02   2.049064E-05
+   1.200000E+02   1.338659E-03
+   1.300000E+02   2.271578E-02
+   1.400000E+02   1.465421E-01
+   1.500000E+02   4.964717E-01
+   1.600000E+02   9.790153E-01
+   1.800000E+02   2.765342E+00
+   2.000000E+02   5.895135E+00

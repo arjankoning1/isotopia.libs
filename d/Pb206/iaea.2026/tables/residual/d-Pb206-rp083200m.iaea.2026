@@ -1,0 +1,46 @@
+# header: 
+#   title: Pb206(d,x)Bi200m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 200
+#     nuclide: Bi200m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.038460E-04
+   6.500000E+01   4.381470E-01
+   7.000000E+01   5.611972E+00
+   7.500000E+01   1.492484E+01
+   8.000000E+01   1.816103E+01
+   9.000000E+01   1.020908E+01
+   1.000000E+02   8.934862E+00
+   1.100000E+02   1.267913E+01
+   1.200000E+02   1.678827E+01
+   1.300000E+02   2.791970E+01
+   1.400000E+02   2.710572E+01
+   1.500000E+02   2.358196E+01
+   1.600000E+02   1.899562E+01
+   1.800000E+02   7.560740E+00
+   2.000000E+02   4.397818E+00

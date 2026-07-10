@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo93(d,x)Br76g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 93
+#   nuclide: Mo93
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.488962E-13
+   8.000000E+01   1.319915E-09
+   9.000000E+01   1.800081E-05
+   1.000000E+02   2.891313E-04
+   1.100000E+02   4.509041E-04
+   1.200000E+02   1.138559E-03
+   1.300000E+02   2.437703E-03
+   1.400000E+02   1.015435E-02
+   1.500000E+02   2.826545E-02
+   1.600000E+02   5.486440E-02
+   1.800000E+02   1.752915E-01
+   2.000000E+02   3.884296E-01

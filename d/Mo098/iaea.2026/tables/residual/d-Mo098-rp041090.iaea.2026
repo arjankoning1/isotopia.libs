@@ -1,0 +1,46 @@
+# header: 
+#   title: Mo98(d,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   9.741236E-12
+   5.500000E+01   2.303658E-05
+   6.000000E+01   4.462474E-02
+   6.500000E+01   1.275378E+00
+   7.000000E+01   6.098074E+00
+   7.500000E+01   1.335838E+01
+   8.000000E+01   1.819290E+01
+   9.000000E+01   1.735565E+01
+   1.000000E+02   2.090764E+01
+   1.100000E+02   3.636044E+01
+   1.200000E+02   6.149700E+01
+   1.300000E+02   8.404524E+01
+   1.400000E+02   1.044347E+02
+   1.500000E+02   1.106760E+02
+   1.600000E+02   1.422426E+02
+   1.800000E+02   1.761941E+02
+   2.000000E+02   2.575580E+02

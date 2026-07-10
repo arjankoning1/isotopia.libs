@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr82(d,x)Kr72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 72
+#     nuclide: Kr72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.068466E-09
+   1.000000E+02   9.500805E-08
+   1.100000E+02   2.320192E-06
+   1.200000E+02   1.385597E-05
+   1.300000E+02   3.652400E-05
+   1.400000E+02   6.625247E-05
+   1.500000E+02   1.133835E-04
+   1.600000E+02   2.111273E-04
+   1.800000E+02   5.555599E-04
+   2.000000E+02   1.090082E-03

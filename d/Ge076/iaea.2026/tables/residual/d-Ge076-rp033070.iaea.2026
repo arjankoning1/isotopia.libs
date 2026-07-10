@@ -1,0 +1,43 @@
+# header: 
+#   title: Ge76(d,x)As70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 70
+#     nuclide: As70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.617315E-08
+   7.000000E+01   2.508900E-04
+   7.500000E+01   1.489830E-02
+   8.000000E+01   1.316825E-01
+   9.000000E+01   7.365811E-01
+   1.000000E+02   7.768528E-01
+   1.100000E+02   7.683929E-01
+   1.200000E+02   1.013047E+00
+   1.300000E+02   1.352593E+00
+   1.400000E+02   1.990285E+00
+   1.500000E+02   2.569218E+00
+   1.600000E+02   3.299268E+00
+   1.800000E+02   3.861545E+00
+   2.000000E+02   3.979847E+00

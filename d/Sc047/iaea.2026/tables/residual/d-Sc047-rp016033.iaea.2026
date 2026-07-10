@@ -1,0 +1,44 @@
+# header: 
+#   title: Sc47(d,x)S33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.649345E-12
+   6.500000E+01   1.222896E-07
+   7.000000E+01   3.421667E-05
+   7.500000E+01   5.799877E-04
+   8.000000E+01   2.311127E-03
+   9.000000E+01   1.000954E-02
+   1.000000E+02   2.830225E-02
+   1.100000E+02   9.013288E-02
+   1.200000E+02   3.161287E-01
+   1.300000E+02   9.496809E-01
+   1.400000E+02   1.843416E+00
+   1.500000E+02   2.894634E+00
+   1.600000E+02   4.151178E+00
+   1.800000E+02   9.385132E+00
+   2.000000E+02   1.519538E+01

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ce143(d,x)Cs131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 143
+#   nuclide: Ce143
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 131
+#     nuclide: Cs131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.596708E-08
+   6.500000E+01   5.073778E-05
+   7.000000E+01   5.738455E-03
+   7.500000E+01   9.251129E-02
+   8.000000E+01   4.683884E-01
+   9.000000E+01   1.555240E+00
+   1.000000E+02   1.143370E+00
+   1.100000E+02   1.041103E+00
+   1.200000E+02   2.083552E+00
+   1.300000E+02   2.790751E+00
+   1.400000E+02   3.001176E+00
+   1.500000E+02   3.711413E+00
+   1.600000E+02   3.675237E+00
+   1.800000E+02   4.966856E+00
+   2.000000E+02   5.492745E+00

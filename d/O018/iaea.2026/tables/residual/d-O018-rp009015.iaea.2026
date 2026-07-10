@@ -1,0 +1,45 @@
+# header: 
+#   title: O18(d,x)F15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 15
+#     nuclide: F15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.505435E-08
+   6.000000E+01   1.789427E-06
+   6.500000E+01   1.134391E-05
+   7.000000E+01   3.471489E-05
+   7.500000E+01   7.180715E-05
+   8.000000E+01   1.172793E-04
+   9.000000E+01   1.992882E-04
+   1.000000E+02   2.334177E-04
+   1.100000E+02   2.356232E-04
+   1.200000E+02   2.301593E-04
+   1.300000E+02   2.310041E-04
+   1.400000E+02   2.193647E-04
+   1.500000E+02   2.245839E-04
+   1.600000E+02   2.452366E-04
+   1.800000E+02   2.234990E-04
+   2.000000E+02   2.379087E-04

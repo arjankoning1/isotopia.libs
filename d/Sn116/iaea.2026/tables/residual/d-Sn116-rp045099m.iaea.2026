@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn116(d,x)Rh99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.690358E-12
+   1.000000E+02   8.775338E-06
+   1.100000E+02   1.041338E-02
+   1.200000E+02   1.641700E-01
+   1.300000E+02   2.293185E-01
+   1.400000E+02   5.594952E-01
+   1.500000E+02   9.706569E-01
+   1.600000E+02   1.639830E+00
+   1.800000E+02   5.254572E+00
+   2.000000E+02   1.086265E+01

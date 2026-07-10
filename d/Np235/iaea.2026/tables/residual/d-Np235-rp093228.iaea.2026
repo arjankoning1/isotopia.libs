@@ -1,0 +1,45 @@
+# header: 
+#   title: Np235(d,x)Np228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 228
+#     nuclide: Np228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.063552E-11
+   6.000000E+01   2.001574E-07
+   6.500000E+01   2.188966E-05
+   7.000000E+01   2.078955E-04
+   7.500000E+01   6.762770E-04
+   8.000000E+01   1.340531E-03
+   9.000000E+01   2.054432E-03
+   1.000000E+02   3.951851E-03
+   1.100000E+02   2.553593E-03
+   1.200000E+02   2.399787E-03
+   1.300000E+02   4.613589E-03
+   1.400000E+02   1.242923E-02
+   1.500000E+02   2.411121E-02
+   1.600000E+02   2.787154E-02
+   1.800000E+02   2.237375E-04
+   2.000000E+02   1.679423E-04

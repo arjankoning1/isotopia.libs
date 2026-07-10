@@ -1,0 +1,49 @@
+# header: 
+#   title: Hg203(d,x)Ir193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 203
+#   nuclide: Hg203
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 193
+#     nuclide: Ir193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   8.597895E-11
+   5.000000E+01   1.374801E-07
+   5.500000E+01   1.470406E-05
+   6.000000E+01   2.224667E-04
+   6.500000E+01   9.176141E-04
+   7.000000E+01   1.529924E-03
+   7.500000E+01   1.543610E-03
+   8.000000E+01   9.841257E-04
+   9.000000E+01   9.206245E-04
+   1.000000E+02   2.531524E-03
+   1.100000E+02   4.958506E-03
+   1.200000E+02   8.426210E-03
+   1.300000E+02   1.186550E-02
+   1.400000E+02   1.116615E-02
+   1.500000E+02   1.663125E-02
+   1.600000E+02   3.170475E-02
+   1.800000E+02   1.339375E-01
+   2.000000E+02   9.607098E-02

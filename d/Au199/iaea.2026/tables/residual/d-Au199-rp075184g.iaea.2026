@@ -1,0 +1,41 @@
+# header: 
+#   title: Au199(d,x)Re184g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.855620E-08
+   1.000000E+02   1.517530E-05
+   1.100000E+02   7.240858E-04
+   1.200000E+02   4.956921E-03
+   1.300000E+02   9.279913E-03
+   1.400000E+02   6.312006E-03
+   1.500000E+02   5.421721E-03
+   1.600000E+02   6.966261E-03
+   1.800000E+02   1.117777E-02
+   2.000000E+02   1.845145E-01

@@ -1,0 +1,37 @@
+# header: 
+#   title: Ni61(d,x)Cr47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 47
+#     nuclide: Cr47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.713376E-08
+   1.200000E+02   1.039051E-05
+   1.300000E+02   1.133649E-04
+   1.400000E+02   5.174293E-04
+   1.500000E+02   1.324027E-03
+   1.600000E+02   2.609708E-03
+   1.800000E+02   7.023341E-03
+   2.000000E+02   1.369826E-02

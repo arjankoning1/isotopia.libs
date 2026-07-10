@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd146(d,x)Eu136g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 136
+#     nuclide: Eu136g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.152328E-11
+   1.000000E+02   1.359292E-06
+   1.100000E+02   7.381169E-05
+   1.200000E+02   4.209029E-04
+   1.300000E+02   2.238787E-03
+   1.400000E+02   2.405711E-03
+   1.500000E+02   8.194474E-03
+   1.600000E+02   1.790690E-02
+   1.800000E+02   7.253742E-02
+   2.000000E+02   1.691682E-01

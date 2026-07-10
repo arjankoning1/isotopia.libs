@@ -1,0 +1,48 @@
+# header: 
+#   title: Mg25(d,x)O19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.060939E-05
+   4.500000E+01   6.782742E-03
+   5.000000E+01   2.439394E-02
+   5.500000E+01   8.677610E-02
+   6.000000E+01   2.431769E-01
+   6.500000E+01   4.610227E-01
+   7.000000E+01   6.630986E-01
+   7.500000E+01   8.062671E-01
+   8.000000E+01   8.905370E-01
+   9.000000E+01   9.727975E-01
+   1.000000E+02   1.057361E+00
+   1.100000E+02   1.161155E+00
+   1.200000E+02   1.251673E+00
+   1.300000E+02   1.294269E+00
+   1.400000E+02   1.301812E+00
+   1.500000E+02   1.256613E+00
+   1.600000E+02   1.206883E+00
+   1.800000E+02   1.043726E+00
+   2.000000E+02   9.035411E-01

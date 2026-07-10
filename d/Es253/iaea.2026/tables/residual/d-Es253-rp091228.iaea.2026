@@ -1,0 +1,35 @@
+# header: 
+#   title: Es253(d,x)Pa228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 253
+#   nuclide: Es253
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 228
+#     nuclide: Pa228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   2.777101E-11
+   1.400000E+02   1.064496E-07
+   1.500000E+02   4.194668E-06
+   1.600000E+02   4.339772E-05
+   1.800000E+02   1.414135E-04
+   2.000000E+02   1.592117E-04

@@ -1,0 +1,38 @@
+# header: 
+#   title: Rn222(d,x)At206 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 206
+#     nuclide: At206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.698294E-11
+   1.100000E+02   1.877600E-06
+   1.200000E+02   2.620680E-03
+   1.300000E+02   1.605776E-01
+   1.400000E+02   1.722444E+00
+   1.500000E+02   6.095616E+00
+   1.600000E+02   8.014447E+00
+   1.800000E+02   3.256013E+00
+   2.000000E+02   1.028538E+01

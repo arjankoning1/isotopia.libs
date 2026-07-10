@@ -1,0 +1,43 @@
+# header: 
+#   title: Rb86(d,x)Ge72 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 86
+#   nuclide: Rb86
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 72
+#     nuclide: Ge72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.230531E-09
+   7.000000E+01   2.742871E-06
+   7.500000E+01   2.876496E-04
+   8.000000E+01   4.902796E-03
+   9.000000E+01   6.685627E-02
+   1.000000E+02   7.828231E-02
+   1.100000E+02   2.712707E-02
+   1.200000E+02   6.772497E-02
+   1.300000E+02   1.999519E-01
+   1.400000E+02   4.211277E-01
+   1.500000E+02   6.301346E-01
+   1.600000E+02   7.726136E-01
+   1.800000E+02   1.498558E+00
+   2.000000E+02   1.902136E+00

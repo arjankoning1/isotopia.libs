@@ -1,0 +1,47 @@
+# header: 
+#   title: Am241(d,x)U231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 231
+#     nuclide: U231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.738645E-09
+   5.000000E+01   1.508154E-06
+   5.500000E+01   1.637600E-04
+   6.000000E+01   1.358165E-03
+   6.500000E+01   5.414577E-03
+   7.000000E+01   8.406716E-03
+   7.500000E+01   1.091003E-02
+   8.000000E+01   1.109829E-02
+   9.000000E+01   1.159139E-02
+   1.000000E+02   2.704491E-02
+   1.100000E+02   2.377623E-02
+   1.200000E+02   2.485138E-02
+   1.300000E+02   5.569592E-02
+   1.400000E+02   7.182396E-02
+   1.500000E+02   9.828165E-03
+   1.600000E+02   3.320704E-03
+   1.800000E+02   9.427927E-04
+   2.000000E+02   1.400959E-04

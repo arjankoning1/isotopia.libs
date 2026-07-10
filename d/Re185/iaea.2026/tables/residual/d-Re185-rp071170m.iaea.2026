@@ -1,0 +1,43 @@
+# header: 
+#   title: Re185(d,x)Lu170m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 170
+#     nuclide: Lu170m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.628541E-12
+   8.000000E+01   1.694348E-09
+   9.000000E+01   1.127221E-06
+   1.000000E+02   4.005849E-05
+   1.100000E+02   6.749287E-04
+   1.200000E+02   3.723247E-03
+   1.300000E+02   7.210789E-03
+   1.400000E+02   6.194708E-03
+   1.500000E+02   4.337762E-03
+   1.600000E+02   5.807800E-03
+   1.800000E+02   6.932193E-03
+   2.000000E+02   1.148831E-02

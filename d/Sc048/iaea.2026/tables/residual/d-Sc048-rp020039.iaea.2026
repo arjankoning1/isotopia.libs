@@ -1,0 +1,41 @@
+# header: 
+#   title: Sc48(d,x)Ca39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 39
+#     nuclide: Ca39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.655160E-09
+   8.000000E+01   9.377370E-07
+   9.000000E+01   2.136878E-04
+   1.000000E+02   1.971843E-03
+   1.100000E+02   5.705488E-03
+   1.200000E+02   1.155215E-02
+   1.300000E+02   2.319700E-02
+   1.400000E+02   4.611140E-02
+   1.500000E+02   7.289213E-02
+   1.600000E+02   9.758924E-02
+   1.800000E+02   1.443447E-01
+   2.000000E+02   1.875824E-01

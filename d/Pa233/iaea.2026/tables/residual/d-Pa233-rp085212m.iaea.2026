@@ -1,0 +1,41 @@
+# header: 
+#   title: Pa233(d,x)At212m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 233
+#   nuclide: Pa233
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 212
+#     nuclide: At212m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.872789E-11
+   1.000000E+02   6.615028E-08
+   1.100000E+02   2.742220E-05
+   1.200000E+02   2.269350E-03
+   1.300000E+02   3.584889E-02
+   1.400000E+02   1.160804E-01
+   1.500000E+02   2.250097E-01
+   1.600000E+02   2.259646E-01
+   1.800000E+02   8.313598E-02
+   2.000000E+02   9.137097E-02

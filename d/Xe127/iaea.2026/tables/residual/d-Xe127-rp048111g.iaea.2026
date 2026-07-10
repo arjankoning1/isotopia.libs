@@ -1,0 +1,42 @@
+# header: 
+#   title: Xe127(d,x)Cd111g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 127
+#   nuclide: Xe127
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.454868E-11
+   9.000000E+01   2.941520E-07
+   1.000000E+02   1.142000E-04
+   1.100000E+02   1.190174E-03
+   1.200000E+02   1.998859E-03
+   1.300000E+02   1.455055E-03
+   1.400000E+02   2.540203E-03
+   1.500000E+02   4.858666E-03
+   1.600000E+02   9.761127E-03
+   1.800000E+02   1.710128E-02
+   2.000000E+02   2.507106E-02

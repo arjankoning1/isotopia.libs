@@ -1,0 +1,40 @@
+# header: 
+#   title: Xe132(d,x)Sb116m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 132
+#   nuclide: Xe132
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 116
+#     nuclide: Sb116m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.699768E-13
+   1.100000E+02   1.265535E-06
+   1.200000E+02   1.186397E-03
+   1.300000E+02   2.141942E-02
+   1.400000E+02   5.423618E-03
+   1.500000E+02   2.139739E-02
+   1.600000E+02   9.397448E-02
+   1.800000E+02   7.939444E-01
+   2.000000E+02   2.140429E+00

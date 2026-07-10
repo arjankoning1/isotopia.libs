@@ -1,0 +1,38 @@
+# header: 
+#   title: Cd113(d,x)Cd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 103
+#     nuclide: Cd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.840786E-06
+   1.100000E+02   1.915555E-03
+   1.200000E+02   2.786201E-02
+   1.300000E+02   1.413809E-01
+   1.400000E+02   4.497162E-01
+   1.500000E+02   9.170799E-01
+   1.600000E+02   1.383280E+00
+   1.800000E+02   2.904565E+00
+   2.000000E+02   5.794284E+00

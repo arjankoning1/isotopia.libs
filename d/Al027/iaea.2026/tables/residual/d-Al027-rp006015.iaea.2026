@@ -1,0 +1,45 @@
+# header: 
+#   title: Al27(d,x)C15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 15
+#     nuclide: C15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.819215E-08
+   6.000000E+01   5.109814E-05
+   6.500000E+01   1.134315E-03
+   7.000000E+01   5.513296E-03
+   7.500000E+01   1.297812E-02
+   8.000000E+01   2.078792E-02
+   9.000000E+01   3.368052E-02
+   1.000000E+02   5.994162E-02
+   1.100000E+02   1.135207E-01
+   1.200000E+02   1.766258E-01
+   1.300000E+02   2.416897E-01
+   1.400000E+02   3.318727E-01
+   1.500000E+02   4.046960E-01
+   1.600000E+02   5.474587E-01
+   1.800000E+02   6.512644E-01
+   2.000000E+02   9.134518E-01

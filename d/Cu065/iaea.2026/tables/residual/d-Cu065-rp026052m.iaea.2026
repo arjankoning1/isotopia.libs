@@ -1,0 +1,41 @@
+# header: 
+#   title: Cu65(d,x)Fe52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.400006E-16
+   1.000000E+02   5.017919E-09
+   1.100000E+02   2.673803E-06
+   1.200000E+02   4.525653E-05
+   1.300000E+02   1.681954E-04
+   1.400000E+02   3.532509E-04
+   1.500000E+02   6.240832E-04
+   1.600000E+02   1.125341E-03
+   1.800000E+02   2.772496E-03
+   2.000000E+02   5.243511E-03

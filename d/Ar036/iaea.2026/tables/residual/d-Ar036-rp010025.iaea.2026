@@ -1,0 +1,39 @@
+# header: 
+#   title: Ar36(d,x)Ne25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 36
+#   nuclide: Ar36
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 25
+#     nuclide: Ne25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.444288E-11
+   1.000000E+02   1.939510E-08
+   1.100000E+02   3.126202E-07
+   1.200000E+02   1.535706E-06
+   1.300000E+02   5.183837E-06
+   1.400000E+02   1.499949E-05
+   1.500000E+02   3.334472E-05
+   1.600000E+02   6.769332E-05
+   1.800000E+02   2.102036E-04
+   2.000000E+02   4.688150E-04

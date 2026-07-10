@@ -1,0 +1,38 @@
+# header: 
+#   title: Es255(d,x)Np236 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 236
+#     nuclide: Np236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.019240E-09
+   1.100000E+02   2.098587E-07
+   1.200000E+02   3.223111E-06
+   1.300000E+02   3.657978E-05
+   1.400000E+02   6.128033E-05
+   1.500000E+02   8.315768E-05
+   1.600000E+02   1.120954E-04
+   1.800000E+02   1.395801E-04
+   2.000000E+02   2.524251E-04

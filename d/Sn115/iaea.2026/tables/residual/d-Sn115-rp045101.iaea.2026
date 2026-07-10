@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn115(d,x)Rh101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.478751E-10
+   6.500000E+01   6.650494E-07
+   7.000000E+01   4.305841E-04
+   7.500000E+01   2.176499E-02
+   8.000000E+01   2.617050E-01
+   9.000000E+01   2.231612E+00
+   1.000000E+02   2.527731E+00
+   1.100000E+02   9.754373E-01
+   1.200000E+02   8.033849E-01
+   1.300000E+02   1.324643E+00
+   1.400000E+02   2.323510E+00
+   1.500000E+02   3.220938E+00
+   1.600000E+02   4.289632E+00
+   1.800000E+02   6.405340E+00
+   2.000000E+02   6.791338E+00

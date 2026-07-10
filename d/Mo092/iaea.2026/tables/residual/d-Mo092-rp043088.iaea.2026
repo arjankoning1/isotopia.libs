@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo92(d,x)Tc88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 88
+#     nuclide: Tc88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.059501E-06
+   7.000000E+01   2.216383E-04
+   7.500000E+01   1.443858E-03
+   8.000000E+01   2.973501E-03
+   9.000000E+01   3.419272E-03
+   1.000000E+02   3.543716E-03
+   1.100000E+02   4.715641E-03
+   1.200000E+02   6.425488E-03
+   1.300000E+02   7.878322E-03
+   1.400000E+02   9.385465E-03
+   1.500000E+02   1.001169E-02
+   1.600000E+02   9.802318E-03
+   1.800000E+02   8.882274E-03
+   2.000000E+02   6.179349E-03

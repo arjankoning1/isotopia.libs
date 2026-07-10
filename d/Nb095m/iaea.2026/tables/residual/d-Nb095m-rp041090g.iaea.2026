@@ -1,0 +1,49 @@
+# header: 
+#   title: Nb95m(d,x)Nb90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   9.905270E-05
+   5.000000E+01   7.129387E-02
+   5.500000E+01   7.022347E-01
+   6.000000E+01   6.347930E+00
+   6.500000E+01   3.020490E+01
+   7.000000E+01   7.132556E+01
+   7.500000E+01   1.067786E+02
+   8.000000E+01   1.215850E+02
+   9.000000E+01   1.156644E+02
+   1.000000E+02   1.291767E+02
+   1.100000E+02   1.632244E+02
+   1.200000E+02   1.984587E+02
+   1.300000E+02   2.211793E+02
+   1.400000E+02   2.337276E+02
+   1.500000E+02   2.173036E+02
+   1.600000E+02   1.993848E+02
+   1.800000E+02   1.269579E+02
+   2.000000E+02   7.552261E+01

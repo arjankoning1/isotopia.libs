@@ -1,0 +1,51 @@
+# header: 
+#   title: Sr90(d,x)Y87g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.095230E+00
+   4.000000E+01   2.655420E+01
+   4.500000E+01   7.511438E+01
+   5.000000E+01   1.021702E+02
+   5.500000E+01   9.586772E+01
+   6.000000E+01   7.771897E+01
+   6.500000E+01   6.864637E+01
+   7.000000E+01   6.904589E+01
+   7.500000E+01   7.221318E+01
+   8.000000E+01   7.483294E+01
+   9.000000E+01   7.257403E+01
+   1.000000E+02   6.163200E+01
+   1.100000E+02   4.861771E+01
+   1.200000E+02   3.441943E+01
+   1.300000E+02   2.344114E+01
+   1.400000E+02   1.616156E+01
+   1.500000E+02   1.127342E+01
+   1.600000E+02   8.182512E+00
+   1.800000E+02   4.915697E+00
+   2.000000E+02   3.329229E+00

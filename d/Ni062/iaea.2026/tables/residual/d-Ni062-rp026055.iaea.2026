@@ -1,0 +1,48 @@
+# header: 
+#   title: Ni62(d,x)Fe55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   8.250019E-08
+   4.500000E+01   6.165883E-04
+   5.000000E+01   2.277246E-02
+   5.500000E+01   3.136327E-01
+   6.000000E+01   3.175643E+00
+   6.500000E+01   1.119967E+01
+   7.000000E+01   2.119684E+01
+   7.500000E+01   2.793195E+01
+   8.000000E+01   3.075933E+01
+   9.000000E+01   3.365180E+01
+   1.000000E+02   4.492847E+01
+   1.100000E+02   6.478777E+01
+   1.200000E+02   8.413366E+01
+   1.300000E+02   9.976056E+01
+   1.400000E+02   1.097141E+02
+   1.500000E+02   1.100115E+02
+   1.600000E+02   1.109309E+02
+   1.800000E+02   1.263000E+02
+   2.000000E+02   1.203722E+02

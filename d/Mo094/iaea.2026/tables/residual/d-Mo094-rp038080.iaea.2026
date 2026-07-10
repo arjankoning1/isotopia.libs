@@ -1,0 +1,38 @@
+# header: 
+#   title: Mo94(d,x)Sr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 80
+#     nuclide: Sr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.118203E-06
+   1.100000E+02   2.175739E-04
+   1.200000E+02   7.854324E-03
+   1.300000E+02   8.632592E-02
+   1.400000E+02   3.481643E-01
+   1.500000E+02   7.176495E-01
+   1.600000E+02   1.435421E+00
+   1.800000E+02   4.245367E+00
+   2.000000E+02   8.441350E+00

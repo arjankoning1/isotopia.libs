@@ -1,0 +1,39 @@
+# header: 
+#   title: S35(d,x)N18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 18
+#     nuclide: N18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.794257E-10
+   1.000000E+02   2.854907E-08
+   1.100000E+02   4.303015E-07
+   1.200000E+02   1.748126E-06
+   1.300000E+02   3.809320E-06
+   1.400000E+02   9.260588E-06
+   1.500000E+02   2.950865E-05
+   1.600000E+02   8.098827E-05
+   1.800000E+02   3.030401E-04
+   2.000000E+02   6.553727E-04

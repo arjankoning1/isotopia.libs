@@ -1,0 +1,44 @@
+# header: 
+#   title: Te118(d,x)Ag104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 118
+#   nuclide: Te118
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.832452E-12
+   6.500000E+01   2.198335E-08
+   7.000000E+01   2.528786E-05
+   7.500000E+01   2.010041E-03
+   8.000000E+01   3.401941E-02
+   9.000000E+01   3.870377E-01
+   1.000000E+02   5.497321E-01
+   1.100000E+02   5.279846E-01
+   1.200000E+02   1.387667E+00
+   1.300000E+02   2.607353E+00
+   1.400000E+02   5.233688E+00
+   1.500000E+02   6.987739E+00
+   1.600000E+02   8.358143E+00
+   1.800000E+02   1.598338E+01
+   2.000000E+02   1.998546E+01

@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti47(d,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.575804E-11
+   9.000000E+01   6.389218E-09
+   1.000000E+02   8.184610E-08
+   1.100000E+02   2.326820E-07
+   1.200000E+02   5.299792E-07
+   1.300000E+02   2.016601E-06
+   1.400000E+02   7.016751E-06
+   1.500000E+02   1.585429E-05
+   1.600000E+02   2.956232E-05
+   1.800000E+02   7.496420E-05
+   2.000000E+02   1.476141E-04

@@ -1,0 +1,43 @@
+# header: 
+#   title: K41(d,x)Na25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.700818E-09
+   7.000000E+01   5.242682E-07
+   7.500000E+01   8.412630E-06
+   8.000000E+01   4.990552E-05
+   9.000000E+01   3.878695E-04
+   1.000000E+02   9.699565E-04
+   1.100000E+02   1.577723E-03
+   1.200000E+02   4.190916E-03
+   1.300000E+02   1.061067E-02
+   1.400000E+02   2.003141E-02
+   1.500000E+02   3.283559E-02
+   1.600000E+02   5.120936E-02
+   1.800000E+02   1.184315E-01
+   2.000000E+02   2.389285E-01

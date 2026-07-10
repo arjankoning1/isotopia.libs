@@ -1,0 +1,43 @@
+# header: 
+#   title: Bi207(d,x)Po200 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 200
+#     nuclide: Po200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.602751E-09
+   7.000000E+01   8.368714E-04
+   7.500000E+01   3.066003E-01
+   8.000000E+01   1.033907E+01
+   9.000000E+01   2.068854E+02
+   1.000000E+02   2.977785E+02
+   1.100000E+02   1.290752E+02
+   1.200000E+02   6.911034E+01
+   1.300000E+02   9.302305E+01
+   1.400000E+02   1.480201E+02
+   1.500000E+02   2.005836E+02
+   1.600000E+02   2.274623E+02
+   1.800000E+02   1.873660E+02
+   2.000000E+02   9.710596E+01

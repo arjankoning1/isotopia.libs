@@ -1,0 +1,44 @@
+# header: 
+#   title: Np238(d,x)U228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 228
+#     nuclide: U228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.453648E-10
+   6.500000E+01   2.645860E-07
+   7.000000E+01   2.010457E-05
+   7.500000E+01   4.180028E-04
+   8.000000E+01   3.803230E-03
+   9.000000E+01   4.262818E-02
+   1.000000E+02   6.327085E-02
+   1.100000E+02   6.440349E-02
+   1.200000E+02   1.169170E-01
+   1.300000E+02   1.077459E-01
+   1.400000E+02   8.072966E-02
+   1.500000E+02   2.772374E-01
+   1.600000E+02   6.377594E-01
+   1.800000E+02   1.057192E+00
+   2.000000E+02   4.027524E-01

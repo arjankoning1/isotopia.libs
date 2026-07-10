@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe59(d,x)V50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 50
+#     nuclide: V50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.535232E-08
+   4.500000E+01   1.938341E-03
+   5.000000E+01   1.457920E-01
+   5.500000E+01   8.200166E-01
+   6.000000E+01   1.583053E+00
+   6.500000E+01   1.923442E+00
+   7.000000E+01   1.631141E+00
+   7.500000E+01   1.294477E+00
+   8.000000E+01   1.302463E+00
+   9.000000E+01   2.736575E+00
+   1.000000E+02   7.547480E+00
+   1.100000E+02   1.302077E+01
+   1.200000E+02   1.718977E+01
+   1.300000E+02   2.075089E+01
+   1.400000E+02   2.534500E+01
+   1.500000E+02   3.071750E+01
+   1.600000E+02   3.665150E+01
+   1.800000E+02   5.053358E+01
+   2.000000E+02   5.043719E+01

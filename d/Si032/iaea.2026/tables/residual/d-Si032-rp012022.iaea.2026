@@ -1,0 +1,39 @@
+# header: 
+#   title: Si32(d,x)Mg22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 22
+#     nuclide: Mg22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.250285E-07
+   1.000000E+02   3.468007E-05
+   1.100000E+02   3.514076E-04
+   1.200000E+02   1.546102E-03
+   1.300000E+02   4.079485E-03
+   1.400000E+02   7.435603E-03
+   1.500000E+02   1.115154E-02
+   1.600000E+02   1.458739E-02
+   1.800000E+02   2.229808E-02
+   2.000000E+02   3.153097E-02

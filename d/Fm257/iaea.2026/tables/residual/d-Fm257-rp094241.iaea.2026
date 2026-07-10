@@ -1,0 +1,40 @@
+# header: 
+#   title: Fm257(d,x)Pu241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 257
+#   nuclide: Fm257
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 241
+#     nuclide: Pu241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.772852E-12
+   9.000000E+01   1.149581E-08
+   1.000000E+02   3.889946E-07
+   1.100000E+02   1.893435E-06
+   1.200000E+02   2.893535E-06
+   1.300000E+02   2.242908E-06
+   1.400000E+02   2.512246E-06
+   1.500000E+02   2.565697E-06
+   1.600000E+02   3.007858E-06
+   1.800000E+02   7.584258E-06
+   2.000000E+02   1.646530E-06

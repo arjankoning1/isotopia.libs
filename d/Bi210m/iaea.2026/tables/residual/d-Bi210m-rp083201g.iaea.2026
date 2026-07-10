@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi210m(d,x)Bi201g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 201
+#     nuclide: Bi201g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.393779E-09
+   7.500000E+01   1.757750E-05
+   8.000000E+01   4.157584E-03
+   9.000000E+01   8.390481E-01
+   1.000000E+02   1.189896E+01
+   1.100000E+02   4.214991E+01
+   1.200000E+02   5.609496E+01
+   1.300000E+02   5.511256E+01
+   1.400000E+02   6.580178E+01
+   1.500000E+02   8.791131E+01
+   1.600000E+02   1.123552E+02
+   1.800000E+02   2.182256E+02
+   2.000000E+02   2.187368E+02

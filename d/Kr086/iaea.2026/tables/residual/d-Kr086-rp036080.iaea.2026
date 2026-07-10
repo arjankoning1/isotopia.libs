@@ -1,0 +1,45 @@
+# header: 
+#   title: Kr86(d,x)Kr80 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 86
+#   nuclide: Kr86
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 80
+#     nuclide: Kr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.299783E-06
+   6.000000E+01   2.830160E-02
+   6.500000E+01   7.470065E-01
+   7.000000E+01   3.971104E+00
+   7.500000E+01   1.114869E+01
+   8.000000E+01   2.554650E+01
+   9.000000E+01   6.829024E+01
+   1.000000E+02   8.646501E+01
+   1.100000E+02   9.465391E+01
+   1.200000E+02   1.128731E+02
+   1.300000E+02   1.363756E+02
+   1.400000E+02   1.714219E+02
+   1.500000E+02   1.910768E+02
+   1.600000E+02   2.241745E+02
+   1.800000E+02   2.340579E+02
+   2.000000E+02   1.732971E+02

@@ -1,0 +1,41 @@
+# header: 
+#   title: U237(d,x)Th224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 224
+#     nuclide: Th224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.808014E-09
+   8.000000E+01   3.955740E-06
+   9.000000E+01   1.027747E-02
+   1.000000E+02   2.017630E-01
+   1.100000E+02   8.195338E-01
+   1.200000E+02   1.225375E+00
+   1.300000E+02   1.308337E+00
+   1.400000E+02   1.316907E+00
+   1.500000E+02   1.625144E+00
+   1.600000E+02   2.136651E+00
+   1.800000E+02   3.278368E+00
+   2.000000E+02   2.656160E+00

@@ -1,0 +1,49 @@
+# header: 
+#   title: Pb205(d,x)Hg197g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.266952E-09
+   5.000000E+01   2.726199E-06
+   5.500000E+01   2.728538E-04
+   6.000000E+01   6.533682E-03
+   6.500000E+01   1.194916E-01
+   7.000000E+01   8.686258E-01
+   7.500000E+01   2.814943E+00
+   8.000000E+01   4.606921E+00
+   9.000000E+01   3.462751E+00
+   1.000000E+02   2.250083E+00
+   1.100000E+02   2.306557E+00
+   1.200000E+02   3.870289E+00
+   1.300000E+02   3.943936E+00
+   1.400000E+02   4.655672E+00
+   1.500000E+02   4.651973E+00
+   1.600000E+02   3.478623E+00
+   1.800000E+02   2.290576E+00
+   2.000000E+02   2.863531E+00

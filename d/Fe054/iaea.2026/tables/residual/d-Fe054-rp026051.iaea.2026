@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe54(d,x)Fe51 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 51
+#     nuclide: Fe51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.466667E-06
+   4.500000E+01   2.592114E-04
+   5.000000E+01   1.111197E-03
+   5.500000E+01   4.592204E-03
+   6.000000E+01   1.566550E-02
+   6.500000E+01   3.250170E-02
+   7.000000E+01   5.021849E-02
+   7.500000E+01   6.568286E-02
+   8.000000E+01   7.922337E-02
+   9.000000E+01   1.016033E-01
+   1.000000E+02   1.225646E-01
+   1.100000E+02   1.389586E-01
+   1.200000E+02   1.471662E-01
+   1.300000E+02   1.456880E-01
+   1.400000E+02   1.353729E-01
+   1.500000E+02   1.210134E-01
+   1.600000E+02   1.053257E-01
+   1.800000E+02   7.637489E-02
+   2.000000E+02   5.675699E-02

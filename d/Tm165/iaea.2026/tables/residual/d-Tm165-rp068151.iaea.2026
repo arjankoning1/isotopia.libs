@@ -1,0 +1,37 @@
+# header: 
+#   title: Tm165(d,x)Er151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 165
+#   nuclide: Tm165
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 151
+#     nuclide: Er151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.568580E-07
+   1.200000E+02   6.822421E-04
+   1.300000E+02   3.620678E-02
+   1.400000E+02   1.399962E-01
+   1.500000E+02   9.247277E-02
+   1.600000E+02   2.481759E-01
+   1.800000E+02   1.874072E+00
+   2.000000E+02   5.834011E+00

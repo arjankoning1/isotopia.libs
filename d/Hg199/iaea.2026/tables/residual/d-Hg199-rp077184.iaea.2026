@@ -1,0 +1,39 @@
+# header: 
+#   title: Hg199(d,x)Ir184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 199
+#   nuclide: Hg199
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 184
+#     nuclide: Ir184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.459033E-08
+   1.000000E+02   7.140729E-04
+   1.100000E+02   1.318320E-01
+   1.200000E+02   1.021678E+00
+   1.300000E+02   1.437503E+00
+   1.400000E+02   2.218318E+00
+   1.500000E+02   3.809499E+00
+   1.600000E+02   3.355764E+00
+   1.800000E+02   3.567606E+00
+   2.000000E+02   5.806347E+00

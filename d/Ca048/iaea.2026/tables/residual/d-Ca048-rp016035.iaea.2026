@@ -1,0 +1,42 @@
+# header: 
+#   title: Ca48(d,x)S35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.913129E-10
+   7.500000E+01   4.346594E-06
+   8.000000E+01   3.360412E-04
+   9.000000E+01   1.065278E-02
+   1.000000E+02   1.307184E-01
+   1.100000E+02   6.276035E-01
+   1.200000E+02   1.431979E+00
+   1.300000E+02   2.226258E+00
+   1.400000E+02   2.925398E+00
+   1.500000E+02   3.901936E+00
+   1.600000E+02   4.809322E+00
+   1.800000E+02   8.791482E+00
+   2.000000E+02   1.165033E+01

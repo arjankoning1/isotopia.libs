@@ -1,0 +1,45 @@
+# header: 
+#   title: Fe60(d,x)Ti49 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 49
+#     nuclide: Ti49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.046897E-07
+   6.000000E+01   5.150967E-05
+   6.500000E+01   1.075172E-03
+   7.000000E+01   9.959597E-03
+   7.500000E+01   7.679607E-02
+   8.000000E+01   3.228023E-01
+   9.000000E+01   1.046915E+00
+   1.000000E+02   1.339125E+00
+   1.100000E+02   1.957344E+00
+   1.200000E+02   2.767478E+00
+   1.300000E+02   4.692527E+00
+   1.400000E+02   6.578168E+00
+   1.500000E+02   8.298724E+00
+   1.600000E+02   9.145037E+00
+   1.800000E+02   1.298371E+01
+   2.000000E+02   1.382660E+01

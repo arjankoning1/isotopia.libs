@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge70(d,x)Mn54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.384787E-12
+   6.500000E+01   9.370754E-09
+   7.000000E+01   1.158055E-06
+   7.500000E+01   2.139389E-05
+   8.000000E+01   1.197532E-04
+   9.000000E+01   5.200651E-04
+   1.000000E+02   1.130016E-03
+   1.100000E+02   6.038165E-03
+   1.200000E+02   5.355213E-02
+   1.300000E+02   1.826615E-01
+   1.400000E+02   3.642136E-01
+   1.500000E+02   5.856199E-01
+   1.600000E+02   9.821029E-01
+   1.800000E+02   2.433589E+00
+   2.000000E+02   4.241572E+00

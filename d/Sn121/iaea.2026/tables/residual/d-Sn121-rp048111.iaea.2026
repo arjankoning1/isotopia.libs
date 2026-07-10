@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn121(d,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 121
+#   nuclide: Sn121
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.182949E-11
+   6.500000E+01   1.527434E-06
+   7.000000E+01   8.770690E-04
+   7.500000E+01   2.726263E-02
+   8.000000E+01   2.415509E-01
+   9.000000E+01   5.013154E+00
+   1.000000E+02   2.266827E+01
+   1.100000E+02   2.578810E+01
+   1.200000E+02   1.664018E+01
+   1.300000E+02   1.778035E+01
+   1.400000E+02   2.367542E+01
+   1.500000E+02   3.433779E+01
+   1.600000E+02   3.611946E+01
+   1.800000E+02   5.824190E+01
+   2.000000E+02   4.383782E+01

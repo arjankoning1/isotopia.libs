@@ -1,0 +1,43 @@
+# header: 
+#   title: S32(d,x)S28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 28
+#     nuclide: S28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.512443E-09
+   7.000000E+01   3.013095E-07
+   7.500000E+01   3.172118E-06
+   8.000000E+01   1.082113E-05
+   9.000000E+01   4.967069E-05
+   1.000000E+02   1.313275E-04
+   1.100000E+02   2.230398E-04
+   1.200000E+02   2.939523E-04
+   1.300000E+02   3.445616E-04
+   1.400000E+02   3.867431E-04
+   1.500000E+02   4.325036E-04
+   1.600000E+02   4.776541E-04
+   1.800000E+02   5.724959E-04
+   2.000000E+02   6.414095E-04

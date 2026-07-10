@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn112(d,x)In104m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 104
+#     nuclide: In104m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.613430E-10
+   6.500000E+01   1.721177E-07
+   7.000000E+01   1.627001E-05
+   7.500000E+01   3.820848E-04
+   8.000000E+01   2.423909E-03
+   9.000000E+01   1.014643E-02
+   1.000000E+02   1.179605E-02
+   1.100000E+02   1.685101E-02
+   1.200000E+02   3.194336E-02
+   1.300000E+02   6.693027E-02
+   1.400000E+02   1.134131E-01
+   1.500000E+02   1.602186E-01
+   1.600000E+02   1.768810E-01
+   1.800000E+02   3.300012E-01
+   2.000000E+02   7.524058E-01

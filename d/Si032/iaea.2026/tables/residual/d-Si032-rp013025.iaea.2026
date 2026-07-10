@@ -1,0 +1,45 @@
+# header: 
+#   title: Si32(d,x)Al25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 25
+#     nuclide: Al25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.176323E-07
+   6.000000E+01   2.270945E-04
+   6.500000E+01   2.378305E-03
+   7.000000E+01   8.140035E-03
+   7.500000E+01   1.932941E-02
+   8.000000E+01   3.203549E-02
+   9.000000E+01   5.373542E-02
+   1.000000E+02   9.018953E-02
+   1.100000E+02   1.813394E-01
+   1.200000E+02   3.319772E-01
+   1.300000E+02   5.036593E-01
+   1.400000E+02   6.362746E-01
+   1.500000E+02   7.315770E-01
+   1.600000E+02   8.132998E-01
+   1.800000E+02   9.947265E-01
+   2.000000E+02   1.292257E+00

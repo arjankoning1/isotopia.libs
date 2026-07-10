@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra226(d,x)At210 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 210
+#     nuclide: At210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.857998E-12
+   7.000000E+01   3.892190E-09
+   7.500000E+01   9.667141E-08
+   8.000000E+01   1.893105E-06
+   9.000000E+01   7.932332E-04
+   1.000000E+02   7.235099E-02
+   1.100000E+02   1.349247E+00
+   1.200000E+02   4.598015E+00
+   1.300000E+02   9.066026E+00
+   1.400000E+02   9.201700E+00
+   1.500000E+02   9.851890E+00
+   1.600000E+02   1.073846E+01
+   1.800000E+02   7.739499E+00
+   2.000000E+02   1.585176E+01

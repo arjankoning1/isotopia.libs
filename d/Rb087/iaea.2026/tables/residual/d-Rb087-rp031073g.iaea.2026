@@ -1,0 +1,44 @@
+# header: 
+#   title: Rb87(d,x)Ga73g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.720356E-10
+   7.500000E+01   2.326909E-08
+   8.000000E+01   1.623651E-06
+   9.000000E+01   2.213204E-04
+   1.000000E+02   1.192141E-03
+   1.100000E+02   1.453130E-03
+   1.200000E+02   2.123091E-03
+   1.300000E+02   3.497364E-03
+   1.400000E+02   6.802987E-03
+   1.500000E+02   1.301319E-02
+   1.600000E+02   1.605095E-02
+   1.800000E+02   1.949124E-02
+   2.000000E+02   3.531398E-02

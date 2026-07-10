@@ -1,0 +1,43 @@
+# header: 
+#   title: Co60(d,x)Ti46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 46
+#     nuclide: Ti46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.523546E-11
+   7.000000E+01   7.979685E-07
+   7.500000E+01   1.842193E-04
+   8.000000E+01   2.967872E-03
+   9.000000E+01   1.080756E-02
+   1.000000E+02   5.374392E-02
+   1.100000E+02   1.201774E-01
+   1.200000E+02   2.855601E-01
+   1.300000E+02   7.491611E-01
+   1.400000E+02   1.574148E+00
+   1.500000E+02   2.634693E+00
+   1.600000E+02   4.171059E+00
+   1.800000E+02   9.807760E+00
+   2.000000E+02   1.717906E+01

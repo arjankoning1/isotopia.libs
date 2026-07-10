@@ -1,0 +1,51 @@
+# header: 
+#   title: Am241(d,x)Np240g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 240
+#     nuclide: Np240g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.387413E-10
+   4.000000E+01   6.621666E-08
+   4.500000E+01   3.531511E-06
+   5.000000E+01   4.432063E-05
+   5.500000E+01   2.068765E-04
+   6.000000E+01   5.511644E-04
+   6.500000E+01   1.080484E-03
+   7.000000E+01   1.793190E-03
+   7.500000E+01   2.291294E-03
+   8.000000E+01   3.168297E-03
+   9.000000E+01   4.382890E-03
+   1.000000E+02   4.668299E-03
+   1.100000E+02   5.534157E-03
+   1.200000E+02   5.256332E-03
+   1.300000E+02   6.632987E-03
+   1.400000E+02   5.237470E-03
+   1.500000E+02   5.080884E-03
+   1.600000E+02   5.751987E-03
+   1.800000E+02   5.539168E-03
+   2.000000E+02   3.127188E-03

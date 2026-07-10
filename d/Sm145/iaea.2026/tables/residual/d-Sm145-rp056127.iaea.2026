@@ -1,0 +1,38 @@
+# header: 
+#   title: Sm145(d,x)Ba127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 127
+#     nuclide: Ba127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.305280E-10
+   1.100000E+02   2.964814E-06
+   1.200000E+02   5.524139E-04
+   1.300000E+02   9.689548E-03
+   1.400000E+02   9.245553E-03
+   1.500000E+02   2.584137E-02
+   1.600000E+02   4.525605E-02
+   1.800000E+02   1.351749E-01
+   2.000000E+02   2.967708E-01

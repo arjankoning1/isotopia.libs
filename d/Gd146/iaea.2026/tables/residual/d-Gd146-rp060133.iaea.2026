@@ -1,0 +1,41 @@
+# header: 
+#   title: Gd146(d,x)Nd133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 133
+#     nuclide: Nd133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.155743E-09
+   8.000000E+01   1.017040E-05
+   9.000000E+01   9.777189E-02
+   1.000000E+02   3.994572E+00
+   1.100000E+02   1.300102E+01
+   1.200000E+02   1.305300E+01
+   1.300000E+02   1.372673E+01
+   1.400000E+02   1.081440E+01
+   1.500000E+02   1.922170E+01
+   1.600000E+02   2.970030E+01
+   1.800000E+02   4.951218E+01
+   2.000000E+02   7.531602E+01

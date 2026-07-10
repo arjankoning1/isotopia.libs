@@ -1,0 +1,40 @@
+# header: 
+#   title: Nb92(d,x)Kr77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.709213E-11
+   9.000000E+01   9.564047E-06
+   1.000000E+02   5.482773E-04
+   1.100000E+02   4.724876E-03
+   1.200000E+02   1.534251E-02
+   1.300000E+02   4.334571E-02
+   1.400000E+02   2.060285E-01
+   1.500000E+02   6.562083E-01
+   1.600000E+02   1.481275E+00
+   1.800000E+02   4.053209E+00
+   2.000000E+02   8.810284E+00

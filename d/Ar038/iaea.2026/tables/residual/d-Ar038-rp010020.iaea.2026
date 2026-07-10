@@ -1,0 +1,41 @@
+# header: 
+#   title: Ar38(d,x)Ne20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.191660E-09
+   8.000000E+01   8.874830E-07
+   9.000000E+01   8.021593E-05
+   1.000000E+02   7.417777E-04
+   1.100000E+02   3.024315E-03
+   1.200000E+02   7.903112E-03
+   1.300000E+02   1.969329E-02
+   1.400000E+02   5.034278E-02
+   1.500000E+02   1.147638E-01
+   1.600000E+02   2.279712E-01
+   1.800000E+02   6.870523E-01
+   2.000000E+02   1.667105E+00

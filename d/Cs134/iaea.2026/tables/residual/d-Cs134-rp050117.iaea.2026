@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs134(d,x)Sn117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 117
+#     nuclide: Sn117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.495899E-08
+   1.000000E+02   1.333915E-04
+   1.100000E+02   8.256261E-03
+   1.200000E+02   3.757512E-02
+   1.300000E+02   3.344939E-02
+   1.400000E+02   1.744286E-02
+   1.500000E+02   3.212285E-02
+   1.600000E+02   5.819716E-02
+   1.800000E+02   1.424389E-01
+   2.000000E+02   1.657454E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce144(d,x)La131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 131
+#     nuclide: La131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.791890E-10
+   1.000000E+02   2.707065E-04
+   1.100000E+02   1.062835E-01
+   1.200000E+02   1.131129E+00
+   1.300000E+02   1.921308E+00
+   1.400000E+02   1.546820E+00
+   1.500000E+02   2.000914E+00
+   1.600000E+02   4.871208E+00
+   1.800000E+02   1.265315E+01
+   2.000000E+02   2.273280E+01

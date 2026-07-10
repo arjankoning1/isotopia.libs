@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb203(d,x)Tl193g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 193
+#     nuclide: Tl193g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.471418E-10
+   7.000000E+01   8.786616E-07
+   7.500000E+01   2.145620E-04
+   8.000000E+01   2.649498E-02
+   9.000000E+01   4.855019E+00
+   1.000000E+02   2.916283E+01
+   1.100000E+02   2.664826E+01
+   1.200000E+02   1.308203E+01
+   1.300000E+02   1.480259E+01
+   1.400000E+02   1.716741E+01
+   1.500000E+02   2.287150E+01
+   1.600000E+02   2.337786E+01
+   1.800000E+02   2.871187E+01
+   2.000000E+02   3.677029E+01

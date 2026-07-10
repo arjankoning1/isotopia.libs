@@ -1,0 +1,37 @@
+# header: 
+#   title: Rb86(d,x)Ga67 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 86
+#   nuclide: Rb86
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.959468E-12
+   1.200000E+02   5.329561E-08
+   1.300000E+02   1.530458E-05
+   1.400000E+02   8.865841E-04
+   1.500000E+02   1.307309E-02
+   1.600000E+02   6.897465E-02
+   1.800000E+02   4.422982E-01
+   2.000000E+02   1.464018E+00

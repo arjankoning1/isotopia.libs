@@ -1,0 +1,36 @@
+# header: 
+#   title: Zn67(d,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.799817E-10
+   1.300000E+02   9.390702E-07
+   1.400000E+02   6.150904E-05
+   1.500000E+02   8.773698E-04
+   1.600000E+02   4.916117E-03
+   1.800000E+02   4.331040E-02
+   2.000000E+02   1.522758E-01

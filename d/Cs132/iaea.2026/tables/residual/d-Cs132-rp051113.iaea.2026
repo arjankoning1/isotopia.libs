@@ -1,0 +1,35 @@
+# header: 
+#   title: Cs132(d,x)Sb113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 113
+#     nuclide: Sb113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.884714E-10
+   1.400000E+02   2.479869E-07
+   1.500000E+02   3.979962E-05
+   1.600000E+02   1.052447E-03
+   1.800000E+02   7.903660E-02
+   2.000000E+02   9.115415E-01

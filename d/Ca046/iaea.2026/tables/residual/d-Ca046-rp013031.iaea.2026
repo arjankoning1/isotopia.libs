@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca46(d,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.342702E-09
+   6.500000E+01   1.710501E-07
+   7.000000E+01   1.640282E-06
+   7.500000E+01   5.322284E-06
+   8.000000E+01   8.096529E-06
+   9.000000E+01   3.413354E-06
+   1.000000E+02   1.565683E-05
+   1.100000E+02   1.491675E-04
+   1.200000E+02   5.734312E-04
+   1.300000E+02   1.126296E-03
+   1.400000E+02   1.570472E-03
+   1.500000E+02   2.193687E-03
+   1.600000E+02   3.117543E-03
+   1.800000E+02   4.868511E-03
+   2.000000E+02   7.696412E-03

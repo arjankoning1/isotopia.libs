@@ -1,0 +1,42 @@
+# header: 
+#   title: Es255(d,x)Cf245 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 245
+#     nuclide: Cf245
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.788000E-12
+   7.500000E+01   2.433087E-11
+   8.000000E+01   1.470478E-10
+   9.000000E+01   2.441145E-09
+   1.000000E+02   1.178610E-08
+   1.100000E+02   1.781805E-08
+   1.200000E+02   4.320325E-08
+   1.300000E+02   6.056806E-08
+   1.400000E+02   5.630882E-08
+   1.500000E+02   6.191189E-08
+   1.600000E+02   1.045378E-07
+   1.800000E+02   5.798517E-06
+   2.000000E+02   1.539724E-05

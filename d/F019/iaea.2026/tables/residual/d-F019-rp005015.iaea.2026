@@ -1,0 +1,42 @@
+# header: 
+#   title: F19(d,x)B15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 15
+#     nuclide: B15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.861723E-10
+   7.500000E+01   2.903765E-08
+   8.000000E+01   2.812409E-07
+   9.000000E+01   2.847287E-06
+   1.000000E+02   1.015454E-05
+   1.100000E+02   2.260515E-05
+   1.200000E+02   3.720312E-05
+   1.300000E+02   5.192442E-05
+   1.400000E+02   6.183073E-05
+   1.500000E+02   6.799082E-05
+   1.600000E+02   5.817568E-05
+   1.800000E+02   7.111461E-05
+   2.000000E+02   7.665141E-05

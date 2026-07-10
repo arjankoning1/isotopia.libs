@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd108(d,x)Y87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.906683E-11
+   1.200000E+02   1.168086E-07
+   1.300000E+02   4.865391E-06
+   1.400000E+02   8.041270E-05
+   1.500000E+02   3.560898E-04
+   1.600000E+02   2.033732E-03
+   1.800000E+02   4.104549E-02
+   2.000000E+02   1.624138E-01

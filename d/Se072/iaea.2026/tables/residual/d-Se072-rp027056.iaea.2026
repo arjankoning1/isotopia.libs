@@ -1,0 +1,44 @@
+# header: 
+#   title: Se72(d,x)Co56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 72
+#   nuclide: Se72
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.687588E-09
+   6.500000E+01   1.176219E-06
+   7.000000E+01   5.928643E-05
+   7.500000E+01   5.729428E-04
+   8.000000E+01   1.782139E-03
+   9.000000E+01   9.530483E-04
+   1.000000E+02   2.225940E-03
+   1.100000E+02   1.573778E-02
+   1.200000E+02   8.699403E-02
+   1.300000E+02   2.757473E-01
+   1.400000E+02   5.178736E-01
+   1.500000E+02   8.061530E-01
+   1.600000E+02   1.375477E+00
+   1.800000E+02   3.554954E+00
+   2.000000E+02   6.933475E+00

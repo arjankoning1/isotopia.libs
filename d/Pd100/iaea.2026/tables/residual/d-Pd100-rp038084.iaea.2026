@@ -1,0 +1,43 @@
+# header: 
+#   title: Pd100(d,x)Sr84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 84
+#     nuclide: Sr84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.945065E-10
+   7.000000E+01   1.298906E-07
+   7.500000E+01   9.757432E-06
+   8.000000E+01   1.538271E-04
+   9.000000E+01   2.310745E-03
+   1.000000E+02   3.854032E-03
+   1.100000E+02   3.585374E-03
+   1.200000E+02   9.416376E-03
+   1.300000E+02   3.080372E-02
+   1.400000E+02   6.698034E-02
+   1.500000E+02   1.307862E-01
+   1.600000E+02   1.206105E-01
+   1.800000E+02   3.799268E-01
+   2.000000E+02   3.840920E-01

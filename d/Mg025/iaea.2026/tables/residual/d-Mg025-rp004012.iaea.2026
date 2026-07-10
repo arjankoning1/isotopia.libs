@@ -1,0 +1,40 @@
+# header: 
+#   title: Mg25(d,x)Be12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 12
+#     nuclide: Be12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.972073E-11
+   9.000000E+01   2.421608E-08
+   1.000000E+02   4.035688E-07
+   1.100000E+02   1.600205E-06
+   1.200000E+02   4.932527E-06
+   1.300000E+02   1.722378E-05
+   1.400000E+02   4.911542E-05
+   1.500000E+02   1.002202E-04
+   1.600000E+02   1.775027E-04
+   1.800000E+02   4.351030E-04
+   2.000000E+02   7.949700E-04

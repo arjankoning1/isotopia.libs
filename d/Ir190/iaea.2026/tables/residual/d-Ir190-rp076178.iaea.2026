@@ -1,0 +1,40 @@
+# header: 
+#   title: Ir190(d,x)Os178 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 190
+#   nuclide: Ir190
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 178
+#     nuclide: Os178
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.134129E-09
+   9.000000E+01   6.453772E-04
+   1.000000E+02   4.508914E-01
+   1.100000E+02   1.023727E+01
+   1.200000E+02   2.926602E+01
+   1.300000E+02   2.479501E+01
+   1.400000E+02   1.749532E+01
+   1.500000E+02   2.365080E+01
+   1.600000E+02   2.404227E+01
+   1.800000E+02   3.428582E+01
+   2.000000E+02   7.098524E+01

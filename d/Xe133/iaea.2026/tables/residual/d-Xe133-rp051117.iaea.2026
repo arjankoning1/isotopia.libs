@@ -1,0 +1,38 @@
+# header: 
+#   title: Xe133(d,x)Sb117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 117
+#     nuclide: Sb117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.869059E-10
+   1.100000E+02   2.351064E-05
+   1.200000E+02   7.397320E-03
+   1.300000E+02   7.909510E-02
+   1.400000E+02   5.114586E-02
+   1.500000E+02   1.690310E-01
+   1.600000E+02   5.757118E-01
+   1.800000E+02   2.755243E+00
+   2.000000E+02   5.537888E+00

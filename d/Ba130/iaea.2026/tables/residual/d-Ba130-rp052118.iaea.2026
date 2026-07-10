@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba130(d,x)Te118 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 118
+#     nuclide: Te118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.000343E-11
+   6.500000E+01   5.045036E-08
+   7.000000E+01   6.122005E-06
+   7.500000E+01   2.005541E-04
+   8.000000E+01   3.425536E-03
+   9.000000E+01   2.937399E-01
+   1.000000E+02   1.981496E+00
+   1.100000E+02   2.817300E+00
+   1.200000E+02   2.472056E+00
+   1.300000E+02   3.005186E+00
+   1.400000E+02   4.549410E+00
+   1.500000E+02   6.921887E+00
+   1.600000E+02   1.064306E+01
+   1.800000E+02   1.378255E+01
+   2.000000E+02   1.521062E+01

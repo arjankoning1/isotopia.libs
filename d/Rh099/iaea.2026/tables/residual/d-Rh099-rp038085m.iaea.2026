@@ -1,0 +1,49 @@
+# header: 
+#   title: Rh99(d,x)Sr85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.359066E-11
+   5.000000E+01   1.884336E-09
+   5.500000E+01   3.984962E-08
+   6.000000E+01   2.961860E-07
+   6.500000E+01   1.163612E-06
+   7.000000E+01   2.310356E-06
+   7.500000E+01   2.489420E-06
+   8.000000E+01   3.055507E-06
+   9.000000E+01   1.364199E-04
+   1.000000E+02   8.720736E-04
+   1.100000E+02   1.558674E-03
+   1.200000E+02   2.488643E-03
+   1.300000E+02   4.847719E-03
+   1.400000E+02   8.892066E-03
+   1.500000E+02   1.444054E-02
+   1.600000E+02   2.120333E-02
+   1.800000E+02   3.936183E-02
+   2.000000E+02   3.251922E-02

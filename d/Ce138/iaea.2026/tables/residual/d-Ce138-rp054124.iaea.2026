@@ -1,0 +1,40 @@
+# header: 
+#   title: Ce138(d,x)Xe124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 138
+#   nuclide: Ce138
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 124
+#     nuclide: Xe124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.523435E-10
+   9.000000E+01   4.059612E-05
+   1.000000E+02   1.533200E-02
+   1.100000E+02   3.965916E-01
+   1.200000E+02   2.151891E+00
+   1.300000E+02   2.467392E+00
+   1.400000E+02   1.393658E+00
+   1.500000E+02   1.971344E+00
+   1.600000E+02   3.278178E+00
+   1.800000E+02   5.890724E+00
+   2.000000E+02   9.187084E+00

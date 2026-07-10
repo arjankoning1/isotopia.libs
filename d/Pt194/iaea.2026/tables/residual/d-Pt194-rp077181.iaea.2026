@@ -1,0 +1,39 @@
+# header: 
+#   title: Pt194(d,x)Ir181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 194
+#   nuclide: Pt194
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 181
+#     nuclide: Ir181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.988498E-11
+   1.000000E+02   1.480359E-04
+   1.100000E+02   2.119905E-01
+   1.200000E+02   6.936937E+00
+   1.300000E+02   2.703342E+01
+   1.400000E+02   2.915990E+01
+   1.500000E+02   2.065578E+01
+   1.600000E+02   1.934622E+01
+   1.800000E+02   3.901763E+01
+   2.000000E+02   5.867464E+01

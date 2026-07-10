@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo98(d,x)Br82g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.214519E-12
+   7.000000E+01   4.354817E-09
+   7.500000E+01   1.977764E-07
+   8.000000E+01   2.753352E-06
+   9.000000E+01   3.053326E-05
+   1.000000E+02   3.630751E-05
+   1.100000E+02   3.305114E-05
+   1.200000E+02   8.936962E-05
+   1.300000E+02   2.676518E-04
+   1.400000E+02   6.124225E-04
+   1.500000E+02   9.880379E-04
+   1.600000E+02   1.339744E-03
+   1.800000E+02   2.740684E-03
+   2.000000E+02   7.212442E-03

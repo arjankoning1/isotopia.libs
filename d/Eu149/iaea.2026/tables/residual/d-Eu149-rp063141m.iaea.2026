@@ -1,0 +1,43 @@
+# header: 
+#   title: Eu149(d,x)Eu141m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 149
+#   nuclide: Eu149
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 141
+#     nuclide: Eu141m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.481049E-07
+   8.000000E+01   4.570609E-04
+   9.000000E+01   1.868861E-01
+   1.000000E+02   5.359652E+00
+   1.100000E+02   2.355415E+01
+   1.200000E+02   2.915333E+01
+   1.300000E+02   2.487521E+01
+   1.400000E+02   2.801638E+01
+   1.500000E+02   3.666592E+01
+   1.600000E+02   5.840937E+01
+   1.800000E+02   9.820772E+01
+   2.000000E+02   1.549542E+02

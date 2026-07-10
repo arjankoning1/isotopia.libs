@@ -1,0 +1,45 @@
+# header: 
+#   title: Ne22(d,x)Na19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 19
+#     nuclide: Na19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.929148E-09
+   6.000000E+01   9.432512E-06
+   6.500000E+01   9.480937E-05
+   7.000000E+01   2.988411E-04
+   7.500000E+01   5.652622E-04
+   8.000000E+01   8.088248E-04
+   9.000000E+01   1.086233E-03
+   1.000000E+02   1.185692E-03
+   1.100000E+02   1.272029E-03
+   1.200000E+02   1.400534E-03
+   1.300000E+02   1.554077E-03
+   1.400000E+02   1.691140E-03
+   1.500000E+02   1.765360E-03
+   1.600000E+02   1.782483E-03
+   1.800000E+02   1.564740E-03
+   2.000000E+02   1.208418E-03

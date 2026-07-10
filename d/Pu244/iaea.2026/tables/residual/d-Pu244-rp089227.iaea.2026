@@ -1,0 +1,41 @@
+# header: 
+#   title: Pu244(d,x)Ac227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 244
+#   nuclide: Pu244
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 227
+#     nuclide: Ac227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.297114E-12
+   8.000000E+01   6.117733E-09
+   9.000000E+01   3.203349E-05
+   1.000000E+02   3.125537E-03
+   1.100000E+02   3.036321E-02
+   1.200000E+02   7.833761E-02
+   1.300000E+02   1.038592E-01
+   1.400000E+02   1.393250E-01
+   1.500000E+02   1.568096E-01
+   1.600000E+02   9.684230E-02
+   1.800000E+02   6.243175E-02
+   2.000000E+02   3.788051E-02

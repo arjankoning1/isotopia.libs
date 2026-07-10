@@ -1,0 +1,42 @@
+# header: 
+#   title: U238(d,x)Ac224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 224
+#     nuclide: Ac224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.577110E-09
+   7.500000E+01   3.912034E-06
+   8.000000E+01   9.135077E-04
+   9.000000E+01   4.153020E-01
+   1.000000E+02   3.105770E+00
+   1.100000E+02   9.023752E+00
+   1.200000E+02   1.097346E+01
+   1.300000E+02   1.464255E+01
+   1.400000E+02   1.120991E+01
+   1.500000E+02   8.917011E+00
+   1.600000E+02   9.137684E+00
+   1.800000E+02   1.095867E+01
+   2.000000E+02   9.430072E+00

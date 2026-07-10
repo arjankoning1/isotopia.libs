@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(d,x)Ge66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 66
+#     nuclide: Ge66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.883234E-11
+   6.500000E+01   3.670784E-07
+   7.000000E+01   3.606783E-05
+   7.500000E+01   5.105593E-04
+   8.000000E+01   3.721494E-03
+   9.000000E+01   6.708734E-02
+   1.000000E+02   2.754199E-01
+   1.100000E+02   5.936848E-01
+   1.200000E+02   8.550795E-01
+   1.300000E+02   1.153089E+00
+   1.400000E+02   1.666439E+00
+   1.500000E+02   2.448071E+00
+   1.600000E+02   3.698571E+00
+   1.800000E+02   6.018446E+00
+   2.000000E+02   6.584444E+00

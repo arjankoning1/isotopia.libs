@@ -1,0 +1,41 @@
+# header: 
+#   title: Se79(d,x)Ni63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 79
+#   nuclide: Se79
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.540956E-11
+   8.000000E+01   6.634485E-08
+   9.000000E+01   1.066651E-04
+   1.000000E+02   1.420826E-03
+   1.100000E+02   6.067339E-03
+   1.200000E+02   2.150892E-02
+   1.300000E+02   4.115928E-02
+   1.400000E+02   7.622482E-02
+   1.500000E+02   1.438919E-01
+   1.600000E+02   2.567070E-01
+   1.800000E+02   5.746285E-01
+   2.000000E+02   7.824951E-01

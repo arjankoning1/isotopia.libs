@@ -1,0 +1,45 @@
+# header: 
+#   title: Si32(d,x)O19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 32
+#   nuclide: Si32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.341677E-08
+   6.000000E+01   5.107590E-06
+   6.500000E+01   3.109111E-05
+   7.000000E+01   8.518737E-05
+   7.500000E+01   3.936467E-04
+   8.000000E+01   1.335357E-03
+   9.000000E+01   5.397731E-03
+   1.000000E+02   9.865625E-03
+   1.100000E+02   1.601934E-02
+   1.200000E+02   3.152616E-02
+   1.300000E+02   6.057331E-02
+   1.400000E+02   9.620064E-02
+   1.500000E+02   1.319106E-01
+   1.600000E+02   1.714602E-01
+   1.800000E+02   2.611751E-01
+   2.000000E+02   3.589899E-01

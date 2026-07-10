@@ -1,0 +1,36 @@
+# header: 
+#   title: Pr143(d,x)Ba125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 59
+#   A: 143
+#   nuclide: Pr143
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 125
+#     nuclide: Ba125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.063526E-12
+   1.300000E+02   2.919909E-07
+   1.400000E+02   5.455989E-05
+   1.500000E+02   2.021991E-03
+   1.600000E+02   2.375205E-02
+   1.800000E+02   2.437766E-01
+   2.000000E+02   1.165245E+00

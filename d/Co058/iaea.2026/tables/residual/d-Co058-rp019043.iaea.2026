@@ -1,0 +1,44 @@
+# header: 
+#   title: Co58(d,x)K43 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.170657E-11
+   6.500000E+01   8.768816E-09
+   7.000000E+01   3.725468E-07
+   7.500000E+01   1.942111E-06
+   8.000000E+01   1.617845E-06
+   9.000000E+01   1.183998E-05
+   1.000000E+02   2.825343E-05
+   1.100000E+02   8.902066E-05
+   1.200000E+02   3.805562E-04
+   1.300000E+02   1.180488E-03
+   1.400000E+02   2.493187E-03
+   1.500000E+02   3.431360E-03
+   1.600000E+02   6.359620E-03
+   1.800000E+02   2.294178E-02
+   2.000000E+02   4.754039E-02

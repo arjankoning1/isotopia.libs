@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd147(d,x)Cs130m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 147
+#   nuclide: Nd147
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.038048E-07
+   1.000000E+02   4.535825E-04
+   1.100000E+02   5.908611E-03
+   1.200000E+02   1.008103E-02
+   1.300000E+02   1.145686E-02
+   1.400000E+02   3.328164E-02
+   1.500000E+02   5.413681E-02
+   1.600000E+02   1.060038E-01
+   1.800000E+02   1.464274E-01
+   2.000000E+02   1.905093E-01

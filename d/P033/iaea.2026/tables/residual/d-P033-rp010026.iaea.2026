@@ -1,0 +1,43 @@
+# header: 
+#   title: P33(d,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 33
+#   nuclide: P33
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.004466E-09
+   7.000000E+01   3.481372E-08
+   7.500000E+01   2.412123E-07
+   8.000000E+01   9.219699E-07
+   9.000000E+01   6.447102E-06
+   1.000000E+02   1.961869E-05
+   1.100000E+02   3.453420E-05
+   1.200000E+02   5.070736E-05
+   1.300000E+02   7.643963E-05
+   1.400000E+02   1.124164E-04
+   1.500000E+02   1.537439E-04
+   1.600000E+02   1.898107E-04
+   1.800000E+02   2.480234E-04
+   2.000000E+02   2.830097E-04

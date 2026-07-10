@@ -1,0 +1,39 @@
+# header: 
+#   title: As76(d,x)Fe57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.419572E-08
+   1.000000E+02   1.435338E-05
+   1.100000E+02   9.169832E-04
+   1.200000E+02   7.466028E-03
+   1.300000E+02   2.316354E-02
+   1.400000E+02   4.262514E-02
+   1.500000E+02   8.104738E-02
+   1.600000E+02   1.699955E-01
+   1.800000E+02   5.247145E-01
+   2.000000E+02   1.098936E+00

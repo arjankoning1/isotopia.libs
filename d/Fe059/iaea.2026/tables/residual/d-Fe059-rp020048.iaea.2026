@@ -1,0 +1,48 @@
+# header: 
+#   title: Fe59(d,x)Ca48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 48
+#     nuclide: Ca48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.222286E-11
+   4.500000E+01   6.610767E-08
+   5.000000E+01   2.015823E-06
+   5.500000E+01   1.162527E-05
+   6.000000E+01   4.601864E-05
+   6.500000E+01   1.014526E-04
+   7.000000E+01   1.396182E-04
+   7.500000E+01   1.146529E-04
+   8.000000E+01   9.936370E-05
+   9.000000E+01   1.516729E-04
+   1.000000E+02   3.235610E-04
+   1.100000E+02   6.253929E-04
+   1.200000E+02   8.842924E-04
+   1.300000E+02   1.243595E-03
+   1.400000E+02   1.936632E-03
+   1.500000E+02   2.922719E-03
+   1.600000E+02   3.906169E-03
+   1.800000E+02   2.392996E-03
+   2.000000E+02   2.630716E-03

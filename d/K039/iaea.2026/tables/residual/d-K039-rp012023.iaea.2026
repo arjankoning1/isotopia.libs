@@ -1,0 +1,43 @@
+# header: 
+#   title: K39(d,x)Mg23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 23
+#     nuclide: Mg23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.308070E-11
+   7.000000E+01   7.310933E-08
+   7.500000E+01   5.677749E-06
+   8.000000E+01   7.347937E-05
+   9.000000E+01   1.019850E-03
+   1.000000E+02   3.186040E-03
+   1.100000E+02   6.811816E-03
+   1.200000E+02   1.723629E-02
+   1.300000E+02   4.106791E-02
+   1.400000E+02   8.161966E-02
+   1.500000E+02   1.434676E-01
+   1.600000E+02   2.487702E-01
+   1.800000E+02   6.120567E-01
+   2.000000E+02   1.067340E+00

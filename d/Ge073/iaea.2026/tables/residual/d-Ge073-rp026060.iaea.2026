@@ -1,0 +1,46 @@
+# header: 
+#   title: Ge73(d,x)Fe60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 60
+#     nuclide: Fe60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   5.594648E-11
+   5.500000E+01   8.423335E-09
+   6.000000E+01   5.562339E-07
+   6.500000E+01   2.131390E-05
+   7.000000E+01   2.403522E-04
+   7.500000E+01   1.094257E-03
+   8.000000E+01   2.455548E-03
+   9.000000E+01   3.344445E-03
+   1.000000E+02   2.737258E-03
+   1.100000E+02   6.448580E-03
+   1.200000E+02   1.921715E-02
+   1.300000E+02   4.027092E-02
+   1.400000E+02   6.087364E-02
+   1.500000E+02   7.645881E-02
+   1.600000E+02   8.082108E-02
+   1.800000E+02   9.011208E-02
+   2.000000E+02   1.109892E-01

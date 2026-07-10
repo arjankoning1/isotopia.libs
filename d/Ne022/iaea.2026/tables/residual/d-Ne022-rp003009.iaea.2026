@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne22(d,x)Li9 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 9
+#     nuclide: Li9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.857987E-10
+   6.500000E+01   6.097845E-08
+   7.000000E+01   7.707193E-07
+   7.500000E+01   3.347516E-06
+   8.000000E+01   1.101820E-05
+   9.000000E+01   7.054683E-05
+   1.000000E+02   1.937304E-04
+   1.100000E+02   4.018616E-04
+   1.200000E+02   1.053506E-03
+   1.300000E+02   2.563815E-03
+   1.400000E+02   5.077922E-03
+   1.500000E+02   8.493886E-03
+   1.600000E+02   1.312869E-02
+   1.800000E+02   2.699057E-02
+   2.000000E+02   4.775324E-02

@@ -1,0 +1,45 @@
+# header: 
+#   title: F19(d,x)O13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 13
+#     nuclide: O13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   8.144199E-10
+   6.000000E+01   5.052590E-06
+   6.500000E+01   1.368357E-04
+   7.000000E+01   9.513084E-04
+   7.500000E+01   3.410318E-03
+   8.000000E+01   7.071031E-03
+   9.000000E+01   1.481632E-02
+   1.000000E+02   1.883307E-02
+   1.100000E+02   2.226676E-02
+   1.200000E+02   2.668057E-02
+   1.300000E+02   3.318284E-02
+   1.400000E+02   3.972269E-02
+   1.500000E+02   4.529639E-02
+   1.600000E+02   5.022166E-02
+   1.800000E+02   5.603576E-02
+   2.000000E+02   5.609660E-02

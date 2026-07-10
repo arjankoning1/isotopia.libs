@@ -1,0 +1,39 @@
+# header: 
+#   title: Rb84(d,x)Ni63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.366769E-10
+   1.000000E+02   3.923995E-07
+   1.100000E+02   1.188011E-05
+   1.200000E+02   9.140840E-05
+   1.300000E+02   2.458857E-04
+   1.400000E+02   4.534782E-04
+   1.500000E+02   9.271802E-04
+   1.600000E+02   2.568790E-03
+   1.800000E+02   9.030646E-03
+   2.000000E+02   2.062541E-02

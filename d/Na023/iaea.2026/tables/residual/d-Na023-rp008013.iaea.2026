@@ -1,0 +1,42 @@
+# header: 
+#   title: Na23(d,x)O13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 13
+#     nuclide: O13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.066788E-10
+   7.500000E+01   3.031788E-07
+   8.000000E+01   1.082000E-05
+   9.000000E+01   3.224320E-04
+   1.000000E+02   1.332132E-03
+   1.100000E+02   2.599175E-03
+   1.200000E+02   4.019209E-03
+   1.300000E+02   6.552150E-03
+   1.400000E+02   1.078789E-02
+   1.500000E+02   1.558657E-02
+   1.600000E+02   2.098042E-02
+   1.800000E+02   3.020166E-02
+   2.000000E+02   3.960644E-02

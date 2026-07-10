@@ -1,0 +1,42 @@
+# header: 
+#   title: Tm165(d,x)Tb150m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 165
+#   nuclide: Tm165
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 150
+#     nuclide: Tb150m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.415651E-11
+   9.000000E+01   7.011254E-06
+   1.000000E+02   9.962719E-03
+   1.100000E+02   3.721817E-01
+   1.200000E+02   2.006220E+00
+   1.300000E+02   3.202741E+00
+   1.400000E+02   1.780103E+00
+   1.500000E+02   9.687284E-01
+   1.600000E+02   1.345677E+00
+   1.800000E+02   3.568315E+00
+   2.000000E+02   7.262312E+00

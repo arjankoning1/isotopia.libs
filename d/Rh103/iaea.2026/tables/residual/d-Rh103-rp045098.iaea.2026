@@ -1,0 +1,47 @@
+# header: 
+#   title: Rh103(d,x)Rh98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   7.554969E-06
+   5.000000E+01   8.356647E-02
+   5.500000E+01   1.326043E+00
+   6.000000E+01   5.263825E+00
+   6.500000E+01   1.798577E+01
+   7.000000E+01   4.297864E+01
+   7.500000E+01   6.595506E+01
+   8.000000E+01   7.608055E+01
+   9.000000E+01   8.007691E+01
+   1.000000E+02   9.827068E+01
+   1.100000E+02   1.278913E+02
+   1.200000E+02   1.555886E+02
+   1.300000E+02   1.777037E+02
+   1.400000E+02   1.785161E+02
+   1.500000E+02   1.736730E+02
+   1.600000E+02   1.466154E+02
+   1.800000E+02   1.006344E+02
+   2.000000E+02   5.904229E+01

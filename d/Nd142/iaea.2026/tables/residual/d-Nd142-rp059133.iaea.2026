@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd142(d,x)Pr133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 133
+#     nuclide: Pr133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.078897E-10
+   7.000000E+01   1.576417E-05
+   7.500000E+01   1.681255E-02
+   8.000000E+01   8.968524E-01
+   9.000000E+01   2.506704E+01
+   1.000000E+02   5.311451E+01
+   1.100000E+02   3.478442E+01
+   1.200000E+02   3.084117E+01
+   1.300000E+02   5.036206E+01
+   1.400000E+02   6.441172E+01
+   1.500000E+02   8.794368E+01
+   1.600000E+02   9.853275E+01
+   1.800000E+02   1.271410E+02
+   2.000000E+02   1.447999E+02

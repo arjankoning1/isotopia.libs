@@ -1,0 +1,44 @@
+# header: 
+#   title: Rh105(d,x)Rh97g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 97
+#     nuclide: Rh97g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.440282E-11
+   7.500000E+01   2.138975E-05
+   8.000000E+01   4.054517E-03
+   9.000000E+01   3.144886E-01
+   1.000000E+02   2.003365E+00
+   1.100000E+02   4.923632E+00
+   1.200000E+02   7.617495E+00
+   1.300000E+02   1.174359E+01
+   1.400000E+02   1.371558E+01
+   1.500000E+02   2.005530E+01
+   1.600000E+02   2.516889E+01
+   1.800000E+02   5.118253E+01
+   2.000000E+02   7.038100E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd106(d,x)Pd96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 106
+#   nuclide: Cd106
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 96
+#     nuclide: Pd96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.103174E-10
+   8.000000E+01   1.909205E-07
+   9.000000E+01   1.254215E-04
+   1.000000E+02   2.471433E-03
+   1.100000E+02   1.309394E-02
+   1.200000E+02   2.908379E-02
+   1.300000E+02   4.948512E-02
+   1.400000E+02   7.641390E-02
+   1.500000E+02   1.320912E-01
+   1.600000E+02   1.966895E-01
+   1.800000E+02   5.200922E-01
+   2.000000E+02   9.099342E-01

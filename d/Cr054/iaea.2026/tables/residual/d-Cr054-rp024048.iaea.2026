@@ -1,0 +1,43 @@
+# header: 
+#   title: Cr54(d,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.981332E-06
+   7.000000E+01   9.577257E-04
+   7.500000E+01   8.138871E-03
+   8.000000E+01   2.678505E-02
+   9.000000E+01   1.253801E-01
+   1.000000E+02   3.937808E-01
+   1.100000E+02   6.890823E-01
+   1.200000E+02   8.860505E-01
+   1.300000E+02   1.029006E+00
+   1.400000E+02   1.263959E+00
+   1.500000E+02   1.611579E+00
+   1.600000E+02   1.989080E+00
+   1.800000E+02   2.998337E+00
+   2.000000E+02   3.335237E+00

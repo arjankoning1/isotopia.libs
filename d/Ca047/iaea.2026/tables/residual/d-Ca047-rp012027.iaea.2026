@@ -1,0 +1,38 @@
+# header: 
+#   title: Ca47(d,x)Mg27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.508615E-09
+   1.100000E+02   1.098688E-06
+   1.200000E+02   3.438519E-05
+   1.300000E+02   3.063466E-04
+   1.400000E+02   1.270441E-03
+   1.500000E+02   3.141343E-03
+   1.600000E+02   5.919515E-03
+   1.800000E+02   1.767819E-02
+   2.000000E+02   4.865514E-02

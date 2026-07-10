@@ -1,0 +1,44 @@
+# header: 
+#   title: Ir193m(d,x)Os183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 183
+#     nuclide: Os183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.858324E-08
+   6.500000E+01   7.907416E-05
+   7.000000E+01   2.464848E-02
+   7.500000E+01   7.690227E-01
+   8.000000E+01   5.879479E+00
+   9.000000E+01   3.099530E+01
+   1.000000E+02   2.726555E+01
+   1.100000E+02   1.202477E+01
+   1.200000E+02   1.211740E+01
+   1.300000E+02   1.775606E+01
+   1.400000E+02   2.353651E+01
+   1.500000E+02   2.803978E+01
+   1.600000E+02   2.837777E+01
+   1.800000E+02   3.981687E+01
+   2.000000E+02   3.384125E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Se75(d,x)Zn62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.376839E-09
+   8.000000E+01   7.357327E-07
+   9.000000E+01   3.826815E-04
+   1.000000E+02   1.869247E-02
+   1.100000E+02   2.074158E-01
+   1.200000E+02   7.572247E-01
+   1.300000E+02   1.460919E+00
+   1.400000E+02   2.172841E+00
+   1.500000E+02   3.191182E+00
+   1.600000E+02   4.412961E+00
+   1.800000E+02   9.787175E+00
+   2.000000E+02   1.799671E+01

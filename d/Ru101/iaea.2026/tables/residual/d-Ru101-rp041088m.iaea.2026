@@ -1,0 +1,42 @@
+# header: 
+#   title: Ru101(d,x)Nb88m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 88
+#     nuclide: Nb88m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.874822E-14
+   9.000000E+01   5.617454E-07
+   1.000000E+02   1.940511E-04
+   1.100000E+02   1.604272E-03
+   1.200000E+02   4.945475E-03
+   1.300000E+02   1.042614E-02
+   1.400000E+02   2.684006E-02
+   1.500000E+02   9.021567E-02
+   1.600000E+02   2.014502E-01
+   1.800000E+02   4.427507E-01
+   2.000000E+02   5.632480E-01

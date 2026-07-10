@@ -1,0 +1,39 @@
+# header: 
+#   title: Tm169(d,x)Tb151m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 151
+#     nuclide: Tb151m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.199036E-07
+   1.200000E+02   5.553817E-03
+   1.300000E+02   4.423774E-01
+   1.400000E+02   2.570919E+00
+   1.500000E+02   1.426113E+00
+   1.600000E+02   3.087945E+00
+   1.800000E+02   9.131667E+00
+   2.000000E+02   1.273353E+01

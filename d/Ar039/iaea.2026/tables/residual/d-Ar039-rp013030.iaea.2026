@@ -1,0 +1,48 @@
+# header: 
+#   title: Ar39(d,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   6.896243E-08
+   4.500000E+01   3.350119E-05
+   5.000000E+01   3.716695E-04
+   5.500000E+01   2.264402E-03
+   6.000000E+01   5.997189E-03
+   6.500000E+01   1.575941E-02
+   7.000000E+01   2.792481E-02
+   7.500000E+01   3.809135E-02
+   8.000000E+01   4.463218E-02
+   9.000000E+01   5.605416E-02
+   1.000000E+02   8.730657E-02
+   1.100000E+02   1.482871E-01
+   1.200000E+02   2.145221E-01
+   1.300000E+02   2.659366E-01
+   1.400000E+02   2.888489E-01
+   1.500000E+02   3.246232E-01
+   1.600000E+02   3.634895E-01
+   1.800000E+02   4.144841E-01
+   2.000000E+02   4.754592E-01

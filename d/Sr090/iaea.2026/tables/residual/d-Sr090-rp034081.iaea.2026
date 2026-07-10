@@ -1,0 +1,48 @@
+# header: 
+#   title: Sr90(d,x)Se81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 81
+#     nuclide: Se81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.788485E-10
+   4.500000E+01   2.760682E-08
+   5.000000E+01   1.371458E-06
+   5.500000E+01   8.166611E-05
+   6.000000E+01   1.181023E-03
+   6.500000E+01   5.582158E-03
+   7.000000E+01   1.199007E-02
+   7.500000E+01   1.381504E-02
+   8.000000E+01   1.290678E-02
+   9.000000E+01   9.941043E-03
+   1.000000E+02   2.110195E-02
+   1.100000E+02   3.965157E-02
+   1.200000E+02   5.962340E-02
+   1.300000E+02   6.774142E-02
+   1.400000E+02   8.197093E-02
+   1.500000E+02   8.061408E-02
+   1.600000E+02   8.354075E-02
+   1.800000E+02   1.078200E-01
+   2.000000E+02   1.402266E-01

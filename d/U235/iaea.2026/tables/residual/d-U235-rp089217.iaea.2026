@@ -1,0 +1,38 @@
+# header: 
+#   title: U235(d,x)Ac217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 217
+#     nuclide: Ac217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.063198E-11
+   1.100000E+02   8.240870E-07
+   1.200000E+02   2.326106E-03
+   1.300000E+02   5.795951E-02
+   1.400000E+02   3.147246E-01
+   1.500000E+02   1.396232E+00
+   1.600000E+02   2.108728E+00
+   1.800000E+02   1.425940E+00
+   2.000000E+02   4.364830E+00

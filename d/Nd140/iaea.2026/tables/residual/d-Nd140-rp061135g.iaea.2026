@@ -1,0 +1,46 @@
+# header: 
+#   title: Nd140(d,x)Pm135g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 140
+#   nuclide: Nd140
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 135
+#     nuclide: Pm135g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.267265E-08
+   6.500000E+01   5.941814E-04
+   7.000000E+01   6.604494E-03
+   7.500000E+01   1.229771E-02
+   8.000000E+01   1.417403E-02
+   9.000000E+01   1.539754E-02
+   1.000000E+02   1.803806E-02
+   1.100000E+02   2.317150E-02
+   1.200000E+02   2.555430E-02
+   1.300000E+02   2.933673E-02
+   1.400000E+02   2.940127E-02
+   1.500000E+02   2.429444E-02
+   1.600000E+02   2.382442E-02
+   1.800000E+02   1.665567E-02
+   2.000000E+02   1.203113E-02

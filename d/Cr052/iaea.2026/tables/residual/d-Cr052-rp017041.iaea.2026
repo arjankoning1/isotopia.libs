@@ -1,0 +1,40 @@
+# header: 
+#   title: Cr52(d,x)Cl41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 41
+#     nuclide: Cl41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.359831E-12
+   9.000000E+01   1.721932E-08
+   1.000000E+02   9.711395E-07
+   1.100000E+02   1.016524E-05
+   1.200000E+02   3.992593E-05
+   1.300000E+02   6.196162E-05
+   1.400000E+02   8.404476E-05
+   1.500000E+02   1.233970E-04
+   1.600000E+02   1.700598E-04
+   1.800000E+02   1.579636E-04
+   2.000000E+02   2.196430E-04

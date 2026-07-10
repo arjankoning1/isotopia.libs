@@ -1,0 +1,44 @@
+# header: 
+#   title: Yb170(d,x)Yb163 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 170
+#   nuclide: Yb170
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 163
+#     nuclide: Yb163
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.470695E-08
+   6.500000E+01   8.502285E-04
+   7.000000E+01   6.154544E-02
+   7.500000E+01   7.447991E-01
+   8.000000E+01   5.728510E+00
+   9.000000E+01   6.168846E+01
+   1.000000E+02   1.126795E+02
+   1.100000E+02   1.033944E+02
+   1.200000E+02   1.009597E+02
+   1.300000E+02   1.174881E+02
+   1.400000E+02   1.809665E+02
+   1.500000E+02   2.145245E+02
+   1.600000E+02   2.909690E+02
+   1.800000E+02   2.862238E+02
+   2.000000E+02   1.367568E+02

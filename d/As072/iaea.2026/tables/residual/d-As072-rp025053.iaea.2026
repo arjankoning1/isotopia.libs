@@ -1,0 +1,39 @@
+# header: 
+#   title: As72(d,x)Mn53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 72
+#   nuclide: As72
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.025073E-08
+   1.000000E+02   3.137768E-06
+   1.100000E+02   1.350671E-04
+   1.200000E+02   1.488965E-03
+   1.300000E+02   6.669071E-03
+   1.400000E+02   1.693785E-02
+   1.500000E+02   5.187052E-02
+   1.600000E+02   1.817686E-01
+   1.800000E+02   7.794368E-01
+   2.000000E+02   1.889475E+00

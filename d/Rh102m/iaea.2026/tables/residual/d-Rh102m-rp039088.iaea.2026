@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh102m(d,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.077701E-12
+   6.000000E+01   2.631241E-09
+   6.500000E+01   3.553200E-07
+   7.000000E+01   8.816728E-06
+   7.500000E+01   1.316472E-04
+   8.000000E+01   1.061196E-03
+   9.000000E+01   1.006610E-02
+   1.000000E+02   1.385150E-02
+   1.100000E+02   8.946608E-03
+   1.200000E+02   2.315211E-02
+   1.300000E+02   6.403040E-02
+   1.400000E+02   1.312350E-01
+   1.500000E+02   1.933930E-01
+   1.600000E+02   2.590101E-01
+   1.800000E+02   4.217242E-01
+   2.000000E+02   4.745276E-01

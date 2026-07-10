@@ -1,0 +1,43 @@
+# header: 
+#   title: Cr53(d,x)Ca41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.018307E-12
+   7.000000E+01   3.520518E-07
+   7.500000E+01   5.862274E-05
+   8.000000E+01   5.488782E-04
+   9.000000E+01   1.961084E-02
+   1.000000E+02   1.993404E-01
+   1.100000E+02   6.374480E-01
+   1.200000E+02   1.209222E+00
+   1.300000E+02   1.918517E+00
+   1.400000E+02   4.078727E+00
+   1.500000E+02   6.948940E+00
+   1.600000E+02   1.013117E+01
+   1.800000E+02   1.914065E+01
+   2.000000E+02   2.473366E+01

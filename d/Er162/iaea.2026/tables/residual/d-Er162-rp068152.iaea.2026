@@ -1,0 +1,39 @@
+# header: 
+#   title: Er162(d,x)Er152 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 162
+#   nuclide: Er162
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 152
+#     nuclide: Er152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.716307E-10
+   1.000000E+02   7.167205E-04
+   1.100000E+02   9.774731E-02
+   1.200000E+02   1.669802E+00
+   1.300000E+02   6.377488E+00
+   1.400000E+02   7.237601E+00
+   1.500000E+02   5.565849E+00
+   1.600000E+02   7.258668E+00
+   1.800000E+02   1.135423E+01
+   2.000000E+02   2.536925E+01

@@ -1,0 +1,38 @@
+# header: 
+#   title: Ge70(d,x)Mn50g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 50
+#     nuclide: Mn50g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.602477E-11
+   1.300000E+02   1.944550E-08
+   1.400000E+02   6.834773E-07
+   1.500000E+02   4.987628E-06
+   1.600000E+02   2.365626E-05
+   1.800000E+02   4.640202E-04
+   2.000000E+02   3.190882E-03

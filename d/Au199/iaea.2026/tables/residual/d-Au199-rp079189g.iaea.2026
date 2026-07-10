@@ -1,0 +1,42 @@
+# header: 
+#   title: Au199(d,x)Au189g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 189
+#     nuclide: Au189g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.357538E-11
+   9.000000E+01   4.939796E-04
+   1.000000E+02   2.698943E-01
+   1.100000E+02   5.446990E+00
+   1.200000E+02   2.644002E+01
+   1.300000E+02   4.278031E+01
+   1.400000E+02   3.519723E+01
+   1.500000E+02   3.281323E+01
+   1.600000E+02   3.368249E+01
+   1.800000E+02   5.912239E+01
+   2.000000E+02   1.120211E+02

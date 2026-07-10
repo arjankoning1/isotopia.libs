@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo100(d,x)Mo95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 95
+#     nuclide: Mo95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.421415E-03
+   4.500000E+01   5.177611E-01
+   5.000000E+01   3.854142E+00
+   5.500000E+01   1.461230E+01
+   6.000000E+01   5.336620E+01
+   6.500000E+01   1.212653E+02
+   7.000000E+01   1.766124E+02
+   7.500000E+01   1.947076E+02
+   8.000000E+01   1.889007E+02
+   9.000000E+01   1.982183E+02
+   1.000000E+02   2.475751E+02
+   1.100000E+02   3.064556E+02
+   1.200000E+02   3.463821E+02
+   1.300000E+02   3.345861E+02
+   1.400000E+02   3.000613E+02
+   1.500000E+02   2.508542E+02
+   1.600000E+02   1.988892E+02
+   1.800000E+02   1.161861E+02
+   2.000000E+02   7.546438E+01

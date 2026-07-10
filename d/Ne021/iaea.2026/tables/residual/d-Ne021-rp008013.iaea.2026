@@ -1,0 +1,42 @@
+# header: 
+#   title: Ne21(d,x)O13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 13
+#     nuclide: O13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.470113E-09
+   7.500000E+01   1.314449E-06
+   8.000000E+01   2.083581E-05
+   9.000000E+01   4.216671E-04
+   1.000000E+02   2.291635E-03
+   1.100000E+02   7.017639E-03
+   1.200000E+02   1.382317E-02
+   1.300000E+02   2.007637E-02
+   1.400000E+02   2.460475E-02
+   1.500000E+02   2.769985E-02
+   1.600000E+02   3.124772E-02
+   1.800000E+02   4.000798E-02
+   2.000000E+02   5.041014E-02

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ce134(d,x)Cs121m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 121
+#     nuclide: Cs121m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.876355E-12
+   9.000000E+01   9.807180E-06
+   1.000000E+02   1.515299E-02
+   1.100000E+02   5.169037E-01
+   1.200000E+02   1.355699E+00
+   1.300000E+02   8.201375E-01
+   1.400000E+02   7.454102E-01
+   1.500000E+02   1.816803E+00
+   1.600000E+02   4.047923E+00
+   1.800000E+02   9.803342E+00
+   2.000000E+02   1.366273E+01

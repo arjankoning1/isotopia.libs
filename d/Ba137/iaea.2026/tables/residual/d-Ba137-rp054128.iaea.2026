@@ -1,0 +1,46 @@
+# header: 
+#   title: Ba137(d,x)Xe128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 128
+#     nuclide: Xe128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.279970E-12
+   5.500000E+01   1.134392E-07
+   6.000000E+01   1.056367E-04
+   6.500000E+01   5.824251E-03
+   7.000000E+01   5.660169E-02
+   7.500000E+01   3.301841E-01
+   8.000000E+01   1.388866E+00
+   9.000000E+01   7.225536E+00
+   1.000000E+02   1.131038E+01
+   1.100000E+02   1.143128E+01
+   1.200000E+02   1.491505E+01
+   1.300000E+02   1.917359E+01
+   1.400000E+02   2.755168E+01
+   1.500000E+02   2.861556E+01
+   1.600000E+02   3.418274E+01
+   1.800000E+02   2.517606E+01
+   2.000000E+02   2.128662E+01

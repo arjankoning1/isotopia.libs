@@ -1,0 +1,43 @@
+# header: 
+#   title: Xe128(d,x)Cs122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 128
+#   nuclide: Xe128
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.947198E-11
+   7.000000E+01   2.193487E-04
+   7.500000E+01   3.797043E-02
+   8.000000E+01   3.917926E-01
+   9.000000E+01   1.825213E+00
+   1.000000E+02   2.059777E+00
+   1.100000E+02   2.349597E+00
+   1.200000E+02   3.130580E+00
+   1.300000E+02   4.311989E+00
+   1.400000E+02   5.637369E+00
+   1.500000E+02   6.591516E+00
+   1.600000E+02   6.481733E+00
+   1.800000E+02   6.220572E+00
+   2.000000E+02   4.466826E+00

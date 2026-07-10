@@ -1,0 +1,41 @@
+# header: 
+#   title: Cl35(d,x)O19 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.679017E-10
+   8.000000E+01   5.745605E-08
+   9.000000E+01   4.253412E-06
+   1.000000E+02   2.556580E-05
+   1.100000E+02   5.893899E-05
+   1.200000E+02   1.449061E-04
+   1.300000E+02   4.177594E-04
+   1.400000E+02   1.020591E-03
+   1.500000E+02   2.175085E-03
+   1.600000E+02   4.074161E-03
+   1.800000E+02   1.210867E-02
+   2.000000E+02   2.266181E-02

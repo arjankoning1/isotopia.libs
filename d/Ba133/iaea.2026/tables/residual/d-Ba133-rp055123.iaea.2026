@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba133(d,x)Cs123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 123
+#     nuclide: Cs123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.637162E-08
+   8.000000E+01   1.148544E-04
+   9.000000E+01   3.986449E-01
+   1.000000E+02   6.063525E+00
+   1.100000E+02   1.100708E+01
+   1.200000E+02   7.378796E+00
+   1.300000E+02   6.554931E+00
+   1.400000E+02   1.044913E+01
+   1.500000E+02   1.839332E+01
+   1.600000E+02   2.705370E+01
+   1.800000E+02   4.489198E+01
+   2.000000E+02   5.160223E+01

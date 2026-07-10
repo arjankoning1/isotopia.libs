@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni59(d,x)Ca46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 46
+#     nuclide: Ca46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.399888E-12
+   7.000000E+01   2.228409E-09
+   7.500000E+01   6.500569E-08
+   8.000000E+01   5.807989E-07
+   9.000000E+01   7.172482E-06
+   1.000000E+02   4.173588E-05
+   1.100000E+02   9.135504E-05
+   1.200000E+02   1.928777E-04
+   1.300000E+02   5.329759E-04
+   1.400000E+02   1.324670E-03
+   1.500000E+02   2.670134E-03
+   1.600000E+02   4.059383E-03
+   1.800000E+02   4.383604E-03
+   2.000000E+02   7.850756E-03

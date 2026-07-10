@@ -1,0 +1,41 @@
+# header: 
+#   title: Bi205(d,x)Pt189 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 189
+#     nuclide: Pt189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.559474E-12
+   8.000000E+01   2.695814E-09
+   9.000000E+01   5.188534E-05
+   1.000000E+02   4.314297E-03
+   1.100000E+02   2.471668E-02
+   1.200000E+02   2.003204E-02
+   1.300000E+02   3.215643E-02
+   1.400000E+02   6.544930E-02
+   1.500000E+02   7.869098E-02
+   1.600000E+02   7.179580E-02
+   1.800000E+02   5.600539E-02
+   2.000000E+02   9.229739E-02

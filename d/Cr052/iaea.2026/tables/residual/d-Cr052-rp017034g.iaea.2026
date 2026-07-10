@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr52(d,x)Cl34g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.672448E-13
+   1.000000E+02   1.821005E-08
+   1.100000E+02   2.609319E-06
+   1.200000E+02   2.700134E-05
+   1.300000E+02   1.172904E-04
+   1.400000E+02   6.485190E-04
+   1.500000E+02   3.006069E-03
+   1.600000E+02   9.572145E-03
+   1.800000E+02   4.575795E-02
+   2.000000E+02   1.612509E-01

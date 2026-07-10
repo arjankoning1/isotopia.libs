@@ -1,0 +1,44 @@
+# header: 
+#   title: Pr141(d,x)Cs129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 129
+#     nuclide: Cs129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.552020E-12
+   6.500000E+01   8.274024E-09
+   7.000000E+01   1.696021E-06
+   7.500000E+01   5.373383E-05
+   8.000000E+01   5.929531E-04
+   9.000000E+01   2.518717E-02
+   1.000000E+02   1.374121E-01
+   1.100000E+02   1.576851E-01
+   1.200000E+02   1.155382E-01
+   1.300000E+02   1.207617E-01
+   1.400000E+02   1.971772E-01
+   1.500000E+02   2.498755E-01
+   1.600000E+02   3.364145E-01
+   1.800000E+02   4.362770E-01
+   2.000000E+02   3.668906E-01

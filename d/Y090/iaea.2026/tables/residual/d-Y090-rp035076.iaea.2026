@@ -1,0 +1,39 @@
+# header: 
+#   title: Y90(d,x)Br76 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.853228E-09
+   1.000000E+02   6.120501E-05
+   1.100000E+02   3.550773E-03
+   1.200000E+02   5.213773E-02
+   1.300000E+02   2.854280E-01
+   1.400000E+02   7.251866E-01
+   1.500000E+02   1.369460E+00
+   1.600000E+02   2.248849E+00
+   1.800000E+02   5.544720E+00
+   2.000000E+02   1.150302E+01

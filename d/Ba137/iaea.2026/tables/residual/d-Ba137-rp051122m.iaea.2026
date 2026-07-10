@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba137(d,x)Sb122m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.385852E-09
+   8.000000E+01   3.951214E-07
+   9.000000E+01   1.389430E-04
+   1.000000E+02   1.003742E-03
+   1.100000E+02   1.142704E-03
+   1.200000E+02   1.570462E-03
+   1.300000E+02   5.332147E-03
+   1.400000E+02   7.742193E-03
+   1.500000E+02   1.312564E-02
+   1.600000E+02   1.798247E-02
+   1.800000E+02   1.491030E-02
+   2.000000E+02   2.234548E-02

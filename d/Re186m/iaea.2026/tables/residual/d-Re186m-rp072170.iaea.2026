@@ -1,0 +1,39 @@
+# header: 
+#   title: Re186m(d,x)Hf170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 170
+#     nuclide: Hf170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.751687E-10
+   1.000000E+02   1.062768E-05
+   1.100000E+02   6.481147E-03
+   1.200000E+02   1.780830E-01
+   1.300000E+02   7.202651E-01
+   1.400000E+02   7.980251E-01
+   1.500000E+02   7.334068E-01
+   1.600000E+02   5.702857E-01
+   1.800000E+02   1.819308E+00
+   2.000000E+02   3.009347E+00

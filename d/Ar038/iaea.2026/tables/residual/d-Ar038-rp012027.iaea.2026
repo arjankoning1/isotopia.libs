@@ -1,0 +1,48 @@
+# header: 
+#   title: Ar38(d,x)Mg27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.011409E-07
+   4.500000E+01   9.461237E-05
+   5.000000E+01   2.393206E-03
+   5.500000E+01   1.058581E-02
+   6.000000E+01   1.705602E-02
+   6.500000E+01   1.651527E-02
+   7.000000E+01   1.758923E-02
+   7.500000E+01   2.156673E-02
+   8.000000E+01   2.972910E-02
+   9.000000E+01   7.865714E-02
+   1.000000E+02   1.886451E-01
+   1.100000E+02   3.074828E-01
+   1.200000E+02   4.261867E-01
+   1.300000E+02   5.797847E-01
+   1.400000E+02   8.417577E-01
+   1.500000E+02   1.198168E+00
+   1.600000E+02   1.536485E+00
+   1.800000E+02   2.136896E+00
+   2.000000E+02   2.730514E+00

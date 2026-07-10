@@ -1,0 +1,40 @@
+# header: 
+#   title: Na22(d,x)F14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 14
+#     nuclide: F14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.397280E-10
+   9.000000E+01   3.236821E-07
+   1.000000E+02   3.365874E-06
+   1.100000E+02   1.119984E-05
+   1.200000E+02   2.376712E-05
+   1.300000E+02   4.049625E-05
+   1.400000E+02   6.406388E-05
+   1.500000E+02   9.960920E-05
+   1.600000E+02   1.458170E-04
+   1.800000E+02   2.650474E-04
+   2.000000E+02   3.702156E-04

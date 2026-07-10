@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs134(d,x)Cs122n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 122
+#     nuclide: Cs122n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.533668E-12
+   1.200000E+02   1.874629E-06
+   1.300000E+02   2.759668E-04
+   1.400000E+02   1.225287E-03
+   1.500000E+02   6.921086E-03
+   1.600000E+02   2.079436E-02
+   1.800000E+02   6.097585E-02
+   2.000000E+02   1.625359E-01

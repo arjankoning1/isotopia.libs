@@ -1,0 +1,43 @@
+# header: 
+#   title: Hg198(d,x)Os185 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 185
+#     nuclide: Os185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.681666E-12
+   7.000000E+01   2.330882E-09
+   7.500000E+01   6.419282E-07
+   8.000000E+01   2.577331E-05
+   9.000000E+01   5.390513E-03
+   1.000000E+02   1.246988E-01
+   1.100000E+02   2.863254E-01
+   1.200000E+02   1.894894E-01
+   1.300000E+02   9.126256E-02
+   1.400000E+02   8.558033E-02
+   1.500000E+02   9.612955E-02
+   1.600000E+02   1.018853E-01
+   1.800000E+02   1.209173E-01
+   2.000000E+02   1.267651E-01

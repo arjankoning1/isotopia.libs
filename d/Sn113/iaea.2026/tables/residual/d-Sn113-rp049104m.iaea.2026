@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn113(d,x)In104m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 104
+#     nuclide: In104m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.432994E-15
+   7.000000E+01   4.001576E-10
+   7.500000E+01   8.056482E-08
+   8.000000E+01   6.061006E-06
+   9.000000E+01   6.914431E-04
+   1.000000E+02   3.361196E-03
+   1.100000E+02   4.463226E-03
+   1.200000E+02   5.959706E-03
+   1.300000E+02   1.099307E-02
+   1.400000E+02   2.560813E-02
+   1.500000E+02   4.399948E-02
+   1.600000E+02   6.916097E-02
+   1.800000E+02   1.393081E-01
+   2.000000E+02   1.899187E-01

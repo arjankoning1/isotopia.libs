@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe56(d,x)Ti45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.357418E-11
+   6.500000E+01   2.228191E-06
+   7.000000E+01   5.348326E-04
+   7.500000E+01   6.987567E-03
+   8.000000E+01   2.472907E-02
+   9.000000E+01   1.768520E-01
+   1.000000E+02   8.473201E-01
+   1.100000E+02   1.670601E+00
+   1.200000E+02   2.514055E+00
+   1.300000E+02   3.603885E+00
+   1.400000E+02   6.818162E+00
+   1.500000E+02   9.290160E+00
+   1.600000E+02   1.439844E+01
+   1.800000E+02   2.207539E+01
+   2.000000E+02   3.042600E+01

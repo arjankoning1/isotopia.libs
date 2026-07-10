@@ -1,0 +1,45 @@
+# header: 
+#   title: Hg202(d,x)Hg195 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 202
+#   nuclide: Hg202
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.323292E-08
+   6.000000E+01   6.961341E-04
+   6.500000E+01   1.096803E-01
+   7.000000E+01   1.473916E+00
+   7.500000E+01   7.176505E+00
+   8.000000E+01   2.335855E+01
+   9.000000E+01   8.912498E+01
+   1.000000E+02   1.140701E+02
+   1.100000E+02   1.085858E+02
+   1.200000E+02   1.268236E+02
+   1.300000E+02   1.811767E+02
+   1.400000E+02   2.324224E+02
+   1.500000E+02   3.246582E+02
+   1.600000E+02   3.565197E+02
+   1.800000E+02   3.229094E+02
+   2.000000E+02   1.875687E+02

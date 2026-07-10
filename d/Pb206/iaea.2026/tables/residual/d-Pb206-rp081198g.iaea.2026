@@ -1,0 +1,48 @@
+# header: 
+#   title: Pb206(d,x)Tl198g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 198
+#     nuclide: Tl198g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.586916E-07
+   5.500000E+01   1.691646E-03
+   6.000000E+01   2.268850E-01
+   6.500000E+01   3.791254E+00
+   7.000000E+01   1.569380E+01
+   7.500000E+01   2.925507E+01
+   8.000000E+01   3.131498E+01
+   9.000000E+01   1.401955E+01
+   1.000000E+02   8.624966E+00
+   1.100000E+02   1.077867E+01
+   1.200000E+02   1.363256E+01
+   1.300000E+02   1.468877E+01
+   1.400000E+02   1.201354E+01
+   1.500000E+02   1.232792E+01
+   1.600000E+02   1.295461E+01
+   1.800000E+02   8.992710E+00
+   2.000000E+02   9.503142E+00

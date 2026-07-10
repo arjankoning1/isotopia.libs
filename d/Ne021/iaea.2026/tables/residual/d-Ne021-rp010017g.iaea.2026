@@ -1,0 +1,47 @@
+# header: 
+#   title: Ne21(d,x)Ne17g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.218115E-10
+   6.000000E+01   8.778800E-06
+   6.500000E+01   1.425617E-04
+   7.000000E+01   4.850446E-04
+   7.500000E+01   1.071254E-03
+   8.000000E+01   2.185292E-03
+   9.000000E+01   6.303974E-03
+   1.000000E+02   1.078558E-02
+   1.100000E+02   1.406225E-02
+   1.200000E+02   1.638472E-02
+   1.300000E+02   1.807957E-02
+   1.400000E+02   1.972808E-02
+   1.500000E+02   2.122883E-02
+   1.600000E+02   2.358567E-02
+   1.800000E+02   2.832069E-02
+   2.000000E+02   3.126535E-02

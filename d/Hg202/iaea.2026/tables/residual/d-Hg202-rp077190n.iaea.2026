@@ -1,0 +1,46 @@
+# header: 
+#   title: Hg202(d,x)Ir190n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 202
+#   nuclide: Hg202
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 190
+#     nuclide: Ir190n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.946475E-13
+   6.500000E+01   7.075450E-09
+   7.000000E+01   3.215779E-06
+   7.500000E+01   1.754128E-04
+   8.000000E+01   1.867737E-03
+   9.000000E+01   1.079547E-02
+   1.000000E+02   7.714541E-03
+   1.100000E+02   4.768036E-03
+   1.200000E+02   8.109251E-03
+   1.300000E+02   9.345132E-03
+   1.400000E+02   1.584177E-02
+   1.500000E+02   1.646225E-02
+   1.600000E+02   1.666830E-02
+   1.800000E+02   2.928140E-02
+   2.000000E+02   6.666054E-02

@@ -1,0 +1,46 @@
+# header: 
+#   title: Ag110m(d,x)Ag103g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.613876E-08
+   6.500000E+01   6.244070E-04
+   7.000000E+01   2.894122E-02
+   7.500000E+01   2.297743E-01
+   8.000000E+01   1.315446E+00
+   9.000000E+01   1.329810E+01
+   1.000000E+02   2.926818E+01
+   1.100000E+02   3.318943E+01
+   1.200000E+02   3.625415E+01
+   1.300000E+02   4.697881E+01
+   1.400000E+02   5.864278E+01
+   1.500000E+02   8.025842E+01
+   1.600000E+02   9.656921E+01
+   1.800000E+02   1.242549E+02
+   2.000000E+02   1.100277E+02

@@ -1,0 +1,44 @@
+# header: 
+#   title: U232(d,x)Pa222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 222
+#     nuclide: Pa222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.904690E-12
+   6.500000E+01   2.230174E-09
+   7.000000E+01   3.058172E-06
+   7.500000E+01   5.047979E-04
+   8.000000E+01   1.314749E-02
+   9.000000E+01   4.387121E-01
+   1.000000E+02   1.503071E+00
+   1.100000E+02   1.645618E+00
+   1.200000E+02   2.190650E+00
+   1.300000E+02   1.773597E+00
+   1.400000E+02   3.071813E+00
+   1.500000E+02   4.775732E+00
+   1.600000E+02   4.246232E+00
+   1.800000E+02   1.156105E+01
+   2.000000E+02   7.303252E+00

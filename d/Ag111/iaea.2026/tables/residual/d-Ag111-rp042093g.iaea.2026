@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag111(d,x)Mo93g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 111
+#   nuclide: Ag111
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.911356E-08
+   1.100000E+02   1.770085E-04
+   1.200000E+02   4.686405E-03
+   1.300000E+02   2.223464E-02
+   1.400000E+02   8.159564E-02
+   1.500000E+02   1.775732E-01
+   1.600000E+02   3.761579E-01
+   1.800000E+02   1.477277E+00
+   2.000000E+02   3.182009E+00

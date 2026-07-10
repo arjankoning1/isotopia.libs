@@ -1,0 +1,40 @@
+# header: 
+#   title: Ba128(d,x)I114g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 128
+#   nuclide: Ba128
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 114
+#     nuclide: I114g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.606825E-10
+   1.100000E+02   8.732914E-07
+   1.200000E+02   2.521603E-05
+   1.300000E+02   3.629611E-05
+   1.400000E+02   8.877984E-05
+   1.500000E+02   3.168345E-04
+   1.600000E+02   1.732586E-03
+   1.800000E+02   1.270689E-02
+   2.000000E+02   4.105576E-02

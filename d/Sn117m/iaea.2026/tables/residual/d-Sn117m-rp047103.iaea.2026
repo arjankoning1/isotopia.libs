@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn117m(d,x)Ag103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.017139E-06
+   1.000000E+02   2.168136E-02
+   1.100000E+02   8.858253E-01
+   1.200000E+02   2.552351E+00
+   1.300000E+02   1.686961E+00
+   1.400000E+02   3.290037E+00
+   1.500000E+02   5.384166E+00
+   1.600000E+02   1.071825E+01
+   1.800000E+02   2.365356E+01
+   2.000000E+02   4.631169E+01

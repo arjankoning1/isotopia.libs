@@ -1,0 +1,41 @@
+# header: 
+#   title: Cf250(d,x)Pa233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 250
+#   nuclide: Cf250
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 233
+#     nuclide: Pa233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.159598E-12
+   8.000000E+01   5.655729E-10
+   9.000000E+01   6.834163E-08
+   1.000000E+02   3.387784E-07
+   1.100000E+02   6.088519E-07
+   1.200000E+02   1.405575E-06
+   1.300000E+02   3.664115E-06
+   1.400000E+02   6.684049E-06
+   1.500000E+02   3.232560E-06
+   1.600000E+02   6.144591E-06
+   1.800000E+02   7.511063E-06
+   2.000000E+02   1.486463E-05

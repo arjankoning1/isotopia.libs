@@ -1,0 +1,40 @@
+# header: 
+#   title: Ag106m(d,x)Ag98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 106
+#   nuclide: Ag106m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 98
+#     nuclide: Ag98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.663720E-12
+   9.000000E+01   2.988221E-06
+   1.000000E+02   1.408227E-04
+   1.100000E+02   1.032540E-03
+   1.200000E+02   2.907784E-03
+   1.300000E+02   6.274607E-03
+   1.400000E+02   8.863530E-03
+   1.500000E+02   1.381354E-02
+   1.600000E+02   1.758216E-02
+   1.800000E+02   4.600081E-02
+   2.000000E+02   1.083189E-01

@@ -1,0 +1,48 @@
+# header: 
+#   title: Ge68(d,x)Zn61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 61
+#     nuclide: Zn61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.629632E-11
+   4.500000E+01   1.896490E-06
+   5.000000E+01   1.528622E-04
+   5.500000E+01   1.758488E-03
+   6.000000E+01   9.895884E-03
+   6.500000E+01   5.266212E-02
+   7.000000E+01   1.671230E-01
+   7.500000E+01   3.118779E-01
+   8.000000E+01   4.085202E-01
+   9.000000E+01   5.259592E-01
+   1.000000E+02   6.905554E-01
+   1.100000E+02   1.003460E+00
+   1.200000E+02   1.371438E+00
+   1.300000E+02   1.705574E+00
+   1.400000E+02   2.173003E+00
+   1.500000E+02   2.310480E+00
+   1.600000E+02   2.662007E+00
+   1.800000E+02   2.798702E+00
+   2.000000E+02   3.182786E+00

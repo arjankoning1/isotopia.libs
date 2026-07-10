@@ -1,0 +1,51 @@
+# header: 
+#   title: Ir193(d,x)Re186m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 186
+#     nuclide: Re186m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   7.188704E-10
+   4.000000E+01   4.910279E-07
+   4.500000E+01   2.167680E-05
+   5.000000E+01   3.370841E-04
+   5.500000E+01   3.352729E-03
+   6.000000E+01   1.247810E-02
+   6.500000E+01   2.329635E-02
+   7.000000E+01   2.872979E-02
+   7.500000E+01   2.954330E-02
+   8.000000E+01   3.582839E-02
+   9.000000E+01   5.261144E-02
+   1.000000E+02   1.010876E-01
+   1.100000E+02   1.615279E-01
+   1.200000E+02   3.255628E-01
+   1.300000E+02   4.461135E-01
+   1.400000E+02   5.098521E-01
+   1.500000E+02   8.174984E-01
+   1.600000E+02   1.047401E+00
+   1.800000E+02   1.266109E+00
+   2.000000E+02   6.220458E-01

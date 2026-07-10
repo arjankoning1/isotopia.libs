@@ -1,0 +1,42 @@
+# header: 
+#   title: Te124(d,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.816445E-11
+   7.500000E+01   8.159176E-08
+   8.000000E+01   1.130567E-05
+   9.000000E+01   2.143249E-03
+   1.000000E+02   7.476179E-02
+   1.100000E+02   4.183309E-01
+   1.200000E+02   5.038790E-01
+   1.300000E+02   3.658964E-01
+   1.400000E+02   5.869987E-01
+   1.500000E+02   9.460602E-01
+   1.600000E+02   1.432969E+00
+   1.800000E+02   2.447237E+00
+   2.000000E+02   2.151313E+00

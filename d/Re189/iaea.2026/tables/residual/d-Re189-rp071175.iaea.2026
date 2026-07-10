@@ -1,0 +1,42 @@
+# header: 
+#   title: Re189(d,x)Lu175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 189
+#   nuclide: Re189
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 175
+#     nuclide: Lu175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.399248E-10
+   7.500000E+01   6.274168E-08
+   8.000000E+01   3.477552E-06
+   9.000000E+01   6.343186E-04
+   1.000000E+02   1.502083E-02
+   1.100000E+02   5.407709E-02
+   1.200000E+02   7.738298E-02
+   1.300000E+02   6.136078E-02
+   1.400000E+02   7.419094E-02
+   1.500000E+02   9.288765E-02
+   1.600000E+02   8.065536E-02
+   1.800000E+02   1.521803E-01
+   2.000000E+02   1.471487E-01

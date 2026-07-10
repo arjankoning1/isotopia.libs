@@ -1,0 +1,46 @@
+# header: 
+#   title: Np235(d,x)Ra221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 221
+#     nuclide: Ra221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.218002E-11
+   5.500000E+01   4.085479E-09
+   6.000000E+01   1.670823E-06
+   6.500000E+01   2.390876E-04
+   7.000000E+01   6.462981E-03
+   7.500000E+01   5.442047E-02
+   8.000000E+01   1.733903E-01
+   9.000000E+01   4.570356E-01
+   1.000000E+02   4.259820E-01
+   1.100000E+02   3.232001E-01
+   1.200000E+02   4.533727E-01
+   1.300000E+02   3.650922E-01
+   1.400000E+02   3.543895E-01
+   1.500000E+02   3.538874E-01
+   1.600000E+02   4.865019E-01
+   1.800000E+02   2.581788E-01
+   2.000000E+02   4.299096E-01

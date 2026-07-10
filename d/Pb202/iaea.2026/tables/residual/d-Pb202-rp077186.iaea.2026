@@ -1,0 +1,40 @@
+# header: 
+#   title: Pb202(d,x)Ir186 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 186
+#     nuclide: Ir186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.410778E-10
+   9.000000E+01   1.421982E-05
+   1.000000E+02   3.300677E-03
+   1.100000E+02   3.645230E-02
+   1.200000E+02   4.954682E-02
+   1.300000E+02   3.464970E-02
+   1.400000E+02   5.113472E-02
+   1.500000E+02   4.865583E-02
+   1.600000E+02   3.039980E-02
+   1.800000E+02   3.685877E-02
+   2.000000E+02   2.131661E-02

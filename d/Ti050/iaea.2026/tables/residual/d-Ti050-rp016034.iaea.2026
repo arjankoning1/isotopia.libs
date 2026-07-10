@@ -1,0 +1,41 @@
+# header: 
+#   title: Ti50(d,x)S34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 34
+#     nuclide: S34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.770991E-12
+   8.000000E+01   4.091717E-08
+   9.000000E+01   2.843927E-05
+   1.000000E+02   8.283824E-04
+   1.100000E+02   1.104442E-02
+   1.200000E+02   5.070749E-02
+   1.300000E+02   1.311423E-01
+   1.400000E+02   2.526389E-01
+   1.500000E+02   5.114640E-01
+   1.600000E+02   9.390256E-01
+   1.800000E+02   2.562613E+00
+   2.000000E+02   5.059899E+00

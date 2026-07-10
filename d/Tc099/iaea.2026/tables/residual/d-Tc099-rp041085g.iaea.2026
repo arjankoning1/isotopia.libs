@@ -1,0 +1,38 @@
+# header: 
+#   title: Tc99(d,x)Nb85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 85
+#     nuclide: Nb85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.260938E-12
+   1.300000E+02   4.028240E-08
+   1.400000E+02   3.415544E-06
+   1.500000E+02   4.959630E-05
+   1.600000E+02   2.940737E-04
+   1.800000E+02   2.565674E-03
+   2.000000E+02   1.366025E-02

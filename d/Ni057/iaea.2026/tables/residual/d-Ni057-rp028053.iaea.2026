@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni57(d,x)Ni53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 53
+#     nuclide: Ni53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.292567E-10
+   6.500000E+01   3.294652E-07
+   7.000000E+01   3.075451E-06
+   7.500000E+01   9.847600E-06
+   8.000000E+01   2.516268E-05
+   9.000000E+01   1.069083E-04
+   1.000000E+02   2.190173E-04
+   1.100000E+02   3.081273E-04
+   1.200000E+02   3.849554E-04
+   1.300000E+02   4.599176E-04
+   1.400000E+02   5.422318E-04
+   1.500000E+02   6.128267E-04
+   1.600000E+02   6.611106E-04
+   1.800000E+02   7.214959E-04
+   2.000000E+02   6.824566E-04

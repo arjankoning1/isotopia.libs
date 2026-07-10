@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr89(d,x)Br74g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 74
+#     nuclide: Br74g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.819977E-11
+   1.200000E+02   2.822455E-06
+   1.300000E+02   4.429792E-04
+   1.400000E+02   6.254544E-03
+   1.500000E+02   2.816925E-02
+   1.600000E+02   6.806881E-02
+   1.800000E+02   2.576038E-01
+   2.000000E+02   8.755659E-01

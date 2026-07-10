@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb203(d,x)Bi194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 194
+#     nuclide: Bi194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.153664E-09
+   1.000000E+02   1.053050E-02
+   1.100000E+02   2.303128E+00
+   1.200000E+02   1.334680E+01
+   1.300000E+02   1.192086E+01
+   1.400000E+02   5.030446E+00
+   1.500000E+02   3.872967E+00
+   1.600000E+02   6.372587E+00
+   1.800000E+02   2.370497E+01
+   2.000000E+02   5.396297E+01

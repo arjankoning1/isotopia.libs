@@ -1,0 +1,47 @@
+# header: 
+#   title: U238(d,x)Np232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 232
+#     nuclide: Np232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   4.709086E-11
+   5.000000E+01   1.816842E-06
+   5.500000E+01   1.537251E-04
+   6.000000E+01   1.480900E-03
+   6.500000E+01   5.539352E-03
+   7.000000E+01   1.435243E-02
+   7.500000E+01   2.939382E-02
+   8.000000E+01   4.922086E-02
+   9.000000E+01   8.949579E-02
+   1.000000E+02   7.651018E-02
+   1.100000E+02   9.058841E-02
+   1.200000E+02   9.032971E-02
+   1.300000E+02   9.872610E-02
+   1.400000E+02   2.153285E-01
+   1.500000E+02   1.119787E-01
+   1.600000E+02   1.467412E-01
+   1.800000E+02   1.370357E-01
+   2.000000E+02   3.441967E-01

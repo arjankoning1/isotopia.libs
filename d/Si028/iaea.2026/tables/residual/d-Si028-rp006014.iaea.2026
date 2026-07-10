@@ -1,0 +1,44 @@
+# header: 
+#   title: Si28(d,x)C14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.354883E-12
+   6.500000E+01   3.489054E-08
+   7.000000E+01   4.966938E-06
+   7.500000E+01   6.845737E-05
+   8.000000E+01   5.325391E-04
+   9.000000E+01   1.109861E-02
+   1.000000E+02   4.671975E-02
+   1.100000E+02   8.805211E-02
+   1.200000E+02   1.486968E-01
+   1.300000E+02   2.476967E-01
+   1.400000E+02   4.083369E-01
+   1.500000E+02   5.910464E-01
+   1.600000E+02   9.306424E-01
+   1.800000E+02   1.643672E+00
+   2.000000E+02   2.625228E+00

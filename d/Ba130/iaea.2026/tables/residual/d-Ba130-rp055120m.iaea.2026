@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba130(d,x)Cs120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 120
+#     nuclide: Cs120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.955428E-12
+   9.000000E+01   1.588442E-04
+   1.000000E+02   1.007198E-01
+   1.100000E+02   1.072921E+00
+   1.200000E+02   1.519074E+00
+   1.300000E+02   9.746884E-01
+   1.400000E+02   1.277227E+00
+   1.500000E+02   2.706251E+00
+   1.600000E+02   4.156393E+00
+   1.800000E+02   1.210226E+01
+   2.000000E+02   1.670599E+01

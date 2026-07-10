@@ -1,0 +1,41 @@
+# header: 
+#   title: Cf252(d,x)Pa234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 252
+#   nuclide: Cf252
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 234
+#     nuclide: Pa234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.877727E-17
+   8.000000E+01   2.065015E-11
+   9.000000E+01   2.911227E-08
+   1.000000E+02   5.336878E-07
+   1.100000E+02   1.994859E-06
+   1.200000E+02   3.566860E-06
+   1.300000E+02   8.902728E-06
+   1.400000E+02   7.589110E-06
+   1.500000E+02   1.026779E-05
+   1.600000E+02   1.632721E-05
+   1.800000E+02   3.596089E-05
+   2.000000E+02   6.501903E-05

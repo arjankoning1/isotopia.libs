@@ -1,0 +1,43 @@
+# header: 
+#   title: K39(d,x)Al25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 25
+#     nuclide: Al25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.513230E-09
+   7.000000E+01   5.872507E-07
+   7.500000E+01   1.488136E-05
+   8.000000E+01   1.173024E-04
+   9.000000E+01   2.818058E-03
+   1.000000E+02   1.785435E-02
+   1.100000E+02   4.411831E-02
+   1.200000E+02   8.436723E-02
+   1.300000E+02   1.713766E-01
+   1.400000E+02   3.341880E-01
+   1.500000E+02   5.576872E-01
+   1.600000E+02   8.099439E-01
+   1.800000E+02   1.518787E+00
+   2.000000E+02   2.364421E+00

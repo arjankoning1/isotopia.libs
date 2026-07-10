@@ -1,0 +1,41 @@
+# header: 
+#   title: Ti50(d,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.828178E-12
+   8.000000E+01   1.101257E-07
+   9.000000E+01   1.427646E-04
+   1.000000E+02   3.842458E-03
+   1.100000E+02   1.849994E-02
+   1.200000E+02   4.619165E-02
+   1.300000E+02   1.039473E-01
+   1.400000E+02   2.846164E-01
+   1.500000E+02   5.881667E-01
+   1.600000E+02   1.039430E+00
+   1.800000E+02   2.860905E+00
+   2.000000E+02   5.744153E+00

@@ -1,0 +1,45 @@
+# header: 
+#   title: Tc99(d,x)Sr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.563800E-09
+   7.000000E+01   3.616430E-06
+   7.500000E+01   1.999957E-04
+   8.000000E+01   2.233731E-03
+   9.000000E+01   1.836938E-02
+   1.000000E+02   1.930040E-02
+   1.100000E+02   1.139612E-02
+   1.200000E+02   2.934626E-02
+   1.300000E+02   9.471513E-02
+   1.400000E+02   1.816749E-01
+   1.500000E+02   2.492831E-01
+   1.600000E+02   3.944649E-01
+   1.800000E+02   7.647253E-01
+   2.000000E+02   1.266576E+00

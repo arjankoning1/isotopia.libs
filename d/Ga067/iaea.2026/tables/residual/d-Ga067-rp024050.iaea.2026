@@ -1,0 +1,42 @@
+# header: 
+#   title: Ga67(d,x)Cr50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 50
+#     nuclide: Cr50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.682386E-12
+   7.500000E+01   9.984484E-09
+   8.000000E+01   1.371186E-06
+   9.000000E+01   2.047335E-04
+   1.000000E+02   2.676804E-03
+   1.100000E+02   9.555375E-03
+   1.200000E+02   2.629003E-02
+   1.300000E+02   1.075056E-01
+   1.400000E+02   3.605734E-01
+   1.500000E+02   7.859766E-01
+   1.600000E+02   1.432672E+00
+   1.800000E+02   3.638332E+00
+   2.000000E+02   7.103904E+00

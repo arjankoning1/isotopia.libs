@@ -1,0 +1,38 @@
+# header: 
+#   title: Sb124(d,x)Cd108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 124
+#   nuclide: Sb124
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 108
+#     nuclide: Cd108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.557144E-10
+   1.100000E+02   1.330134E-05
+   1.200000E+02   2.216396E-03
+   1.300000E+02   1.327385E-02
+   1.400000E+02   3.470704E-02
+   1.500000E+02   1.918549E-01
+   1.600000E+02   9.561201E-01
+   1.800000E+02   7.242334E+00
+   2.000000E+02   1.323756E+01

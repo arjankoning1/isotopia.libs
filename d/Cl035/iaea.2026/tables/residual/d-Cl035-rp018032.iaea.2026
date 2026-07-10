@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl35(d,x)Ar32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 32
+#     nuclide: Ar32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.652255E-11
+   6.500000E+01   2.202313E-08
+   7.000000E+01   3.347522E-07
+   7.500000E+01   1.812035E-06
+   8.000000E+01   5.030573E-06
+   9.000000E+01   1.373391E-05
+   1.000000E+02   2.018947E-05
+   1.100000E+02   2.336748E-05
+   1.200000E+02   2.451977E-05
+   1.300000E+02   2.467567E-05
+   1.400000E+02   2.436921E-05
+   1.500000E+02   2.377297E-05
+   1.600000E+02   2.282943E-05
+   1.800000E+02   2.067005E-05
+   2.000000E+02   1.802482E-05

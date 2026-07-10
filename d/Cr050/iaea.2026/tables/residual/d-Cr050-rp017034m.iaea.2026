@@ -1,0 +1,45 @@
+# header: 
+#   title: Cr50(d,x)Cl34m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.998775E-12
+   7.000000E+01   5.632249E-09
+   7.500000E+01   3.512082E-07
+   8.000000E+01   2.408090E-06
+   9.000000E+01   4.089466E-05
+   1.000000E+02   1.595364E-04
+   1.100000E+02   1.243716E-03
+   1.200000E+02   8.002968E-03
+   1.300000E+02   2.892838E-02
+   1.400000E+02   6.453682E-02
+   1.500000E+02   1.082075E-01
+   1.600000E+02   2.000637E-01
+   1.800000E+02   5.816349E-01
+   2.000000E+02   1.127549E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Mo100(d,x)Rb86g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.217863E-11
+   6.500000E+01   4.090923E-08
+   7.000000E+01   4.600756E-06
+   7.500000E+01   8.041188E-05
+   8.000000E+01   4.038542E-04
+   9.000000E+01   1.650916E-03
+   1.000000E+02   1.847256E-03
+   1.100000E+02   3.843842E-03
+   1.200000E+02   6.303950E-03
+   1.300000E+02   1.477982E-02
+   1.400000E+02   2.695751E-02
+   1.500000E+02   3.543366E-02
+   1.600000E+02   4.939393E-02
+   1.800000E+02   9.180098E-02
+   2.000000E+02   1.200313E-01

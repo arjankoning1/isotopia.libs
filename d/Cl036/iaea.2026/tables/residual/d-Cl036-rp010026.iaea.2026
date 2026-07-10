@@ -1,0 +1,40 @@
+# header: 
+#   title: Cl36(d,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.886724E-11
+   9.000000E+01   1.228148E-08
+   1.000000E+02   1.295446E-07
+   1.100000E+02   3.785637E-07
+   1.200000E+02   8.792462E-07
+   1.300000E+02   2.232888E-06
+   1.400000E+02   5.278401E-06
+   1.500000E+02   1.027881E-05
+   1.600000E+02   1.552519E-05
+   1.800000E+02   2.612202E-05
+   2.000000E+02   3.597266E-05

@@ -1,0 +1,41 @@
+# header: 
+#   title: Se77(d,x)Co58m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 77
+#   nuclide: Se77
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.118497E-11
+   1.000000E+02   2.269675E-08
+   1.100000E+02   3.393230E-06
+   1.200000E+02   3.472206E-05
+   1.300000E+02   3.574320E-04
+   1.400000E+02   4.784729E-03
+   1.500000E+02   5.085563E-02
+   1.600000E+02   2.020340E-01
+   1.800000E+02   9.077413E-01
+   2.000000E+02   2.040609E+00

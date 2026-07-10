@@ -1,0 +1,42 @@
+# header: 
+#   title: Se74(d,x)Se68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 68
+#     nuclide: Se68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.308587E-09
+   7.500000E+01   3.400175E-07
+   8.000000E+01   4.016008E-06
+   9.000000E+01   5.016142E-05
+   1.000000E+02   2.487749E-04
+   1.100000E+02   5.974671E-04
+   1.200000E+02   9.367450E-04
+   1.300000E+02   1.228633E-03
+   1.400000E+02   1.542273E-03
+   1.500000E+02   1.966354E-03
+   1.600000E+02   2.498906E-03
+   1.800000E+02   3.802473E-03
+   2.000000E+02   4.220080E-03

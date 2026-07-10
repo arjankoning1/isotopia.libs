@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn113(d,x)Rh98m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.856497E-13
+   7.500000E+01   6.076242E-09
+   8.000000E+01   4.901309E-06
+   9.000000E+01   1.215549E-02
+   1.000000E+02   1.738365E-01
+   1.100000E+02   2.563872E-01
+   1.200000E+02   9.181479E-02
+   1.300000E+02   3.607140E-01
+   1.400000E+02   1.120529E+00
+   1.500000E+02   2.490995E+00
+   1.600000E+02   3.348978E+00
+   1.800000E+02   6.531479E+00
+   2.000000E+02   9.665449E+00

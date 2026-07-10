@@ -1,0 +1,44 @@
+# header: 
+#   title: Te119m(d,x)Rh103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 119
+#   nuclide: Te119m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.466900E-09
+   6.500000E+01   1.273478E-06
+   7.000000E+01   6.808505E-05
+   7.500000E+01   1.145643E-03
+   8.000000E+01   5.694157E-03
+   9.000000E+01   1.738609E-02
+   1.000000E+02   1.068384E-02
+   1.100000E+02   1.125555E-02
+   1.200000E+02   2.203223E-02
+   1.300000E+02   2.408565E-02
+   1.400000E+02   4.012895E-02
+   1.500000E+02   5.829404E-02
+   1.600000E+02   5.147868E-02
+   1.800000E+02   1.084823E-01
+   2.000000E+02   1.900858E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: S34(d,x)Ne24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 24
+#     nuclide: Ne24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.287829E-10
+   6.000000E+01   2.541228E-07
+   6.500000E+01   6.846044E-06
+   7.000000E+01   5.813352E-05
+   7.500000E+01   3.133719E-04
+   8.000000E+01   1.155421E-03
+   9.000000E+01   5.646748E-03
+   1.000000E+02   1.153400E-02
+   1.100000E+02   1.691697E-02
+   1.200000E+02   2.667678E-02
+   1.300000E+02   4.176272E-02
+   1.400000E+02   6.139037E-02
+   1.500000E+02   7.864430E-02
+   1.600000E+02   9.582734E-02
+   1.800000E+02   1.418162E-01
+   2.000000E+02   1.635882E-01

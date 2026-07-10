@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb121(d,x)In110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.198475E-08
+   8.000000E+01   2.879626E-05
+   9.000000E+01   5.337624E-02
+   1.000000E+02   1.170539E+00
+   1.100000E+02   7.085478E+00
+   1.200000E+02   1.265315E+01
+   1.300000E+02   1.268442E+01
+   1.400000E+02   1.637919E+01
+   1.500000E+02   2.140523E+01
+   1.600000E+02   2.836441E+01
+   1.800000E+02   4.491525E+01
+   2.000000E+02   8.085432E+01

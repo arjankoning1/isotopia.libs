@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca40(d,x)P28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 28
+#     nuclide: P28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.338668E-12
+   6.000000E+01   2.167461E-08
+   6.500000E+01   1.807429E-06
+   7.000000E+01   1.607447E-05
+   7.500000E+01   7.029403E-05
+   8.000000E+01   1.611007E-04
+   9.000000E+01   3.575299E-04
+   1.000000E+02   8.990687E-04
+   1.100000E+02   3.468957E-03
+   1.200000E+02   9.874580E-03
+   1.300000E+02   1.881246E-02
+   1.400000E+02   2.968349E-02
+   1.500000E+02   4.687379E-02
+   1.600000E+02   7.031640E-02
+   1.800000E+02   1.254653E-01
+   2.000000E+02   1.854707E-01

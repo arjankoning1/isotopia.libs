@@ -1,0 +1,41 @@
+# header: 
+#   title: Pb206(d,x)Tl193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 193
+#     nuclide: Tl193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.181267E-12
+   1.000000E+02   2.291335E-05
+   1.100000E+02   1.149255E-01
+   1.200000E+02   4.977530E+00
+   1.300000E+02   1.742698E+01
+   1.400000E+02   1.402389E+01
+   1.500000E+02   8.259935E+00
+   1.600000E+02   6.800086E+00
+   1.800000E+02   1.988309E+01
+   2.000000E+02   5.150155E+01

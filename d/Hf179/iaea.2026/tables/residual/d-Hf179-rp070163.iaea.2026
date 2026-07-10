@@ -1,0 +1,37 @@
+# header: 
+#   title: Hf179(d,x)Yb163 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 179
+#   nuclide: Hf179
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 163
+#     nuclide: Yb163
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.931368E-10
+   1.200000E+02   1.558329E-05
+   1.300000E+02   5.617858E-03
+   1.400000E+02   1.782872E-01
+   1.500000E+02   1.078685E+00
+   1.600000E+02   9.554281E-01
+   1.800000E+02   4.220896E+00
+   2.000000E+02   9.307124E+00

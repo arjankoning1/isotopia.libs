@@ -1,0 +1,40 @@
+# header: 
+#   title: Os190(d,x)Hf175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 175
+#     nuclide: Hf175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.180423E-11
+   9.000000E+01   1.185122E-06
+   1.000000E+02   1.983826E-04
+   1.100000E+02   3.705315E-03
+   1.200000E+02   1.913703E-02
+   1.300000E+02   3.080486E-02
+   1.400000E+02   3.054596E-02
+   1.500000E+02   4.665343E-02
+   1.600000E+02   6.845176E-02
+   1.800000E+02   1.564983E-01
+   2.000000E+02   1.403517E-01

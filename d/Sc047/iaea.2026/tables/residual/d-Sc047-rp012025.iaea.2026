@@ -1,0 +1,38 @@
+# header: 
+#   title: Sc47(d,x)Mg25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 25
+#     nuclide: Mg25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.475947E-12
+   1.100000E+02   2.088849E-08
+   1.200000E+02   1.522246E-06
+   1.300000E+02   1.300393E-05
+   1.400000E+02   6.648325E-05
+   1.500000E+02   3.189115E-04
+   1.600000E+02   1.396218E-03
+   1.800000E+02   1.272180E-02
+   2.000000E+02   4.956358E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ni60(d,x)V47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 47
+#     nuclide: V47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.219413E-08
+   7.000000E+01   1.824540E-05
+   7.500000E+01   6.743073E-04
+   8.000000E+01   3.428200E-03
+   9.000000E+01   7.814165E-03
+   1.000000E+02   1.855290E-02
+   1.100000E+02   7.048605E-02
+   1.200000E+02   3.324180E-01
+   1.300000E+02   1.045781E+00
+   1.400000E+02   1.866218E+00
+   1.500000E+02   3.119504E+00
+   1.600000E+02   4.472136E+00
+   1.800000E+02   8.138315E+00
+   2.000000E+02   1.550368E+01

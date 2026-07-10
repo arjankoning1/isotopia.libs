@@ -1,0 +1,44 @@
+# header: 
+#   title: Th228(d,x)At211 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 228
+#   nuclide: Th228
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 211
+#     nuclide: At211
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   8.712108E-12
+   6.500000E+01   4.580758E-09
+   7.000000E+01   6.966301E-07
+   7.500000E+01   4.136392E-05
+   8.000000E+01   1.065873E-03
+   9.000000E+01   3.416108E-02
+   1.000000E+02   1.253214E-01
+   1.100000E+02   2.648615E-01
+   1.200000E+02   3.595237E-01
+   1.300000E+02   6.600619E-01
+   1.400000E+02   8.384892E-01
+   1.500000E+02   9.824654E-01
+   1.600000E+02   1.251186E+00
+   1.800000E+02   1.211610E+00
+   2.000000E+02   8.365639E-01

@@ -1,0 +1,36 @@
+# header: 
+#   title: Cf246(d,x)Th223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 246
+#   nuclide: Cf246
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 223
+#     nuclide: Th223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.657046E-10
+   1.300000E+02   1.165371E-07
+   1.400000E+02   1.581439E-05
+   1.500000E+02   7.654930E-05
+   1.600000E+02   4.821731E-04
+   1.800000E+02   4.200176E-05
+   2.000000E+02   5.121283E-05

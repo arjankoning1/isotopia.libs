@@ -1,0 +1,47 @@
+# header: 
+#   title: Bk249(d,x)U238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 249
+#   nuclide: Bk249
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 238
+#     nuclide: U238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.078637E-11
+   5.000000E+01   4.033541E-10
+   5.500000E+01   4.145653E-09
+   6.000000E+01   1.759137E-08
+   6.500000E+01   3.712151E-08
+   7.000000E+01   5.565476E-08
+   7.500000E+01   5.425782E-08
+   8.000000E+01   8.846305E-08
+   9.000000E+01   9.363925E-07
+   1.000000E+02   4.190982E-06
+   1.100000E+02   6.091521E-06
+   1.200000E+02   7.012419E-06
+   1.300000E+02   8.913514E-06
+   1.400000E+02   1.322035E-05
+   1.500000E+02   2.091296E-05
+   1.600000E+02   3.576282E-05
+   1.800000E+02   8.554741E-05
+   2.000000E+02   3.074592E-05

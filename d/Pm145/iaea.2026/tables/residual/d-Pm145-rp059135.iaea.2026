@@ -1,0 +1,43 @@
+# header: 
+#   title: Pm145(d,x)Pr135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 135
+#     nuclide: Pr135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.699219E-08
+   7.000000E+01   4.062820E-05
+   7.500000E+01   5.360749E-03
+   8.000000E+01   9.907942E-02
+   9.000000E+01   3.888262E+00
+   1.000000E+02   2.737483E+01
+   1.100000E+02   4.103031E+01
+   1.200000E+02   2.781191E+01
+   1.300000E+02   2.711965E+01
+   1.400000E+02   3.085357E+01
+   1.500000E+02   4.317934E+01
+   1.600000E+02   6.256586E+01
+   1.800000E+02   7.253408E+01
+   2.000000E+02   8.456980E+01

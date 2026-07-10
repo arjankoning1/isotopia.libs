@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba134(d,x)Sb118m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.154506E-12
+   9.000000E+01   7.768778E-07
+   1.000000E+02   5.620108E-04
+   1.100000E+02   8.656882E-03
+   1.200000E+02   1.552890E-02
+   1.300000E+02   1.631438E-02
+   1.400000E+02   1.825599E-02
+   1.500000E+02   6.402823E-02
+   1.600000E+02   1.091014E-01
+   1.800000E+02   2.649077E-01
+   2.000000E+02   3.163903E-01

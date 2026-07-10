@@ -1,0 +1,43 @@
+# header: 
+#   title: Sm150(d,x)Pm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.911425E-10
+   8.000000E+01   4.238352E-06
+   9.000000E+01   5.757594E-02
+   1.000000E+02   2.481470E+00
+   1.100000E+02   7.818454E+00
+   1.200000E+02   7.405931E+00
+   1.300000E+02   8.327097E+00
+   1.400000E+02   9.330767E+00
+   1.500000E+02   1.103285E+01
+   1.600000E+02   1.546288E+01
+   1.800000E+02   2.442918E+01
+   2.000000E+02   2.692662E+01

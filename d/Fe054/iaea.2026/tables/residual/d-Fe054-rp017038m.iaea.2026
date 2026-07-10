@@ -1,0 +1,42 @@
+# header: 
+#   title: Fe54(d,x)Cl38m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 38
+#     nuclide: Cl38m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.626071E-11
+   9.000000E+01   8.064553E-09
+   1.000000E+02   1.282807E-07
+   1.100000E+02   4.378286E-07
+   1.200000E+02   4.029564E-06
+   1.300000E+02   4.407711E-05
+   1.400000E+02   2.299727E-04
+   1.500000E+02   5.776141E-04
+   1.600000E+02   9.233233E-04
+   1.800000E+02   2.351451E-03
+   2.000000E+02   4.510361E-03

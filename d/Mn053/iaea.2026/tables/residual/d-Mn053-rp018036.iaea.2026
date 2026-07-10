@@ -1,0 +1,41 @@
+# header: 
+#   title: Mn53(d,x)Ar36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 53
+#   nuclide: Mn53
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 36
+#     nuclide: Ar36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   7.810647E-10
+   8.000000E+01   1.999303E-07
+   9.000000E+01   1.251044E-04
+   1.000000E+02   1.753659E-03
+   1.100000E+02   5.474963E-03
+   1.200000E+02   1.012795E-02
+   1.300000E+02   2.031376E-02
+   1.400000E+02   4.926352E-02
+   1.500000E+02   1.096134E-01
+   1.600000E+02   2.042390E-01
+   1.800000E+02   6.227723E-01
+   2.000000E+02   1.501349E+00

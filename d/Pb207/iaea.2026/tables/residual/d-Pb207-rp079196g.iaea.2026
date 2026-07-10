@@ -1,0 +1,47 @@
+# header: 
+#   title: Pb207(d,x)Au196g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.967002E-10
+   6.000000E+01   2.623393E-07
+   6.500000E+01   3.366858E-05
+   7.000000E+01   8.640952E-04
+   7.500000E+01   6.584881E-03
+   8.000000E+01   2.104745E-02
+   9.000000E+01   3.331280E-02
+   1.000000E+02   1.258726E-02
+   1.100000E+02   1.255058E-02
+   1.200000E+02   2.036369E-02
+   1.300000E+02   1.767395E-02
+   1.400000E+02   1.730630E-02
+   1.500000E+02   1.801134E-02
+   1.600000E+02   1.670738E-02
+   1.800000E+02   3.461045E-02
+   2.000000E+02   6.179002E-02

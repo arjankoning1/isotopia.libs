@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl37(d,x)Na23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.732153E-08
+   6.500000E+01   8.529829E-06
+   7.000000E+01   1.602308E-04
+   7.500000E+01   9.193104E-04
+   8.000000E+01   4.243776E-03
+   9.000000E+01   3.669403E-02
+   1.000000E+02   1.127779E-01
+   1.100000E+02   2.040340E-01
+   1.200000E+02   4.123483E-01
+   1.300000E+02   8.653390E-01
+   1.400000E+02   1.627988E+00
+   1.500000E+02   2.654315E+00
+   1.600000E+02   3.823101E+00
+   1.800000E+02   6.714511E+00
+   2.000000E+02   1.243064E+01

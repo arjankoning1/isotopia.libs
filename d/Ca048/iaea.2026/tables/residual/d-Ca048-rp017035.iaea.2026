@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca48(d,x)Cl35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 35
+#     nuclide: Cl35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.725601E-08
+   9.000000E+01   2.274377E-04
+   1.000000E+02   1.223565E-02
+   1.100000E+02   7.895542E-02
+   1.200000E+02   1.894217E-01
+   1.300000E+02   4.267431E-01
+   1.400000E+02   8.607990E-01
+   1.500000E+02   2.155132E+00
+   1.600000E+02   3.660788E+00
+   1.800000E+02   6.877477E+00
+   2.000000E+02   1.327308E+01

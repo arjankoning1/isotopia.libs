@@ -1,0 +1,41 @@
+# header: 
+#   title: Ce141(d,x)Xe127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 141
+#   nuclide: Ce141
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.373203E-12
+   8.000000E+01   9.615090E-09
+   9.000000E+01   1.284375E-04
+   1.000000E+02   7.721434E-03
+   1.100000E+02   9.210484E-02
+   1.200000E+02   2.492401E-01
+   1.300000E+02   2.701068E-01
+   1.400000E+02   2.536233E-01
+   1.500000E+02   5.436230E-01
+   1.600000E+02   7.173778E-01
+   1.800000E+02   1.383403E+00
+   2.000000E+02   1.114662E+00

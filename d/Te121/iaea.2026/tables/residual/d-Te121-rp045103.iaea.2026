@@ -1,0 +1,40 @@
+# header: 
+#   title: Te121(d,x)Rh103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.248398E-09
+   9.000000E+01   2.247580E-05
+   1.000000E+02   3.119410E-03
+   1.100000E+02   1.839329E-02
+   1.200000E+02   1.428685E-02
+   1.300000E+02   8.416484E-03
+   1.400000E+02   1.452100E-02
+   1.500000E+02   3.090691E-02
+   1.600000E+02   5.620132E-02
+   1.800000E+02   7.164477E-02
+   2.000000E+02   1.382143E-01

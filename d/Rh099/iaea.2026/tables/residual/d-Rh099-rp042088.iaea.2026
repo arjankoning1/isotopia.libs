@@ -1,0 +1,43 @@
+# header: 
+#   title: Rh99(d,x)Mo88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 88
+#     nuclide: Mo88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.843313E-12
+   7.000000E+01   6.388683E-08
+   7.500000E+01   2.096584E-05
+   8.000000E+01   6.264971E-04
+   9.000000E+01   1.233901E-02
+   1.000000E+02   3.222169E-02
+   1.100000E+02   6.450201E-02
+   1.200000E+02   2.089987E-01
+   1.300000E+02   6.450703E-01
+   1.400000E+02   1.269768E+00
+   1.500000E+02   2.202749E+00
+   1.600000E+02   3.103789E+00
+   1.800000E+02   6.882256E+00
+   2.000000E+02   1.255650E+01

@@ -1,0 +1,51 @@
+# header: 
+#   title: Pd108(d,x)Tc99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.162359E-11
+   4.000000E+01   6.160248E-07
+   4.500000E+01   3.777845E-04
+   5.000000E+01   9.645102E-03
+   5.500000E+01   4.989529E-02
+   6.000000E+01   1.055709E-01
+   6.500000E+01   1.166731E-01
+   7.000000E+01   8.851333E-02
+   7.500000E+01   6.389327E-02
+   8.000000E+01   7.241206E-02
+   9.000000E+01   2.400539E-01
+   1.000000E+02   3.995675E-01
+   1.100000E+02   3.625071E-01
+   1.200000E+02   4.040806E-01
+   1.300000E+02   3.941696E-01
+   1.400000E+02   5.396600E-01
+   1.500000E+02   7.110418E-01
+   1.600000E+02   7.326882E-01
+   1.800000E+02   7.156320E-01
+   2.000000E+02   8.097782E-01

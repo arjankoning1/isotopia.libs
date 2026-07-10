@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn70(d,x)Ni62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 62
+#     nuclide: Ni62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.301357E-10
+   4.500000E+01   2.841872E-04
+   5.000000E+01   1.897973E-02
+   5.500000E+01   1.733038E-01
+   6.000000E+01   8.581645E-01
+   6.500000E+01   3.029872E+00
+   7.000000E+01   8.117335E+00
+   7.500000E+01   1.466672E+01
+   8.000000E+01   1.967250E+01
+   9.000000E+01   2.093852E+01
+   1.000000E+02   2.194836E+01
+   1.100000E+02   3.118925E+01
+   1.200000E+02   4.618680E+01
+   1.300000E+02   5.869218E+01
+   1.400000E+02   6.936139E+01
+   1.500000E+02   7.652834E+01
+   1.600000E+02   7.413059E+01
+   1.800000E+02   8.777467E+01
+   2.000000E+02   9.407189E+01

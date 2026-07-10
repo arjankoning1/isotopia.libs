@@ -1,0 +1,44 @@
+# header: 
+#   title: Cd111(d,x)Ru99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 99
+#     nuclide: Ru99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.740487E-09
+   6.500000E+01   5.634899E-06
+   7.000000E+01   6.059301E-04
+   7.500000E+01   1.198390E-02
+   8.000000E+01   1.502819E-01
+   9.000000E+01   3.114632E+00
+   1.000000E+02   6.922559E+00
+   1.100000E+02   4.382681E+00
+   1.200000E+02   2.569040E+00
+   1.300000E+02   3.571559E+00
+   1.400000E+02   5.567163E+00
+   1.500000E+02   6.729134E+00
+   1.600000E+02   8.745740E+00
+   1.800000E+02   1.186435E+01
+   2.000000E+02   1.032730E+01

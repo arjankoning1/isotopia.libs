@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo92(d,x)Kr82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 82
+#     nuclide: Kr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.828269E-10
+   6.000000E+01   6.172897E-08
+   6.500000E+01   1.997434E-06
+   7.000000E+01   5.329166E-05
+   7.500000E+01   3.547571E-04
+   8.000000E+01   8.156768E-04
+   9.000000E+01   2.517017E-03
+   1.000000E+02   2.945663E-03
+   1.100000E+02   3.610519E-03
+   1.200000E+02   4.910892E-03
+   1.300000E+02   1.078384E-02
+   1.400000E+02   1.643495E-02
+   1.500000E+02   1.703269E-02
+   1.600000E+02   2.084546E-02
+   1.800000E+02   2.461708E-02
+   2.000000E+02   2.044473E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn67(d,x)Cu58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 58
+#     nuclide: Cu58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.573510E-11
+   8.000000E+01   4.622200E-08
+   9.000000E+01   1.498847E-05
+   1.000000E+02   1.554235E-04
+   1.100000E+02   4.241039E-04
+   1.200000E+02   7.893352E-04
+   1.300000E+02   1.686524E-03
+   1.400000E+02   3.656272E-03
+   1.500000E+02   6.503041E-03
+   1.600000E+02   1.019027E-02
+   1.800000E+02   1.696907E-02
+   2.000000E+02   2.808889E-02

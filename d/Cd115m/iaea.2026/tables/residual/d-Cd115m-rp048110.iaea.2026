@@ -1,0 +1,48 @@
+# header: 
+#   title: Cd115m(d,x)Cd110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 115
+#   nuclide: Cd115m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 110
+#     nuclide: Cd110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.706906E-04
+   4.500000E+01   8.124691E-02
+   5.000000E+01   1.115204E+00
+   5.500000E+01   7.529210E+00
+   6.000000E+01   3.575433E+01
+   6.500000E+01   9.463868E+01
+   7.000000E+01   1.540857E+02
+   7.500000E+01   1.819033E+02
+   8.000000E+01   1.829433E+02
+   9.000000E+01   1.851110E+02
+   1.000000E+02   2.294450E+02
+   1.100000E+02   2.914908E+02
+   1.200000E+02   3.436001E+02
+   1.300000E+02   3.661469E+02
+   1.400000E+02   3.423291E+02
+   1.500000E+02   2.917539E+02
+   1.600000E+02   2.360062E+02
+   1.800000E+02   1.400464E+02
+   2.000000E+02   8.539800E+01

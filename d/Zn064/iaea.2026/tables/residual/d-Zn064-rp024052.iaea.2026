@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn64(d,x)Cr52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 52
+#     nuclide: Cr52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.077110E-12
+   4.500000E+01   3.410882E-08
+   5.000000E+01   3.800089E-05
+   5.500000E+01   2.009869E-03
+   6.000000E+01   1.514620E-02
+   6.500000E+01   4.111193E-02
+   7.000000E+01   6.118761E-02
+   7.500000E+01   6.321733E-02
+   8.000000E+01   4.719972E-02
+   9.000000E+01   4.571387E-02
+   1.000000E+02   2.166216E-01
+   1.100000E+02   6.548014E-01
+   1.200000E+02   1.177090E+00
+   1.300000E+02   1.827886E+00
+   1.400000E+02   2.913208E+00
+   1.500000E+02   4.187708E+00
+   1.600000E+02   6.401913E+00
+   1.800000E+02   9.723769E+00
+   2.000000E+02   1.235650E+01

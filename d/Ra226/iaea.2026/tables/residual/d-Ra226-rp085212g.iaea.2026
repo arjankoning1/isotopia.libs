@@ -1,0 +1,48 @@
+# header: 
+#   title: Ra226(d,x)At212g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 212
+#     nuclide: At212g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.035596E-10
+   5.500000E+01   1.566032E-08
+   6.000000E+01   9.773488E-07
+   6.500000E+01   1.310701E-05
+   7.000000E+01   2.765036E-04
+   7.500000E+01   2.979946E-03
+   8.000000E+01   2.699737E-02
+   9.000000E+01   6.624227E-01
+   1.000000E+02   2.670104E+00
+   1.100000E+02   3.295147E+00
+   1.200000E+02   3.378949E+00
+   1.300000E+02   3.916093E+00
+   1.400000E+02   3.277726E+00
+   1.500000E+02   3.268991E+00
+   1.600000E+02   3.381548E+00
+   1.800000E+02   5.870327E+00
+   2.000000E+02   4.298573E+00

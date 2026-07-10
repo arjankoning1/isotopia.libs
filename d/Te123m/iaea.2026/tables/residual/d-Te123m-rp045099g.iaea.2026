@@ -1,0 +1,36 @@
+# header: 
+#   title: Te123m(d,x)Rh99g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   5.963748E-11
+   1.500000E+02   1.624910E-07
+   1.600000E+02   2.220968E-05
+   1.800000E+02   3.205209E-03
+   2.000000E+02   3.179657E-02

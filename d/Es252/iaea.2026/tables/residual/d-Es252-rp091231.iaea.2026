@@ -1,0 +1,38 @@
+# header: 
+#   title: Es252(d,x)Pa231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 252
+#   nuclide: Es252
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 231
+#     nuclide: Pa231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.749813E-12
+   1.100000E+02   4.767526E-09
+   1.200000E+02   2.608471E-07
+   1.300000E+02   2.953620E-06
+   1.400000E+02   1.423891E-05
+   1.500000E+02   1.869589E-05
+   1.600000E+02   1.617094E-05
+   1.800000E+02   4.574946E-06
+   2.000000E+02   7.704803E-06

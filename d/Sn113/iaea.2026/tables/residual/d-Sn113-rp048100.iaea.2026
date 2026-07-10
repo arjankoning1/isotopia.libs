@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn113(d,x)Cd100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 100
+#     nuclide: Cd100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.063379E-09
+   1.200000E+02   1.017227E-06
+   1.300000E+02   5.192739E-05
+   1.400000E+02   5.874436E-04
+   1.500000E+02   2.595559E-03
+   1.600000E+02   6.647376E-03
+   1.800000E+02   1.875015E-02
+   2.000000E+02   4.393600E-02

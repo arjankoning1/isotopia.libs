@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs134(d,x)Sb121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 121
+#     nuclide: Sb121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.490485E-09
+   7.500000E+01   6.934452E-07
+   8.000000E+01   4.322307E-05
+   9.000000E+01   6.390656E-03
+   1.000000E+02   1.740201E-01
+   1.100000E+02   5.489945E-01
+   1.200000E+02   4.823880E-01
+   1.300000E+02   2.822172E-01
+   1.400000E+02   3.160094E-01
+   1.500000E+02   4.223971E-01
+   1.600000E+02   6.458932E-01
+   1.800000E+02   6.852902E-01
+   2.000000E+02   8.344461E-01

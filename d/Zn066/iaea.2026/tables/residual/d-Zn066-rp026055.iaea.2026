@@ -1,0 +1,45 @@
+# header: 
+#   title: Zn66(d,x)Fe55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.981298E-08
+   6.000000E+01   1.277858E-05
+   6.500000E+01   5.162781E-04
+   7.000000E+01   1.087881E-02
+   7.500000E+01   1.350908E-01
+   8.000000E+01   6.870806E-01
+   9.000000E+01   2.488988E+00
+   1.000000E+02   4.844131E+00
+   1.100000E+02   6.932708E+00
+   1.200000E+02   1.065612E+01
+   1.300000E+02   1.737685E+01
+   1.400000E+02   2.549592E+01
+   1.500000E+02   3.560164E+01
+   1.600000E+02   4.163882E+01
+   1.800000E+02   5.418661E+01
+   2.000000E+02   7.089730E+01

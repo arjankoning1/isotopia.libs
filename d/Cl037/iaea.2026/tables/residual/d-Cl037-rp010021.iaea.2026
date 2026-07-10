@@ -1,0 +1,44 @@
+# header: 
+#   title: Cl37(d,x)Ne21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.801237E-11
+   6.500000E+01   5.712106E-08
+   7.000000E+01   4.623806E-06
+   7.500000E+01   5.163442E-05
+   8.000000E+01   2.416765E-04
+   9.000000E+01   1.133161E-03
+   1.000000E+02   2.632004E-03
+   1.100000E+02   8.345279E-03
+   1.200000E+02   2.745429E-02
+   1.300000E+02   6.524722E-02
+   1.400000E+02   1.255101E-01
+   1.500000E+02   2.300100E-01
+   1.600000E+02   4.297939E-01
+   1.800000E+02   1.264288E+00
+   2.000000E+02   2.715162E+00

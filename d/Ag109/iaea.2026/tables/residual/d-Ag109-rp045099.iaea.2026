@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag109(d,x)Rh99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.066033E-08
+   7.000000E+01   8.840828E-05
+   7.500000E+01   7.668821E-03
+   8.000000E+01   9.881680E-02
+   9.000000E+01   3.278530E+00
+   1.000000E+02   1.691561E+01
+   1.100000E+02   2.474268E+01
+   1.200000E+02   2.637497E+01
+   1.300000E+02   3.409269E+01
+   1.400000E+02   4.752740E+01
+   1.500000E+02   5.978634E+01
+   1.600000E+02   8.879970E+01
+   1.800000E+02   1.268261E+02
+   2.000000E+02   1.554357E+02

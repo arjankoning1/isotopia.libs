@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti50(d,x)K39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 39
+#     nuclide: K39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.858648E-12
+   6.500000E+01   1.756745E-06
+   7.000000E+01   7.234589E-04
+   7.500000E+01   1.529338E-02
+   8.000000E+01   7.313580E-02
+   9.000000E+01   1.423733E-01
+   1.000000E+02   3.027237E-01
+   1.100000E+02   5.993852E-01
+   1.200000E+02   1.365389E+00
+   1.300000E+02   2.961847E+00
+   1.400000E+02   5.116714E+00
+   1.500000E+02   7.259809E+00
+   1.600000E+02   9.710578E+00
+   1.800000E+02   1.884654E+01
+   2.000000E+02   2.780566E+01

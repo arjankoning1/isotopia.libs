@@ -1,0 +1,37 @@
+# header: 
+#   title: Sm153(d,x)La133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 153
+#   nuclide: Sm153
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 133
+#     nuclide: La133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.497487E-09
+   1.200000E+02   1.838711E-05
+   1.300000E+02   7.570448E-04
+   1.400000E+02   2.129991E-03
+   1.500000E+02   1.456606E-03
+   1.600000E+02   9.656870E-03
+   1.800000E+02   1.349599E-01
+   2.000000E+02   4.064196E-01

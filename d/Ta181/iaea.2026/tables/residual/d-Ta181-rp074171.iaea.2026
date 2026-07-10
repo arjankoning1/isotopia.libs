@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta181(d,x)W171 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 171
+#     nuclide: W171
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.007792E-08
+   1.000000E+02   2.484547E-02
+   1.100000E+02   4.233632E+00
+   1.200000E+02   3.513947E+01
+   1.300000E+02   5.537372E+01
+   1.400000E+02   3.402482E+01
+   1.500000E+02   1.808698E+01
+   1.600000E+02   1.994754E+01
+   1.800000E+02   4.751098E+01
+   2.000000E+02   9.537992E+01

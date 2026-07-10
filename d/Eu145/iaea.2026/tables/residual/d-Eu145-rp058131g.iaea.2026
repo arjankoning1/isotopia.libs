@@ -1,0 +1,46 @@
+# header: 
+#   title: Eu145(d,x)Ce131g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 131
+#     nuclide: Ce131g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.051954E-12
+   6.500000E+01   6.727279E-09
+   7.000000E+01   2.734605E-06
+   7.500000E+01   2.114020E-04
+   8.000000E+01   3.911593E-03
+   9.000000E+01   7.430734E-02
+   1.000000E+02   1.537830E-01
+   1.100000E+02   1.339039E-01
+   1.200000E+02   5.479106E-01
+   1.300000E+02   7.808954E-01
+   1.400000E+02   6.116462E-01
+   1.500000E+02   8.562452E-01
+   1.600000E+02   1.294455E+00
+   1.800000E+02   2.199766E+00
+   2.000000E+02   2.732890E+00

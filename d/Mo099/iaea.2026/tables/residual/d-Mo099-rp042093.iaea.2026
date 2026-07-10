@@ -1,0 +1,46 @@
+# header: 
+#   title: Mo99(d,x)Mo93 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.586138E-04
+   5.500000E+01   9.119367E-02
+   6.000000E+01   1.094265E+00
+   6.500000E+01   6.557141E+00
+   7.000000E+01   3.056124E+01
+   7.500000E+01   7.792252E+01
+   8.000000E+01   1.280710E+02
+   9.000000E+01   1.538428E+02
+   1.000000E+02   1.476419E+02
+   1.100000E+02   1.821761E+02
+   1.200000E+02   2.299381E+02
+   1.300000E+02   2.709070E+02
+   1.400000E+02   3.171987E+02
+   1.500000E+02   3.230486E+02
+   1.600000E+02   3.239266E+02
+   1.800000E+02   2.360630E+02
+   2.000000E+02   1.511337E+02

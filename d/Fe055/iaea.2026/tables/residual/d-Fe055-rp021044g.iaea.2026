@@ -1,0 +1,50 @@
+# header: 
+#   title: Fe55(d,x)Sc44g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.139480E-10
+   4.500000E+01   2.110793E-06
+   5.000000E+01   2.985790E-04
+   5.500000E+01   2.703610E-03
+   6.000000E+01   6.790616E-03
+   6.500000E+01   9.351568E-03
+   7.000000E+01   9.677239E-03
+   7.500000E+01   1.274378E-02
+   8.000000E+01   2.940594E-02
+   9.000000E+01   2.948964E-01
+   1.000000E+02   1.381007E+00
+   1.100000E+02   2.634582E+00
+   1.200000E+02   4.127840E+00
+   1.300000E+02   5.506411E+00
+   1.400000E+02   8.950743E+00
+   1.500000E+02   1.250164E+01
+   1.600000E+02   1.574014E+01
+   1.800000E+02   2.261821E+01
+   2.000000E+02   3.212048E+01

@@ -1,0 +1,37 @@
+# header: 
+#   title: Dy164(d,x)Sm145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 164
+#   nuclide: Dy164
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 145
+#     nuclide: Sm145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.774916E-10
+   1.200000E+02   8.506462E-05
+   1.300000E+02   2.790192E-02
+   1.400000E+02   5.307009E-01
+   1.500000E+02   9.227338E-01
+   1.600000E+02   1.063837E+00
+   1.800000E+02   3.169074E+00
+   2.000000E+02   6.460426E+00

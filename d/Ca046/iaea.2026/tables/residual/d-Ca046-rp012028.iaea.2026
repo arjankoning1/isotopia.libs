@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca46(d,x)Mg28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 28
+#     nuclide: Mg28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.585010E-11
+   9.000000E+01   6.798538E-08
+   1.000000E+02   3.911757E-06
+   1.100000E+02   4.975506E-05
+   1.200000E+02   1.983009E-04
+   1.300000E+02   3.995244E-04
+   1.400000E+02   6.307925E-04
+   1.500000E+02   1.139966E-03
+   1.600000E+02   2.272340E-03
+   1.800000E+02   6.649428E-03
+   2.000000E+02   1.333364E-02

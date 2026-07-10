@@ -1,0 +1,43 @@
+# header: 
+#   title: I124(d,x)Ag108g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.052568E-12
+   8.000000E+01   2.196660E-09
+   9.000000E+01   9.092492E-06
+   1.000000E+02   7.706738E-04
+   1.100000E+02   1.012515E-02
+   1.200000E+02   2.903357E-02
+   1.300000E+02   1.810024E-02
+   1.400000E+02   2.983039E-02
+   1.500000E+02   3.895666E-02
+   1.600000E+02   5.296725E-02
+   1.800000E+02   1.044149E-01
+   2.000000E+02   1.155877E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Lu170(d,x)Lu160g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 170
+#   nuclide: Lu170
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 160
+#     nuclide: Lu160g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.094356E-11
+   1.000000E+02   3.233060E-04
+   1.100000E+02   7.216401E-02
+   1.200000E+02   7.845519E-01
+   1.300000E+02   2.376740E+00
+   1.400000E+02   4.295784E+00
+   1.500000E+02   6.434537E+00
+   1.600000E+02   8.742507E+00
+   1.800000E+02   2.205838E+01
+   2.000000E+02   3.202105E+01

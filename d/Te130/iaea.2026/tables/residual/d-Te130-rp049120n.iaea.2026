@@ -1,0 +1,49 @@
+# header: 
+#   title: Te130(d,x)In120n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 120
+#     nuclide: In120n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.390286E-13
+   5.000000E+01   2.396705E-08
+   5.500000E+01   1.353882E-05
+   6.000000E+01   4.768687E-04
+   6.500000E+01   3.063574E-03
+   7.000000E+01   7.422624E-03
+   7.500000E+01   9.152419E-03
+   8.000000E+01   7.063481E-03
+   9.000000E+01   4.698386E-03
+   1.000000E+02   7.770721E-03
+   1.100000E+02   1.447242E-02
+   1.200000E+02   2.026097E-02
+   1.300000E+02   2.281497E-02
+   1.400000E+02   3.061702E-02
+   1.500000E+02   3.882589E-02
+   1.600000E+02   4.273931E-02
+   1.800000E+02   7.179776E-02
+   2.000000E+02   1.205884E-01

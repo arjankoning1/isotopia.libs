@@ -1,0 +1,47 @@
+# header: 
+#   title: Rh99(d,x)Rh94g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 99
+#   nuclide: Rh99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 94
+#     nuclide: Rh94g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   5.408955E-07
+   6.000000E+01   1.926036E-04
+   6.500000E+01   2.027068E-03
+   7.000000E+01   1.071379E-02
+   7.500000E+01   4.596425E-02
+   8.000000E+01   1.207583E-01
+   9.000000E+01   2.750419E-01
+   1.000000E+02   3.885511E-01
+   1.100000E+02   5.278158E-01
+   1.200000E+02   6.824897E-01
+   1.300000E+02   8.806368E-01
+   1.400000E+02   1.064363E+00
+   1.500000E+02   1.154160E+00
+   1.600000E+02   1.329942E+00
+   1.800000E+02   1.342668E+00
+   2.000000E+02   9.776425E-01

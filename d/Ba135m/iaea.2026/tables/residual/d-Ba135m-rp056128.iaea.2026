@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba135m(d,x)Ba128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 128
+#     nuclide: Ba128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.162507E-09
+   6.500000E+01   1.371709E-04
+   7.000000E+01   2.089611E-02
+   7.500000E+01   2.983392E-01
+   8.000000E+01   1.710796E+00
+   9.000000E+01   2.399447E+01
+   1.000000E+02   6.866105E+01
+   1.100000E+02   7.421534E+01
+   1.200000E+02   6.946349E+01
+   1.300000E+02   8.000860E+01
+   1.400000E+02   1.040082E+02
+   1.500000E+02   1.386966E+02
+   1.600000E+02   1.631684E+02
+   1.800000E+02   1.954530E+02
+   2.000000E+02   1.816372E+02

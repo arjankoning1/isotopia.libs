@@ -1,0 +1,44 @@
+# header: 
+#   title: La140(d,x)I128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.046193E-11
+   6.500000E+01   3.312230E-08
+   7.000000E+01   2.703091E-06
+   7.500000E+01   1.180037E-04
+   8.000000E+01   1.722594E-03
+   9.000000E+01   3.604214E-02
+   1.000000E+02   9.239539E-02
+   1.100000E+02   9.603701E-02
+   1.200000E+02   1.135371E-01
+   1.300000E+02   1.381260E-01
+   1.400000E+02   1.755558E-01
+   1.500000E+02   2.382619E-01
+   1.600000E+02   2.616918E-01
+   1.800000E+02   2.231867E-01
+   2.000000E+02   2.374249E-01

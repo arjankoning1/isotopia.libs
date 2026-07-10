@@ -1,0 +1,45 @@
+# header: 
+#   title: Co57(d,x)Ca44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 44
+#     nuclide: Ca44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.531696E-11
+   6.000000E+01   1.816989E-08
+   6.500000E+01   2.274435E-06
+   7.000000E+01   1.033528E-04
+   7.500000E+01   7.463424E-04
+   8.000000E+01   6.021817E-04
+   9.000000E+01   3.520394E-03
+   1.000000E+02   7.224790E-03
+   1.100000E+02   1.897558E-02
+   1.200000E+02   5.536783E-02
+   1.300000E+02   9.775896E-02
+   1.400000E+02   2.006866E-01
+   1.500000E+02   2.704125E-01
+   1.600000E+02   2.742852E-01
+   1.800000E+02   6.984903E-01
+   2.000000E+02   7.313593E-01

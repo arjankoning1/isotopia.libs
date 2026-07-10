@@ -1,0 +1,44 @@
+# header: 
+#   title: P32(d,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.235207E-11
+   6.500000E+01   9.633013E-09
+   7.000000E+01   1.775890E-07
+   7.500000E+01   9.582366E-07
+   8.000000E+01   2.652472E-06
+   9.000000E+01   7.375013E-06
+   1.000000E+02   1.315330E-05
+   1.100000E+02   2.810183E-05
+   1.200000E+02   6.132629E-05
+   1.300000E+02   1.057389E-04
+   1.400000E+02   1.448003E-04
+   1.500000E+02   1.703445E-04
+   1.600000E+02   1.845450E-04
+   1.800000E+02   2.000464E-04
+   2.000000E+02   2.249056E-04

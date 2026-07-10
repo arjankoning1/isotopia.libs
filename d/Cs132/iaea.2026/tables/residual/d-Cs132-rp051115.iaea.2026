@@ -1,0 +1,37 @@
+# header: 
+#   title: Cs132(d,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.806555E-09
+   1.200000E+02   3.374276E-05
+   1.300000E+02   1.519306E-03
+   1.400000E+02   6.136287E-03
+   1.500000E+02   4.042180E-02
+   1.600000E+02   1.636728E-01
+   1.800000E+02   1.037951E+00
+   2.000000E+02   2.756026E+00

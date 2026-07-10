@@ -1,0 +1,45 @@
+# header: 
+#   title: Au199(d,x)Hg193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 193
+#     nuclide: Hg193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.581778E-02
+   6.000000E+01   3.693045E+00
+   6.500000E+01   5.625492E+01
+   7.000000E+01   2.360741E+02
+   7.500000E+01   4.398864E+02
+   8.000000E+01   4.664752E+02
+   9.000000E+01   2.177801E+02
+   1.000000E+02   1.404189E+02
+   1.100000E+02   1.840328E+02
+   1.200000E+02   2.394331E+02
+   1.300000E+02   2.525862E+02
+   1.400000E+02   2.199543E+02
+   1.500000E+02   1.781445E+02
+   1.600000E+02   1.234982E+02
+   1.800000E+02   4.670401E+01
+   2.000000E+02   2.851303E+01

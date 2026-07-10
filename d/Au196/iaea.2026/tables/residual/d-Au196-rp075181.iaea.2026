@@ -1,0 +1,40 @@
+# header: 
+#   title: Au196(d,x)Re181 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.709119E-12
+   9.000000E+01   4.237916E-07
+   1.000000E+02   3.025552E-04
+   1.100000E+02   1.507325E-02
+   1.200000E+02   1.036559E-01
+   1.300000E+02   1.712349E-01
+   1.400000E+02   1.379160E-01
+   1.500000E+02   8.775889E-02
+   1.600000E+02   7.665414E-02
+   1.800000E+02   1.155022E-01
+   2.000000E+02   1.126418E-01

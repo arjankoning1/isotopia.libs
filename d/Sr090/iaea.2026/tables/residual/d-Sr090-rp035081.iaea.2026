@@ -1,0 +1,48 @@
+# header: 
+#   title: Sr90(d,x)Br81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 81
+#     nuclide: Br81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.870662E-09
+   4.500000E+01   8.608287E-05
+   5.000000E+01   1.673573E-02
+   5.500000E+01   1.922240E-01
+   6.000000E+01   6.116142E-01
+   6.500000E+01   9.737236E-01
+   7.000000E+01   9.629955E-01
+   7.500000E+01   7.315951E-01
+   8.000000E+01   6.076767E-01
+   9.000000E+01   1.410977E+00
+   1.000000E+02   3.512521E+00
+   1.100000E+02   5.007671E+00
+   1.200000E+02   6.339218E+00
+   1.300000E+02   7.588730E+00
+   1.400000E+02   9.600677E+00
+   1.500000E+02   1.034711E+01
+   1.600000E+02   1.307412E+01
+   1.800000E+02   1.516914E+01
+   2.000000E+02   1.496973E+01

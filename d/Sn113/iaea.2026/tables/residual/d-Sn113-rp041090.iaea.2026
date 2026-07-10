@@ -1,0 +1,37 @@
+# header: 
+#   title: Sn113(d,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.069604E-10
+   1.200000E+02   3.662942E-08
+   1.300000E+02   2.478631E-06
+   1.400000E+02   4.261976E-05
+   1.500000E+02   1.801959E-04
+   1.600000E+02   7.378992E-04
+   1.800000E+02   1.193814E-02
+   2.000000E+02   7.635437E-02

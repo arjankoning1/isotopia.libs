@@ -1,0 +1,44 @@
+# header: 
+#   title: Ge76(d,x)Zn66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 66
+#     nuclide: Zn66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.534059E-11
+   6.500000E+01   3.996547E-06
+   7.000000E+01   1.029967E-03
+   7.500000E+01   2.494720E-02
+   8.000000E+01   1.991306E-01
+   9.000000E+01   2.340556E+00
+   1.000000E+02   7.332843E+00
+   1.100000E+02   1.086657E+01
+   1.200000E+02   1.755763E+01
+   1.300000E+02   2.390652E+01
+   1.400000E+02   3.157444E+01
+   1.500000E+02   4.216926E+01
+   1.600000E+02   5.311324E+01
+   1.800000E+02   7.524380E+01
+   2.000000E+02   9.924871E+01

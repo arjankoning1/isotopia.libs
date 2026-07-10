@@ -1,0 +1,44 @@
+# header: 
+#   title: Np235(d,x)Th223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 223
+#     nuclide: Th223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.953586E-10
+   6.500000E+01   9.848490E-07
+   7.000000E+01   3.228599E-04
+   7.500000E+01   1.625427E-02
+   8.000000E+01   1.968755E-01
+   9.000000E+01   1.805881E+00
+   1.000000E+02   2.945565E+00
+   1.100000E+02   2.096871E+00
+   1.200000E+02   1.218274E+00
+   1.300000E+02   1.218525E+00
+   1.400000E+02   1.508143E+00
+   1.500000E+02   7.116302E-01
+   1.600000E+02   6.581141E-01
+   1.800000E+02   2.349404E-01
+   2.000000E+02   2.835355E-01

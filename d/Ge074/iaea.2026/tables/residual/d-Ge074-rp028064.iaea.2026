@@ -1,0 +1,48 @@
+# header: 
+#   title: Ge74(d,x)Ni64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   8.560590E-09
+   4.500000E+01   7.170082E-06
+   5.000000E+01   4.404480E-04
+   5.500000E+01   4.208606E-03
+   6.000000E+01   1.872328E-02
+   6.500000E+01   6.242471E-02
+   7.000000E+01   1.624167E-01
+   7.500000E+01   2.877214E-01
+   8.000000E+01   3.794819E-01
+   9.000000E+01   4.021148E-01
+   1.000000E+02   5.039559E-01
+   1.100000E+02   8.881726E-01
+   1.200000E+02   1.570584E+00
+   1.300000E+02   2.038214E+00
+   1.400000E+02   2.401465E+00
+   1.500000E+02   2.597321E+00
+   1.600000E+02   2.809454E+00
+   1.800000E+02   3.019070E+00
+   2.000000E+02   4.107515E+00

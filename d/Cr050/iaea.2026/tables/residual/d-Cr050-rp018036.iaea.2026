@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr50(d,x)Ar36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 36
+#     nuclide: Ar36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.575317E-10
+   6.500000E+01   8.700777E-07
+   7.000000E+01   5.137852E-05
+   7.500000E+01   4.509713E-04
+   8.000000E+01   1.958172E-03
+   9.000000E+01   1.775721E-02
+   1.000000E+02   6.153822E-02
+   1.100000E+02   1.203169E-01
+   1.200000E+02   2.028242E-01
+   1.300000E+02   4.020798E-01
+   1.400000E+02   8.025113E-01
+   1.500000E+02   1.416396E+00
+   1.600000E+02   2.147662E+00
+   1.800000E+02   4.338116E+00
+   2.000000E+02   7.278075E+00

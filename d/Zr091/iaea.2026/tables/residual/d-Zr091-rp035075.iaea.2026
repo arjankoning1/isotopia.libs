@@ -1,0 +1,39 @@
+# header: 
+#   title: Zr91(d,x)Br75 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 91
+#   nuclide: Zr91
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.128217E-12
+   1.000000E+02   1.552121E-06
+   1.100000E+02   3.436725E-04
+   1.200000E+02   7.708059E-03
+   1.300000E+02   3.542482E-02
+   1.400000E+02   7.868899E-02
+   1.500000E+02   1.722749E-01
+   1.600000E+02   4.322841E-01
+   1.800000E+02   1.696246E+00
+   2.000000E+02   3.919957E+00

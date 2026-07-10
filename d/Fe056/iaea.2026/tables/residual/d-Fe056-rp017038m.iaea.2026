@@ -1,0 +1,44 @@
+# header: 
+#   title: Fe56(d,x)Cl38m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 38
+#     nuclide: Cl38m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.606365E-12
+   7.500000E+01   8.923729E-11
+   8.000000E+01   7.102051E-10
+   9.000000E+01   2.724882E-09
+   1.000000E+02   9.850667E-09
+   1.100000E+02   2.270477E-07
+   1.200000E+02   3.878857E-06
+   1.300000E+02   1.976471E-05
+   1.400000E+02   4.582816E-05
+   1.500000E+02   8.609569E-05
+   1.600000E+02   1.950041E-04
+   1.800000E+02   7.716898E-04
+   2.000000E+02   2.603420E-03

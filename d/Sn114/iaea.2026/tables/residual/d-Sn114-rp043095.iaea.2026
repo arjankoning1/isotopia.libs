@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn114(d,x)Tc95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.230994E-10
+   1.000000E+02   3.434287E-06
+   1.100000E+02   4.339354E-04
+   1.200000E+02   1.614673E-03
+   1.300000E+02   3.054955E-03
+   1.400000E+02   8.211299E-03
+   1.500000E+02   3.033149E-02
+   1.600000E+02   9.365465E-02
+   1.800000E+02   3.838953E-01
+   2.000000E+02   1.102575E+00

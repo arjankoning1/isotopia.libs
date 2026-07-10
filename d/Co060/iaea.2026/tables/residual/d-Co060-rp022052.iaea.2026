@@ -1,0 +1,48 @@
+# header: 
+#   title: Co60(d,x)Ti52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 52
+#     nuclide: Ti52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.498912E-08
+   4.500000E+01   1.238289E-05
+   5.000000E+01   2.657924E-04
+   5.500000E+01   1.410345E-03
+   6.000000E+01   3.133266E-03
+   6.500000E+01   3.343031E-03
+   7.000000E+01   2.529769E-03
+   7.500000E+01   1.577076E-03
+   8.000000E+01   1.194016E-03
+   9.000000E+01   2.009715E-03
+   1.000000E+02   3.898845E-03
+   1.100000E+02   5.750185E-03
+   1.200000E+02   6.966713E-03
+   1.300000E+02   8.482840E-03
+   1.400000E+02   1.104008E-02
+   1.500000E+02   1.343838E-02
+   1.600000E+02   1.584781E-02
+   1.800000E+02   1.212386E-02
+   2.000000E+02   1.087644E-02

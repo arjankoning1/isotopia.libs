@@ -1,0 +1,38 @@
+# header: 
+#   title: Eu149(d,x)Gd140 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 149
+#   nuclide: Eu149
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 140
+#     nuclide: Gd140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   5.911008E-06
+   1.100000E+02   3.793661E-03
+   1.200000E+02   5.791578E-02
+   1.300000E+02   1.141941E-01
+   1.400000E+02   7.044141E-02
+   1.500000E+02   1.029022E-01
+   1.600000E+02   1.530700E-01
+   1.800000E+02   5.058203E-01
+   2.000000E+02   1.392786E+00

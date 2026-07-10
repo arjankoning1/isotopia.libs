@@ -1,0 +1,39 @@
+# header: 
+#   title: Bk248(d,x)Pu233 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 248
+#   nuclide: Bk248
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 233
+#     nuclide: Pu233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.795446E-11
+   1.000000E+02   5.211813E-08
+   1.100000E+02   1.264513E-06
+   1.200000E+02   3.850885E-06
+   1.300000E+02   1.745100E-05
+   1.400000E+02   5.399598E-05
+   1.500000E+02   9.677696E-05
+   1.600000E+02   7.884855E-05
+   1.800000E+02   4.917390E-06
+   2.000000E+02   2.919892E-06

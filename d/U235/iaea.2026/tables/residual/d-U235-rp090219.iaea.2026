@@ -1,0 +1,38 @@
+# header: 
+#   title: U235(d,x)Th219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 219
+#     nuclide: Th219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.117340E-12
+   1.100000E+02   4.315315E-07
+   1.200000E+02   9.344161E-04
+   1.300000E+02   5.844710E-02
+   1.400000E+02   6.205250E-01
+   1.500000E+02   2.775647E+00
+   1.600000E+02   3.455769E+00
+   1.800000E+02   2.609310E+00
+   2.000000E+02   4.375570E+00

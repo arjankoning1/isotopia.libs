@@ -1,0 +1,46 @@
+# header: 
+#   title: Co57(d,x)Ti45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.057121E-09
+   5.500000E+01   2.264450E-05
+   6.000000E+01   3.294863E-03
+   6.500000E+01   3.161800E-02
+   7.000000E+01   7.508796E-02
+   7.500000E+01   6.771246E-02
+   8.000000E+01   2.084251E-02
+   9.000000E+01   4.199261E-02
+   1.000000E+02   1.477486E-01
+   1.100000E+02   5.749967E-01
+   1.200000E+02   1.215734E+00
+   1.300000E+02   1.955725E+00
+   1.400000E+02   2.989528E+00
+   1.500000E+02   5.554106E+00
+   1.600000E+02   8.309133E+00
+   1.800000E+02   1.340587E+01
+   2.000000E+02   2.513478E+01

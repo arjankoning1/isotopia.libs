@@ -1,0 +1,45 @@
+# header: 
+#   title: Hf182(d,x)Hf174 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 182
+#   nuclide: Hf182
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 174
+#     nuclide: Hf174
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.003498E-11
+   6.000000E+01   5.998060E-05
+   6.500000E+01   3.706899E-02
+   7.000000E+01   8.369972E-01
+   7.500000E+01   5.349116E+00
+   8.000000E+01   2.216131E+01
+   9.000000E+01   1.174314E+02
+   1.000000E+02   1.646343E+02
+   1.100000E+02   1.248432E+02
+   1.200000E+02   1.147967E+02
+   1.300000E+02   1.496084E+02
+   1.400000E+02   2.193853E+02
+   1.500000E+02   2.886903E+02
+   1.600000E+02   2.966783E+02
+   1.800000E+02   3.272179E+02
+   2.000000E+02   1.441435E+02

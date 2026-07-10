@@ -1,0 +1,46 @@
+# header: 
+#   title: Ge70(d,x)Cu60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.415659E-12
+   5.500000E+01   1.293965E-07
+   6.000000E+01   8.834503E-05
+   6.500000E+01   3.230732E-03
+   7.000000E+01   2.177219E-02
+   7.500000E+01   5.908244E-02
+   8.000000E+01   9.962260E-02
+   9.000000E+01   1.612790E-01
+   1.000000E+02   3.521602E-01
+   1.100000E+02   1.101046E+00
+   1.200000E+02   2.622029E+00
+   1.300000E+02   4.498784E+00
+   1.400000E+02   5.992754E+00
+   1.500000E+02   8.236341E+00
+   1.600000E+02   1.107257E+01
+   1.800000E+02   2.217323E+01
+   2.000000E+02   3.051249E+01

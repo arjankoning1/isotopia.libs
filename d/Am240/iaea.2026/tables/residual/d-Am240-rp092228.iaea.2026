@@ -1,0 +1,44 @@
+# header: 
+#   title: Am240(d,x)U228 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 228
+#     nuclide: U228
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.561317E-10
+   6.500000E+01   9.115316E-08
+   7.000000E+01   1.270757E-05
+   7.500000E+01   1.554905E-04
+   8.000000E+01   1.179868E-03
+   9.000000E+01   7.446284E-03
+   1.000000E+02   1.650475E-02
+   1.100000E+02   1.548846E-02
+   1.200000E+02   1.196468E-02
+   1.300000E+02   2.456315E-02
+   1.400000E+02   4.847783E-02
+   1.500000E+02   7.649832E-02
+   1.600000E+02   9.900442E-02
+   1.800000E+02   3.829982E-02
+   2.000000E+02   2.558389E-02

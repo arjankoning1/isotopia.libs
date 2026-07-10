@@ -1,0 +1,43 @@
+# header: 
+#   title: Re189(d,x)Lu174g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 189
+#   nuclide: Re189
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 174
+#     nuclide: Lu174g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.933641E-13
+   8.000000E+01   1.426667E-09
+   9.000000E+01   1.315322E-05
+   1.000000E+02   1.447889E-03
+   1.100000E+02   2.810932E-02
+   1.200000E+02   8.182649E-02
+   1.300000E+02   1.033015E-01
+   1.400000E+02   9.236088E-02
+   1.500000E+02   1.046977E-01
+   1.600000E+02   1.191191E-01
+   1.800000E+02   1.595887E-01
+   2.000000E+02   2.375808E-01

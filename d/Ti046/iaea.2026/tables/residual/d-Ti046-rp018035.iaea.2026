@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti46(d,x)Ar35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 35
+#     nuclide: Ar35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.837961E-10
+   6.500000E+01   9.417978E-07
+   7.000000E+01   5.105962E-05
+   7.500000E+01   3.233301E-04
+   8.000000E+01   1.076149E-03
+   9.000000E+01   1.010877E-02
+   1.000000E+02   3.194533E-02
+   1.100000E+02   5.307249E-02
+   1.200000E+02   7.740211E-02
+   1.300000E+02   1.272284E-01
+   1.400000E+02   2.072881E-01
+   1.500000E+02   3.015015E-01
+   1.600000E+02   4.061300E-01
+   1.800000E+02   6.260428E-01
+   2.000000E+02   9.081684E-01

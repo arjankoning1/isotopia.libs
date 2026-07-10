@@ -1,0 +1,46 @@
+# header: 
+#   title: Cu63(d,x)Ni56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.787070E-07
+   5.500000E+01   1.440088E-04
+   6.000000E+01   1.807547E-03
+   6.500000E+01   6.886527E-03
+   7.000000E+01   1.467361E-02
+   7.500000E+01   2.316462E-02
+   8.000000E+01   2.842449E-02
+   9.000000E+01   4.102537E-02
+   1.000000E+02   5.654873E-02
+   1.100000E+02   8.731969E-02
+   1.200000E+02   1.174072E-01
+   1.300000E+02   1.570669E-01
+   1.400000E+02   1.700895E-01
+   1.500000E+02   1.971698E-01
+   1.600000E+02   2.281139E-01
+   1.800000E+02   2.525246E-01
+   2.000000E+02   2.580105E-01

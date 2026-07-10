@@ -1,0 +1,38 @@
+# header: 
+#   title: Pd108(d,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.755128E-11
+   1.100000E+02   2.407167E-06
+   1.200000E+02   2.866492E-04
+   1.300000E+02   2.373633E-03
+   1.400000E+02   1.461120E-02
+   1.500000E+02   4.370980E-02
+   1.600000E+02   2.174748E-01
+   1.800000E+02   2.187601E+00
+   2.000000E+02   5.858049E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Cl37(d,x)Mg22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 22
+#     nuclide: Mg22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.007517E-11
+   1.000000E+02   3.705036E-07
+   1.100000E+02   1.674446E-05
+   1.200000E+02   1.729704E-04
+   1.300000E+02   8.771940E-04
+   1.400000E+02   2.693853E-03
+   1.500000E+02   5.863064E-03
+   1.600000E+02   1.102988E-02
+   1.800000E+02   2.871532E-02
+   2.000000E+02   5.485443E-02

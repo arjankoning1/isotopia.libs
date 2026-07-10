@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn113(d,x)Mo95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 95
+#     nuclide: Mo95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.729959E-10
+   9.000000E+01   1.344455E-06
+   1.000000E+02   2.688267E-04
+   1.100000E+02   2.177196E-03
+   1.200000E+02   1.071046E-03
+   1.300000E+02   2.294156E-03
+   1.400000E+02   5.994713E-03
+   1.500000E+02   1.884688E-02
+   1.600000E+02   4.001070E-02
+   1.800000E+02   6.567474E-02
+   2.000000E+02   1.506164E-01

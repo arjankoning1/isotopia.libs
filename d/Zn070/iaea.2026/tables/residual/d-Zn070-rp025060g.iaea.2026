@@ -1,0 +1,51 @@
+# header: 
+#   title: Zn70(d,x)Mn60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 60
+#     nuclide: Mn60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.125047E-09
+   4.000000E+01   7.840680E-08
+   4.500000E+01   5.790334E-07
+   5.000000E+01   1.638487E-06
+   5.500000E+01   1.746453E-06
+   6.000000E+01   1.220734E-06
+   6.500000E+01   2.053276E-07
+   7.000000E+01   6.661428E-07
+   7.500000E+01   4.491949E-06
+   8.000000E+01   1.638760E-05
+   9.000000E+01   3.491171E-05
+   1.000000E+02   3.240362E-05
+   1.100000E+02   5.211464E-05
+   1.200000E+02   9.415562E-05
+   1.300000E+02   2.096852E-04
+   1.400000E+02   2.207209E-04
+   1.500000E+02   3.197405E-04
+   1.600000E+02   4.315199E-04
+   1.800000E+02   2.860659E-04
+   2.000000E+02   6.487871E-04

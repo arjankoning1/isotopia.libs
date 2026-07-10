@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm152(d,x)Pr138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 138
+#     nuclide: Pr138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.747080E-09
+   8.000000E+01   4.881612E-06
+   9.000000E+01   2.341166E-02
+   1.000000E+02   5.760309E-01
+   1.100000E+02   1.173626E+00
+   1.200000E+02   1.091861E+00
+   1.300000E+02   2.455629E+00
+   1.400000E+02   3.487378E+00
+   1.500000E+02   1.672994E+00
+   1.600000E+02   2.498952E+00
+   1.800000E+02   3.170273E+00
+   2.000000E+02   4.609850E+00

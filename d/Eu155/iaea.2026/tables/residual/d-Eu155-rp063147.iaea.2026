@@ -1,0 +1,44 @@
+# header: 
+#   title: Eu155(d,x)Eu147 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 147
+#     nuclide: Eu147
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.550672E-09
+   6.500000E+01   1.127735E-03
+   7.000000E+01   2.004663E-01
+   7.500000E+01   2.370450E+00
+   8.000000E+01   8.381559E+00
+   9.000000E+01   2.860616E+01
+   1.000000E+02   4.437051E+01
+   1.100000E+02   4.472525E+01
+   1.200000E+02   5.441286E+01
+   1.300000E+02   6.671998E+01
+   1.400000E+02   1.007109E+02
+   1.500000E+02   1.184542E+02
+   1.600000E+02   1.470565E+02
+   1.800000E+02   1.397235E+02
+   2.000000E+02   1.062754E+02

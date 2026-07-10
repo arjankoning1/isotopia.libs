@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn116(d,x)Pd104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 104
+#     nuclide: Pd104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.288562E-11
+   6.500000E+01   4.986528E-08
+   7.000000E+01   1.578576E-05
+   7.500000E+01   6.839163E-04
+   8.000000E+01   1.309768E-02
+   9.000000E+01   8.385362E-01
+   1.000000E+02   4.365650E+00
+   1.100000E+02   4.671105E+00
+   1.200000E+02   3.082740E+00
+   1.300000E+02   3.811506E+00
+   1.400000E+02   6.710931E+00
+   1.500000E+02   9.616678E+00
+   1.600000E+02   1.170699E+01
+   1.800000E+02   1.569920E+01
+   2.000000E+02   1.305575E+01

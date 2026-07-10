@@ -1,0 +1,44 @@
+# header: 
+#   title: Al27(d,x)O21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 21
+#     nuclide: O21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.361774E-09
+   6.500000E+01   1.154733E-06
+   7.000000E+01   1.799144E-05
+   7.500000E+01   7.884609E-05
+   8.000000E+01   1.839659E-04
+   9.000000E+01   4.014415E-04
+   1.000000E+02   5.794659E-04
+   1.100000E+02   8.320993E-04
+   1.200000E+02   1.199739E-03
+   1.300000E+02   1.607183E-03
+   1.400000E+02   1.987314E-03
+   1.500000E+02   2.254738E-03
+   1.600000E+02   2.450989E-03
+   1.800000E+02   2.584036E-03
+   2.000000E+02   2.506235E-03

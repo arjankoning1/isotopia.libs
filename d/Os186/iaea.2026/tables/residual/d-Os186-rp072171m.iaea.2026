@@ -1,0 +1,42 @@
+# header: 
+#   title: Os186(d,x)Hf171m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 186
+#   nuclide: Os186
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 171
+#     nuclide: Hf171m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.244239E-13
+   9.000000E+01   6.693776E-08
+   1.000000E+02   5.857853E-05
+   1.100000E+02   5.035996E-03
+   1.200000E+02   6.435792E-02
+   1.300000E+02   1.764548E-01
+   1.400000E+02   1.144641E-01
+   1.500000E+02   6.931470E-02
+   1.600000E+02   4.507338E-02
+   1.800000E+02   9.265607E-02
+   2.000000E+02   3.340183E-01

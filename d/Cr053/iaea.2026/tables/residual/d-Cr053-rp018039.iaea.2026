@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr53(d,x)Ar39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.612101E-12
+   6.500000E+01   2.189056E-08
+   7.000000E+01   3.382967E-06
+   7.500000E+01   4.274823E-05
+   8.000000E+01   1.018979E-04
+   9.000000E+01   2.074084E-03
+   1.000000E+02   1.006170E-02
+   1.100000E+02   2.310853E-02
+   1.200000E+02   4.549130E-02
+   1.300000E+02   1.328674E-01
+   1.400000E+02   3.067866E-01
+   1.500000E+02   5.228202E-01
+   1.600000E+02   7.129661E-01
+   1.800000E+02   1.588216E+00
+   2.000000E+02   2.134685E+00

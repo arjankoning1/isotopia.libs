@@ -1,0 +1,39 @@
+# header: 
+#   title: Eu146(d,x)Sm135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 146
+#   nuclide: Eu146
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 135
+#     nuclide: Sm135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.873922E-11
+   1.000000E+02   4.726471E-04
+   1.100000E+02   1.467380E-01
+   1.200000E+02   9.324053E-01
+   1.300000E+02   1.130324E+00
+   1.400000E+02   1.173928E+00
+   1.500000E+02   2.236703E+00
+   1.600000E+02   4.097130E+00
+   1.800000E+02   9.862166E+00
+   2.000000E+02   3.000960E+01

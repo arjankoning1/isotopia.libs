@@ -1,0 +1,39 @@
+# header: 
+#   title: K41(d,x)Ne20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.330680E-08
+   1.000000E+02   2.183016E-06
+   1.100000E+02   2.618675E-05
+   1.200000E+02   9.394775E-05
+   1.300000E+02   2.732003E-04
+   1.400000E+02   9.974051E-04
+   1.500000E+02   3.291788E-03
+   1.600000E+02   8.296858E-03
+   1.800000E+02   3.842604E-02
+   2.000000E+02   1.405869E-01

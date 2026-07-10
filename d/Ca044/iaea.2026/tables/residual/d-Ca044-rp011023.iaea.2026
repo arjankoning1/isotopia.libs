@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca44(d,x)Na23 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.331754E-11
+   1.000000E+02   1.332083E-07
+   1.100000E+02   8.492974E-06
+   1.200000E+02   5.911395E-05
+   1.300000E+02   1.870770E-04
+   1.400000E+02   4.806594E-04
+   1.500000E+02   1.468442E-03
+   1.600000E+02   4.038861E-03
+   1.800000E+02   1.971108E-02
+   2.000000E+02   7.625452E-02

@@ -1,0 +1,49 @@
+# header: 
+#   title: Au198m(d,x)Hg193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 193
+#     nuclide: Hg193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.561248E-03
+   5.000000E+01   2.627266E+00
+   5.500000E+01   5.418693E+01
+   6.000000E+01   2.297959E+02
+   6.500000E+01   3.888801E+02
+   7.000000E+01   3.775059E+02
+   7.500000E+01   2.575543E+02
+   8.000000E+01   1.680220E+02
+   9.000000E+01   1.502697E+02
+   1.000000E+02   1.858597E+02
+   1.100000E+02   1.957488E+02
+   1.200000E+02   1.730482E+02
+   1.300000E+02   1.236954E+02
+   1.400000E+02   8.449047E+01
+   1.500000E+02   5.819328E+01
+   1.600000E+02   3.299246E+01
+   1.800000E+02   1.572512E+01
+   2.000000E+02   7.932964E+00

@@ -1,0 +1,41 @@
+# header: 
+#   title: Y89(d,x)Se73m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.835344E-13
+   1.000000E+02   5.494931E-07
+   1.100000E+02   1.813876E-04
+   1.200000E+02   3.510195E-03
+   1.300000E+02   1.574942E-02
+   1.400000E+02   4.060356E-02
+   1.500000E+02   1.215568E-01
+   1.600000E+02   3.219260E-01
+   1.800000E+02   1.299718E+00
+   2.000000E+02   2.562893E+00

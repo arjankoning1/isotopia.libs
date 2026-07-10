@@ -1,0 +1,44 @@
+# header: 
+#   title: Gd150(d,x)Nd137m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 150
+#   nuclide: Gd150
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   4.446858E-11
+   7.500000E+01   4.543746E-08
+   8.000000E+01   6.395504E-06
+   9.000000E+01   6.359381E-03
+   1.000000E+02   3.307218E-01
+   1.100000E+02   1.392275E+00
+   1.200000E+02   1.471910E+00
+   1.300000E+02   1.232186E+00
+   1.400000E+02   1.444313E+00
+   1.500000E+02   1.893564E+00
+   1.600000E+02   3.221210E+00
+   1.800000E+02   4.817249E+00
+   2.000000E+02   7.201156E+00

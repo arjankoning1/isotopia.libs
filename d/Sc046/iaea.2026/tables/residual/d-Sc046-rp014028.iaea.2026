@@ -1,0 +1,41 @@
+# header: 
+#   title: Sc46(d,x)Si28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 28
+#     nuclide: Si28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.435377E-11
+   8.000000E+01   4.336495E-08
+   9.000000E+01   2.431008E-05
+   1.000000E+02   3.439712E-04
+   1.100000E+02   1.277704E-03
+   1.200000E+02   4.104423E-03
+   1.300000E+02   1.736488E-02
+   1.400000E+02   5.979196E-02
+   1.500000E+02   1.551910E-01
+   1.600000E+02   3.309235E-01
+   1.800000E+02   1.106125E+00
+   2.000000E+02   2.700968E+00

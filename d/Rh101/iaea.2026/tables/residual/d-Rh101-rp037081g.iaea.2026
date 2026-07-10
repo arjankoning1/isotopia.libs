@@ -1,0 +1,40 @@
+# header: 
+#   title: Rh101(d,x)Rb81g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.980385E-13
+   1.100000E+02   2.574776E-09
+   1.200000E+02   5.265548E-07
+   1.300000E+02   1.569859E-05
+   1.400000E+02   1.488945E-04
+   1.500000E+02   5.189964E-04
+   1.600000E+02   1.314507E-03
+   1.800000E+02   9.178728E-03
+   2.000000E+02   3.702841E-02

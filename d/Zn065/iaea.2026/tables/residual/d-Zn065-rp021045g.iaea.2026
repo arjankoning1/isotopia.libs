@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn65(d,x)Sc45g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 45
+#     nuclide: Sc45g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.437742E-10
+   1.000000E+02   1.265370E-07
+   1.100000E+02   1.560450E-06
+   1.200000E+02   6.197978E-06
+   1.300000E+02   9.669493E-05
+   1.400000E+02   1.385771E-03
+   1.500000E+02   8.669259E-03
+   1.600000E+02   2.774530E-02
+   1.800000E+02   9.628089E-02
+   2.000000E+02   2.797242E-01

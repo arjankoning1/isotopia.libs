@@ -1,0 +1,46 @@
+# header: 
+#   title: Tc99(d,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.883515E-10
+   5.500000E+01   1.053505E-06
+   6.000000E+01   1.003402E-04
+   6.500000E+01   1.747936E-03
+   7.000000E+01   2.633911E-02
+   7.500000E+01   1.925339E-01
+   8.000000E+01   6.327311E-01
+   9.000000E+01   1.595909E+00
+   1.000000E+02   1.098650E+00
+   1.100000E+02   8.277693E-01
+   1.200000E+02   1.295868E+00
+   1.300000E+02   2.219785E+00
+   1.400000E+02   2.657954E+00
+   1.500000E+02   3.380608E+00
+   1.600000E+02   3.955581E+00
+   1.800000E+02   5.018655E+00
+   2.000000E+02   5.338123E+00

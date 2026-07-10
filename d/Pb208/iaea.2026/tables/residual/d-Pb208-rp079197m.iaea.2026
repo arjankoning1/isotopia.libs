@@ -1,0 +1,47 @@
+# header: 
+#   title: Pb208(d,x)Au197m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 197
+#     nuclide: Au197m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.354807E-10
+   6.000000E+01   3.452755E-07
+   6.500000E+01   3.688924E-05
+   7.000000E+01   6.162639E-04
+   7.500000E+01   3.251780E-03
+   8.000000E+01   6.677056E-03
+   9.000000E+01   5.438067E-03
+   1.000000E+02   2.726630E-03
+   1.100000E+02   5.066467E-03
+   1.200000E+02   8.478567E-03
+   1.300000E+02   1.576126E-02
+   1.400000E+02   2.057131E-02
+   1.500000E+02   1.933131E-02
+   1.600000E+02   2.576808E-02
+   1.800000E+02   6.431095E-02
+   2.000000E+02   1.342880E-01

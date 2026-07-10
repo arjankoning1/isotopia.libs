@@ -1,0 +1,42 @@
+# header: 
+#   title: Xe131(d,x)I120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 120
+#     nuclide: I120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.136185E-11
+   9.000000E+01   1.548946E-04
+   1.000000E+02   6.089353E-02
+   1.100000E+02   4.655589E-01
+   1.200000E+02   6.924469E-01
+   1.300000E+02   1.191395E+00
+   1.400000E+02   2.060448E+00
+   1.500000E+02   5.552445E+00
+   1.600000E+02   9.128171E+00
+   1.800000E+02   1.637234E+01
+   2.000000E+02   2.806479E+01

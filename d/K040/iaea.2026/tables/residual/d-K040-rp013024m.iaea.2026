@@ -1,0 +1,40 @@
+# header: 
+#   title: K40(d,x)Al24m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.446209E-09
+   1.100000E+02   1.095077E-06
+   1.200000E+02   1.444983E-05
+   1.300000E+02   7.531924E-05
+   1.400000E+02   2.455983E-04
+   1.500000E+02   6.258986E-04
+   1.600000E+02   1.383116E-03
+   1.800000E+02   4.741259E-03
+   2.000000E+02   1.073819E-02

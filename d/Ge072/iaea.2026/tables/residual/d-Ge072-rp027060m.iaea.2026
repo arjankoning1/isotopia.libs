@@ -1,0 +1,49 @@
+# header: 
+#   title: Ge72(d,x)Co60m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   5.197667E-10
+   5.000000E+01   1.016060E-06
+   5.500000E+01   5.515952E-05
+   6.000000E+01   4.152473E-04
+   6.500000E+01   1.105241E-03
+   7.000000E+01   1.625713E-03
+   7.500000E+01   1.904298E-03
+   8.000000E+01   4.176118E-03
+   9.000000E+01   3.219389E-02
+   1.000000E+02   8.225494E-02
+   1.100000E+02   2.707587E-01
+   1.200000E+02   4.565333E-01
+   1.300000E+02   5.309784E-01
+   1.400000E+02   7.573258E-01
+   1.500000E+02   1.189323E+00
+   1.600000E+02   1.696436E+00
+   1.800000E+02   1.672248E+00
+   2.000000E+02   2.282567E+00

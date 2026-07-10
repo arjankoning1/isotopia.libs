@@ -1,0 +1,40 @@
+# header: 
+#   title: Rh105(d,x)Ru93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 93
+#     nuclide: Ru93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.701344E-10
+   1.100000E+02   5.713849E-07
+   1.200000E+02   6.895747E-06
+   1.300000E+02   3.881762E-05
+   1.400000E+02   9.975083E-05
+   1.500000E+02   2.227100E-04
+   1.600000E+02   4.476617E-04
+   1.800000E+02   1.627439E-03
+   2.000000E+02   3.478376E-03

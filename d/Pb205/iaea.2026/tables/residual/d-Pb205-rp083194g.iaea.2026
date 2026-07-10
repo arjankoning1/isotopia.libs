@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb205(d,x)Bi194g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 194
+#     nuclide: Bi194g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   6.716367E-09
+   1.200000E+02   1.306585E-04
+   1.300000E+02   9.341086E-03
+   1.400000E+02   4.536063E-02
+   1.500000E+02   6.868885E-02
+   1.600000E+02   1.036796E-01
+   1.800000E+02   2.192364E-01
+   2.000000E+02   4.224190E-01

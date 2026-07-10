@@ -1,0 +1,48 @@
+# header: 
+#   title: Ca44(d,x)Si33 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 33
+#     nuclide: Si33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.119763E-11
+   4.500000E+01   2.271278E-07
+   5.000000E+01   1.535936E-05
+   5.500000E+01   1.108794E-04
+   6.000000E+01   2.609314E-04
+   6.500000E+01   3.719043E-04
+   7.000000E+01   4.225469E-04
+   7.500000E+01   4.592050E-04
+   8.000000E+01   5.691161E-04
+   9.000000E+01   1.288034E-03
+   1.000000E+02   2.951676E-03
+   1.100000E+02   4.911460E-03
+   1.200000E+02   6.155551E-03
+   1.300000E+02   8.150205E-03
+   1.400000E+02   1.166023E-02
+   1.500000E+02   1.603270E-02
+   1.600000E+02   2.028731E-02
+   1.800000E+02   2.694768E-02
+   2.000000E+02   3.243842E-02

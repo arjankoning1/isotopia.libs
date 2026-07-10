@@ -1,0 +1,39 @@
+# header: 
+#   title: Se79(d,x)Zn64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 79
+#   nuclide: Se79
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 64
+#     nuclide: Zn64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.810682E-09
+   1.000000E+02   5.062201E-05
+   1.100000E+02   4.907364E-03
+   1.200000E+02   8.511025E-02
+   1.300000E+02   5.160344E-01
+   1.400000E+02   1.518544E+00
+   1.500000E+02   2.972942E+00
+   1.600000E+02   4.626456E+00
+   1.800000E+02   9.665855E+00
+   2.000000E+02   1.762672E+01

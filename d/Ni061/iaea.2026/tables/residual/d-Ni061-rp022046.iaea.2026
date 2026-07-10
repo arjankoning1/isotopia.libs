@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni61(d,x)Ti46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 46
+#     nuclide: Ti46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.161619E-09
+   8.000000E+01   1.404519E-06
+   9.000000E+01   5.126618E-04
+   1.000000E+02   1.103029E-02
+   1.100000E+02   8.217397E-02
+   1.200000E+02   2.586395E-01
+   1.300000E+02   5.206230E-01
+   1.400000E+02   9.763111E-01
+   1.500000E+02   1.917650E+00
+   1.600000E+02   3.452452E+00
+   1.800000E+02   8.247498E+00
+   2.000000E+02   1.550280E+01

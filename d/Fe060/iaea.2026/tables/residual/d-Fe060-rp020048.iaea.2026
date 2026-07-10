@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe60(d,x)Ca48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 60
+#   nuclide: Fe60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 48
+#     nuclide: Ca48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.992019E-10
+   5.500000E+01   1.040047E-07
+   6.000000E+01   2.077156E-06
+   6.500000E+01   1.415572E-05
+   7.000000E+01   5.635669E-05
+   7.500000E+01   1.422087E-04
+   8.000000E+01   2.394859E-04
+   9.000000E+01   2.143233E-04
+   1.000000E+02   2.954058E-04
+   1.100000E+02   4.943552E-04
+   1.200000E+02   9.909860E-04
+   1.300000E+02   1.491210E-03
+   1.400000E+02   1.993797E-03
+   1.500000E+02   2.719109E-03
+   1.600000E+02   3.633875E-03
+   1.800000E+02   3.253239E-03
+   2.000000E+02   2.464573E-03

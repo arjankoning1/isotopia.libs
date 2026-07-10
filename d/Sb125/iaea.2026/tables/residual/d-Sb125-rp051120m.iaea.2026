@@ -1,0 +1,50 @@
+# header: 
+#   title: Sb125(d,x)Sb120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 125
+#   nuclide: Sb125
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.226111E-07
+   4.500000E+01   9.424686E-03
+   5.000000E+01   2.585863E-01
+   5.500000E+01   1.344248E+00
+   6.000000E+01   5.776012E+00
+   6.500000E+01   1.672768E+01
+   7.000000E+01   3.133310E+01
+   7.500000E+01   4.262238E+01
+   8.000000E+01   4.797596E+01
+   9.000000E+01   5.577224E+01
+   1.000000E+02   7.225032E+01
+   1.100000E+02   9.466846E+01
+   1.200000E+02   1.164054E+02
+   1.300000E+02   1.204679E+02
+   1.400000E+02   1.163700E+02
+   1.500000E+02   9.979181E+01
+   1.600000E+02   7.526659E+01
+   1.800000E+02   4.573982E+01
+   2.000000E+02   2.754638E+01

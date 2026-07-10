@@ -1,0 +1,47 @@
+# header: 
+#   title: Cs131(d,x)Cs126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 126
+#     nuclide: Cs126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   5.809569E-06
+   5.000000E+01   7.226288E-02
+   5.500000E+01   1.978843E+00
+   6.000000E+01   9.104738E+00
+   6.500000E+01   3.271241E+01
+   7.000000E+01   8.334437E+01
+   7.500000E+01   1.341570E+02
+   8.000000E+01   1.537675E+02
+   9.000000E+01   1.361020E+02
+   1.000000E+02   1.482579E+02
+   1.100000E+02   1.893687E+02
+   1.200000E+02   2.420266E+02
+   1.300000E+02   2.878866E+02
+   1.400000E+02   3.028656E+02
+   1.500000E+02   2.700629E+02
+   1.600000E+02   2.444440E+02
+   1.800000E+02   1.586836E+02
+   2.000000E+02   8.279760E+01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ra223(d,x)Po206 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 206
+#     nuclide: Po206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.070497E-08
+   1.000000E+02   1.047751E-04
+   1.100000E+02   1.591639E-02
+   1.200000E+02   3.402892E-01
+   1.300000E+02   1.456594E+00
+   1.400000E+02   3.091170E+00
+   1.500000E+02   3.455192E+00
+   1.600000E+02   3.088173E+00
+   1.800000E+02   2.125731E+00
+   2.000000E+02   3.354686E+00

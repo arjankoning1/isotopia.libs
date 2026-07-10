@@ -1,0 +1,48 @@
+# header: 
+#   title: Co60(d,x)Cr57 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 57
+#     nuclide: Cr57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.426348E-09
+   4.500000E+01   6.533789E-07
+   5.000000E+01   5.674174E-06
+   5.500000E+01   6.505740E-05
+   6.000000E+01   5.299672E-04
+   6.500000E+01   2.110267E-03
+   7.000000E+01   5.065381E-03
+   7.500000E+01   8.446857E-03
+   8.000000E+01   1.123195E-02
+   9.000000E+01   1.717051E-02
+   1.000000E+02   2.075481E-02
+   1.100000E+02   2.471666E-02
+   1.200000E+02   2.902431E-02
+   1.300000E+02   3.106469E-02
+   1.400000E+02   3.387442E-02
+   1.500000E+02   2.795901E-02
+   1.600000E+02   2.640646E-02
+   1.800000E+02   2.304687E-02
+   2.000000E+02   1.372196E-02

@@ -1,0 +1,43 @@
+# header: 
+#   title: Bi210(d,x)Pb199 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 199
+#     nuclide: Pb199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.115073E-09
+   7.000000E+01   2.295491E-06
+   7.500000E+01   1.487169E-03
+   8.000000E+01   5.541166E-02
+   9.000000E+01   5.065969E+00
+   1.000000E+02   2.218040E+01
+   1.100000E+02   2.017261E+01
+   1.200000E+02   8.775631E+00
+   1.300000E+02   9.497206E+00
+   1.400000E+02   1.509402E+01
+   1.500000E+02   1.869358E+01
+   1.600000E+02   2.275430E+01
+   1.800000E+02   3.734055E+01
+   2.000000E+02   3.324790E+01

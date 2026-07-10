@@ -1,0 +1,44 @@
+# header: 
+#   title: Co57(d,x)K42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.426572E-12
+   6.500000E+01   8.825507E-09
+   7.000000E+01   5.541900E-07
+   7.500000E+01   3.432690E-06
+   8.000000E+01   1.489016E-06
+   9.000000E+01   8.628887E-06
+   1.000000E+02   2.676001E-05
+   1.100000E+02   2.045829E-04
+   1.200000E+02   9.836891E-04
+   1.300000E+02   2.283386E-03
+   1.400000E+02   4.342305E-03
+   1.500000E+02   8.567765E-03
+   1.600000E+02   1.876543E-02
+   1.800000E+02   4.854492E-02
+   2.000000E+02   8.908971E-02

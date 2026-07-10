@@ -1,0 +1,40 @@
+# header: 
+#   title: Mo97(d,x)Zr85g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.285689E-06
+   1.100000E+02   2.747407E-04
+   1.200000E+02   9.266248E-03
+   1.300000E+02   8.633172E-02
+   1.400000E+02   3.807028E-01
+   1.500000E+02   9.352983E-01
+   1.600000E+02   1.701236E+00
+   1.800000E+02   5.270671E+00
+   2.000000E+02   1.084844E+01

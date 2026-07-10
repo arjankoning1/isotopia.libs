@@ -1,0 +1,43 @@
+# header: 
+#   title: Au198(d,x)Au190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 190
+#     nuclide: Au190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.284339E-08
+   7.000000E+01   2.947163E-04
+   7.500000E+01   4.651076E-02
+   8.000000E+01   7.516041E-01
+   9.000000E+01   1.624587E+01
+   1.000000E+02   8.070322E+01
+   1.100000E+02   1.178045E+02
+   1.200000E+02   1.039349E+02
+   1.300000E+02   1.032283E+02
+   1.400000E+02   1.220624E+02
+   1.500000E+02   1.844020E+02
+   1.600000E+02   2.493802E+02
+   1.800000E+02   3.348643E+02
+   2.000000E+02   2.504904E+02

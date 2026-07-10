@@ -1,0 +1,48 @@
+# header: 
+#   title: Sn112(d,x)Rh99g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.756682E-13
+   5.500000E+01   2.664011E-09
+   6.000000E+01   1.567356E-06
+   6.500000E+01   1.239760E-04
+   7.000000E+01   2.002200E-03
+   7.500000E+01   1.009500E-02
+   8.000000E+01   2.540982E-02
+   9.000000E+01   4.112175E-02
+   1.000000E+02   9.459237E-02
+   1.100000E+02   6.117935E-01
+   1.200000E+02   8.644941E-01
+   1.300000E+02   1.793853E+00
+   1.400000E+02   2.377816E+00
+   1.500000E+02   3.072874E+00
+   1.600000E+02   4.074697E+00
+   1.800000E+02   7.144982E+00
+   2.000000E+02   1.029483E+01

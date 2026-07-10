@@ -1,0 +1,45 @@
+# header: 
+#   title: Cu63(d,x)Cu58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 58
+#     nuclide: Cu58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.233330E-09
+   6.000000E+01   5.842323E-06
+   6.500000E+01   1.286782E-04
+   7.000000E+01   6.349475E-04
+   7.500000E+01   2.325054E-03
+   8.000000E+01   5.887717E-03
+   9.000000E+01   2.075404E-02
+   1.000000E+02   3.507820E-02
+   1.100000E+02   4.479541E-02
+   1.200000E+02   5.381279E-02
+   1.300000E+02   6.333125E-02
+   1.400000E+02   7.337115E-02
+   1.500000E+02   8.405650E-02
+   1.600000E+02   9.132884E-02
+   1.800000E+02   9.374685E-02
+   2.000000E+02   7.858817E-02

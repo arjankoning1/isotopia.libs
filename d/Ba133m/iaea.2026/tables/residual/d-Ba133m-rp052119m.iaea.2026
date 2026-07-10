@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba133m(d,x)Te119m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.081403E-09
+   9.000000E+01   3.499645E-04
+   1.000000E+02   5.450490E-02
+   1.100000E+02   4.779970E-01
+   1.200000E+02   9.488705E-01
+   1.300000E+02   7.330862E-01
+   1.400000E+02   6.966541E-01
+   1.500000E+02   1.062921E+00
+   1.600000E+02   1.612536E+00
+   1.800000E+02   2.409554E+00
+   2.000000E+02   4.058749E+00

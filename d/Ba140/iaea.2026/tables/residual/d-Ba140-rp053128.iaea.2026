@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba140(d,x)I128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 140
+#   nuclide: Ba140
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.508284E-10
+   6.500000E+01   3.736329E-06
+   7.000000E+01   1.056115E-03
+   7.500000E+01   2.663021E-02
+   8.000000E+01   1.765411E-01
+   9.000000E+01   7.916756E-01
+   1.000000E+02   6.058313E-01
+   1.100000E+02   3.641988E-01
+   1.200000E+02   5.241578E-01
+   1.300000E+02   7.754551E-01
+   1.400000E+02   7.273126E-01
+   1.500000E+02   7.947039E-01
+   1.600000E+02   9.672422E-01
+   1.800000E+02   9.942610E-01
+   2.000000E+02   1.672783E+00

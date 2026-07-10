@@ -1,0 +1,39 @@
+# header: 
+#   title: Cm241(d,x)Fr219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 219
+#     nuclide: Fr219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.593049E-07
+   1.000000E+02   2.923199E-08
+   1.100000E+02   7.455304E-07
+   1.200000E+02   7.658884E-06
+   1.300000E+02   1.626537E-05
+   1.400000E+02   1.511012E-03
+   1.500000E+02   3.612735E-04
+   1.600000E+02   5.125115E-05
+   1.800000E+02   3.320343E-05
+   2.000000E+02   1.034019E-04

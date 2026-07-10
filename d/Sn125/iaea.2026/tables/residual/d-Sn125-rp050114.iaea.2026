@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn125(d,x)Sn114 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 114
+#     nuclide: Sn114
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.604967E-10
+   1.000000E+02   1.051122E-04
+   1.100000E+02   1.529972E-02
+   1.200000E+02   1.826845E-01
+   1.300000E+02   7.091544E-01
+   1.400000E+02   9.202479E-01
+   1.500000E+02   1.859002E+00
+   1.600000E+02   2.464292E+00
+   1.800000E+02   4.252114E+00
+   2.000000E+02   9.559747E+00

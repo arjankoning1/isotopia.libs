@@ -1,0 +1,37 @@
+# header: 
+#   title: Tm169(d,x)Gd149 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 149
+#     nuclide: Gd149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.666806E-08
+   1.200000E+02   1.770552E-04
+   1.300000E+02   1.751297E-02
+   1.400000E+02   9.790525E-02
+   1.500000E+02   7.673174E-02
+   1.600000E+02   1.333232E-01
+   1.800000E+02   1.271847E+00
+   2.000000E+02   2.946196E+00

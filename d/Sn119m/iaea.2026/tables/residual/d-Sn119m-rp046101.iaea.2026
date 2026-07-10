@@ -1,0 +1,36 @@
+# header: 
+#   title: Sn119m(d,x)Pd101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 101
+#     nuclide: Pd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   6.185091E-10
+   1.300000E+02   6.250486E-07
+   1.400000E+02   1.714646E-04
+   1.500000E+02   6.867136E-03
+   1.600000E+02   7.799581E-02
+   1.800000E+02   9.860945E-01
+   2.000000E+02   2.774387E+00

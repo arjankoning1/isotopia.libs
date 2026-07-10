@@ -1,0 +1,43 @@
+# header: 
+#   title: Ge71(d,x)Ge65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 71
+#   nuclide: Ge71
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 65
+#     nuclide: Ge65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.217084E-09
+   7.000000E+01   3.138734E-06
+   7.500000E+01   4.556670E-05
+   8.000000E+01   2.807296E-04
+   9.000000E+01   2.419646E-03
+   1.000000E+02   8.408204E-03
+   1.100000E+02   1.598343E-02
+   1.200000E+02   2.135369E-02
+   1.300000E+02   2.649162E-02
+   1.400000E+02   3.097373E-02
+   1.500000E+02   3.729099E-02
+   1.600000E+02   4.908605E-02
+   1.800000E+02   7.094137E-02
+   2.000000E+02   7.834765E-02

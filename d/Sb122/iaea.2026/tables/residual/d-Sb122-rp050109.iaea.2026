@@ -1,0 +1,38 @@
+# header: 
+#   title: Sb122(d,x)Sn109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 122
+#   nuclide: Sb122
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 109
+#     nuclide: Sn109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.544435E-10
+   1.100000E+02   1.711695E-05
+   1.200000E+02   3.978468E-03
+   1.300000E+02   1.630574E-02
+   1.400000E+02   9.178231E-02
+   1.500000E+02   2.360119E-01
+   1.600000E+02   4.958224E-01
+   1.800000E+02   2.057537E+00
+   2.000000E+02   5.884141E+00

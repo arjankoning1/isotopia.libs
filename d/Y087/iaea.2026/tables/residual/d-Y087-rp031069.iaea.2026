@@ -1,0 +1,40 @@
+# header: 
+#   title: Y87(d,x)Ga69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 87
+#   nuclide: Y87
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 69
+#     nuclide: Ga69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.470615E-12
+   9.000000E+01   1.863208E-08
+   1.000000E+02   3.311230E-06
+   1.100000E+02   3.175916E-05
+   1.200000E+02   2.714194E-04
+   1.300000E+02   7.800767E-04
+   1.400000E+02   1.703383E-03
+   1.500000E+02   5.240156E-03
+   1.600000E+02   1.343238E-02
+   1.800000E+02   3.616539E-02
+   2.000000E+02   6.062243E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: Cs129(d,x)Sb115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 115
+#     nuclide: Sb115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.824120E-09
+   9.000000E+01   1.018700E-04
+   1.000000E+02   2.445193E-02
+   1.100000E+02   6.265163E-01
+   1.200000E+02   2.728133E+00
+   1.300000E+02   9.676310E-01
+   1.400000E+02   6.102059E-01
+   1.500000E+02   1.500162E+00
+   1.600000E+02   2.697931E+00
+   1.800000E+02   5.056657E+00
+   2.000000E+02   6.617527E+00

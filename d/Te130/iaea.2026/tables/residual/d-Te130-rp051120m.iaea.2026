@@ -1,0 +1,45 @@
+# header: 
+#   title: Te130(d,x)Sb120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.081226E-10
+   7.000000E+01   9.823197E-06
+   7.500000E+01   4.372438E-03
+   8.000000E+01   1.286158E-01
+   9.000000E+01   2.587029E+00
+   1.000000E+02   4.928519E+00
+   1.100000E+02   3.326501E+00
+   1.200000E+02   3.163150E+00
+   1.300000E+02   4.483180E+00
+   1.400000E+02   6.104181E+00
+   1.500000E+02   8.970452E+00
+   1.600000E+02   1.102673E+01
+   1.800000E+02   1.414921E+01
+   2.000000E+02   1.380529E+01

@@ -1,0 +1,45 @@
+# header: 
+#   title: V48(d,x)S32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 32
+#     nuclide: S32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   9.905428E-11
+   6.000000E+01   2.247421E-07
+   6.500000E+01   1.464115E-05
+   7.000000E+01   2.367271E-04
+   7.500000E+01   1.372559E-03
+   8.000000E+01   4.062527E-03
+   9.000000E+01   1.285964E-02
+   1.000000E+02   2.263887E-02
+   1.100000E+02   4.591078E-02
+   1.200000E+02   1.238632E-01
+   1.300000E+02   2.685104E-01
+   1.400000E+02   4.849308E-01
+   1.500000E+02   8.215362E-01
+   1.600000E+02   1.337183E+00
+   1.800000E+02   3.195712E+00
+   2.000000E+02   6.299119E+00

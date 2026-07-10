@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba136(d,x)Sb122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.872192E-10
+   7.000000E+01   1.533670E-07
+   7.500000E+01   1.410831E-05
+   8.000000E+01   1.842036E-04
+   9.000000E+01   1.949367E-03
+   1.000000E+02   2.274835E-03
+   1.100000E+02   3.255076E-03
+   1.200000E+02   1.459632E-02
+   1.300000E+02   2.879377E-02
+   1.400000E+02   2.683879E-02
+   1.500000E+02   3.768078E-02
+   1.600000E+02   4.294493E-02
+   1.800000E+02   4.580148E-02
+   2.000000E+02   6.718695E-02

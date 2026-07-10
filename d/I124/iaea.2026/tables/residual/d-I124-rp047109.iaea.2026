@@ -1,0 +1,42 @@
+# header: 
+#   title: I124(d,x)Ag109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 109
+#     nuclide: Ag109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.269046E-10
+   7.500000E+01   1.633598E-07
+   8.000000E+01   4.582203E-06
+   9.000000E+01   4.592469E-04
+   1.000000E+02   8.328445E-03
+   1.100000E+02   2.473086E-02
+   1.200000E+02   2.034260E-02
+   1.300000E+02   1.888220E-02
+   1.400000E+02   2.479653E-02
+   1.500000E+02   4.417871E-02
+   1.600000E+02   6.826694E-02
+   1.800000E+02   6.568967E-02
+   2.000000E+02   1.144030E-01

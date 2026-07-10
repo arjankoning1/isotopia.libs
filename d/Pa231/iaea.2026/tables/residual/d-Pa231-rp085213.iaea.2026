@@ -1,0 +1,42 @@
+# header: 
+#   title: Pa231(d,x)At213 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 213
+#     nuclide: At213
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.607689E-11
+   7.500000E+01   6.829604E-09
+   8.000000E+01   8.325262E-07
+   9.000000E+01   1.123167E-04
+   1.000000E+02   4.133673E-03
+   1.100000E+02   4.458802E-02
+   1.200000E+02   1.247798E-01
+   1.300000E+02   1.925829E-01
+   1.400000E+02   1.469364E-01
+   1.500000E+02   9.966912E-02
+   1.600000E+02   7.191139E-02
+   1.800000E+02   3.908292E-02
+   2.000000E+02   6.919330E-02

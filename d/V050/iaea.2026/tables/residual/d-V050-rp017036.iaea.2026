@@ -1,0 +1,44 @@
+# header: 
+#   title: V50(d,x)Cl36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 23
+#   A: 50
+#   nuclide: V50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 36
+#     nuclide: Cl36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.368750E-08
+   6.500000E+01   7.177177E-06
+   7.000000E+01   1.404025E-04
+   7.500000E+01   4.911181E-04
+   8.000000E+01   2.280642E-03
+   9.000000E+01   2.066421E-02
+   1.000000E+02   7.113032E-02
+   1.100000E+02   1.298818E-01
+   1.200000E+02   2.130283E-01
+   1.300000E+02   4.066338E-01
+   1.400000E+02   7.454306E-01
+   1.500000E+02   1.162296E+00
+   1.600000E+02   1.709451E+00
+   1.800000E+02   3.331638E+00
+   2.000000E+02   5.629940E+00

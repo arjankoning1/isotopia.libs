@@ -1,0 +1,41 @@
+# header: 
+#   title: La140(d,x)Te124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 124
+#     nuclide: Te124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.142159E-12
+   8.000000E+01   2.468527E-09
+   9.000000E+01   3.026915E-05
+   1.000000E+02   2.148033E-03
+   1.100000E+02   9.441824E-03
+   1.200000E+02   1.294791E-02
+   1.300000E+02   2.340122E-02
+   1.400000E+02   5.117838E-02
+   1.500000E+02   8.781397E-02
+   1.600000E+02   1.351527E-01
+   1.800000E+02   1.269196E-01
+   2.000000E+02   1.704047E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn112(d,x)Sb108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 108
+#     nuclide: Sb108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.150800E-06
+   6.000000E+01   7.955398E-04
+   6.500000E+01   8.846395E-03
+   7.000000E+01   2.966653E-02
+   7.500000E+01   4.482716E-02
+   8.000000E+01   4.239669E-02
+   9.000000E+01   3.136382E-02
+   1.000000E+02   4.100601E-02
+   1.100000E+02   5.861227E-02
+   1.200000E+02   7.603805E-02
+   1.300000E+02   8.625282E-02
+   1.400000E+02   8.370142E-02
+   1.500000E+02   7.458701E-02
+   1.600000E+02   6.636821E-02
+   1.800000E+02   3.972567E-02
+   2.000000E+02   2.119152E-02

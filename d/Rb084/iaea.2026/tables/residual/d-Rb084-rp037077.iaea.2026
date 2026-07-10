@@ -1,0 +1,41 @@
+# header: 
+#   title: Rb84(d,x)Rb77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 77
+#     nuclide: Rb77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.767391E-07
+   8.000000E+01   1.022167E-04
+   9.000000E+01   8.838622E-03
+   1.000000E+02   5.007916E-02
+   1.100000E+02   1.788707E-01
+   1.200000E+02   3.989866E-01
+   1.300000E+02   5.888004E-01
+   1.400000E+02   7.780143E-01
+   1.500000E+02   1.035265E+00
+   1.600000E+02   1.399078E+00
+   1.800000E+02   2.903328E+00
+   2.000000E+02   5.624894E+00

@@ -1,0 +1,38 @@
+# header: 
+#   title: Pt188(d,x)Ir175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 188
+#   nuclide: Pt188
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 175
+#     nuclide: Ir175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.290172E-11
+   1.100000E+02   1.812785E-05
+   1.200000E+02   3.002411E-02
+   1.300000E+02   1.443547E+00
+   1.400000E+02   6.346504E+00
+   1.500000E+02   6.042172E+00
+   1.600000E+02   2.092896E+00
+   1.800000E+02   6.076431E+00
+   2.000000E+02   1.790140E+01

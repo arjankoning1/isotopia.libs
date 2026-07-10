@@ -1,0 +1,47 @@
+# header: 
+#   title: S32(d,x)Ne22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.386592E-12
+   5.000000E+01   6.825471E-07
+   5.500000E+01   1.745147E-04
+   6.000000E+01   2.011410E-03
+   6.500000E+01   9.329983E-03
+   7.000000E+01   3.244021E-02
+   7.500000E+01   8.329355E-02
+   8.000000E+01   1.598099E-01
+   9.000000E+01   3.369997E-01
+   1.000000E+02   5.799472E-01
+   1.100000E+02   9.928520E-01
+   1.200000E+02   1.795285E+00
+   1.300000E+02   3.082906E+00
+   1.400000E+02   3.999605E+00
+   1.500000E+02   5.173565E+00
+   1.600000E+02   6.401970E+00
+   1.800000E+02   8.308113E+00
+   2.000000E+02   8.320261E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Mo92(d,x)As74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 74
+#     nuclide: As74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.897969E-12
+   7.500000E+01   1.388352E-10
+   8.000000E+01   2.431461E-09
+   9.000000E+01   4.857320E-08
+   1.000000E+02   5.066269E-08
+   1.100000E+02   2.232206E-07
+   1.200000E+02   8.135805E-06
+   1.300000E+02   5.952989E-05
+   1.400000E+02   1.689341E-04
+   1.500000E+02   3.156585E-04
+   1.600000E+02   5.704753E-04
+   1.800000E+02   2.060841E-03
+   2.000000E+02   5.573979E-03

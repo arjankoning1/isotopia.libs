@@ -1,0 +1,42 @@
+# header: 
+#   title: Pm148m(d,x)Ba131g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148m
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.737216E-13
+   9.000000E+01   2.921828E-07
+   1.000000E+02   2.646265E-04
+   1.100000E+02   5.312867E-03
+   1.200000E+02   1.165249E-02
+   1.300000E+02   9.701745E-03
+   1.400000E+02   8.013158E-03
+   1.500000E+02   1.664977E-02
+   1.600000E+02   2.453005E-02
+   1.800000E+02   5.136588E-02
+   2.000000E+02   6.368965E-02

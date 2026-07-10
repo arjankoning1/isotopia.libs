@@ -1,0 +1,39 @@
+# header: 
+#   title: Bk249(d,x)Th230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 249
+#   nuclide: Bk249
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 230
+#     nuclide: Th230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.210095E-09
+   1.000000E+02   7.157442E-07
+   1.100000E+02   7.405532E-06
+   1.200000E+02   2.568202E-05
+   1.300000E+02   5.043012E-05
+   1.400000E+02   1.191201E-04
+   1.500000E+02   1.767281E-04
+   1.600000E+02   9.141849E-05
+   1.800000E+02   1.102265E-04
+   2.000000E+02   1.640119E-04

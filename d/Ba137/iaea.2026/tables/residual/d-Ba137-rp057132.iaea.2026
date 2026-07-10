@@ -1,0 +1,46 @@
+# header: 
+#   title: Ba137(d,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.350438E-05
+   5.500000E+01   1.088973E+00
+   6.000000E+01   3.762834E+01
+   6.500000E+01   1.656290E+02
+   7.000000E+01   2.911232E+02
+   7.500000E+01   3.085360E+02
+   8.000000E+01   2.425298E+02
+   9.000000E+01   1.382490E+02
+   1.000000E+02   1.545264E+02
+   1.100000E+02   2.015839E+02
+   1.200000E+02   2.345227E+02
+   1.300000E+02   2.322363E+02
+   1.400000E+02   2.103954E+02
+   1.500000E+02   1.549738E+02
+   1.600000E+02   1.063829E+02
+   1.800000E+02   4.625564E+01
+   2.000000E+02   1.983155E+01

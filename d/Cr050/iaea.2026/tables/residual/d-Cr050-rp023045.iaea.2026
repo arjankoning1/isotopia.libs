@@ -1,0 +1,48 @@
+# header: 
+#   title: Cr50(d,x)V45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 45
+#     nuclide: V45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.040659E-06
+   4.500000E+01   3.016384E-03
+   5.000000E+01   1.982152E-02
+   5.500000E+01   2.814764E-02
+   6.000000E+01   2.338744E-02
+   6.500000E+01   2.044411E-02
+   7.000000E+01   2.107618E-02
+   7.500000E+01   2.463276E-02
+   8.000000E+01   3.011478E-02
+   9.000000E+01   5.184624E-02
+   1.000000E+02   8.190769E-02
+   1.100000E+02   1.028000E-01
+   1.200000E+02   1.146604E-01
+   1.300000E+02   1.270573E-01
+   1.400000E+02   1.425644E-01
+   1.500000E+02   1.637579E-01
+   1.600000E+02   1.765731E-01
+   1.800000E+02   2.059849E-01
+   2.000000E+02   2.100194E-01

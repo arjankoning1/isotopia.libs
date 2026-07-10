@@ -1,0 +1,37 @@
+# header: 
+#   title: Te122(d,x)Sb109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 109
+#     nuclide: Sb109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.501329E-11
+   1.200000E+02   5.860802E-07
+   1.300000E+02   1.981625E-05
+   1.400000E+02   4.824762E-04
+   1.500000E+02   2.774223E-03
+   1.600000E+02   7.925579E-03
+   1.800000E+02   4.352034E-02
+   2.000000E+02   1.643183E-01

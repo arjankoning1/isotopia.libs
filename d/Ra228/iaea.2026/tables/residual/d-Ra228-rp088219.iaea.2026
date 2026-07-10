@@ -1,0 +1,44 @@
+# header: 
+#   title: Ra228(d,x)Ra219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 228
+#   nuclide: Ra228
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 219
+#     nuclide: Ra219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.555507E-07
+   6.500000E+01   4.620386E-04
+   7.000000E+01   4.715552E-02
+   7.500000E+01   7.599811E-01
+   8.000000E+01   4.558126E+00
+   9.000000E+01   3.176130E+01
+   1.000000E+02   7.676547E+01
+   1.100000E+02   9.102775E+01
+   1.200000E+02   8.302489E+01
+   1.300000E+02   6.522350E+01
+   1.400000E+02   7.571516E+01
+   1.500000E+02   8.315254E+01
+   1.600000E+02   1.002129E+02
+   1.800000E+02   1.684752E+02
+   2.000000E+02   1.423877E+02

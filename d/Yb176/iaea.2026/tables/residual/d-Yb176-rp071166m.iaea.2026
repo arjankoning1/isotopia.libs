@@ -1,0 +1,41 @@
+# header: 
+#   title: Yb176(d,x)Lu166m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 176
+#   nuclide: Yb176
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 166
+#     nuclide: Lu166m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.558860E-05
+   1.000000E+02   8.363313E-02
+   1.100000E+02   9.923496E-01
+   1.200000E+02   1.779972E+00
+   1.300000E+02   1.424724E+00
+   1.400000E+02   1.107230E+00
+   1.500000E+02   1.351769E+00
+   1.600000E+02   1.901396E+00
+   1.800000E+02   3.340823E+00
+   2.000000E+02   5.878082E+00

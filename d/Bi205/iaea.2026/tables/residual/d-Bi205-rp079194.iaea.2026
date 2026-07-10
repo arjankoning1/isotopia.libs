@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi205(d,x)Au194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.516869E-10
+   6.000000E+01   4.514063E-08
+   6.500000E+01   2.581439E-06
+   7.000000E+01   1.358537E-04
+   7.500000E+01   2.754710E-03
+   8.000000E+01   1.454734E-02
+   9.000000E+01   7.315747E-02
+   1.000000E+02   6.750642E-02
+   1.100000E+02   7.885434E-02
+   1.200000E+02   9.679125E-02
+   1.300000E+02   1.565320E-01
+   1.400000E+02   2.336650E-01
+   1.500000E+02   3.132257E-01
+   1.600000E+02   3.462310E-01
+   1.800000E+02   1.082889E-01
+   2.000000E+02   6.159836E-02

@@ -1,0 +1,39 @@
+# header: 
+#   title: Pt188(d,x)W172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 188
+#   nuclide: Pt188
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 172
+#     nuclide: W172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.943968E-12
+   1.000000E+02   3.242891E-07
+   1.100000E+02   6.033501E-04
+   1.200000E+02   5.601278E-02
+   1.300000E+02   1.005900E+00
+   1.400000E+02   3.665737E+00
+   1.500000E+02   3.158656E+00
+   1.600000E+02   9.224963E-01
+   1.800000E+02   2.766517E+00
+   2.000000E+02   3.955408E+00

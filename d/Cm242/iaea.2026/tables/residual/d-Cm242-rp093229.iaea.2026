@@ -1,0 +1,41 @@
+# header: 
+#   title: Cm242(d,x)Np229 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 242
+#   nuclide: Cm242
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 229
+#     nuclide: Np229
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.031646E-10
+   8.000000E+01   4.250554E-08
+   9.000000E+01   2.028884E-05
+   1.000000E+02   2.012145E-04
+   1.100000E+02   2.119669E-04
+   1.200000E+02   4.295075E-04
+   1.300000E+02   6.402147E-04
+   1.400000E+02   1.002909E-03
+   1.500000E+02   2.972235E-03
+   1.600000E+02   4.245160E-04
+   1.800000E+02   7.468578E-05
+   2.000000E+02   9.078358E-05

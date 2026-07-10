@@ -1,0 +1,48 @@
+# header: 
+#   title: Si30(d,x)P28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 28
+#     nuclide: P28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.463264E-07
+   4.500000E+01   1.562879E-03
+   5.000000E+01   1.623536E-02
+   5.500000E+01   4.468626E-02
+   6.000000E+01   7.119885E-02
+   6.500000E+01   8.761988E-02
+   7.000000E+01   9.690228E-02
+   7.500000E+01   1.033694E-01
+   8.000000E+01   1.091376E-01
+   9.000000E+01   1.197447E-01
+   1.000000E+02   1.244960E-01
+   1.100000E+02   1.217267E-01
+   1.200000E+02   1.123837E-01
+   1.300000E+02   9.882264E-02
+   1.400000E+02   8.352101E-02
+   1.500000E+02   6.862045E-02
+   1.600000E+02   5.488604E-02
+   1.800000E+02   3.451589E-02
+   2.000000E+02   2.134558E-02

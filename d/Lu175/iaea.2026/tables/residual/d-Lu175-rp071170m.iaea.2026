@@ -1,0 +1,50 @@
+# header: 
+#   title: Lu175(d,x)Lu170m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 170
+#     nuclide: Lu170m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.274873E-07
+   4.500000E+01   7.708552E-04
+   5.000000E+01   1.960446E-02
+   5.500000E+01   1.348740E-01
+   6.000000E+01   6.895262E-01
+   6.500000E+01   2.056549E+00
+   7.000000E+01   3.696138E+00
+   7.500000E+01   4.855724E+00
+   8.000000E+01   5.488333E+00
+   9.000000E+01   6.952526E+00
+   1.000000E+02   8.925266E+00
+   1.100000E+02   1.134335E+01
+   1.200000E+02   1.172413E+01
+   1.300000E+02   1.202251E+01
+   1.400000E+02   1.090465E+01
+   1.500000E+02   8.524857E+00
+   1.600000E+02   6.471933E+00
+   1.800000E+02   3.812874E+00
+   2.000000E+02   3.645446E+00

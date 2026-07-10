@@ -1,0 +1,42 @@
+# header: 
+#   title: Al26(d,x)B13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 13
+#     nuclide: B13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.559880E-11
+   7.500000E+01   7.188197E-09
+   8.000000E+01   9.709557E-08
+   9.000000E+01   2.183839E-06
+   1.000000E+02   1.509888E-05
+   1.100000E+02   4.986659E-05
+   1.200000E+02   1.719037E-04
+   1.300000E+02   5.891755E-04
+   1.400000E+02   1.422870E-03
+   1.500000E+02   2.439467E-03
+   1.600000E+02   4.037373E-03
+   1.800000E+02   1.010147E-02
+   2.000000E+02   1.599139E-02

@@ -1,0 +1,41 @@
+# header: 
+#   title: Fe55(d,x)K45 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 45
+#     nuclide: K45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.725660E-11
+   8.000000E+01   6.433250E-09
+   9.000000E+01   4.775252E-07
+   1.000000E+02   2.262590E-06
+   1.100000E+02   4.219411E-06
+   1.200000E+02   9.123961E-06
+   1.300000E+02   1.893595E-05
+   1.400000E+02   4.534286E-05
+   1.500000E+02   7.964942E-05
+   1.600000E+02   1.253468E-04
+   1.800000E+02   1.927645E-04
+   2.000000E+02   2.583406E-04

@@ -1,0 +1,39 @@
+# header: 
+#   title: Np237(d,x)Ac220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (d,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 220
+#     nuclide: Ac220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.492077E-11
+   1.000000E+02   8.745512E-06
+   1.100000E+02   9.742751E-03
+   1.200000E+02   1.882416E-01
+   1.300000E+02   1.520741E+00
+   1.400000E+02   3.252503E+00
+   1.500000E+02   4.055161E+00
+   1.600000E+02   2.941692E+00
+   1.800000E+02   1.905339E+00
+   2.000000E+02   3.493133E+00
