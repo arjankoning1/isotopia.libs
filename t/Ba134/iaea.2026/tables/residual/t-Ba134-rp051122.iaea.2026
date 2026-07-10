@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba134(t,x)Sb122 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.201343E-10
+   6.500000E+01   1.890742E-08
+   7.000000E+01   2.301014E-07
+   7.500000E+01   1.171550E-06
+   8.000000E+01   3.122172E-06
+   9.000000E+01   5.785475E-04
+   1.000000E+02   1.249859E-02
+   1.100000E+02   4.824063E-02
+   1.200000E+02   7.820644E-02
+   1.300000E+02   9.117457E-02
+   1.400000E+02   1.718320E-01
+   1.500000E+02   2.480203E-01
+   1.600000E+02   1.989409E-01
+   1.800000E+02   2.054318E-01
+   2.000000E+02   2.091086E-01

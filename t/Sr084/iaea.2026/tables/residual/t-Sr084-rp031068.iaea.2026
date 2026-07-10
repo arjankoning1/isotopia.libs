@@ -1,0 +1,41 @@
+# header: 
+#   title: Sr84(t,x)Ga68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.780086E-11
+   8.000000E+01   1.495759E-08
+   9.000000E+01   5.090871E-06
+   1.000000E+02   6.943168E-05
+   1.100000E+02   2.652629E-04
+   1.200000E+02   1.926054E-03
+   1.300000E+02   1.166718E-02
+   1.400000E+02   4.816092E-02
+   1.500000E+02   1.935801E-01
+   1.600000E+02   5.867576E-01
+   1.800000E+02   2.981488E+00
+   2.000000E+02   4.665269E+00

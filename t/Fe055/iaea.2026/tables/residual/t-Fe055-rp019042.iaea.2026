@@ -1,0 +1,46 @@
+# header: 
+#   title: Fe55(t,x)K42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.228422E-10
+   5.500000E+01   2.259404E-08
+   6.000000E+01   1.912137E-07
+   6.500000E+01   6.194878E-07
+   7.000000E+01   1.151685E-06
+   7.500000E+01   4.617510E-06
+   8.000000E+01   8.693540E-05
+   9.000000E+01   2.125728E-03
+   1.000000E+02   7.662780E-03
+   1.100000E+02   1.535346E-02
+   1.200000E+02   3.478825E-02
+   1.300000E+02   1.029374E-01
+   1.400000E+02   2.116936E-01
+   1.500000E+02   3.764228E-01
+   1.600000E+02   6.094062E-01
+   1.800000E+02   1.237946E+00
+   2.000000E+02   2.033029E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Te123(t,x)Rh103g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   9.080574E-12
+   1.200000E+02   4.229014E-08
+   1.300000E+02   4.028105E-06
+   1.400000E+02   6.308862E-05
+   1.500000E+02   9.134639E-04
+   1.600000E+02   1.125596E-02
+   1.800000E+02   9.597991E-02
+   2.000000E+02   2.279610E-01

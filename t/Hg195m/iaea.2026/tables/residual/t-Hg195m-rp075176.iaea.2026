@@ -1,0 +1,37 @@
+# header: 
+#   title: Hg195m(t,x)Re176 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 80
+#   A: 195
+#   nuclide: Hg195m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 176
+#     nuclide: Re176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.196854E-11
+   1.200000E+02   1.393228E-08
+   1.300000E+02   5.792836E-07
+   1.400000E+02   4.851152E-05
+   1.500000E+02   8.925468E-04
+   1.600000E+02   5.770043E-03
+   1.800000E+02   1.630027E-01
+   2.000000E+02   3.892929E-01

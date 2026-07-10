@@ -1,0 +1,44 @@
+# header: 
+#   title: Au198(t,x)Hg192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 198
+#   nuclide: Au198
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 192
+#     nuclide: Hg192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.771591E-07
+   6.500000E+01   6.664761E-04
+   7.000000E+01   4.421943E-02
+   7.500000E+01   5.643523E-01
+   8.000000E+01   2.704524E+00
+   9.000000E+01   1.237140E+01
+   1.000000E+02   2.009505E+01
+   1.100000E+02   2.113546E+01
+   1.200000E+02   1.869329E+01
+   1.300000E+02   1.522907E+01
+   1.400000E+02   1.277439E+01
+   1.500000E+02   1.150874E+01
+   1.600000E+02   9.270469E+00
+   1.800000E+02   7.687235E+00
+   2.000000E+02   5.277004E+00

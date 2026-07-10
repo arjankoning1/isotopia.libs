@@ -1,0 +1,45 @@
+# header: 
+#   title: Ru100(t,x)Nb90 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.363218E-12
+   6.000000E+01   2.923275E-08
+   6.500000E+01   2.839773E-05
+   7.000000E+01   1.370269E-03
+   7.500000E+01   1.109811E-02
+   8.000000E+01   4.022615E-02
+   9.000000E+01   1.691894E-01
+   1.000000E+02   1.715190E+00
+   1.100000E+02   1.043864E+01
+   1.200000E+02   2.174446E+01
+   1.300000E+02   3.646922E+01
+   1.400000E+02   5.620418E+01
+   1.500000E+02   1.007340E+02
+   1.600000E+02   1.483790E+02
+   1.800000E+02   1.798124E+02
+   2.000000E+02   1.775205E+02

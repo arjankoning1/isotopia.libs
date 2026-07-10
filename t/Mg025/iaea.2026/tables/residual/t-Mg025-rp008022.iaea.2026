@@ -1,0 +1,44 @@
+# header: 
+#   title: Mg25(t,x)O22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 22
+#     nuclide: O22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.088758E-08
+   6.500000E+01   2.940984E-06
+   7.000000E+01   3.157419E-05
+   7.500000E+01   1.166859E-04
+   8.000000E+01   2.617789E-04
+   9.000000E+01   6.175329E-04
+   1.000000E+02   8.703411E-04
+   1.100000E+02   9.440336E-04
+   1.200000E+02   9.000528E-04
+   1.300000E+02   7.996652E-04
+   1.400000E+02   6.843059E-04
+   1.500000E+02   5.697021E-04
+   1.600000E+02   4.709865E-04
+   1.800000E+02   3.201945E-04
+   2.000000E+02   2.175640E-04

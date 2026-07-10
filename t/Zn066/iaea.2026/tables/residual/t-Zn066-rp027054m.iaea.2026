@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn66(t,x)Co54m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 54
+#     nuclide: Co54m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.367328E-12
+   1.000000E+02   8.462578E-08
+   1.100000E+02   6.530868E-06
+   1.200000E+02   4.652119E-05
+   1.300000E+02   2.152058E-04
+   1.400000E+02   1.394553E-03
+   1.500000E+02   4.640716E-03
+   1.600000E+02   1.264724E-02
+   1.800000E+02   4.738420E-02
+   2.000000E+02   1.042008E-01

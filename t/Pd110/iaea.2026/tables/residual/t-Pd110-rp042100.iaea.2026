@@ -1,0 +1,46 @@
+# header: 
+#   title: Pd110(t,x)Mo100 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 100
+#     nuclide: Mo100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   7.079167E-12
+   5.500000E+01   7.429076E-09
+   6.000000E+01   5.083795E-07
+   6.500000E+01   6.299084E-06
+   7.000000E+01   3.996441E-05
+   7.500000E+01   2.793413E-04
+   8.000000E+01   1.243961E-03
+   9.000000E+01   5.730276E-03
+   1.000000E+02   6.469063E-02
+   1.100000E+02   3.782800E-01
+   1.200000E+02   7.313629E-01
+   1.300000E+02   9.974267E-01
+   1.400000E+02   1.031045E+00
+   1.500000E+02   7.648155E-01
+   1.600000E+02   7.506607E-01
+   1.800000E+02   6.941286E-01
+   2.000000E+02   4.311134E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Ar42(t,x)Si31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.518004E-09
+   6.000000E+01   4.059145E-06
+   6.500000E+01   2.647893E-04
+   7.000000E+01   3.116006E-03
+   7.500000E+01   1.268754E-02
+   8.000000E+01   3.303028E-02
+   9.000000E+01   1.500317E-01
+   1.000000E+02   4.379999E-01
+   1.100000E+02   1.068477E+00
+   1.200000E+02   2.626692E+00
+   1.300000E+02   5.606440E+00
+   1.400000E+02   8.985850E+00
+   1.500000E+02   1.166396E+01
+   1.600000E+02   1.366888E+01
+   1.800000E+02   1.708192E+01
+   2.000000E+02   1.742398E+01

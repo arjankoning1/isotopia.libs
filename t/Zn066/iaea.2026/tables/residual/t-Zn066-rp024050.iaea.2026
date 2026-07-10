@@ -1,0 +1,39 @@
+# header: 
+#   title: Zn66(t,x)Cr50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 50
+#     nuclide: Cr50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.256086E-12
+   1.000000E+02   9.232999E-07
+   1.100000E+02   1.657035E-04
+   1.200000E+02   3.112895E-03
+   1.300000E+02   2.996371E-02
+   1.400000E+02   1.869256E-01
+   1.500000E+02   8.489408E-01
+   1.600000E+02   2.487333E+00
+   1.800000E+02   9.496203E+00
+   2.000000E+02   2.320041E+01

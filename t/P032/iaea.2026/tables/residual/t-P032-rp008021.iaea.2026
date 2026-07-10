@@ -1,0 +1,43 @@
+# header: 
+#   title: P32(t,x)O21 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 21
+#     nuclide: O21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.594600E-10
+   7.000000E+01   2.095712E-08
+   7.500000E+01   1.748366E-07
+   8.000000E+01   6.140388E-07
+   9.000000E+01   2.610142E-06
+   1.000000E+02   1.306149E-05
+   1.100000E+02   6.518390E-05
+   1.200000E+02   1.647721E-04
+   1.300000E+02   2.907020E-04
+   1.400000E+02   5.018183E-04
+   1.500000E+02   9.591388E-04
+   1.600000E+02   1.779555E-03
+   1.800000E+02   3.960946E-03
+   2.000000E+02   6.398833E-03

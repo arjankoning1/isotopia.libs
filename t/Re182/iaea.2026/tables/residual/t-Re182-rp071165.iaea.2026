@@ -1,0 +1,37 @@
+# header: 
+#   title: Re182(t,x)Lu165 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 182
+#   nuclide: Re182
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 165
+#     nuclide: Lu165
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.474857E-12
+   1.200000E+02   1.086391E-07
+   1.300000E+02   3.539562E-05
+   1.400000E+02   1.943221E-03
+   1.500000E+02   2.495173E-02
+   1.600000E+02   2.879512E-01
+   1.800000E+02   7.385417E+00
+   2.000000E+02   4.232805E+01

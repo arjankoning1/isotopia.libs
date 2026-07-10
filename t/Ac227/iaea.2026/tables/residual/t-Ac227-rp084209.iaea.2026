@@ -1,0 +1,41 @@
+# header: 
+#   title: Ac227(t,x)Po209 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 209
+#     nuclide: Po209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.802811E-11
+   8.000000E+01   8.512936E-10
+   9.000000E+01   7.999964E-08
+   1.000000E+02   1.868460E-06
+   1.100000E+02   4.055314E-05
+   1.200000E+02   6.479470E-04
+   1.300000E+02   1.344662E-02
+   1.400000E+02   1.534271E-01
+   1.500000E+02   8.508559E-01
+   1.600000E+02   1.689155E+00
+   1.800000E+02   4.096526E+00
+   2.000000E+02   5.999848E+00

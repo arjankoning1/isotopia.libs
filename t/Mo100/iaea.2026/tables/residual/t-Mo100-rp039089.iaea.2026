@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo100(t,x)Y89 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 89
+#     nuclide: Y89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.846907E-12
+   6.000000E+01   9.393152E-09
+   6.500000E+01   3.353659E-06
+   7.000000E+01   1.719172E-04
+   7.500000E+01   1.918061E-03
+   8.000000E+01   8.889418E-03
+   9.000000E+01   5.192959E-02
+   1.000000E+02   5.892364E-01
+   1.100000E+02   4.581185E+00
+   1.200000E+02   1.322591E+01
+   1.300000E+02   2.097794E+01
+   1.400000E+02   2.556100E+01
+   1.500000E+02   2.816327E+01
+   1.600000E+02   3.371701E+01
+   1.800000E+02   3.588952E+01
+   2.000000E+02   2.672688E+01

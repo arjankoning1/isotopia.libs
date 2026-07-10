@@ -1,0 +1,36 @@
+# header: 
+#   title: Lu169(t,x)Yb155 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 169
+#   nuclide: Lu169
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 155
+#     nuclide: Yb155
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   4.786534E-12
+   1.300000E+02   1.633424E-07
+   1.400000E+02   2.773599E-05
+   1.500000E+02   5.140202E-04
+   1.600000E+02   5.750190E-03
+   1.800000E+02   4.000720E-01
+   2.000000E+02   2.184627E+00

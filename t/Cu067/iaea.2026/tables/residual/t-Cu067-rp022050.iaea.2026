@@ -1,0 +1,40 @@
+# header: 
+#   title: Cu67(t,x)Ti50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.307669E-11
+   9.000000E+01   1.041134E-07
+   1.000000E+02   6.192262E-06
+   1.100000E+02   5.243030E-05
+   1.200000E+02   5.308706E-04
+   1.300000E+02   6.382246E-03
+   1.400000E+02   2.996635E-02
+   1.500000E+02   6.930932E-02
+   1.600000E+02   1.283576E-01
+   1.800000E+02   3.855443E-01
+   2.000000E+02   8.164724E-01

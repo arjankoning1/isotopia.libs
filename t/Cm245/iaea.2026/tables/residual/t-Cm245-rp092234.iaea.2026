@@ -1,0 +1,44 @@
+# header: 
+#   title: Cm245(t,x)U234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 234
+#     nuclide: U234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.141584E-11
+   6.500000E+01   2.299116E-09
+   7.000000E+01   4.487922E-08
+   7.500000E+01   2.147307E-07
+   8.000000E+01   1.576345E-06
+   9.000000E+01   3.239029E-05
+   1.000000E+02   4.281949E-04
+   1.100000E+02   5.124232E-03
+   1.200000E+02   1.206739E-02
+   1.300000E+02   1.361457E-02
+   1.400000E+02   1.450681E-02
+   1.500000E+02   1.715544E-02
+   1.600000E+02   1.677042E-02
+   1.800000E+02   9.893699E-04
+   2.000000E+02   1.122267E-04

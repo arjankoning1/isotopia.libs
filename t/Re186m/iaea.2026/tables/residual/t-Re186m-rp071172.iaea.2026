@@ -1,0 +1,40 @@
+# header: 
+#   title: Re186m(t,x)Lu172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.894180E-12
+   9.000000E+01   1.709290E-08
+   1.000000E+02   6.986975E-06
+   1.100000E+02   3.174717E-04
+   1.200000E+02   5.689858E-03
+   1.300000E+02   7.312893E-02
+   1.400000E+02   6.511738E-01
+   1.500000E+02   1.989387E+00
+   1.600000E+02   3.007843E+00
+   1.800000E+02   3.496825E+00
+   2.000000E+02   2.608235E+00

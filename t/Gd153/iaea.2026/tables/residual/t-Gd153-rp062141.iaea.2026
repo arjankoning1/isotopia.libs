@@ -1,0 +1,39 @@
+# header: 
+#   title: Gd153(t,x)Sm141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 153
+#   nuclide: Gd153
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 141
+#     nuclide: Sm141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.989775E-09
+   1.000000E+02   2.083098E-05
+   1.100000E+02   3.084700E-03
+   1.200000E+02   8.135143E-02
+   1.300000E+02   5.231218E-01
+   1.400000E+02   3.385295E+00
+   1.500000E+02   1.854409E+01
+   1.600000E+02   4.589007E+01
+   1.800000E+02   9.830109E+01
+   2.000000E+02   1.008521E+02

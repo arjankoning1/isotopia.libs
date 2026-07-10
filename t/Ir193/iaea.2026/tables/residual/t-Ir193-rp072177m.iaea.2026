@@ -1,0 +1,41 @@
+# header: 
+#   title: Ir193(t,x)Hf177m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 177
+#     nuclide: Hf177m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.525771E-11
+   1.000000E+02   4.819838E-08
+   1.100000E+02   1.185847E-06
+   1.200000E+02   2.679565E-05
+   1.300000E+02   6.488169E-04
+   1.400000E+02   2.230323E-03
+   1.500000E+02   4.492733E-03
+   1.600000E+02   2.650368E-02
+   1.800000E+02   4.464412E-03
+   2.000000E+02   2.659833E-03

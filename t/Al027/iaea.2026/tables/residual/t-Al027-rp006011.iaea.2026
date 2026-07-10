@@ -1,0 +1,42 @@
+# header: 
+#   title: Al27(t,x)C11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.893620E-10
+   7.500000E+01   1.737991E-07
+   8.000000E+01   7.203399E-06
+   9.000000E+01   2.933828E-04
+   1.000000E+02   1.616185E-03
+   1.100000E+02   4.180627E-03
+   1.200000E+02   8.260287E-03
+   1.300000E+02   1.718327E-02
+   1.400000E+02   4.266246E-02
+   1.500000E+02   1.039848E-01
+   1.600000E+02   2.052345E-01
+   1.800000E+02   6.554638E-01
+   2.000000E+02   1.700974E+00

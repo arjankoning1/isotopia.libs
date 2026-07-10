@@ -1,0 +1,38 @@
+# header: 
+#   title: Es251(t,x)Am237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 251
+#   nuclide: Es251
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 95
+#     A: 237
+#     nuclide: Am237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.934716E-12
+   1.100000E+02   2.496008E-10
+   1.200000E+02   1.479185E-09
+   1.300000E+02   1.231603E-08
+   1.400000E+02   2.763626E-07
+   1.500000E+02   1.617794E-06
+   1.600000E+02   3.996636E-06
+   1.800000E+02   1.231070E-07
+   2.000000E+02   1.539135E-07

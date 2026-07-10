@@ -1,0 +1,40 @@
+# header: 
+#   title: Pd108(t,x)Rh98 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 98
+#     nuclide: Rh98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.434394E-11
+   9.000000E+01   1.428128E-04
+   1.000000E+02   2.942091E-02
+   1.100000E+02   3.135494E-01
+   1.200000E+02   1.262290E+00
+   1.300000E+02   5.334704E+00
+   1.400000E+02   1.951597E+01
+   1.500000E+02   3.784139E+01
+   1.600000E+02   6.255560E+01
+   1.800000E+02   7.250647E+01
+   2.000000E+02   6.046441E+01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Cs132(t,x)I124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 124
+#     nuclide: I124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   4.788190E-08
+   6.000000E+01   2.389105E-05
+   6.500000E+01   7.557086E-04
+   7.000000E+01   4.387972E-03
+   7.500000E+01   1.684368E-02
+   8.000000E+01   6.153604E-02
+   9.000000E+01   4.066064E-01
+   1.000000E+02   1.986747E+00
+   1.100000E+02   1.482638E+01
+   1.200000E+02   5.074341E+01
+   1.300000E+02   6.982497E+01
+   1.400000E+02   8.412580E+01
+   1.500000E+02   6.957000E+01
+   1.600000E+02   6.276825E+01
+   1.800000E+02   5.187055E+01
+   2.000000E+02   2.498840E+01

@@ -1,0 +1,37 @@
+# header: 
+#   title: Bi208(t,x)Bi195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 195
+#     nuclide: Bi195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.997590E-10
+   1.400000E+02   2.437644E-07
+   1.500000E+02   1.555657E-05
+   1.600000E+02   2.111727E-04
+   1.800000E+02   4.376946E-03
+   2.000000E+02   1.204819E-02

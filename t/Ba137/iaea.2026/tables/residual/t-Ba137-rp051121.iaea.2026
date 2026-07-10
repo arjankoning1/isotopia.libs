@@ -1,0 +1,39 @@
+# header: 
+#   title: Ba137(t,x)Sb121 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 121
+#     nuclide: Sb121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.630235E-12
+   1.000000E+02   3.705100E-08
+   1.100000E+02   5.978757E-06
+   1.200000E+02   7.125729E-05
+   1.300000E+02   1.642315E-03
+   1.400000E+02   1.935508E-02
+   1.500000E+02   8.405079E-02
+   1.600000E+02   1.488637E-01
+   1.800000E+02   4.168803E-01
+   2.000000E+02   5.338899E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs129(t,x)In115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.102286E-11
+   7.500000E+01   6.565896E-10
+   8.000000E+01   1.343852E-08
+   9.000000E+01   1.350773E-06
+   1.000000E+02   3.621450E-05
+   1.100000E+02   4.474607E-04
+   1.200000E+02   1.097320E-02
+   1.300000E+02   6.017411E-02
+   1.400000E+02   1.329788E-01
+   1.500000E+02   1.860779E-01
+   1.600000E+02   1.948557E-01
+   1.800000E+02   1.662043E-01
+   2.000000E+02   1.872914E-01

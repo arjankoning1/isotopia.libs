@@ -1,0 +1,44 @@
+# header: 
+#   title: Te127m(t,x)Sn117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 127
+#   nuclide: Te127m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 117
+#     nuclide: Sn117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.809949E-09
+   7.500000E+01   8.834000E-07
+   8.000000E+01   3.510919E-05
+   9.000000E+01   1.615489E-03
+   1.000000E+02   1.573840E-02
+   1.100000E+02   1.116231E-01
+   1.200000E+02   7.187873E-01
+   1.300000E+02   2.838596E+00
+   1.400000E+02   7.145327E+00
+   1.500000E+02   9.790404E+00
+   1.600000E+02   1.061074E+01
+   1.800000E+02   1.159091E+01
+   2.000000E+02   6.718819E+00

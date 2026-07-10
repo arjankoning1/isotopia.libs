@@ -1,0 +1,48 @@
+# header: 
+#   title: Zn67(t,x)Cu61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   5.015864E-12
+   4.500000E+01   3.776984E-06
+   5.000000E+01   1.898751E-03
+   5.500000E+01   4.730788E-02
+   6.000000E+01   2.768170E-01
+   6.500000E+01   7.392332E-01
+   7.000000E+01   1.263917E+00
+   7.500000E+01   1.709689E+00
+   8.000000E+01   2.185452E+00
+   9.000000E+01   6.377613E+00
+   1.000000E+02   1.436509E+01
+   1.100000E+02   2.126477E+01
+   1.200000E+02   2.481486E+01
+   1.300000E+02   2.714806E+01
+   1.400000E+02   2.613817E+01
+   1.500000E+02   2.522331E+01
+   1.600000E+02   2.304493E+01
+   1.800000E+02   1.892754E+01
+   2.000000E+02   1.813365E+01

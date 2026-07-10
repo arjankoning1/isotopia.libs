@@ -1,0 +1,41 @@
+# header: 
+#   title: Sm145(t,x)Nd135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 135
+#     nuclide: Nd135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.352751E-12
+   8.000000E+01   1.819779E-08
+   9.000000E+01   1.718782E-04
+   1.000000E+02   1.428458E-02
+   1.100000E+02   2.582507E-01
+   1.200000E+02   1.329435E+00
+   1.300000E+02   6.893058E+00
+   1.400000E+02   3.297612E+01
+   1.500000E+02   8.753931E+01
+   1.600000E+02   1.290171E+02
+   1.800000E+02   1.609931E+02
+   2.000000E+02   1.159544E+02

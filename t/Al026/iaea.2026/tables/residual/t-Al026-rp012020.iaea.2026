@@ -1,0 +1,42 @@
+# header: 
+#   title: Al26(t,x)Mg20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 20
+#     nuclide: Mg20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.578382E-12
+   7.500000E+01   1.142075E-08
+   8.000000E+01   4.044730E-07
+   9.000000E+01   1.052941E-05
+   1.000000E+02   4.292903E-05
+   1.100000E+02   8.261720E-05
+   1.200000E+02   1.125436E-04
+   1.300000E+02   1.335356E-04
+   1.400000E+02   1.509974E-04
+   1.500000E+02   1.659200E-04
+   1.600000E+02   1.768387E-04
+   1.800000E+02   1.792554E-04
+   2.000000E+02   1.662416E-04

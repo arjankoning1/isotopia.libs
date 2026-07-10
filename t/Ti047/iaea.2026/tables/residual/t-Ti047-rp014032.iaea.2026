@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti47(t,x)Si32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 32
+#     nuclide: Si32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.443308E-12
+   6.500000E+01   1.527412E-09
+   7.000000E+01   1.043399E-07
+   7.500000E+01   1.407566E-06
+   8.000000E+01   7.218614E-06
+   9.000000E+01   4.145427E-05
+   1.000000E+02   3.117879E-04
+   1.100000E+02   4.086908E-03
+   1.200000E+02   1.598850E-02
+   1.300000E+02   3.198589E-02
+   1.400000E+02   4.617983E-02
+   1.500000E+02   6.842440E-02
+   1.600000E+02   1.095453E-01
+   1.800000E+02   2.293051E-01
+   2.000000E+02   3.573982E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: I127(t,x)Sn113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.465257E-13
+   1.000000E+02   4.450910E-08
+   1.100000E+02   1.963919E-05
+   1.200000E+02   5.458436E-04
+   1.300000E+02   3.731977E-03
+   1.400000E+02   3.371950E-02
+   1.500000E+02   1.976180E-01
+   1.600000E+02   7.249554E-01
+   1.800000E+02   2.110418E+00
+   2.000000E+02   4.097383E+00

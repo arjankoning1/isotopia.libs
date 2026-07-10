@@ -1,0 +1,44 @@
+# header: 
+#   title: Al27(t,x)F24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 24
+#     nuclide: F24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.072180E-11
+   6.500000E+01   1.747230E-07
+   7.000000E+01   8.549110E-06
+   7.500000E+01   6.175308E-05
+   8.000000E+01   1.889659E-04
+   9.000000E+01   5.588603E-04
+   1.000000E+02   8.398984E-04
+   1.100000E+02   9.290831E-04
+   1.200000E+02   8.927669E-04
+   1.300000E+02   7.968463E-04
+   1.400000E+02   6.798050E-04
+   1.500000E+02   5.671265E-04
+   1.600000E+02   4.668861E-04
+   1.800000E+02   3.137279E-04
+   2.000000E+02   2.108284E-04

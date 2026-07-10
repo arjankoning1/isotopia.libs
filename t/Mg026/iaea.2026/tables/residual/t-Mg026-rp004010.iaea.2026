@@ -1,0 +1,44 @@
+# header: 
+#   title: Mg26(t,x)Be10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 10
+#     nuclide: Be10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.168541E-12
+   6.500000E+01   1.841918E-09
+   7.000000E+01   5.171955E-08
+   7.500000E+01   6.346298E-07
+   8.000000E+01   8.347440E-06
+   9.000000E+01   1.856040E-04
+   1.000000E+02   7.911441E-04
+   1.100000E+02   2.135171E-03
+   1.200000E+02   5.659752E-03
+   1.300000E+02   1.408897E-02
+   1.400000E+02   2.992110E-02
+   1.500000E+02   6.048892E-02
+   1.600000E+02   1.093236E-01
+   1.800000E+02   2.949753E-01
+   2.000000E+02   6.914831E-01

@@ -1,0 +1,38 @@
+# header: 
+#   title: Ba133(t,x)I119 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 119
+#     nuclide: I119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.071129E-08
+   1.100000E+02   5.222889E-05
+   1.200000E+02   3.142924E-03
+   1.300000E+02   2.487645E-02
+   1.400000E+02   1.164661E-01
+   1.500000E+02   5.701926E-01
+   1.600000E+02   1.965523E+00
+   1.800000E+02   1.718263E+01
+   2.000000E+02   7.645097E+01

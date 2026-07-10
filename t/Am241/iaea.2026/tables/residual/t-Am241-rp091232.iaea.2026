@@ -1,0 +1,47 @@
+# header: 
+#   title: Am241(t,x)Pa232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 232
+#     nuclide: Pa232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   2.327628E-12
+   5.000000E+01   2.039007E-10
+   5.500000E+01   5.052591E-09
+   6.000000E+01   5.906392E-08
+   6.500000E+01   4.353897E-07
+   7.000000E+01   2.202909E-06
+   7.500000E+01   8.988197E-06
+   8.000000E+01   3.175873E-05
+   9.000000E+01   9.123222E-04
+   1.000000E+02   8.604636E-03
+   1.100000E+02   1.715875E-02
+   1.200000E+02   2.827158E-02
+   1.300000E+02   3.631385E-02
+   1.400000E+02   3.572479E-02
+   1.500000E+02   1.443202E-02
+   1.600000E+02   5.427686E-03
+   1.800000E+02   3.934386E-03
+   2.000000E+02   3.229369E-03

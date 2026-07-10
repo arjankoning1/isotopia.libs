@@ -1,0 +1,40 @@
+# header: 
+#   title: Cd112(t,x)Mo97 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 97
+#     nuclide: Mo97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.228572E-10
+   9.000000E+01   2.322997E-07
+   1.000000E+02   2.228810E-05
+   1.100000E+02   5.040973E-04
+   1.200000E+02   2.815900E-03
+   1.300000E+02   1.010834E-02
+   1.400000E+02   4.460808E-02
+   1.500000E+02   1.119103E-01
+   1.600000E+02   1.869184E-01
+   1.800000E+02   2.542374E-01
+   2.000000E+02   3.271065E-01

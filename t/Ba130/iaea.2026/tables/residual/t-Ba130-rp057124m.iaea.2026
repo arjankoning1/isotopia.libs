@@ -1,0 +1,42 @@
+# header: 
+#   title: Ba130(t,x)La124m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 124
+#     nuclide: La124m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.327517E-11
+   9.000000E+01   4.719832E-05
+   1.000000E+02   3.622870E-03
+   1.100000E+02   1.978230E-02
+   1.200000E+02   4.307633E-02
+   1.300000E+02   5.870703E-02
+   1.400000E+02   7.379032E-02
+   1.500000E+02   8.018768E-02
+   1.600000E+02   7.952047E-02
+   1.800000E+02   9.505351E-02
+   2.000000E+02   1.037789E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Rh103(t,x)Ru93g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 93
+#     nuclide: Ru93g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.095527E-08
+   1.000000E+02   3.027956E-05
+   1.100000E+02   7.380531E-04
+   1.200000E+02   3.610745E-03
+   1.300000E+02   1.887172E-02
+   1.400000E+02   9.268757E-02
+   1.500000E+02   2.605675E-01
+   1.600000E+02   4.512461E-01
+   1.800000E+02   7.570754E-01
+   2.000000E+02   8.169588E-01

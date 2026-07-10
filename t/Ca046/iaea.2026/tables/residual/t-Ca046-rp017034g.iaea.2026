@@ -1,0 +1,41 @@
+# header: 
+#   title: Ca46(t,x)Cl34g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 34
+#     nuclide: Cl34g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.177569E-08
+   1.000000E+02   4.188919E-05
+   1.100000E+02   7.513174E-04
+   1.200000E+02   3.181837E-03
+   1.300000E+02   1.163030E-02
+   1.400000E+02   5.113267E-02
+   1.500000E+02   1.544203E-01
+   1.600000E+02   3.384133E-01
+   1.800000E+02   1.074598E+00
+   2.000000E+02   2.277790E+00

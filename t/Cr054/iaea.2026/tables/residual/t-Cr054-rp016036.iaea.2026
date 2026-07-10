@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr54(t,x)S36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 36
+#     nuclide: S36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.011642E-11
+   1.000000E+02   1.026609E-08
+   1.100000E+02   7.583307E-07
+   1.200000E+02   2.247354E-05
+   1.300000E+02   2.038668E-04
+   1.400000E+02   1.202690E-03
+   1.500000E+02   6.418139E-03
+   1.600000E+02   2.214796E-02
+   1.800000E+02   7.305910E-02
+   2.000000E+02   1.880315E-01

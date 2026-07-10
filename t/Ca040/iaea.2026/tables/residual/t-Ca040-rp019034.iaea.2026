@@ -1,0 +1,40 @@
+# header: 
+#   title: Ca40(t,x)K34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 34
+#     nuclide: K34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   5.463839E-10
+   9.000000E+01   9.550104E-08
+   1.000000E+02   6.391259E-07
+   1.100000E+02   1.392437E-06
+   1.200000E+02   2.130347E-06
+   1.300000E+02   3.238192E-06
+   1.400000E+02   4.942072E-06
+   1.500000E+02   7.063691E-06
+   1.600000E+02   9.696809E-06
+   1.800000E+02   1.523414E-05
+   2.000000E+02   2.053529E-05

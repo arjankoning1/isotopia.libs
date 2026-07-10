@@ -1,0 +1,44 @@
+# header: 
+#   title: Eu150(t,x)Pm140m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 150
+#   nuclide: Eu150
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 140
+#     nuclide: Pm140m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.162206E-10
+   7.500000E+01   2.316975E-07
+   8.000000E+01   2.674389E-05
+   9.000000E+01   2.376965E-03
+   1.000000E+02   4.663733E-02
+   1.100000E+02   2.896464E-01
+   1.200000E+02   2.400546E+00
+   1.300000E+02   1.376554E+01
+   1.400000E+02   2.825008E+01
+   1.500000E+02   4.373544E+01
+   1.600000E+02   5.062541E+01
+   1.800000E+02   4.565024E+01
+   2.000000E+02   2.585521E+01

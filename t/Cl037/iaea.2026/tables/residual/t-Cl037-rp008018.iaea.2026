@@ -1,0 +1,40 @@
+# header: 
+#   title: Cl37(t,x)O18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 37
+#   nuclide: Cl37
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 18
+#     nuclide: O18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.117662E-10
+   9.000000E+01   2.054526E-07
+   1.000000E+02   3.565841E-06
+   1.100000E+02   1.389280E-05
+   1.200000E+02   6.484115E-05
+   1.300000E+02   4.163536E-04
+   1.400000E+02   1.468370E-03
+   1.500000E+02   3.637706E-03
+   1.600000E+02   9.983248E-03
+   1.800000E+02   6.969810E-02
+   2.000000E+02   2.564465E-01

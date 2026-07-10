@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh101(t,x)Mo91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.671472E-12
+   6.000000E+01   2.836502E-08
+   6.500000E+01   1.112409E-05
+   7.000000E+01   4.339952E-04
+   7.500000E+01   3.336003E-03
+   8.000000E+01   1.168653E-02
+   9.000000E+01   6.613849E-02
+   1.000000E+02   1.856041E+00
+   1.100000E+02   1.339493E+01
+   1.200000E+02   2.982233E+01
+   1.300000E+02   4.440850E+01
+   1.400000E+02   5.496655E+01
+   1.500000E+02   7.962957E+01
+   1.600000E+02   9.580244E+01
+   1.800000E+02   1.214424E+02
+   2.000000E+02   1.132254E+02

@@ -1,0 +1,43 @@
+# header: 
+#   title: W182(t,x)W175 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 175
+#     nuclide: W175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   3.875856E-09
+   7.000000E+01   3.508135E-05
+   7.500000E+01   2.786575E-03
+   8.000000E+01   3.072370E-02
+   9.000000E+01   5.711032E-01
+   1.000000E+02   4.502773E+00
+   1.100000E+02   1.352609E+01
+   1.200000E+02   2.101698E+01
+   1.300000E+02   2.468200E+01
+   1.400000E+02   2.369809E+01
+   1.500000E+02   2.344385E+01
+   1.600000E+02   2.404584E+01
+   1.800000E+02   2.133354E+01
+   2.000000E+02   1.784014E+01

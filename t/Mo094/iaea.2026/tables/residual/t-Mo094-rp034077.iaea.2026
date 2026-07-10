@@ -1,0 +1,39 @@
+# header: 
+#   title: Mo94(t,x)Se77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 77
+#     nuclide: Se77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.380013E-11
+   1.000000E+02   4.765538E-09
+   1.100000E+02   2.291698E-07
+   1.200000E+02   2.552536E-06
+   1.300000E+02   2.918423E-05
+   1.400000E+02   3.820381E-04
+   1.500000E+02   1.628453E-03
+   1.600000E+02   3.343347E-03
+   1.800000E+02   2.443606E-02
+   2.000000E+02   6.620162E-02

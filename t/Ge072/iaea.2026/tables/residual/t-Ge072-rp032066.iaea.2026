@@ -1,0 +1,42 @@
+# header: 
+#   title: Ge72(t,x)Ge66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 66
+#     nuclide: Ge66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.083507E-08
+   7.500000E+01   8.664753E-06
+   8.000000E+01   1.736686E-04
+   9.000000E+01   3.188624E-03
+   1.000000E+02   1.733446E-02
+   1.100000E+02   4.886410E-02
+   1.200000E+02   8.781606E-02
+   1.300000E+02   1.170873E-01
+   1.400000E+02   1.425898E-01
+   1.500000E+02   1.497936E-01
+   1.600000E+02   1.729106E-01
+   1.800000E+02   1.733628E-01
+   2.000000E+02   2.018853E-01

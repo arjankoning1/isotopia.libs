@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr51(t,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.345792E-10
+   1.000000E+02   1.139469E-07
+   1.100000E+02   2.275322E-06
+   1.200000E+02   1.821114E-05
+   1.300000E+02   7.676120E-05
+   1.400000E+02   2.268762E-04
+   1.500000E+02   5.147748E-04
+   1.600000E+02   1.000579E-03
+   1.800000E+02   1.835640E-03
+   2.000000E+02   2.301499E-03

@@ -1,0 +1,43 @@
+# header: 
+#   title: Pm144(t,x)Pm138 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 144
+#   nuclide: Pm144
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 138
+#     nuclide: Pm138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.625026E-07
+   7.000000E+01   3.998176E-04
+   7.500000E+01   1.345529E-02
+   8.000000E+01   8.196775E-02
+   9.000000E+01   1.099634E+00
+   1.000000E+02   5.104595E+00
+   1.100000E+02   1.076016E+01
+   1.200000E+02   1.366436E+01
+   1.300000E+02   1.506410E+01
+   1.400000E+02   1.506842E+01
+   1.500000E+02   1.455989E+01
+   1.600000E+02   1.358048E+01
+   1.800000E+02   1.301887E+01
+   2.000000E+02   1.383703E+01

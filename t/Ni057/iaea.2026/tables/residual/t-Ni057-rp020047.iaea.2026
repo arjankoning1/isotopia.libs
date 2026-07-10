@@ -1,0 +1,40 @@
+# header: 
+#   title: Ni57(t,x)Ca47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.871548E-12
+   9.000000E+01   9.853396E-09
+   1.000000E+02   2.379440E-07
+   1.100000E+02   1.275869E-06
+   1.200000E+02   4.523292E-06
+   1.300000E+02   2.165818E-05
+   1.400000E+02   6.729963E-05
+   1.500000E+02   1.157340E-04
+   1.600000E+02   1.501659E-04
+   1.800000E+02   2.146287E-04
+   2.000000E+02   1.589369E-04

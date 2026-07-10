@@ -1,0 +1,43 @@
+# header: 
+#   title: Si30(t,x)C16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 16
+#     nuclide: C16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.018659E-12
+   7.000000E+01   2.159204E-09
+   7.500000E+01   6.326604E-08
+   8.000000E+01   4.848161E-07
+   9.000000E+01   3.701110E-06
+   1.000000E+02   1.247352E-05
+   1.100000E+02   1.130572E-04
+   1.200000E+02   5.094988E-04
+   1.300000E+02   1.115560E-03
+   1.400000E+02   1.708913E-03
+   1.500000E+02   2.355118E-03
+   1.600000E+02   3.303273E-03
+   1.800000E+02   5.961847E-03
+   2.000000E+02   8.329000E-03

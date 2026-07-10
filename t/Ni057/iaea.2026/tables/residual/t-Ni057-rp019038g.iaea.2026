@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni57(t,x)K38g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.913629E-11
+   1.000000E+02   6.936764E-09
+   1.100000E+02   7.480234E-08
+   1.200000E+02   8.250815E-07
+   1.300000E+02   1.585312E-05
+   1.400000E+02   1.315681E-04
+   1.500000E+02   5.199834E-04
+   1.600000E+02   2.314464E-03
+   1.800000E+02   6.465172E-02
+   2.000000E+02   3.530110E-01

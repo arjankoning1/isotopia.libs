@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd106(t,x)Y88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 106
+#   nuclide: Cd106
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.529331E-12
+   8.000000E+01   5.102591E-11
+   9.000000E+01   2.171432E-09
+   1.000000E+02   3.469885E-07
+   1.100000E+02   3.611893E-05
+   1.200000E+02   3.214253E-04
+   1.300000E+02   9.041773E-04
+   1.400000E+02   2.074800E-03
+   1.500000E+02   1.254796E-02
+   1.600000E+02   4.488195E-02
+   1.800000E+02   1.248934E-01
+   2.000000E+02   2.689027E-01

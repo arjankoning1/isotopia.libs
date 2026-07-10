@@ -1,0 +1,41 @@
+# header: 
+#   title: Al27(t,x)Si24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 24
+#     nuclide: Si24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.445382E-09
+   8.000000E+01   8.069577E-08
+   9.000000E+01   2.432039E-06
+   1.000000E+02   1.118195E-05
+   1.100000E+02   2.247108E-05
+   1.200000E+02   3.005045E-05
+   1.300000E+02   3.262775E-05
+   1.400000E+02   3.178007E-05
+   1.500000E+02   2.921407E-05
+   1.600000E+02   2.600444E-05
+   1.800000E+02   1.990041E-05
+   2.000000E+02   1.563075E-05

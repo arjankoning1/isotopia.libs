@@ -1,0 +1,44 @@
+# header: 
+#   title: Ra224(t,x)Bi208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 224
+#   nuclide: Ra224
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 208
+#     nuclide: Bi208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.271079E-12
+   6.500000E+01   1.375224E-11
+   7.000000E+01   2.014109E-10
+   7.500000E+01   3.070680E-09
+   8.000000E+01   8.990953E-08
+   9.000000E+01   2.799956E-05
+   1.000000E+02   4.629205E-04
+   1.100000E+02   7.564181E-03
+   1.200000E+02   1.478561E-01
+   1.300000E+02   7.413449E-01
+   1.400000E+02   1.596670E+00
+   1.500000E+02   2.515541E+00
+   1.600000E+02   3.781959E+00
+   1.800000E+02   5.145910E+00
+   2.000000E+02   1.834905E+00

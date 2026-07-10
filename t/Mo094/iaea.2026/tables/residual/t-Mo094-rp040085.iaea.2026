@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo94(t,x)Zr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 85
+#     nuclide: Zr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.058566E-11
+   8.000000E+01   2.438212E-07
+   9.000000E+01   2.731066E-04
+   1.000000E+02   1.021388E-02
+   1.100000E+02   1.397707E-01
+   1.200000E+02   6.402805E-01
+   1.300000E+02   2.355855E+00
+   1.400000E+02   1.031123E+01
+   1.500000E+02   2.812633E+01
+   1.600000E+02   5.065212E+01
+   1.800000E+02   6.953783E+01
+   2.000000E+02   7.501479E+01

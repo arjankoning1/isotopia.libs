@@ -1,0 +1,43 @@
+# header: 
+#   title: O16(t,x)B15 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 15
+#     nuclide: B15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.821311E-10
+   7.000000E+01   4.925789E-08
+   7.500000E+01   4.962277E-07
+   8.000000E+01   2.234548E-06
+   9.000000E+01   1.413765E-05
+   1.000000E+02   2.943230E-05
+   1.100000E+02   3.596188E-05
+   1.200000E+02   3.799829E-05
+   1.300000E+02   3.090523E-05
+   1.400000E+02   2.697651E-05
+   1.500000E+02   2.189699E-05
+   1.600000E+02   1.759985E-05
+   1.800000E+02   1.033824E-05
+   2.000000E+02   4.176115E-06

@@ -1,0 +1,41 @@
+# header: 
+#   title: Co59(t,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.327549E-12
+   8.000000E+01   2.388864E-08
+   9.000000E+01   1.129275E-04
+   1.000000E+02   2.498126E-03
+   1.100000E+02   9.943190E-03
+   1.200000E+02   4.499170E-02
+   1.300000E+02   2.423053E-01
+   1.400000E+02   6.291971E-01
+   1.500000E+02   1.281751E+00
+   1.600000E+02   1.836603E+00
+   1.800000E+02   3.628067E+00
+   2.000000E+02   4.197419E+00

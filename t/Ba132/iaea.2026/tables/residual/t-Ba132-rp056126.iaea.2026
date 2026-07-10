@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba132(t,x)Ba126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 126
+#     nuclide: Ba126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.149096E-07
+   7.000000E+01   1.810589E-04
+   7.500000E+01   4.537023E-03
+   8.000000E+01   2.768428E-02
+   9.000000E+01   4.852215E-01
+   1.000000E+02   2.816834E+00
+   1.100000E+02   6.801112E+00
+   1.200000E+02   9.367766E+00
+   1.300000E+02   1.070449E+01
+   1.400000E+02   1.115070E+01
+   1.500000E+02   1.120351E+01
+   1.600000E+02   1.070983E+01
+   1.800000E+02   1.044387E+01
+   2.000000E+02   1.039089E+01

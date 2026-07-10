@@ -1,0 +1,38 @@
+# header: 
+#   title: Pd100(t,x)Nb85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 85
+#     nuclide: Nb85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.488897E-10
+   1.100000E+02   8.561195E-07
+   1.200000E+02   4.188138E-05
+   1.300000E+02   2.662363E-04
+   1.400000E+02   1.160230E-03
+   1.500000E+02   4.448107E-03
+   1.600000E+02   2.242077E-02
+   1.800000E+02   6.646392E-02
+   2.000000E+02   7.928928E-01

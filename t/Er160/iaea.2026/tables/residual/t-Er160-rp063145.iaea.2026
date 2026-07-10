@@ -1,0 +1,42 @@
+# header: 
+#   title: Er160(t,x)Eu145 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 160
+#   nuclide: Er160
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 145
+#     nuclide: Eu145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.615539E-10
+   7.500000E+01   3.491431E-08
+   8.000000E+01   5.771751E-07
+   9.000000E+01   3.774968E-05
+   1.000000E+02   6.502643E-04
+   1.100000E+02   2.425715E-02
+   1.200000E+02   7.522535E-01
+   1.300000E+02   3.183783E+00
+   1.400000E+02   7.449294E+00
+   1.500000E+02   1.656578E+01
+   1.600000E+02   2.729055E+01
+   1.800000E+02   3.713080E+01
+   2.000000E+02   3.807681E+01

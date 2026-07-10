@@ -1,0 +1,41 @@
+# header: 
+#   title: Pd108(t,x)Nb92m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.093481E-11
+   1.000000E+02   5.228860E-07
+   1.100000E+02   6.159513E-05
+   1.200000E+02   6.513154E-04
+   1.300000E+02   6.901929E-03
+   1.400000E+02   7.639671E-02
+   1.500000E+02   3.240244E-01
+   1.600000E+02   6.718436E-01
+   1.800000E+02   2.224561E+00
+   2.000000E+02   5.834238E+00

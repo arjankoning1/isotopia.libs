@@ -1,0 +1,44 @@
+# header: 
+#   title: Au199(t,x)Pt190 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 79
+#   A: 199
+#   nuclide: Au199
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 190
+#     nuclide: Pt190
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   9.847681E-12
+   6.500000E+01   1.123316E-07
+   7.000000E+01   4.560861E-05
+   7.500000E+01   2.080099E-03
+   8.000000E+01   2.456372E-02
+   9.000000E+01   3.045862E-01
+   1.000000E+02   3.926685E+00
+   1.100000E+02   7.265944E+01
+   1.200000E+02   2.212940E+02
+   1.300000E+02   3.614833E+02
+   1.400000E+02   3.616727E+02
+   1.500000E+02   3.471500E+02
+   1.600000E+02   3.008714E+02
+   1.800000E+02   2.638176E+02
+   2.000000E+02   1.254082E+02

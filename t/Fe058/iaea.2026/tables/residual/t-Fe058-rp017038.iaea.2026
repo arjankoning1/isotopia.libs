@@ -1,0 +1,38 @@
+# header: 
+#   title: Fe58(t,x)Cl38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 38
+#     nuclide: Cl38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.712035E-12
+   1.100000E+02   3.180114E-09
+   1.200000E+02   7.054841E-08
+   1.300000E+02   5.735546E-07
+   1.400000E+02   1.302332E-05
+   1.500000E+02   1.082009E-04
+   1.600000E+02   4.028634E-04
+   1.800000E+02   4.378869E-03
+   2.000000E+02   4.334135E-02

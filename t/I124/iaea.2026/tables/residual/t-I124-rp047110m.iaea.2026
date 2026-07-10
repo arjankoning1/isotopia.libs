@@ -1,0 +1,44 @@
+# header: 
+#   title: I124(t,x)Ag110m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.927749E-12
+   7.500000E+01   1.003350E-09
+   8.000000E+01   2.603312E-08
+   9.000000E+01   1.578064E-06
+   1.000000E+02   2.578621E-05
+   1.100000E+02   1.775708E-04
+   1.200000E+02   1.720975E-03
+   1.300000E+02   1.055262E-02
+   1.400000E+02   2.381922E-02
+   1.500000E+02   3.483279E-02
+   1.600000E+02   3.550490E-02
+   1.800000E+02   5.070003E-02
+   2.000000E+02   5.697919E-02

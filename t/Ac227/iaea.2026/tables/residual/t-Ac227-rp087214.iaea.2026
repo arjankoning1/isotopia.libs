@@ -1,0 +1,41 @@
+# header: 
+#   title: Ac227(t,x)Fr214 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 214
+#     nuclide: Fr214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   8.975972E-11
+   8.000000E+01   3.490658E-08
+   9.000000E+01   1.029939E-05
+   1.000000E+02   5.240755E-04
+   1.100000E+02   1.166243E-02
+   1.200000E+02   8.204959E-02
+   1.300000E+02   5.896221E-01
+   1.400000E+02   3.945700E+00
+   1.500000E+02   1.672117E+01
+   1.600000E+02   3.339024E+01
+   1.800000E+02   5.993104E+01
+   2.000000E+02   8.455002E+01

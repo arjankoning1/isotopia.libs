@@ -1,0 +1,42 @@
+# header: 
+#   title: Si28(t,x)B10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 5
+#     A: 10
+#     nuclide: B10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.364060E-10
+   7.500000E+01   1.150155E-08
+   8.000000E+01   1.074050E-07
+   9.000000E+01   9.394982E-07
+   1.000000E+02   4.208152E-05
+   1.100000E+02   1.827042E-03
+   1.200000E+02   1.145757E-02
+   1.300000E+02   3.726237E-02
+   1.400000E+02   1.006293E-01
+   1.500000E+02   2.258321E-01
+   1.600000E+02   4.484557E-01
+   1.800000E+02   1.827040E+00
+   2.000000E+02   4.427913E+00

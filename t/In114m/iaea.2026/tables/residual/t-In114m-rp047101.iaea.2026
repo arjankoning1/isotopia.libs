@@ -1,0 +1,37 @@
+# header: 
+#   title: In114m(t,x)Ag101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 114
+#   nuclide: In114m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.720115E-08
+   1.200000E+02   2.526642E-05
+   1.300000E+02   1.104661E-03
+   1.400000E+02   1.197086E-02
+   1.500000E+02   7.582186E-02
+   1.600000E+02   4.591565E-01
+   1.800000E+02   7.219781E+00
+   2.000000E+02   2.112640E+01

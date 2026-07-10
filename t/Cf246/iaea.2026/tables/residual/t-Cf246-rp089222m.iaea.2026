@@ -1,0 +1,39 @@
+# header: 
+#   title: Cf246(t,x)Ac222m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 246
+#   nuclide: Cf246
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 222
+#     nuclide: Ac222m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.513704E-13
+   1.200000E+02   5.401829E-11
+   1.300000E+02   1.711584E-11
+   1.400000E+02   5.579844E-10
+   1.500000E+02   1.100901E-08
+   1.600000E+02   4.541567E-07
+   1.800000E+02   2.135067E-05
+   2.000000E+02   9.613312E-05

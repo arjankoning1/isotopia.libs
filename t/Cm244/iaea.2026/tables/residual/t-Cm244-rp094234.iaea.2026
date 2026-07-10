@@ -1,0 +1,42 @@
+# header: 
+#   title: Cm244(t,x)Pu234 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 244
+#   nuclide: Cm244
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 234
+#     nuclide: Pu234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.179639E-12
+   7.500000E+01   9.304193E-11
+   8.000000E+01   1.441868E-09
+   9.000000E+01   4.483910E-08
+   1.000000E+02   3.470008E-07
+   1.100000E+02   2.264375E-06
+   1.200000E+02   6.097417E-06
+   1.300000E+02   1.097443E-05
+   1.400000E+02   4.022583E-05
+   1.500000E+02   1.604740E-04
+   1.600000E+02   3.372850E-04
+   1.800000E+02   1.179178E-04
+   2.000000E+02   3.735568E-05

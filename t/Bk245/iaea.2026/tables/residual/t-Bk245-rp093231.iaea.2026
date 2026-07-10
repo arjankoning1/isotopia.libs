@@ -1,0 +1,39 @@
+# header: 
+#   title: Bk245(t,x)Np231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 245
+#   nuclide: Bk245
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 231
+#     nuclide: Np231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.811759E-12
+   1.000000E+02   5.910093E-09
+   1.100000E+02   1.268899E-07
+   1.200000E+02   1.877144E-06
+   1.300000E+02   1.776934E-05
+   1.400000E+02   1.853051E-04
+   1.500000E+02   1.607068E-03
+   1.600000E+02   4.428106E-03
+   1.800000E+02   2.702040E-04
+   2.000000E+02   9.544822E-05

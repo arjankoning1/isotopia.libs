@@ -1,0 +1,38 @@
+# header: 
+#   title: Ba138(t,x)Te123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.950942E-09
+   1.100000E+02   1.895601E-05
+   1.200000E+02   1.017671E-03
+   1.300000E+02   1.064048E-02
+   1.400000E+02   5.195771E-02
+   1.500000E+02   2.588870E-01
+   1.600000E+02   1.116258E+00
+   1.800000E+02   4.547586E+00
+   2.000000E+02   7.026391E+00

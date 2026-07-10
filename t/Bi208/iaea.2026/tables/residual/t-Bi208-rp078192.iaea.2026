@@ -1,0 +1,39 @@
+# header: 
+#   title: Bi208(t,x)Pt192 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 192
+#     nuclide: Pt192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.458407E-11
+   1.000000E+02   7.897984E-08
+   1.100000E+02   5.643342E-06
+   1.200000E+02   6.273812E-05
+   1.300000E+02   2.629048E-03
+   1.400000E+02   1.959477E-02
+   1.500000E+02   5.273310E-02
+   1.600000E+02   7.160559E-02
+   1.800000E+02   5.020004E-02
+   2.000000E+02   4.173812E-02

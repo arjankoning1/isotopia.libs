@@ -1,0 +1,43 @@
+# header: 
+#   title: Cl35(t,x)F20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 20
+#     nuclide: F20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.978704E-10
+   7.000000E+01   1.577170E-07
+   7.500000E+01   4.059962E-06
+   8.000000E+01   3.174417E-05
+   9.000000E+01   3.375976E-04
+   1.000000E+02   2.807554E-03
+   1.100000E+02   2.617292E-02
+   1.200000E+02   1.249969E-01
+   1.300000E+02   2.995942E-01
+   1.400000E+02   5.184562E-01
+   1.500000E+02   7.910484E-01
+   1.600000E+02   1.087746E+00
+   1.800000E+02   1.797813E+00
+   2.000000E+02   3.061492E+00

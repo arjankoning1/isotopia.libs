@@ -1,0 +1,43 @@
+# header: 
+#   title: U230(t,x)Th220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 230
+#   nuclide: U230
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 220
+#     nuclide: Th220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.308965E-10
+   7.000000E+01   1.036923E-07
+   7.500000E+01   8.681663E-06
+   8.000000E+01   2.311833E-04
+   9.000000E+01   8.429853E-03
+   1.000000E+02   6.225551E-02
+   1.100000E+02   4.296422E-01
+   1.200000E+02   1.875004E+00
+   1.300000E+02   8.968634E+00
+   1.400000E+02   1.541812E+01
+   1.500000E+02   1.641277E+01
+   1.600000E+02   2.273567E+01
+   1.800000E+02   2.413421E+01
+   2.000000E+02   1.050844E+01

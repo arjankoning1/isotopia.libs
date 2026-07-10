@@ -1,0 +1,42 @@
+# header: 
+#   title: Bi206(t,x)Bi198n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 198
+#     nuclide: Bi198n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.896067E-09
+   9.000000E+01   2.402474E-04
+   1.000000E+02   1.001739E-02
+   1.100000E+02   1.268851E-01
+   1.200000E+02   5.578485E-01
+   1.300000E+02   1.118762E+00
+   1.400000E+02   1.377600E+00
+   1.500000E+02   1.823266E+00
+   1.600000E+02   1.753408E+00
+   1.800000E+02   2.497758E+00
+   2.000000E+02   2.560584E+00

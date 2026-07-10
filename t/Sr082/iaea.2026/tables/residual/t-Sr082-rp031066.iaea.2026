@@ -1,0 +1,42 @@
+# header: 
+#   title: Sr82(t,x)Ga66 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 82
+#   nuclide: Sr82
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 66
+#     nuclide: Ga66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.261623E-12
+   7.500000E+01   8.817096E-10
+   8.000000E+01   8.732541E-08
+   9.000000E+01   1.347955E-05
+   1.000000E+02   1.112686E-04
+   1.100000E+02   7.855874E-04
+   1.200000E+02   9.993290E-03
+   1.300000E+02   4.562158E-02
+   1.400000E+02   1.136652E-01
+   1.500000E+02   5.354723E-01
+   1.600000E+02   3.003231E+00
+   1.800000E+02   1.489991E+01
+   2.000000E+02   3.894567E+01

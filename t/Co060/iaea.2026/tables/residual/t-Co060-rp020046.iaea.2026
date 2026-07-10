@@ -1,0 +1,45 @@
+# header: 
+#   title: Co60(t,x)Ca46 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 46
+#     nuclide: Ca46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.668655E-10
+   6.000000E+01   1.417279E-08
+   6.500000E+01   2.075387E-07
+   7.000000E+01   1.159392E-06
+   7.500000E+01   3.691646E-06
+   8.000000E+01   1.007558E-05
+   9.000000E+01   9.783967E-04
+   1.000000E+02   1.393614E-02
+   1.100000E+02   4.683366E-02
+   1.200000E+02   6.992552E-02
+   1.300000E+02   9.924408E-02
+   1.400000E+02   1.685958E-01
+   1.500000E+02   3.080947E-01
+   1.600000E+02   3.905873E-01
+   1.800000E+02   4.877915E-01
+   2.000000E+02   7.480241E-01

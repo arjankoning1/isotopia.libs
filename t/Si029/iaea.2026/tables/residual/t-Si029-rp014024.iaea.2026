@@ -1,0 +1,39 @@
+# header: 
+#   title: Si29(t,x)Si24 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 24
+#     nuclide: Si24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.233571E-10
+   1.000000E+02   3.383873E-08
+   1.100000E+02   4.105834E-07
+   1.200000E+02   1.735481E-06
+   1.300000E+02   4.566684E-06
+   1.400000E+02   8.681510E-06
+   1.500000E+02   1.339655E-05
+   1.600000E+02   1.747808E-05
+   1.800000E+02   2.354633E-05
+   2.000000E+02   2.586213E-05

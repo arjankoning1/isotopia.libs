@@ -1,0 +1,44 @@
+# header: 
+#   title: Yb166(t,x)Yb160 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 166
+#   nuclide: Yb166
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 160
+#     nuclide: Yb160
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.463021E-10
+   6.500000E+01   1.787149E-05
+   7.000000E+01   2.078504E-03
+   7.500000E+01   2.273042E-02
+   8.000000E+01   1.040787E-01
+   9.000000E+01   1.276083E+00
+   1.000000E+02   5.050245E+00
+   1.100000E+02   9.551246E+00
+   1.200000E+02   1.223691E+01
+   1.300000E+02   1.349865E+01
+   1.400000E+02   1.358919E+01
+   1.500000E+02   1.312639E+01
+   1.600000E+02   1.373077E+01
+   1.800000E+02   1.102176E+01
+   2.000000E+02   1.406951E+01

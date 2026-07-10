@@ -1,0 +1,37 @@
+# header: 
+#   title: Pm148m(t,x)Pm137 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 137
+#     nuclide: Pm137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.577862E-07
+   1.200000E+02   2.053752E-04
+   1.300000E+02   6.666211E-03
+   1.400000E+02   6.181651E-02
+   1.500000E+02   2.685202E-01
+   1.600000E+02   6.159037E-01
+   1.800000E+02   1.461447E+00
+   2.000000E+02   1.968906E+00

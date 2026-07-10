@@ -1,0 +1,40 @@
+# header: 
+#   title: Ru101(t,x)Kr84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 84
+#     nuclide: Kr84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.718626E-12
+   9.000000E+01   9.580720E-10
+   1.000000E+02   5.935542E-08
+   1.100000E+02   1.323040E-06
+   1.200000E+02   9.309133E-06
+   1.300000E+02   9.366555E-05
+   1.400000E+02   6.195254E-04
+   1.500000E+02   1.599890E-03
+   1.600000E+02   3.123458E-03
+   1.800000E+02   1.607190E-02
+   2.000000E+02   4.827698E-02

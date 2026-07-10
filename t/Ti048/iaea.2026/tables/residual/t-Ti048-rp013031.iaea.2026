@@ -1,0 +1,42 @@
+# header: 
+#   title: Ti48(t,x)Al31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 31
+#     nuclide: Al31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.981537E-12
+   7.500000E+01   5.189878E-11
+   8.000000E+01   3.730211E-10
+   9.000000E+01   2.525941E-09
+   1.000000E+02   3.846557E-08
+   1.100000E+02   8.553600E-07
+   1.200000E+02   3.687090E-06
+   1.300000E+02   7.981037E-06
+   1.400000E+02   2.624174E-05
+   1.500000E+02   1.556093E-04
+   1.600000E+02   5.269796E-04
+   1.800000E+02   1.926420E-03
+   2.000000E+02   3.479541E-03

@@ -1,0 +1,46 @@
+# header: 
+#   title: Gd146(t,x)Gd141m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 146
+#   nuclide: Gd146
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 141
+#     nuclide: Gd141m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.142949E-12
+   6.500000E+01   1.624481E-06
+   7.000000E+01   3.469201E-04
+   7.500000E+01   6.024696E-03
+   8.000000E+01   3.430389E-02
+   9.000000E+01   3.115859E-01
+   1.000000E+02   1.006038E+00
+   1.100000E+02   1.682814E+00
+   1.200000E+02   1.969142E+00
+   1.300000E+02   2.230763E+00
+   1.400000E+02   2.385271E+00
+   1.500000E+02   2.574594E+00
+   1.600000E+02   2.854512E+00
+   1.800000E+02   3.367042E+00
+   2.000000E+02   3.482734E+00

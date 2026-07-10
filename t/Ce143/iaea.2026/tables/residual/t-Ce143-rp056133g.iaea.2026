@@ -1,0 +1,45 @@
+# header: 
+#   title: Ce143(t,x)Ba133g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 143
+#   nuclide: Ce143
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   8.233432E-12
+   7.000000E+01   2.662570E-08
+   7.500000E+01   4.009957E-06
+   8.000000E+01   8.543482E-05
+   9.000000E+01   2.223138E-03
+   1.000000E+02   2.027121E-02
+   1.100000E+02   1.850190E-01
+   1.200000E+02   1.600099E+00
+   1.300000E+02   7.252629E+00
+   1.400000E+02   1.277590E+01
+   1.500000E+02   1.654984E+01
+   1.600000E+02   1.411880E+01
+   1.800000E+02   1.300744E+01
+   2.000000E+02   7.309688E+00

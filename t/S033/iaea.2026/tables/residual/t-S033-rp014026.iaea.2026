@@ -1,0 +1,44 @@
+# header: 
+#   title: S33(t,x)Si26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 33
+#   nuclide: S33
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 26
+#     nuclide: Si26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.586801E-08
+   6.500000E+01   1.325002E-05
+   7.000000E+01   2.630219E-04
+   7.500000E+01   1.557198E-03
+   8.000000E+01   4.717483E-03
+   9.000000E+01   1.746959E-02
+   1.000000E+02   3.696040E-02
+   1.100000E+02   5.847981E-02
+   1.200000E+02   8.353298E-02
+   1.300000E+02   1.209549E-01
+   1.400000E+02   1.628900E-01
+   1.500000E+02   2.030501E-01
+   1.600000E+02   2.212867E-01
+   1.800000E+02   2.252237E-01
+   2.000000E+02   2.068917E-01

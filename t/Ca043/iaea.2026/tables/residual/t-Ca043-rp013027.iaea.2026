@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca43(t,x)Al27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 27
+#     nuclide: Al27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   6.592745E-12
+   7.000000E+01   1.723738E-08
+   7.500000E+01   1.950751E-06
+   8.000000E+01   3.647131E-05
+   9.000000E+01   7.119481E-04
+   1.000000E+02   2.495104E-03
+   1.100000E+02   9.270550E-03
+   1.200000E+02   4.040079E-02
+   1.300000E+02   1.103368E-01
+   1.400000E+02   2.570580E-01
+   1.500000E+02   5.428782E-01
+   1.600000E+02   1.363661E+00
+   1.800000E+02   5.919351E+00
+   2.000000E+02   1.433596E+01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ra223(t,x)Fr212 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 88
+#   A: 223
+#   nuclide: Ra223
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 212
+#     nuclide: Fr212
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.424051E-12
+   7.000000E+01   5.759183E-09
+   7.500000E+01   2.763981E-07
+   8.000000E+01   5.512411E-06
+   9.000000E+01   1.532978E-03
+   1.000000E+02   4.219739E-02
+   1.100000E+02   2.660538E-01
+   1.200000E+02   1.283934E+00
+   1.300000E+02   6.482493E+00
+   1.400000E+02   2.692537E+01
+   1.500000E+02   5.258651E+01
+   1.600000E+02   7.444103E+01
+   1.800000E+02   1.203048E+02
+   2.000000E+02   1.143785E+02

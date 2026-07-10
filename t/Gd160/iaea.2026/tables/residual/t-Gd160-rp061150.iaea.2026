@@ -1,0 +1,46 @@
+# header: 
+#   title: Gd160(t,x)Pm150 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 160
+#   nuclide: Gd160
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 150
+#     nuclide: Pm150
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   6.666364E-12
+   5.500000E+01   3.044445E-08
+   6.000000E+01   6.249561E-06
+   6.500000E+01   1.616770E-04
+   7.000000E+01   1.046055E-03
+   7.500000E+01   2.966299E-03
+   8.000000E+01   4.722802E-03
+   9.000000E+01   1.453100E-01
+   1.000000E+02   1.156508E+00
+   1.100000E+02   1.822028E+00
+   1.200000E+02   1.953196E+00
+   1.300000E+02   1.331559E+00
+   1.400000E+02   1.320350E+00
+   1.500000E+02   1.140396E+00
+   1.600000E+02   8.897957E-01
+   1.800000E+02   2.263694E-01
+   2.000000E+02   2.276128E-01

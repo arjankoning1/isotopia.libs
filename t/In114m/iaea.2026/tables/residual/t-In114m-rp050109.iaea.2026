@@ -1,0 +1,44 @@
+# header: 
+#   title: In114m(t,x)Sn109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 114
+#   nuclide: In114m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 109
+#     nuclide: Sn109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.208475E-07
+   6.500000E+01   3.551533E-04
+   7.000000E+01   1.200187E-02
+   7.500000E+01   8.458134E-02
+   8.000000E+01   2.782893E-01
+   9.000000E+01   8.937169E-01
+   1.000000E+02   1.428364E+00
+   1.100000E+02   1.709089E+00
+   1.200000E+02   1.789665E+00
+   1.300000E+02   1.718818E+00
+   1.400000E+02   1.693405E+00
+   1.500000E+02   1.654738E+00
+   1.600000E+02   1.585141E+00
+   1.800000E+02   1.493641E+00
+   2.000000E+02   1.328420E+00

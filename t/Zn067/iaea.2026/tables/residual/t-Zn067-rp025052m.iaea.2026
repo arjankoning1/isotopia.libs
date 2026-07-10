@@ -1,0 +1,41 @@
+# header: 
+#   title: Zn67(t,x)Mn52m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.416864E-11
+   1.000000E+02   3.733606E-07
+   1.100000E+02   2.338810E-05
+   1.200000E+02   1.870423E-04
+   1.300000E+02   1.721383E-03
+   1.400000E+02   1.897412E-02
+   1.500000E+02   7.641256E-02
+   1.600000E+02   2.179314E-01
+   1.800000E+02   1.066000E+00
+   2.000000E+02   3.185748E+00

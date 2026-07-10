@@ -1,0 +1,37 @@
+# header: 
+#   title: Er170(t,x)Eu151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 151
+#     nuclide: Eu151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.690138E-09
+   1.200000E+02   3.408193E-06
+   1.300000E+02   2.596707E-04
+   1.400000E+02   2.112692E-03
+   1.500000E+02   2.639947E-02
+   1.600000E+02   1.825879E-01
+   1.800000E+02   1.098925E+00
+   2.000000E+02   1.367249E+00

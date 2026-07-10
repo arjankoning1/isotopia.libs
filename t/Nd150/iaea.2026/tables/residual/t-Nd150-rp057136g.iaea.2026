@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd150(t,x)La136g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 136
+#     nuclide: La136g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.942149E-11
+   9.000000E+01   1.665437E-06
+   1.000000E+02   2.132001E-04
+   1.100000E+02   2.357079E-03
+   1.200000E+02   9.448554E-02
+   1.300000E+02   9.826307E-01
+   1.400000E+02   2.779809E+00
+   1.500000E+02   4.622166E+00
+   1.600000E+02   5.645429E+00
+   1.800000E+02   6.318583E+00
+   2.000000E+02   5.534102E+00

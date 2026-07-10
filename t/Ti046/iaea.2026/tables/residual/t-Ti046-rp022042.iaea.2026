@@ -1,0 +1,44 @@
+# header: 
+#   title: Ti46(t,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.605393E-10
+   6.500000E+01   3.097796E-07
+   7.000000E+01   5.679117E-06
+   7.500000E+01   2.405251E-05
+   8.000000E+01   6.092346E-05
+   9.000000E+01   2.712480E-04
+   1.000000E+02   6.610544E-04
+   1.100000E+02   1.029037E-03
+   1.200000E+02   1.266913E-03
+   1.300000E+02   1.425097E-03
+   1.400000E+02   1.506320E-03
+   1.500000E+02   1.520227E-03
+   1.600000E+02   1.558099E-03
+   1.800000E+02   1.644059E-03
+   2.000000E+02   1.672845E-03

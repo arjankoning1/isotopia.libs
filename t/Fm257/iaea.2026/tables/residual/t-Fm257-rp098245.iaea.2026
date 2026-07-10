@@ -1,0 +1,38 @@
+# header: 
+#   title: Fm257(t,x)Cf245 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 100
+#   A: 257
+#   nuclide: Fm257
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 98
+#     A: 245
+#     nuclide: Cf245
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.650202E-13
+   1.100000E+02   9.205002E-12
+   1.200000E+02   4.925370E-11
+   1.300000E+02   5.615641E-10
+   1.400000E+02   3.591977E-09
+   1.500000E+02   7.937214E-09
+   1.600000E+02   1.282991E-08
+   1.800000E+02   1.525833E-07
+   2.000000E+02   1.315341E-06

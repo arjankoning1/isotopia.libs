@@ -1,0 +1,39 @@
+# header: 
+#   title: Al26(t,x)Ne16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 16
+#     nuclide: Ne16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.727828E-10
+   1.000000E+02   2.681965E-07
+   1.100000E+02   3.099999E-06
+   1.200000E+02   1.023645E-05
+   1.300000E+02   1.959957E-05
+   1.400000E+02   3.177190E-05
+   1.500000E+02   5.437039E-05
+   1.600000E+02   1.162721E-04
+   1.800000E+02   4.084083E-04
+   2.000000E+02   9.257933E-04

@@ -1,0 +1,41 @@
+# header: 
+#   title: Te132(t,x)Cd120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 132
+#   nuclide: Te132
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 120
+#     nuclide: Cd120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.031426E-11
+   8.000000E+01   1.093636E-08
+   9.000000E+01   3.810225E-05
+   1.000000E+02   1.894693E-03
+   1.100000E+02   2.738139E-02
+   1.200000E+02   1.922237E-01
+   1.300000E+02   6.442648E-01
+   1.400000E+02   1.145246E+00
+   1.500000E+02   1.408030E+00
+   1.600000E+02   1.328197E+00
+   1.800000E+02   1.081599E+00
+   2.000000E+02   3.100033E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn120(t,x)Rh102g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.997497E-12
+   1.200000E+02   1.141617E-07
+   1.300000E+02   3.737093E-05
+   1.400000E+02   1.136706E-03
+   1.500000E+02   7.103605E-03
+   1.600000E+02   4.125309E-02
+   1.800000E+02   6.277906E-01
+   2.000000E+02   1.703879E+00

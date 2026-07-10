@@ -1,0 +1,46 @@
+# header: 
+#   title: Pb210(t,x)Pb203n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 210
+#   nuclide: Pb210
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.881567E-09
+   6.500000E+01   7.011885E-05
+   7.000000E+01   5.799746E-03
+   7.500000E+01   5.293881E-02
+   8.000000E+01   1.688852E-01
+   9.000000E+01   6.730227E-01
+   1.000000E+02   1.753739E+00
+   1.100000E+02   2.247649E+00
+   1.200000E+02   2.353281E+00
+   1.300000E+02   1.749788E+00
+   1.400000E+02   1.613366E+00
+   1.500000E+02   1.344919E+00
+   1.600000E+02   1.449281E+00
+   1.800000E+02   9.434100E-01
+   2.000000E+02   1.154262E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni63(t,x)Cr53 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 53
+#     nuclide: Cr53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.719023E-09
+   5.500000E+01   5.826664E-06
+   6.000000E+01   4.607073E-04
+   6.500000E+01   4.344788E-03
+   7.000000E+01   1.691779E-02
+   7.500000E+01   4.694400E-02
+   8.000000E+01   1.051713E-01
+   9.000000E+01   3.628861E-01
+   1.000000E+02   1.123085E+00
+   1.100000E+02   4.604278E+00
+   1.200000E+02   1.215198E+01
+   1.300000E+02   2.108649E+01
+   1.400000E+02   2.702534E+01
+   1.500000E+02   3.159860E+01
+   1.600000E+02   3.461264E+01
+   1.800000E+02   4.442102E+01
+   2.000000E+02   3.838102E+01

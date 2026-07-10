@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn117(t,x)Tc99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.106359E-12
+   1.000000E+02   1.160313E-07
+   1.100000E+02   1.338600E-05
+   1.200000E+02   1.644646E-04
+   1.300000E+02   6.479941E-04
+   1.400000E+02   3.148736E-03
+   1.500000E+02   9.892074E-03
+   1.600000E+02   1.927364E-02
+   1.800000E+02   6.348206E-02
+   2.000000E+02   1.405804E-01

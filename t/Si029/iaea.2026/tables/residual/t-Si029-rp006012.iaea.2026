@@ -1,0 +1,43 @@
+# header: 
+#   title: Si29(t,x)C12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.706598E-10
+   7.000000E+01   2.778159E-07
+   7.500000E+01   2.196043E-05
+   8.000000E+01   2.831613E-04
+   9.000000E+01   3.856057E-03
+   1.000000E+02   1.369916E-02
+   1.100000E+02   4.819702E-02
+   1.200000E+02   2.352662E-01
+   1.300000E+02   7.182202E-01
+   1.400000E+02   1.496792E+00
+   1.500000E+02   2.480632E+00
+   1.600000E+02   3.848912E+00
+   1.800000E+02   7.979575E+00
+   2.000000E+02   1.265107E+01

@@ -1,0 +1,48 @@
+# header: 
+#   title: K40(t,x)Al29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.952932E-09
+   4.500000E+01   2.657280E-06
+   5.000000E+01   1.137966E-04
+   5.500000E+01   1.022363E-03
+   6.000000E+01   3.980971E-03
+   6.500000E+01   9.279211E-03
+   7.000000E+01   1.532492E-02
+   7.500000E+01   2.182346E-02
+   8.000000E+01   3.488125E-02
+   9.000000E+01   2.043070E-01
+   1.000000E+02   6.554028E-01
+   1.100000E+02   1.189533E+00
+   1.200000E+02   1.740972E+00
+   1.300000E+02   2.167824E+00
+   1.400000E+02   3.181366E+00
+   1.500000E+02   4.577922E+00
+   1.600000E+02   6.052945E+00
+   1.800000E+02   8.429948E+00
+   2.000000E+02   1.040777E+01

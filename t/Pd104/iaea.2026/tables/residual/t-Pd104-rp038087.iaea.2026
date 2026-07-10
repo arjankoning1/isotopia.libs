@@ -1,0 +1,39 @@
+# header: 
+#   title: Pd104(t,x)Sr87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.506748E-09
+   1.000000E+02   3.383277E-07
+   1.100000E+02   6.356987E-06
+   1.200000E+02   4.935038E-05
+   1.300000E+02   6.682591E-04
+   1.400000E+02   5.048367E-03
+   1.500000E+02   1.301176E-02
+   1.600000E+02   2.186985E-02
+   1.800000E+02   5.735429E-02
+   2.000000E+02   1.136160E-01

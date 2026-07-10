@@ -1,0 +1,43 @@
+# header: 
+#   title: Nd144(t,x)Cs130m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 144
+#   nuclide: Nd144
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.299262E-11
+   8.000000E+01   5.662342E-09
+   9.000000E+01   1.171449E-06
+   1.000000E+02   3.490695E-05
+   1.100000E+02   7.445137E-03
+   1.200000E+02   8.996700E-02
+   1.300000E+02   2.510449E-01
+   1.400000E+02   3.318768E-01
+   1.500000E+02   5.059418E-01
+   1.600000E+02   8.776457E-01
+   1.800000E+02   1.350639E+00
+   2.000000E+02   1.173220E+00

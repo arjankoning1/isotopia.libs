@@ -1,0 +1,43 @@
+# header: 
+#   title: Zr90(t,x)Sr82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.870249E-08
+   7.000000E+01   4.112835E-05
+   7.500000E+01   1.289158E-03
+   8.000000E+01   9.443109E-03
+   9.000000E+01   1.858522E-01
+   1.000000E+02   1.292380E+00
+   1.100000E+02   3.961355E+00
+   1.200000E+02   1.639990E+01
+   1.300000E+02   5.117422E+01
+   1.400000E+02   1.033991E+02
+   1.500000E+02   1.236002E+02
+   1.600000E+02   1.503400E+02
+   1.800000E+02   1.328040E+02
+   2.000000E+02   1.040806E+02

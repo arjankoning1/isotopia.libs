@@ -1,0 +1,36 @@
+# header: 
+#   title: Te131m(t,x)I118m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 131
+#   nuclide: Te131m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 118
+#     nuclide: I118m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 5
+##       E             xs
+##     [MeV]          [mb]
+   1.400000E+02   1.641557E-08
+   1.500000E+02   1.100120E-05
+   1.600000E+02   5.430869E-04
+   1.800000E+02   2.345447E-02
+   2.000000E+02   9.050363E-02

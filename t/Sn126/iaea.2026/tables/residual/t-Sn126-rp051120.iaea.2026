@@ -1,0 +1,44 @@
+# header: 
+#   title: Sn126(t,x)Sb120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 126
+#   nuclide: Sn126
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.724125E-07
+   6.500000E+01   1.310108E-03
+   7.000000E+01   8.429195E-02
+   7.500000E+01   8.752543E-01
+   8.000000E+01   3.558034E+00
+   9.000000E+01   1.428485E+01
+   1.000000E+02   2.229187E+01
+   1.100000E+02   2.426488E+01
+   1.200000E+02   2.043763E+01
+   1.300000E+02   1.543659E+01
+   1.400000E+02   1.220086E+01
+   1.500000E+02   8.708863E+00
+   1.600000E+02   7.648588E+00
+   1.800000E+02   5.451423E+00
+   2.000000E+02   3.140302E+00

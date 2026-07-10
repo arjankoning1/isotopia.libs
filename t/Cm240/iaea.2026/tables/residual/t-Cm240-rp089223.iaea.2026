@@ -1,0 +1,40 @@
+# header: 
+#   title: Cm240(t,x)Ac223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 240
+#   nuclide: Cm240
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 223
+#     nuclide: Ac223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.824452E-12
+   9.000000E+01   8.503261E-09
+   1.000000E+02   6.294578E-07
+   1.100000E+02   1.828713E-05
+   1.200000E+02   7.855135E-04
+   1.300000E+02   6.127929E-03
+   1.400000E+02   1.768037E-02
+   1.500000E+02   3.371137E-02
+   1.600000E+02   3.944170E-02
+   1.800000E+02   2.474780E-02
+   2.000000E+02   3.494949E-02

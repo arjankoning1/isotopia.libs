@@ -1,0 +1,37 @@
+# header: 
+#   title: Ca46(t,x)Mg26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 46
+#   nuclide: Ca46
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.542572E-09
+   1.200000E+02   1.217016E-06
+   1.300000E+02   2.785812E-05
+   1.400000E+02   2.443381E-04
+   1.500000E+02   1.523924E-03
+   1.600000E+02   7.749648E-03
+   1.800000E+02   8.392381E-02
+   2.000000E+02   3.786924E-01

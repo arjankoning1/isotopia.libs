@@ -1,0 +1,39 @@
+# header: 
+#   title: Sm145(t,x)La130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 130
+#     nuclide: La130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.619375E-08
+   1.000000E+02   3.903465E-05
+   1.100000E+02   9.554749E-04
+   1.200000E+02   8.230631E-03
+   1.300000E+02   1.175530E-01
+   1.400000E+02   7.594407E-01
+   1.500000E+02   1.450150E+00
+   1.600000E+02   2.032009E+00
+   1.800000E+02   4.710381E+00
+   2.000000E+02   5.560401E+00

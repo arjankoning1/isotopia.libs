@@ -1,0 +1,39 @@
+# header: 
+#   title: Tc99(t,x)Sr84 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 84
+#     nuclide: Sr84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.621119E-08
+   1.000000E+02   3.872701E-05
+   1.100000E+02   7.722426E-04
+   1.200000E+02   4.699219E-03
+   1.300000E+02   4.579479E-02
+   1.400000E+02   2.367267E-01
+   1.500000E+02   6.313174E-01
+   1.600000E+02   1.462971E+00
+   1.800000E+02   8.116117E+00
+   2.000000E+02   1.827270E+01

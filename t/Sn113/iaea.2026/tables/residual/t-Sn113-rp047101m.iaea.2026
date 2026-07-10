@@ -1,0 +1,42 @@
+# header: 
+#   title: Sn113(t,x)Ag101m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 101
+#     nuclide: Ag101m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.832161E-11
+   9.000000E+01   1.991502E-06
+   1.000000E+02   2.726455E-04
+   1.100000E+02   2.387624E-03
+   1.200000E+02   1.832292E-02
+   1.300000E+02   2.173717E-01
+   1.400000E+02   6.643925E-01
+   1.500000E+02   1.562031E+00
+   1.600000E+02   1.977418E+00
+   1.800000E+02   4.506845E+00
+   2.000000E+02   5.432312E+00

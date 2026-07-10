@@ -1,0 +1,38 @@
+# header: 
+#   title: Ru99(t,x)Br79 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.283506E-12
+   1.100000E+02   1.776269E-09
+   1.200000E+02   6.320100E-08
+   1.300000E+02   1.215160E-05
+   1.400000E+02   3.135317E-04
+   1.500000E+02   1.413793E-03
+   1.600000E+02   3.367774E-03
+   1.800000E+02   1.876227E-02
+   2.000000E+02   7.542235E-02

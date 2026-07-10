@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd145(t,x)La133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 133
+#     nuclide: La133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.596130E-11
+   7.500000E+01   2.567073E-08
+   8.000000E+01   3.457149E-06
+   9.000000E+01   6.368568E-04
+   1.000000E+02   6.365112E-03
+   1.100000E+02   1.468337E-01
+   1.200000E+02   1.577029E+00
+   1.300000E+02   4.996990E+00
+   1.400000E+02   7.860573E+00
+   1.500000E+02   1.084224E+01
+   1.600000E+02   1.513412E+01
+   1.800000E+02   2.048363E+01
+   2.000000E+02   2.130451E+01

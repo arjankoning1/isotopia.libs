@@ -1,0 +1,44 @@
+# header: 
+#   title: Si28(t,x)Ne26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 26
+#     nuclide: Ne26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   3.018691E-10
+   6.500000E+01   9.397661E-08
+   7.000000E+01   1.579696E-06
+   7.500000E+01   7.988894E-06
+   8.000000E+01   2.124057E-05
+   9.000000E+01   5.593130E-05
+   1.000000E+02   7.503487E-05
+   1.100000E+02   7.329454E-05
+   1.200000E+02   6.169365E-05
+   1.300000E+02   4.804292E-05
+   1.400000E+02   3.561014E-05
+   1.500000E+02   2.599881E-05
+   1.600000E+02   1.881497E-05
+   1.800000E+02   1.029628E-05
+   2.000000E+02   6.126405E-06

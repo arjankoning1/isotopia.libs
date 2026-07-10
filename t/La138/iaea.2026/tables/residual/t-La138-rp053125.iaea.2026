@@ -1,0 +1,40 @@
+# header: 
+#   title: La138(t,x)I125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 57
+#   A: 138
+#   nuclide: La138
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 125
+#     nuclide: I125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.461909E-10
+   9.000000E+01   1.526494E-06
+   1.000000E+02   1.907850E-04
+   1.100000E+02   7.416043E-03
+   1.200000E+02   6.208450E-02
+   1.300000E+02   6.335280E-01
+   1.400000E+02   3.143002E+00
+   1.500000E+02   8.809705E+00
+   1.600000E+02   1.081572E+01
+   1.800000E+02   1.588894E+01
+   2.000000E+02   9.071933E+00

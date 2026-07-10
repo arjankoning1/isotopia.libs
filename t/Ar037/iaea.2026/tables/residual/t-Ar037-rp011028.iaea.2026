@@ -1,0 +1,40 @@
+# header: 
+#   title: Ar37(t,x)Na28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 37
+#   nuclide: Ar37
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 28
+#     nuclide: Na28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.421740E-11
+   9.000000E+01   6.087675E-09
+   1.000000E+02   8.978058E-08
+   1.100000E+02   6.507792E-07
+   1.200000E+02   3.904089E-06
+   1.300000E+02   1.365245E-05
+   1.400000E+02   3.035513E-05
+   1.500000E+02   4.496314E-05
+   1.600000E+02   5.649748E-05
+   1.800000E+02   7.983125E-05
+   2.000000E+02   8.466198E-05

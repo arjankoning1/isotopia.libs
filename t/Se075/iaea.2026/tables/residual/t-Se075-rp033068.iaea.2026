@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(t,x)As68 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 68
+#     nuclide: As68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.167006E-12
+   6.500000E+01   1.401286E-07
+   7.000000E+01   2.026959E-05
+   7.500000E+01   3.366557E-04
+   8.000000E+01   1.902035E-03
+   9.000000E+01   1.052900E-02
+   1.000000E+02   2.032737E-02
+   1.100000E+02   3.296449E-02
+   1.200000E+02   5.671782E-02
+   1.300000E+02   9.055415E-02
+   1.400000E+02   1.237894E-01
+   1.500000E+02   1.343418E-01
+   1.600000E+02   1.761035E-01
+   1.800000E+02   2.014764E-01
+   2.000000E+02   2.397977E-01

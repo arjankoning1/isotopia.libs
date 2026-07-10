@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo98(t,x)Rb86m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.083043E-10
+   6.000000E+01   3.609316E-08
+   6.500000E+01   1.242264E-06
+   7.000000E+01   9.744555E-06
+   7.500000E+01   3.443417E-05
+   8.000000E+01   8.160096E-05
+   9.000000E+01   1.193926E-03
+   1.000000E+02   1.951512E-02
+   1.100000E+02   6.442850E-02
+   1.200000E+02   9.726701E-02
+   1.300000E+02   1.515874E-01
+   1.400000E+02   3.482007E-01
+   1.500000E+02   7.489675E-01
+   1.600000E+02   1.073628E+00
+   1.800000E+02   8.990136E-01
+   2.000000E+02   8.814498E-01

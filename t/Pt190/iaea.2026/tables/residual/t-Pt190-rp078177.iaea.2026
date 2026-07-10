@@ -1,0 +1,35 @@
+# header: 
+#   title: Pt190(t,x)Pt177 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 190
+#   nuclide: Pt190
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 78
+#     A: 177
+#     nuclide: Pt177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   1.422631E-12
+   1.400000E+02   3.711412E-08
+   1.500000E+02   1.290192E-05
+   1.600000E+02   5.970862E-04
+   1.800000E+02   5.669207E-02
+   2.000000E+02   3.814754E-01

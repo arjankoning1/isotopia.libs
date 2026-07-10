@@ -1,0 +1,39 @@
+# header: 
+#   title: Sb120m(t,x)Rh102m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.716300E-09
+   1.200000E+02   1.652180E-06
+   1.300000E+02   8.235350E-05
+   1.400000E+02   1.371947E-03
+   1.500000E+02   1.022352E-02
+   1.600000E+02   6.104659E-02
+   1.800000E+02   4.018360E-01
+   2.000000E+02   1.282327E+00

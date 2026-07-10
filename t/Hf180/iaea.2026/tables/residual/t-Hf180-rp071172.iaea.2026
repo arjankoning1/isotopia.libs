@@ -1,0 +1,46 @@
+# header: 
+#   title: Hf180(t,x)Lu172 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 180
+#   nuclide: Hf180
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 172
+#     nuclide: Lu172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.130007E-10
+   5.500000E+01   5.729954E-07
+   6.000000E+01   1.861883E-04
+   6.500000E+01   6.374659E-03
+   7.000000E+01   4.508088E-02
+   7.500000E+01   1.502946E-01
+   8.000000E+01   2.986357E-01
+   9.000000E+01   1.142174E+01
+   1.000000E+02   1.259393E+02
+   1.100000E+02   2.628066E+02
+   1.200000E+02   3.606469E+02
+   1.300000E+02   3.220535E+02
+   1.400000E+02   2.810585E+02
+   1.500000E+02   2.593436E+02
+   1.600000E+02   2.035491E+02
+   1.800000E+02   1.273563E+02
+   2.000000E+02   7.947688E+01

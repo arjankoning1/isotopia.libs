@@ -1,0 +1,39 @@
+# header: 
+#   title: Sc45(t,x)Ar34 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 34
+#     nuclide: Ar34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.611147E-08
+   1.000000E+02   3.102731E-06
+   1.100000E+02   2.191211E-05
+   1.200000E+02   6.618397E-05
+   1.300000E+02   1.761217E-04
+   1.400000E+02   4.901693E-04
+   1.500000E+02   1.076583E-03
+   1.600000E+02   1.787401E-03
+   1.800000E+02   3.690534E-03
+   2.000000E+02   5.449589E-03

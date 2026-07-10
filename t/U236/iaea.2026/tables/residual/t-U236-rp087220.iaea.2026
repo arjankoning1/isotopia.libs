@@ -1,0 +1,40 @@
+# header: 
+#   title: U236(t,x)Fr220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 236
+#   nuclide: U236
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 220
+#     nuclide: Fr220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.714014E-10
+   9.000000E+01   9.707410E-07
+   1.000000E+02   2.218763E-04
+   1.100000E+02   9.387744E-04
+   1.200000E+02   4.045133E-02
+   1.300000E+02   4.813115E-01
+   1.400000E+02   1.424034E+00
+   1.500000E+02   3.208449E+00
+   1.600000E+02   3.672460E+00
+   1.800000E+02   1.192185E+01
+   2.000000E+02   3.818904E+00

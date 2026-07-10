@@ -1,0 +1,38 @@
+# header: 
+#   title: Ce144(t,x)Cs129 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 129
+#     nuclide: Cs129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   6.616326E-08
+   1.100000E+02   1.422044E-04
+   1.200000E+02   5.352597E-03
+   1.300000E+02   2.187371E-01
+   1.400000E+02   6.293706E+00
+   1.500000E+02   3.912166E+01
+   1.600000E+02   9.208039E+01
+   1.800000E+02   1.769965E+02
+   2.000000E+02   1.468974E+02

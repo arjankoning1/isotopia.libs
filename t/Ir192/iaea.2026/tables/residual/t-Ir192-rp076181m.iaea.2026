@@ -1,0 +1,42 @@
+# header: 
+#   title: Ir192(t,x)Os181m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 181
+#     nuclide: Os181m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.180696E-09
+   9.000000E+01   1.379963E-04
+   1.000000E+02   2.061328E-02
+   1.100000E+02   2.221198E-01
+   1.200000E+02   2.914432E+00
+   1.300000E+02   3.532263E+01
+   1.400000E+02   1.119695E+02
+   1.500000E+02   1.967065E+02
+   1.600000E+02   2.245662E+02
+   1.800000E+02   1.859212E+02
+   2.000000E+02   1.793790E+02

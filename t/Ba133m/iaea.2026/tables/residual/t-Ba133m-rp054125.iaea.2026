@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba133m(t,x)Xe125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.002353E-08
+   6.000000E+01   6.183669E-05
+   6.500000E+01   2.695400E-03
+   7.000000E+01   2.106384E-02
+   7.500000E+01   8.772318E-02
+   8.000000E+01   3.389166E-01
+   9.000000E+01   2.360679E+00
+   1.000000E+02   7.968599E+00
+   1.100000E+02   4.102923E+01
+   1.200000E+02   1.155890E+02
+   1.300000E+02   1.686528E+02
+   1.400000E+02   1.793593E+02
+   1.500000E+02   1.810880E+02
+   1.600000E+02   1.296250E+02
+   1.800000E+02   1.146662E+02
+   2.000000E+02   5.584378E+01

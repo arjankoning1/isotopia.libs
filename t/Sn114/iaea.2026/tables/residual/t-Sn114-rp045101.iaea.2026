@@ -1,0 +1,43 @@
+# header: 
+#   title: Sn114(t,x)Rh101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.400478E-09
+   7.000000E+01   5.448854E-07
+   7.500000E+01   2.806781E-05
+   8.000000E+01   3.495423E-04
+   9.000000E+01   5.469729E-03
+   1.000000E+02   6.472472E-02
+   1.100000E+02   1.108473E+00
+   1.200000E+02   5.871247E+00
+   1.300000E+02   1.072448E+01
+   1.400000E+02   1.447049E+01
+   1.500000E+02   1.864106E+01
+   1.600000E+02   2.410444E+01
+   1.800000E+02   2.924876E+01
+   2.000000E+02   2.045481E+01

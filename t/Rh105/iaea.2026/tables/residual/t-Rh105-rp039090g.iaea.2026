@@ -1,0 +1,43 @@
+# header: 
+#   title: Rh105(t,x)Y90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.163377E-11
+   8.000000E+01   1.465591E-09
+   9.000000E+01   3.273216E-07
+   1.000000E+02   1.925190E-05
+   1.100000E+02   2.113860E-04
+   1.200000E+02   1.611917E-03
+   1.300000E+02   1.205385E-02
+   1.400000E+02   4.726379E-02
+   1.500000E+02   9.351914E-02
+   1.600000E+02   1.365144E-01
+   1.800000E+02   1.715151E-01
+   2.000000E+02   2.038674E-01

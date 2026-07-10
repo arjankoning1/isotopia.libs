@@ -1,0 +1,41 @@
+# header: 
+#   title: Nd146(t,x)Nd137m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.897719E-07
+   1.000000E+02   1.052830E-03
+   1.100000E+02   3.359887E-02
+   1.200000E+02   4.157143E-01
+   1.300000E+02   1.634921E+00
+   1.400000E+02   3.246459E+00
+   1.500000E+02   4.611206E+00
+   1.600000E+02   5.599461E+00
+   1.800000E+02   6.182293E+00
+   2.000000E+02   6.060671E+00

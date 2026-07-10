@@ -1,0 +1,39 @@
+# header: 
+#   title: Gd150(t,x)La132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 64
+#   A: 150
+#   nuclide: Gd150
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 132
+#     nuclide: La132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.537316E-12
+   1.000000E+02   1.525069E-08
+   1.100000E+02   7.324138E-07
+   1.200000E+02   9.188574E-06
+   1.300000E+02   1.953040E-04
+   1.400000E+02   1.727946E-03
+   1.500000E+02   4.598248E-03
+   1.600000E+02   1.048671E-02
+   1.800000E+02   7.852297E-02
+   2.000000E+02   1.448783E-01

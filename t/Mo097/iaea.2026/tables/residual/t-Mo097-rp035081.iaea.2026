@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo97(t,x)Br81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 35
+#     A: 81
+#     nuclide: Br81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   4.158044E-11
+   8.000000E+01   6.713837E-09
+   9.000000E+01   1.524932E-06
+   1.000000E+02   1.890702E-05
+   1.100000E+02   1.486943E-04
+   1.200000E+02   2.360854E-03
+   1.300000E+02   1.045272E-02
+   1.400000E+02   2.376979E-02
+   1.500000E+02   3.965534E-02
+   1.600000E+02   9.260756E-02
+   1.800000E+02   4.088461E-01
+   2.000000E+02   5.286239E-01

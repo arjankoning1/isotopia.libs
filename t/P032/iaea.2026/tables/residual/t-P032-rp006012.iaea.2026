@@ -1,0 +1,40 @@
+# header: 
+#   title: P32(t,x)C12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   7.683553E-11
+   9.000000E+01   3.503678E-07
+   1.000000E+02   1.309710E-05
+   1.100000E+02   7.745627E-05
+   1.200000E+02   3.319602E-04
+   1.300000E+02   2.187752E-03
+   1.400000E+02   1.044434E-02
+   1.500000E+02   4.053352E-02
+   1.600000E+02   1.296522E-01
+   1.800000E+02   7.013930E-01
+   2.000000E+02   2.054882E+00

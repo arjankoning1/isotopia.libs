@@ -1,0 +1,41 @@
+# header: 
+#   title: Sb127(t,x)Ag113m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 127
+#   nuclide: Sb127
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 113
+#     nuclide: Ag113m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.299595E-10
+   1.000000E+02   8.303606E-07
+   1.100000E+02   2.781732E-05
+   1.200000E+02   3.944874E-04
+   1.300000E+02   4.975813E-03
+   1.400000E+02   4.618829E-02
+   1.500000E+02   1.615032E-01
+   1.600000E+02   3.823079E-01
+   1.800000E+02   6.409672E-01
+   2.000000E+02   4.696698E-01

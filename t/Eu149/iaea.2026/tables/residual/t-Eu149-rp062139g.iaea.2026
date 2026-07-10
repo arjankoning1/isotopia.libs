@@ -1,0 +1,42 @@
+# header: 
+#   title: Eu149(t,x)Sm139g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 149
+#   nuclide: Eu149
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 62
+#     A: 139
+#     nuclide: Sm139g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.323015E-10
+   9.000000E+01   8.042010E-05
+   1.000000E+02   1.382995E-02
+   1.100000E+02   1.372429E-01
+   1.200000E+02   4.387465E-01
+   1.300000E+02   1.344090E+00
+   1.400000E+02   3.451984E+00
+   1.500000E+02   5.921057E+00
+   1.600000E+02   8.582507E+00
+   1.800000E+02   1.022768E+01
+   2.000000E+02   8.698858E+00

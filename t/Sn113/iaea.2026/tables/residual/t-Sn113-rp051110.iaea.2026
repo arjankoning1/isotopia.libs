@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn113(t,x)Sb110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 110
+#     nuclide: Sb110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.197786E-05
+   5.500000E+01   2.957725E-03
+   6.000000E+01   2.314952E-02
+   6.500000E+01   8.331999E-02
+   7.000000E+01   1.726535E-01
+   7.500000E+01   2.468913E-01
+   8.000000E+01   2.838915E-01
+   9.000000E+01   2.663324E-01
+   1.000000E+02   2.016928E-01
+   1.100000E+02   1.452069E-01
+   1.200000E+02   1.080579E-01
+   1.300000E+02   8.660799E-02
+   1.400000E+02   7.427285E-02
+   1.500000E+02   6.639411E-02
+   1.600000E+02   6.126831E-02
+   1.800000E+02   5.530631E-02
+   2.000000E+02   5.212584E-02

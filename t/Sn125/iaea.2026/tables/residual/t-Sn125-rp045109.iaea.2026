@@ -1,0 +1,39 @@
+# header: 
+#   title: Sn125(t,x)Rh109 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 109
+#     nuclide: Rh109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.718589E-12
+   1.000000E+02   9.266917E-08
+   1.100000E+02   1.014000E-05
+   1.200000E+02   1.171951E-04
+   1.300000E+02   9.733514E-04
+   1.400000E+02   1.007992E-02
+   1.500000E+02   3.790471E-02
+   1.600000E+02   6.201706E-02
+   1.800000E+02   1.038531E-01
+   2.000000E+02   8.415314E-02

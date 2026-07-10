@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti49(t,x)P32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.368648E-12
+   9.000000E+01   3.887990E-07
+   1.000000E+02   4.408619E-05
+   1.100000E+02   4.122148E-04
+   1.200000E+02   1.590101E-03
+   1.300000E+02   1.356531E-02
+   1.400000E+02   6.147653E-02
+   1.500000E+02   1.592454E-01
+   1.600000E+02   4.105918E-01
+   1.800000E+02   2.290563E+00
+   2.000000E+02   6.746265E+00

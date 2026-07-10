@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca42(t,x)Mg28 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 28
+#     nuclide: Mg28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.602635E-11
+   6.000000E+01   4.743684E-09
+   6.500000E+01   9.602348E-08
+   7.000000E+01   5.743892E-07
+   7.500000E+01   1.717458E-06
+   8.000000E+01   3.323097E-06
+   9.000000E+01   2.438757E-05
+   1.000000E+02   4.228476E-04
+   1.100000E+02   1.754476E-03
+   1.200000E+02   3.425970E-03
+   1.300000E+02   5.347688E-03
+   1.400000E+02   1.108657E-02
+   1.500000E+02   2.633617E-02
+   1.600000E+02   4.956107E-02
+   1.800000E+02   1.042546E-01
+   2.000000E+02   1.647762E-01

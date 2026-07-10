@@ -1,0 +1,39 @@
+# header: 
+#   title: Dy164(t,x)Tb150g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 164
+#   nuclide: Dy164
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 150
+#     nuclide: Tb150g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.123758E-08
+   1.200000E+02   9.526217E-05
+   1.300000E+02   3.273653E-03
+   1.400000E+02   1.965094E-02
+   1.500000E+02   9.607036E-02
+   1.600000E+02   4.834169E-01
+   1.800000E+02   2.070363E+00
+   2.000000E+02   1.101401E+00

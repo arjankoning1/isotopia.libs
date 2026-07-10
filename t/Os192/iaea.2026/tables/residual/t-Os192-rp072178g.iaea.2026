@@ -1,0 +1,42 @@
+# header: 
+#   title: Os192(t,x)Hf178g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 192
+#   nuclide: Os192
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 72
+#     A: 178
+#     nuclide: Hf178g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.278524E-12
+   9.000000E+01   1.064206E-08
+   1.000000E+02   9.575023E-07
+   1.100000E+02   2.113405E-05
+   1.200000E+02   3.853962E-04
+   1.300000E+02   6.608170E-03
+   1.400000E+02   4.130098E-02
+   1.500000E+02   1.087020E-01
+   1.600000E+02   1.634207E-01
+   1.800000E+02   1.192056E-01
+   2.000000E+02   8.995781E-02

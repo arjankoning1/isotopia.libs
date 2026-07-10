@@ -1,0 +1,51 @@
+# header: 
+#   title: Sn125(t,x)Sn121g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 121
+#     nuclide: Sn121g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.725152E-07
+   4.000000E+01   1.045549E-02
+   4.500000E+01   4.660753E-01
+   5.000000E+01   2.076882E+00
+   5.500000E+01   3.685833E+00
+   6.000000E+01   4.957413E+00
+   6.500000E+01   6.972535E+00
+   7.000000E+01   9.363093E+00
+   7.500000E+01   1.152348E+01
+   8.000000E+01   1.261254E+01
+   9.000000E+01   1.228839E+01
+   1.000000E+02   1.004414E+01
+   1.100000E+02   8.306530E+00
+   1.200000E+02   7.184619E+00
+   1.300000E+02   6.328123E+00
+   1.400000E+02   5.487907E+00
+   1.500000E+02   5.350483E+00
+   1.600000E+02   5.449914E+00
+   1.800000E+02   4.533157E+00
+   2.000000E+02   4.907253E+00

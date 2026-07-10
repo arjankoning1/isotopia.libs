@@ -1,0 +1,44 @@
+# header: 
+#   title: Te123(t,x)Te117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 117
+#     nuclide: Te117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.986008E-10
+   6.500000E+01   1.734304E-05
+   7.000000E+01   2.332730E-03
+   7.500000E+01   2.951088E-02
+   8.000000E+01   1.320795E-01
+   9.000000E+01   1.387478E+00
+   1.000000E+02   6.413488E+00
+   1.100000E+02   1.304956E+01
+   1.200000E+02   1.782133E+01
+   1.300000E+02   1.980733E+01
+   1.400000E+02   1.904044E+01
+   1.500000E+02   1.759121E+01
+   1.600000E+02   1.708957E+01
+   1.800000E+02   1.522851E+01
+   2.000000E+02   1.349359E+01

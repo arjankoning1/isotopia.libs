@@ -1,0 +1,44 @@
+# header: 
+#   title: Te125(t,x)Cd113g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 113
+#     nuclide: Cd113g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.048743E-11
+   7.500000E+01   2.429679E-08
+   8.000000E+01   1.050836E-06
+   9.000000E+01   5.702958E-05
+   1.000000E+02   8.094542E-04
+   1.100000E+02   7.329086E-03
+   1.200000E+02   7.655884E-02
+   1.300000E+02   4.074814E-01
+   1.400000E+02   1.210594E+00
+   1.500000E+02   1.667273E+00
+   1.600000E+02   1.971741E+00
+   1.800000E+02   1.819645E+00
+   2.000000E+02   1.276808E+00

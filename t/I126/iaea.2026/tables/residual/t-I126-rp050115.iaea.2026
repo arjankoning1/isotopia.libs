@@ -1,0 +1,44 @@
+# header: 
+#   title: I126(t,x)Sn115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 115
+#     nuclide: Sn115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.472894E-12
+   6.500000E+01   1.407572E-08
+   7.000000E+01   2.014816E-06
+   7.500000E+01   6.473100E-05
+   8.000000E+01   6.441544E-04
+   9.000000E+01   7.415392E-03
+   1.000000E+02   5.719734E-02
+   1.100000E+02   9.405246E-01
+   1.200000E+02   3.195750E+00
+   1.300000E+02   6.148223E+00
+   1.400000E+02   7.225803E+00
+   1.500000E+02   8.397403E+00
+   1.600000E+02   9.727978E+00
+   1.800000E+02   1.216507E+01
+   2.000000E+02   6.860671E+00

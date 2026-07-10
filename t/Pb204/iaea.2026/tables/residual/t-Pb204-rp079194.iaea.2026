@@ -1,0 +1,45 @@
+# header: 
+#   title: Pb204(t,x)Au194 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.190281E-10
+   6.000000E+01   1.702396E-07
+   6.500000E+01   2.736970E-05
+   7.000000E+01   7.403875E-04
+   7.500000E+01   5.626820E-03
+   8.000000E+01   1.949945E-02
+   9.000000E+01   5.522732E-02
+   1.000000E+02   3.984550E-01
+   1.100000E+02   1.414975E+00
+   1.200000E+02   2.495911E+00
+   1.300000E+02   2.368173E+00
+   1.400000E+02   1.951604E+00
+   1.500000E+02   1.790497E+00
+   1.600000E+02   1.644709E+00
+   1.800000E+02   8.305734E-01
+   2.000000E+02   8.875091E-01

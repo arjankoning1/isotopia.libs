@@ -1,0 +1,42 @@
+# header: 
+#   title: In111(t,x)Mo95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 111
+#   nuclide: In111
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 95
+#     nuclide: Mo95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.440404E-10
+   7.500000E+01   3.453085E-08
+   8.000000E+01   1.084673E-06
+   9.000000E+01   6.402143E-05
+   1.000000E+02   4.126717E-04
+   1.100000E+02   8.921081E-03
+   1.200000E+02   7.469474E-02
+   1.300000E+02   2.200961E-01
+   1.400000E+02   3.092964E-01
+   1.500000E+02   5.148183E-01
+   1.600000E+02   1.015309E+00
+   1.800000E+02   1.561022E+00
+   2.000000E+02   2.578284E+00

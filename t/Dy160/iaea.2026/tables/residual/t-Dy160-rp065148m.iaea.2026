@@ -1,0 +1,41 @@
+# header: 
+#   title: Dy160(t,x)Tb148m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 66
+#   A: 160
+#   nuclide: Dy160
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 148
+#     nuclide: Tb148m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.880223E-11
+   1.000000E+02   6.404243E-05
+   1.100000E+02   1.666546E-02
+   1.200000E+02   2.090472E-01
+   1.300000E+02   9.472949E-01
+   1.400000E+02   6.221831E+00
+   1.500000E+02   2.370938E+01
+   1.600000E+02   5.113248E+01
+   1.800000E+02   8.514289E+01
+   2.000000E+02   6.871846E+01

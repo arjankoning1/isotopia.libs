@@ -1,0 +1,44 @@
+# header: 
+#   title: N14(t,x)Be13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 13
+#     nuclide: Be13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.339908E-11
+   6.500000E+01   3.600199E-08
+   7.000000E+01   5.655746E-07
+   7.500000E+01   2.573854E-06
+   8.000000E+01   6.525307E-06
+   9.000000E+01   1.687924E-05
+   1.000000E+02   2.520129E-05
+   1.100000E+02   2.815578E-05
+   1.200000E+02   2.698443E-05
+   1.300000E+02   2.315594E-05
+   1.400000E+02   1.864208E-05
+   1.500000E+02   1.421168E-05
+   1.600000E+02   1.037900E-05
+   1.800000E+02   5.003337E-06
+   2.000000E+02   2.282978E-06

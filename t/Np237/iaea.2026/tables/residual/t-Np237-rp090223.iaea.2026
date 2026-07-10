@@ -1,0 +1,39 @@
+# header: 
+#   title: Np237(t,x)Th223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 223
+#     nuclide: Th223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.485390E-09
+   1.000000E+02   9.441205E-06
+   1.100000E+02   8.074990E-04
+   1.200000E+02   7.218540E-03
+   1.300000E+02   5.263820E-02
+   1.400000E+02   3.510639E-01
+   1.500000E+02   1.011536E+00
+   1.600000E+02   3.267203E+00
+   1.800000E+02   2.624366E+00
+   2.000000E+02   7.727276E-01

@@ -1,0 +1,35 @@
+# header: 
+#   title: Md260(t,x)U237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 101
+#   A: 260
+#   nuclide: Md260
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   6.188726E-11
+   1.400000E+02   1.451509E-08
+   1.500000E+02   1.584272E-07
+   1.600000E+02   7.674873E-07
+   1.800000E+02   4.580288E-06
+   2.000000E+02   7.279369E-06

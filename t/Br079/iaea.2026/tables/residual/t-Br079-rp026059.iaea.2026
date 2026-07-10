@@ -1,0 +1,39 @@
+# header: 
+#   title: Br79(t,x)Fe59 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.270789E-11
+   1.000000E+02   6.958328E-08
+   1.100000E+02   2.782607E-06
+   1.200000E+02   1.802078E-05
+   1.300000E+02   5.461990E-05
+   1.400000E+02   2.058487E-04
+   1.500000E+02   7.088674E-04
+   1.600000E+02   1.766206E-03
+   1.800000E+02   1.126334E-02
+   2.000000E+02   4.464772E-02

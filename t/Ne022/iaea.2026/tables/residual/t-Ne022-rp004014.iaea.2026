@@ -1,0 +1,40 @@
+# header: 
+#   title: Ne22(t,x)Be14 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 14
+#     nuclide: Be14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.159626E-12
+   9.000000E+01   1.271690E-08
+   1.000000E+02   1.585105E-07
+   1.100000E+02   5.346459E-07
+   1.200000E+02   1.406927E-06
+   1.300000E+02   3.229364E-06
+   1.400000E+02   5.685139E-06
+   1.500000E+02   8.378436E-06
+   1.600000E+02   9.974476E-06
+   1.800000E+02   1.384999E-05
+   2.000000E+02   1.678106E-05

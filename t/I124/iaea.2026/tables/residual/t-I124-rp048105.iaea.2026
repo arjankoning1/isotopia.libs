@@ -1,0 +1,36 @@
+# header: 
+#   title: I124(t,x)Cd105 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 105
+#     nuclide: Cd105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.008450E-12
+   1.300000E+02   2.048945E-08
+   1.400000E+02   6.731311E-06
+   1.500000E+02   2.141711E-04
+   1.600000E+02   2.002139E-03
+   1.800000E+02   1.144303E-01
+   2.000000E+02   1.281187E+00

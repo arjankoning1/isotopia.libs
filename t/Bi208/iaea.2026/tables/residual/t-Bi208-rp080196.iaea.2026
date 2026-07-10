@@ -1,0 +1,42 @@
+# header: 
+#   title: Bi208(t,x)Hg196 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 196
+#     nuclide: Hg196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.714073E-10
+   7.500000E+01   7.567319E-08
+   8.000000E+01   5.859519E-06
+   9.000000E+01   9.162963E-04
+   1.000000E+02   1.007918E-02
+   1.100000E+02   3.564325E-01
+   1.200000E+02   5.273071E+00
+   1.300000E+02   1.292308E+01
+   1.400000E+02   1.980596E+01
+   1.500000E+02   1.822385E+01
+   1.600000E+02   1.765467E+01
+   1.800000E+02   1.247039E+01
+   2.000000E+02   6.873853E+00

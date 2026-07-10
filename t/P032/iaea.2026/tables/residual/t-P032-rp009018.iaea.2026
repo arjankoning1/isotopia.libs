@@ -1,0 +1,42 @@
+# header: 
+#   title: P32(t,x)F18 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.793728E-11
+   7.500000E+01   8.683012E-08
+   8.000000E+01   4.182064E-06
+   9.000000E+01   1.832445E-04
+   1.000000E+02   2.292232E-03
+   1.100000E+02   1.347309E-02
+   1.200000E+02   5.704022E-02
+   1.300000E+02   2.431746E-01
+   1.400000E+02   7.524631E-01
+   1.500000E+02   1.644899E+00
+   1.600000E+02   2.844536E+00
+   1.800000E+02   5.824137E+00
+   2.000000E+02   1.107216E+01

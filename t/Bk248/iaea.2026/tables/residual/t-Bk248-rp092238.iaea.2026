@@ -1,0 +1,47 @@
+# header: 
+#   title: Bk248(t,x)U238 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 248
+#   nuclide: Bk248
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 238
+#     nuclide: U238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.107774E-12
+   5.000000E+01   3.349592E-11
+   5.500000E+01   3.012806E-10
+   6.000000E+01   1.178092E-09
+   6.500000E+01   1.101708E-08
+   7.000000E+01   3.277139E-07
+   7.500000E+01   3.535488E-06
+   8.000000E+01   1.458717E-05
+   9.000000E+01   8.107927E-05
+   1.000000E+02   1.878479E-04
+   1.100000E+02   1.826811E-04
+   1.200000E+02   2.045536E-04
+   1.300000E+02   1.670156E-04
+   1.400000E+02   1.482246E-04
+   1.500000E+02   1.203450E-04
+   1.600000E+02   1.032353E-04
+   1.800000E+02   1.158760E-04
+   2.000000E+02   2.356849E-05

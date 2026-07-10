@@ -1,0 +1,43 @@
+# header: 
+#   title: Bi206(t,x)Au193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.853839E-12
+   8.000000E+01   3.684074E-09
+   9.000000E+01   5.963738E-06
+   1.000000E+02   2.272611E-04
+   1.100000E+02   3.230323E-03
+   1.200000E+02   2.521749E-02
+   1.300000E+02   1.377135E-01
+   1.400000E+02   4.832795E-01
+   1.500000E+02   7.648472E-01
+   1.600000E+02   1.038264E+00
+   1.800000E+02   6.636499E-01
+   2.000000E+02   5.062467E-01

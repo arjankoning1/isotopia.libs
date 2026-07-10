@@ -1,0 +1,44 @@
+# header: 
+#   title: Cd112(t,x)Ag104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.747721E-11
+   6.500000E+01   2.613606E-06
+   7.000000E+01   1.890408E-03
+   7.500000E+01   5.747782E-02
+   8.000000E+01   4.554398E-01
+   9.000000E+01   3.116424E+00
+   1.000000E+02   8.274374E+00
+   1.100000E+02   3.628934E+01
+   1.200000E+02   1.090027E+02
+   1.300000E+02   1.682207E+02
+   1.400000E+02   2.073121E+02
+   1.500000E+02   2.108079E+02
+   1.600000E+02   1.896760E+02
+   1.800000E+02   1.397476E+02
+   2.000000E+02   1.239999E+02

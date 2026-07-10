@@ -1,0 +1,43 @@
+# header: 
+#   title: Se82(t,x)Cu69 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 69
+#     nuclide: Cu69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.415043E-12
+   7.000000E+01   2.265203E-09
+   7.500000E+01   1.227366E-07
+   8.000000E+01   1.813017E-06
+   9.000000E+01   3.133316E-05
+   1.000000E+02   2.330645E-04
+   1.100000E+02   3.694963E-03
+   1.200000E+02   1.964790E-02
+   1.300000E+02   4.288895E-02
+   1.400000E+02   5.821743E-02
+   1.500000E+02   9.836791E-02
+   1.600000E+02   1.638660E-01
+   1.800000E+02   1.975566E-01
+   2.000000E+02   2.205424E-01

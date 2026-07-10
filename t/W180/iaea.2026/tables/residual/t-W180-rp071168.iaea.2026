@@ -1,0 +1,42 @@
+# header: 
+#   title: W180(t,x)Lu168 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 74
+#   A: 180
+#   nuclide: W180
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 168
+#     nuclide: Lu168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.107685E-10
+   7.500000E+01   2.345848E-07
+   8.000000E+01   3.868783E-05
+   9.000000E+01   1.133179E-02
+   1.000000E+02   1.651488E-01
+   1.100000E+02   6.895109E-01
+   1.200000E+02   5.076552E+00
+   1.300000E+02   2.055553E+01
+   1.400000E+02   3.577281E+01
+   1.500000E+02   3.812524E+01
+   1.600000E+02   4.682102E+01
+   1.800000E+02   3.106573E+01
+   2.000000E+02   3.474822E+01

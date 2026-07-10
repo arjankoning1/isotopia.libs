@@ -1,0 +1,46 @@
+# header: 
+#   title: Ge73(t,x)Co60g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 73
+#   nuclide: Ge73
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.753860E-11
+   6.500000E+01   5.484793E-08
+   7.000000E+01   6.026695E-06
+   7.500000E+01   1.074210E-04
+   8.000000E+01   6.376618E-04
+   9.000000E+01   3.494989E-03
+   1.000000E+02   3.132938E-02
+   1.100000E+02   2.724284E-01
+   1.200000E+02   1.022441E+00
+   1.300000E+02   1.748734E+00
+   1.400000E+02   2.511009E+00
+   1.500000E+02   4.688173E+00
+   1.600000E+02   7.395565E+00
+   1.800000E+02   1.178729E+01
+   2.000000E+02   1.107858E+01

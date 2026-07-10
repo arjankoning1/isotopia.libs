@@ -1,0 +1,36 @@
+# header: 
+#   title: Sb120m(t,x)Ru99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 99
+#     nuclide: Ru99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.209259E-11
+   1.300000E+02   2.233882E-08
+   1.400000E+02   1.072229E-06
+   1.500000E+02   2.012515E-05
+   1.600000E+02   4.300455E-04
+   1.800000E+02   1.959922E-02
+   2.000000E+02   2.327156E-01

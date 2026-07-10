@@ -1,0 +1,39 @@
+# header: 
+#   title: Te119m(t,x)Rh99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 119
+#   nuclide: Te119m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.587054E-10
+   1.200000E+02   1.358763E-06
+   1.300000E+02   1.282805E-04
+   1.400000E+02   1.855134E-03
+   1.500000E+02   2.611568E-02
+   1.600000E+02   3.573009E-01
+   1.800000E+02   4.266817E+00
+   2.000000E+02   1.211539E+01

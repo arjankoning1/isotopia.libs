@@ -1,0 +1,51 @@
+# header: 
+#   title: Mg25(t,x)Al24g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 24
+#     nuclide: Al24g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   3.962155E-07
+   4.000000E+01   5.975056E-03
+   4.500000E+01   4.965413E-02
+   5.000000E+01   1.169927E-01
+   5.500000E+01   1.786194E-01
+   6.000000E+01   2.228930E-01
+   6.500000E+01   2.469595E-01
+   7.000000E+01   2.508399E-01
+   7.500000E+01   2.326099E-01
+   8.000000E+01   2.025355E-01
+   9.000000E+01   1.355431E-01
+   1.000000E+02   8.314282E-02
+   1.100000E+02   5.202777E-02
+   1.200000E+02   3.403451E-02
+   1.300000E+02   2.393808E-02
+   1.400000E+02   1.817523E-02
+   1.500000E+02   1.457068E-02
+   1.600000E+02   1.223192E-02
+   1.800000E+02   9.364707E-03
+   2.000000E+02   7.574213E-03

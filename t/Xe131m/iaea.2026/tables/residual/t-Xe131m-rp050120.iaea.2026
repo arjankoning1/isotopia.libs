@@ -1,0 +1,44 @@
+# header: 
+#   title: Xe131m(t,x)Sn120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 120
+#     nuclide: Sn120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.575504E-10
+   6.500000E+01   3.141864E-08
+   7.000000E+01   9.540264E-07
+   7.500000E+01   7.581246E-06
+   8.000000E+01   3.360045E-05
+   9.000000E+01   4.903766E-04
+   1.000000E+02   2.430480E-03
+   1.100000E+02   1.201214E-02
+   1.200000E+02   6.782764E-02
+   1.300000E+02   1.572867E-01
+   1.400000E+02   1.854243E-01
+   1.500000E+02   2.022642E-01
+   1.600000E+02   1.941269E-01
+   1.800000E+02   1.277805E-01
+   2.000000E+02   1.003296E-01

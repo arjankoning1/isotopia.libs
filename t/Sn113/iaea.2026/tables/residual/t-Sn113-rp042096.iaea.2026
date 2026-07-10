@@ -1,0 +1,40 @@
+# header: 
+#   title: Sn113(t,x)Mo96 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 96
+#     nuclide: Mo96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   8.254917E-11
+   9.000000E+01   3.128131E-08
+   1.000000E+02   2.536002E-06
+   1.100000E+02   4.153801E-05
+   1.200000E+02   9.383248E-04
+   1.300000E+02   1.696721E-02
+   1.400000E+02   7.740492E-02
+   1.500000E+02   1.736521E-01
+   1.600000E+02   2.438530E-01
+   1.800000E+02   3.333821E-01
+   2.000000E+02   4.807860E-01

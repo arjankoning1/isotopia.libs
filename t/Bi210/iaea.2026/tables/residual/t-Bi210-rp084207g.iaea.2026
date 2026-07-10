@@ -1,0 +1,51 @@
+# header: 
+#   title: Bi210(t,x)Po207g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   1.774304E-01
+   4.000000E+01   2.392920E+01
+   4.500000E+01   1.429188E+01
+   5.000000E+01   4.020081E+01
+   5.500000E+01   6.280264E+01
+   6.000000E+01   7.024806E+01
+   6.500000E+01   6.413228E+01
+   7.000000E+01   5.180637E+01
+   7.500000E+01   3.913310E+01
+   8.000000E+01   2.881675E+01
+   9.000000E+01   1.690843E+01
+   1.000000E+02   1.129831E+01
+   1.100000E+02   8.567591E+00
+   1.200000E+02   6.975062E+00
+   1.300000E+02   6.091095E+00
+   1.400000E+02   4.915343E+00
+   1.500000E+02   4.549962E+00
+   1.600000E+02   4.101130E+00
+   1.800000E+02   3.287864E+00
+   2.000000E+02   2.878262E+00

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ar40(t,x)Ne25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 25
+#     nuclide: Ne25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.506287E-12
+   7.500000E+01   4.671248E-10
+   8.000000E+01   1.048911E-08
+   9.000000E+01   2.552139E-07
+   1.000000E+02   1.105375E-06
+   1.100000E+02   3.378274E-06
+   1.200000E+02   1.344670E-05
+   1.300000E+02   4.099276E-05
+   1.400000E+02   8.039574E-05
+   1.500000E+02   1.237299E-04
+   1.600000E+02   1.940988E-04
+   1.800000E+02   4.905686E-04
+   2.000000E+02   1.020456E-03

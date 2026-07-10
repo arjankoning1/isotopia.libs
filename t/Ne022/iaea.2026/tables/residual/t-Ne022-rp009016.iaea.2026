@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne22(t,x)F16 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 16
+#     nuclide: F16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.638791E-08
+   6.500000E+01   1.588480E-05
+   7.000000E+01   1.676659E-04
+   7.500000E+01   6.341579E-04
+   8.000000E+01   1.479062E-03
+   9.000000E+01   4.422597E-03
+   1.000000E+02   9.139521E-03
+   1.100000E+02   1.600338E-02
+   1.200000E+02   2.580176E-02
+   1.300000E+02   3.956194E-02
+   1.400000E+02   5.393553E-02
+   1.500000E+02   6.343023E-02
+   1.600000E+02   7.434252E-02
+   1.800000E+02   7.677838E-02
+   2.000000E+02   7.873335E-02

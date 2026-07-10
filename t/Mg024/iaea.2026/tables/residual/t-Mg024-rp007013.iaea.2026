@@ -1,0 +1,48 @@
+# header: 
+#   title: Mg24(t,x)N13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 13
+#     nuclide: N13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.480717E-11
+   4.500000E+01   1.741099E-05
+   5.000000E+01   1.787529E-03
+   5.500000E+01   1.139349E-02
+   6.000000E+01   3.501510E-02
+   6.500000E+01   7.122396E-02
+   7.000000E+01   1.093846E-01
+   7.500000E+01   1.431540E-01
+   8.000000E+01   1.808871E-01
+   9.000000E+01   3.800869E-01
+   1.000000E+02   7.787252E-01
+   1.100000E+02   1.352933E+00
+   1.200000E+02   2.295486E+00
+   1.300000E+02   3.669421E+00
+   1.400000E+02   5.438256E+00
+   1.500000E+02   8.029465E+00
+   1.600000E+02   1.068667E+01
+   1.800000E+02   1.667937E+01
+   2.000000E+02   2.124558E+01

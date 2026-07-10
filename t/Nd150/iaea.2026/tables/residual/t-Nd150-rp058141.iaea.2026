@@ -1,0 +1,46 @@
+# header: 
+#   title: Nd150(t,x)Ce141 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 141
+#     nuclide: Ce141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.201834E-10
+   5.500000E+01   5.825628E-07
+   6.000000E+01   5.062918E-05
+   6.500000E+01   7.229191E-04
+   7.000000E+01   3.717202E-03
+   7.500000E+01   1.503606E-02
+   8.000000E+01   5.219667E-02
+   9.000000E+01   3.594497E-01
+   1.000000E+02   2.040435E+00
+   1.100000E+02   6.117238E+00
+   1.200000E+02   1.022366E+01
+   1.300000E+02   1.069654E+01
+   1.400000E+02   1.088195E+01
+   1.500000E+02   8.404870E+00
+   1.600000E+02   6.724041E+00
+   1.800000E+02   5.365928E+00
+   2.000000E+02   4.025866E+00

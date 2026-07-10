@@ -1,0 +1,51 @@
+# header: 
+#   title: Ni57(t,x)Co53m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 53
+#     nuclide: Co53m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 20
+##       E             xs
+##     [MeV]          [mb]
+   3.500000E+01   7.796263E-12
+   4.000000E+01   2.873107E-06
+   4.500000E+01   1.520343E-04
+   5.000000E+01   6.157412E-04
+   5.500000E+01   1.081643E-03
+   6.000000E+01   1.326126E-03
+   6.500000E+01   1.346080E-03
+   7.000000E+01   1.314734E-03
+   7.500000E+01   1.479894E-03
+   8.000000E+01   1.860104E-03
+   9.000000E+01   2.781614E-03
+   1.000000E+02   3.396036E-03
+   1.100000E+02   3.428632E-03
+   1.200000E+02   3.251865E-03
+   1.300000E+02   2.930670E-03
+   1.400000E+02   2.707093E-03
+   1.500000E+02   2.547487E-03
+   1.600000E+02   2.373738E-03
+   1.800000E+02   2.244877E-03
+   2.000000E+02   2.258766E-03

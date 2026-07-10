@@ -1,0 +1,39 @@
+# header: 
+#   title: Ca47(t,x)Si31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.574098E-08
+   1.000000E+02   2.574982E-05
+   1.100000E+02   5.531996E-04
+   1.200000E+02   3.607919E-03
+   1.300000E+02   1.606771E-02
+   1.400000E+02   6.132670E-02
+   1.500000E+02   1.978628E-01
+   1.600000E+02   4.729888E-01
+   1.800000E+02   1.387297E+00
+   2.000000E+02   2.840640E+00

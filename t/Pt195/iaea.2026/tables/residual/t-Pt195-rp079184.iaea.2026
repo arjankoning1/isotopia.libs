@@ -1,0 +1,37 @@
+# header: 
+#   title: Pt195(t,x)Au184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 195
+#   nuclide: Pt195
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 184
+#     nuclide: Au184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   5.656751E-10
+   1.200000E+02   4.676454E-05
+   1.300000E+02   9.381187E-03
+   1.400000E+02   1.602519E-01
+   1.500000E+02   6.934592E-01
+   1.600000E+02   1.531022E+00
+   1.800000E+02   2.624028E+00
+   2.000000E+02   3.034819E+00

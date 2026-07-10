@@ -1,0 +1,45 @@
+# header: 
+#   title: Sn122(t,x)Sn116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 116
+#     nuclide: Sn116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.277845E-08
+   6.000000E+01   1.480245E-04
+   6.500000E+01   1.018441E-02
+   7.000000E+01   9.803357E-02
+   7.500000E+01   3.577762E-01
+   8.000000E+01   8.195271E-01
+   9.000000E+01   3.331913E+00
+   1.000000E+02   7.831524E+00
+   1.100000E+02   1.170260E+01
+   1.200000E+02   1.384979E+01
+   1.300000E+02   1.460883E+01
+   1.400000E+02   1.422520E+01
+   1.500000E+02   1.451334E+01
+   1.600000E+02   1.424951E+01
+   1.800000E+02   1.395502E+01
+   2.000000E+02   1.208860E+01

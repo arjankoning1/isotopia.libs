@@ -1,0 +1,39 @@
+# header: 
+#   title: Mg25(t,x)Li10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 10
+#     nuclide: Li10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.796055E-11
+   1.000000E+02   5.341187E-09
+   1.100000E+02   3.887112E-08
+   1.200000E+02   1.589774E-07
+   1.300000E+02   1.991509E-06
+   1.400000E+02   1.116895E-05
+   1.500000E+02   3.037573E-05
+   1.600000E+02   5.750261E-05
+   1.800000E+02   1.677925E-04
+   2.000000E+02   4.093674E-04

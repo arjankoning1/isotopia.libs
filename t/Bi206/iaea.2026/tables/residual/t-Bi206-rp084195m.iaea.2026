@@ -1,0 +1,38 @@
+# header: 
+#   title: Bi206(t,x)Po195m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 195
+#     nuclide: Po195m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   9.702641E-11
+   1.300000E+02   1.482884E-06
+   1.400000E+02   2.566582E-04
+   1.500000E+02   3.845312E-03
+   1.600000E+02   1.682254E-02
+   1.800000E+02   6.466601E-02
+   2.000000E+02   1.429453E-01

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ta179(t,x)W170 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 179
+#   nuclide: Ta179
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 170
+#     nuclide: W170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.965364E-11
+   1.000000E+02   1.435261E-04
+   1.100000E+02   2.990167E-02
+   1.200000E+02   4.381022E-01
+   1.300000E+02   1.691143E+00
+   1.400000E+02   3.053345E+00
+   1.500000E+02   4.159035E+00
+   1.600000E+02   4.473737E+00
+   1.800000E+02   4.096179E+00
+   2.000000E+02   3.631412E+00

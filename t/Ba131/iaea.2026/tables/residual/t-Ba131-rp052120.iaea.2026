@@ -1,0 +1,45 @@
+# header: 
+#   title: Ba131(t,x)Te120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 120
+#     nuclide: Te120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.341082E-12
+   6.000000E+01   4.342439E-09
+   6.500000E+01   9.875195E-07
+   7.000000E+01   3.929352E-05
+   7.500000E+01   3.938138E-04
+   8.000000E+01   1.646709E-03
+   9.000000E+01   1.562702E-02
+   1.000000E+02   8.203507E-02
+   1.100000E+02   4.100746E-01
+   1.200000E+02   1.690680E+00
+   1.300000E+02   3.467987E+00
+   1.400000E+02   4.357430E+00
+   1.500000E+02   5.083160E+00
+   1.600000E+02   6.168736E+00
+   1.800000E+02   4.395288E+00
+   2.000000E+02   3.134592E+00

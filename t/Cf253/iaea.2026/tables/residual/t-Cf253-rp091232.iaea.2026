@@ -1,0 +1,37 @@
+# header: 
+#   title: Cf253(t,x)Pa232 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 253
+#   nuclide: Cf253
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 232
+#     nuclide: Pa232
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.303921E-12
+   1.200000E+02   3.053040E-09
+   1.300000E+02   6.663033E-08
+   1.400000E+02   2.637039E-06
+   1.500000E+02   1.043675E-04
+   1.600000E+02   6.069189E-04
+   1.800000E+02   2.971785E-03
+   2.000000E+02   6.177417E-03

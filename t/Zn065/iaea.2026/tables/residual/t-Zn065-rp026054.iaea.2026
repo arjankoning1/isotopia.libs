@@ -1,0 +1,44 @@
+# header: 
+#   title: Zn65(t,x)Fe54 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 54
+#     nuclide: Fe54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.210167E-10
+   6.500000E+01   2.408610E-07
+   7.000000E+01   2.056530E-05
+   7.500000E+01   2.977047E-04
+   8.000000E+01   2.583155E-03
+   9.000000E+01   7.265171E-02
+   1.000000E+02   4.804928E-01
+   1.100000E+02   1.808986E+00
+   1.200000E+02   6.080046E+00
+   1.300000E+02   1.457240E+01
+   1.400000E+02   2.467712E+01
+   1.500000E+02   3.421515E+01
+   1.600000E+02   4.645986E+01
+   1.800000E+02   6.609856E+01
+   2.000000E+02   7.640170E+01

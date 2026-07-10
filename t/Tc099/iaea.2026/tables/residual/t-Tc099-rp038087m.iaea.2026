@@ -1,0 +1,48 @@
+# header: 
+#   title: Tc99(t,x)Sr87m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.247685E-12
+   5.500000E+01   2.224510E-09
+   6.000000E+01   2.435845E-07
+   6.500000E+01   4.173220E-06
+   7.000000E+01   2.339732E-05
+   7.500000E+01   6.893044E-05
+   8.000000E+01   1.405125E-04
+   9.000000E+01   2.701798E-03
+   1.000000E+02   2.935315E-02
+   1.100000E+02   7.295749E-02
+   1.200000E+02   1.076171E-01
+   1.300000E+02   1.370235E-01
+   1.400000E+02   2.306866E-01
+   1.500000E+02   3.018054E-01
+   1.600000E+02   3.929821E-01
+   1.800000E+02   4.147082E-01
+   2.000000E+02   2.556973E-01

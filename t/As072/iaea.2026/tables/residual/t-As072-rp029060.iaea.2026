@@ -1,0 +1,41 @@
+# header: 
+#   title: As72(t,x)Cu60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 72
+#   nuclide: As72
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.672849E-09
+   8.000000E+01   4.386123E-07
+   9.000000E+01   7.951471E-05
+   1.000000E+02   2.041892E-03
+   1.100000E+02   1.922319E-02
+   1.200000E+02   9.177284E-02
+   1.300000E+02   6.287099E-01
+   1.400000E+02   3.042447E+00
+   1.500000E+02   6.804289E+00
+   1.600000E+02   1.254565E+01
+   1.800000E+02   2.248821E+01
+   2.000000E+02   3.198051E+01

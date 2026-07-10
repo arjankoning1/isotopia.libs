@@ -1,0 +1,39 @@
+# header: 
+#   title: Sb119(t,x)Pd103 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 51
+#   A: 119
+#   nuclide: Sb119
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.215961E-12
+   1.000000E+02   7.659384E-08
+   1.100000E+02   2.083966E-05
+   1.200000E+02   4.829623E-04
+   1.300000E+02   2.944470E-02
+   1.400000E+02   5.302281E-01
+   1.500000E+02   2.541591E+00
+   1.600000E+02   5.537729E+00
+   1.800000E+02   1.419039E+01
+   2.000000E+02   2.879041E+01

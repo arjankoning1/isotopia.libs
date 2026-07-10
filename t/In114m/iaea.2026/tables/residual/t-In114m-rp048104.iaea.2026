@@ -1,0 +1,40 @@
+# header: 
+#   title: In114m(t,x)Cd104 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 49
+#   A: 114
+#   nuclide: In114m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 104
+#     nuclide: Cd104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.098777E-10
+   9.000000E+01   2.556466E-05
+   1.000000E+02   4.694985E-03
+   1.100000E+02   5.294351E-02
+   1.200000E+02   2.742497E-01
+   1.300000E+02   1.961826E+00
+   1.400000E+02   8.801043E+00
+   1.500000E+02   2.096471E+01
+   1.600000E+02   2.975784E+01
+   1.800000E+02   4.077598E+01
+   2.000000E+02   4.731267E+01

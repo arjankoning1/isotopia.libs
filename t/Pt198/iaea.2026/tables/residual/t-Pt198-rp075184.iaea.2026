@@ -1,0 +1,39 @@
+# header: 
+#   title: Pt198(t,x)Re184 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 78
+#   A: 198
+#   nuclide: Pt198
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.160503E-08
+   1.000000E+02   1.037111E-05
+   1.100000E+02   3.785203E-04
+   1.200000E+02   4.801060E-02
+   1.300000E+02   8.877423E-01
+   1.400000E+02   4.774523E+00
+   1.500000E+02   7.986614E+00
+   1.600000E+02   1.034666E+01
+   1.800000E+02   7.860396E+00
+   2.000000E+02   6.211088E+00

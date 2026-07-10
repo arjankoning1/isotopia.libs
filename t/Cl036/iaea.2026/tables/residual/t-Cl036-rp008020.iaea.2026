@@ -1,0 +1,41 @@
+# header: 
+#   title: Cl36(t,x)O20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 20
+#     nuclide: O20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.997852E-11
+   8.000000E+01   3.144250E-09
+   9.000000E+01   5.173783E-07
+   1.000000E+02   4.608311E-06
+   1.100000E+02   1.244900E-05
+   1.200000E+02   2.566998E-05
+   1.300000E+02   9.530334E-05
+   1.400000E+02   3.664829E-04
+   1.500000E+02   9.350423E-04
+   1.600000E+02   1.746189E-03
+   1.800000E+02   4.045074E-03
+   2.000000E+02   9.237550E-03

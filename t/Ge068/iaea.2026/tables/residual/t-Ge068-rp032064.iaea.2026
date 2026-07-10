@@ -1,0 +1,45 @@
+# header: 
+#   title: Ge68(t,x)Ge64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 68
+#   nuclide: Ge68
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 64
+#     nuclide: Ge64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.784353E-08
+   6.000000E+01   4.397962E-06
+   6.500000E+01   3.156371E-05
+   7.000000E+01   9.193525E-05
+   7.500000E+01   2.597889E-04
+   8.000000E+01   6.949996E-04
+   9.000000E+01   2.257839E-03
+   1.000000E+02   3.657684E-03
+   1.100000E+02   4.429476E-03
+   1.200000E+02   4.704136E-03
+   1.300000E+02   4.861064E-03
+   1.400000E+02   4.866566E-03
+   1.500000E+02   4.975492E-03
+   1.600000E+02   4.978057E-03
+   1.800000E+02   5.355922E-03
+   2.000000E+02   5.862484E-03

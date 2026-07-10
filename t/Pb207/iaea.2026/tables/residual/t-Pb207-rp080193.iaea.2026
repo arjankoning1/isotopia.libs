@@ -1,0 +1,37 @@
+# header: 
+#   title: Pb207(t,x)Hg193 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 193
+#     nuclide: Hg193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.701981E-08
+   1.200000E+02   4.484128E-05
+   1.300000E+02   3.467107E-03
+   1.400000E+02   6.501982E-02
+   1.500000E+02   6.595247E-01
+   1.600000E+02   4.251257E+00
+   1.800000E+02   3.103058E+01
+   2.000000E+02   5.099656E+01

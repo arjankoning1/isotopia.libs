@@ -1,0 +1,43 @@
+# header: 
+#   title: Ti44(t,x)Cl32 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 17
+#     A: 32
+#     nuclide: Cl32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.538167E-11
+   7.000000E+01   2.810126E-08
+   7.500000E+01   6.275035E-07
+   8.000000E+01   3.842663E-06
+   9.000000E+01   2.191309E-05
+   1.000000E+02   5.169392E-05
+   1.100000E+02   2.624683E-04
+   1.200000E+02   1.026365E-03
+   1.300000E+02   2.808175E-03
+   1.400000E+02   7.481235E-03
+   1.500000E+02   2.154759E-02
+   1.600000E+02   4.734742E-02
+   1.800000E+02   1.099267E-01
+   2.000000E+02   1.549746E-01

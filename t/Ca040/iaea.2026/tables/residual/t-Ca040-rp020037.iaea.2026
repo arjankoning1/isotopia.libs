@@ -1,0 +1,45 @@
+# header: 
+#   title: Ca40(t,x)Ca37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 37
+#     nuclide: Ca37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.561996E-08
+   6.000000E+01   1.196973E-06
+   6.500000E+01   8.276995E-06
+   7.000000E+01   2.361622E-05
+   7.500000E+01   5.284103E-05
+   8.000000E+01   1.195420E-04
+   9.000000E+01   3.934677E-04
+   1.000000E+02   7.117454E-04
+   1.100000E+02   9.480916E-04
+   1.200000E+02   1.097525E-03
+   1.300000E+02   1.201674E-03
+   1.400000E+02   1.271060E-03
+   1.500000E+02   1.328102E-03
+   1.600000E+02   1.362795E-03
+   1.800000E+02   1.469913E-03
+   2.000000E+02   1.533865E-03

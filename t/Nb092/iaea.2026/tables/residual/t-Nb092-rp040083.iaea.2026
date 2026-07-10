@@ -1,0 +1,39 @@
+# header: 
+#   title: Nb92(t,x)Zr83 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 83
+#     nuclide: Zr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.760765E-09
+   1.000000E+02   1.716744E-05
+   1.100000E+02   4.587122E-04
+   1.200000E+02   2.244582E-03
+   1.300000E+02   8.138592E-03
+   1.400000E+02   3.733208E-02
+   1.500000E+02   1.000949E-01
+   1.600000E+02   2.095741E-01
+   1.800000E+02   4.325987E-01
+   2.000000E+02   4.616054E-01

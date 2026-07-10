@@ -1,0 +1,39 @@
+# header: 
+#   title: Ge72(t,x)Ni58 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 58
+#     nuclide: Ni58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.480343E-12
+   1.000000E+02   6.620319E-07
+   1.100000E+02   1.610566E-04
+   1.200000E+02   2.762657E-03
+   1.300000E+02   1.626587E-02
+   1.400000E+02   6.242063E-02
+   1.500000E+02   2.352552E-01
+   1.600000E+02   6.921591E-01
+   1.800000E+02   2.952680E+00
+   2.000000E+02   7.251213E+00

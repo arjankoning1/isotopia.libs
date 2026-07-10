@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi205(t,x)Au193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 205
+#   nuclide: Bi205
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.568801E-11
+   7.500000E+01   3.439547E-09
+   8.000000E+01   1.342385E-07
+   9.000000E+01   9.054037E-05
+   1.000000E+02   3.099408E-03
+   1.100000E+02   2.897329E-02
+   1.200000E+02   1.519807E-01
+   1.300000E+02   5.312248E-01
+   1.400000E+02   7.468026E-01
+   1.500000E+02   9.788921E-01
+   1.600000E+02   8.428206E-01
+   1.800000E+02   6.161047E-01
+   2.000000E+02   4.342008E-01

@@ -1,0 +1,45 @@
+# header: 
+#   title: Rh105(t,x)Zr92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 105
+#   nuclide: Rh105
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 92
+#     nuclide: Zr92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.297531E-12
+   6.000000E+01   2.087067E-09
+   6.500000E+01   4.532048E-07
+   7.000000E+01   1.543105E-05
+   7.500000E+01   1.468060E-04
+   8.000000E+01   6.732931E-04
+   9.000000E+01   3.387365E-03
+   1.000000E+02   3.146981E-02
+   1.100000E+02   2.104371E-01
+   1.200000E+02   5.076207E-01
+   1.300000E+02   6.667563E-01
+   1.400000E+02   8.250429E-01
+   1.500000E+02   1.196160E+00
+   1.600000E+02   1.531000E+00
+   1.800000E+02   1.368535E+00
+   2.000000E+02   1.239362E+00

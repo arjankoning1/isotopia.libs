@@ -1,0 +1,48 @@
+# header: 
+#   title: Ar39(t,x)Si35 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 39
+#   nuclide: Ar39
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 35
+#     nuclide: Si35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.323361E-12
+   4.500000E+01   4.690615E-08
+   5.000000E+01   1.609505E-06
+   5.500000E+01   6.749720E-06
+   6.000000E+01   2.045267E-05
+   6.500000E+01   3.739315E-05
+   7.000000E+01   5.343624E-05
+   7.500000E+01   7.380032E-05
+   8.000000E+01   1.177442E-04
+   9.000000E+01   3.216660E-04
+   1.000000E+02   5.536368E-04
+   1.100000E+02   6.581550E-04
+   1.200000E+02   6.553414E-04
+   1.300000E+02   5.821102E-04
+   1.400000E+02   5.103918E-04
+   1.500000E+02   4.251160E-04
+   1.600000E+02   3.675165E-04
+   1.800000E+02   2.484272E-04
+   2.000000E+02   1.727046E-04

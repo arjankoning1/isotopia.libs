@@ -1,0 +1,45 @@
+# header: 
+#   title: Cm241(t,x)Np231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 96
+#   A: 241
+#   nuclide: Cm241
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 231
+#     nuclide: Np231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.278476E-12
+   6.000000E+01   6.725466E-10
+   6.500000E+01   3.750900E-08
+   7.000000E+01   3.485654E-07
+   7.500000E+01   1.715813E-06
+   8.000000E+01   7.349169E-06
+   9.000000E+01   5.338405E-05
+   1.000000E+02   1.091751E-03
+   1.100000E+02   2.676042E-03
+   1.200000E+02   3.922741E-03
+   1.300000E+02   1.802568E-02
+   1.400000E+02   3.616770E-02
+   1.500000E+02   4.915751E-02
+   1.600000E+02   8.881950E-03
+   1.800000E+02   4.956601E-04
+   2.000000E+02   3.609158E-04

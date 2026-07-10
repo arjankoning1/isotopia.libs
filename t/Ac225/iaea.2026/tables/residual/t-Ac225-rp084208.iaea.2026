@@ -1,0 +1,41 @@
+# header: 
+#   title: Ac225(t,x)Po208 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 225
+#   nuclide: Ac225
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 208
+#     nuclide: Po208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.287891E-11
+   8.000000E+01   2.078045E-10
+   9.000000E+01   9.177027E-08
+   1.000000E+02   1.854588E-05
+   1.100000E+02   4.833768E-04
+   1.200000E+02   5.809853E-03
+   1.300000E+02   7.650452E-02
+   1.400000E+02   6.563504E-01
+   1.500000E+02   1.612681E+00
+   1.600000E+02   2.659150E+00
+   1.800000E+02   4.712016E+00
+   2.000000E+02   7.407001E+00

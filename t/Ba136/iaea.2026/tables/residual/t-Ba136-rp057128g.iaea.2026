@@ -1,0 +1,41 @@
+# header: 
+#   title: Ba136(t,x)La128g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 128
+#     nuclide: La128g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.416245E-10
+   1.000000E+02   2.399358E-04
+   1.100000E+02   3.862203E-02
+   1.200000E+02   4.118924E-01
+   1.300000E+02   1.198013E+00
+   1.400000E+02   1.921559E+00
+   1.500000E+02   2.358109E+00
+   1.600000E+02   2.320488E+00
+   1.800000E+02   2.314231E+00
+   2.000000E+02   1.764168E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: F19(t,x)O12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 12
+#     nuclide: O12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.293748E-10
+   1.000000E+02   1.317267E-06
+   1.100000E+02   2.631877E-05
+   1.200000E+02   1.174679E-04
+   1.300000E+02   2.593408E-04
+   1.400000E+02   3.961568E-04
+   1.500000E+02   5.214326E-04
+   1.600000E+02   6.535960E-04
+   1.800000E+02   8.411795E-04
+   2.000000E+02   8.824349E-04

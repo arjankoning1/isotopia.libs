@@ -1,0 +1,44 @@
+# header: 
+#   title: Ca45(t,x)K38 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.130343E-07
+   6.500000E+01   1.075489E-04
+   7.000000E+01   2.116518E-03
+   7.500000E+01   1.186129E-02
+   8.000000E+01   3.322932E-02
+   9.000000E+01   9.784338E-02
+   1.000000E+02   1.962937E-01
+   1.100000E+02   4.871728E-01
+   1.200000E+02   9.999020E-01
+   1.300000E+02   1.524557E+00
+   1.400000E+02   1.851494E+00
+   1.500000E+02   2.090324E+00
+   1.600000E+02   2.293826E+00
+   1.800000E+02   2.051802E+00
+   2.000000E+02   2.039274E+00

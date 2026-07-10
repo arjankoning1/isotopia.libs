@@ -1,0 +1,38 @@
+# header: 
+#   title: Co56(t,x)Sc41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 41
+#     nuclide: Sc41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.369426E-09
+   1.100000E+02   1.336810E-07
+   1.200000E+02   2.135511E-06
+   1.300000E+02   2.897215E-05
+   1.400000E+02   4.283246E-04
+   1.500000E+02   3.376917E-03
+   1.600000E+02   1.403505E-02
+   1.800000E+02   6.629810E-02
+   2.000000E+02   1.699087E-01

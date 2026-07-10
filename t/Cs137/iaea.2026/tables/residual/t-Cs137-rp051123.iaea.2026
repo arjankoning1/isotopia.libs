@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs137(t,x)Sb123 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 123
+#     nuclide: Sb123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   6.500607E-10
+   1.000000E+02   1.396081E-06
+   1.100000E+02   5.479973E-05
+   1.200000E+02   7.891885E-04
+   1.300000E+02   1.988077E-02
+   1.400000E+02   1.179759E-01
+   1.500000E+02   3.622644E-01
+   1.600000E+02   6.074244E-01
+   1.800000E+02   8.205102E-01
+   2.000000E+02   6.086903E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Al26(t,x)Be7 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.419930E-12
+   7.500000E+01   6.308410E-09
+   8.000000E+01   5.716087E-07
+   9.000000E+01   5.136155E-05
+   1.000000E+02   3.754293E-04
+   1.100000E+02   1.023298E-03
+   1.200000E+02   1.925681E-03
+   1.300000E+02   3.851253E-03
+   1.400000E+02   9.020613E-03
+   1.500000E+02   2.427156E-02
+   1.600000E+02   6.561598E-02
+   1.800000E+02   3.177893E-01
+   2.000000E+02   1.030563E+00

@@ -1,0 +1,46 @@
+# header: 
+#   title: Se82(t,x)Cu70m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 70
+#     nuclide: Cu70m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.564161E-12
+   6.500000E+01   2.809948E-09
+   7.000000E+01   5.441076E-08
+   7.500000E+01   4.151082E-07
+   8.000000E+01   1.206312E-06
+   9.000000E+01   6.539412E-06
+   1.000000E+02   3.027175E-04
+   1.100000E+02   1.354347E-03
+   1.200000E+02   2.020448E-03
+   1.300000E+02   2.394743E-03
+   1.400000E+02   3.745135E-03
+   1.500000E+02   6.337785E-03
+   1.600000E+02   7.185212E-03
+   1.800000E+02   1.167445E-02
+   2.000000E+02   1.144724E-02

@@ -1,0 +1,39 @@
+# header: 
+#   title: Am241(t,x)Ra222 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 222
+#     nuclide: Ra222
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.900586E-12
+   1.000000E+02   1.477505E-08
+   1.100000E+02   1.682700E-06
+   1.200000E+02   1.853284E-05
+   1.300000E+02   5.908653E-04
+   1.400000E+02   1.315871E-02
+   1.500000E+02   6.205458E-02
+   1.600000E+02   1.316131E-01
+   1.800000E+02   8.409293E-02
+   2.000000E+02   1.401929E-01

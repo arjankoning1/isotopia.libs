@@ -1,0 +1,41 @@
+# header: 
+#   title: Xe133(t,x)In118n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 118
+#     nuclide: In118n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.609978E-09
+   1.000000E+02   7.281786E-07
+   1.100000E+02   1.286630E-05
+   1.200000E+02   8.163123E-04
+   1.300000E+02   1.576494E-02
+   1.400000E+02   5.768349E-02
+   1.500000E+02   9.834788E-02
+   1.600000E+02   1.313427E-01
+   1.800000E+02   1.107827E-01
+   2.000000E+02   1.112335E-01

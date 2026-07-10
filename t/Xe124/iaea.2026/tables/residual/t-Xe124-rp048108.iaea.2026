@@ -1,0 +1,39 @@
+# header: 
+#   title: Xe124(t,x)Cd108 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 108
+#     nuclide: Cd108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.711409E-10
+   1.000000E+02   2.335319E-07
+   1.100000E+02   2.545198E-05
+   1.200000E+02   5.940769E-04
+   1.300000E+02   6.312151E-03
+   1.400000E+02   1.036753E-01
+   1.500000E+02   9.653589E-01
+   1.600000E+02   2.741104E+00
+   1.800000E+02   6.289024E+00
+   2.000000E+02   9.672294E+00

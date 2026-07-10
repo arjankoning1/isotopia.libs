@@ -1,0 +1,44 @@
+# header: 
+#   title: Pu237(t,x)Pa226 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 237
+#   nuclide: Pu237
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 226
+#     nuclide: Pa226
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.051005E-10
+   6.500000E+01   7.739794E-08
+   7.000000E+01   7.358064E-06
+   7.500000E+01   2.216542E-04
+   8.000000E+01   1.323755E-03
+   9.000000E+01   1.666293E-02
+   1.000000E+02   7.687534E-02
+   1.100000E+02   1.866139E+00
+   1.200000E+02   5.564364E+00
+   1.300000E+02   7.040572E+00
+   1.400000E+02   1.582094E+01
+   1.500000E+02   1.606359E+01
+   1.600000E+02   1.410965E+01
+   1.800000E+02   1.174577E+01
+   2.000000E+02   5.033478E+00

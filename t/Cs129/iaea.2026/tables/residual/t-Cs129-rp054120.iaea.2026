@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs129(t,x)Xe120 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 120
+#     nuclide: Xe120
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.414567E-12
+   7.500000E+01   5.377241E-08
+   8.000000E+01   3.935902E-05
+   9.000000E+01   3.739515E-02
+   1.000000E+02   5.820479E-01
+   1.100000E+02   2.153863E+00
+   1.200000E+02   9.770407E+00
+   1.300000E+02   4.139334E+01
+   1.400000E+02   9.137527E+01
+   1.500000E+02   1.297415E+02
+   1.600000E+02   1.693666E+02
+   1.800000E+02   1.413976E+02
+   2.000000E+02   1.328527E+02

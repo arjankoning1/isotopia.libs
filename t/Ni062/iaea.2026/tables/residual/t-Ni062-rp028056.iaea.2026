@@ -1,0 +1,42 @@
+# header: 
+#   title: Ni62(t,x)Ni56 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   8.988174E-12
+   7.500000E+01   3.543970E-08
+   8.000000E+01   1.132671E-06
+   9.000000E+01   2.933953E-05
+   1.000000E+02   2.421536E-04
+   1.100000E+02   9.834486E-04
+   1.200000E+02   2.167025E-03
+   1.300000E+02   3.534507E-03
+   1.400000E+02   4.377148E-03
+   1.500000E+02   5.913770E-03
+   1.600000E+02   6.658298E-03
+   1.800000E+02   9.138965E-03
+   2.000000E+02   1.050294E-02

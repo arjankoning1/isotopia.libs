@@ -1,0 +1,42 @@
+# header: 
+#   title: Tm171(t,x)Tm162g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 69
+#   A: 171
+#   nuclide: Tm171
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 69
+#     A: 162
+#     nuclide: Tm162g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.315951E-11
+   9.000000E+01   6.536669E-05
+   1.000000E+02   8.682006E-03
+   1.100000E+02   1.181618E-01
+   1.200000E+02   6.384018E-01
+   1.300000E+02   1.293338E+00
+   1.400000E+02   1.830631E+00
+   1.500000E+02   2.535341E+00
+   1.600000E+02   2.512760E+00
+   1.800000E+02   2.672023E+00
+   2.000000E+02   2.808432E+00

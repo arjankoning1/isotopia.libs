@@ -1,0 +1,39 @@
+# header: 
+#   title: Te125(t,x)Te116 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 116
+#     nuclide: Te116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.756964E-09
+   1.000000E+02   4.495560E-05
+   1.100000E+02   4.243854E-03
+   1.200000E+02   7.707891E-02
+   1.300000E+02   5.960357E-01
+   1.400000E+02   2.002463E+00
+   1.500000E+02   4.104601E+00
+   1.600000E+02   5.736509E+00
+   1.800000E+02   7.821391E+00
+   2.000000E+02   8.092179E+00

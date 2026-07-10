@@ -1,0 +1,44 @@
+# header: 
+#   title: Nd143(t,x)Xe129g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   6.875140E-13
+   7.500000E+01   7.508669E-11
+   8.000000E+01   1.669287E-09
+   9.000000E+01   1.766648E-07
+   1.000000E+02   4.092688E-06
+   1.100000E+02   3.483919E-05
+   1.200000E+02   6.369440E-04
+   1.300000E+02   2.970773E-03
+   1.400000E+02   6.626264E-03
+   1.500000E+02   1.238809E-02
+   1.600000E+02   2.484701E-02
+   1.800000E+02   5.533643E-02
+   2.000000E+02   7.040575E-02

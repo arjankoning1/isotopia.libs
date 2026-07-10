@@ -1,0 +1,41 @@
+# header: 
+#   title: Cs133(t,x)In117m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 117
+#     nuclide: In117m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.379960E-12
+   1.000000E+02   4.680789E-09
+   1.100000E+02   6.531155E-07
+   1.200000E+02   1.459532E-05
+   1.300000E+02   1.782513E-04
+   1.400000E+02   1.666672E-03
+   1.500000E+02   8.357260E-03
+   1.600000E+02   2.574184E-02
+   1.800000E+02   3.207599E-02
+   2.000000E+02   4.813723E-02

@@ -1,0 +1,49 @@
+# header: 
+#   title: Rh101(t,x)Y90m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   6.913739E-13
+   5.000000E+01   2.777304E-10
+   5.500000E+01   2.031445E-08
+   6.000000E+01   2.864178E-07
+   6.500000E+01   1.583586E-06
+   7.000000E+01   4.454524E-06
+   7.500000E+01   1.085014E-05
+   8.000000E+01   1.459214E-04
+   9.000000E+01   4.712534E-03
+   1.000000E+02   2.096822E-02
+   1.100000E+02   3.258724E-02
+   1.200000E+02   3.490250E-02
+   1.300000E+02   5.395982E-02
+   1.400000E+02   8.265497E-02
+   1.500000E+02   1.038197E-01
+   1.600000E+02   8.618841E-02
+   1.800000E+02   9.323055E-02
+   2.000000E+02   8.322101E-02

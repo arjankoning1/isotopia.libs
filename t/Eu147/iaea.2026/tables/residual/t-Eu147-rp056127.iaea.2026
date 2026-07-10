@@ -1,0 +1,37 @@
+# header: 
+#   title: Eu147(t,x)Ba127 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 147
+#   nuclide: Eu147
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 127
+#     nuclide: Ba127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.621661E-12
+   1.200000E+02   1.810784E-08
+   1.300000E+02   1.380397E-06
+   1.400000E+02   3.785242E-05
+   1.500000E+02   1.875732E-03
+   1.600000E+02   1.707273E-02
+   1.800000E+02   1.173926E-01
+   2.000000E+02   4.619615E-01

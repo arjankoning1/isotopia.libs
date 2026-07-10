@@ -1,0 +1,46 @@
+# header: 
+#   title: K40(t,x)P30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   3.479046E-09
+   5.500000E+01   1.555014E-05
+   6.000000E+01   8.471607E-04
+   6.500000E+01   6.858997E-03
+   7.000000E+01   2.438500E-02
+   7.500000E+01   6.387098E-02
+   8.000000E+01   1.478901E-01
+   9.000000E+01   5.001341E-01
+   1.000000E+02   1.072382E+00
+   1.100000E+02   2.187349E+00
+   1.200000E+02   4.347358E+00
+   1.300000E+02   7.193812E+00
+   1.400000E+02   9.919424E+00
+   1.500000E+02   1.345480E+01
+   1.600000E+02   1.708874E+01
+   1.800000E+02   2.274544E+01
+   2.000000E+02   2.453863E+01

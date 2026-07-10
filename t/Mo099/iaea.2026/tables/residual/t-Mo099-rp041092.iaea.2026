@@ -1,0 +1,47 @@
+# header: 
+#   title: Mo99(t,x)Nb92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.183155E-08
+   5.000000E+01   1.425765E-04
+   5.500000E+01   1.757978E-02
+   6.000000E+01   2.162656E-01
+   6.500000E+01   8.631876E-01
+   7.000000E+01   1.863118E+00
+   7.500000E+01   3.018973E+00
+   8.000000E+01   6.041100E+00
+   9.000000E+01   5.499237E+01
+   1.000000E+02   1.778454E+02
+   1.100000E+02   2.732372E+02
+   1.200000E+02   2.693628E+02
+   1.300000E+02   2.752720E+02
+   1.400000E+02   2.466831E+02
+   1.500000E+02   1.746887E+02
+   1.600000E+02   1.685572E+02
+   1.800000E+02   1.188829E+02
+   2.000000E+02   6.383526E+01

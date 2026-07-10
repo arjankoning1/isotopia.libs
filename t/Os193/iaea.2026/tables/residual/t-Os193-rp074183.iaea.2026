@@ -1,0 +1,44 @@
+# header: 
+#   title: Os193(t,x)W183 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 193
+#   nuclide: Os193
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 74
+#     A: 183
+#     nuclide: W183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.661680E-12
+   6.500000E+01   1.007449E-08
+   7.000000E+01   2.893243E-06
+   7.500000E+01   8.406603E-05
+   8.000000E+01   5.698905E-04
+   9.000000E+01   6.138502E-03
+   1.000000E+02   4.565504E-02
+   1.100000E+02   4.125133E-01
+   1.200000E+02   2.041653E+00
+   1.300000E+02   4.954069E+00
+   1.400000E+02   6.410153E+00
+   1.500000E+02   7.168272E+00
+   1.600000E+02   6.471074E+00
+   1.800000E+02   3.351088E+00
+   2.000000E+02   3.285918E+00

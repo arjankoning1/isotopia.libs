@@ -1,0 +1,46 @@
+# header: 
+#   title: Pa230(t,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   2.818385E-12
+   5.500000E+01   8.465667E-09
+   6.000000E+01   4.213602E-06
+   6.500000E+01   2.810030E-04
+   7.000000E+01   3.623042E-03
+   7.500000E+01   1.915596E-02
+   8.000000E+01   6.394045E-02
+   9.000000E+01   2.732160E-01
+   1.000000E+02   1.404431E+00
+   1.100000E+02   6.946985E+00
+   1.200000E+02   1.414183E+01
+   1.300000E+02   2.873414E+01
+   1.400000E+02   3.556909E+01
+   1.500000E+02   3.855745E+01
+   1.600000E+02   4.268346E+01
+   1.800000E+02   1.760568E+01
+   2.000000E+02   1.895010E+01

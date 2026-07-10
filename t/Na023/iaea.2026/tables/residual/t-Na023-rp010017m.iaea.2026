@@ -1,0 +1,44 @@
+# header: 
+#   title: Na23(t,x)Ne17m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 17
+#     nuclide: Ne17m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.459559E-08
+   7.500000E+01   1.807213E-06
+   8.000000E+01   2.092635E-05
+   9.000000E+01   2.249916E-04
+   1.000000E+02   6.199524E-04
+   1.100000E+02   1.074689E-03
+   1.200000E+02   1.674785E-03
+   1.300000E+02   2.533396E-03
+   1.400000E+02   3.619779E-03
+   1.500000E+02   4.499275E-03
+   1.600000E+02   5.191755E-03
+   1.800000E+02   5.512734E-03
+   2.000000E+02   5.557397E-03

@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni66(t,x)Cu61 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 66
+#   nuclide: Ni66
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.817650E-07
+   6.500000E+01   2.634779E-04
+   7.000000E+01   8.368668E-03
+   7.500000E+01   6.081686E-02
+   8.000000E+01   2.048159E-01
+   9.000000E+01   6.971180E-01
+   1.000000E+02   1.123452E+00
+   1.100000E+02   1.241754E+00
+   1.200000E+02   1.203497E+00
+   1.300000E+02   1.036637E+00
+   1.400000E+02   8.690225E-01
+   1.500000E+02   7.590176E-01
+   1.600000E+02   6.265495E-01
+   1.800000E+02   5.148833E-01
+   2.000000E+02   4.792178E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Pm148m(t,x)Pm139m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 148
+#   nuclide: Pm148m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 61
+#     A: 139
+#     nuclide: Pm139m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.474054E-05
+   1.000000E+02   8.443196E-03
+   1.100000E+02   1.434284E-01
+   1.200000E+02   9.033517E-01
+   1.300000E+02   2.548554E+00
+   1.400000E+02   4.309855E+00
+   1.500000E+02   5.699403E+00
+   1.600000E+02   6.801916E+00
+   1.800000E+02   7.134524E+00
+   2.000000E+02   8.196083E+00

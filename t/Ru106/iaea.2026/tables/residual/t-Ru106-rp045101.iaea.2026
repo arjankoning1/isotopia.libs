@@ -1,0 +1,45 @@
+# header: 
+#   title: Ru106(t,x)Rh101 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 106
+#   nuclide: Ru106
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.535962E-04
+   6.000000E+01   1.065197E-01
+   6.500000E+01   1.229393E+00
+   7.000000E+01   5.005531E+00
+   7.500000E+01   1.152344E+01
+   8.000000E+01   1.923961E+01
+   9.000000E+01   2.868653E+01
+   1.000000E+02   2.828395E+01
+   1.100000E+02   2.359973E+01
+   1.200000E+02   1.755314E+01
+   1.300000E+02   1.322240E+01
+   1.400000E+02   9.887800E+00
+   1.500000E+02   8.580108E+00
+   1.600000E+02   6.561467E+00
+   1.800000E+02   5.618502E+00
+   2.000000E+02   4.083971E+00

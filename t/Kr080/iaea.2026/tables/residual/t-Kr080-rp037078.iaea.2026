@@ -1,0 +1,48 @@
+# header: 
+#   title: Kr80(t,x)Rb78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 36
+#   A: 80
+#   nuclide: Kr80
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 78
+#     nuclide: Rb78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.935668E-05
+   4.500000E+01   6.402645E-02
+   5.000000E+01   6.569737E-01
+   5.500000E+01   1.908666E+00
+   6.000000E+01   3.172034E+00
+   6.500000E+01   3.952160E+00
+   7.000000E+01   4.121615E+00
+   7.500000E+01   3.833702E+00
+   8.000000E+01   3.308346E+00
+   9.000000E+01   2.198733E+00
+   1.000000E+02   1.460467E+00
+   1.100000E+02   1.049129E+00
+   1.200000E+02   8.421959E-01
+   1.300000E+02   7.064514E-01
+   1.400000E+02   6.269441E-01
+   1.500000E+02   5.706230E-01
+   1.600000E+02   5.081047E-01
+   1.800000E+02   4.729878E-01
+   2.000000E+02   4.237948E-01

@@ -1,0 +1,46 @@
+# header: 
+#   title: Rh101m(t,x)Nb90g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.919448E-11
+   6.500000E+01   1.313839E-07
+   7.000000E+01   1.328298E-05
+   7.500000E+01   1.719816E-04
+   8.000000E+01   9.832835E-04
+   9.000000E+01   1.736737E-02
+   1.000000E+02   1.107382E-01
+   1.100000E+02   1.477529E+00
+   1.200000E+02   9.750391E+00
+   1.300000E+02   3.327822E+01
+   1.400000E+02   5.277592E+01
+   1.500000E+02   7.366379E+01
+   1.600000E+02   8.072506E+01
+   1.800000E+02   9.457507E+01
+   2.000000E+02   9.650436E+01

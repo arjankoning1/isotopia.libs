@@ -1,0 +1,44 @@
+# header: 
+#   title: Cd113(t,x)Tc99m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.946262E-12
+   7.500000E+01   1.800173E-09
+   8.000000E+01   2.240987E-07
+   9.000000E+01   3.856831E-05
+   1.000000E+02   3.970763E-04
+   1.100000E+02   1.721000E-03
+   1.200000E+02   1.208828E-02
+   1.300000E+02   4.468297E-02
+   1.400000E+02   7.887330E-02
+   1.500000E+02   9.024974E-02
+   1.600000E+02   1.452662E-01
+   1.800000E+02   2.730927E-01
+   2.000000E+02   2.483891E-01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Ru96(t,x)Mo88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 96
+#   nuclide: Ru96
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 88
+#     nuclide: Mo88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   7.324770E-11
+   7.000000E+01   3.650026E-07
+   7.500000E+01   2.708408E-05
+   8.000000E+01   2.972962E-04
+   9.000000E+01   9.537208E-03
+   1.000000E+02   9.799413E-02
+   1.100000E+02   3.024612E-01
+   1.200000E+02   6.407298E-01
+   1.300000E+02   1.150591E+00
+   1.400000E+02   2.190363E+00
+   1.500000E+02   2.851170E+00
+   1.600000E+02   4.054841E+00
+   1.800000E+02   4.469463E+00
+   2.000000E+02   6.337282E+00

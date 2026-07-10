@@ -1,0 +1,46 @@
+# header: 
+#   title: Pm145(t,x)Nd137m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 60
+#     A: 137
+#     nuclide: Nd137m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.206603E-10
+   6.500000E+01   1.358138E-05
+   7.000000E+01   2.589029E-03
+   7.500000E+01   5.566438E-02
+   8.000000E+01   3.349532E-01
+   9.000000E+01   1.704560E+00
+   1.000000E+02   6.661335E+00
+   1.100000E+02   4.027092E+01
+   1.200000E+02   1.004070E+02
+   1.300000E+02   1.469326E+02
+   1.400000E+02   1.353990E+02
+   1.500000E+02   1.487619E+02
+   1.600000E+02   1.262627E+02
+   1.800000E+02   9.080121E+01
+   2.000000E+02   7.221836E+01

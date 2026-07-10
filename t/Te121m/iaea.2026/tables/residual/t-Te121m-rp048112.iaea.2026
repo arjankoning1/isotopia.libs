@@ -1,0 +1,48 @@
+# header: 
+#   title: Te121m(t,x)Cd112 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 112
+#     nuclide: Cd112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   4.990754E-11
+   4.500000E+01   1.935462E-08
+   5.000000E+01   8.628969E-07
+   5.500000E+01   9.003053E-06
+   6.000000E+01   7.024474E-05
+   6.500000E+01   5.010716E-04
+   7.000000E+01   2.152666E-03
+   7.500000E+01   5.291205E-03
+   8.000000E+01   1.126839E-02
+   9.000000E+01   2.072453E-01
+   1.000000E+02   1.376170E+00
+   1.100000E+02   2.682976E+00
+   1.200000E+02   2.976907E+00
+   1.300000E+02   3.029454E+00
+   1.400000E+02   2.786392E+00
+   1.500000E+02   2.365052E+00
+   1.600000E+02   1.357947E+00
+   1.800000E+02   1.134068E+00
+   2.000000E+02   8.949612E-01

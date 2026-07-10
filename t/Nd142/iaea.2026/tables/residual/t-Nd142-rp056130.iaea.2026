@@ -1,0 +1,42 @@
+# header: 
+#   title: Nd142(t,x)Ba130 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 130
+#     nuclide: Ba130
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.337834E-11
+   7.500000E+01   5.049523E-09
+   8.000000E+01   3.855703E-07
+   9.000000E+01   5.672754E-05
+   1.000000E+02   1.618593E-03
+   1.100000E+02   1.315411E-02
+   1.200000E+02   7.012575E-02
+   1.300000E+02   4.670750E-01
+   1.400000E+02   1.326368E+00
+   1.500000E+02   2.278513E+00
+   1.600000E+02   2.277273E+00
+   1.800000E+02   2.392879E+00
+   2.000000E+02   1.305000E+00

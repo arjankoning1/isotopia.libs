@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb208(t,x)Pb198 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 198
+#     nuclide: Pb198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.889061E-11
+   1.000000E+02   1.512672E-05
+   1.100000E+02   4.209959E-03
+   1.200000E+02   9.690891E-02
+   1.300000E+02   8.666820E-01
+   1.400000E+02   3.069661E+00
+   1.500000E+02   5.797256E+00
+   1.600000E+02   6.394214E+00
+   1.800000E+02   8.822855E+00
+   2.000000E+02   1.062703E+01

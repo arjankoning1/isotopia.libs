@@ -1,0 +1,40 @@
+# header: 
+#   title: Pu240(t,x)Fr223 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 223
+#     nuclide: Fr223
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.191790E-12
+   9.000000E+01   2.279340E-09
+   1.000000E+02   8.443959E-08
+   1.100000E+02   3.012031E-06
+   1.200000E+02   2.778567E-04
+   1.300000E+02   4.142893E-03
+   1.400000E+02   1.202530E-02
+   1.500000E+02   4.473091E-03
+   1.600000E+02   6.806598E-03
+   1.800000E+02   1.628386E-02
+   2.000000E+02   3.017705E-02

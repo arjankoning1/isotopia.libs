@@ -1,0 +1,46 @@
+# header: 
+#   title: Te128(t,x)Sb120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.779205E-08
+   6.500000E+01   5.671671E-05
+   7.000000E+01   2.856615E-03
+   7.500000E+01   2.986645E-02
+   8.000000E+01   1.125433E-01
+   9.000000E+01   5.112999E-01
+   1.000000E+02   1.018187E+01
+   1.100000E+02   7.245277E+01
+   1.200000E+02   1.373217E+02
+   1.300000E+02   1.865768E+02
+   1.400000E+02   1.719317E+02
+   1.500000E+02   1.816683E+02
+   1.600000E+02   1.285182E+02
+   1.800000E+02   1.141311E+02
+   2.000000E+02   6.017833E+01

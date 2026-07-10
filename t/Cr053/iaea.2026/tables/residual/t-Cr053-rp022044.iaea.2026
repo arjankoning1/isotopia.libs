@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr53(t,x)Ti44 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 44
+#     nuclide: Ti44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.499131E-09
+   8.000000E+01   5.383949E-06
+   9.000000E+01   1.979128E-03
+   1.000000E+02   2.343172E-02
+   1.100000E+02   1.088662E-01
+   1.200000E+02   2.910757E-01
+   1.300000E+02   6.813952E-01
+   1.400000E+02   1.634574E+00
+   1.500000E+02   2.994660E+00
+   1.600000E+02   5.132185E+00
+   1.800000E+02   7.549698E+00
+   2.000000E+02   8.242102E+00

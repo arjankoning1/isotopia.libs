@@ -1,0 +1,44 @@
+# header: 
+#   title: Pd107(t,x)Rh99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 99
+#     nuclide: Rh99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.008991E-07
+   6.500000E+01   2.098099E-04
+   7.000000E+01   1.506252E-02
+   7.500000E+01   1.701601E-01
+   8.000000E+01   7.395444E-01
+   9.000000E+01   3.257065E+00
+   1.000000E+02   9.806437E+00
+   1.100000E+02   4.362425E+01
+   1.200000E+02   1.024359E+02
+   1.300000E+02   1.411994E+02
+   1.400000E+02   1.656192E+02
+   1.500000E+02   1.502944E+02
+   1.600000E+02   1.603933E+02
+   1.800000E+02   1.203103E+02
+   2.000000E+02   1.020896E+02

@@ -1,0 +1,36 @@
+# header: 
+#   title: Yb170(t,x)Ho153 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 170
+#   nuclide: Yb170
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 153
+#     nuclide: Ho153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.482037E-09
+   1.300000E+02   4.664532E-06
+   1.400000E+02   5.648563E-04
+   1.500000E+02   8.827662E-03
+   1.600000E+02   7.842988E-02
+   1.800000E+02   3.973022E+00
+   2.000000E+02   1.824753E+01

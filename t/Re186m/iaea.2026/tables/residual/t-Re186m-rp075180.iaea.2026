@@ -1,0 +1,45 @@
+# header: 
+#   title: Re186m(t,x)Re180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 75
+#   A: 186
+#   nuclide: Re186m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 180
+#     nuclide: Re180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   3.093386E-07
+   6.000000E+01   1.317633E-03
+   6.500000E+01   4.768932E-02
+   7.000000E+01   2.845660E-01
+   7.500000E+01   7.954869E-01
+   8.000000E+01   1.897527E+00
+   9.000000E+01   8.092962E+00
+   1.000000E+02   1.545843E+01
+   1.100000E+02   2.031819E+01
+   1.200000E+02   1.984928E+01
+   1.300000E+02   2.121860E+01
+   1.400000E+02   1.962305E+01
+   1.500000E+02   1.881337E+01
+   1.600000E+02   1.520899E+01
+   1.800000E+02   1.674070E+01
+   2.000000E+02   1.261041E+01

@@ -1,0 +1,41 @@
+# header: 
+#   title: C12(t,x)Li11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 11
+#     nuclide: Li11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.542825E-11
+   8.000000E+01   1.549382E-09
+   9.000000E+01   6.450629E-07
+   1.000000E+02   4.094919E-06
+   1.100000E+02   8.441159E-06
+   1.200000E+02   1.146745E-05
+   1.300000E+02   1.282076E-05
+   1.400000E+02   1.293317E-05
+   1.500000E+02   1.216300E-05
+   1.600000E+02   1.087929E-05
+   1.800000E+02   7.668526E-06
+   2.000000E+02   4.731301E-06

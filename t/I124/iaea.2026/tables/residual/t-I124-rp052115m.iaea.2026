@@ -1,0 +1,44 @@
+# header: 
+#   title: I124(t,x)Te115m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 115
+#     nuclide: Te115m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.187017E-13
+   7.500000E+01   3.924606E-09
+   8.000000E+01   1.504279E-06
+   9.000000E+01   4.992054E-04
+   1.000000E+02   6.239246E-03
+   1.100000E+02   2.201451E-02
+   1.200000E+02   1.113108E-01
+   1.300000E+02   4.148180E-01
+   1.400000E+02   8.134773E-01
+   1.500000E+02   1.257546E+00
+   1.600000E+02   1.253028E+00
+   1.800000E+02   1.433478E+00
+   2.000000E+02   1.369213E+00

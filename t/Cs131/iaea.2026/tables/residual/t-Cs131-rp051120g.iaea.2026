@@ -1,0 +1,46 @@
+# header: 
+#   title: Cs131(t,x)Sb120g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 131
+#   nuclide: Cs131
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.469995E-12
+   6.500000E+01   3.205018E-09
+   7.000000E+01   2.030788E-07
+   7.500000E+01   2.820623E-06
+   8.000000E+01   1.727529E-05
+   9.000000E+01   3.385163E-04
+   1.000000E+02   3.192197E-03
+   1.100000E+02   7.135884E-02
+   1.200000E+02   5.491658E-01
+   1.300000E+02   1.584485E+00
+   1.400000E+02   2.032511E+00
+   1.500000E+02   2.169087E+00
+   1.600000E+02   2.439261E+00
+   1.800000E+02   1.910117E+00
+   2.000000E+02   1.509540E+00

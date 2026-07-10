@@ -1,0 +1,44 @@
+# header: 
+#   title: Bi207(t,x)Pb197m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 197
+#     nuclide: Pb197m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   7.124926E-10
+   7.500000E+01   1.505333E-07
+   8.000000E+01   2.273126E-06
+   9.000000E+01   1.760268E-03
+   1.000000E+02   7.023131E-02
+   1.100000E+02   4.383313E-01
+   1.200000E+02   6.750839E+00
+   1.300000E+02   4.769767E+01
+   1.400000E+02   8.258519E+01
+   1.500000E+02   1.312905E+02
+   1.600000E+02   1.257518E+02
+   1.800000E+02   1.132588E+02
+   2.000000E+02   9.555273E+01

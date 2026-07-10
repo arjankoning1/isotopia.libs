@@ -1,0 +1,46 @@
+# header: 
+#   title: K41(t,x)K37 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 19
+#     A: 37
+#     nuclide: K37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   4.532904E-09
+   5.500000E+01   1.762722E-05
+   6.000000E+01   3.918192E-04
+   6.500000E+01   1.881420E-03
+   7.000000E+01   5.328308E-03
+   7.500000E+01   1.385570E-02
+   8.000000E+01   3.179980E-02
+   9.000000E+01   9.017312E-02
+   1.000000E+02   1.405303E-01
+   1.100000E+02   1.607162E-01
+   1.200000E+02   1.593570E-01
+   1.300000E+02   1.452209E-01
+   1.400000E+02   1.269042E-01
+   1.500000E+02   1.132798E-01
+   1.600000E+02   1.014366E-01
+   1.800000E+02   8.629858E-02
+   2.000000E+02   7.607317E-02

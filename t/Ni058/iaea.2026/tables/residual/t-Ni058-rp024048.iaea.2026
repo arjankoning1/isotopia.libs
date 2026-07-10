@@ -1,0 +1,44 @@
+# header: 
+#   title: Ni58(t,x)Cr48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.716431E-09
+   6.500000E+01   9.386200E-07
+   7.000000E+01   2.150381E-05
+   7.500000E+01   2.038282E-04
+   8.000000E+01   2.144571E-03
+   9.000000E+01   3.218483E-02
+   1.000000E+02   1.332926E-01
+   1.100000E+02   4.702551E-01
+   1.200000E+02   1.341237E+00
+   1.300000E+02   2.990422E+00
+   1.400000E+02   4.697455E+00
+   1.500000E+02   6.060203E+00
+   1.600000E+02   8.660150E+00
+   1.800000E+02   1.106732E+01
+   2.000000E+02   1.088041E+01

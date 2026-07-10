@@ -1,0 +1,41 @@
+# header: 
+#   title: Cd109(t,x)Pd99 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 99
+#     nuclide: Pd99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.084571E-11
+   8.000000E+01   3.265907E-08
+   9.000000E+01   9.072448E-05
+   1.000000E+02   3.986450E-03
+   1.100000E+02   5.208378E-02
+   1.200000E+02   2.489510E-01
+   1.300000E+02   8.428189E-01
+   1.400000E+02   3.340472E+00
+   1.500000E+02   6.703412E+00
+   1.600000E+02   1.290528E+01
+   1.800000E+02   1.597561E+01
+   2.000000E+02   2.094291E+01

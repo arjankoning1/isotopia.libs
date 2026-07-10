@@ -1,0 +1,37 @@
+# header: 
+#   title: Te132(t,x)In114g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 132
+#   nuclide: Te132
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 114
+#     nuclide: In114g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   5.015166E-10
+   1.400000E+02   8.830949E-07
+   1.500000E+02   7.615755E-05
+   1.600000E+02   2.267482E-03
+   1.800000E+02   4.712432E-01
+   2.000000E+02   5.248139E+00

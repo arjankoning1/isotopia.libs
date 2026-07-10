@@ -1,0 +1,42 @@
+# header: 
+#   title: O17(t,x)O13 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 17
+#   nuclide: O17
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 13
+#     nuclide: O13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.414139E-09
+   7.500000E+01   2.766658E-06
+   8.000000E+01   4.704413E-05
+   9.000000E+01   6.354414E-04
+   1.000000E+02   2.054231E-03
+   1.100000E+02   3.916333E-03
+   1.200000E+02   5.891465E-03
+   1.300000E+02   7.631319E-03
+   1.400000E+02   8.765313E-03
+   1.500000E+02   9.381507E-03
+   1.600000E+02   9.427167E-03
+   1.800000E+02   8.858491E-03
+   2.000000E+02   7.780622E-03

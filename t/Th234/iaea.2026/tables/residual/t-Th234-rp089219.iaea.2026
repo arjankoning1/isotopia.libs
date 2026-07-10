@@ -1,0 +1,37 @@
+# header: 
+#   title: Th234(t,x)Ac219 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 234
+#   nuclide: Th234
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 219
+#     nuclide: Ac219
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.134934E-08
+   1.200000E+02   1.640231E-05
+   1.300000E+02   7.700716E-04
+   1.400000E+02   8.559674E-03
+   1.500000E+02   1.004994E-01
+   1.600000E+02   7.225878E-01
+   1.800000E+02   8.142737E+00
+   2.000000E+02   2.883947E+01

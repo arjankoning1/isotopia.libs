@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn123(t,x)Sn115 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 123
+#   nuclide: Sn123
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 115
+#     nuclide: Sn115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.392539E-07
+   8.000000E+01   5.429840E-05
+   9.000000E+01   1.116096E-02
+   1.000000E+02   1.174373E-01
+   1.100000E+02   5.403348E-01
+   1.200000E+02   1.491929E+00
+   1.300000E+02   2.427558E+00
+   1.400000E+02   3.433180E+00
+   1.500000E+02   4.371223E+00
+   1.600000E+02   5.046412E+00
+   1.800000E+02   5.407001E+00
+   2.000000E+02   6.758900E+00

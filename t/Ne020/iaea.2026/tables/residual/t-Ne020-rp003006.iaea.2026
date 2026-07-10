@@ -1,0 +1,48 @@
+# header: 
+#   title: Ne20(t,x)Li6 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 6
+#     nuclide: Li6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   3.537093E-10
+   4.500000E+01   1.259085E-06
+   5.000000E+01   5.104167E-05
+   5.500000E+01   2.271236E-04
+   6.000000E+01   3.253711E-04
+   6.500000E+01   5.267487E-04
+   7.000000E+01   8.068664E-04
+   7.500000E+01   1.369766E-03
+   8.000000E+01   2.555917E-03
+   9.000000E+01   2.344591E-02
+   1.000000E+02   1.773897E-01
+   1.100000E+02   5.679433E-01
+   1.200000E+02   1.159533E+00
+   1.300000E+02   2.041728E+00
+   1.400000E+02   3.388471E+00
+   1.500000E+02   5.290148E+00
+   1.600000E+02   7.630883E+00
+   1.800000E+02   1.335683E+01
+   2.000000E+02   2.041700E+01

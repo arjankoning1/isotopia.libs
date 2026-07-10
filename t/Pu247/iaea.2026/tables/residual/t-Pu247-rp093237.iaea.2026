@@ -1,0 +1,43 @@
+# header: 
+#   title: Pu247(t,x)Np237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 247
+#   nuclide: Pu247
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 237
+#     nuclide: Np237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   9.995989E-11
+   7.000000E+01   6.173035E-09
+   7.500000E+01   1.153338E-07
+   8.000000E+01   7.368928E-07
+   9.000000E+01   1.177814E-05
+   1.000000E+02   7.678463E-05
+   1.100000E+02   8.283788E-04
+   1.200000E+02   1.746122E-03
+   1.300000E+02   1.187338E-02
+   1.400000E+02   4.307596E-02
+   1.500000E+02   4.563746E-02
+   1.600000E+02   4.870560E-02
+   1.800000E+02   1.247172E-01
+   2.000000E+02   2.341684E-01

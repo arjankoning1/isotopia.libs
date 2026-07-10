@@ -1,0 +1,44 @@
+# header: 
+#   title: Ba133m(t,x)Cs124g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 133
+#   nuclide: Ba133m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 124
+#     nuclide: Cs124g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   9.388249E-13
+   7.500000E+01   5.232001E-08
+   8.000000E+01   5.014682E-05
+   9.000000E+01   3.745208E-02
+   1.000000E+02   4.594203E-01
+   1.100000E+02   1.346675E+00
+   1.200000E+02   4.864621E+00
+   1.300000E+02   1.486480E+01
+   1.400000E+02   2.707095E+01
+   1.500000E+02   3.220008E+01
+   1.600000E+02   3.870405E+01
+   1.800000E+02   3.770604E+01
+   2.000000E+02   4.100527E+01

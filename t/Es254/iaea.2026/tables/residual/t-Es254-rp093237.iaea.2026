@@ -1,0 +1,38 @@
+# header: 
+#   title: Es254(t,x)Np237 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 254
+#   nuclide: Es254
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 93
+#     A: 237
+#     nuclide: Np237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   9.867543E-12
+   1.100000E+02   4.108608E-09
+   1.200000E+02   1.024876E-07
+   1.300000E+02   2.464299E-06
+   1.400000E+02   2.163376E-05
+   1.500000E+02   4.656222E-05
+   1.600000E+02   3.909470E-04
+   1.800000E+02   6.853049E-04
+   2.000000E+02   3.991205E-04

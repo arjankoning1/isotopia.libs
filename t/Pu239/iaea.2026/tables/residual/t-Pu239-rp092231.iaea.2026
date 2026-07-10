@@ -1,0 +1,46 @@
+# header: 
+#   title: Pu239(t,x)U231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 231
+#     nuclide: U231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   8.284697E-11
+   5.500000E+01   6.296138E-08
+   6.000000E+01   4.726143E-06
+   6.500000E+01   5.387102E-05
+   7.000000E+01   2.344153E-04
+   7.500000E+01   4.404826E-04
+   8.000000E+01   1.239757E-03
+   9.000000E+01   3.653667E-02
+   1.000000E+02   2.749460E-01
+   1.100000E+02   6.358330E-01
+   1.200000E+02   1.072068E+00
+   1.300000E+02   9.973946E-01
+   1.400000E+02   9.284974E-01
+   1.500000E+02   1.917178E+00
+   1.600000E+02   9.287323E-01
+   1.800000E+02   3.304645E-02
+   2.000000E+02   4.179718E-03

@@ -1,0 +1,40 @@
+# header: 
+#   title: Am240(t,x)U227 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 227
+#     nuclide: U227
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   9.856862E-12
+   9.000000E+01   5.949019E-08
+   1.000000E+02   5.171501E-06
+   1.100000E+02   6.075795E-05
+   1.200000E+02   2.371913E-04
+   1.300000E+02   5.031656E-03
+   1.400000E+02   1.486332E-02
+   1.500000E+02   2.686166E-02
+   1.600000E+02   1.309924E-01
+   1.800000E+02   1.852612E-01
+   2.000000E+02   2.602674E-03

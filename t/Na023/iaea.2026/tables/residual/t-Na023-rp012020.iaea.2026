@@ -1,0 +1,41 @@
+# header: 
+#   title: Na23(t,x)Mg20 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 20
+#     nuclide: Mg20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   3.754271E-09
+   8.000000E+01   1.493809E-07
+   9.000000E+01   3.821359E-06
+   1.000000E+02   1.642700E-05
+   1.100000E+02   3.369402E-05
+   1.200000E+02   4.737872E-05
+   1.300000E+02   5.359101E-05
+   1.400000E+02   5.414223E-05
+   1.500000E+02   5.097908E-05
+   1.600000E+02   4.662636E-05
+   1.800000E+02   3.729741E-05
+   2.000000E+02   2.957328E-05

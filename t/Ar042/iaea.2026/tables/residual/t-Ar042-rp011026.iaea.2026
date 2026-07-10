@@ -1,0 +1,41 @@
+# header: 
+#   title: Ar42(t,x)Na26 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 18
+#   A: 42
+#   nuclide: Ar42
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.593123E-11
+   8.000000E+01   2.871402E-09
+   9.000000E+01   5.271722E-07
+   1.000000E+02   5.005115E-06
+   1.100000E+02   2.190985E-05
+   1.200000E+02   2.699090E-04
+   1.300000E+02   1.473839E-03
+   1.400000E+02   3.874761E-03
+   1.500000E+02   7.413866E-03
+   1.600000E+02   1.203494E-02
+   1.800000E+02   2.783368E-02
+   2.000000E+02   5.952234E-02

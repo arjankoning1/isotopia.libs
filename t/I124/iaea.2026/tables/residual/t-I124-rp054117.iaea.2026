@@ -1,0 +1,39 @@
+# header: 
+#   title: I124(t,x)Xe117 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 117
+#     nuclide: Xe117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.722665E-07
+   1.000000E+02   4.325213E-04
+   1.100000E+02   8.846564E-03
+   1.200000E+02   3.732557E-02
+   1.300000E+02   7.616259E-02
+   1.400000E+02   1.087510E-01
+   1.500000E+02   1.340732E-01
+   1.600000E+02   1.699189E-01
+   1.800000E+02   2.125052E-01
+   2.000000E+02   2.378955E-01

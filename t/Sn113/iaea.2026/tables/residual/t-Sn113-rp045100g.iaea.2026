@@ -1,0 +1,46 @@
+# header: 
+#   title: Sn113(t,x)Rh100g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 113
+#   nuclide: Sn113
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 100
+#     nuclide: Rh100g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.417946E-12
+   6.500000E+01   4.418532E-09
+   7.000000E+01   1.438684E-06
+   7.500000E+01   6.290516E-05
+   8.000000E+01   5.840959E-04
+   9.000000E+01   7.163563E-03
+   1.000000E+02   6.723214E-02
+   1.100000E+02   1.176420E+00
+   1.200000E+02   4.500115E+00
+   1.300000E+02   7.693800E+00
+   1.400000E+02   1.014847E+01
+   1.500000E+02   1.320356E+01
+   1.600000E+02   1.635397E+01
+   1.800000E+02   2.014587E+01
+   2.000000E+02   1.981617E+01

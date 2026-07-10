@@ -1,0 +1,45 @@
+# header: 
+#   title: Mo92(t,x)Mo88 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 88
+#     nuclide: Mo88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   6.764449E-07
+   6.000000E+01   3.781984E-04
+   6.500000E+01   3.815138E-03
+   7.000000E+01   1.289044E-02
+   7.500000E+01   5.341345E-02
+   8.000000E+01   1.741667E-01
+   9.000000E+01   5.790986E-01
+   1.000000E+02   8.870192E-01
+   1.100000E+02   1.022647E+00
+   1.200000E+02   1.028928E+00
+   1.300000E+02   1.024837E+00
+   1.400000E+02   1.030180E+00
+   1.500000E+02   9.807372E-01
+   1.600000E+02   9.635114E-01
+   1.800000E+02   1.016451E+00
+   2.000000E+02   1.168930E+00

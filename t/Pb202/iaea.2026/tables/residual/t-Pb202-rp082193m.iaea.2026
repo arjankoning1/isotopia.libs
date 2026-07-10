@@ -1,0 +1,41 @@
+# header: 
+#   title: Pb202(t,x)Pb193m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 193
+#     nuclide: Pb193m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.042724E-10
+   1.000000E+02   2.063479E-05
+   1.100000E+02   2.913385E-03
+   1.200000E+02   5.882048E-02
+   1.300000E+02   3.991931E-01
+   1.400000E+02   1.141832E+00
+   1.500000E+02   2.086700E+00
+   1.600000E+02   2.765838E+00
+   1.800000E+02   4.759026E+00
+   2.000000E+02   4.506237E+00

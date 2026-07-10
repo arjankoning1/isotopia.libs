@@ -1,0 +1,41 @@
+# header: 
+#   title: Er172(t,x)Er163 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 172
+#   nuclide: Er172
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 68
+#     A: 163
+#     nuclide: Er163
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.886154E-08
+   8.000000E+01   6.358839E-05
+   9.000000E+01   2.879433E-02
+   1.000000E+02   4.392391E-01
+   1.100000E+02   2.829026E+00
+   1.200000E+02   7.260844E+00
+   1.300000E+02   1.240095E+01
+   1.400000E+02   1.377719E+01
+   1.500000E+02   1.464429E+01
+   1.600000E+02   1.589050E+01
+   1.800000E+02   1.360259E+01
+   2.000000E+02   1.598743E+01

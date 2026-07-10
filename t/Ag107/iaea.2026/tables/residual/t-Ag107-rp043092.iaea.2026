@@ -1,0 +1,37 @@
+# header: 
+#   title: Ag107(t,x)Tc92 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 92
+#     nuclide: Tc92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   7.465067E-09
+   1.200000E+02   4.414132E-06
+   1.300000E+02   1.730074E-04
+   1.400000E+02   2.112609E-03
+   1.500000E+02   1.537622E-02
+   1.600000E+02   1.139186E-01
+   1.800000E+02   1.912194E+00
+   2.000000E+02   7.988413E+00

@@ -1,0 +1,39 @@
+# header: 
+#   title: Ce142(t,x)La131 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 142
+#   nuclide: Ce142
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 131
+#     nuclide: La131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.776077E-08
+   1.000000E+02   4.289681E-04
+   1.100000E+02   1.530663E-02
+   1.200000E+02   1.200780E-01
+   1.300000E+02   2.881700E+00
+   1.400000E+02   1.970887E+01
+   1.500000E+02   5.255253E+01
+   1.600000E+02   8.185258E+01
+   1.800000E+02   1.041388E+02
+   2.000000E+02   8.974194E+01

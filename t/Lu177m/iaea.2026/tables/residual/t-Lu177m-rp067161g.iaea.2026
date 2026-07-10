@@ -1,0 +1,40 @@
+# header: 
+#   title: Lu177m(t,x)Ho161g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 71
+#   A: 177
+#   nuclide: Lu177m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 161
+#     nuclide: Ho161g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.292830E-08
+   1.100000E+02   9.475161E-06
+   1.200000E+02   4.078115E-04
+   1.300000E+02   6.772067E-03
+   1.400000E+02   1.017736E-01
+   1.500000E+02   8.447630E-01
+   1.600000E+02   2.880530E+00
+   1.800000E+02   9.336519E+00
+   2.000000E+02   9.561857E+00

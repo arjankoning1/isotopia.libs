@@ -1,0 +1,43 @@
+# header: 
+#   title: Ba130(t,x)Sb116m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 116
+#     nuclide: Sb116m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   9.651342E-11
+   8.000000E+01   1.820515E-08
+   9.000000E+01   9.922525E-06
+   1.000000E+02   1.662268E-04
+   1.100000E+02   1.386353E-03
+   1.200000E+02   2.171235E-02
+   1.300000E+02   8.764793E-02
+   1.400000E+02   2.973586E-01
+   1.500000E+02   9.423537E-01
+   1.600000E+02   1.870140E+00
+   1.800000E+02   3.434284E+00
+   2.000000E+02   3.942447E+00

@@ -1,0 +1,37 @@
+# header: 
+#   title: Y91(t,x)As74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 39
+#   A: 91
+#   nuclide: Y91
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 74
+#     nuclide: As74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.441788E-08
+   1.200000E+02   3.849786E-06
+   1.300000E+02   1.906432E-04
+   1.400000E+02   2.519052E-03
+   1.500000E+02   1.606999E-02
+   1.600000E+02   1.391224E-01
+   1.800000E+02   1.343794E+00
+   2.000000E+02   4.028370E+00

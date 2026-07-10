@@ -1,0 +1,41 @@
+# header: 
+#   title: Os193(t,x)Ta180 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 76
+#   A: 193
+#   nuclide: Os193
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 73
+#     A: 180
+#     nuclide: Ta180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.194781E-10
+   8.000000E+01   5.882531E-08
+   9.000000E+01   3.091953E-05
+   1.000000E+02   5.664884E-04
+   1.100000E+02   3.832339E-02
+   1.200000E+02   7.531911E-01
+   1.300000E+02   3.039493E+00
+   1.400000E+02   4.268963E+00
+   1.500000E+02   5.619975E+00
+   1.600000E+02   5.107596E+00
+   1.800000E+02   2.896930E+00
+   2.000000E+02   2.209293E+00

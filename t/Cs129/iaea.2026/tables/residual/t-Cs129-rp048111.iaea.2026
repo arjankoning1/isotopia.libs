@@ -1,0 +1,39 @@
+# header: 
+#   title: Cs129(t,x)Cd111 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 129
+#   nuclide: Cs129
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.041630E-11
+   1.000000E+02   5.437759E-08
+   1.100000E+02   3.370198E-06
+   1.200000E+02   3.123343E-05
+   1.300000E+02   6.236462E-04
+   1.400000E+02   6.484820E-03
+   1.500000E+02   1.758258E-02
+   1.600000E+02   3.528723E-02
+   1.800000E+02   1.497428E-01
+   2.000000E+02   3.198556E-01

@@ -1,0 +1,40 @@
+# header: 
+#   title: S34(t,x)S29 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 29
+#     nuclide: S29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.362145E-10
+   9.000000E+01   1.095425E-06
+   1.000000E+02   1.420740E-05
+   1.100000E+02   5.014996E-05
+   1.200000E+02   1.045110E-04
+   1.300000E+02   1.572051E-04
+   1.400000E+02   1.923393E-04
+   1.500000E+02   2.146335E-04
+   1.600000E+02   2.210078E-04
+   1.800000E+02   2.175163E-04
+   2.000000E+02   2.024571E-04

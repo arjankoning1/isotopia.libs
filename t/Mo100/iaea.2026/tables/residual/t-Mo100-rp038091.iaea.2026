@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo100(t,x)Sr91 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 91
+#     nuclide: Sr91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.084743E-11
+   4.500000E+01   9.332100E-09
+   5.000000E+01   1.682580E-07
+   5.500000E+01   1.567231E-06
+   6.000000E+01   9.680095E-06
+   6.500000E+01   4.652449E-05
+   7.000000E+01   1.393992E-04
+   7.500000E+01   2.841649E-04
+   8.000000E+01   5.095727E-04
+   9.000000E+01   5.109148E-03
+   1.000000E+02   2.185792E-02
+   1.100000E+02   4.099229E-02
+   1.200000E+02   3.671620E-02
+   1.300000E+02   3.924359E-02
+   1.400000E+02   4.575880E-02
+   1.500000E+02   5.276986E-02
+   1.600000E+02   4.632256E-02
+   1.800000E+02   1.578741E-02
+   2.000000E+02   1.042820E-02

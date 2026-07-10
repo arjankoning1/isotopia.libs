@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(t,x)Ga65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   5.132051E-09
+   6.500000E+01   3.744577E-06
+   7.000000E+01   2.037565E-04
+   7.500000E+01   2.257523E-03
+   8.000000E+01   9.412555E-03
+   9.000000E+01   3.880470E-02
+   1.000000E+02   1.129864E-01
+   1.100000E+02   5.351608E-01
+   1.200000E+02   1.643047E+00
+   1.300000E+02   4.134495E+00
+   1.400000E+02   9.268691E+00
+   1.500000E+02   2.048430E+01
+   1.600000E+02   3.256898E+01
+   1.800000E+02   5.092124E+01
+   2.000000E+02   5.219236E+01

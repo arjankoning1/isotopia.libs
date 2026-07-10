@@ -1,0 +1,39 @@
+# header: 
+#   title: Cf246(t,x)U231 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 98
+#   A: 246
+#   nuclide: Cf246
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 231
+#     nuclide: U231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   7.850066E-11
+   1.000000E+02   1.381238E-08
+   1.100000E+02   2.682594E-07
+   1.200000E+02   3.464058E-06
+   1.300000E+02   1.185765E-04
+   1.400000E+02   3.628297E-04
+   1.500000E+02   7.800353E-05
+   1.600000E+02   5.908034E-05
+   1.800000E+02   1.037843E-05
+   2.000000E+02   1.536123E-06

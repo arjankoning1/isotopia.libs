@@ -1,0 +1,41 @@
+# header: 
+#   title: Ca43(t,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.014360E-12
+   8.000000E+01   5.308666E-10
+   9.000000E+01   1.693573E-07
+   1.000000E+02   1.807718E-06
+   1.100000E+02   4.700436E-06
+   1.200000E+02   7.530909E-06
+   1.300000E+02   1.548673E-05
+   1.400000E+02   4.838553E-05
+   1.500000E+02   1.177839E-04
+   1.600000E+02   2.030275E-04
+   1.800000E+02   3.770627E-04
+   2.000000E+02   5.426661E-04

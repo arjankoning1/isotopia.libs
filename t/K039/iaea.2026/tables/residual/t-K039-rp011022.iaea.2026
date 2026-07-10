@@ -1,0 +1,40 @@
+# header: 
+#   title: K39(t,x)Na22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.121762E-09
+   9.000000E+01   1.078869E-06
+   1.000000E+02   2.480342E-05
+   1.100000E+02   3.237639E-04
+   1.200000E+02   1.973576E-03
+   1.300000E+02   9.898286E-03
+   1.400000E+02   4.310490E-02
+   1.500000E+02   1.540460E-01
+   1.600000E+02   3.527118E-01
+   1.800000E+02   1.171372E+00
+   2.000000E+02   3.905153E+00

@@ -1,0 +1,43 @@
+# header: 
+#   title: I129(t,x)Te119m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   1.084948E-12
+   8.000000E+01   3.548703E-08
+   9.000000E+01   8.445780E-04
+   1.000000E+02   5.483544E-02
+   1.100000E+02   3.466669E-01
+   1.200000E+02   2.825715E+00
+   1.300000E+02   2.272833E+01
+   1.400000E+02   6.579347E+01
+   1.500000E+02   1.075913E+02
+   1.600000E+02   1.212491E+02
+   1.800000E+02   1.336271E+02
+   2.000000E+02   1.005700E+02

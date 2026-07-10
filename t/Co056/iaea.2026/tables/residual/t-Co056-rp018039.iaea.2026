@@ -1,0 +1,43 @@
+# header: 
+#   title: Co56(t,x)Ar39 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.043630E-10
+   7.000000E+01   2.093993E-09
+   7.500000E+01   1.295265E-08
+   8.000000E+01   3.927885E-08
+   9.000000E+01   6.107787E-07
+   1.000000E+02   4.856350E-05
+   1.100000E+02   3.674722E-04
+   1.200000E+02   8.704685E-04
+   1.300000E+02   2.387012E-03
+   1.400000E+02   1.317310E-02
+   1.500000E+02   4.740704E-02
+   1.600000E+02   1.046364E-01
+   1.800000E+02   3.222062E-01
+   2.000000E+02   7.405972E-01

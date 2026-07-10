@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag108m(t,x)Mo93m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 108
+#   nuclide: Ag108m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.679717E-14
+   8.000000E+01   9.053102E-11
+   9.000000E+01   1.851713E-06
+   1.000000E+02   1.592929E-04
+   1.100000E+02   1.602879E-03
+   1.200000E+02   3.215188E-02
+   1.300000E+02   3.673851E-01
+   1.400000E+02   1.510523E+00
+   1.500000E+02   2.613847E+00
+   1.600000E+02   4.364377E+00
+   1.800000E+02   8.049664E+00
+   2.000000E+02   1.392670E+01

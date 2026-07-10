@@ -1,0 +1,39 @@
+# header: 
+#   title: Bk245(t,x)Pa230 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 245
+#   nuclide: Bk245
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 91
+#     A: 230
+#     nuclide: Pa230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.079015E-10
+   1.000000E+02   7.822759E-08
+   1.100000E+02   1.661210E-06
+   1.200000E+02   6.543162E-05
+   1.300000E+02   7.590917E-04
+   1.400000E+02   5.046775E-03
+   1.500000E+02   1.271431E-02
+   1.600000E+02   1.488183E-02
+   1.800000E+02   4.781936E-03
+   2.000000E+02   3.347337E-03

@@ -1,0 +1,39 @@
+# header: 
+#   title: Zn70(t,x)Cu60 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.148106E-09
+   1.000000E+02   1.247226E-05
+   1.100000E+02   4.577539E-04
+   1.200000E+02   2.810102E-03
+   1.300000E+02   1.444399E-02
+   1.400000E+02   9.860437E-02
+   1.500000E+02   3.610480E-01
+   1.600000E+02   7.769877E-01
+   1.800000E+02   1.599047E+00
+   2.000000E+02   2.080013E+00

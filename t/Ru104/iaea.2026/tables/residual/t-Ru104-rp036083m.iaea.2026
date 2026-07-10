@@ -1,0 +1,38 @@
+# header: 
+#   title: Ru104(t,x)Kr83m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 83
+#     nuclide: Kr83m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   5.244020E-12
+   1.300000E+02   2.346860E-09
+   1.400000E+02   9.209679E-08
+   1.500000E+02   1.529418E-06
+   1.600000E+02   1.612051E-05
+   1.800000E+02   8.250048E-04
+   2.000000E+02   7.199604E-03

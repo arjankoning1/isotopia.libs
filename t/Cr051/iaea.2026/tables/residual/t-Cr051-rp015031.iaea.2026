@@ -1,0 +1,39 @@
+# header: 
+#   title: Cr51(t,x)P31 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 31
+#     nuclide: P31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   3.587777E-11
+   1.000000E+02   6.595158E-08
+   1.100000E+02   1.975355E-06
+   1.200000E+02   1.430895E-05
+   1.300000E+02   2.185984E-04
+   1.400000E+02   2.096121E-03
+   1.500000E+02   9.748019E-03
+   1.600000E+02   2.635860E-02
+   1.800000E+02   1.449330E-01
+   2.000000E+02   6.699908E-01

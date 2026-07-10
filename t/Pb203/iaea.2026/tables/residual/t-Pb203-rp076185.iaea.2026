@@ -1,0 +1,37 @@
+# header: 
+#   title: Pb203(t,x)Os185 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 76
+#     A: 185
+#     nuclide: Os185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.540463E-10
+   1.200000E+02   5.257862E-08
+   1.300000E+02   3.207044E-06
+   1.400000E+02   3.205154E-05
+   1.500000E+02   2.140503E-04
+   1.600000E+02   1.303293E-03
+   1.800000E+02   2.482355E-02
+   2.000000E+02   4.799586E-03

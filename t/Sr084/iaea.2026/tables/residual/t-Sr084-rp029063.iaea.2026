@@ -1,0 +1,38 @@
+# header: 
+#   title: Sr84(t,x)Cu63 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   3.426304E-12
+   1.100000E+02   4.332813E-09
+   1.200000E+02   2.494182E-07
+   1.300000E+02   2.475449E-06
+   1.400000E+02   1.343305E-05
+   1.500000E+02   1.509584E-04
+   1.600000E+02   1.614945E-03
+   1.800000E+02   6.175284E-02
+   2.000000E+02   6.507587E-01

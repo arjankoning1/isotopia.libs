@@ -1,0 +1,37 @@
+# header: 
+#   title: Sm146(t,x)Cs126 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 146
+#   nuclide: Sm146
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 126
+#     nuclide: Cs126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.436485E-12
+   1.200000E+02   2.481018E-08
+   1.300000E+02   1.971714E-06
+   1.400000E+02   3.368135E-05
+   1.500000E+02   4.806357E-04
+   1.600000E+02   7.252007E-03
+   1.800000E+02   6.418100E-02
+   2.000000E+02   1.780595E-01

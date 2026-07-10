@@ -1,0 +1,40 @@
+# header: 
+#   title: Pa232(t,x)Fr217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 91
+#   A: 232
+#   nuclide: Pa232
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 87
+#     A: 217
+#     nuclide: Fr217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.180624E-11
+   9.000000E+01   1.689833E-07
+   1.000000E+02   4.886362E-05
+   1.100000E+02   1.780233E-03
+   1.200000E+02   2.060901E-02
+   1.300000E+02   1.948176E-01
+   1.400000E+02   1.316738E+00
+   1.500000E+02   3.464257E+00
+   1.600000E+02   7.865448E+00
+   1.800000E+02   1.349864E+01
+   2.000000E+02   1.741488E+01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ce134(t,x)Te119m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 134
+#   nuclide: Ce134
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.912798E-11
+   9.000000E+01   4.433379E-08
+   1.000000E+02   8.794162E-06
+   1.100000E+02   4.273870E-04
+   1.200000E+02   1.152703E-02
+   1.300000E+02   1.331482E-01
+   1.400000E+02   5.566264E-01
+   1.500000E+02   1.016250E+00
+   1.600000E+02   1.336121E+00
+   1.800000E+02   2.262716E+00
+   2.000000E+02   1.691357E+00

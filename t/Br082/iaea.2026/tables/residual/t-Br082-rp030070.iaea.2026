@@ -1,0 +1,45 @@
+# header: 
+#   title: Br82(t,x)Zn70 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 70
+#     nuclide: Zn70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.351453E-09
+   6.000000E+01   2.710592E-07
+   6.500000E+01   6.809696E-06
+   7.000000E+01   5.004097E-05
+   7.500000E+01   1.732551E-04
+   8.000000E+01   3.868538E-04
+   9.000000E+01   6.980055E-03
+   1.000000E+02   9.079485E-02
+   1.100000E+02   2.664400E-01
+   1.200000E+02   4.099249E-01
+   1.300000E+02   5.007694E-01
+   1.400000E+02   5.990615E-01
+   1.500000E+02   8.345923E-01
+   1.600000E+02   1.084886E+00
+   1.800000E+02   1.241628E+00
+   2.000000E+02   7.444969E-01

@@ -1,0 +1,42 @@
+# header: 
+#   title: Ce139(t,x)Ce132 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 58
+#   A: 139
+#   nuclide: Ce139
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 132
+#     nuclide: Ce132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   2.239746E-10
+   7.500000E+01   5.334341E-06
+   8.000000E+01   7.170659E-04
+   9.000000E+01   6.451582E-02
+   1.000000E+02   9.676449E-01
+   1.100000E+02   5.367455E+00
+   1.200000E+02   1.208089E+01
+   1.300000E+02   1.720370E+01
+   1.400000E+02   1.837259E+01
+   1.500000E+02   1.952231E+01
+   1.600000E+02   1.810624E+01
+   1.800000E+02   1.708684E+01
+   2.000000E+02   1.365474E+01

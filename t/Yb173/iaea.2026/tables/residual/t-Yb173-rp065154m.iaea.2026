@@ -1,0 +1,39 @@
+# header: 
+#   title: Yb173(t,x)Tb154m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 70
+#   A: 173
+#   nuclide: Yb173
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 65
+#     A: 154
+#     nuclide: Tb154m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   8.292227E-11
+   1.200000E+02   1.166049E-06
+   1.300000E+02   2.152381E-04
+   1.400000E+02   4.371115E-03
+   1.500000E+02   7.544450E-02
+   1.600000E+02   6.073753E-01
+   1.800000E+02   7.374521E+00
+   2.000000E+02   1.006332E+01

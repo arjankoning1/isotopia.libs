@@ -1,0 +1,45 @@
+# header: 
+#   title: Cs135(t,x)Te125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 125
+#     nuclide: Te125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.985825E-09
+   6.000000E+01   1.859711E-06
+   6.500000E+01   1.497172E-04
+   7.000000E+01   1.931595E-03
+   7.500000E+01   9.348196E-03
+   8.000000E+01   2.303209E-02
+   9.000000E+01   1.069886E-01
+   1.000000E+02   1.334921E+00
+   1.100000E+02   4.548048E+00
+   1.200000E+02   6.032446E+00
+   1.300000E+02   6.488258E+00
+   1.400000E+02   5.177054E+00
+   1.500000E+02   5.149020E+00
+   1.600000E+02   4.539964E+00
+   1.800000E+02   2.152067E+00
+   2.000000E+02   1.801344E+00

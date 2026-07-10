@@ -1,0 +1,39 @@
+# header: 
+#   title: Mn53(t,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 25
+#   A: 53
+#   nuclide: Mn53
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.800945E-12
+   1.000000E+02   3.792980E-08
+   1.100000E+02   1.694779E-06
+   1.200000E+02   9.378228E-06
+   1.300000E+02   3.219071E-05
+   1.400000E+02   1.685339E-04
+   1.500000E+02   5.508857E-04
+   1.600000E+02   1.166393E-03
+   1.800000E+02   2.410056E-03
+   2.000000E+02   3.350877E-03

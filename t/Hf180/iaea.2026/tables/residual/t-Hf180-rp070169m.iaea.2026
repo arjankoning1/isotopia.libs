@@ -1,0 +1,44 @@
+# header: 
+#   title: Hf180(t,x)Yb169m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 180
+#   nuclide: Hf180
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 70
+#     A: 169
+#     nuclide: Yb169m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.500619E-12
+   7.500000E+01   6.380367E-09
+   8.000000E+01   1.346211E-06
+   9.000000E+01   2.774764E-04
+   1.000000E+02   4.499700E-03
+   1.100000E+02   3.871226E-02
+   1.200000E+02   2.606448E-01
+   1.300000E+02   2.448844E+00
+   1.400000E+02   7.362549E+00
+   1.500000E+02   1.311929E+01
+   1.600000E+02   1.541433E+01
+   1.800000E+02   1.520593E+01
+   2.000000E+02   8.258077E+00

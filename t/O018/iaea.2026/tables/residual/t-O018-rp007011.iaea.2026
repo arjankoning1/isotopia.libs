@@ -1,0 +1,40 @@
+# header: 
+#   title: O18(t,x)N11 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 11
+#     nuclide: N11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.865485E-10
+   9.000000E+01   1.206970E-06
+   1.000000E+02   3.023095E-05
+   1.100000E+02   2.024119E-04
+   1.200000E+02   6.494060E-04
+   1.300000E+02   1.511683E-03
+   1.400000E+02   3.483733E-03
+   1.500000E+02   6.938654E-03
+   1.600000E+02   1.258655E-02
+   1.800000E+02   2.182763E-02
+   2.000000E+02   2.824903E-02

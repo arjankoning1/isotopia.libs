@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu151(t,x)Eu142m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 63
+#     A: 142
+#     nuclide: Eu142m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   8.194021E-09
+   1.000000E+02   1.156668E-04
+   1.100000E+02   6.716984E-03
+   1.200000E+02   9.444186E-02
+   1.300000E+02   4.378988E-01
+   1.400000E+02   9.865797E-01
+   1.500000E+02   1.450026E+00
+   1.600000E+02   1.618540E+00
+   1.800000E+02   1.845087E+00
+   2.000000E+02   1.851921E+00

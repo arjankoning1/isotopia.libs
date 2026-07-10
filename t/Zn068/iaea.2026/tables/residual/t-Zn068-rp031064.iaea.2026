@@ -1,0 +1,44 @@
+# header: 
+#   title: Zn68(t,x)Ga64 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 64
+#     nuclide: Ga64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.269135E-07
+   6.500000E+01   8.428116E-05
+   7.000000E+01   1.524452E-03
+   7.500000E+01   7.638225E-03
+   8.000000E+01   1.945621E-02
+   9.000000E+01   4.570174E-02
+   1.000000E+02   5.833333E-02
+   1.100000E+02   5.829881E-02
+   1.200000E+02   5.300287E-02
+   1.300000E+02   4.459452E-02
+   1.400000E+02   3.867610E-02
+   1.500000E+02   3.327129E-02
+   1.600000E+02   3.106306E-02
+   1.800000E+02   2.551338E-02
+   2.000000E+02   2.479028E-02

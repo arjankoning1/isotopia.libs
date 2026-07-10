@@ -1,0 +1,41 @@
+# header: 
+#   title: Sn120(t,x)In109m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 49
+#     A: 109
+#     nuclide: In109m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.405245E-11
+   1.000000E+02   3.420765E-06
+   1.100000E+02   8.531103E-04
+   1.200000E+02   1.230081E-02
+   1.300000E+02   5.739767E-02
+   1.400000E+02   3.346384E-01
+   1.500000E+02   1.617885E+00
+   1.600000E+02   3.209313E+00
+   1.800000E+02   6.995325E+00
+   2.000000E+02   8.733438E+00

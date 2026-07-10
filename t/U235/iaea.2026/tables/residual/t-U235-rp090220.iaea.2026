@@ -1,0 +1,37 @@
+# header: 
+#   title: U235(t,x)Th220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 220
+#     nuclide: Th220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   4.825075E-09
+   1.200000E+02   3.969304E-06
+   1.300000E+02   2.612283E-04
+   1.400000E+02   3.957028E-03
+   1.500000E+02   2.307060E-02
+   1.600000E+02   2.291812E-01
+   1.800000E+02   1.509869E+00
+   2.000000E+02   4.411451E+00

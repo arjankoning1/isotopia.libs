@@ -1,0 +1,43 @@
+# header: 
+#   title: Ag111(t,x)Pd102 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 47
+#   A: 111
+#   nuclide: Ag111
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 102
+#     nuclide: Pd102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.652344E-10
+   7.000000E+01   1.158914E-06
+   7.500000E+01   2.662067E-04
+   8.000000E+01   8.079802E-03
+   9.000000E+01   2.580612E-01
+   1.000000E+02   1.234159E+00
+   1.100000E+02   6.383112E+00
+   1.200000E+02   3.570608E+01
+   1.300000E+02   9.806227E+01
+   1.400000E+02   1.450781E+02
+   1.500000E+02   1.650435E+02
+   1.600000E+02   1.646435E+02
+   1.800000E+02   1.538512E+02
+   2.000000E+02   1.182525E+02

@@ -1,0 +1,38 @@
+# header: 
+#   title: Co56(t,x)Ti42 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 42
+#     nuclide: Ti42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   8.700363E-11
+   1.100000E+02   1.689833E-08
+   1.200000E+02   1.893875E-07
+   1.300000E+02   1.579921E-06
+   1.400000E+02   2.672010E-05
+   1.500000E+02   1.548848E-04
+   1.600000E+02   4.391702E-04
+   1.800000E+02   1.636344E-03
+   2.000000E+02   3.550044E-03

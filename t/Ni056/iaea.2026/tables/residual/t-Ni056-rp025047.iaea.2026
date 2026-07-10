@@ -1,0 +1,41 @@
+# header: 
+#   title: Ni56(t,x)Mn47 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 47
+#     nuclide: Mn47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.446276E-12
+   8.000000E+01   4.025906E-10
+   9.000000E+01   4.044555E-08
+   1.000000E+02   2.191490E-07
+   1.100000E+02   5.094790E-07
+   1.200000E+02   1.763513E-06
+   1.300000E+02   5.310539E-06
+   1.400000E+02   1.133248E-05
+   1.500000E+02   2.112282E-05
+   1.600000E+02   3.201645E-05
+   1.800000E+02   5.898797E-05
+   2.000000E+02   7.361211E-05

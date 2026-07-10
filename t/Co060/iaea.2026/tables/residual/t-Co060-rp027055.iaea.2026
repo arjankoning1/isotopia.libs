@@ -1,0 +1,45 @@
+# header: 
+#   title: Co60(t,x)Co55 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   2.049681E-08
+   6.000000E+01   1.611027E-04
+   6.500000E+01   3.793462E-03
+   7.000000E+01   1.779122E-02
+   7.500000E+01   4.874554E-02
+   8.000000E+01   1.061990E-01
+   9.000000E+01   3.561268E-01
+   1.000000E+02   7.118263E-01
+   1.100000E+02   9.833030E-01
+   1.200000E+02   1.110466E+00
+   1.300000E+02   1.084809E+00
+   1.400000E+02   1.106541E+00
+   1.500000E+02   1.036982E+00
+   1.600000E+02   1.054176E+00
+   1.800000E+02   1.058372E+00
+   2.000000E+02   9.788357E-01

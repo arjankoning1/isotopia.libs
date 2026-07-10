@@ -1,0 +1,46 @@
+# header: 
+#   title: Ni56(t,x)Sc46g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.252630E-10
+   6.500000E+01   3.743671E-07
+   7.000000E+01   6.267967E-05
+   7.500000E+01   1.426938E-03
+   8.000000E+01   9.674159E-03
+   9.000000E+01   6.808658E-02
+   1.000000E+02   1.413185E-01
+   1.100000E+02   2.167114E-01
+   1.200000E+02   5.447580E-01
+   1.300000E+02   1.320550E+00
+   1.400000E+02   2.604490E+00
+   1.500000E+02   3.541692E+00
+   1.600000E+02   4.290976E+00
+   1.800000E+02   4.578719E+00
+   2.000000E+02   4.621210E+00

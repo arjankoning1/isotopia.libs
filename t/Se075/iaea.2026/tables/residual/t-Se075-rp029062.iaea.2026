@@ -1,0 +1,44 @@
+# header: 
+#   title: Se75(t,x)Cu62 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 34
+#   A: 75
+#   nuclide: Se75
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.036443E-11
+   6.500000E+01   1.729194E-08
+   7.000000E+01   2.313312E-06
+   7.500000E+01   5.394539E-05
+   8.000000E+01   3.855882E-04
+   9.000000E+01   2.834150E-03
+   1.000000E+02   1.335679E-02
+   1.100000E+02   1.299971E-01
+   1.200000E+02   6.281482E-01
+   1.300000E+02   1.864246E+00
+   1.400000E+02   5.984594E+00
+   1.500000E+02   1.620251E+01
+   1.600000E+02   3.413859E+01
+   1.800000E+02   6.187432E+01
+   2.000000E+02   8.506695E+01

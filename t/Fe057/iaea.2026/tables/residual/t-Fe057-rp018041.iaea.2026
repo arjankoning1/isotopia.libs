@@ -1,0 +1,40 @@
+# header: 
+#   title: Fe57(t,x)Ar41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.623240E-11
+   9.000000E+01   1.949108E-08
+   1.000000E+02   1.072478E-06
+   1.100000E+02   8.409578E-06
+   1.200000E+02   2.264170E-04
+   1.300000E+02   3.975212E-03
+   1.400000E+02   1.715431E-02
+   1.500000E+02   3.576567E-02
+   1.600000E+02   5.916939E-02
+   1.800000E+02   1.168958E-01
+   2.000000E+02   2.322477E-01

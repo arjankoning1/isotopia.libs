@@ -1,0 +1,39 @@
+# header: 
+#   title: Pb203(t,x)Ir188 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 77
+#     A: 188
+#     nuclide: Ir188
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.718774E-09
+   1.000000E+02   2.302961E-06
+   1.100000E+02   2.221103E-05
+   1.200000E+02   2.589292E-04
+   1.300000E+02   2.712082E-03
+   1.400000E+02   8.214040E-03
+   1.500000E+02   1.149443E-02
+   1.600000E+02   1.450630E-02
+   1.800000E+02   2.195711E-02
+   2.000000E+02   7.105861E-03

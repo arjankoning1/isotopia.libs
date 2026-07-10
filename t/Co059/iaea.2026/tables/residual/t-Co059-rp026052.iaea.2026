@@ -1,0 +1,44 @@
+# header: 
+#   title: Co59(t,x)Fe52 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.948651E-11
+   6.500000E+01   1.507391E-06
+   7.000000E+01   1.396995E-04
+   7.500000E+01   1.356623E-03
+   8.000000E+01   5.306872E-03
+   9.000000E+01   1.993658E-02
+   1.000000E+02   4.514645E-02
+   1.100000E+02   1.388256E-01
+   1.200000E+02   3.282942E-01
+   1.300000E+02   5.066162E-01
+   1.400000E+02   6.954011E-01
+   1.500000E+02   7.340631E-01
+   1.600000E+02   8.167337E-01
+   1.800000E+02   8.639490E-01
+   2.000000E+02   8.682244E-01

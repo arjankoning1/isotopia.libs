@@ -1,0 +1,48 @@
+# header: 
+#   title: Tc95m(t,x)Rb85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 85
+#     nuclide: Rb85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   2.004748E-11
+   4.500000E+01   3.018439E-09
+   5.000000E+01   8.259106E-08
+   5.500000E+01   8.752471E-07
+   6.000000E+01   4.844169E-06
+   6.500000E+01   1.318867E-05
+   7.000000E+01   2.593965E-05
+   7.500000E+01   5.198535E-05
+   8.000000E+01   2.031985E-04
+   9.000000E+01   1.556510E-03
+   1.000000E+02   3.215124E-03
+   1.100000E+02   5.202158E-03
+   1.200000E+02   1.123262E-02
+   1.300000E+02   2.321414E-02
+   1.400000E+02   3.971036E-02
+   1.500000E+02   5.375181E-02
+   1.600000E+02   6.173322E-02
+   1.800000E+02   6.376872E-02
+   2.000000E+02   5.441805E-02

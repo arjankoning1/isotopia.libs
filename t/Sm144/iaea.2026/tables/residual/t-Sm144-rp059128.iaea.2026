@@ -1,0 +1,35 @@
+# header: 
+#   title: Sm144(t,x)Pr128 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 128
+#     nuclide: Pr128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 6
+##       E             xs
+##     [MeV]          [mb]
+   1.300000E+02   2.344405E-11
+   1.400000E+02   1.954249E-07
+   1.500000E+02   2.202670E-05
+   1.600000E+02   3.788894E-04
+   1.800000E+02   1.650497E-01
+   2.000000E+02   2.409941E+00

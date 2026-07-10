@@ -1,0 +1,44 @@
+# header: 
+#   title: Te125m(t,x)Ag113 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 113
+#     nuclide: Ag113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   4.281003E-10
+   6.500000E+01   2.582048E-08
+   7.000000E+01   3.711574E-07
+   7.500000E+01   1.932037E-06
+   8.000000E+01   5.831544E-06
+   9.000000E+01   1.397070E-04
+   1.000000E+02   3.586885E-03
+   1.100000E+02   1.267405E-02
+   1.200000E+02   2.128050E-02
+   1.300000E+02   2.300302E-02
+   1.400000E+02   4.422569E-02
+   1.500000E+02   8.250040E-02
+   1.600000E+02   1.058905E-01
+   1.800000E+02   8.750355E-02
+   2.000000E+02   6.182216E-02

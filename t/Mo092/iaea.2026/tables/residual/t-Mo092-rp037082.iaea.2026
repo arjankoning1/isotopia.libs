@@ -1,0 +1,48 @@
+# header: 
+#   title: Mo92(t,x)Rb82 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   5.719423E-11
+   4.500000E+01   5.101424E-08
+   5.000000E+01   2.823159E-06
+   5.500000E+01   2.852318E-05
+   6.000000E+01   1.115534E-04
+   6.500000E+01   2.452715E-04
+   7.000000E+01   5.881524E-04
+   7.500000E+01   7.207253E-03
+   8.000000E+01   3.725478E-02
+   9.000000E+01   2.533538E-01
+   1.000000E+02   4.830951E-01
+   1.100000E+02   7.119365E-01
+   1.200000E+02   1.747953E+00
+   1.300000E+02   4.372084E+00
+   1.400000E+02   6.038684E+00
+   1.500000E+02   7.309639E+00
+   1.600000E+02   8.142526E+00
+   1.800000E+02   7.889891E+00
+   2.000000E+02   8.204048E+00

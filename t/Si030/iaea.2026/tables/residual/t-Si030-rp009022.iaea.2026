@@ -1,0 +1,47 @@
+# header: 
+#   title: Si30(t,x)F22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 22
+#     nuclide: F22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   7.822542E-11
+   5.000000E+01   6.351127E-06
+   5.500000E+01   4.267458E-04
+   6.000000E+01   2.466917E-03
+   6.500000E+01   5.627311E-03
+   7.000000E+01   8.711742E-03
+   7.500000E+01   1.154664E-02
+   8.000000E+01   1.400038E-02
+   9.000000E+01   1.907802E-02
+   1.000000E+02   4.799858E-02
+   1.100000E+02   1.401037E-01
+   1.200000E+02   2.628263E-01
+   1.300000E+02   3.618125E-01
+   1.400000E+02   4.249208E-01
+   1.500000E+02   4.794841E-01
+   1.600000E+02   5.364327E-01
+   1.800000E+02   5.814115E-01
+   2.000000E+02   5.371003E-01

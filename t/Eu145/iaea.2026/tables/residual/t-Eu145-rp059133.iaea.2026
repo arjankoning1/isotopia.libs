@@ -1,0 +1,42 @@
+# header: 
+#   title: Eu145(t,x)Pr133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 145
+#   nuclide: Eu145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 133
+#     nuclide: Pr133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.034682E-12
+   7.500000E+01   1.326785E-09
+   8.000000E+01   2.922791E-07
+   9.000000E+01   1.863903E-04
+   1.000000E+02   1.443687E-02
+   1.100000E+02   1.295379E-01
+   1.200000E+02   5.817741E-01
+   1.300000E+02   4.102684E+00
+   1.400000E+02   1.341623E+01
+   1.500000E+02   2.963187E+01
+   1.600000E+02   3.621254E+01
+   1.800000E+02   4.445673E+01
+   2.000000E+02   3.639961E+01

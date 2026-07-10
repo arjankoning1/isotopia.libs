@@ -1,0 +1,37 @@
+# header: 
+#   title: U232(t,x)Th217 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 90
+#     A: 217
+#     nuclide: Th217
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.559440E-10
+   1.200000E+02   7.491879E-07
+   1.300000E+02   1.055421E-04
+   1.400000E+02   1.931266E-03
+   1.500000E+02   1.686006E-02
+   1.600000E+02   2.041189E-01
+   1.800000E+02   2.465700E+00
+   2.000000E+02   1.177143E+01

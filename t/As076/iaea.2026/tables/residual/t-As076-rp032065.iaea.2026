@@ -1,0 +1,37 @@
+# header: 
+#   title: As76(t,x)Ge65 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 32
+#     A: 65
+#     nuclide: Ge65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.580665E-08
+   1.200000E+02   5.442241E-06
+   1.300000E+02   8.627856E-05
+   1.400000E+02   3.950307E-04
+   1.500000E+02   1.141608E-03
+   1.600000E+02   3.059894E-03
+   1.800000E+02   1.246248E-02
+   2.000000E+02   2.612201E-02

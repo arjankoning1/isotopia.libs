@@ -1,0 +1,40 @@
+# header: 
+#   title: Cu65(t,x)Ti48 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   2.731809E-12
+   9.000000E+01   3.603949E-07
+   1.000000E+02   7.669954E-05
+   1.100000E+02   1.129941E-03
+   1.200000E+02   4.812505E-03
+   1.300000E+02   2.266694E-02
+   1.400000E+02   1.021628E-01
+   1.500000E+02   2.828697E-01
+   1.600000E+02   5.494670E-01
+   1.800000E+02   2.221253E+00
+   2.000000E+02   5.858567E+00

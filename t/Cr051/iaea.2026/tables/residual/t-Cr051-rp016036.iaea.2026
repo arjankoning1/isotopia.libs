@@ -1,0 +1,44 @@
+# header: 
+#   title: Cr51(t,x)S36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-16
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 16
+#     A: 36
+#     nuclide: S36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.038754E-12
+   6.500000E+01   9.181971E-10
+   7.000000E+01   3.418968E-08
+   7.500000E+01   4.078635E-07
+   8.000000E+01   1.755236E-06
+   9.000000E+01   1.112171E-05
+   1.000000E+02   1.387981E-04
+   1.100000E+02   2.533026E-03
+   1.200000E+02   1.456831E-02
+   1.300000E+02   3.562745E-02
+   1.400000E+02   5.881106E-02
+   1.500000E+02   7.545051E-02
+   1.600000E+02   1.068601E-01
+   1.800000E+02   2.077073E-01
+   2.000000E+02   3.150731E-01

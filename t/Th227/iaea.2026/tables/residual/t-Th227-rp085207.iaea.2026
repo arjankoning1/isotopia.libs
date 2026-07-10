@@ -1,0 +1,37 @@
+# header: 
+#   title: Th227(t,x)At207 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 227
+#   nuclide: Th227
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 85
+#     A: 207
+#     nuclide: At207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   3.529911E-09
+   1.200000E+02   1.711974E-06
+   1.300000E+02   7.741502E-05
+   1.400000E+02   9.868224E-04
+   1.500000E+02   1.823097E-02
+   1.600000E+02   1.135622E-01
+   1.800000E+02   2.307589E+00
+   2.000000E+02   8.710236E+00

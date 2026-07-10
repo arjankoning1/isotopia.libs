@@ -1,0 +1,47 @@
+# header: 
+#   title: U235(t,x)Ra224 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 88
+#     A: 224
+#     nuclide: Ra224
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   1.315735E-11
+   5.000000E+01   1.765080E-08
+   5.500000E+01   3.466002E-10
+   6.000000E+01   3.049506E-07
+   6.500000E+01   4.521645E-06
+   7.000000E+01   7.559153E-05
+   7.500000E+01   3.342411E-04
+   8.000000E+01   8.577683E-04
+   9.000000E+01   8.604159E-03
+   1.000000E+02   1.530200E-01
+   1.100000E+02   9.799000E-01
+   1.200000E+02   2.618489E+00
+   1.300000E+02   4.821014E+00
+   1.400000E+02   6.603051E+00
+   1.500000E+02   3.669698E+00
+   1.600000E+02   2.769659E+00
+   1.800000E+02   1.053996E+00
+   2.000000E+02   9.983559E-01

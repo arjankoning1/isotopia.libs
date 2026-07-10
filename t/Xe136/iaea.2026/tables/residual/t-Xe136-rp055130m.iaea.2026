@@ -1,0 +1,46 @@
+# header: 
+#   title: Xe136(t,x)Cs130m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 136
+#   nuclide: Xe136
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.428780E-11
+   6.500000E+01   8.720182E-05
+   7.000000E+01   2.158523E-02
+   7.500000E+01   3.793944E-01
+   8.000000E+01   1.931766E+00
+   9.000000E+01   8.956122E+00
+   1.000000E+02   1.456056E+01
+   1.100000E+02   1.567655E+01
+   1.200000E+02   1.312701E+01
+   1.300000E+02   9.947387E+00
+   1.400000E+02   8.165487E+00
+   1.500000E+02   5.876636E+00
+   1.600000E+02   4.770088E+00
+   1.800000E+02   3.275052E+00
+   2.000000E+02   2.519468E+00

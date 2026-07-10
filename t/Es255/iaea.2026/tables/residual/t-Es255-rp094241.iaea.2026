@@ -1,0 +1,41 @@
+# header: 
+#   title: Es255(t,x)Pu241 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 99
+#   A: 255
+#   nuclide: Es255
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 94
+#     A: 241
+#     nuclide: Pu241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.340560E-11
+   8.000000E+01   2.432306E-10
+   9.000000E+01   7.190294E-09
+   1.000000E+02   1.523828E-06
+   1.100000E+02   2.718400E-05
+   1.200000E+02   1.232115E-04
+   1.300000E+02   2.029661E-04
+   1.400000E+02   4.154265E-04
+   1.500000E+02   6.035683E-04
+   1.600000E+02   4.819412E-04
+   1.800000E+02   4.373537E-04
+   2.000000E+02   2.087776E-04

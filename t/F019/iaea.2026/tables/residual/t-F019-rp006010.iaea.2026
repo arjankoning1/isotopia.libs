@@ -1,0 +1,45 @@
+# header: 
+#   title: F19(t,x)C10 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.385163E-08
+   6.000000E+01   1.163169E-05
+   6.500000E+01   2.643113E-04
+   7.000000E+01   1.510565E-03
+   7.500000E+01   4.476152E-03
+   8.000000E+01   1.043986E-02
+   9.000000E+01   4.180939E-02
+   1.000000E+02   9.306358E-02
+   1.100000E+02   1.567606E-01
+   1.200000E+02   2.308443E-01
+   1.300000E+02   3.528590E-01
+   1.400000E+02   5.109444E-01
+   1.500000E+02   7.132122E-01
+   1.600000E+02   9.766574E-01
+   1.800000E+02   1.533735E+00
+   2.000000E+02   1.925546E+00

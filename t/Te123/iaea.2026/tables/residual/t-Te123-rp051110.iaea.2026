@@ -1,0 +1,36 @@
+# header: 
+#   title: Te123(t,x)Sb110 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 110
+#     nuclide: Sb110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.014714E-10
+   1.300000E+02   3.856113E-07
+   1.400000E+02   3.938769E-05
+   1.500000E+02   6.026638E-04
+   1.600000E+02   3.649354E-03
+   1.800000E+02   7.650411E-02
+   2.000000E+02   3.720285E-01

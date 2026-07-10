@@ -1,0 +1,42 @@
+# header: 
+#   title: Ru102(t,x)Ru95 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 44
+#   A: 102
+#   nuclide: Ru102
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 44
+#     A: 95
+#     nuclide: Ru95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.836376E-10
+   7.500000E+01   8.208167E-06
+   8.000000E+01   6.294121E-04
+   9.000000E+01   3.158577E-02
+   1.000000E+02   3.393361E-01
+   1.100000E+02   1.635350E+00
+   1.200000E+02   3.577210E+00
+   1.300000E+02   5.575949E+00
+   1.400000E+02   7.045741E+00
+   1.500000E+02   6.748840E+00
+   1.600000E+02   8.001984E+00
+   1.800000E+02   7.440642E+00
+   2.000000E+02   6.797669E+00

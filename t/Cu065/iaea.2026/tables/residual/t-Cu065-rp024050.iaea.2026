@@ -1,0 +1,39 @@
+# header: 
+#   title: Cu65(t,x)Cr50 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 50
+#     nuclide: Cr50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   4.377837E-08
+   1.000000E+02   1.822734E-04
+   1.100000E+02   9.046929E-03
+   1.200000E+02   6.067293E-02
+   1.300000E+02   2.008540E-01
+   1.400000E+02   7.144215E-01
+   1.500000E+02   2.329493E+00
+   1.600000E+02   5.023725E+00
+   1.800000E+02   1.344516E+01
+   2.000000E+02   3.030879E+01

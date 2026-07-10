@@ -1,0 +1,41 @@
+# header: 
+#   title: Eu153(t,x)Pr138g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 59
+#     A: 138
+#     nuclide: Pr138g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.649324E-12
+   1.000000E+02   6.521402E-08
+   1.100000E+02   1.306797E-05
+   1.200000E+02   4.490828E-04
+   1.300000E+02   4.229084E-03
+   1.400000E+02   3.965244E-02
+   1.500000E+02   2.355775E-01
+   1.600000E+02   7.943521E-01
+   1.800000E+02   1.635258E+00
+   2.000000E+02   1.620781E+00

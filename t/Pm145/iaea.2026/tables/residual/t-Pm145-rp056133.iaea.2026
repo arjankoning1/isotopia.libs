@@ -1,0 +1,46 @@
+# header: 
+#   title: Pm145(t,x)Ba133 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 145
+#   nuclide: Pm145
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   1.161652E-12
+   5.500000E+01   5.076238E-10
+   6.000000E+01   4.074639E-08
+   6.500000E+01   6.129317E-07
+   7.000000E+01   3.799320E-06
+   7.500000E+01   1.072459E-05
+   8.000000E+01   2.916557E-05
+   9.000000E+01   2.199130E-03
+   1.000000E+02   2.265304E-02
+   1.100000E+02   4.722976E-02
+   1.200000E+02   5.089758E-02
+   1.300000E+02   7.887410E-02
+   1.400000E+02   1.597897E-01
+   1.500000E+02   2.270840E-01
+   1.600000E+02   1.800092E-01
+   1.800000E+02   2.327813E-01
+   2.000000E+02   2.431485E-01

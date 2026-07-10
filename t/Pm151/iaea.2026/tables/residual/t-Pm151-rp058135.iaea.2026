@@ -1,0 +1,38 @@
+# header: 
+#   title: Pm151(t,x)Ce135 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 61
+#   A: 151
+#   nuclide: Pm151
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   4.210121E-10
+   1.100000E+02   1.363408E-05
+   1.200000E+02   2.447008E-03
+   1.300000E+02   4.012131E-02
+   1.400000E+02   5.428794E-01
+   1.500000E+02   6.105927E+00
+   1.600000E+02   2.366389E+01
+   1.800000E+02   7.050157E+01
+   2.000000E+02   7.645708E+01

@@ -1,0 +1,43 @@
+# header: 
+#   title: Mo98(t,x)Kr85 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   4.197577E-11
+   7.000000E+01   1.064874E-09
+   7.500000E+01   1.922437E-08
+   8.000000E+01   2.215069E-07
+   9.000000E+01   6.639701E-06
+   1.000000E+02   4.227861E-05
+   1.100000E+02   4.578499E-04
+   1.200000E+02   3.492448E-03
+   1.300000E+02   9.369567E-03
+   1.400000E+02   1.540312E-02
+   1.500000E+02   2.394800E-02
+   1.600000E+02   3.874458E-02
+   1.800000E+02   8.045614E-02
+   2.000000E+02   1.329785E-01

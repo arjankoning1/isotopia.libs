@@ -1,0 +1,42 @@
+# header: 
+#   title: Mo93(t,x)Nb85m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 93
+#   nuclide: Mo93
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 85
+#     nuclide: Nb85m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   3.200881E-10
+   9.000000E+01   5.112579E-06
+   1.000000E+02   1.001823E-04
+   1.100000E+02   3.267712E-04
+   1.200000E+02   1.329846E-03
+   1.300000E+02   5.465842E-03
+   1.400000E+02   1.141141E-02
+   1.500000E+02   2.022939E-02
+   1.600000E+02   2.757767E-02
+   1.800000E+02   2.976881E-02
+   2.000000E+02   9.657045E-02

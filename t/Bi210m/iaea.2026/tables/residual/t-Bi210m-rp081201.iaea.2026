@@ -1,0 +1,45 @@
+# header: 
+#   title: Bi210m(t,x)Tl201 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 201
+#     nuclide: Tl201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   7.341520E-11
+   6.000000E+01   9.504188E-08
+   6.500000E+01   1.046283E-05
+   7.000000E+01   2.004664E-04
+   7.500000E+01   1.142693E-03
+   8.000000E+01   3.973830E-03
+   9.000000E+01   3.100287E-02
+   1.000000E+02   1.506457E-01
+   1.100000E+02   7.145048E-01
+   1.200000E+02   2.649205E+00
+   1.300000E+02   3.981960E+00
+   1.400000E+02   4.458481E+00
+   1.500000E+02   3.294676E+00
+   1.600000E+02   3.018140E+00
+   1.800000E+02   2.812331E+00
+   2.000000E+02   2.207771E+00

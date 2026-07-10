@@ -1,0 +1,42 @@
+# header: 
+#   title: Te120(t,x)Pd106 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 106
+#     nuclide: Pd106
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   1.222451E-11
+   7.500000E+01   1.223088E-09
+   8.000000E+01   3.066872E-08
+   9.000000E+01   7.635199E-06
+   1.000000E+02   2.692448E-04
+   1.100000E+02   1.936743E-03
+   1.200000E+02   2.876770E-02
+   1.300000E+02   2.263300E-01
+   1.400000E+02   5.501640E-01
+   1.500000E+02   8.961161E-01
+   1.600000E+02   1.070056E+00
+   1.800000E+02   8.297913E-01
+   2.000000E+02   9.993935E-01

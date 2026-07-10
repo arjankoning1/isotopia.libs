@@ -1,0 +1,39 @@
+# header: 
+#   title: Sr86(t,x)Rb77 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 77
+#     nuclide: Rb77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   9.312333E-08
+   1.000000E+02   2.820995E-04
+   1.100000E+02   6.149993E-03
+   1.200000E+02   2.752586E-02
+   1.300000E+02   1.037490E-01
+   1.400000E+02   4.870748E-01
+   1.500000E+02   1.257573E+00
+   1.600000E+02   2.075595E+00
+   1.800000E+02   3.923944E+00
+   2.000000E+02   5.119448E+00

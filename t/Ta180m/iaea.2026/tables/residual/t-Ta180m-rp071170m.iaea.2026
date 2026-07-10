@@ -1,0 +1,46 @@
+# header: 
+#   title: Ta180m(t,x)Lu170m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 73
+#   A: 180
+#   nuclide: Ta180m
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 170
+#     nuclide: Lu170m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   6.194653E-13
+   6.500000E+01   2.398045E-08
+   7.000000E+01   1.511127E-06
+   7.500000E+01   8.745932E-06
+   8.000000E+01   3.022636E-05
+   9.000000E+01   4.069633E-04
+   1.000000E+02   3.027095E-03
+   1.100000E+02   1.818706E-02
+   1.200000E+02   1.562008E-01
+   1.300000E+02   6.812493E-01
+   1.400000E+02   1.101709E+00
+   1.500000E+02   1.420772E+00
+   1.600000E+02   1.637766E+00
+   1.800000E+02   9.295512E-01
+   2.000000E+02   7.272943E-01

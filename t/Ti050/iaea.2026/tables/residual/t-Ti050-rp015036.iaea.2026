@@ -1,0 +1,43 @@
+# header: 
+#   title: Ti50(t,x)P36 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 15
+#     A: 36
+#     nuclide: P36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.599379E-11
+   7.000000E+01   1.316351E-09
+   7.500000E+01   1.150378E-08
+   8.000000E+01   3.893405E-08
+   9.000000E+01   1.548895E-07
+   1.000000E+02   1.041775E-05
+   1.100000E+02   8.157594E-05
+   1.200000E+02   1.627397E-04
+   1.300000E+02   2.304473E-04
+   1.400000E+02   3.735878E-04
+   1.500000E+02   8.270552E-04
+   1.600000E+02   1.476524E-03
+   1.800000E+02   3.038344E-03
+   2.000000E+02   3.652809E-03

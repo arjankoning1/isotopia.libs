@@ -1,0 +1,41 @@
+# header: 
+#   title: Er170(t,x)Gd157 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 64
+#     A: 157
+#     nuclide: Gd157
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   6.565496E-10
+   8.000000E+01   5.596419E-08
+   9.000000E+01   9.837408E-06
+   1.000000E+02   2.072597E-04
+   1.100000E+02   1.815759E-03
+   1.200000E+02   1.043947E-02
+   1.300000E+02   5.618195E-02
+   1.400000E+02   1.477021E-01
+   1.500000E+02   2.142437E-01
+   1.600000E+02   2.282148E-01
+   1.800000E+02   1.537491E-01
+   2.000000E+02   9.732539E-02

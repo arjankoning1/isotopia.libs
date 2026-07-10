@@ -1,0 +1,42 @@
+# header: 
+#   title: Xe133(t,x)Sb120m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 54
+#   A: 133
+#   nuclide: Xe133
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   6.227197E-13
+   9.000000E+01   3.734085E-07
+   1.000000E+02   1.508001E-04
+   1.100000E+02   2.208680E-03
+   1.200000E+02   4.534120E-02
+   1.300000E+02   6.674117E-01
+   1.400000E+02   2.755050E+00
+   1.500000E+02   5.309103E+00
+   1.600000E+02   7.378139E+00
+   1.800000E+02   7.514040E+00
+   2.000000E+02   5.001227E+00

@@ -1,0 +1,44 @@
+# header: 
+#   title: K41(t,x)Mg30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 30
+#     nuclide: Mg30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.075393E-12
+   6.500000E+01   2.169207E-10
+   7.000000E+01   5.573975E-09
+   7.500000E+01   4.177390E-08
+   8.000000E+01   1.519519E-07
+   9.000000E+01   1.504626E-06
+   1.000000E+02   2.056335E-05
+   1.100000E+02   1.250243E-04
+   1.200000E+02   3.110402E-04
+   1.300000E+02   4.725665E-04
+   1.400000E+02   5.951203E-04
+   1.500000E+02   7.235074E-04
+   1.600000E+02   8.685019E-04
+   1.800000E+02   1.152203E-03
+   2.000000E+02   1.217521E-03

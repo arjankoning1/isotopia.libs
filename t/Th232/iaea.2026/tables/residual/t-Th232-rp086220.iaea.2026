@@ -1,0 +1,44 @@
+# header: 
+#   title: Th232(t,x)Rn220 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 86
+#     A: 220
+#     nuclide: Rn220
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   2.231466E-11
+   6.500000E+01   9.296011E-09
+   7.000000E+01   7.048218E-07
+   7.500000E+01   1.417222E-05
+   8.000000E+01   1.111982E-04
+   9.000000E+01   2.077659E-03
+   1.000000E+02   3.166518E-02
+   1.100000E+02   2.591937E-01
+   1.200000E+02   1.048211E+00
+   1.300000E+02   2.459706E+00
+   1.400000E+02   3.351218E+00
+   1.500000E+02   3.417583E+00
+   1.600000E+02   3.602527E+00
+   1.800000E+02   1.184686E+00
+   2.000000E+02   1.286927E-02

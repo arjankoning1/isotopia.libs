@@ -1,0 +1,45 @@
+# header: 
+#   title: Bk247(t,x)U235 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 97
+#   A: 247
+#   nuclide: Bk247
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 16
+##       E             xs
+##     [MeV]          [mb]
+   5.500000E+01   1.037370E-15
+   6.000000E+01   3.107799E-11
+   6.500000E+01   1.208972E-09
+   7.000000E+01   8.743395E-09
+   7.500000E+01   3.326428E-08
+   8.000000E+01   7.793735E-07
+   9.000000E+01   2.698340E-04
+   1.000000E+02   2.595006E-03
+   1.100000E+02   5.148282E-03
+   1.200000E+02   6.062821E-03
+   1.300000E+02   5.770877E-03
+   1.400000E+02   2.418509E-03
+   1.500000E+02   1.015125E-03
+   1.600000E+02   1.079615E-03
+   1.800000E+02   1.104317E-03
+   2.000000E+02   2.154632E-05

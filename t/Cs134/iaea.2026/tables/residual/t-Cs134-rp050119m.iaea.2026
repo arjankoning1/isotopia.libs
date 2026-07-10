@@ -1,0 +1,42 @@
+# header: 
+#   title: Cs134(t,x)Sn119m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 134
+#   nuclide: Cs134
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 119
+#     nuclide: Sn119m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   4.705732E-11
+   9.000000E+01   4.445816E-07
+   1.000000E+02   3.364198E-05
+   1.100000E+02   2.254617E-04
+   1.200000E+02   2.464092E-03
+   1.300000E+02   1.777929E-02
+   1.400000E+02   4.685598E-02
+   1.500000E+02   7.650196E-02
+   1.600000E+02   9.955890E-02
+   1.800000E+02   9.157895E-02
+   2.000000E+02   1.033813E-01

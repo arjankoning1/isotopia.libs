@@ -1,0 +1,39 @@
+# header: 
+#   title: Cd110(t,x)Tc94 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 94
+#     nuclide: Tc94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   2.161844E-12
+   1.000000E+02   1.942640E-07
+   1.100000E+02   1.031174E-04
+   1.200000E+02   1.998008E-03
+   1.300000E+02   1.155361E-02
+   1.400000E+02   1.167302E-01
+   1.500000E+02   5.183029E-01
+   1.600000E+02   1.828763E+00
+   1.800000E+02   7.201161E+00
+   2.000000E+02   2.926986E+01

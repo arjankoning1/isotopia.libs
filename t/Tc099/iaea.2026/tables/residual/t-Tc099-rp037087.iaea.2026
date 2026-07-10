@@ -1,0 +1,46 @@
+# header: 
+#   title: Tc99(t,x)Rb87 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 87
+#     nuclide: Rb87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 17
+##       E             xs
+##     [MeV]          [mb]
+   5.000000E+01   7.788876E-12
+   5.500000E+01   3.956903E-10
+   6.000000E+01   6.497945E-09
+   6.500000E+01   7.933885E-08
+   7.000000E+01   6.958106E-07
+   7.500000E+01   4.140220E-06
+   8.000000E+01   1.433381E-05
+   9.000000E+01   9.780376E-05
+   1.000000E+02   2.029758E-03
+   1.100000E+02   1.169167E-02
+   1.200000E+02   2.419287E-02
+   1.300000E+02   3.117727E-02
+   1.400000E+02   3.680421E-02
+   1.500000E+02   4.193970E-02
+   1.600000E+02   5.973047E-02
+   1.800000E+02   6.740094E-02
+   2.000000E+02   6.141263E-02

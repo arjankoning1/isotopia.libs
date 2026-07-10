@@ -1,0 +1,38 @@
+# header: 
+#   title: Cr53(t,x)Sc41 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 21
+#     A: 41
+#     nuclide: Sc41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   1.699083E-09
+   1.100000E+02   4.404741E-07
+   1.200000E+02   5.809396E-06
+   1.300000E+02   3.305857E-05
+   1.400000E+02   2.134422E-04
+   1.500000E+02   9.279927E-04
+   1.600000E+02   2.548212E-03
+   1.800000E+02   1.275795E-02
+   2.000000E+02   4.398839E-02

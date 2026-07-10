@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca41(t,x)Na25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   1.375753E-12
+   7.000000E+01   4.695169E-09
+   7.500000E+01   6.204106E-07
+   8.000000E+01   1.190796E-05
+   9.000000E+01   2.810636E-04
+   1.000000E+02   1.206536E-03
+   1.100000E+02   2.074652E-03
+   1.200000E+02   4.710752E-03
+   1.300000E+02   1.826391E-02
+   1.400000E+02   5.012556E-02
+   1.500000E+02   9.616044E-02
+   1.600000E+02   1.577512E-01
+   1.800000E+02   4.038313E-01
+   2.000000E+02   9.180778E-01

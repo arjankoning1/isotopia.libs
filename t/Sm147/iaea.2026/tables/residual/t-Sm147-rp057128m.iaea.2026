@@ -1,0 +1,38 @@
+# header: 
+#   title: Sm147(t,x)La128m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 62
+#   A: 147
+#   nuclide: Sm147
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 57
+#     A: 128
+#     nuclide: La128m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   2.725005E-14
+   1.300000E+02   1.213867E-09
+   1.400000E+02   5.253870E-07
+   1.500000E+02   1.299795E-05
+   1.600000E+02   1.449641E-04
+   1.800000E+02   1.044811E-02
+   2.000000E+02   6.587635E-02

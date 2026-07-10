@@ -1,0 +1,46 @@
+# header: 
+#   title: Pr141(t,x)Cs130m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 130
+#     nuclide: Cs130m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.092795E-13
+   6.500000E+01   1.188757E-09
+   7.000000E+01   1.451541E-07
+   7.500000E+01   2.761446E-06
+   8.000000E+01   1.562137E-05
+   9.000000E+01   2.359117E-04
+   1.000000E+02   1.566235E-03
+   1.100000E+02   3.528131E-02
+   1.200000E+02   3.282895E-01
+   1.300000E+02   8.297949E-01
+   1.400000E+02   1.041491E+00
+   1.500000E+02   1.167269E+00
+   1.600000E+02   1.145512E+00
+   1.800000E+02   6.848568E-01
+   2.000000E+02   4.736028E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Cs135(t,x)Sn119g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 119
+#     nuclide: Sn119g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.511779E-11
+   1.000000E+02   1.385703E-07
+   1.100000E+02   1.564468E-05
+   1.200000E+02   1.452515E-04
+   1.300000E+02   9.932125E-04
+   1.400000E+02   6.807617E-03
+   1.500000E+02   2.462270E-02
+   1.600000E+02   4.189853E-02
+   1.800000E+02   5.995758E-02
+   2.000000E+02   6.367809E-02

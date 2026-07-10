@@ -1,0 +1,43 @@
+# header: 
+#   title: Si30(t,x)O22 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 22
+#     nuclide: O22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.357167E-12
+   7.000000E+01   1.516088E-09
+   7.500000E+01   3.555193E-08
+   8.000000E+01   2.067250E-07
+   9.000000E+01   1.311526E-06
+   1.000000E+02   5.512427E-06
+   1.100000E+02   3.911136E-05
+   1.200000E+02   1.461234E-04
+   1.300000E+02   3.217730E-04
+   1.400000E+02   4.546965E-04
+   1.500000E+02   5.835734E-04
+   1.600000E+02   7.321272E-04
+   1.800000E+02   8.510615E-04
+   2.000000E+02   1.017200E-03

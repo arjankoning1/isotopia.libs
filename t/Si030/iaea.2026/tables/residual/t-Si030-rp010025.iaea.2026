@@ -1,0 +1,47 @@
+# header: 
+#   title: Si30(t,x)Ne25 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 25
+#     nuclide: Ne25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   3.925993E-08
+   5.000000E+01   4.682999E-05
+   5.500000E+01   7.801955E-04
+   6.000000E+01   2.915453E-03
+   6.500000E+01   5.460104E-03
+   7.000000E+01   7.535084E-03
+   7.500000E+01   9.100845E-03
+   8.000000E+01   1.018186E-02
+   9.000000E+01   1.201135E-02
+   1.000000E+02   1.880035E-02
+   1.100000E+02   3.344616E-02
+   1.200000E+02   4.846014E-02
+   1.300000E+02   5.686238E-02
+   1.400000E+02   5.832613E-02
+   1.500000E+02   5.499892E-02
+   1.600000E+02   4.884899E-02
+   1.800000E+02   3.720536E-02
+   2.000000E+02   2.574205E-02

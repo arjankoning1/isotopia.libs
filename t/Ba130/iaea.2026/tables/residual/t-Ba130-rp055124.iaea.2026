@@ -1,0 +1,47 @@
+# header: 
+#   title: Ba130(t,x)Cs124 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 124
+#     nuclide: Cs124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 18
+##       E             xs
+##     [MeV]          [mb]
+   4.500000E+01   9.027303E-09
+   5.000000E+01   8.003040E-05
+   5.500000E+01   1.215471E-02
+   6.000000E+01   1.759125E-01
+   6.500000E+01   7.348469E-01
+   7.000000E+01   1.622608E+00
+   7.500000E+01   2.493601E+00
+   8.000000E+01   3.806501E+00
+   9.000000E+01   2.774948E+01
+   1.000000E+02   8.347106E+01
+   1.100000E+02   1.163773E+02
+   1.200000E+02   1.284320E+02
+   1.300000E+02   1.263272E+02
+   1.400000E+02   1.134556E+02
+   1.500000E+02   9.107086E+01
+   1.600000E+02   9.186745E+01
+   1.800000E+02   6.011402E+01
+   2.000000E+02   4.940464E+01

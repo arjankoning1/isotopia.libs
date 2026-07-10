@@ -1,0 +1,39 @@
+# header: 
+#   title: Tb160(t,x)Dy151 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 65
+#   A: 160
+#   nuclide: Tb160
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 66
+#     A: 151
+#     nuclide: Dy151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   5.274182E-06
+   1.000000E+02   1.178373E-02
+   1.100000E+02   2.585272E-01
+   1.200000E+02   9.139927E-01
+   1.300000E+02   1.571714E+00
+   1.400000E+02   1.950929E+00
+   1.500000E+02   2.069767E+00
+   1.600000E+02   2.139842E+00
+   1.800000E+02   1.856917E+00
+   2.000000E+02   1.704295E+00

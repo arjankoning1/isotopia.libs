@@ -1,0 +1,39 @@
+# header: 
+#   title: Ac227(t,x)Po207m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   1.928820E-10
+   1.200000E+02   1.640955E-07
+   1.300000E+02   7.872341E-06
+   1.400000E+02   1.046326E-04
+   1.500000E+02   2.684682E-03
+   1.600000E+02   3.457707E-02
+   1.800000E+02   3.591913E-01
+   2.000000E+02   8.125933E-01

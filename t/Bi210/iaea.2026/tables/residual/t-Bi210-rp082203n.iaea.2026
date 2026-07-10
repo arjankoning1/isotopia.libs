@@ -1,0 +1,50 @@
+# header: 
+#   title: Bi210(t,x)Pb203n cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 83
+#   A: 210
+#   nuclide: Bi210
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203n
+#     level: 
+#       isomer: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 19
+##       E             xs
+##     [MeV]          [mb]
+   4.000000E+01   1.405166E-11
+   4.500000E+01   9.467763E-09
+   5.000000E+01   7.466591E-06
+   5.500000E+01   6.441491E-04
+   6.000000E+01   9.863152E-03
+   6.500000E+01   3.650649E-02
+   7.000000E+01   5.809268E-02
+   7.500000E+01   1.259466E-01
+   8.000000E+01   1.844534E+00
+   9.000000E+01   3.489096E+01
+   1.000000E+02   8.771938E+01
+   1.100000E+02   8.471429E+01
+   1.200000E+02   8.152673E+01
+   1.300000E+02   6.640550E+01
+   1.400000E+02   6.302297E+01
+   1.500000E+02   3.874957E+01
+   1.600000E+02   2.948899E+01
+   1.800000E+02   2.330918E+01
+   2.000000E+02   1.729182E+01

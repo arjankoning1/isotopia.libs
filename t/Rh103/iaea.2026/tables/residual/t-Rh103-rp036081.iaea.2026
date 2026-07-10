@@ -1,0 +1,36 @@
+# header: 
+#   title: Rh103(t,x)Kr81 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 36
+#     A: 81
+#     nuclide: Kr81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 7
+##       E             xs
+##     [MeV]          [mb]
+   1.200000E+02   1.162725E-09
+   1.300000E+02   1.567262E-07
+   1.400000E+02   2.766367E-06
+   1.500000E+02   9.185020E-05
+   1.600000E+02   1.013383E-03
+   1.800000E+02   1.576121E-02
+   2.000000E+02   7.700690E-02

@@ -1,0 +1,40 @@
+# header: 
+#   title: As75(t,x)Co58g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 9
+##       E             xs
+##     [MeV]          [mb]
+   1.000000E+02   2.680630E-10
+   1.100000E+02   5.117419E-07
+   1.200000E+02   5.259738E-05
+   1.300000E+02   1.715725E-03
+   1.400000E+02   1.699027E-02
+   1.500000E+02   6.261371E-02
+   1.600000E+02   2.915034E-01
+   1.800000E+02   2.236400E+00
+   2.000000E+02   6.071507E+00

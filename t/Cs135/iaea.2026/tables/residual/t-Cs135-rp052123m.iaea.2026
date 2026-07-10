@@ -1,0 +1,44 @@
+# header: 
+#   title: Cs135(t,x)Te123m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   3.963581E-12
+   7.500000E+01   1.815661E-08
+   8.000000E+01   8.070212E-06
+   9.000000E+01   3.277746E-03
+   1.000000E+02   4.079061E-02
+   1.100000E+02   1.869435E-01
+   1.200000E+02   1.582198E+00
+   1.300000E+02   5.825466E+00
+   1.400000E+02   9.592992E+00
+   1.500000E+02   1.191492E+01
+   1.600000E+02   1.024825E+01
+   1.800000E+02   1.111110E+01
+   2.000000E+02   5.911564E+00

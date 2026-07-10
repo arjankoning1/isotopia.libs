@@ -1,0 +1,44 @@
+# header: 
+#   title: Ne21(t,x)N12 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 10
+#   A: 21
+#   nuclide: Ne21
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 7
+#     A: 12
+#     nuclide: N12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   7.511922E-11
+   6.500000E+01   1.979431E-07
+   7.000000E+01   6.887611E-06
+   7.500000E+01   5.291978E-05
+   8.000000E+01   2.003023E-04
+   9.000000E+01   1.002262E-03
+   1.000000E+02   3.139487E-03
+   1.100000E+02   1.405495E-02
+   1.200000E+02   5.213178E-02
+   1.300000E+02   1.373997E-01
+   1.400000E+02   2.614398E-01
+   1.500000E+02   4.077255E-01
+   1.600000E+02   5.678616E-01
+   1.800000E+02   9.412699E-01
+   2.000000E+02   1.147537E+00

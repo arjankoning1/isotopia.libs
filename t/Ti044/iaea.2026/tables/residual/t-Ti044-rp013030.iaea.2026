@@ -1,0 +1,40 @@
+# header: 
+#   title: Ti44(t,x)Al30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 30
+#     nuclide: Al30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 11
+##       E             xs
+##     [MeV]          [mb]
+   8.000000E+01   1.033935E-11
+   9.000000E+01   9.021385E-08
+   1.000000E+02   4.279584E-06
+   1.100000E+02   2.541455E-05
+   1.200000E+02   9.122451E-05
+   1.300000E+02   4.402363E-04
+   1.400000E+02   2.053403E-03
+   1.500000E+02   5.739108E-03
+   1.600000E+02   1.095304E-02
+   1.800000E+02   2.317489E-02
+   2.000000E+02   4.285346E-02

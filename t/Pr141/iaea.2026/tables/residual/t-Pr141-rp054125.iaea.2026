@@ -1,0 +1,39 @@
+# header: 
+#   title: Pr141(t,x)Xe125 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.624630E-12
+   1.000000E+02   1.698695E-07
+   1.100000E+02   4.242688E-05
+   1.200000E+02   7.103096E-04
+   1.300000E+02   1.019063E-02
+   1.400000E+02   1.544498E-01
+   1.500000E+02   6.266877E-01
+   1.600000E+02   1.454008E+00
+   1.800000E+02   3.008768E+00
+   2.000000E+02   6.096642E+00

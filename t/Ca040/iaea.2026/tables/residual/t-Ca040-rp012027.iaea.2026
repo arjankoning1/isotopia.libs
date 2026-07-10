@@ -1,0 +1,43 @@
+# header: 
+#   title: Ca40(t,x)Mg27 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   5.565511E-09
+   7.000000E+01   1.751736E-06
+   7.500000E+01   5.855735E-05
+   8.000000E+01   5.292780E-04
+   9.000000E+01   5.143832E-03
+   1.000000E+02   1.277558E-02
+   1.100000E+02   1.967100E-02
+   1.200000E+02   3.771943E-02
+   1.300000E+02   9.629952E-02
+   1.400000E+02   1.968188E-01
+   1.500000E+02   3.323403E-01
+   1.600000E+02   5.039365E-01
+   1.800000E+02   1.154083E+00
+   2.000000E+02   1.971643E+00

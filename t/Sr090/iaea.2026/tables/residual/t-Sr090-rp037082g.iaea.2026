@@ -1,0 +1,45 @@
+# header: 
+#   title: Sr90(t,x)Rb82g cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82g
+#     level: 
+#       isomer: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 14
+##       E             xs
+##     [MeV]          [mb]
+   6.500000E+01   2.770570E-10
+   7.000000E+01   5.515734E-06
+   7.500000E+01   7.210933E-04
+   8.000000E+01   1.093303E-02
+   9.000000E+01   1.433268E-01
+   1.000000E+02   4.578285E-01
+   1.100000E+02   2.943117E+00
+   1.200000E+02   9.994790E+00
+   1.300000E+02   1.749070E+01
+   1.400000E+02   2.138964E+01
+   1.500000E+02   2.440001E+01
+   1.600000E+02   2.355747E+01
+   1.800000E+02   1.825621E+01
+   2.000000E+02   1.471240E+01

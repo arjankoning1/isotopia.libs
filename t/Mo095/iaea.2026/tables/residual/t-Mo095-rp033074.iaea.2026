@@ -1,0 +1,37 @@
+# header: 
+#   title: Mo95(t,x)As74 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 33
+#     A: 74
+#     nuclide: As74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 8
+##       E             xs
+##     [MeV]          [mb]
+   1.100000E+02   2.020172E-11
+   1.200000E+02   7.663679E-09
+   1.300000E+02   1.922159E-07
+   1.400000E+02   2.381982E-05
+   1.500000E+02   4.398611E-04
+   1.600000E+02   3.264228E-03
+   1.800000E+02   2.246985E-02
+   2.000000E+02   1.032616E-01

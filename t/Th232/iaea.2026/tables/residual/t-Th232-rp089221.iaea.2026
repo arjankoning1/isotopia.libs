@@ -1,0 +1,42 @@
+# header: 
+#   title: Th232(t,x)Ac221 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 89
+#     A: 221
+#     nuclide: Ac221
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 13
+##       E             xs
+##     [MeV]          [mb]
+   7.000000E+01   5.804661E-12
+   7.500000E+01   1.692455E-08
+   8.000000E+01   2.894861E-06
+   9.000000E+01   1.257449E-03
+   1.000000E+02   2.771489E-02
+   1.100000E+02   1.621291E-01
+   1.200000E+02   1.025080E+00
+   1.300000E+02   7.805673E+00
+   1.400000E+02   1.997891E+01
+   1.500000E+02   4.418327E+01
+   1.600000E+02   5.739291E+01
+   1.800000E+02   7.686862E+01
+   2.000000E+02   3.885524E+01

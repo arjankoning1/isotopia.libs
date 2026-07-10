@@ -1,0 +1,46 @@
+# header: 
+#   title: Mo97(t,x)Mo91m cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       isomer: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 15
+##       E             xs
+##     [MeV]          [mb]
+   6.000000E+01   1.419502E-13
+   6.500000E+01   5.035105E-07
+   7.000000E+01   1.056498E-04
+   7.500000E+01   1.311120E-03
+   8.000000E+01   5.866476E-03
+   9.000000E+01   6.220634E-02
+   1.000000E+02   2.731872E-01
+   1.100000E+02   5.830134E-01
+   1.200000E+02   8.081580E-01
+   1.300000E+02   9.200882E-01
+   1.400000E+02   9.690735E-01
+   1.500000E+02   9.492745E-01
+   1.600000E+02   9.291556E-01
+   1.800000E+02   9.600749E-01
+   2.000000E+02   1.005994E+00

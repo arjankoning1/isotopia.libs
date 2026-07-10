@@ -1,0 +1,41 @@
+# header: 
+#   title: Sc47(t,x)Si30 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 14
+#     A: 30
+#     nuclide: Si30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 12
+##       E             xs
+##     [MeV]          [mb]
+   7.500000E+01   2.526156E-11
+   8.000000E+01   1.036713E-08
+   9.000000E+01   7.125229E-06
+   1.000000E+02   1.471793E-04
+   1.100000E+02   9.442237E-04
+   1.200000E+02   1.836500E-02
+   1.300000E+02   1.716355E-01
+   1.400000E+02   6.413637E-01
+   1.500000E+02   1.475869E+00
+   1.600000E+02   2.612293E+00
+   1.800000E+02   7.825032E+00
+   2.000000E+02   1.781462E+01

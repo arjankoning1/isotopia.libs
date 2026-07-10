@@ -1,0 +1,39 @@
+# header: 
+#   title: Hf178(t,x)Ho161 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 67
+#     A: 161
+#     nuclide: Ho161
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.246816E-12
+   1.000000E+02   4.245421E-08
+   1.100000E+02   8.305541E-06
+   1.200000E+02   2.283272E-04
+   1.300000E+02   2.605728E-02
+   1.400000E+02   4.611961E-01
+   1.500000E+02   1.778174E+00
+   1.600000E+02   4.018466E+00
+   1.800000E+02   6.647904E+00
+   2.000000E+02   9.446764E+00

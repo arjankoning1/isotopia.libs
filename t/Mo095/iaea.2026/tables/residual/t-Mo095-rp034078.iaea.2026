@@ -1,0 +1,39 @@
+# header: 
+#   title: Mo95(t,x)Se78 cross section
+#   source: ENDF
+#   user: Arjan Koning
+#   date: 2026-01-15
+#   format: YANDF-0.4
+# endf:
+#   library: tendl.2025
+#   author: A.J. Koning
+#   year: 2025
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (t,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 34
+#     A: 78
+#     nuclide: Se78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 2
+#     entries: 10
+##       E             xs
+##     [MeV]          [mb]
+   9.000000E+01   1.247966E-11
+   1.000000E+02   9.077356E-09
+   1.100000E+02   3.794241E-07
+   1.200000E+02   1.688554E-05
+   1.300000E+02   7.451678E-04
+   1.400000E+02   8.125905E-03
+   1.500000E+02   2.571550E-02
+   1.600000E+02   5.037780E-02
+   1.800000E+02   1.623038E-01
+   2.000000E+02   3.568944E-01
